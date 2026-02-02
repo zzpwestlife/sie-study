@@ -25,29 +25,45 @@ Investors face many risks (and many rewards) when investing in the market. You n
 #### 系统性风险 (Systematic risk)
 
 **Systematic (undiversifiable or market) risk** is the risk that securities can decline due to political, social, or economic factors — changes in the economy, natural disasters, government policy, and so on. Systematic risk is a risk that could affect the **whole market**. Systematic risks include:
-**系统性风险 (Systematic risk)**（也称为不可分散风险或市场风险）是指由于政治、社会或经济因素——如经济变动、自然灾害、政府政策等——导致证券价格下跌的风险。系统性风险是可能影响**整个市场**的风险。系统性风险包括：
+**系统性风险 (Systematic risk)**
+*也称为不可分散风险或市场风险）是指由于政治、社会或经济因素——如经济变动、自然灾害、政府政策等——导致证券价格下跌的风险。系统性风险是可能影响**整个市场**的风险。系统性风险包括：
 
-*   **Market risk**: The risk of a security or securities declining due to regular market fluctuations or negative market conditions. **All securities have market risk.** (市场风险：由于常规市场波动或负面市场状况导致证券下跌的风险。**所有证券都具有市场风险。**)
-*   **Interest rate risk**: The risk of bond prices declining with increasing interest rates. (Use the idea behind the seesaw from Chapter 7: When interest rates increase, outstanding bond prices decrease.) **All bonds, even zero-coupon bonds, are subject to interest risk.** (利率风险：随着利率上升，债券价格下跌的风险。（利用第 7 章中的“跷跷板”原理：当利率上升时，流通中的债券价格会下跌。）**所有债券，即使是零息债券，都受利率风险的影响。**)
-*   **Reinvestment risk**: The risk that interest and dividends received will have to be reinvested at a lower rate of return. (再投资风险：收到的利息和股息必须以较低的回报率进行再投资的风险。)
-*   **Purchasing power (inflation or inflationary) risk**: The risk that the return on the investment is less than the inflation rate. Long-term bonds (even Treasury bonds) and fixed annuities have high inflation risk. **To avoid inflation risk, investors should buy stocks and variable annuities.** (购买力风险 / 通胀风险：投资回报率低于通货膨胀率的风险。长期债券（甚至是国债）和固定年金具有较高的通胀风险。**为了规避通胀风险，投资者应购买股票和变动年金。**)
+*   **Market risk**: The risk of a security or securities declining due to regular market fluctuations or negative market conditions. **All securities have market risk.** 
+*   市场风险：由于常规市场波动或负面市场状况导致证券下跌的风险。**所有证券都具有市场风险。**
+*   **Interest rate risk**: The risk of bond prices declining with increasing interest rates. (Use the idea behind the seesaw from Chapter 7: When interest rates increase, outstanding bond prices decrease.) **All bonds, even zero-coupon bonds, are subject to interest risk.**
+*   **利率风险**：随着利率上升，债券价格下跌的风险。（利用第 7 章中的“跷跷板”原理：当利率上升时，流通中的债券价格会下跌。）**所有债券，即使是零息债券，都受利率风险的影响。**
+*   **Reinvestment risk**: The risk that interest and dividends received will have to be reinvested at a lower rate of return. 
+*   再投资风险：收到的利息和股息必须以较低的回报率进行再投资的风险。
+*   **Purchasing power (inflation or inflationary) risk**: The risk that the return on the investment is less than the inflation rate. Long-term bonds (even Treasury bonds) and fixed annuities have high inflation risk. **To avoid inflation risk, investors should buy stocks and variable annuities.**
+*   **购买力风险 （通胀风险）**：投资回报率低于通货膨胀率的风险。长期债券（甚至是国债）和固定年金具有较高的通胀风险。**为了规避通胀风险，投资者应购买股票和变动年金。**
 
 #### Nonsystematic risk
 #### 非系统性风险 (Nonsystematic risk)
 
 **Nonsystematic (unsystematic, unique, or diversifiable) risk** is more industry- or firm-specific. The good news is that this type of risk can be **eliminated through diversification**. You’ve probably heard the expression “Don’t put all your eggs in one basket.” Well, the same holds true for investing.
-**非系统性风险 (Nonsystematic risk)**（也称为非系统风险、独特风险或可分散风险）更多地针对特定的行业或公司。好消息是，这类风险可以**通过多样化来消除**。您可能听过“不要把鸡蛋放在同一个篮子里”这句话。投资也是同样的道理。
+**非系统性风险 (Nonsystematic risk)**
+*也称为非系统风险、独特风险或可分散风险）更多地针对特定的行业或公司。好消息是，这类风险可以**通过多样化来消除**。您可能听过“不要把鸡蛋放在同一个篮子里”这句话。投资也是同样的道理。
 
-*   **Business risk**: The risk of a corporation failing to perform up to expectations. (业务风险/经营风险：公司表现未能达到预期的风险。)
-*   **Political (geopolitical) risk**: The risk that the value of a security could suffer due to instability or political changes in a country. (政治/地缘政治风险：由于一个国家的动荡或政治变动导致证券价值受损的风险。)
-*   **Default risk (Credit risk)**: The risk of default or that the principal and interest aren’t paid on time. (违约风险 / 信用风险：发生违约或本息未能按时支付的风险。)
-*   **Regulatory risk**: The risk that changes in the regulatory climate (rulings by the FDA, EPA, and so on) will have a detrimental affect on certain securities. (监管风险：监管环境的变化（如 FDA、EPA 等机构的裁决）对某些证券产生不利影响的风险。)
-*   **Legislative risk**: The risk that changes in state or federal law will affect certain securities. (立法风险：州或联邦法律的变化将影响某些证券的风险。)
-*   **Currency (exchange rate) risk**: The risk that an investment’s value will be affected by a change in currency exchange rates. (汇率风险：投资价值受货币汇率变动影响的风险。)
-*   **Liquidity (marketability) risk**: The risk that the security is not easily traded without affecting the price of the security. (流动性风险 / 可销售性风险：证券无法在不影响价格的情况下被轻松交易的风险。)
-*   **Capital risk**: The risk of losing all money invested (especially for options and warrants). (本金风险：损失所有投资资金的风险（特别是在期权和认股权证中）。)
-*   **Prepayment risk**: The type of risk mostly associated with real-estate investments such as mortgage-backed securities. (提前还款风险：主要与抵押贷款支持证券等房地产投资相关的风险类型。)
-*   **Timing risk**: The risk of an investor buying or selling a security at the wrong time. (时机风险：投资者在错误的时间买卖证券的风险。)
+*   **Business risk**: The risk of a corporation failing to perform up to expectations. 
+*   业务风险/经营风险：公司表现未能达到预期的风险。
+*   **Political (geopolitical) risk**: The risk that the value of a security could suffer due to instability or political changes in a country.
+*   **政治（地缘政治）风险**：由于一个国家的动荡或政治变动导致证券价值受损的风险。
+*   **Default risk (Credit risk)**: The risk of default or that the principal and interest aren't paid on time.
+*   **违约风险（信用风险）**：发生违约或本息未能按时支付的风险。
+*   **Regulatory risk**: The risk that changes in the regulatory climate (rulings by the FDA, EPA, and so on) will have a detrimental affect on certain securities.
+*   **监管风险**：监管环境的变化（如 FDA、EPA 等机构的裁决）对某些证券产生不利影响的风险。
+*   **Legislative risk**: The risk that changes in state or federal law will affect certain securities. 
+*   立法风险：州或联邦法律的变化将影响某些证券的风险。
+*   **Currency (exchange rate) risk**: The risk that an investment's value will be affected by a change in currency exchange rates.
+*   **汇率风险**：投资价值受货币汇率变动影响的风险。
+*   **Liquidity marketability） risk**： The risk that the security is not easily traded without affecting the price of the security。 （流动性风险 / 可销售性风险：证券无法在不影响价格的情况下被轻松交易的风险。
+*   **Capital risk**: The risk of losing all money invested 
+*   especially for options and warrants). (本金风险:损失所有投资资金的风险
+*   特别是在期权和认股权证中）。
+*   **Prepayment risk**: The type of risk mostly associated with real-estate investments such as mortgage-backed securities. 
+*   提前还款风险：主要与抵押贷款支持证券等房地产投资相关的风险类型。
+*   **Timing risk**: The risk of an investor buying or selling a security at the wrong time. 
+*   时机风险：投资者在错误的时间买卖证券的风险。
 
 💡 **TIP**
 When taking the real exam, you should always pay close attention to the investor’s **risk tolerance**, financial considerations, and risk(s) mentioned in order to determine the best investment for a particular customer.
@@ -68,22 +84,27 @@ Certainly, all investments have a certain degree of risk. However, you should he
 Consider again the customer who has everything invested in one company's common stock. If that company loses a big contract, the customer could be wiped out. This is the reason that having a **diversified portfolio** is so important. There are many ways to diversify, including:
 再想一想那个把所有钱都投在一家公司普通股上的客户。如果那家公司失去了一份大合同，客户可能会倾家荡产。这就是拥有**多样化投资组合**如此重要的原因。多样化的方式有很多，包括：
 
-*   **Geographical**: Investing in securities in different parts of the country or world. (地域多样化：投资于该国或世界不同地区的证券。)
-*   **Maturity dates**: Buying a mixture of short-term, intermediate-term, and long-term debt securities. (到期日多样化：买入短期、中期和长期债务证券的组合。)
-*   **Credit ratings**: Purchasing high-yield (junk) bonds in combination with highly rated bonds. (信用评级多样化：将高收益（垃圾）债券与高评级债券结合购买。)
-*   **Sectors**: Spreading investments among different sectors such as financials, utilities, energy, healthcare, technology, and so on. (行业多样化：将投资分散到不同的行业，如金融、公用事业、能源、医疗保健、科技等。)
-*   **Type of investment**: Investing in a mixture of different types of stocks, bonds, DPPs, real estate, options, and so on. (投资类型多样化：投资于股票、债券、DPP、房地产、期权等多种类型的组合。)
+*   **Geographical**: Investing in securities in different parts of the country or world. 
+*   地域多样化：投资于该国或世界不同地区的证券。
+*   **Maturity dates**: Buying a mixture of short-term, intermediate-term, and long-term debt securities. 
+*   到期日多样化：买入短期、中期和长期债务证券的组合。
+*   **Credit ratings**: Purchasing high-yield (junk) bonds in combination with highly rated bonds.
+*   **信用评级多样化**：将高收益（垃圾）债券与高评级债券结合购买。
+*   **Sectors**: Spreading investments among different sectors such as financials, utilities, energy, healthcare, technology, and so on. 
+*   行业多样化：将投资分散到不同的行业，如金融、公用事业、能源、医疗保健、科技等。
+*   **Type of investment**: Investing in a mixture of different types of stocks, bonds, DPPs, real estate, options, and so on. 
+*   投资类型多样化：投资于股票、债券、DPP、房地产、期权等多种类型的组合。
 
 💡 **TIP**
 Remember that **mutual funds** and **exchange traded funds (ETFs)** provide a certain amount of diversification within an individual holding. This is why smaller investors are ideal candidates for mutual funds.
 💡 **提示**
-请记住，**共同基金**和**交易所交易基金 (ETFs)** 在单个持仓内就提供了一定程度的多样化。这就是为什么小额投资者是共同基金的理想人选。
+请记住，**共同基金**和**交易所交易基金 （ETFs）** 在单个持仓内就提供了一定程度的多样化。这就是为什么小额投资者是共同基金的理想人选。
 
 ### Portfolio rebalancing
 ### 投资组合再平衡
 
 Say that you and one of your clients determine that it is best for them to have a portfolio of 50 percent equity and 50 percent debt. One year later, due to appreciation, your client has 60 percent in equity and 40 percent in debt. At that point, your client may decide to **rebalance** their portfolio by selling some equity and purchasing more debt to help maintain their original desired level of asset allocation.
-假设您和您的一位客户确定 50% 权益类证券和 50% 债务类证券的组合对他们最有利。一年后，由于增值，您的客户持有的权益类占比达到 60%，债务类降至 40%。此时，您的客户可能会决定通过卖出部分权益类资产并买入更多债务类资产来对其投资组合进行**再平衡 (rebalance)**，从而恢复最初设定的资产配置比例。
+假设您和您的一位客户确定 50% 权益类证券和 50% 债务类证券的组合对他们最有利。一年后，由于增值，您的客户持有的权益类占比达到 60%，债务类降至 40%。此时，您的客户可能会决定通过卖出部分权益类资产并买入更多债务类资产来对其投资组合进行**再平衡 （rebalance）**，从而恢复最初设定的资产配置比例。
 
 🧠 **REMEMBER**
 Typically, as investors age, they can’t afford to take as much risk and should change their asset allocation to include fewer equity securities and more debt securities.
@@ -94,16 +115,20 @@ Typically, as investors age, they can’t afford to take as much risk and should
 ### 对冲 (Hedging)
 
 I’m sure you’ve heard the saying “Hedge your bets.” It means that you are trying to reduce your risk. In the investors’ world, there are several ways to hedge, depending on what you’re investing in.
-我肯定您听过“两头下注 (Hedge your bets)”这句话。它的意思是您正在努力降低风险。在投资界，对冲的方式有很多种，取决于您投资的对象。
+我肯定您听过“两头下注 （Hedge your bets）”这句话。它的意思是您正在努力降低风险。在投资界，对冲的方式有很多种，取决于您投资的对象。
 
-*   You can hedge against **market volatility** by having a diversified portfolio. (您可以通过拥有多样化的投资组合来对冲**市场波动**。)
-*   To hedge against **credit risk**, you can purchase more secure debt securities issued by the U.S. government. (为了对冲**信用风险**，您可以购买由美国政府发行的更安全的债务证券。)
-*   To hedge against the risk that a security doesn't keep pace with **inflation**, you can purchase **stocks** (best answer for an SIE question), variable annuities, or real estate. (为了对冲证券跟不上**通货膨胀**的风险，您可以购买**股票**（这是 SIE 考试中的最佳答案）、变动年金或房地产。)
+*   You can hedge against **market volatility** by having a diversified portfolio. 
+*   您可以通过拥有多样化的投资组合来对冲**市场波动**。
+*   To hedge against **credit risk**, you can purchase more secure debt securities issued by the U.S. government. 
+*   为了对冲**信用风险**，您可以购买由美国政府发行的更安全的债务证券。
+*   To hedge against the risk that a security doesn't keep pace with **inflation**, you can purchase **stocks** 
+*   best answer for an SIE question), variable annuities, or real estate. (为了对冲证券跟不上**通货膨胀**的风险,您可以购买**股票**
+*   这是 SIE 考试中的最佳答案）、变动年金或房地产。
 
 🧠 **REMEMBER**
 For SIE exam purposes, the main thing you need to remember is that **hedge means to protect**.
 🧠 **请记住**
-就 SIE 考试而言，您需要记住的最重要的一点是：**对冲 (hedge) 意味着保护**。
+就 SIE 考试而言，您需要记住的最重要的一点是：**对冲 （hedge） 意味着保护**。
 
 ---
 
@@ -133,16 +158,21 @@ People call this statement a balance sheet because the **assets must always bala
 Assets are items that a company owns. They include:
 资产是公司拥有的项目。它们包括：
 
-*   **Current assets**: Items that are easily converted into cash within the next 12 months, such as cash, marketable securities, accounts receivable, and inventory. (流动资产：在未来 12 个月内易于变现的项目，如现金、有价证券、应收账款和库存。)
-*   **Fixed assets**: Items that aren't easily converted into cash, such as property, buildings, furniture, and equipment. Accumulated **depreciation** is usually deducted from fixed assets. (固定资产：不易变现的项目，如土地、建筑、家具和设备。累计**折旧**通常从固定资产中扣除。)
-*   **Intangible assets**: Items that don't have any physical properties, such as trademarks, patents, and **goodwill**. (无形资产：没有实物属性的项目，如商标、专利和**商誉**。)
+*   **Current assets**: Items that are easily converted into cash within the next 12 months, such as cash, marketable securities, accounts receivable, and inventory. 
+*   流动资产：在未来 12 个月内易于变现的项目，如现金、有价证券、应收账款和库存。
+*   **Fixed assets**: Items that aren't easily converted into cash, such as property, buildings, furniture, and equipment. Accumulated **depreciation** is usually deducted from fixed assets. 
+*   固定资产：不易变现的项目，如土地、建筑、家具和设备。累计**折旧**通常从固定资产中扣除。
+*   **Intangible assets**: Items that don't have any physical properties, such as trademarks, patents, and **goodwill**. 
+*   无形资产：没有实物属性的项目，如商标、专利和**商誉**。
 
 #### Liabilities (负债)
 Liabilities are what a company owes. They include:
 负债是公司欠下的债务。它们包括：
 
-*   **Current liabilities**: Debt obligations due to be paid within the next 12 months, such as accounts payable, wages, and short-term notes payable. (流动负债：应在未来 12 个月内支付的债务，如应付账款、工资和短期应付票据。)
-*   **Long-term liabilities**: Debt obligation due to be paid after 12 months, such as mortgages and outstanding corporate bonds. (长期负债：在 12 个月后支付的债务，如抵押贷款和未偿还的公司债券。)
+*   **Current liabilities**: Debt obligations due to be paid within the next 12 months, such as accounts payable, wages, and short-term notes payable. 
+*   流动负债：应在未来 12 个月内支付的债务，如应付账款、工资和短期应付票据。
+*   **Long-term liabilities**: Debt obligation due to be paid after 12 months, such as mortgages and outstanding corporate bonds. 
+*   长期负债：在 12 个月后支付的债务，如抵押贷款和未偿还的公司债券。
 
 #### Stockholders’ equity (net worth)
 #### 股东权益（净值）
@@ -158,10 +188,12 @@ An income statement tells you how profitable a company is currently. It lists a 
 
 Key items include:
 关键项目包括：
-*   **Net sales** (净销售额)
-*   **EBITDA** (Earnings before interest, taxes, depreciation, and amortization) (息税折旧摊销前利润)
-*   **Operating profit (EBIT)** (营业利润)
-*   **Net income (EAT)** (净利润 / 税后利润)
+*   **Net sales** 
+*   净销售额
+*   **EBITDA** 
+*   Earnings before interest， taxes， depreciation， and amortization） （息税折旧摊销前利润
+*   **Operating profit EBIT）** （营业利润
+*   **Net income EAT）** （净利润 / 税后利润
 
 ---
 
@@ -174,7 +206,8 @@ Technical analysts look at the market to identify **patterns** and measure indic
 🧠 **REMEMBER**
 **Fundamental analysts decide what to buy, and technical analysts decide when to buy (timing).**
 🧠 **请记住**
-**基本面分析师决定“买什么”，而技术面分析师决定“何时买”（即择时）。**
+**基本面分析师决定“买什么”,而技术面分析师决定“何时买”
+*即择时）。**
 
 ### Benchmarks and indices
 ### 基准与指数
@@ -182,8 +215,12 @@ Technical analysts look at the market to identify **patterns** and measure indic
 Benchmarks are typically used to evaluate the performance of individual investments.
 基准通常用于评估个人投资的表现。
 
-*   **Narrow-based**: Indicate the performance of a particular industry (e.g., Dow Jones Transportation Index). (窄基指数：显示特定行业的表现（例如道琼斯交通运输指数）。)
-*   **Broad-based**: Indicative of the overall market (e.g., S&P 500, Wilshire 5000, Russell 2000). (广基指数：预示整体市场的表现（例如标普 500、威尔希尔 5000、罗素 2000）。)
+*   **Narrow-based**: Indicate the performance of a particular industry 
+*   e.g., Dow Jones Transportation Index). (窄基指数:显示特定行业的表现
+*   例如道琼斯交通运输指数）。
+*   **Broad-based**: Indicative of the overall market 
+*   e.g., S&P 500, Wilshire 5000, Russell 2000). (广基指数:预示整体市场的表现
+*   例如标普 500、威尔希尔 5000、罗素 2000）。
 
 💡 **TIP**
 Most of the indices are **weighted toward larger companies**. This means that price movement of the larger companies has a greater impact on the index.
@@ -198,10 +235,10 @@ Most of the indices are **weighted toward larger companies**. This means that pr
 The business cycle has four phases that occur over and over:
 经济周期有四个循环往复的阶段：
 
-1.  **Expansion**: Characterized by increasing demand, increasing production, and a bullish stock market. (扩张：特征是需求增加、产量增加以及股市走牛。)
-2.  **Peak**: The top of the expansion phase, right before the economy starts to contract. (顶点：扩张阶段的顶峰，紧接在经济开始萎缩之前。)
-3.  **Contraction**: Characterized by higher levels of debt, bearish stock market, and increasing defaults. (收缩：特征是债务水平升高、股市走熊以及违约增加。)
-4.  **Trough**: The lowest part of the contraction phase, right before the economy starts to expand (recover) again. (谷底：收缩阶段的最低点，紧接在经济开始再次扩张（复苏）之前。)
+1。  **Expansion**： Characterized by increasing demand， increasing production， and a bullish stock market。 （扩张：特征是需求增加、产量增加以及股市走牛。）
+2。  **Peak**： The top of the expansion phase， right before the economy starts to contract。 （顶点：扩张阶段的顶峰，紧接在经济开始萎缩之前。）
+3。  **Contraction**： Characterized by higher levels of debt， bearish stock market， and increasing defaults。 （收缩：特征是债务水平升高、股市走熊以及违约增加。）
+4。  **Trough**： The lowest part of the contraction phase， right before the economy starts to expand （recover） again。 （谷底：收缩阶段的最低点，紧接在经济开始再次扩张（复苏）之前。）
 
 ---
 
@@ -226,10 +263,16 @@ The Fed controls the **monetary policy**, but the **fiscal policy** is controlle
 The Fed has a few tools in its arsenal to help control the money supply:
 美联储的军火库中有几种工具可以帮助控制货币供应量：
 
-*   **Open market operations**: The buying or selling of U.S. government bonds. **Buying** securities puts money **into** the system (eases supply); **selling** securities pulls money **out** (tightens supply). This is the tool the Fed uses **most often**. (公开市场操作：买卖美国政府债券。**买入**证券会将资金注入系统（宽松供应）；**卖出**证券会将资金抽走（紧缩供应）。这是美联储**最常用**的工具。)
-*   **The discount rate**: The rate that the Federal Reserve Banks charge member banks for loans. (贴现率：联邦储备银行向成员银行收取的贷款利率。)
-*   **Reserve requirement**: The percentage of customers' money that banks are required to keep on deposit. (法定准备金率：银行必须保留的客户资金存款百分比。)
-*   **Regulation T**: The percentage that investors must pay when purchasing securities on margin (currently 50%). (T 条例：投资者融资购买证券时必须支付的比例（目前为 50%）。)
+*   **Open market operations**: The buying or selling of U.S. government bonds. **Buying** securities puts money **into** the system 
+*   eases supply); **selling** securities pulls money **out** (tightens supply). This is the tool the Fed uses **most often**. (公开市场操作:买卖美国政府债券.**买入**证券会将资金注入系统(宽松供应);**卖出**证券会将资金抽走
+*   紧缩供应）。这是美联储**最常用**的工具。
+*   **The discount rate**: The rate that the Federal Reserve Banks charge member banks for loans. 
+*   贴现率：联邦储备银行向成员银行收取的贷款利率。
+*   **Reserve requirement**: The percentage of customers' money that banks are required to keep on deposit. 
+*   法定准备金率：银行必须保留的客户资金存款百分比。
+*   **Regulation T**: The percentage that investors must pay when purchasing securities on margin 
+*   currently 50%). (T 条例:投资者融资购买证券时必须支付的比例
+*   目前为 50%）。
 
 ---
 
@@ -239,27 +282,42 @@ The Fed has a few tools in its arsenal to help control the money supply:
 Economic indicators help predict the direction of the economy:
 经济指标有助于预测经济走向：
 
-*   **Leading indicators**: Indicate how the economy is going to do in the future (e.g., M2 money supply, **stock prices**, housing permits, unemployment claims). (领先指标：预示经济未来的表现（如 M2 货币供应、**股票价格**、建筑许可、失业救济申领）。)
-*   **Coincident indicators**: Indicate how the economy is performing right now (e.g., **GDP**, personal income, retail sales). (同步指标：显示经济目前的表现（如 **GDP**、个人收入、零售额）。)
-*   **Lagging indicators**: Mirror leading indicators but reach their peaks later (e.g., **prime rate**, corporate profits, duration of employment). (滞后指标：镜像反映领先指标但达峰较晚（如**优惠贷款利率**、公司利润、就业时长）。)
+*   **Leading indicators**: Indicate how the economy is going to do in the future 
+*   e.g., M2 money supply, **stock prices**, housing permits, unemployment claims). (领先指标:预示经济未来的表现
+*   如 M2 货币供应、**股票价格**、建筑许可、失业救济申领）。
+*   **Coincident indicators**: Indicate how the economy is performing right now 
+*   e.g., **GDP**, personal income, retail sales). (同步指标:显示经济目前的表现
+*   如 **GDP**、个人收入、零售额）。
+*   **Lagging indicators**: Mirror leading indicators but reach their peaks later 
+*   e.g., **prime rate**, corporate profits, duration of employment). (滞后指标:镜像反映领先指标但达峰较晚
+*   如**优惠贷款利率**、公司利润、就业时长）。
 
 ---
 
 ## 8. How Economic Factors Affect Securities
 ## 8. 经济因素如何影响证券
 
-*   **Cyclical**: Performance depends on the economy (e.g., automobiles, construction, manufacturing). (周期性：表现依赖于经济状况（如汽车、建筑、制造业）。)
-*   **Defensive**: Sales remain relatively stable no matter how the economy performs (e.g., **utilities**, food, pharmaceuticals, tobacco). (防御性：无论经济表现如何，销售额都保持相对稳定（如**公用事业**、食品、医药、烟草）。)
-*   **Growth**: Growing at a more rapid pace than the market; typically pay little or no dividends. (增长性：增长速度快于市场；通常很少或不支付股息。)
+*   **Cyclical**: Performance depends on the economy 
+*   e.g., automobiles, construction, manufacturing). (周期性:表现依赖于经济状况
+*   如汽车、建筑、制造业）。
+*   **Defensive**: Sales remain relatively stable no matter how the economy performs 
+*   e.g., **utilities**, food, pharmaceuticals, tobacco). (防御性:无论经济表现如何,销售额都保持相对稳定
+*   如**公用事业**、食品、医药、烟草）。
+*   **Growth**: Growing at a more rapid pace than the market; typically pay little or no dividends. 
+*   增长性：增长速度快于市场；通常很少或不支付股息。
 
 ---
 
 ## 9. Your Principal Economic Theory Primer
 ## 9. 主要经济理论入门
 
-*   **Keynesian (demand side)**: Government intervention through fiscal policy helps stimulate demand. (凯恩斯主义（需求侧）：通过财政政策进行的政府干预有助于刺激需求。)
-*   **Supply side (Reaganomics)**: Lower taxes and less regulation encourage business reinvestment. (供应侧（里根经济学）：低税收和减少监管鼓励企业再投资。)
-*   **Monetarist**: The economy's performance is determined by the **money supply** (controlled by the Fed). (货币主义：经济表现由**货币供应量**决定（由美联储控制）。)
+*   **Keynesian demand side)**: Government intervention through fiscal policy helps stimulate demand. (凯恩斯主义
+*   需求侧）：通过财政政策进行的政府干预有助于刺激需求。
+*   **Supply side Reaganomics)**: Lower taxes and less regulation encourage business reinvestment. (供应侧
+*   里根经济学）：低税收和减少监管鼓励企业再投资。
+*   **Monetarist**: The economy's performance is determined by the **money supply** 
+*   controlled by the Fed). (货币主义:经济表现由**货币供应量**决定
+*   由美联储控制）。
 
 ---
 

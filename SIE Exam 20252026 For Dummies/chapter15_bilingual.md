@@ -5,7 +5,7 @@ Yes, it’s true what they say: The only sure things in life are death and taxes
 是的，俗话说得好：生活中唯有死亡和税收是确定的。虽然纳税是一项令人烦恼的义务，但如果投资者长期投资于证券，确实可以获得税收减免——这意味着作为一名代表，您需要深入了解投资者可能获得的税收优惠。
 
 In this chapter, I cover tax categories and rules, from distinguishing among types of taxes to types of income. And although enjoying retirement isn't quite as certain as pushing up daisies, I explain Uncle Sam’s claim on the cash investors put into 401(k)s, individual retirement accounts (IRAs), and other retirement plans.
-在本章中，我将涵盖税收类别和规则，从区分税种到收入类型。虽然享受退休生活并不像“化作春泥更护花”那样必然，但我会解释山姆大叔对投资者投入 401(k)、个人退休账户 (IRAs) 以及其他退休计划的资金拥有怎样的征税权。
+在本章中，我将涵盖税收类别和规则，从区分税种到收入类型。虽然享受退休生活并不像“化作春泥更护花”那样必然，但我会解释山姆大叔对投资者投入 401（k）、个人退休账户 （IRAs） 以及其他退休计划的资金拥有怎样的征税权。
 
 ---
 
@@ -13,7 +13,7 @@ In this chapter, I cover tax categories and rules, from distinguishing among typ
 ## 1. 各就各位：查看税收与收入类别
 
 The Internal Revenue Service (IRS) likes to break things into categories.
-美国国税局 (IRS) 喜欢将事物分类。
+美国国税局 （IRS） 喜欢将事物分类。
 
 ### Touring the tax categories
 ### 巡览税收类别
@@ -21,8 +21,8 @@ The Internal Revenue Service (IRS) likes to break things into categories.
 Your mission is to understand the different tax categories and how they affect investors:
 您的任务是理解不同的税收类别及其对投资者的影响：
 
-*   **Progressive taxes**: These taxes affect high-income individuals more than they affect low-income individuals; the more taxable income individuals have, the higher their income tax bracket. Includes personal income taxes, gift taxes, and estate taxes. (累进税：这类税对高收入者的影响大于对低收入者的影响；应纳税收入越多，税率档次就越高。包括个人所得税、赠与税和遗产税。)
-*   **Regressive taxes**: These taxes affect individuals earning a lower income more than they affect people earning a higher income; everyone pays the same rate, so individuals who earn a lower income are affected more because that rate represents a higher percentage of their income. Includes payroll taxes, sales taxes, property taxes, and excise taxes. (累退税：这类税对低收入者的影响大于对高收入者的影响；每个人支付相同的税率，因此低收入者受影响更大，因为该税率占其总收入的百分比更高。包括工资税、销售税、财产税和消费税。)
+*   **Progressive taxes**： These taxes affect high-income individuals more than they affect low-income individuals； the more taxable income individuals have， the higher their income tax bracket。 Includes personal income taxes， gift taxes， and estate taxes。 （累进税：这类税对高收入者的影响大于对低收入者的影响；应纳税收入越多，税率档次就越高。包括个人所得税、赠与税和遗产税。）
+*   **Regressive taxes**： These taxes affect individuals earning a lower income more than they affect people earning a higher income； everyone pays the same rate， so individuals who earn a lower income are affected more because that rate represents a higher percentage of their income。 Includes payroll taxes， sales taxes， property taxes， and excise taxes。 （累退税：这类税对低收入者的影响大于对高收入者的影响；每个人支付相同的税率，因此低收入者受影响更大，因为该税率占其总收入的百分比更高。包括工资税、销售税、财产税和消费税。）
 
 ### Looking at types of income
 ### 审视收入类型
@@ -30,9 +30,9 @@ Your mission is to understand the different tax categories and how they affect i
 The three main categories of income are earned, passive, and portfolio:
 收入的三大主要类别是：劳动收入、被动收入和组合投资收入。
 
-*   **Earned (active) income**: Income from activities that they’re actively involved in (salary, bonuses, tips, commissions, and so on). (劳动收入（主动收入）：来自积极参与的活动的收入（薪水、奖金、小费、佣金等）。)
-*   **Passive income**: Income from enterprises in which an individual isn't actively involved (limited partnerships, rental property). (被动收入：来自个人并不积极参与经营的企业的收入（有限合伙、出租物业）。)
-*   **Portfolio income**: Income from interest, dividends, and capital gains derived from the sale of securities. (组合投资收入：来自利息、股息以及出售证券所获得的资本利得。)
+*   **Earned （active） income**： Income from activities that they’re actively involved in （salary， bonuses， tips， commissions， and so on）。 （劳动收入（主动收入）：来自积极参与的活动的收入（薪水、奖金、小费、佣金等）。）
+*   **Passive income**： Income from enterprises in which an individual isn't actively involved （limited partnerships， rental property）。 （被动收入：来自个人并不积极参与经营的企业的收入（有限合伙、出租物业）。）
+*   **Portfolio income**： Income from interest， dividends， and capital gains derived from the sale of securities。 （组合投资收入：来自利息、股息以及出售证券所获得的资本利得。）
 
 ---
 
@@ -42,9 +42,9 @@ The three main categories of income are earned, passive, and portfolio:
 ### Interest income
 ### 利息收入
 
-*   **Corporate bond interest**: Taxable at all levels (federal, state, and local). (公司债利息：在所有级别（联邦、州和地方）均需纳税。)
-*   **Municipal bond interest**: Federally tax-free; however, investors may be taxed on the state and local levels. (市政债利息：免除联邦税；然而，投资者可能需要在州和地方级别纳税。)
-*   **U.S. government securities interest**: Taxable on the **federal level** but exempt from state and local taxes. (美国政府证券利息：在**联邦级别**纳税，但免除州和地方税。)
+*   **Corporate bond interest**： Taxable at all levels （federal， state， and local）。 （公司债利息：在所有级别（联邦、州和地方）均需纳税。）
+*   **Municipal bond interest**： Federally tax-free； however， investors may be taxed on the state and local levels。 （市政债利息：免除联邦税；然而，投资者可能需要在州和地方级别纳税。）
+*   **U。S。 government securities interest**： Taxable on the **federal level** but exempt from state and local taxes。 （美国政府证券利息：在**联邦级别**纳税，但免除州和地方税。）
 
 🧠 **REMEMBER**
 Even though zero-coupon bonds don't generate interest payments, the difference between the purchase price and the amount received at maturity is considered interest and is subject to taxation.
@@ -54,16 +54,16 @@ Even though zero-coupon bonds don't generate interest payments, the difference b
 ### Dividends
 ### 股息
 
-*   **Cash dividends**: Qualified cash dividends are taxed at a maximum rate of 0, 15, or 20 percent. To be **qualified**, the stock must be held for at least 61 days (91 days for preferred stock). (现金股息：合格现金股息的最高税率为 0%、15% 或 20%。要成为**合格**股息，股票必须持股至少 61 天（优先股为 91 天）。)
-*   **Stock dividends**: These do **not** change the overall value of investment, so additional shares received are **not taxed**. However, they **lower the cost basis** per share. (股票股息：它们**不会**改变投资的总价值，因此收到的额外股份**不纳税**。但是，它们会**降低每股的成本基础**。)
+*   **Cash dividends**： Qualified cash dividends are taxed at a maximum rate of 0， 15， or 20 percent。 To be **qualified**， the stock must be held for at least 61 days （91 days for preferred stock）。 （现金股息：合格现金股息的最高税率为 0%、15% 或 20%。要成为**合格**股息，股票必须持股至少 61 天（优先股为 91 天）。）
+*   **Stock dividends**： These do **not** change the overall value of investment， so additional shares received are **not taxed**。 However， they **lower the cost basis** per share。 （股票股息：它们**不会**改变投资的总价值，因此收到的额外股份**不纳税**。但是，它们会**降低每股的成本基础**。）
 
 ---
 
 ## 3. Capital gains and losses
 ## 3. 资本利得与损失
 
-*   **Short-term capital gains**: Realized when a security is held for **one year or less**. Taxed according to the investor’s regular tax bracket. (短期资本利得：持股时间为**一年或以下**时实现。按投资者的常规税率档次征税。)
-*   **Long-term capital gains**: Realized when a security is held for **more than one year**. Taxed at a maximum rate of 0, 15, or 20 percent. (长期资本利得：持股时间**超过一年**时实现。最高税率为 0%、15% 或 20%。)
+*   **Short-term capital gains**： Realized when a security is held for **one year or less**。 Taxed according to the investor’s regular tax bracket。 （短期资本利得：持股时间为**一年或以下**时实现。按投资者的常规税率档次征税。）
+*   **Long-term capital gains**： Realized when a security is held for **more than one year**。 Taxed at a maximum rate of 0， 15， or 20 percent。 （长期资本利得：持股时间**超过一年**时实现。最高税率为 0%、15% 或 20%。）
 
 ### Offsetting gains with capital losses
 ### 用资本损失抵销利得
@@ -84,7 +84,7 @@ The correct answer is (B). Jones has a net capital loss of $20,000 ($50,000 loss
 📝 **案例**
 在特定年份，Jones 实现了 30,000 美元的长期资本利得和 50,000 美元的长期资本损失。有多少资本损失可以结转到下一年？
 (A) $3,000 (B) $17,000 (C) $20,000 (D) $30,000
-正确答案是 (B)。Jones 拥有 20,000 美元的净资本损失（50,000 美元损失减去 30,000 美元收益）。Jones 用其中的 3,000 美元抵扣劳动收入，并将剩余的 17,000 美元损失结转。
+正确答案是 （B）。Jones 拥有 20,000 美元的净资本损失（50,000 美元损失减去 30,000 美元收益）。Jones 用其中的 3,000 美元抵扣劳动收入，并将剩余的 17,000 美元损失结转。
 
 ### The wash sale rule
 ### 洗售规则 (Wash sale rule)
@@ -102,19 +102,19 @@ The total "wash sale window" is **61 days** (30 days before, 30 days after, plus
 ## 4. Exploring Retirement Plan Tax Advantages
 ## 4. 探索退休计划的税收优势
 
-*   **Tax-qualified plans**: Contributions are made from **pretax dollars** (tax-deductible). The entire withdrawal is taxed at retirement. (税务合格计划：使用**税前资金**缴款（可抵税）。退休提取时全额纳税。)
-*   **Nonqualified plans**: Deposits are **not tax-deductible** (made from after-tax dollars). Earnings grow tax-deferred. (非合格计划：缴款**不可抵税**（使用税后资金）。收益在税收递延的基础上增长。)
+*   **Tax-qualified plans**： Contributions are made from **pretax dollars** （tax-deductible）。 The entire withdrawal is taxed at retirement。 （税务合格计划：使用**税前资金**缴款（可抵税）。退休提取时全额纳税。）
+*   **Nonqualified plans**： Deposits are **not tax-deductible** （made from after-tax dollars）。 Earnings grow tax-deferred。 （非合格计划：缴款**不可抵税**（使用税后资金）。收益在税收递延的基础上增长。）
 
 ### IRA types and contribution limits
 ### IRA 类型与缴款限额
 
-*   **Traditional IRAs**: Tax-qualified. Maximum contribution as of 2024 is **$7,000 per year** ($8,000 if age 50 or older). Withdrawals can't begin before age 59 1/2 without a 10% penalty. (传统 IRA：税务合格。截至 2024 年，最高缴款额为**每年 7,000 美元**（50 岁及以上为 8,000 美元）。在 59.5 岁之前提取会有 10% 的罚款。)
-*   **Roth IRAs**: Contributions are **not tax-deductible**, but qualified withdrawals are **tax-free**. (罗斯 IRA：缴款**不可抵税**，但合格的提取是**免税**的。)
+*   **Traditional IRAs**： Tax-qualified。 Maximum contribution as of 2024 is **$7,000 per year** （$8,000 if age 50 or older）。 Withdrawals can't begin before age 59 1/2 without a 10% penalty。 （传统 IRA：税务合格。截至 2024 年，最高缴款额为**每年 7,000 美元**（50 岁及以上为 8,000 美元）。在 59.5 岁之前提取会有 10% 的罚款。）
+*   **Roth IRAs**： Contributions are **not tax-deductible**， but qualified withdrawals are **tax-free**。 （罗斯 IRA：缴款**不可抵税**，但合格的提取是**免税**的。）
 
 ⚠️ **LATEST REGULATORY CHANGE (SECURE 2.0)**
 Required Minimum Distributions (RMDs) must now begin by **April 1 of the year after the investor reaches age 73**. (Older texts may still say 70 1/2 or 72).
-⚠️ **最新监管变动 (SECURE 2.0)**
-强制最低提款 (RMDs) 现在必须在**投资者年满 73 岁后的次年 4 月 1 日**之前开始。（旧教材可能仍显示为 70.5 岁或 72 岁）。
+⚠️ **最新监管变动 （SECURE 2.0）**
+强制最低提款 （RMDs） 现在必须在**投资者年满 73 岁后的次年 4 月 1 日**之前开始。（旧教材可能仍显示为 70.5 岁或 72 岁）。
 
 ---
 

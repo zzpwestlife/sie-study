@@ -10,7 +10,7 @@ You don't have to do a lot of calculations related to options on the SIE, but th
 💡 **TIP**
 Many more-complex options strategies exist — **straddles, spreads, combinations**, and so on — but you won't need to calculate any of them on the SIE exam. If you're planning to take the Series 7 exam after this one, however, be prepared.
 💡 **提示**
-还存在许多更复杂的期权策略——**跨式期权 (straddles)**、**价差期权 (spreads)**、**组合期权 (combinations)** 等——但您在 SIE 考试中不需要计算其中的任何一种。然而，如果您计划在此之后参加 Series 7 考试，请做好准备。
+还存在许多更复杂的期权策略——**跨式期权 （straddles）**、**价差期权 （spreads）**、**组合期权 （combinations）** 等——但您在 SIE 考试中不需要计算其中的任何一种。然而，如果您计划在此之后参加 Series 7 考试，请做好准备。
 
 ---
 
@@ -18,10 +18,10 @@ Many more-complex options strategies exist — **straddles, spreads, combination
 ## 1. 复习期权基础知识
 
 Options are just another investment vehicle that (ideally) more-savvy investors can use. Options may be used for **hedging** to protect a securities position or for **speculation**, when looking to trade or exercise an option at a profit.
-期权只是另一种投资工具，（理想情况下）更精明的投资者可以使用。期权可用于**套期保值 (hedging)** 以保护证券头寸，或用于**投机 (speculation)**，即寻求通过交易或行使期权来获利。
+期权只是另一种投资工具，（理想情况下）更精明的投资者可以使用。期权可用于**套期保值 （hedging）** 以保护证券头寸，或用于**投机 （speculation）**，即寻求通过交易或行使期权来获利。
 
 An owner of an option has the **right, but not the obligation**, to buy or sell an underlying security (stock, bond, and so on) at a fixed price; as **derivatives**, options draw their value from that underlying security. Investors may either exercise the option (buy or sell the security at the fixed price), trade the option in the market, or let it expire.
-期权的持有人拥有在固定价格购买或出售标的证券（股票、债券等）的**权利，而非义务**；作为**衍生品 (derivatives)**，期权的价值源自该标的证券。投资者可以选择行使期权（按固定价格买卖证券）、在市场上交易期权，或者让其过期。
+期权的持有人拥有在固定价格购买或出售标的证券（股票、债券等）的**权利，而非义务**；作为**衍生品 （derivatives）**，期权的价值源自该标的证券。投资者可以选择行使期权（按固定价格买卖证券）、在市场上交易期权，或者让其过期。
 
 All option strategies, whether simple or sophisticated, when broken down are made up of simple call and/or put options. After going over how to read an option, I explain a basic call option and help you figure out how to work with that before moving on to a put option. Next, I discuss options that are in-, at-, or out-of-the-money and the cost of options. After you've sufficiently mastered the basics, the rest (the more-difficult strategies later in this chapter) becomes easier.
 所有的期权策略，无论简单还是复杂，拆解开来都是由简单的看涨和/或看跌期权组成的。在介绍如何解读期权之后，我将解释基本的看涨期权，并帮助您在进入看跌期权之前弄清楚如何操作。接下来，我将讨论实值、平值或虚值期权以及期权的成本。在您充分掌握了基础知识之后，其余部分（本章后面更难的策略）就会变得更容易。
@@ -42,38 +42,38 @@ Here are the seven elements of the option order ticket and how they apply to the
 
 1.  **Whether the investor is buying or selling the option: Buy**
     When an investor buys (or **longs, holds, or owns**) an option, they are in a position of power; that investor controls the option and decides whether and when to exercise the option. If an investor is selling (**shorting or writing**) an option, they are obligated to live up to the terms of the contract and must either purchase or sell the underlying stock if the holder exercises the option.
-    **投资者是买入还是卖出该期权：买入**
-    当投资者买入（或称**做多、持有或拥有**）期权时，他们处于主动地位；该投资者控制着期权，并决定是否以及何时行使期权。如果投资者卖出（**卖空或写入**）期权，他们有义务履行合同条款，如果持有人行使期权，他们必须购买或出售标的股票。
+**投资者是买入还是卖出该期权：买入**
+当投资者买入（或称**做多、持有或拥有**）期权时，他们处于主动地位；该投资者控制着期权，并决定是否以及何时行使期权。如果投资者卖出（**卖空或开立**）期权，他们有义务履行合同条款，如果持有人行使期权，他们必须购买或出售标的股票。
 2.  **The contract size: 1**
     You can assume that one option contract is for **100 shares** of the underlying stock. Although this idea isn't as heavily tested on the SIE exam, an investor may buy or sell multiple options (for example, five) if they're interested in having a position in more shares of stock. If an investor owns five option contracts, they're interested in 500 shares of stock, which you will need to know in more detail when taking other exams such as the Series 7.
-    **合同规模：1**
-    您可以假设一个期权合同代表 **100 股**标的股票。虽然这一概念在 SIE 考试中考查不多，但如果投资者对持有更多股份感兴趣，他们可以买卖多个期权（例如五个）。如果一名投资者拥有五个期权合同，意味着他们对 500 股股票感兴趣，在参加 Series 7 等其他考试时，您需要更详细地了解这一点。
+**合同规模：1**
+您可以假设一个期权合同代表 **100 股**标的股票。虽然这一概念在 SIE 考试中考查不多，但如果投资者对持有更多股份感兴趣，他们可以买卖多个期权（例如五个）。如果一名投资者拥有五个期权合同，意味着他们对 500 股股票感兴趣，在参加 Series 7 等其他考试时，您需要更详细地了解这一点。
 3.  **The name of the stock: XYZ**
     In this case, XYZ is the underlying stock that the investor has a right to purchase at a fixed price.
-    **股票名称：XYZ**
-    在这种情况下，XYZ 是投资者有权以固定价格购买的标的股票。
+**股票名称：XYZ**
+在这种情况下，XYZ 是投资者有权以固定价格购买的标的股票。
 4.  **The expiration month for the options: Apr**
     All options are owned for a fixed period of time. The expiration for new options used to be 9 months from the issue date. Now, investors can also purchase options with weekly and quarterly maturities as well as long-term options (**long-term equity anticipation securities**, known affectionately as **LEAPS**). In the preceding example, the option will expire in April — more specifically, at **4 p.m. EST (3 p.m. CST) on the third Friday in April**. (All options expire on the third Friday of the expiration month.)
-    **期权的到期月份：4 月**
-    所有的期权都持有固定的一段时间。新期权的有效期曾是发行后 9 个月。现在，投资者还可以购买周度到期、季度到期以及长期期权（**长期股权预期证券**，亲切地称为 **LEAPS**）。在前面的例子中，该期权将在 4 月到期——具体来说，是 **4 月第三个星期五的美国东部时间下午 4 点（中部时间下午 3 点）**。（所有期权都在到期月的第三个星期五到期。）
+**期权的到期月份：4 月**
+所有的期权都持有固定的一段时间。新期权的有效期曾是发行后 9 个月。现在，投资者还可以购买周度到期、季度到期以及长期期权（**长期股权预期证券**，亲切地称为 **LEAPS**）。在前面的例子中，该期权将在 4 月到期——具体来说，是 **4 月第三个星期五的美国东部时间下午 4 点（中部时间下午 3 点）**。（所有期权都在到期月的第三个星期五到期。）
 
 🧠 **REMEMBER**
 EST (Eastern Standard Time) is generally easier to recall than CST (Central Standard Time) and is more often tested.
 🧠 **请记住**
-东部标准时间 (EST) 通常比中部标准时间 (CST) 更容易记住，也更常被考查。
+东部标准时间 （EST） 通常比中部标准时间 （CST） 更容易记住，也更常被考查。
 
 5.  **The strike (exercise) price of the option: 60**
     When the holder (purchaser or owner) exercises the option, they use the option contract to make the seller of the option buy or sell the underlying stock at the strike price. (See the next step for info on determining whether the seller is obligated to buy or sell.) In this case, if the holder were to exercise the option, the holder of the option would be able to purchase 100 shares of XYZ at **$60 per share**.
-    **期权的行权价（履约价）：60**
-    当持有人（购买者或所有者）行使期权时，他们利用期权合同要求期权卖方按行权价购买或出售标的股票。（见下一步关于确定卖方是否有义务购买或出售的信息。）在本例中，如果持有人行使期权，期权持有人将能够以**每股 60 美元**的价格购买 100 股 XYZ。
+**期权的行权价（履约价）：60**
+当持有人（购买者或所有者）行使期权时，他们利用期权合同要求期权卖方按行权价购买或出售标的股票。（见下一步关于确定卖方是否有义务购买或出售的信息。）在本例中，如果持有人行使期权，期权持有人将能够以**每股 60 美元**的价格购买 100 股 XYZ。
 6.  **The type of option: call**
     An investor can buy or sell a **call option** or buy or sell a **put option**. **Calls give holders the right to buy** the underlying security at a set price, whereas **puts give holders the right to sell**. So, in the example scenario, the holder has the right to buy the underlying security at the price stated in the preceding step.
-    **期权类型：看涨期权 (call)**
-    投资者可以买卖**看涨期权 (call option)** 或买卖**看跌期权 (put option)**。**看涨期权赋予持有人买入标的证券的权利**，而**看跌期权赋予持有人卖出的权利**。因此，在示例场景中，持有人有权按前一步所述的价格购买标的证券。
+**期权类型：看涨期权 （call）**
+投资者可以买卖**看涨期权 （call option）** 或买卖**看跌期权 （put option）**。**看涨期权赋予持有人买入标的证券的权利**，而**看跌期权赋予持有人卖出的权利**。因此，在示例场景中，持有人有权按前一步所述的价格购买标的证券。
 7.  **The premium: 5**
     Of course, an option investor doesn't get to have the option for nothing. An investor buys the option at the **premium**. In this case, the premium is 5, so a purchaser would have to pay **$500** (5 × 100 shares per option).
-    **权利金 (Premium)：5**
-    当然，期权投资者不会平白无故得到期权。投资者通过支付**权利金**来购买期权。在本例中，权利金为 5，因此购买者必须支付 **500 美元**（5 × 每张期权对应 100 股）。
+**权利金 （Premium）：5**
+当然，期权投资者不会平白无故得到期权。投资者通过支付**权利金**来购买期权。在本例中，权利金为 5，因此购买者必须支付 **500 美元**（5 × 每张期权对应 100 股）。
 
 ---
 
@@ -81,7 +81,7 @@ EST (Eastern Standard Time) is generally easier to recall than CST (Central Stan
 ## 3. 审视看涨期权：买入权
 
 A **call option** gives the holder (owner) the right, but not the obligation, to buy 100 shares of a security at a fixed price and the seller the obligation to sell the stock at the fixed price. (If the seller does not own 100 shares of the underlying security, they would have to purchase them in the market to be able to fulfill their obligation.) Owners of call options are **bullish** (picture a bull charging forward) because the investors want the price of the stock to increase. If the price of the stock increases above the strike price, holders can either exercise the option (buy the stock at a good price) or sell the option for a profit. By contrast, sellers of call options are **neutral or bearish** (imagine a bear hibernating for the winter) because they want the price of the stock to either stay the same or decrease.
-**看涨期权 (call option)** 赋予持有人（所有者）以固定价格购买 100 股证券的权利（而非义务），并赋予卖方以该固定价格出售股票的义务。（如果卖方不持有 100 股标的证券，他们必须从市场上购买才能履行义务。）看涨期权的所有者是**看多 (bullish)** 的（想象一头向前冲的公牛），因为投资者希望股价上涨。如果股价涨到行权价以上，持有人既可以行使期权（以优惠价购买股票），也可以卖出期权获利。相比之下，看涨期权的卖方是**中性或看空 (bearish)** 的（想象一头冬眠的熊），因为他们希望股价保持不变或下跌。
+**看涨期权 （call option）** 赋予持有人（所有者）以固定价格购买 100 股证券的权利（而非义务），并赋予卖方以该固定价格出售股票的义务。（如果卖方不持有 100 股标的证券，他们必须从市场上购买才能履行义务。）看涨期权的所有者是**看多 （bullish）** 的（想象一头向前冲的公牛），因为投资者希望股价上涨。如果股价涨到行权价以上，持有人既可以行使期权（以优惠价购买股票），也可以卖出期权获利。相比之下，看涨期权的卖方是**中性或看空 （bearish）** 的（想象一头冬眠的熊），因为他们希望股价保持不变或下跌。
 
 🧠 **REMEMBER**
 Assume that Ms. Smith buys 1 DEF Oct 40 call option. Ms. Smith bought the right to purchase 100 shares of DEF at 40. If the price of DEF increases to more than $40 per share, this option becomes very valuable to Ms. Smith because she can purchase the stock at $40 per share and sell it at the market price or sell the option at a higher price. If DEF never eclipses the 40 strike (exercise) price, the option doesn't work out for poor Ms. Smith, and she doesn't exercise the option. However, it does work out for the seller of the option, because the seller receives a premium for selling the option, and the seller gets to pocket that premium.
@@ -94,7 +94,7 @@ Assume that Ms. Smith buys 1 DEF Oct 40 call option. Ms. Smith bought the right 
 ## 4. 审视看跌期权：卖出权
 
 You can think of a **put option** as being the opposite of a call option (see the preceding section). The holder of a put option has the **right to sell** 100 shares of a security at a fixed price, and the writer (seller) of a put option has the **obligation to buy** the stock if exercised. Owners of put options are **bearish** because the investors want the price of the stock to decrease (so they can buy the stock at market price and immediately sell it at the higher strike price or sell their option at a higher premium). However, sellers of put options are **bullish** (they want the price of the stock to increase), because that would keep the option from going in-the-money (see the next section) and allow them to keep the premiums they received.
-您可以将**看跌期权 (put option)** 视为看涨期权的反面（见前一节）。看跌期权的持有人拥有按固定价格**卖出** 100 股证券的**权利**，而看跌期权的写入者（卖方）在期权被行使时有**义务买入**该股票。看跌期权的所有者是**看空**的，因为投资者希望股价下跌（这样他们就可以按市价买入股票，并立即按更高的行权价卖出，或者以更高的权利金卖出期权）。然而，看跌期权的卖方是**看多**的（他们希望股价上涨），因为这会防止期权进入实值状态（见下一节），从而让他们保留收到的权利金。
+您可以将**看跌期权 （put option）** 视为看涨期权的反面（见前一节）。看跌期权的持有人拥有按固定价格**卖出** 100 股证券的**权利**，而看跌期权的写入者（卖方）在期权被行使时有**义务买入**该股票。看跌期权的所有者是**看空**的，因为投资者希望股价下跌（这样他们就可以按市价买入股票，并立即按更高的行权价卖出，或者以更高的权利金卖出期权）。然而，看跌期权的卖方是**看多**的（他们希望股价上涨），因为这会防止期权进入实值状态（见下一节），从而让他们保留收到的权利金。
 
 🧠 **REMEMBER**
 Assume that Mr. Jones buys 1 ABC October 60 put option. Mr. Jones is buying the right to sell 100 shares of ABC at 60. If the price of ABC decreases to less than $60 per share, this option becomes very valuable to Mr. Jones. If you were in Mr. Jones's shoes and ABC were to drop to $50 per share, you could purchase the stock in the market and exercise (use) the option to sell the stock at $60 per share, which would make you (the new Mr. Jones) very happy. If ABC never drops below the 60 strike (exercise) price, the option doesn't work out for Mr. Jones and he doesn't exercise the option. However, it does work out for the seller of the option, because the seller receives a premium for selling the option that she gets to keep.
@@ -109,11 +109,11 @@ Assume that Mr. Jones buys 1 ABC October 60 put option. Mr. Jones is buying the 
 To determine whether an option is in- or out-of-the-money, you have to figure out whether the investor would be able to get at least some of his premium money back if the option were exercised. You can figure out how much an option is in-the-money or out-of-the-money by finding the difference between the market value and the strike price. Here's how you know where in-the-money an option is:
 
 *   **When an option is in-the-money**, exercising the option lets investors sell a security for more than its current market value or purchase it for less — a pretty good deal. The **intrinsic value** of an option is the amount that the option is in-the-money; if an option is out-of-the-money or at-the-money, the intrinsic value is zero.
-*   **当期权处于实值 (in-the-money) 时**，行使期权可以让投资者以高于当前市价的价格卖出证券，或以低于市价的价格买入——这非常划算。期权的**内在价值 (intrinsic value)** 就是期权处于实值的金额；如果期权处于虚值或平值，内在价值为零。
+*   **当期权处于实值 （in-the-money） 时**，行使期权可以让投资者以高于当前市价的价格卖出证券，或以低于市价的价格买入——这非常划算。期权的**内在价值 （intrinsic value）** 就是期权处于实值的金额；如果期权处于虚值或平值，内在价值为零。
 *   **When an option is out-of-the-money**, exercising the option means investors can't get the best prices; they'd have to buy the security for more than its market value or sell it for less. Obviously, holders of options that are out-of-the-money don't exercise them.
-*   **当期权处于虚值 (out-of-the-money) 时**，行使期权意味着投资者无法获得最优价格；他们必须以高于市价的价格买入证券，或以低于市价的价格卖出。显然，持有虚值期权的人不会行使期权。
+*   **当期权处于虚值 （out-of-the-money） 时**，行使期权意味着投资者无法获得最优价格；他们必须以高于市价的价格买入证券，或以低于市价的价格卖出。显然，持有虚值期权的人不会行使期权。
 *   **When the strike price is the same as the market price**, the option is **at-the-money**; this is true whether the option is a call or a put.
-*   **当行权价与市场价格相同时**，期权处于**平值 (at-the-money)**；无论是看涨期权还是看跌期权，这一点都成立。
+*   **当行权价与市场价格相同时**，期权处于**平值 （at-the-money）**；无论是看涨期权还是看跌期权，这一点都成立。
 
 🧠 **REMEMBER**
 Call options — the right to buy — go **in-the-money when the price of the stock is above the strike price**. Suppose that an investor buys a DEF 60 call option and that DEF is trading at 62. In this case, the option would be in-the-money by two points (the option's intrinsic value). If that same investor were to buy that DEF 60 call option when DEF was trading at 55, the option would be out-of-the-money by five points (with an intrinsic value of zero).
@@ -130,7 +130,7 @@ Don't take the cost of the option (the premium) into consideration when determin
 💡 **TIP**
 Use the phrases **"call up"** and **"put down"** to recall when an option goes in-the-money. **Call up** can help you remember that a call option is in-the-money when the market price is **up**, or above the strike price. **Put down** can help you remember that a put option is in-the-money when the market price is **down**, or below the strike price.
 💡 **提示**
-使用“**看涨向上** (call up)”和“**看跌向下** (put down)”这两个短语来记忆期权何时进入实值状态。“**看涨向上**”可以帮助您记住，当市场价格**向上**（或高于行权价）时，看涨期权处于实值。“**看跌向下**”可以帮助您记住，当市场价格**向下**（或低于行权价）时，看跌期权处于实值。
+使用“**看涨向上** （call up）”和“**看跌向下** （put down）”这两个短语来记忆期权何时进入实值状态。“**看涨向上**”可以帮助您记住，当市场价格**向上**（或高于行权价）时，看涨期权处于实值。“**看跌向下**”可以帮助您记住，当市场价格**向下**（或低于行权价）时，看跌期权处于实值。
 
 📝 **EXAMPLE**
 Which TWO of the following options are in-the-money if ABC is trading at 62 and DEF is trading at 44?
@@ -143,18 +143,18 @@ The correct answer is (B). Start with the strike (exercise) prices. You're calli
 
 📝 **案例**
 如果 ABC 的交易价格为 62，DEF 的交易价格为 44，以下哪两项期权处于实值状态？
-I. ABC 10 月 60 看涨期权
-II. ABC 10 月 70 看涨期权
-III. DEF 5 月 40 看跌期权
-IV. DEF 5 月 50 看跌期权
-(A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
-正确答案是 (B)。从行权（履约）价开始分析。您是相对于行权价进行“向上”或“向下”判断，而不是相对于市价。因为看涨期权在市价高于行权价时进入实值，所以对于 ABC，陈述 I 是唯一成立的。当 ABC 价格高于 60 时，ABC 60 看涨期权处于实值。ABC 目前价格为 62，因此该 60 看涨期权处于实值。若要 ABC 70 看涨期权进入实值，ABC 的交易价格必须高于 70。接下来，对 DEF 看跌期权使用“看跌向下”，因为看跌期权在股价低于行权价时进入实值。因此，陈述 IV 是正确的，因为 DEF 交易价格为 44，低于 DEF 50 看跌期权的行权价，但不低于 40 看跌期权的行权价。
+I。 ABC 10 月 60 看涨期权
+II。 ABC 10 月 70 看涨期权
+III。 DEF 5 月 40 看跌期权
+IV。 DEF 5 月 50 看跌期权
+（A） I 和 III （B） I 和 IV （C） II 和 III （D） II 和 IV
+正确答案是 （B）。从行权（履约）价开始分析。您是相对于行权价进行“向上”或“向下”判断，而不是相对于市价。因为看涨期权在市价高于行权价时进入实值，所以对于 ABC，陈述 I 是唯一成立的。当 ABC 价格高于 60 时，ABC 60 看涨期权处于实值。ABC 目前价格为 62，因此该 60 看涨期权处于实值。若要 ABC 70 看涨期权进入实值，ABC 的交易价格必须高于 70。接下来，对 DEF 看跌期权使用“看跌向下”，因为看跌期权在股价低于行权价时进入实值。因此，陈述 IV 是正确的，因为 DEF 交易价格为 44，低于 DEF 50 看跌期权的行权价，但不低于 40 看跌期权的行权价。
 
 🧠 **REMEMBER**
 When someone is **short** an option, it means that they sold the option. This person is on the opposite side of the transaction than the person who is **long** the option. In this case, the seller received a premium for selling the option. So, someone who is short an option is doing so for income and is hoping that the option expires out-of-the-money so that they get to keep the premium.
 When people purchase an option, it is said that they are **long** the option. An investor who is long an option has paid the premium for the option so they need the option to go in-the-money (the price of the underlying security to go in the correct direction) enough for them to not only recoup their premium but also make a few bucks.
 🧠 **请记住**
-当某人**做空 (short)** 期权时，意味着他们卖出了期权。此人处于与**做多 (long)** 期权者相对的交易位置。在这种情况下，卖方通过卖出期权收到了权利金。因此，做空期权的人是为了获得收入，并希望期权在过期时处于虚值，这样他们就能保留权利金。
+当某人**做空 （short）** 期权时，意味着他们卖出了期权。此人处于与**做多 （long）** 期权者相对的交易位置。在这种情况下，卖方通过卖出期权收到了权利金。因此，做空期权的人是为了获得收入，并希望期权在过期时处于虚值，这样他们就能保留权利金。
 当人们购买期权时，就说他们是**做多**期权。做多期权的投资者已经支付了权利金，因此他们需要期权进入实值状态（标的证券价格向正确的方向变动），且程度足以让他们不仅收回权利金，还能赚几块钱。
 
 ---
@@ -164,10 +164,10 @@ When people purchase an option, it is said that they are **long** the option. An
 
 The premium of an option is the amount that the purchaser pays for the option. The premium may increase or decrease depending on whether an option goes in- or out-of-the-money, gets closer to expiration, and so on. The premium is made up of many different factors, including:
 
-*   Whether the option is in-the-money (是否处于实值状态)
-*   The amount of time the investor has to use the option (投资者使用期权的剩余时间)
-*   The volatility of the underlying security (标的证券的波动性)
-*   Investor sentiment (例如，现在购买 ABC 股票的看涨期权是否是一种流行趋势)
+*   Whether the option is in-the-money （是否处于实值状态）
+*   The amount of time the investor has to use the option （投资者使用期权的剩余时间）
+*   The volatility of the underlying security （标的证券的波动性）
+*   Investor sentiment （例如，现在购买 ABC 股票的看涨期权是否是一种流行趋势）
 
 One of the simple options math questions you may run across on the SIE exam requires you to figure out the **time value** of an option premium. Time value has to do with how long you have until an option expires. There's no set standard for time value, such as every month until an option expires costs buyers an extra $100. However, you can assume that if two options have everything in common except for the expiration month, the one with the longer expiration will have a higher premium. Ideally, the following equation can help keep you from getting a pit in your stomach:
 
@@ -206,8 +206,8 @@ T = 4
 | 50 | 0.25 | 0.75 | 10.5 | 12 |
 LMN 10 月 30 看涨期权的时间价值是多少？
 (A) 2.5 (B) 4 (C) 6.25 (D) 9.5
-您要找的答案是 (B)。我通过给出一张类似于您在 SIE 考试中可能看到的图表给您出了道难题。在图表中，找到 10 月看涨期权这一列和 30 行权价这一行。交叉点对应的权利金是 14.5. 现在计算内在价值：看涨期权在股价高于行权价时进入实值。这是一个 30 看涨期权，且股价为 40.50，比行权价高出 10.5。代入数字：
-权利金 (14.5) = 内在价值 (10.5) + 时间价值
+您要找的答案是 （B）。我通过给出一张类似于您在 SIE 考试中可能看到的图表给您出了道难题。在图表中，找到 10 月看涨期权这一列和 30 行权价这一行。交叉点对应的权利金是 14.5。 现在计算内在价值：看涨期权在股价高于行权价时进入实值。这是一个 30 看涨期权，且股价为 40.50，比行权价高出 10.5。代入数字：
+权利金 （14.5） = 内在价值 （10.5） + 时间价值
 时间价值 = 4
 
 ---
@@ -217,7 +217,7 @@ LMN 10 月 30 看涨期权的时间价值是多少？
 
 I'm here to make your life easier. Prep courses use several different types of charts and formulas to figure out things such as gains or losses, break-even points, maximum gain or loss, and so on. I believe that the easiest way is to use the options chart that follows. It's a simple **Money Out, Money In** chart you can use to plug in numbers. What's great about this chart is that you don't even necessarily have to understand what the heck is going on to determine the answers to most options questions. As this chapter progresses, I show you how incredibly useful the options chart can be.
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | | |
 
@@ -233,15 +233,15 @@ As you work with options charts, you may notice a pattern when determining maxim
 ### TABLE 11-1: Maximum Gains and Losses for Call Options
 ### 表 11-1：看涨期权的最大收益与亏损
 
-| Buying or Selling (买入或卖出) | Maximum Loss (最大亏损) | Maximum Gain (最大收益) |
+| Buying or Selling （买入或卖出） | Maximum Loss （最大亏损） | Maximum Gain （最大收益） |
 | :--- | :--- | :--- |
-| **Buying a call (买入看涨期权)** | Premium (权利金) | Unlimited (无限) |
-| **Selling a call (卖出看涨期权)** | Unlimited (无限) | Premium (权利金) |
+| **Buying a call （买入看涨期权）** | Premium （权利金） | Unlimited （无限） |
+| **Selling a call （卖出看涨期权）** | Unlimited （无限） | Premium （权利金） |
 
 💡 **TIP**
 The key phrase to remember when working with call options is **"calls same"**, which means that the premium and the strike price go on the same side of the options chart.
 💡 **提示**
-处理看涨期权时要记住的关键短语是“**看涨同侧** (calls same)”，这意味着权利金和行权价都放在期权图表的同一侧。
+处理看涨期权时要记住的关键短语是“**看涨同侧** （calls same）”，这意味着权利金和行权价都放在期权图表的同一侧。
 
 ### Buying call options
 ### 买入看涨期权
@@ -256,7 +256,7 @@ The following steps show you how to calculate the maximum loss and gain for hold
 2.  **Determine the maximum gain.**
     To calculate the maximum gain, you have to exercise the option at the strike price. The strike price is 40, so you enter $4,000 (40 strike price × 100 shares per option) under its premium; exercising the call means buying the stock, so that's **Money Out**. When exercising call options, always put the multiplied strike price under its premium. (Remember **calls same**: The premium and the strike price go on the same side of the options chart.)
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | $500 (premium) | |
 | $4,000 (strike) | |
@@ -283,7 +283,7 @@ Here, I show you how to find the maximum gain and loss, as well as the break-eve
 2.  **Find the maximum loss.**
     To calculate the maximum loss, you need to exercise the option at the strike price. The strike price is 60, so you enter $6,000 (60 strike price × 100 shares per option) under its premium. The $6,000 goes in the **Money In** side of the options chart because this investor had to sell the stock to the holder at the strike price (60 × 100 shares). When exercising call options, always enter the multiplied strike price under its premium. (Remember **calls same**: The premium and the strike price go on the same side of the options chart.)
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | | $200 (premium) |
 | | $6,000 (strike) |
@@ -307,10 +307,10 @@ Table 11-2 serves as a quick reference regarding the maximum gain or maximum los
 ### TABLE 11-2: Maximum Gains and Losses for Put Options
 ### 表 11-2：看跌期权的最大收益与亏损
 
-| Buying or Selling (买入或卖出) | Maximum Loss (最大亏损) | Maximum Gain (最大收益) |
+| Buying or Selling （买入或卖出） | Maximum Loss （最大亏损） | Maximum Gain （最大收益） |
 | :--- | :--- | :--- |
-| **Buying a put (买入看跌期权)** | Premium (权利金) | (Strike – premium) × 100 shares (（行权价 – 权利金）× 100 股) |
-| **Selling a put (卖出看跌期权)** | (Strike – premium) × 100 shares (（行权价 – 权利金）× 100 股) | Premium (权利金) |
+| **Buying a put （买入看跌期权）** | Premium （权利金） | （Strike – premium） × 100 shares （（行权价 – 权利金）× 100 股） |
+| **Selling a put （卖出看跌期权）** | （Strike – premium） × 100 shares （（行权价 – 权利金）× 100 股） | Premium （权利金） |
 
 ### Buying put options
 ### 买入看跌期权
@@ -325,7 +325,7 @@ This section explains how to find the maximum loss, maximum gain, and the break-
 2.  **Determine the maximum gain.**
     To find the maximum gain, you have to exercise the option at the strike price. The strike price is 55, so you enter $5,500 (55 strike price × 100 shares per option) on the **opposite side** of the options chart. (Remember **puts switch**: The premium and the strike price go on opposite sides of the options chart.) Exercising the option means selling the underlying stock, so that $5,500 is **Money In**.
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | $600 (premium) | $5,500 (strike) |
 
@@ -351,7 +351,7 @@ The following steps show you how to calculate the maximum gain and loss for the 
 2.  **Find the maximum loss.**
     To calculate the maximum loss, you have to exercise the option at the strike price. The strike price is 30, so you place $3,000 (30 strike price × 100 shares per option) on the **opposite side** of the options chart. (Remember **puts switch**: The premium and strike price go on opposite sides of the options chart.)
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | $3,000 (strike) | $800 (premium) |
 
@@ -376,8 +376,8 @@ When distinguishing between opening and closing transactions, your key is to kno
 
 Here are your opening transactions:
 
-*   **Opening purchase:** An opening purchase occurs when an investor first buys a call or a put. (开仓买入：投资者第一次买入看涨或看跌期权时发生。)
-*   **Opening sale:** An opening sale is when an investor first sells a call or a put. (开仓卖出：投资者第一次卖出（写入）看涨或看跌期权时发生。)
+*   **Opening purchase：** An opening purchase occurs when an investor first buys a call or a put。 （开仓买入：投资者第一次买入看涨或看跌期权时发生。）
+*   **Opening sale：** An opening sale is when an investor first sells a call or a put。 （开仓卖出：投资者第一次卖出（写入）看涨或看跌期权时发生。）
 
 If an investor already has an option position, the investor has to close that position by doing the opposite — through a **closing transaction**. If the investor originally purchased the option, they have to sell to close it. By contrast, if they originally sold the option, they have to purchase to close. Here are the two types of closing transactions:
 
@@ -429,7 +429,7 @@ Take the following position as an example:
 2.  **Determine the investor's maximum potential gain.**
     To find the maximum gain, you need to exercise the option at the strike price (55). Take the $5,500 (55 × 100 shares) and place it under its premium (**Money In**). (Remember **calls same**: The exercised strike price and the premium go on the same side of the chart.) Total the two sides and you find that the Money In ($5,900) is $1,200 more than the Money Out ($4,700), so that's the investor's maximum potential gain.
 
-| Money Out (资金转出) | Money In (资金转入) |
+| Money Out （资金转出） | Money In （资金转入） |
 | :--- | :--- |
 | $4,700 (stock purchase) | $400 (premium) |
 | | $5,500 (strike) |
@@ -518,10 +518,10 @@ A few things are required on an order ticket that are unique to options. Besides
 
 Unlike stock certificates, options do expire after a certain period of time. In addition, investors are limited as to when they can trade and exercise an option. Here's the timeline to keep in mind:
 
-*   **Last trade:** The last time an investor can trade an option is **4:00 p.m. Eastern Time on the business day of expiration**. (最后交易：投资者最后一次可以交易期权的时间是**到期营业日的美国东部时间下午 4:00**。)
-*   **Last exercise:** The last time an investor can exercise an option is **5:30 p.m. Eastern Time on the business day of expiration**. If an option is in-the-money by at least 1 point at expiration, it will be **automatically exercised**. (最后行使：投资者最后一次可以行使期权的时间是**到期营业日的美国东部时间下午 5:30**。如果在到期时，期权处于实值至少 1 点，它将被**自动行使**。)
-*   A vast majority of options (all equity and ETF options) can be exercised any time up 'til expiration — this is known as **American style**. However, there are also **European-style** options that can be exercised **only on the expiration date**. European-style options include capped index options and some foreign currency options. Even though a European-style option can be exercised only at expiration, it can still be traded at any time. (绝大多数期权（所有股票和 ETF 期权）可以在到期前的任何时间行使——这被称为**美式期权**。然而，也存在只能在**到期日当天**行使的**欧式期权**。欧式期权包括封顶指数期权和某些外汇期权。尽管欧式期权只能在到期时行使，但它仍可以在任何时间进行交易。)
-*   **Option expiration:** Options expire at **11:59 p.m. Eastern Time on the third Friday of the expiration month**. (期权到期：期权在**到期月第三个星期五的美国东部时间晚上 11:59** 到期。)
+*   **Last trade：** The last time an investor can trade an option is **4：00 p。m。 Eastern Time on the business day of expiration**。 （最后交易：投资者最后一次可以交易期权的时间是**到期营业日的美国东部时间下午 4：00**。）
+*   **Last exercise：** The last time an investor can exercise an option is **5：30 p。m。 Eastern Time on the business day of expiration**。 If an option is in-the-money by at least 1 point at expiration， it will be **automatically exercised**。 （最后行使：投资者最后一次可以行使期权的时间是**到期营业日的美国东部时间下午 5：30**。如果在到期时，期权处于实值至少 1 点，它将被**自动行使**。）
+*   A vast majority of options （all equity and ETF options） can be exercised any time up 'til expiration — this is known as **American style**。 However， there are also **European-style** options that can be exercised **only on the expiration date**。 European-style options include capped index options and some foreign currency options。 Even though a European-style option can be exercised only at expiration， it can still be traded at any time。 （绝大多数期权（所有股票和 ETF 期权）可以在到期前的任何时间行使——这被称为**美式期权**。然而，也存在只能在**到期日当天**行使的**欧式期权**。欧式期权包括封顶指数期权和某些外汇期权。尽管欧式期权只能在到期时行使，但它仍可以在任何时间进行交易。）
+*   **Option expiration：** Options expire at **11：59 p。m。 Eastern Time on the third Friday of the expiration month**。 （期权到期：期权在**到期月第三个星期五的美国东部时间晚上 11：59** 到期。）
 
 ---
 
@@ -531,17 +531,17 @@ Unlike stock certificates, options do expire after a certain period of time. In 
 When taking the SIE exam, you are expected to have a basic understanding of how options are exercised and assigned. Options are cleared through the OCC. Here's how an option is exercised:
 
 When a client wants to exercise an option they own, they contact their broker-dealer. The broker-dealer contacts the OCC. The trade settles in **one business day (T+1)** after the OCC is notified because when the investor is exercising an option, they are actually **trading stock**. (Note: As of May 2024, the settlement cycle for equity options exercises and stock trades has been shortened to T+1).
-当客户想要行使他们拥有的期权时，他们会联系其经纪自营商。经纪自营商联系 OCC。在通知 OCC 后的**一个营业日 (T+1)** 内完成交易结算，因为当投资者行使期权时，他们实际上是在**交易股票**。（注：自 2024 年 5 月起，股票期权行权及股票交易的结算周期已缩短至 T+1）。
+当客户想要行使他们拥有的期权时，他们会联系其经纪自营商。经纪自营商联系 OCC。在通知 OCC 后的**一个营业日 （T+1）** 内完成交易结算，因为当投资者行使期权时，他们实际上是在**交易股票**。（注：自 2024 年 5 月起，股票期权行权及股票交易的结算周期已缩短至 T+1）。
 
 The steps involved look like this:
 
-1.  Client #1 tells their broker-dealer (Broker A) to exercise the option. (客户 #1 告诉其经纪自营商（经纪商 A）行使期权。)
-2.  Broker A notifies the Options Clearing Corporation. (经纪商 A 通知期权结算公司 (OCC)。)
-3.  The Options Clearing Corporation chooses the **contra broker** (the broker-dealer on the other side of the transaction — Broker B) **randomly**. (期权结算公司**随机**选择**交易对手经纪商**（交易另一方的经纪自营商——经纪商 B）。)
-4.  Broker B **assigns** (chooses the client — Client #2) either **randomly, first-in-first-out (FIFO), or by any other method that is fair and reasonable**. (经纪商 B 通过**随机、先进先出 (FIFO) 或任何其他公平合理的方法****指派**（选择客户——客户 #2）。)
-    *   However, Broker B cannot choose the assignment based on size (the one with the most options, the one with the least options, and so on). (然而，经纪商 B 不能根据规模选择指派（即不能选择拥有期权最多或最少的客户等）。)
-5.  Client #2 sends the proceeds (stock or cash) to Broker B. (客户 #2 将收益（股票或现金）发送给经纪商 B。)
-6.  Broker B sends the proceeds directly to Broker A (the OCC doesn't handle stock or cash). (经纪商 B 将收益直接发送给经纪商 A（OCC 不处理股票或现金）。)
+1。  Client #1 tells their broker-dealer （Broker A） to exercise the option。 （客户 #1 告诉其经纪自营商（经纪商 A）行使期权。）
+2。  Broker A notifies the Options Clearing Corporation。 （经纪商 A 通知期权结算公司 （OCC）。）
+3。  The Options Clearing Corporation chooses the **contra broker** （the broker-dealer on the other side of the transaction — Broker B） **randomly**。 （期权结算公司**随机**选择**交易对手经纪商**（交易另一方的经纪自营商——经纪商 B）。）
+4。  Broker B **assigns** （chooses the client — Client #2） either **randomly， first-in-first-out （FIFO）， or by any other method that is fair and reasonable**。 （经纪商 B 通过**随机、先进先出 （FIFO） 或任何其他公平合理的方法****指派**（选择客户——客户 #2）。）
+*   However， Broker B cannot choose the assignment based on size （the one with the most options， the one with the least options， and so on）。 （然而，经纪商 B 不能根据规模选择指派（即不能选择拥有期权最多或最少的客户等）。）
+5。  Client #2 sends the proceeds （stock or cash） to Broker B。 （客户 #2 将收益（股票或现金）发送给经纪商 B。）
+6。  Broker B sends the proceeds directly to Broker A （the OCC doesn't handle stock or cash）。 （经纪商 B 将收益直接发送给经纪商 A（OCC 不处理股票或现金）。）
 
 🧠 **REMEMBER**
 Although most exercises of options are settled by the delivery of the underlying security, there are some that are settled by the delivery of cash. Specifically, **index options** and **foreign currency options** are always **settled in cash**. This just makes sense because investors can't be expected to deliver an entire index for index options nor be expected to deliver the underlying foreign currency for foreign currency options.
@@ -553,12 +553,12 @@ Although most exercises of options are settled by the delivery of the underlying
 
 For some reason, the SIE exam writers decided you need to know some additional option-specific definitions. I will try to make this as painless as possible.
 
-*   **Aggregate exercise price:** The exercise (strike) price of an option multiplied by the number of units (usually 100 shares) of the underlying security covered by the option contract. (累计行权价：期权的行权（履约）价乘以期权合同所涵盖的标的证券单位数（通常为 100 股）。)
-*   **Class of options:** All option contracts of the **same type** (puts or calls) covering the **same underlying security** or index. (期权类别：覆盖**同一标的证券**或指数的所有**同类型**（看跌或看涨）期权合同。)
-*   **Series of options:** All option contracts that are of the **same class**, same **expiration date**, and same **exercise price**. (期权系列：属于**同类别**、具有相同**到期日**和相同**行权价**的所有期权合同。)
-*   **Clearing member:** A FINRA member that has been admitted to membership in the OCC (Options Clearing Corporation). (结算会员：已获准加入 OCC（期权结算公司）的 FINRA 会员。)
-*   **Delta neutral:** An equity options position that has been **fully hedged**. For example, owning 100 shares of ABC stock and owning an at-the-money put on ABC stock. Basically, offsetting long and short positions. (德尔塔中性：已实现**完全对冲**的股票期权头寸。例如，持有 100 股 ABC 股票并持有一份 ABC 股票的平值看跌期权。基本上就是相互抵销多头和空头头寸。)
-*   **Outstanding:** An option contract that has been neither closed (closing sale) nor exercised and has not reached the expiration date. (未平仓期权：既未平仓（平仓卖出）也未行使，且尚未达到到期日的期权合同。)
+*   **Aggregate exercise price：** The exercise （strike） price of an option multiplied by the number of units （usually 100 shares） of the underlying security covered by the option contract。 （累计行权价：期权的行权（履约）价乘以期权合同所涵盖的标的证券单位数（通常为 100 股）。）
+*   **Class of options：** All option contracts of the **same type** （puts or calls） covering the **same underlying security** or index。 （期权类别：覆盖**同一标的证券**或指数的所有**同类型**（看跌或看涨）期权合同。）
+*   **Series of options：** All option contracts that are of the **same class**， same **expiration date**， and same **exercise price**。 （期权系列：属于**同类别**、具有相同**到期日**和相同**行权价**的所有期权合同。）
+*   **Clearing member：** A FINRA member that has been admitted to membership in the OCC （Options Clearing Corporation）。 （结算会员：已获准加入 OCC（期权结算公司）的 FINRA 会员。）
+*   **Delta neutral：** An equity options position that has been **fully hedged**。 For example， owning 100 shares of ABC stock and owning an at-the-money put on ABC stock。 Basically， offsetting long and short positions。 （德尔塔中性：已实现**完全对冲**的股票期权头寸。例如，持有 100 股 ABC 股票并持有一份 ABC 股票的平值看跌期权。基本上就是相互抵销多头和空头头寸。）
+*   **Outstanding：** An option contract that has been neither closed （closing sale） nor exercised and has not reached the expiration date。 （未平仓期权：既未平仓（平仓卖出）也未行使，且尚未达到到期日的期权合同。）
 
 ---
 
