@@ -1,0 +1,2492 @@
+
+
+3
+Diving Deeper: 
+Taking a Look at 
+More Complex 
+Securities
+
+Ζ1 T+Ζ6 3$5T bb
+Understand the role of investment companies in 
+helping investors diversify their portfolios.
+%ecome versed in limited partnerships ȃ their 
+formation, function, structure, tax advantages,  
+and tax disadvantages.
+Examine direct participation programs (DPPs) and 
+real-estate investment trusts (REITs).
+*et to know options ȃ investment vehicles that allow 
+investors to buy and sell securities at a ȴ[ed price.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  129
+'eliYering 'iYersification 
+with 3ackaged 6ecurities
+D
+iversification is key when you’re helping customers set up a portfolio of securities, and 
+it’s fairly easy when your customer has a good deal of money to invest. But what if an 
+investor has limited resources? Certainly, such investors can’t afford to buy hundreds of 
+shares and/or debt securities of several companies, and you don’t want to limit your customer 
+to only one investment opportunity (heaven forbid it should go belly up). Packaged securities to 
+the rescue! These securities, such as open-end funds, closed-end funds, face-amount certificate 
+companies, unit investment trusts, and annuities, offer variety within one security by investing a 
+customer’s money in a diversified pool of securities — for a cost, of course. A bit of profit-driven 
+teamwork can ensure your customers’ investments are much safer than, say, investing in a one- 
+armed bandit in one of the Vegas casinos.
+In this chapter, I cover topics relating to investment companies and annuities. Open-end (mutual) 
+funds and closed-end funds are only the beginning. I discuss face-amount certificate companies 
+and trusts such as unit investment trusts. I also give you a look at life insurance products and 
+wrap it all up by giving you a small quiz at the end of the chapter.
+/ooking at ΖnYestment &ompany 5egistration
+As with other nonexempt securities, investment companies must register with the U.S. Securities 
+and Exchange Commission (SEC). You need to understand certain specifics about the registration 
+process  when  taking  the  SIE.  When  registering  with  the  SEC,  investment  companies  must 
+disclose
+ »
+Whether the investment company will be open- or closed-end
+ »
+The names and addresses of aɝliated people
+Chapter 9
+Ζ1 T+Ζ6 &+$3TE5
+ »Taking adYantage oI management 
+inYestment companies
+ »8nderstanding Iaceamount 
+certificate companies and 8ΖTs
+ »/ooking at annuities
+ »Taking a ErieI look at liIe 
+insurance
+ »&hecking your knowledge
+
+130 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+ »
+Whether the company plans to raise money by borrowing
+ »
+Whether they plan on investing in commodities or real estate
+ »
+How they plan on investing (a single industry, many industries, debt securities, and so on)
+ »
+Conditions under which the investment plan can change (a vote of shareholders, for example)
+ »
+The business e[perience of each director and oɝcer
+'iYersiIying through Management  
+ΖnYestment &ompanies
+In general, investment companies are those whose business is investing in securities. As such, 
+they take the money received from investors and invest in a large number of different securities. 
+Each investor shares in the profits or losses based on their interest in the investment company. 
+The Investment Company Act of 1940 divides investment companies into three main types: man-
+agement investment companies, face-amount certificate companies, and unit investment trusts. 
+This section focuses on management investment companies, which are the more heavily tested 
+areas of this chapter. I cover the other types in the aptly named “Considering Other Investment 
+Company Options” section later.
+Management companies are by far the most familiar type of investment company. The securities 
+held by the management companies tend to be actively managed by portfolio managers, although 
+they might be passive where a portfolio manager makes the initial choices but doesn’t actively 
+trade the account. As a subclassification of management companies, they are either ±iĝersifie± or 
+çïç±iĝersifie±. To be diversified, a company must spread out at least 75 percent of its assets in the 
+following way:
+ »
+The management company can’t own more than 10 percent of the outstanding shares of 
+a company.
+ »
+No more than 5 percent of the management company’s money can be invested in one 
+company’s securities. However, through appreciation, one company may grow to more than  
+ percent, which is ȴne, but the fund may not purchase any more of that companyȇs securities  
+unless it drops below 5 percent.
+Because the diversified portion relates to only 75 percent of the management company’s assets, 
+the other 25 percent can be invested in any way. Whether the management company is diversified 
+or nondiversified must be in the prospectus.
+&omparing open and closedend Iunds
+Management companies are either open-end or closed-end funds. Make sure that you know the 
+difference.
+2penend mutual Iunds
+An open-end fund is more commonly known as a mutual fund. Like closed-end funds, mutual 
+funds invest in many different securities to provide diversification for investors. The key differ-
+ence is that mutual funds are constantly issuing and redeeming shares (shares are redeemed with 
+the issuer and not sold in the market), which provides liquidity for investors. Because open-end 
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  131
+fund shares are continuous offerings of new shares, a mutual fund prospectus must always be 
+available. You need to understand the makings of the net asset value and the public offering price 
+when taking the SIE exam:
+ »
+1et asset Yalue 1$9 Fortunately, the NAV or net asset value per share is determined the 
+same way for both open- and closed-end funds: by dividing the value of the securities held by 
+the fund by the number of shares outstanding. With open-end funds, however, the NAV is the 
+bid price. When investors redeem shares of a mutual fund, they receive the next computed 
+NAV (usually at the end of the day). This is also known as the redemption value. Mutual funds 
+can never trade below the NAV.
+ »
+3uElic o΍ering price 323 )or mutual funds, the public o΍ering price (the ask price) is  
+the NAV plus a sales charge. If a mutual fund doesn’t charge a sales charge, it’s called a  
+no-load fund.
+Because mutual funds are new issues, investors must receive a statutory prospectus (for more on 
+what a prospectus is, see Chapter 5) and/or receive a summary prospectus and have access to the 
+statutory prospectus. Prospectuses for mutual funds include their holdings, investment strategy, 
+fees, expenses, graphs of the fund’s performance, and so on. Every prospectus for every security 
+must contain a disclosure stating that the SEC doesn’t approve of the issue. I assume that this 
+disclosure is the SEC’s way of not being sued if investors lose money. The SEC Ûust clears the issue 
+for sale to investors.
+If the fund provides a summary prospectus, it must include items such as the fund’s name and 
+ticker symbol, the class of shares, the fund’s investment strategies, investment obÛectives, costs 
+of investing, investment advisers, financial compensation, risks, and performance. The summary 
+prospectus may include an application that investors can use to purchase shares. Potential inves-
+tors can also request a full prospectus before investing. If an investor purchases via a summary 
+prospectus, they must either receive or be provided online access to a full prospectus.
+On an ongoing basis, funds must include in their prospectus annual report graphs comparing the 
+performance of the fund with a proper index (Standard ʩ Poor’s ɜSʩPɝ 500, Nasdaq composite, 
+and so on), items and/or strategies that may have affected the performance in the past year, and 
+the name of the fund’s manager.
+Note: Expenses of a mutual fund include salaries for the board of directors; management (invest-
+ment adviser) fees for the person or people who make the investment decisions for the fund; 
+custodial fees for safeguarding assets (cash, securities, and so on) held by the fund; transfer 
+agent fees for keeping track of investors, sending distributions, and sending proxies; and 12b-1 
+fees, if any. 12b-1 fees are fees paid by a mutual fund out of the fund assets to cover promotional 
+expenses such as advertising, printing and mailing of prospectuses to new investors, and so on. 
+If there are 12b-1 fees, they must be included in the prospectus.
+&losedend Iunds
+Unlike open-end funds, closed-end funds have a fixed number of shares outstanding (hence the 
+word closed). Closed-end funds act more like common stock than open-end funds because they 
+issue new shares to the public; after that, the shares are bought and sold in the market. Because 
+they trade in the market, they’re often called publicly traded funds. Although the net asset value of 
+closed-end and open-end funds is calculated the same way, the public offering price is deter-
+mined a little differently:
+ »
+1$9 The NAV or net asset value per share is the parity price at which the fund should be 
+trading. You determine it by taking all of the assets owned by the fund, subtracting the 
+
+132 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+liabilities, and dividing by the number of shares outstanding. Closed-end funds may trade at a 
+discount or premium compared to the 1A9 ȃ based on supply and demand.
+ »
+3uElic o΍ering price 323 )or closedend funds, after the initial public o΍ering (IP2) the 
+public o΍ering price (the ask price) depends not only on the 1A9 but also supply and demand 
+for the issue. Investors of closedend funds pay the P2P (current market price) plus a broker’s 
+commission in an agency transaction.
+Note: Although closed-end funds aren’t purchased from and redeemed with the issuer, most offer 
+a high degree of liquidity, based on the number of shares. After the initial offering, they can be 
+purchased or sold either on an exchange (called exchange traded funds or ETFs) or over the  
+counter (OTC).
+2pen and closed )ocusing on their di΍erences
+You can expect at least a question or two on the SIE exam relating to investment companies to test 
+you on the differences between open-end and closed-end funds. Table 9-1 should help you zone 
+in on the maÛor distinctions.
+The key difference between open-end and closed-end funds is the method of capitalization. An 
+open-end (mutual) fund is a continuous offering of new securities, whereas a closed-end fund is 
+a one-time offering of new securities.
+.eeping your customerȇs inYestment  
+oEMectiYes in mind
+Unlike investors in face-amount certificate companies and unit investment trusts (see “Consid-
+ering Other Investment Company Options” later in this chapter), investors of open-end and 
+closed-end funds have many choices available. Investors may be looking for safety, growth, a 
+combination, and so on. This section gives you a glimpse into those investment choices.
+The single most important consideration for customers who invest in packaged securities is the 
+fund’s investment obÛectives. This feature surpasses even the sales charge or management fees. 
+If you become a registered rep, one of your primary Ûobs will be to help investors decide which 
+type of fund would be best for them. The test designers want to know you can handle that Ûob. 
+TABLE -1	&omparing 2penEnd and &losedEnd )unds
+CategoryClosed-End2penEnd
+Capitalization2netime o΍ering of securities (ȴ[ed number of shares 
+outstanding).
+Continuous o΍ering of new shares (no 
+ȴ[ed number of shares outstanding).
+Pricing the 
+fund
+Investors purchase at the current market value (P2P) 
+plus a commission.
+Investors purchase at the NAV plus a 
+sales charge.
+IssuesCommon stock, preferred stock, and debt securities.Common stock only.
+Shares 
+purchased
+Shares can be purchased in full only.Shares can be purchased in full or 
+fractions (up to three decimal places).
+Purchased and 
+sold
+Initial public o΍erings (IP2s) go through underwriters  
+after that, investors purchase and sell shares either  
+over-the-counter or on an exchange (no redemption).
+Shares are sold and redeemed by the 
+fund only.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  133
+Comparing  like-type  funds  is  secondary.  So,  without  further  ado,  here  are  the  maÛor  types 
+(although variables within each fund can make a fund riskier or safer, I’ve placed the list in the 
+normal order from safest to riskiest):
+ »
+Money market Iund This fund (as you’ve probably guessed) invests in money market 
+instruments (shortterm debt securities). <ou need to know the speciȴcs of this fund more 
+than other types of funds. Here are the key points:
+• 
+It usually provides a check-writing feature (you’re given a checkbook) as a way of redeeming 
+shares.
+• 
+It’s always no-load (there’s no sales charge).
+• 
+It computes dividends daily and credits them monthly.
+• 
+There’s no penalty for early redemption.
+ »
+Ζncome Iund The primary objective of an income fund is to provide current revenue (not 
+growth) for investors. This type of fund invests most of its assets in a diversiȴed portfolio of (a) 
+debt securities that pay interest and in preferred and (b) common stock of companies that are 
+known to pay consistent dividends in cash.
+Income funds are considered much safer (more conservative) investments than growth funds. 
+You can assume for SIE exam (and real-life) purposes that income funds are better investment 
+choices for retirees and investors who are looking for a steady cash ȵow without much risk.
+ »
+%alanced Iund A balanced fund is a combination of a growth fund and an income fund. 
+Balanced funds invest in common stocks, preferred stocks, long-term bonds, and short-term 
+bonds, aiming to provide both income and capital appreciation while minimizing risk. These 
+funds don’t get hammered too badly when the market is bearish but usually underperform 
+when the market is bullish.
+ »
+*rowth Iund This fund is e[actly what youȇd e[pect it to be growth funds invest most of their 
+assets in a diversiȴed portfolio of the common stock of relatively new and e[isting companies, 
+looking for big increases in the stock prices. *rowth funds o΍er a higher potential for growth 
+but usually at a higher risk for the investor. This type of fund is ideal for an investor who’s 
+looking for long-term capital appreciation potential.
+Because of the inherent risk of investing in growth funds, they’re better for younger investors 
+who can take the risk because they have more time to recover their losses.
+Some growth funds are labeled as aggressive growth funds because the securities it invests in 
+are even riskier than those of a standard growth fund.
+ »
+6peciali]ed sector Iund A specialized or sector fund is a type of fund that invests primarily 
+in the securities of a single industry. A speciali]ed fund may invest only in ȴnancial services, 
+healthcare, automotive stocks, technology securities, and so on. Because specialized funds are 
+limited in their investments, you can assume that in many cases, they’re a little riskier (more 
+volatile) than the average fund.
+ »
+Ζnternational or gloEal Iund An international fund invests in companies based anywhere 
+outside of the investor’s home country. A global fund invests in securities located anywhere in 
+the world, including the investor’s home country. Although international and global funds may 
+be good to round out a portfolio, they aren’t without their risks. Along with the risk that 
+investors face by just investing in securities in general, holders of international and global 
+funds also face currency risk, which is the risk that the currency exchange rate between the 
+U.S. and foreign issuers will hurt investors. There’s also the additional risk that politics in a 
+particular country will harm the value of the fund.
+
+134 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+ »
+Ζndex Iund This type of fund invests in securities that are similar to a particular stock or bond 
+index. Rather than being actively managed, these types of funds are passively managed, which 
+means investors can expect lower or no management fees. Investors can expect that the NAV 
+of the fund will increase or decrease based on the movement of the benchmark index (S&P 
+500, DJIA, and so on) the fund mimics.
++edge Iunds :hat are they"
+You’ve probably heard about hedge funds but aren’t exactly sure what they are. For the SIE exam, 
+you do need to know a little bit about them. Because they aren’t open- or closed-end funds, unit 
+investment trusts, or face-amount certificate companies, they are an exception to the standard 
+definition  of  investment  company  under  the  Investment  Company  Act  of  1940.  In  addition, 
+because  they  are  considered private  equity  and  are only  open  to  sophisticated  (accredited)  
+investors, they are exempt from SEC registration. Hedge funds often require a very high initial  
+investment — sometimes $500,000 or more.
+Hedge funds hold a pool of investments and are professionally managed like mutual (open-end) 
+funds but have a lot more flexibility. Hedge funds are typically much more aggressive in nature 
+and may buy securities on margin, sell securities short, purchase or sell options, and so on in an 
+attempt to maximize gains. I guess you can almost think of them as a “whatever it takes to make 
+money” type of fund.
+Don’t let the variety of funds distract you too much. So many different funds are out there that 
+the choices could drive you crazy. I list the main types, but funds can invest by obÛective (as previ-
+ously listed) or composition, such as with foreign stock funds (which invest in foreign securities), 
+tax-exempt funds (which invest in municipal bonds), U.S. government funds, and so on. The 
+composition of the fund should help you match it with your customer’s obÛectives. A customer 
+primarily looking for safety and income might invest in a U.S. government bond fund.
+'ealing with discounts
+Investors who have the extra funds available may be able to receive a reduced sales charge for 
+large dollar purchases. Breakpoints (see the next sections) and the letter of intent (see the next 
+sections) are available to investors of open-end funds and unit investment trusts. Because closed-
+end  funds,  after  the  initial  offering,  are  traded  in  the  market,  investors  do  not  receive 
+breakpoints. Dollar cost averaging and fixed share averaging are most often used for open-end 
+fund purchases but may apply to other investments as well.
+)81' 2) $ )81'
+A fund of funds is a fund that invests in other funds, as opposed to individual securities. Many funds are 
+actually funds of funds, such as funds of hedge funds and life-cycle funds. Life-cycle funds are also called 
+targeted or age-based funds. The idea behind life-cycle funds is to automatically adjust the composition of 
+the fund so that investors take less risk as they get older. Typically, younger investors can afford to take 
+more financial risk and, therefore, invest a larger percentage of their portfolio in equity securities and a 
+lesser percentage in fixed-income securities. As investors grow older, the percentages should change so 
+that a larger percentage of the portfolio is in fixed-income securities and a lesser percentage is in equity 
+securities. Life-cycle funds are set up with targeted retirement dates. Investors choose the life-cycle fund 
+that matches their retirement date, and the fund adjusts its holdings occasionally so that equity funds 
+gradually decrease and funds that invest in fixed-income securities gradually increase.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  135
+%reakpoints
+Funds have an investment adviser (portfolio manager) who gets paid a percentage of the value of 
+the securities held in the fund. Therefore, one way to entice investors to spend more is to reduce 
+the sales charge when they spend a certain minimum amount of money. That’s where the break-
+point comes in.
+Management  investment  companies  divide  purchase  amounts  into  different  tiers.  Within  a  
+certain range, investors all pay the same sales charge percentage. But when investors spend and/
+or the account grows enough to put them in the next tier (when they hit the breakpoint), they get 
+a reduced percentage sales charge. Breakpoints have no set schedule, so they vary from fund  
+to fund.
+Another  discount, rights  of  accumulation  (ROA),  allows  shareholders  to  receive  a  reduced  sales 
+charge when the amount of the funds held (based on their current price, not purchase price) plus 
+the  amount  purchased  is  enough  to  reach  a  breakpoint.  There  is  no  time  limit  for  rights  of 
+accumulation.
+Here are a few key points for you to remember for the SIE exam:
+ »
+Breakpoints must be disclosed in the prospectus.
+ »
+Breakpoints aren’t available to partnerships or investment clubs (several people pooling money 
+to receive reduced sales charges).
+ »
+Breakpoints are generally available to individual investors, joint accounts with family members, 
+UGMA accounts, and corporations.
+%reakpoint sales
+As an agent, you’re responsible for letting investors know about the existence of breakpoints. A 
+breakpoint sale occurs when you induce a sale Ûust below the level where an investor would receive 
+a breakpoint or an additional sales discount. As shown in Table 9-2, you would make more money 
+if a client purchased $23,000 worth of a fund instead of $25,000 because of the discounted sales 
+charge the customer would receive at $25,000. It’s your responsibility to let the client know that 
+by investing $2,000 more, they can reach a breakpoint. Not disclosing breakpoints and inducing 
+sales Ûust below breakpoints are violations.
+/etters oI intent
+A letter of intent (LOI) signed by an investor allows them to receive a breakpoint (quantity dis-
+count) right away with the initial purchase, even if the investor hasn’t yet deposited enough 
+money to achieve the breakpoint. This document states that as long as the investor deposits 
+enough within a 13-month period, they will receive the discounted sales charge right away.
+TABLE -	%reakpoints Ior $yl'ec *rowth )und
+Purchase AmountSales Charge
+Ȃ2,5%
+2,000Ȃ,3%
+0,000Ȃ,2%
+$100,000 and up1.5%
+
+136 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+Here are a few specifics about the letter of intent that you need to know for the SIE:
+ »
+The investor has 13 months after the ȴrst deposit to live up to the terms of the letter of intent 
+in order to maintain the reduced sales charge.
+ »
+The /2I may be backdated for up to 90 days, meaning that it may apply to a previous purchase. 
+However, remember that if the /2I applies to a previous purchase, the 3month period starts 
+from the date of that previous transaction.
+ »
+While the investor is under the letter of intent, shares are held in escrow to pay for the 
+di΍erence in the sales charge. If the investor doesnȇt live up to the terms of the obligation,  
+the fund sells the shares held in escrow.
+Here’s how a letter of intent may work. Suppose that Mr. Smith purchased $10,000 worth of 
+AylDec Growth Fund two months ago and is investing another $10,000 into the fund right now. 
+Mr. Smith believes that he’ll keep investing in AylDec Growth Fund and would like to get a reduced 
+sales charge for investments of $25,000 and up (see Table 9-2 for the breakpoints).
+Mr.  Smith  signs  a  LOI  and  wants  to  apply  it  to  his  previous  purchase.  Because  his  previous  
+purchase was two months ago, Mr. Smith has only another 11 months to invest the remaining 
+$5,000 into AylDec Growth Fund. Mr. Smith will receive the 3 percent sales charge on his $10,000 
+investment right now, which will be reduced by the overage he paid on the initial investment of 
+$20,000. In other words, he’ll pay only $100 sales charge on the current investment ($300 for this 
+transaction minus the $200 overpaid from the previous investment) when he invests the $10,000. 
+As long as Mr. Smith deposits the additional $5,000 by the end of the LOI’s timeframe, he’ll pay 
+the 3 percent sales charge. However, if Mr. Smith doesn’t live up to the terms of the agreement, 
+AylDec Growth Fund will sell the shares held in escrow to pay for the difference in the sales 
+charge.
+Investors may redeem their shares at any time, even if they’re under a LOI.
+)iguring the sales charge and puElic o΍ering 
+price oI openend Iunds
+You need to know two basic formulas to determine the sales charge and public offering price of 
+open-end funds. Yes, every chapter seems to have more formulas, but these formulas are pretty 
+straightforward and shouldn’t cause you too many sleepless nights.
+6ales charge percent
+The sales charge, which is set at a maximum of 8ȳ percent, is part of the public offering price 
+(POP), or ask price, not something tacked on afterward like a sales tax. One of the tricks for  
+calculating the sales charge (or load) for open-end funds is remembering that the POP equals  
+100 percent. Therefore, if the sales charge is 8 percent, the NAV is 92 percent of the POP. The 
+formula for determining the sales charge percentage is as follows:
+salescharge
+askbid
+ask
+POPNAV
+POP
+The following question tests your expertise in calculating the sales charge of a mutual fund.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  137
+ABC Aggressive Growth Fund has a net asset value of $9.60 and a public offering price of $10.00. 
+What is the sales charge percent?
+$ 3.4 percent
+% 3.75 percent
+& 4 percent
+' 4.35 percent
+The right answer is (C). The first thing you have to do is set up the equation. Start with the POP 
+of $10.00 and subtract the NAV of $9.60 to get $0.40. Next, divide the $0.40 by the POP of $10.00 
+to get the sales charge of 4 percent:
+salescharge
+POPNAV
+POP
+$10.00-$9.60
+$10.00
+$0.40
+$10.00
+4%
+To help you remember that the ask (offer) price of a fund is the same as the POP, remember to 
+ask your POP about it.
+3uElic o΍ering price 323
+When taking the SIE exam, you may be asked to figure out the POP of a mutual fund when you’re 
+given only the sales charge percent and the NAV.
+The sales charge is already part of the POP, so the sales charge is not equal to the sales charge 
+percent times the NAV. Use the following formula to figure out how much an investor has to pay 
+to buy shares of the fund when you know only the NAV and the sales charge percentage:
+publicofferingprice
+netassetvalue
+100%salescharge
+&lassiIying the load
+As I explain earlier in this chapter, most mutual funds charge a sales charge (also known as a 
+load) that’s built into the POP. Most charge up front, but some charge constantly; some charge 
+when redeeming; and some don’t charge a load at all. Depending on how investors are charged, 
+mutual funds are broken into classes:
+ »
+&lass $ Irontend load The investor pays the load when purchasing shares of the fund. 
+These funds typically are better for long-term investors because they usually have lower 
+expense ratios, and they have breakpoints for large dollar purchases.
+ »
+&lass % Eackend load The investor pays the load when redeeming shares of the fund. 
+These funds have higher expense ratios than Class A but often convert to Class A if held for 
+many years. 9ery few mutual fund companies o΍er Class % shares at this point.
+ »
+&lass & leYel load The investors pay a periodic fee (usually, annually) over the time period 
+that they hold the fund. These funds have higher expense ratios than Class A and have an exit 
+fee, which is often eliminated after a year or two. These funds typically are the best option for 
+short-term investors.
+ »
+1oload Investors don’t pay a sales charge but may be charged some sort of transaction  
+fee. Unlike load mutual funds, no-load funds may not charge a 12b-1 fee greater than  
+25 basis points.
+
+138 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+&onsidering 2ther ΖnYestment  
+&ompany 2ptions
+A couple of other types of investment companies — face-amount certificate companies and unit 
+investment trusts (UITs) — aren’t as popular as they used to be. Unfortunately, even though you 
+may never sell any, you do need to know them for the SIE exam. You probably won’t see more 
+than a question or two on these topics. But exchange-traded funds (ETFs) are becoming increas-
+ingly popular, so your chance of seeing a question on ETFs and/or inverse ETFs is pretty high.
+)aceamount certificate companies
+A Â«eɔmïĒçt «ertifi«te is a type of packaged security that’s similar to a zero-coupon bond (see 
+Chapter 7); investors make either a lump-sum payment or periodic payments in return for a 
+larger future payment. The issuer of a face-amount certificate guarantees payment of the face 
+amount (a fixed sum) to the investor at a preset date. Very few face-amount certificate companies 
+are around today, which is why the SIE exam doesn’t include many questions about this type of 
+packaged security.
+8nit inYestment trusts
+A unit investment trust (UIT) is a registered investment company that purchases a fixed (unman-
+aged) portfolio of income-producing securities (typically, bonds) and holds them in trust, which 
+means that a UIT acts as a holding company for its investors. Then the company issues redeem-
+able shares (units) that represent investors’ interest in the trust. Unlike mutual funds, UITs are 
+set up for a specific period of time and have a set termination date. Any capital gains, interest, 
+and/or dividends are passed on to shareholders at regular intervals.
+UITs have a finite number of shares outstanding and are distributed in the primary market at the 
+initial public offering (IPO) price. Because a limited number of shares are outstanding and must 
+be redeemed with the issuer or sponsor, liquidity is very limited.
+Like mutual (open-end) funds, UITs can be purchased by type, such as growth, income, balanced, 
+international, and so forth.
+Here are the two main categories of these trusts that you should be familiar with for the exam:
+ »
+)ixed inYestment trusts These companies invest in a portfolio of debt securities, and the 
+trust terminates when all the bonds in the portfolio mature.
+ »
+3articipating trusts These companies invest in shares of mutual funds. The mutual funds 
+that the trust holds don’t change, but the securities held by the underlying mutual funds do.
+Because the portfolio of securities is fixed, UITs don’t employ investment advisers and, therefore, 
+have no investment adviser fees during the life of the trust. Nice break!
+Exchangetraded products Iunds and notes
+Exchange-traded products (ETPs), which you’re likely to encounter on the exam, include ETFs 
+and exchange-traded notes (ETNs). ETPs are considered to be alternatives to investing in mutual 
+funds; they not only provide diversification, like mutual funds but can also be sold short and 
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  139
+purchased on margin. Investors should be aware, however, that they’ll typically be charged a 
+commission for buying and selling ETPs, which can really cut into any potential profits.
+Most ETFs are passive, meaning that they’re designed to be a single security that tracks certain 
+indices such as the SʩP 500, the SʩP 100, the Dow Eones Industrial Average (DEIA), Nasdaq secu-
+rities, and so on. Some ETFs are active, meaning that the securities they hold may change. Quite 
+often, ETFs are designed to mirror securities held by certain mutual funds.
+Exchangetraded Iunds
+Exchange-traded  funds  (ETFs)  are  typically  registered  as  open-end  funds  but  act  more  like 
+closed-end funds. They either passively track an index or other benchmark or are actively man-
+aged. ETFs, as the name implies are actively traded on an exchange. ETFs provide investors with 
+diversification along with ease of trading, the ability to sell short, and purchase shares on margin. 
+Although ETFs can include investments across many asset classes, their main focus is on stocks 
+(equity funds) and bonds (bond funds).
+Inverse ETFs (also known as short ETFs or bear ETFs) are exchange-traded funds that are designed 
+using many derivative products (options, for example) to attempt to profit from a decline in the 
+value of the underlying index (the SʩP 500, for example). Inverse ETFs can be used to profit from 
+a decline in a broad market index or in a specific sector, such as the energy or financial sectors.
+When compared to mutual funds, ETFs have some distinct advantages, including the ability to 
+purchase shares on margin, ease of trading, and lower operating costs. Mutual funds have forward 
+pricing — meaning that purchases or redemptions take place at the next computed public offering 
+price (POP) or net asset value (NAV) — but ETFs can be traded any time throughout the day at the 
+current bid or ask price.
+A couple of disadvantages exist when comparing ETFs to mutual funds: Investors are typically 
+charged commissions when buying and selling and, because they are so easy to trade, investors 
+are  more  likely  to  trade  excessively  instead  of  holding  their  positions.  (There  are  some  
+commission-free ETFs but they usually have higher expense ratios.)
+Leveraged ETFs are designed to attempt to return a multiple of the daily return of a benchmark 
+index (the SʩP 500, for example) that it tracks. (Think multiplication as in 2 times the daily return 
+or 3 times the daily return.) Most leveraged and inverse ETFs are designed to achieve their obÛec-
+tives on a daily basis, which means that the securities held by the fund are changed more often 
+than other funds.
+Note: Because of the risk of inverse ETFs and leveraged ETFs, they are not long- or intermediate-
+term investments. In addition, because of the risk of these investments, it has to be determined 
+by the firm if a customer is suitable for these investments prior to a recommendation. If a firm 
+determines that a particular leveraged ETF or inverse ETF is suitable for recommendation, they 
+have to determine which customers are suitable.
+Exchangetraded notes
+ETNs have characteristics of ETFs and fixed-income securities. ETNs are unsecured debt securi-
+ties issued by a bank or financial institution. Their return is linked to a particular market index. 
+ETNs don’t provide dividends or coupon payments, so investors receive income at a specified 
+maturity date. Because ETNs are traded on an exchange, they may be purchased on margin or sold 
+short. If an investor holds an ETN until the maturity date, the investor receives a principal amount 
+based on the performance of the index the note is tracking. Because ETNs are debt securities, they 
+would be negatively impacted if the issuer’s credit rating is downgraded. ETNs are not suitable for 
+all investors because they’re typically quite complex and carry many risks.
+
+140 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+ΖnYestment company rules a and a
+There are certain additional rules for affiliated persons, advisers, officers, and/or directors of 
+investment companies — specifically Rules 17a-6 and 17a-7. Please note the following important 
+points.
+ »
+According to Rule 17a-6, aɝliated persons of investment companies (persons aɝliated with the 
+manager of the fund, the custodian bank, and owners of 5 percent or more of the outstanding 
+shares of the fund) are not allowed to trade securities within the fund’s portfolio of securities. 
+However, aɝliated persons are certainly allowed to buy and redeem shares of the fund like 
+regular public investors.
+ »
+Rule 17a-7 says that advisers, oɝcers, or directors may trade securities held by funds within 
+the same family of funds (for example, trading securities held from the portfolio of securities 
+of one of Fidelity’s Large Value Funds to one of Fidelity’s Large Blend Funds or vice versa).
+As with other securities, all investment company advertisements released by a broker-dealer 
+must be approved by a registered principal of the firm.
+$dding $nnuities to a 3ortIolio
+Annuities are similar to mutual funds, except annuities are designed to provide supplemental 
+retirement income for investors and are typically more expensive than mutual funds. Life insur-
+ance companies issue annuities, and these investments provide guaranteed payments for the life 
+of the holder. The SIE exam tests you on the two basic types of annuities: fixed and variable. 
+Because variable annuities are considered securities and fixed annuities are not (because of the 
+guaranteed payout by the insurance company), most of the annuity questions on the SIE exam are 
+about variable annuities.
+Gather very specific information about your client before making recommendations. In addition, 
+before recommending annuities, make sure you really understand the ins and outs and know 
+what you’re talking about. Annuities have been under the watchful eye of state insurance com-
+missions and the SEC due to inappropriate recommendations from some brokers. Annuities typi-
+cally aren’t recommended for younger clients (most annuity purchasers are older than 50), for 
+clients older than 75, or for a client’s entire investment portfolio. For information on portfolio 
+and securities analysis, see Chapter 13.
+/ooking at fixed annuities
+The main thing for you to remember about fiģe± ççĒities is that they have fixed rates of return 
+that the issuer guarantees. Investors pay money into fixed annuities, and the money is deposited 
+into the insurance company’s general account. After the investor starts receiving payments from 
+the fixed annuity (usually monthly), the payments remain the same for the remainder of the 
+investor’s life. Because of the guaranteed payout, fixed annuities are not considered securities 
+and, therefore, are exempt from SEC registration requirements and from the Investment Com-
+pany Act of 1940. Therefore, whereas sellers of fixed annuities must have an appropriate insur-
+ance license, a securities license is not required.
+Because the payouts associated with a fixed annuity remain the same, they’re subÛect to purchas-
+ing power risk (the risk that the investment won’t keep up with inflation). An investor who received 
+payments of $1,000 per month in the 1970s may have been able to survive; however, that amount 
+today is not even likely to pay your monthly grocery bill.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  141
+)ocusing on YariaEle annuities
+Insurance companies introduced variable annuities as a way to keep pace with (or hopefully 
+exceed) inflation. In a fixed annuity, the insurance company bears the investment risk; however, 
+in a variable annuity, the investment risk is borne by the investor. Because the investors assume 
+the investment risk, variable annuities are considered securities and must be registered with the 
+SEC. All variable annuities have to be sold with a prospectus, and only individuals who hold 
+appropriate securities and insurance licenses can sell them.
+The money that investors deposit is held in a separate account (separate from the insurance com-
+pany’s other business) because the money is invested differently. The separate account is invested 
+in securities such as common stock, bonds, mutual funds, and so on, with the hope that the 
+investments will keep pace with or exceed the inflation rate.
+The assumed interest rate (AIR) is a proÛection of the performance of the securities in the separate 
+account over the life of the variable annuity contract. If the assumed interest rate is 4 percent and 
+the performance of the securities in the separate account is equal to 4 percent, the investor 
+receives the payouts that they expect. However, if the securities outperform the AIR, the investor 
+receives higher payouts than expected. And unfortunately, if the securities held in the separate 
+account underperform the AIR, the investor gets lower payouts than expected.
+3utting money into and receiYing  
+money Irom annuities
+Investors  have  choices  when  purchasing  annuities  and  getting  distributions.  Investors  may 
+choose a lump-sum payment or multiple payments, depending on their needs. Investors also 
+have a choice regarding how they want to get their distributions at retirement.
+The payin accumulation phase
+Payments into both fixed and variable annuities are made from after-tax dollars, meaning that 
+the investor can’t write the payments off on their taxes. However, payments into both fixed and 
+variable annuities grow on a tax-deferred basis. (They aren’t taxed until the money is with-
+drawn.) If an investor has contributed $80,000 into a variable annuity that’s now worth $120,000, 
+the investor is taxed only on the $40,000 difference because they have already paid taxes on the 
+contribution. If an annuitant dies during the pay-in phase, most annuity contracts require a death 
+©eçefit to be paid to the annuitant’s beneficiary. The death benefit is typically the greater of all the 
+money in the account or some guaranteed minimum.
+Note: During the pay-in phase, an investor of a variable annuity purchases accumulation units. You 
+can think of the accumulation units as being similar to shares of a mutual fund.
+Investors have a few payment options to select when purchasing fixed or variable annuities. 
+Here’s the rundown of options:
+ »
+6ingle payment deIerred annuity An investor purchases the annuity with a lump-sum 
+payment, and the payouts are delayed until some predetermined date.
+ »
+3eriodic payment deIerred annuity An investor makes periodic payments (usually monthly) 
+into the annuity, and the payouts are delayed until some predetermined date this is the most 
+common type of annuity.
+ »
+Ζmmediate annuity An investor purchases the annuity with a large sum, and the payouts 
+begin right away or within a couple months.
+
+142 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+Most annuities in which investors are making scheduled deposits provide a waiver of premium 
+during the pay-in phase if the annuitant becomes disabled or is confined to long-term care.
+*etting the payout
+Investors of both fixed and variable annuities have several payout options. These options may 
+cover Ûust the annuitant (investor) or the annuitant and a survivor. No matter what type of payout 
+option the investor chooses, they will be taxed on the amount above the contribution. The earn-
+ings grow on a tax-deferred basis, and the investor is not taxed on the earnings until withdrawal 
+at retirement.
+Note: During the payout phase (annuity phase) of a variable annuity, accumulation units are con-
+verted into a fixed number of annuity units. Investors receive a fixed number of annuity units 
+periodically (usually monthly) with a variable value, depending on the performance of the securi-
+ties in the separate account.
+The kind of annuity (fixed or variable) and the payout options selected partly determines the pay-
+ment amounts to the annuitant. So, when purchasing an annuity, the individual has to decide 
+which of the following payout options works best for them:
+ »
+/iIe straight liIe annuity This type of payment option provides income for the life of 
+the annuitant (the individual covered by the annuity) however, after the annuitant dies, 
+the insurance company stops making payments. This type of annuity is riskiest for the 
+investor because if the annuitant dies earlier than expected, the insurance company  
+gets to keep the leftover annuity money. Because it’s the riskiest type of annuity for the 
+annuitant, it has the highest payouts of all the options. As with joint life with last survivor 
+annuities, life annuity payment amounts are based on the age and sex of the 
+annuitant(s).
+ »
+/iIe annuity with period certain This payout option guarantees payment to the annuitant 
+for a minimum number of years (10, 20, and so on). For example, if the annuitant were to 
+purchase an annuity with a 20year guarantee and die after  years, a named beneȴciary 
+would receive the payments for the remaining 13 years.
+ »
+-oint liIe with last surYiYor annuity This option guarantees payments over the lives of two 
+individuals. As you can imagine, this type of annuity is typically set up for a spouse. If the wife 
+dies ȴrst, the husband receives payments until his death. If the husband dies ȴrst, his wife 
+receives payments until her death. Because this type of annuity covers the lifespans of two 
+individuals, it has the lowest payouts.
+All annuities have a mortality guarantee. This guarantee means that the investor receives pay-
+ments as long as they live, even if it’s beyond their life expectancy.
+%eing mindIul oI the early withdrawal penalty
+As with most other retirement plans, annuity investors are hit with a 10 percent early withdrawal 
+penalty if they withdraw the money before age 59ȳ. Yes, that’s correct — the 10 percent penalty 
+is added to the investor’s tax bracket. Typically, annuities include a waiver of the 10 percent  
+penalty in cases such as the need to cover long-term care expenses, death, or disability.
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  143
+8nderstanding the ΖnYestment &omponent  
+oI 9ariaEle /iIe Ζnsurance 3roducts
+You may wonder what life insurance is doing in the SIE, which is mainly about investments. Well, 
+the answer is that certain life insurance products (specifically, variable  life ɜVLIɝ and variable  
+universal  life ɜVULɝ) have an investment component. Like variable annuities, variable life and 
+variable universal life insurance policies have a separate account for investing. That separate 
+account is kept separate from the insurance company’s general fund. You won’t need to know too 
+much about the aforementioned insurance products, so I’ll keep it brief.
+Persons selling variable annuities, variable life insurance, and variable universal life insurance 
+must have not only an appropriate securities license but also an insurance license. Before recom-
+mending any of the previously mentioned products, you should do an analysis of the client’s 
+needs and make appropriate recommendations.
+9ariaEle liIe
+Variable life policies have a fixed premium. As with variable annuities, the investor chooses the 
+investments held in a separate account. The death benefit (face amount) on the policy is fixed to 
+a minimum but not to a maximum. The death benefit may increase depending on the perfor-
+mance of the securities held in the separate account. If the separate account performs poorly, 
+there may be limited or no cash value built up. Policyholders may borrow up to 75 percent of the 
+cash value.
+9ariaEle uniYersal liIe
+Unlike variable life policies, variable universal life policies do not have fixed premiums. As such, 
+they are sometimes called flexible premium variable life policies. As with variable life policies, the 
+investors can pick the securities held in the separate account. In this case, since the premium is 
+not fixed and the securities held in the separate account may perform poorly, the minimum death 
+benefit and cash value are not guaranteed.
+Variable annuities, variable life insurance, and variable universal life insurance may be referred 
+to as variable contracts on the exam.
+Testing <our .nowledge
+This  chapter  touched  base  with  some  basics  about  different  types  of  investment  companies, 
+annuities, life insurance, and so on. There are 15 questions here, so go ahead and see how you do. 
+Good luck!
+
+144 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+3ractice questions
+ Which of the following is TRUE of mutual funds?
+Ζ They are a one-time offering of new securities.
+ΖΖ 
+The issuer continuously offers new shares.
+ΖΖΖ Shares must be sold in the market.
+Ζ9 Shares are redeemed with the issuer.
+$ I and III
+% I and IV
+& II and III
+' II and IV
+ For an investment company to be considered diversified, what is the maximum percentage of 
+outstanding shares that the investment company can own of another company?
+$ 1 percent
+% 5 percent
+& 10 percent
+' 15 percent
+ A fund that uses leverage, options, short sales, as well as other speculative investment strate-
+gies in an attempt to maximize gains is called a
+$ balanced fund
+% growth fund
+& aggressive growth fund
+' hedge fund
+ Which of the following is TRUE about a letter of intent?
+Ζ It remains in effect for 13 months.
+ΖΖ It may be backdated for up to 90 days.
+ΖΖΖ Shares may be held in escrow.
+$ I and II
+% I and III
+& II and III
+' I, II, and III
+ What is the maximum sales charge for a mutual fund?
+$ 8 percent, which is built into the public offering price
+% 8 percent, which is added to the public offering price
+& 8ȳ percent, which is built into the public offering price
+' 8ȳ percent, which is added to the public offering price
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  145
+ 
+Which of the following is exempt from the Investment Company Act of 1940?
+$ Mutual funds
+% Closed-end funds
+& Fixed annuities
+' Variable annuities
+ Which of the following is true of private-equity funds?
+Ζ They are exempt from SEC registration.
+ΖΖ 
+They must be registered with the SEC.
+ΖΖΖ They may purchase private companies.
+Ζ9 They may not purchase private companies.
+$ I and III
+% I and IV
+& II and III
+' II and IV
+ A ɗɗɗɗɗɗɗɗɗɗ fund only invests in a specific industry.
+$ Sector
+% Hedge
+& Balanced
+' Growth or aggressive growth
+ Open-end funds may issue
+$ common stock
+% preferred stock
+& bonds
+' all of the above
+ TUV Balanced Fund has a net asset value of $21.40 and a public offering price of $22.60. What is 
+the sales charge percent?
+$ 5.15 percent
+% 5.30 percent
+& 5.60 percent
+' 5.66 percent
+ FerdCo Communications Fund has a NAV of $14.20 and a POP of $15.02. FerdCo offers  
+breakpoints for large dollar purchases. If FerdCo is only charging a 4 percent sales charge for 
+purchases between $20,000 and $30,000, how many shares would Smith receive if purchasing 
+$25,000 worth?
+$ 1,597.225 shares
+% 1,662.882 shares
+& 1,664.447 shares
+' 1,690.331 shares
+
+146 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+ Which of the following can be purchased on margin?
+$ ETFs
+% Mutual fund Class A shares
+& Life-cycle funds
+' Money market funds
+ All of the following are ways a variable annuity can be purchased ECEPT
+$ immediate annuity
+% payment deferred immediate annuity
+& sngle payment deferred annuity
+' periodic payment deferred annuity
+ Which of the following life insurance products has a fixed premium?
+$ Variable life
+% Variable universal life
+& Both (A) and (B)
+' Neither (A) nor (B)
+ Which of the following are TRUE about variable annuities?
+Ζ Investors purchase accumulation units during the pay-in phase.
+ΖΖ 
+Investors purchase annuity units during the pay-in phase.
+ΖΖΖ  If the performance of the securities held in the separate account exceeds the assumed 
+interest rate, payouts increase.
+Ζ9 Payments to variable annuities are made from pretax dollars.
+$ I and III
+% I, III, and IV
+& II and III
+' II, III, and IV
+
+CHAPTER   'eliYering 'iYersification with 3ackaged 6ecurities  147
+$nswers and explanations
+ ' Mutual funds are open-end funds. Mutual fund issuers continuously offer new shares. 
+Holders sell their shares by redeeming them with the issuer. By contrast, the issuer of a 
+closed-end fund would sell the securities once, and then they would be traded in 
+the market.
+ & According to the Investment Company Act of 1940, out of the 75 percent that must  
+be diversified, a diversified investment company may not own more than 10 percent of 
+outstanding shares of another company. In addition, the investment company cannot  
+invest more than 5 percent of its diversified assets into one issuer’s securities.
+ ' Hedge funds are the most speculative (riskiest) type of fund. Hedge funds are available 
+to accredited investors and are allowed to execute trades that other funds cannot.
+ ' Letters of intent allow mutual fund investors to receive a breakpoint (discounted sales 
+charge for large dollar purchases) right away as long as they purchase enough of the fund 
+within 13 months to receive the breakpoint. It may be backdated for up to 90 days so that 
+the 13-month period can apply to a previous purchase. The issuer may hold shares in 
+escrow to make sure the investor lives up to the terms of the letter of intent.
+ & The maximum sales charge for a mutual fund is 8ȳ percent of the amount invested. This 
+means that investors make their purchase at the public offering price, which already has 
+the sales charge built in.
+ & Fixed annuities are not considered investment companies since the payout is guaranteed 
+by the issuing insurance company.
+ $ Private-equity funds are only available to sophisticated (accredited) investors and are 
+exempt from SEC registration. As part of their investment strategy, they may purchase 
+private companies and/or purchase enough shares of public companies to gain control.
+ $ Sector funds invest in specific industries, such as automotives, pharmaceutical, energy, 
+technology, and so on.
+ $ Open-end (mutual) funds may only issue common stock. Conversely, closed-end funds 
+may issue common stock, preferred stock, and bonds.
+ % With mutual funds, the sales charge is built into the public offering price (POP), so you 
+have to subtract the net asset value (NAV) from the POP and then divide that by the 
+POP. Check out the following equation:
+salescharge
+POPNAV
+POP
+$22.60$21.40
+$22.60
+$1.20
+$22.60
+5.3%%
+ ' Because this investor is depositing enough to receive a breakpoint, the investor will not 
+be paying the regular POP (public offering price). So, to determine what this investor will 
+be paying per share, you have to calculate their POP. Look at the following equation:
+POP
+NAV
+100%salescharge
+$14.20
+100%4%
+$14.20
+96%
+$14.79per
+�
+sshare
+
+148 PART 3  'iYing 'eeper Taking a /ook at More &omplex 6ecurities
+Okay, you got the difficult part of the question completed. Now all you have to do is divide 
+the dollar purchase by Smith’s cost per share. Don’t let the fact that you may end up with 
+fractional shares confuse you because you’re allowed to purchase fractional shares of 
+mutual funds.
+$25,000invested
+$14.79
+pershare
+1,690.331
+shares
+ $ ETFs (Exchange-Traded Funds) can be purchased on margin, which provides investors 
+with a leveraged position with increased risk. All of the other choices listed must be paid for 
+in full. Since mutual funds are new securities, they may not be purchased on margin but are 
+marginable after being held for 30 days.
+ % (A), (C), and (D) are all possible ways of purchasing a variable annuity. However, an 
+insurance company is not going to let you collect on an annuity when not a single payment 
+has been made, as stated in (B).
+ $ Variable life insurance has a fixed premium, and the death benefit is fixed as to a 
+minimum but not a maximum. If the securities held in the separate account outperform the 
+expected return, the death benefit increases. Unlike variable life, variable universal life has 
+a flexible premium. In this case, if the securities held in the separate account underper-
+form, the death benefit and cash value are not guaranteed.
+ $ Looking at all of the answer choices, you see that III has to be true because it’s in all of 
+the answers. When an investor purchases an annuity, they’re purchasing accumulation 
+units. During the payout phase, the accumulation units are converted into annuity units. 
+Unlike many retirement plans, purchases of annuities are made from after-tax dollars —  
+in other words, they can’t be written off on your taxes.
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  149
+Working with Direct 
+Participation Programs 
+(DPPs) and REITs
+D
+irect participation programs (DPPs) can raise money to invest in real estate, oil and gas, 
+equipment leasing, and so on. More commonly known as limited partnerships, these busi-
+nesses  are  somewhat  similar  to  corporations  (stockholder-owned  companies).  Limited 
+partnerships, however, have some specific tax advantages (and disadvantages) that a lot of other 
+investments don’t have. According to tax laws, limited partnerships aren’t taxed directly; the 
+income or losses are passed directly through to the investors.
+DPPs were once known as tax shelters because of the tax benefits to investors, but tax law changes 
+have taken away a lot of these advantages. As a result, DPPs have somewhat fallen out of favor for 
+investors (though not entirely for the SIE exam designers).
+In this chapter, I explain the differences between limited and general partners, as well as the 
+types of partnerships, their particular risks, and their potential rewards. The info here can help 
+you examine those risks and rewards and determine the suitability of DPPs for investors. I also 
+explain two inevitable facts of life as they apply to partnerships: the filing of paperwork and the 
+payment of taxes. Finally, I explain the ins and outs and some of the specifics you need to know 
+about real-estate investment trusts (REITs). Unlike mutual funds that invest in a pool of securi-
+ties, REITs invest in real estate. If you can’t wait, they’re discussed toward the end of the chapter. 
+At the very end, I test your knowledge with a quick chapter quiz.
+Chapter 10
+IN THIS CHAPTER
+ »8nderstanding the specifics oI 
+DPPs
+ »Distinguishing a limited partner 
+Irom a general partner
+ »Getting a handle on the paperwork 
+and taxes involved
+ »/ooking at the di΍erent types oI 
+DPPs
+ »Mitigating real-estate risk with 
+REITs
+ »Taking a chapter quiz
+
+150 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+6earching Ior Ζdentity :hat  
+DPPs Are (and Aren’t)
+Eust as stockholders are owners of a corporation, limited (and general) partners are owners of a 
+direct participation program. The key difference for people investing in DPPs is that they’re illiq-
+uid, so investors can expect that their investment dollars will be tied up for a long period of time, 
+though they receive tax advantages for doing so. Most DPPs (at least the ones you’ll be tested on) 
+are set up for real-estate proÛects, oil and gas proÛects, or equipment leasing.
+The Internal Revenue Service (IRS) determines whether an enterprise is a corporation or a limited 
+partnership. For a limited partnership to be considered (and taxed) as a limited partnership, it has 
+to avoid at least two of the following corporate characteristics (usually, the last two):
+ »
+Having a centralized management: Corporations have management in one place. The 
+challenges of managing a limited partnership from several locations make this corporate  
+trait Tuite diɝcult for a partnership to avoid.
+ »
+3roYiding limited liaEility Corporate shareholders have limited liability; well, so do limited 
+partners. The liability of corporate shareholders is limited to the amount invested, and the 
+liability of limited partners is limited to the amount invested plus a portion of any recourse 
+loans taken out by the partnership (if any). Therefore, investors of a limited partnership  
+would have limited liability unless a limited partner takes on an active role in the management 
+decisions. If a limited partner takes on an active role in management, they could be considered 
+a general partner and have unlimited liability.
+ »
++aYing perpetual neYerending liIe Unlike corporations, which hope to last forever, limited 
+partnerships are set up for a deȴned period of time. /imited partnerships are dissolved at a 
+predetermined time, such as when their goals are met or after a set number of years.
+ »
++aYing Iree transIeraEility oI partnership interest 'PPs are diɝcult to get into and out of. 
+Unlike shares of stock, which can be freely bought and sold by anyone, limited partners not 
+only have to pass the scrutiny of a registered rep, but also require the approval of the general 
+partner. DPP investors (limited partners) must show that they have enough money to invest 
+initially and have liquidity in other investments in the event that the partnership needs a loan.
+For SIE exam purposes, you need to remember that the easiest corporate characteristics for a 
+partnership to avoid are perpetual life (continuity of life) and free transferability of shares; the 
+most difficult to avoid are providing limited liability and having a centralized management.
+The DPP Characters: General  
+and Limited Partners
+By law, limited partnerships require at least one limited partner and one general partner. Limited 
+partners are the investors, and general partners are the managers. When you’re looking at gen-
+eral and limited partners, you want to focus on who can and can’t do what.
+General partners are responsible for the day-to-day decision-making (overseeing operations, 
+deciding when to buy or sell, choosing what to invest in, and so on) for the partnership. Limited 
+partners (the investors) provide the bulk of the money for the partnership but, unlike general 
+partners, they can’t make any of the partnership’s investment decisions. Table 10-1 lays out the 
+key things to remember about general and limited partners for the SIE.
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  151
+Partnerships are usually set up as tenants in common (TIC). Each limited partner owns an undi-
+vided interest in the property held by the partnership. In addition, in the event that one of the 
+limited partners dies, their partnership interest will be passed to a beneficiary or to their estate.
+Pushing through Partnership Paperwork
+For  the  SIE  exam,  you  need  to  know  about  certain  paperwork  that’s  specific  to  limited   
+partnerships. In the following sections, I discuss the three documents necessary for a limited 
+partnership to exist.
+Partnership agreement
+The partnership agreement is a document that includes the rights and responsibilities of the lim-
+ited and general partners. Included in the agreement are basics that you would probably guess, 
+such as the name of the partnership, the location of the partnership, the name(s) of the general 
+partner(s), and so on. In addition, the partnership agreement addresses the general partner’s 
+rights to
+ »
+Charge a management fee for making decisions for the partnership
+ »
+Enter the partnership into contracts
+ »
+Decide whether cash distributions will be made to the limited partners
+ »
+Accept or decline limited partners
+TABLE 1-1	Comparing General and Limited Partners
+CategoryGeneral Partners/imited Partners
+Decision-
+making
+Are legally bound to make decisions in the 
+best interest of the partnership; make all the 
+partnership’s day-to-day decisions
+Have voting rights but can’t make decisions for the 
+partnership
+TasksBuy and sell property for the partnership; 
+manage the partnership’s assets
+Provide capital; vote; can keep general partners in 
+check by reviewing books
+/iability and 
+litigation
+Have unlimited liability (can be sued and held 
+personally liable for all partnership debts and 
+losses)
+Have limited liability (limited to the amount 
+invested and a proportionate share of any recourse 
+loans taken by the partnership); can inspect all the 
+partnership books; can sue the general partner or 
+can sue to dissolve the partnership
+Financial 
+involvement
+0aintain a ȴnancial interest in the partnershipProvide money contributed to the partnership, 
+recourse debt of the partnership, and nonrecourse 
+debt for real-estate DPPs
+Financial 
+rewards
+Receive compensation for managing the 
+partnership
+Receive their proportion of proȴts and losses
+Conȵicts of 
+interest
+Can’t borrow money from the partnership; 
+can’t compete against the partnership (can’t 
+manage two buildings for two di΍erent 
+partnerships in close proximity, for example)
+None; can invest in competing partnerships
+
+152 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+&ertificate oI limited partnership
+The «ertifi«te ïÂ Þimite± ûrtçersÊiû is the legal agreement between the general and limited part-
+ners, which is filed with the U.S. Securities and Exchange Commission (SEC) for public offerings 
+and the secretary of state in the home state of the partnership. The certificate of limited partner-
+ship includes basic information such as the name of the partnership and its primary place of 
+business, the names and addresses of the limited and general partner(s), and the following items:
+ »
+The objectives (goals) of the partnership and how long the partnership is expected to last
+ »
+The amount contributed by each partner, plus future expected investments
+ »
+How the proȴts are to be distributed
+ »
+The roles of the participants
+ »
+How the partnership can be dissolved
+ »
+Whether a limited partner can sell or assign their interest in the partnership
+If any significant changes are made to the partnership, such as adding new limited partners, the 
+certificate of limited partnership must be amended accordingly.
+Subscription agreement
+The subscription agreement is an application form that potential limited partners have to complete. 
+The general partner uses this agreement to determine whether an investor is suitable to become 
+a limited partner. The general partner has to sign the subscription agreement to officially accept 
+an investor into the DPP.
+One of your Ûobs as a registered rep is to prescreen the potential limited partner to make sure that 
+the partnership is a good fit for that person. Consider the following questions:
+ »
+Does the investor have enough money to invest (net worth and annual income)?
+ »
+Does the investor have enough cash or liquidity in other investments in case the partnership 
+needs more money?
+ »
+Is the potential partner okay with tying up money for a long period of time?
+ »
+Can they handle the risks?
+Also, you need to review the agreement to ensure (to the best of your ability) that the information 
+the investor provides is complete and accurate. Besides the investor’s payment, the subscription 
+agreement has to include items such as the investor’s net worth and annual income, a statement 
+explaining the risks of investing in the partnership, and a power of attorney that allows the gen-
+eral partner to make partnership investment decisions for the limited partner. The subscription 
+agreement is typically sent in with some form of payment from the potential limited partner.
+Passive Income and Losses: Looking  
+at Taxes on Partnerships
+DPPs used to be called tax shelters because DPPs flow through (or pass through) not only income, 
+but also losses to investors. (Corporations flow through only income.) Before 1986, investors 
+could write off these losses against income from other investments, such as capital gains. Then 
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  153
+Congress stepped in because it felt that this write-off was too much of an advantage for investors 
+(or our elected officials felt that the IRS wasn’t collecting enough money) and decided to give 
+DPPs  their  own  tax  category.  Now,  because  investors  aren’t  actively  involved  in  earning  the 
+income, taxes on DPPs are classified as passive income and passive losses. (See Chapter 15 for more 
+info on taxes and types of income.)
+The key thing to remember for SIE purposes is that investors can write off passive losses only 
+against passive income from other DPP investments.
+Evaluating DPPs
+DPPs can be offered publicly or privately. Public offerings of DPPs must be registered with the 
+SEC, whereas private offerings (offerings to mostly wealthy investors) are not. Typically, publicly 
+offered DPPs have a lower unit (buy-in) cost than that of privately offered DPPs.
+Certainly, direct participation programs provide some advantages, but they also have additional 
+risks that investors don’t face with other types of investments, such as having to lend additional 
+money to the partnership if necessary. Therefore, when evaluating whether an investment in a 
+DPP may be right for one of your clients, you need to determine whether investing in a partner-
+ship is wise for that client, and as their representative, you also need to consider the following 
+items:
+ »
+The economic soundness of the program. In other words, do you think it will be proȴtable"
+ »
+The expertise (track record) of the general partner.
+ »
+The basic objectives of the program.
+ »
+The start-up costs involved.
+&hecking 2ut Types oI 3artnerships
+Partnerships can be formed to run Ûust about any sort of business that you can imagine, but the 
+SIE exam focuses on the big three: real estate, equipment leasing, and oil and gas. You need to be 
+able to identify the risks and potential rewards of each of the following types of partnerships.
+Because of the risks associated with some types of DPPs, investors should have the ability to tie 
+up their money for a long period of time and be able to recover from a loss of all the money 
+invested in case the partnership never becomes profitable.
+%uilding on realestate partnership inIo
+Real-estate  limited  partnerships  (RELPs)  include  programs  that  invest  in  raw  land,  new  
+construction, existing properties, or government-assisted housing. You need to know the differ-
+ences among the types of programs, along with their risks and potential rewards. Here are the 
+types of real-estate DPPs, from safest to riskiest:
+ »
+Public housing (government-assisted housing programs): This type of real-estate DPP 
+develops low-income and retirement housing. The focus of this type of DPP is to earn 
+
+154 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+consistent income and receive tax credits. The U.S. government (through subsidies), via the 
+8.S. 'epartment of Housing and 8rban 'evelopment (H8'), makes up any deȴcient rent 
+payments. Appreciation potential is low, and maintenance costs can be high, but the DPP does 
+beneȴt from some level of government security. Publichousing 'PPs are backed by the 8.S. 
+government and, therefore, are typically considered to be the safest real-estate DPPs.
+ »
+Existing properties: This type of DPP purchases existing properties with the intent of 
+generating a regular stream of rental income. Because the properties already exist, this DPP 
+generates immediate cash ȵow. The risks with this type of 'PP are that the maintenance or 
+repair e[penses will eat into the proȴt and that tenants wonȇt renew their leases. The proper-
+ties already exist and are producing income, so risk for this type of DPP is relatively low.
+ »
+New construction: This type of DPP purchases property for the purpose of building. After 
+completing the construction, the partnership’s goal is to sell the property and structure at a 
+proȴt after all e[penses. %uilding costs may be more than e[pected, and the partnership 
+doesnȇt receive income until the property is sold, but the 'PP can beneȴt from appreciation on 
+both the land and the structure. Although this investment is speculative (risky), it’s not as risky 
+as a raw-land DPP.
+ »
+Raw land: This type of DPP invests in undeveloped land in anticipation of long-term capital 
+appreciation, which means raw-land DPPs don’t actually build on or rent out the property. The 
+partnership hopes that the property purchased will appreciate in value so that the DPP can  
+sell the property for more than the purchase price plus all expenses.
+Raw-land DPPs are considered to be the riskiest real-estate DPPs because the partnership 
+doesnȇt have any cash ȵow (no rental or sales income) and the value of the land may not 
+increase; it may actually decrease.
+The main thing to remember with real-estate DPPs is that depending on which type you invest 
+in, they can provide capital growth potential through the appreciation of property held by the 
+DPP; cash flow for DPPs that hold rentals; tax deductions for mortgage interest, depreciation, and 
+capital improvements; and tax credits for DPPs that hold government-assisted housing.
+Gearing up with equipment leasing
+Although you may be tested on equipment leasing programs on the SIE exam, it’s typically the 
+least-tested type of DPP on securities exams. Equipment leasing programs purchase equipment 
+(trucks, heavy machinery, computers, you name it) and lease it out to other businesses. The 
+obÛective is to obtain a steady cash flow and depreciation write-offs. The two types of leasing 
+arrangements you need to be aware of are the operating lease and the full payout lease:
+ »
+Operating lease: This type of equipment leasing program purchases equipment and leases it 
+for a short period of time. The DPP doesn’t receive the full value of the equipment during the 
+ȴrst lease. This type of arrangement allows the 'PP to lease the eTuipment several times 
+during the life of the machinery.
+ »
+)ull payout lease This type of equipment leasing program purchases the equipment and 
+leases it out for a long period of time. The 'PP receives enough income from the ȴrst lease to 
+cover the cost of the eTuipment and any ȴnancing costs. 8sually, the initial lease lasts for the 
+useful life of the equipment.
+The  main  thing  to  remember  about  equipment  leasing  is  that  the  operating  lease  is  riskier, 
+because  the  equipment  becomes  less  valuable  or  outdated  over  time  and,  therefore,  less 
+rentable.
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  155
+6trengthening your grasp on oil and gas
+Oil and gas partnerships include programs that produce income, are speculative in nature, or are 
+a combination of the two. You need to know how the types of programs differ, along with their 
+risks and potential rewards. Oil and gas partnerships also have certain tax advantages that are 
+unique:
+ »
+Intangible drilling costs (IDCs): I'Cs are writeo΍s for drilling e[penses. The word intangible 
+is your clue that you’re not talking about actual equipment. These costs include wages for 
+employees, fuel, repairs, hauling of equipment, insurance, and so on. IDCs are usually 
+completely deductible in the tax year in which the intangible costs occur. IDC deductions are 
+only for drilling and preparing a well for the production of oil and gas.
+ »
+Tangible drilling costs (TDCs): T'Cs are writeo΍s on items purchased that have salvage 
+value (items that can be resold). All oil and gas DPPs have TDCs, which include costs for 
+purchasing items such as storage tanks and well eTuipment. These costs arenȇt written o΍ 
+immediately but are depreciated (deducted) over several years. Depreciation may be claimed 
+on either a straightline basis (writing o΍ an eTual amount each year) or an accelerated basis 
+(writing o΍ more in the early years and less in the later years).
+IDCs are fully deductible in the current year; TDCs are depreciated (deductible) over  
+several years.
+ »
+Depletion: Depletion is a tax deduction that allows partnerships that deal with natural 
+resources (such as oil and gas) to take a deduction for the decreasing supply of the resource. 
+Partnerships can claim depletion deductions on only the amount of natural resources sold (not 
+extracted and put in storage for future sale).
+Depletion deductions are only for DPPs that deal with natural resources. On the SIE exam, the 
+only DPP with depletion deductions that you need to be concerned about is oil and gas.
+When  investing  in  oil,  partnerships  can  pioneer  new  territory,  drill  near  existing  wells,  buy 
+ producing wells, or try a combination of those methods. For SIE-exam purposes, exploratory 
+programs are the riskiest oil and gas DPPs because oil may never be found, and income programs 
+are the safest oil and gas DPPs. To make your life easier (I hope), I’ve composed a DPP comparison 
+chart (see Table 10-2) to help you focus on the main points of each type of oil and gas DPP.
+TABLE 1-	$dYantages and 5isks oI 9arious 2il and *as '33s
+TypeObjectiveAdvantagesRisks
+Exploratory 
+(wildcatting)
+To locate and drill 
+for oil in unproven, 
+undiscovered areas
+/ongterm capital 
+appreciation potential; high 
+returns for discovery of new 
+oil or gas reserves
+Riskiest oil and gas DPP because new 
+oil reserves may never be found; high 
+IDCs because the DPP isn’t working with 
+producing wells
+DevelopmentalTo drill near 
+producing wells with 
+the hope of ȴnding 
+new reserves
+/ongterm capital appreciation 
+potential with less risk than 
+exploratory programs; oil will 
+likely be found
+The property’s expensive; the drilling 
+costs may be higher than expected; the 
+risk of dry holes (nonproducing wells) is 
+still somewhat high; medium level of IDCs
+IncomeTo provide immediate 
+income by purchasing 
+producing wells
+The partnership generates 
+immediate cash ȵow the 
+least risky of the oil and gas 
+DPPs; no IDCs
+High initial costs; the well could dry up; 
+gas prices could go down
+CombinationTo provide income 
+to help pay for the 
+cost of ȴnding new oil 
+reserves
+The ability to o΍set the costs 
+of drilling new wells by using 
+income generated by existing 
+wells
+Carries the risks of all the programs 
+combined
+
+156 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+The following question concerns different DPP investments.
+Ayla has money invested in a limited partnership that’s expected to have a significant amount 
+of income over the next one to two years. Which of the following programs would BEST help 
+Ayla shelter the MOST of that income?
+(A) Oil and gas exploratory
+(B) Raw land purchasing
+(C) Equipment leasing
+(D) Existing real-estate property
+The answer you want is (A). Oil and gas exploratory programs spend a lot of money attempting to 
+find and drill for oil. These programs have high IDCs, which are fully tax-deductible when the 
+drilling occurs. Therefore, the oil and gas exploratory programs have the largest write-offs in the 
+early years, which could help Ayla offset some or all of their passive income from the other  
+limited partnership.
+Unlike corporations, DPPs have an ending date. That date could be predetermined as placed in the 
+partnership agreement, when a proÛect is completed (such as when buildings are built and sold, 
+oil is found and the land is sold, equipment is sold, and so on), or when the limited partners vote 
+to dissolve the partnership. When the partnership is dissolved, the first to be paid out of the  
+partnership assets are secured creditors; then general creditors are paid; next, limited partners 
+are paid; and the last to be paid are the general partners.
+Reducing Real-Estate Risk with REITs
+A real-estate investment trust (REIT) invests in real-estateɡrelated proÛects such as properties, 
+mortgage loans, and construction loans. REITs pool the capital of many investors to manage 
+property and/or purchase mortgage loans. Like other trusts, they issue shares to investors repre-
+senting their interest in the trust. REITs registered with the SEC are known as public REITs, and 
+those that aren’t registered with the SEC are known as private REITs. In addition, REITs may be 
+listed on an exchange or can trade over the counter. (See Chapter 14 for more info on markets.) 
+They also provide real estate diversification and liquidity for investors.
+REITs are distributed in the primary market at the initial public offering (IPO) price. Unlike 
+mutual funds, which are redeemed with the issuer, REITs are traded (bought and sold) in the 
+secondary  market  (the  sale  of  outstanding  securities)  to  other  investors.  In  addition,  REITs  
+have a finite number of shares outstanding, like closed-end funds. Because REITs are traded in 
+the secondary market, their price may be at a discount or premium to the net asset value (NAV; 
+see Chapter 9), depending on profitability and investor sentiment.
+Types of REITs include the following:
+ »
+Equity 5EΖTs take equity positions in real-estate properties; the income is derived from rent 
+collected or proȴts made when the properties are sold. ETuity REITs typically hold income
+producing properties like apartments, shopping malls, vacation resorts, and so on.
+ »
+Mortgage REITs purchase construction loans and mortgages. The trust receives the interest 
+paid on the loans and in turn passes it on to the owners of the trust (the investors).
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  157
+ »
++yErid 5EΖTs are a combination of equity and mortgage REITs. Hybrid REITs generate income 
+derived from rent and capital gains (like equity REITs) and interest (like mortgage REITs).
+As for taxation, REITs can avoid being taxed like a corporation if
+ »
+At least 75 percent of the income comes from activities related to real-estate.
+ »
+At least 75 percent of the REIT’s assets are in real estate, government securities, and/or cash.
+ »
+At least 0 percent of the net income received is distributed to shareholders (who pay ta[es on 
+the income). Which means that, unlike corporations that are taxed at the corporate level and 
+investors who are taxed on the cash dividends, there’s no double taxation with REITs if they 
+follow these rules. So, for individuals investing in REITs, they have tax-advantaged income.
+Don’t get REITs confused with real-estate limited partnerships. Limited partnerships, such as 
+RELPs, pass on (the industry term is pass through) income and losses to investors to claim on their 
+own personal tax return; REITs only pass income and gains through to investors, not losses or 
+write-offs.
+REITS may be sold as private placements, nonlisted, or listed. Check out the following list of 
+specifics:
+ »
+Private (private placement) REITs: REITs may be sold privately. Private REITs are exempt 
+from SEC registration, and their shares don’t trade on a national securities exchange, such as 
+the 1ew <ork Stock E[change. As such, theyȇre not subMect to the same disclosure reTuirements 
+as exchange-listed or public nonlisted REITs. Private REITs are exempt from SEC registration 
+under Regulation ' of the Securities Act of 33. (See Chapter .) In general, private REITs can 
+be sold only to accredited investors and institutional investors. Because they aren’t sold on an 
+exchange and can’t be sold to just any investor, private REITs aren’t liquid investments.
+ »
+Registered nonlisted REITs: Registered nonlisted REITs are also known as public nonlisted 
+REITs (P1/Rs). P1/Rs are registered with the SEC but donȇt trade on a maMor e[change. P1/Rs 
+are similar to listed REITs in every way, including disclosure requirements, except that they’re 
+not as liTuid. P1/Rs may be purchased and sold over the counter and some issuers have 
+periodic (daily or less frequent) repurchase options that allow investors to sell shares back to 
+the issuer at the NAV.
+ »
+Listed REITs: As you can imagine, listed REITs are ones that have to register with the SEC and 
+are also listed on one or more national exchanges. So listed REITs provide the highest degree 
+of liquidity to investors.
+Don’t kill yourself worrying too much about REITs (not that you would); you won’t get more than 
+one or two questions on the SIE relating to REITs.
+Testing Your Knowledge
+This chapter gives you a brief glimpse of limited partnerships and real-estate investment trusts. 
+Even in some of the top-off exams like the Series 7, there isn’t a tremendous amount of material 
+to cover. Following is a ten-question quiz. Have fun!
+
+158 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+Practice questions
+1. Which of the following is NOT TRUE of real-estate investment trusts?
+(A) They may trade at a discount to the NAV.
+(B) They may invest in construction loans.
+(C) They are redeemable securities.
+(D) None of the above.
+2. When making a public offering, which of the following documents is a limited partnership 
+required to file with the SEC?
+(A) Certificate of limited partnership
+(B) Agreement of limited partnership
+(C) Subscription agreement
+(D) All of the above
+3. Passive income can be written off against which of the following?
+(A) Passive losses
+(B) Capital losses
+(C) Both (A) and (B)
+(D) Neither (A) nor (B)
+4. Which of the following types of oil and gas partnerships is the riskiest?
+(A) Exploratory
+(B) Developmental
+(C) Income
+(D) Combination
+5. Which of the following documents must be signed by a general partner to accept a new limited 
+partner?
+(A) Partnership welcome form
+(B) Certificate of limited partnership
+(C) Agreement of limited partnership
+(D) Subscription agreement
+6. Which two of the following corporate characteristics are the easiest for a limited partnership to 
+avoid?
+I. Having perpetual life
+II. 
+Providing limited liability
+III. Having centralized management
+Ζ9 Having free transferability
+(A) I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+
+CHAPTER 0  :orking with 'irect 3articipation 3rograms '33s and 5EΖTs  159
+7. 
+Which of the following is a benefit of investing in a direct participation program?
+(A) Professional management
+(B) Pass-through of income and losses
+(C) Limited liability
+(D) All of the above
+8. Which of the following partnership documents includes the rights and responsibilities of the 
+general and limited partners?
+(A) Certificate of limited partnership
+(B) Subscription agreement
+(C) Partnership agreement
+(D) Both (A) and (C)
+9. Depletion deductions may be claimed for
+(A) equipment leasing programs
+(B) raw land real-estate programs
+(C) exploratory oil and gas programs
+(D) income oil and gas programs
+10. Which of the following real-estate investment trusts have income that is derived at least par-
+tially from rent collected?
+I. Equity REITs
+II. Mortgage REITs
+III. Hybrid REITs
+(A) I and III
+(B) II and III
+(C) I and II
+(D) I, II, and III
+
+160 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+Answers and explanations
+1. C. REITs are a one-time offering of securities, and after the IPO, they must be purchased 
+and sold in the market. They’re not redeemed with the issuer, like mutual funds.
+2. A. A limited partnership must file a certificate of limited partnership with the SEC before 
+making a public offering.
+3. A. Passive income is income received from a limited partnership. Passive income can be 
+written off against passive losses but not capital losses.
+4. A. Exploratory programs are the riskiest because the partnership is drilling in unproven 
+areas trying to find oil. As with other investments, typically, the more risk investors take, 
+the more potential reward. For this type of program, the risks are greatest, but if the 
+partnership finds oil, the rewards should be much higher than those of other oil and gas 
+programs.
+5. D. To officially accept a new limited partner to the partnership, a general partner must sign 
+the subscription agreement.
+6. B. For a partnership to not be taxed as a corporation, it must avoid at least two corporate 
+characteristics. The easiest corporate characteristics for a partnership to avoid are having a 
+perpetual life (partnerships are set up for a finite period of time) and having free transfer-
+ability to partnership interest. Because of the approval process, limited partnerships are 
+some of the most difficult investments to get into and out of.
+7. D. All the choices listed are benefits of investing in a limited partnership. Investors are 
+certainly getting (or hoping for) professional management by way of a general partner. 
+Also, because a partnership isn’t taxed as a corporation, the gains and losses are passed 
+through to investors. In addition, limited partners’ losses are limited to the amount 
+invested plus any recourse loans (for real-estate DPPs only).
+8. C. The partnership agreement lays out the rights and responsibilities of the limited and 
+general partner(s).
+9. D. To claim depletion deductions, the partnership has to be depleting a natural resource.  
+Of the choices given, only oil and gas programs deal with a natural resource. Exploratory 
+programs (ones that are looking for oil) don’t have depletion deductions until they actually 
+hit oil and start pulling it from the ground, like income programs.
+10. A. Both equity REITs and hybrid REITs, which are a combination of equity and mortgage 
+REITs, derive part of their income from rent collected from property that is owned.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  161
+Options: Understanding 
+the Basics of Puts and Calls
+W
+elcome to the wonderful world of options. I’m sure you’ve heard stories about the 
+ difficulty of options. Put your mind at ease; I’m here to make your life easier. Maybe 
+I’m a little warped, but options are my favorite part of the SIE exam!
+You don’t have to do a lot of calculations related to options on the SIE, but the ones that you do 
+have to do are relatively simple. More of the option questions on this exam are about understand-
+ing the terminology and rules. But in this chapter, I make facing any math questions you may 
+encounter as simple as possible for you. At the end of this chapter, you get a chance to test your 
+knowledge of options with a chapter quiz.
+Many more-complex options strategies exist — straddles, spreads, combinations, and so on — 
+but you won’t need to calculate any of them on the SIE exam. If you’re planning to take the Series 
+7 exam after this one, however, be prepared.
+Brushing Up on Option Basics
+Options are just another investment vehicle that (ideally) more-savvy investors can use. Options 
+may be used for hedging to protect a securities position or for speculation, when looking to trade 
+or exercise an option at a profit.
+An owner of an option has the right, but not the obligation, to buy or sell an underlying security 
+(stock, bond, and so on) at a fixed price; as derivatives, options draw their value from that under-
+lying security. Investors may either exercise the option (buy or sell the security at the fixed price), 
+trade the option in the market, or let it expire.
+Chapter 11
+IN THIS CHAPTER
+ »8nderstanding the specifics oI 
+options
+ »Feeling comfortable with an 
+options chart
+ »Calculating the maximum loss, 
+maximum gain, and break-even 
+points
+ »Discovering more about option 
+rules
+ »Taking a chapter quiz
+
+162 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+All option strategies, whether simple or sophisticated, when broken down are made up of simple 
+call and/or put options. After going over how to read an option, I explain a basic call option and 
+help you figure out how to work with that before moving on to a put option. Next, I discuss 
+options that are in-, at-, or out-of-the-money and the cost of options. After you’ve sufficiently 
+mastered the basics, the rest (the more-difficult strategies later in this chapter) becomes easier.
+Reading an option
+To answer SIE questions relating to options, you have to be able to read an option. The following 
+example shows you how an option may appear on the real exam:
+%uy  ;<= Apr 60 call at 
+Here are the seven elements of the option order ticket and how they apply to the example:
+1. Whether the investor is buying or selling the option: Buy
+When an investor buys (or longs, holds, or owns) an option, they are in a position of power;  
+that investor controls the option and decides whether and when to e[ercise the option. If an 
+investor is selling (shorting or writing) an option, they are obligated to live up to the terms of the 
+contract and must either purchase or sell the underlying stock if the holder e[ercises the 
+option.
+2. The contract size: 1
+<ou can assume that one option contract is for 100 shares of the underlying stock. Although this 
+idea isnȇt as heavily tested on the SIE e[am, an investor may buy or sell multiple options (for 
+e[ample, ȴve) if theyȇre interested in having a position in more shares of stock. If an investor 
+owns ȴve option contracts, theyȇre interested in 00 shares of stock, which you will need to 
+know in more detail when taking other e[ams such as the Series .
+3. The name of the stock: XYZ
+In this case, ;<= is the underlying stock that the investor has a right to purchase at a ȴ[ed price.
+4. The expiration month for the options: Apr
+All options are owned for a ȴ[ed period of time. The e[piration for new options used to be  
+9 months from the issue date. 1ow, investors can also purchase options with weekly and 
+Tuarterly maturities as well as longterm options (long-term equity anticipation securities, known 
+a΍ectionately as /EAPS), In the preceding e[ample, the option will e[pire in April ȃ more 
+speciȴcally, at  p.m. EST (3 p.m. CST) on the third )riday in April. (All options e[pire on the  
+third )riday of the e[piration month.)
+EST (Eastern Standard Time) is generally easier to recall than CST (Central Standard Time) and is 
+more often tested.
+5. The strike (exercise) price of the option: 60
+:hen the holder (purchaser or owner) exercises the option, they use the option contract to make 
+the seller of the option buy or sell the underlying stock at the strike price. (See the ne[t step for 
+info on determining whether the seller is obligated to buy or sell.) In this case, if the holder were 
+to e[ercise the option, the holder of the option would be able to purchase 00 shares of ;<= at 
+60 per share.
+6. The type of option: call
+An investor can buy or sell a call option or buy or sell a put option. Calls give holders the right to 
+buy the underlying security at a set price, whereas puts give holders the right to sell. So, in the 
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  163
+e[ample scenario, the holder has the right to buy the underlying security at the price stated in 
+the preceding step.
+7. The premium: 5
+2f course, an option investor doesnȇt get to have the option for nothing. An investor buys the 
+option at the premium. In this case, the premium is , so a purchaser would have to pay 00  
+( ! 00 shares per option).
+Looking at call options: The right to buy
+A call option gives the holder (owner) the right, but not the obligation, to buy 100 shares of a secu-
+rity at a fixed price and the seller the obligation to sell the stock at the fixed price. (If the seller 
+does not own 100 shares of the underlying security, they would have to purchase them in the 
+market to be able to fulfill their obligation.) Owners of call options are bullish (picture a bull 
+charging forward) because the investors want the price of the stock to increase. If the price of the 
+stock increases above the strike price, holders can either exercise the option (buy the stock at a 
+good price) or sell the option for a profit. By contrast, sellers of call options are neutral or bearish 
+(imagine a bear hibernating for the winter) because they want the price of the stock to either stay 
+the same or decrease.
+Assume that Ms. Smith buys 1 DEF Oct 40 call option. Ms. Smith bought the right to purchase  
+100 shares of DEF at 40. If the price of DEF increases to more than $40 per share, this option 
+becomes very valuable to Ms. Smith because she can purchase the stock at $40 per share and sell 
+it at the market price or sell the option at a higher price.
+If DEF never eclipses the 40 strike (exercise) price, the option doesn’t work out for poor  
+Ms. Smith, and she doesn’t exercise the option. However, it does work out for the seller of the 
+option, because the seller receives a premium for selling the option, and the seller gets to pocket 
+that premium.
+Checking out put options: The right to sell
+You can think of a put option as being the opposite of a call option (see the preceding section). 
+The holder of a put option has the right to sell 100 shares of a security at a fixed price, and the 
+writer (seller) of a put option has the obligation to buy the stock if exercised. Owners of put 
+options are bearish because the investors want the price of the stock to decrease (so they can buy 
+the stock at market price and immediately sell it at the higher strike price or sell their option at a 
+higher premium). However, sellers of put options are bullish (they want the price of the stock to 
+increase), because that would keep the option from going in-the-money (see the next section) 
+and allow them to keep the premiums they received.
+Assume that Mr. Eones buys 1 ABC October 60 put option. Mr. Eones is buying the right to sell  
+100 shares of ABC at 60. If the price of ABC decreases to less than $60 per share, this option 
+becomes very valuable to Mr. Eones. If you were in Mr. Eones’s shoes and ABC were to drop to  
+$50 per share, you could purchase the stock in the market and exercise (use) the option to sell the 
+stock at $60 per share, which would make you (the new Mr. Eones) very happy.
+If ABC never drops below the 60 strike (exercise) price, the option doesn’t work out for Mr. Eones 
+and he doesn’t exercise the option. However, it does work out for the seller of the option, because 
+the seller receives a premium for selling the option that she gets to keep.
+
+164 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+Getting your money back: Options  
+in-, at-, or out-of-the-money
+To determine whether an option is in- or out-of-the-money, you have to figure out whether the 
+investor would be able to get at least some of his premium money back if the option were 
+exercised.
+You can figure out how much an option is in-the-money or out-of-the-money by finding the 
+difference between the market value and the strike price. Here’s how you know where in-the- 
+money an option is:
+ »
+When an option is in-the-money, e[ercising the option lets investors sell a security for more 
+than its current market value or purchase it for less ȃ a pretty good deal.
+The intrinsic value of an option is the amount that the option is inthemoney if an option is 
+outofthemoney or atthemoney, the intrinsic value is ]ero.
+ »
+When an option is out-of-the-money, e[ercising the option means investors canȇt get the best 
+prices theyȇd have to buy the security for more than its market value or sell it for less. 
+2bviously, holders of options that are outofthemoney donȇt e[ercise them.
+ »
+:hen the strike price is the same as the market price, the option is at-the-money; this is true 
+whether the option is a call or a put.
+Call options — the right to buy — go in-the-money when the price of the stock is above the strike 
+price. Suppose that an investor buys a DEF 60 call option and that DEF is trading at 62. In this 
+case, the option would be in-the-money by two points (the option’s intrinsic value). If that same 
+investor were to buy that DEF 60 call option when DEF was trading at 55, the option would be 
+out-of-the-money by five points (with an intrinsic value of zero).
+A put option — the right to sell — goes in-the-money when the price of the stock drops below 
+the strike price. For example, a TUV 80 call option is in-the-money when the price of TUV drops 
+below 80. The reverse holds as well: If a put option is in-the-money when the price of the stock 
+is below the strike price, it must be out-of-the-money when the price of the stock is above the 
+strike price.
+Don’t take the cost of the option (the premium) into consideration when determining whether an 
+option is in-the-money or out-of-the-money. Having an option that’s in-the-money is not the 
+same as making a profit. (See the next section for info on premiums.)
+Use the phrases call up and put down to recall when an option goes in-the-money. Call up can help 
+you remember that a call option is in-the-money when the market price is up, or above the strike 
+price. Put down can help you remember that a put option is in-the-money when the market price 
+is down, or below the strike price.
+The following question tests your knowledge of options being in- or out-of-the-money.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  165
+Which TWO of the following options are in-the-money if ABC is trading at 62 and DEF is trad-
+ing at 44?
+I. An ABC Oct 60 call option
+II. An ABC Oct 70 call option
+III. A DEF May 40 put option
+IV. A DEF May 50 put option
+(A) 
+I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+The correct answer is (B). Start with the strike (exercise) prices. You’re calling up or putting down 
+from the strike prices, not from the market prices. Because call options go in-the-money when 
+the market price is above the strike price, Statement I is the only one that works for ABC. An ABC 
+60 call option would be in-the-money when the price of ABC is above 60. ABC is currently trading 
+at 62, so that 60 call option is in-the-money. For the ABC 70 call option to be in-the-money, ABC 
+would have to be trading higher than 70. Next, use put down for the DEF put options, because put 
+options go in-the-money when the price of the stock goes below the strike price. Therefore, 
+Statement IV makes sense because DEF is trading at 44, and that’s below the DEF 50 put strike 
+price but not the 40 put strike price.
+When someone is short an option, it means that they sold the option. This person is on the oppo-
+site side of the transaction than the person who is long the option. In this case, the seller received 
+a premium for selling the option. So, someone who is short an option is doing so for income and 
+is hoping that the option expires out-of-the-money so that they get to keep the premium.
+When people purchase an option, it is said that they are long the option. An investor who is long 
+an option has paid the premium for the option so they need the option to go in-the-money (the 
+price of the underlying security to go in the correct direction) enough for them to not only recoup 
+their premium but also make a few bucks.
+Paying the premium: The cost of an option
+The premium of an option is the amount that the purchaser pays for the option. The premium may 
+increase or decrease depending on whether an option goes in- or out-of-the-money, gets closer 
+to expiration, and so on. The premium is made up of many different factors, including
+ »
+:hether the option is inthemoney (see the preceding section)
+ »
+The amount of time the investor has to use the option
+ »
+The volatility of the underlying security
+ »
+Investor sentiment (for e[ample, whether buying calls on A%C stock is the cool thing to  
+do right now)
+One of the simple options math questions you may run across on the SIE exam requires you to 
+figure out the time value of an option premium. Time value has to do with how long you have until 
+an option expires. There’s no set standard for time value, such as every month until an option 
+
+166 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+expires costs buyers an extra $100. However, you can assume that if two options have everything 
+in common except for the expiration month, the one with the longer expiration will have a higher 
+premium. Ideally, the following equation can help keep you from getting a pit in your stomach:
+PIT
+In this formula, P is the premium or cost of the option, I is the intrinsic value of the option (the 
+amount the option is in-the-money), and T is the time value of the option.
+Here’s how you find the time value for a BIF Oct 50 call option if the premium is 6 and BIF is 
+trading at 52: Call options (the right to buy) go in-the-money when the price of the stock goes 
+above the strike price (call up — see the preceding section). Because BIF is trading at 52 and the 
+option is a 50 call option, it’s two points in-the-money; therefore, the intrinsic value is two. 
+Because the premium is six and the intrinsic value is two, the premium must include four as a 
+time value:
+PIT
+62T
+T4
+The following question tests your knowledge of using the formula P = I + T.
+Use the following chart to answer the next question.
+What is the time value of an LMN October 30 call?
+(A) 2.5
+(B) 4
+(C) 6.25
+(D) 9.5
+The answer you’re looking for is (B). I threw you a curveball by giving you a chart similar to what 
+you may see on the SIE exam. I hope you’re able to find the premium that you need to answer the 
+question. Most of the exhibits you get on the SIE are simple, and solving the problem is Ûust a 
+matter of locating the information you need.
+In the chart, the first column shows the price of the stock trading in the market, the second col-
+umn shows the strike prices for the options, and the rest of the chart shows the premiums for the 
+calls and puts and the expiration months. Scan the chart under the October calls, which is in the 
+fourth column; then look for the 30 strike price, which is in the first row of data. The column and 
+row intersect at a premium of 14.5.
+Now you need to find the intrinsic value (how much the option is in-the-money). Remember that 
+call options go in-the-money when the price of the stock is above the strike price (call up). This 
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  167
+is a 30 call option, and the price of the stock is 40.50, which is 10.5 above the strike price. Plug in 
+the numbers, and you find that the premium includes a time value of 4:
+P(premium)I(intrinsicvalue)T(timevalue)
+14.510.5T
+T4
+Incorporating Standard Option Math
+I’m here to make your life easier. Prep courses use several different types of charts and formulas 
+to figure out things such as gains or losses, break-even points, maximum gain or loss, and so on. 
+I believe that the easiest way is to use the options chart that follows. It’s a simple Money Out, 
+Money In chart you can use to plug in numbers. What’s great about this chart is that you don’t 
+even necessarily have to understand what the heck is going on to determine the answers to most 
+options questions. As this chapter progresses, I show you how incredibly useful the options  
+chart can be.
+If it looks basic, it is — and that’s the idea. Any time an investor spends money, you place that 
+value in the Money Out side of the options chart, and any time an investor receives money, you 
+place the number in the Money In side of the chart.
+Calls same: Buying or selling call options
+The most basic options calculations involve buying or selling call or put options. Although using 
+the options chart may not be totally necessary for the more basic calculations (such as the one 
+that follows in the next section), working with the chart now can help you get used to the tool so 
+you’ll be ready when the SIE exam tests your sanity with more-complex calculations.
+As you work with options charts, you may notice a pattern when determining maximum losses 
+and gains. Table 11-1 gives you a quick reference concerning the maximum gain or maximum loss 
+an investor faces when buying or selling call options. Notice that the buyer’s loss is equal to the 
+seller’s gain (and vice versa).
+TABLE 11-1	Maximum Gains and Losses for Call Options
+%uying or Selling0a[imum /oss0a[imum *ain
+%uying a callPremium8nlimited
+Selling a call8nlimitedPremium
+
+168 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+The key phrase to remember when working with call options is calls same, which means that the 
+premium and the strike price go on the same side of the options chart.
+Buying call options
+The following steps show you how to calculate the maximum loss and gain for holders of call 
+options (which give the holder the right to buy). I also show you how to find the break-even point. 
+Here’s the order ticket for the example calculations:
+%uy  ;<= 2ct 0 call at 
+1. Find the maximum loss.
+The holder of an option doesnȇt have to e[ercise it, so the most they can lose is the  
+premium. The premium is ȴve, so this investor purchased the option for 00 ( ! 00 shares 
+per option) therefore, you enter that value in the 0oney 2ut side of the options chart (think 
+Ȋmoney out of the investorȇs pocketȋ). According to the chart, the ma[imum loss (the most this 
+investor can lose) is 00.
+2. Determine the maximum gain.
+To calculate the ma[imum gain, you have to e[ercise the option at the strike price. The strike 
+price is 0, so you enter ,000 (0 strike price ! 00 shares per option) under its premium 
+(which you added to the chart when calculating ma[imum loss) e[ercising the call means 
+buying the stock, so thatȇs 0oney 2ut. :hen e[ercising call options, always put the multiplied 
+strike price under its premium. (Remember calls same: The premium and the strike price go on 
+the same side of the options chart.)
+%ecause youȇve already determined the ma[imum loss, look at the 0oney In portion of the 
+options chart. The 0oney In is empty, so the ma[imum gain (the most money the investor can 
+make) is unlimited.
+When you see a question about the break-even point, the SIE examiners are asking, “At what 
+point does this investor not have a gain or loss?” The simplest way to figure out this point for a 
+call option is to use call up (remember that call options go in-the-money when the price of the 
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  169
+stock goes above the strike price — see the earlier section “Getting your money back: Options in-, 
+at-, or out-of-the-money”). When using call up, you add the strike price to the premium:
+strikepricepremium40545.
+For this investor, the break-even point is 45. This number makes sense because the investor paid 
+$5 for the option, so the option has to go $5 in-the-money for the investor to recoup the amount 
+they paid. Note: The break-even point is always the same for the buyer and the seller.
+Selling call options
+Here, I show you how to find the maximum gain and loss, as well as the break-even point, for 
+sellers of call options. Here’s the order ticket for the example calculations:
+Sell  =<; 2ct 60 call at 2
+1. Determine the maximum gain.
+The seller makes money only if the holder fails to e[ercise the option or e[ercises it when the 
+option is inthemoney by less than the premium received. This investor sold the option for 
+200 (2 ! 00 shares per option) therefore, you enter that amount in the 0oney In side of the 
+options chart. According to the chart, the ma[imum gain (the most that this investor can make) 
+is the 200 premium received. Note: The e[ercised strike price of 6,000 (60 ! 00 shares) 
+doesnȇt come into play when determining the ma[imum gain in this e[ample because the 
+holder of the option would e[ercise the option only if it were inthemoney.
+2. Find the maximum loss.
+To calculate the ma[imum loss, you need to e[ercise the option at the strike price. The strike 
+price is 60, so you enter 6,000 (60 strike price ! 00 shares per option) under its premium. The 
+6,000 goes in the 0oney In side of the options chart because this investor had to sell the stock 
+to the holder at the strike price (60 ! 00 shares). :hen e[ercising call options, always enter the 
+multiplied strike price under its premium. (Remember calls same: The premium and the strike 
+price go on the same side of the options chart.)
+<ouȇve already determined the ma[imum gain now look at the 0oney 2ut portion of the 
+options chart. The 0oney 2ut is empty, so the ma[imum loss (the most money the investor can 
+lose) is unlimited.
+
+170 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+When you see a question about the break-even point, the examiners are asking you, “At what 
+point does this investor not have a gain or loss?” The simplest way to figure this out for a call 
+option is to use call up. When using call up, you add the strike price to the premium:
+strikepricepremium60262
+For this investor, the break-even point is 62. This makes sense because the investor received $2 
+for the option, so the option has to go $2 in-the-money for this investor to lose the amount that 
+she received for selling the option. Call options go in-the-money when the price of the stock goes 
+above the strike price.
+Puts switch: Buying or selling put options
+Fortunately, when you’re calculating the buying or selling of put options (which give the holder 
+the right to sell), you use the options chart in the same way but with a slight change (see the pre-
+ceding section for info on call options). Instead of using calls same as you do with call options, you 
+use puts switch — in other words, you place the premium and the strike price on opposite sides of 
+the options chart.
+Table 11-2 serves as a quick reference regarding the maximum gain or maximum loss an investor 
+faces when buying or selling put options.
+Buying put options
+This section explains how to find the maximum loss, maximum gain, and the break-even point 
+for buyers (holders) of put options. Here’s the ticket order for the calculations:
+%uy  T89 2ct  put at 6
+1. Find the maximum loss.
+E[ercising an option is, well, optional for the holder, so buyers of put options canȇt lose more 
+than the premium. %ecause this investor purchased the option for 600 (6 ! 00 shares per 
+option), you enter that value in the 0oney 2ut side of the options chart. The ma[imum loss (the 
+most that this investor can lose) is the 600 premium paid.
+TABLE 11-	Maximum Gains and Losses for Put Options
+%uying or Selling0a[imum /oss0a[imum *ain
+%uying a putPremium(strike Ȃ premium) ! 00 shares
+Selling a put(strike Ȃ premium) ! 00 sharesPremium
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  171
+2. Determine the maximum gain.
+To ȴnd the ma[imum gain, you have to e[ercise the option at the strike price. The strike price  
+is , so you enter ,00 ( strike price ! 00 shares per option) on the opposite side of the 
+options chart. (Remember puts switch: The premium and the strike price go on opposite sides of 
+the options chart.) E[ercising the option means selling the underlying stock, so that ,00 is 
+0oney In.
+<ouȇve already determined the ma[imum loss now look at the 0oney In portion of the options 
+chart. %ecause you ȴnd ,00 more 0oney In than 0oney 2ut (,00 Ȃ 600), the ma[imum 
+gain is ,00.
+The break-even point is the security price where the investor doesn’t have a gain or loss. The 
+simplest way to figure out this point for a put option is to use put down (put options go in-the- 
+money when the price of the stock goes below the strike price). When using put down, you subtract 
+the premium from the strike price:
+strikepricepremium55649
+For this investor, the break-even point is 49. The investor paid $6 for the option, so the option 
+has to go $6 in-the-money in order for this investor to recoup the amount that they paid. As with 
+call options, the break-even point is always the same for the buyer and the seller.
+Selling put options
+The following steps show you how to calculate the maximum gain and loss for the seller of a put 
+option. I also demonstrate calculations for the break-even point. Here’s the ticket order for the 
+example:
+Sell  T89 Sep 30 put at 
+1. Determine the maximum gain.
+The seller makes money only if the holder of the option fails to e[ercise it. This investor  
+sold the option for 00 ( ! 00 shares per option) you put that number in the 0oney  
+In side of the options chart. The ma[imum gain (the most this investor can make) is 00.
+
+172 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+2. Find the maximum loss.
+To calculate the ma[imum loss, you have to e[ercise the option at the strike price. The strike 
+price is 30, so you place 3,000 (30 strike price ! 00 shares per option) on the opposite side of 
+the options chart. (Remember puts switch: The premium and strike price go on opposite sides of 
+the options chart.)
+<ouȇve already determined the ma[imum gain now look at the 0oney 2ut portion of the 
+options chart and compare it to the 0oney In. The ma[imum potential loss for this investor is 
+the 2,200 di΍erence between the 0oney 2ut and the 0oney In.
+You calculate the break-even point for buying or selling puts the same way: You use put down (the 
+strike price minus the premium) to figure out the break-even point:
+strikepricepremium30822
+For this investor, the break-even point is 22. Because this investor received $8 for the option, the 
+option has to go $8 in-the-money for this investor to lose the amount they received for selling 
+the option. Put options go in-the-money when the price of the stock goes below the strike price 
+(put down).
+Trading options: Opening and  
+closing transactions
+Although some investors hold onto their options long enough to actually exercise them, more 
+often, investors trade options the way that they trade other investments. On the SIE exam, not 
+only do you need to know the difference between opening and closing transactions, but you also 
+have to be able to calculate the profit or loss for an investor trading options. This process is actu-
+ally pretty easy when you break it down.
+Putting things back where you found them:  
+Doing opposite transactions
+When distinguishing between opening and closing transactions, your key is to know whether this 
+transaction is the first time or the second time the investor is buying or selling an option: The 
+first time is an opening, and the second time is a closing. Regardless of whether it is an opening or 
+closing transaction, it must be placed on the order ticket.
+Here are your opening transactions:
+ »
+Opening purchase: An opening purchase occurs when an investor ȴrst buys a call or a put.
+ »
+Opening sale: An opening sale is when an investor ȴrst sells a call or a put.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  173
+If an investor already has an option position, the investor has to close that position by doing the 
+opposite — through a closing transaction. If the investor originally purchased the option, they 
+have to sell to close it. By contrast, if they originally sold the option, they have to purchase to 
+close. Here are the two types of closing transactions:
+ »
+Closing purchase: A closing purchase occurs when an investor buys themselves out of a 
+previous option position that they sold. )or e[ample, if an investor sold an ;<= 2ct 0 call 
+(opening sale), they would have to buy an ;<= 2ct 0 call to close out the position. The second 
+transaction is a closing purchase.
+ »
+Closing sale: A closing sale occurs when an investor sells themselves out of a previous option 
+position that they purchased. )or e[ample, if an investor bought an A%C Sep 60 put (opening 
+purchase), they would have to sell an A%C Sep 60 put to close out the position. The second 
+transaction is a closing sale.
+When determining opening or closing transactions, whether the transactions are both calls or 
+both puts doesn’t matter.
+The following question tests your knowledge of opening and closing transactions.
+Mr. Kollen previously bought 1 Y Oct 65 call at 8 when the market price of Y was 64. Y is 
+currently trading at 69, and Kollen decides that now would be a good time to sell the option that 
+they previously purchased. The second option order ticket would be marked
+(A) opening sale
+(B) opening purchase
+(C) closing sale
+(D) closing purchase
+The right answer is (C). This is the second time that Mr. Kollen does something with the option 
+that he owns; therefore, the move has to be a closing transaction, and you can immediately elim-
+inate (A) and (B). Mr. Kollen has to sell himself out of the position because he owns the option. 
+The second order ticket would have to be marked closing sale.
+Tricks of the options trade: Calculating gains and losses
+In addition to knowing how to mark the order ticket, you have to be able to figure out an inves-
+tor’s gain or loss when trading options. This task isn’t difficult after you master the options chart. 
+The key thing to remember is that when an investor closes, they do the opposite of what they did 
+before.
+The following question tests your mastery of options trades.
+Mrs. Wegner purchased 100 shares of DPY stock at $50 per share. Two weeks later, Mrs. Wegner 
+sold 1 DPY Oct 55 call at 6. Mrs. Wegner held that position for three months before selling the 
+DPY stock at $52 per share and closing the DPY Oct 55 call at 4. What is Mrs. Wegner’s gain or 
+loss on the transactions?
+(A) $400 gain
+(B) $400 loss
+(C) $600 gain
+(D) No gain or loss
+
+174 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+The correct answer is (A). This question introduces stock trades as well as options transactions, 
+but that’s no problem. The options chart works for questions involving actual stocks and options 
+or just options.
+When you approach the transactions one at a time, the problem-solving process is actually pretty 
+straightforward. Mrs. Wegner purchased 100 shares of DPY stock at $50 per share for a total of 
+$5,000; therefore, you enter $5,000 in the Money Out side of the options chart. Next, she sold the 
+DPY 55 call for a premium of 6, so you need to enter $600 (6 ! 100 shares per option) on the 
+Money In side of the chart because they received money for selling that option.
+Three months later, Mrs. Wegner sold the stock for $5,200 ($52 per share ! 100 shares) and 
+received money for selling the stock. Place the $5,200 in the Money In side of the options chart. 
+When closing the option, the customer has to do the opposite of what they did before. Originally, 
+Mrs. Wegner sold the option, so to close, she has to buy the option (make a closing purchase). She 
+purchased the option for $400 (4 ! 100 shares per option), so enter $400 in the Money Out side 
+of the options chart. All that’s left for you to do is total up the two sides. Mrs. Wegner has 
+$5,800 in and $5,400 out for a gain of $400.
+Got it covered: Stock/option contracts
+When an investor purchases or sells option contracts on securities they actually own, that inves-
+tor is choosing an excellent way to protect (hedge) against loss or to bring additional funds into 
+their account, which would only be a partial hedge. The most common form is when an investor 
+sells covered call options.
+If an investor is selling a call option against a security that they own, the investor is considered 
+to be covered. They’re covered because if the option is exercised, they have the stock to deliver.
+Take the following position as an example:
+%uy 00 shares of 4RS at  per share
+Sell  4RS 'ec  call at 
+1. Find this investor’s maximum potential loss.
+Place the purchases and sales in the options chart. This investor purchased 00 shares of 4RS 
+stock at  per share for a total of ,00. Thatȇs money spent, so enter ,00 in the 0oney 
+2ut side of the options chart. 1e[t, this investor sold  4RS 'ec  call for a total premium of 
+00 ( ! 00 shares per option) and received money for selling that option, so you enter 
+00 in the 0oney In section of the options chart.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  175
+This investor has more 0oney 2ut than 0oney In, so the investorȇs ma[imum potential loss is 
+,300 (,00 minus 00).
+2. Determine the investor’s maximum potential gain.
+Placing the two transactions (in this case the stock purchase and the option sale) in the options 
+chart helps you calculate the ma[imum gain as well as the ma[imum loss. To ȴnd the ma[i
+mum gain, you need to e[ercise the option. <ou always e[ercise at the strike price, which in this 
+case is . Take the ,00 ( ! 00 shares per option) and place it under its premium. 
+(Remember calls same: The e[ercised strike price and the premium go on the same side of the 
+chart.) Total the two sides and you ȴnd that the 0oney In is ,200 more than the 0oney 2ut, 
+so thatȇs the investorȇs ma[imum potential gain.
+When the investor is covered, finding the break-even point is nice and easy for stock and options. 
+Although you can use the options chart, you really don’t need to in this example case. First, look 
+at how much the investor paid for the stock; then look at how much more they paid or received 
+for the option. Find the difference, and you have your break-even point:
+$47stockprice$4optionpremium$43break-evenpoint
+Because this investor paid $47 per share for the stock and received back $4 per share for selling 
+the option, this investor would need to receive another $43 per share to break even.
+Here’s how to find the break-even point for stock and options:
+ »
+If the investor purchased twice (bought the stock and bought a protective put option), add 
+the stock price and the premium.
+ »
+If the investor sold twice (sold short the stock and sold an option), add the stock price and 
+the premium.
+ »
+If the investor had one buy and one sell (for e[ample, bought the stock and sold the option 
+or sold short the stock and bought the option), subtract the premium from the stock price.
+Index options
+Besides buying or selling options on an individual stock, you can also buy or sell index options. 
+Index options allow investors to speculate on (or hedge against) the price movement of market or 
+
+176 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+segments of the market. Like indexes themselves, index options can be broad-based or narrow-
+based. The main broad-based index options are the SʩP 500 Index Options (SP), the SʩP 500 
+Volatility Market Index (VI), and the SʩP 100 Index Options (OE). Narrow-based index options 
+include options on the energy sector (IE), financial sector (IM), health care sector (IV), tech-
+nology sector (IU), and so on.
+Note: The Chicago Board Options Exchange (CBOE) VI is a measure of how volatile investors 
+believe that the SʩP 500 index will be over the next 30 days. Typically, the higher the expectation 
+of volatility, the higher the VI premiums.
+Premiums of index options
+Like standard stock options, the pricing unit for index options is 100. This means that, like stan-
+dard stock options, you multiply the premium by 100 to get the actual cost.
+Exercises in cash
+Unlike regular stock options in which, when the option is exercised, the underlying security must 
+be delivered, index options are settled in cash. This makes sense because it would be very difficult 
+for investors to buy and deliver all the securities covered by an index. If the holder of an index call 
+option exercises their option, they will receive the in-the-money amount multiplied by 100 based 
+on the closing price at the end of the trading day, not the current value at the time of exercise.
+Trading hours, settlement, and expiration dates
+Narrow-based index options trade until 4:00 p.m. Eastern Time, and broad-based index options 
+trade until 4:15 p.m. Eastern Time. Like equity options, the settlement date for index options is 
+the next business day.
+Index options are either broad-based or narrow-based. So, people may buy or sell index options 
+based on how they believe the market will perform overall (broad-based) or Ûust how a segment 
+of the market will perform (narrow-based). In this case, the same strategy of buying calls and 
+selling puts if you’re bullish and buying puts and selling calls if you’re bearish still applies. How-
+ever, investors can also use index options to hedge (protect) a portfolio against a market decline. 
+If an investor has a diverse portfolio of securities, they may decide to purchase an OE or SP put 
+to protect themselves in the event that the market declines. Also, an investor who has a large 
+portfolio of health care sector stocks may purchase IV put options to protect themselves in the 
+event that health care stocks are falling out of favor. There are even index options that only last 
+a week (weeklys) that allow investors a way to trade index options based on economic news or 
+earnings reports that may have a sudden impact on the market or a segment of the market.
+You’ll find that buyers and sellers of index options can incorporate most of the same strategies as 
+equity option buyers and sellers. These strategies include covered writing, hedging, protective 
+puts, straddles and combinations, and uncovered call or put writing.
+Gaining Additional Option Insight
+To help you get a deeper understanding of options, you need to know a few additional things that 
+you will most certainly see on the real-deal SIE exam. Some of these items include who issues the 
+options, what an ROP is, what a risk disclosure document is, and so on.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  177
+Clearing through the OCC
+The Options Clearing Corporation (OCC) is the issuer and guarantor of all listed options. The OCC 
+decides which options will trade as well as their strike prices. In addition, when an investor 
+decides to exercise their option, it’s the OCC that randomly decides which firm on the other end 
+will be responsible for fulfilling the terms of the option.
+The OCC does not determine the premium for options; the premium is determined by investors 
+based on supply and demand, the option’s intrinsic value (how much it’s in-the-money — or 
+away from the money based on the exercise price and the price of the underlying security), and 
+the amount of time until the option expires.
+That’s ODD: Options risk disclosure document
+Because options have a risk that is greater than almost any other investment, all investors must 
+receive an options risk disclosure document (Options Disclosure Document or ODD) and a copy of 
+amendments (if any) prior to their first options transaction (at the time of or before the account 
+is approved). This ODD explains to investors option terminology and strategies as well as the 
+potential rewards and risks involved in investing in options, such as the chance of losing all 
+money invested or, if selling call options, facing an unlimited maximum loss potential. In addi-
+tion to the risks, the ODD must also explain tax rules related to options, transaction costs, margin 
+requirements, a special statement for uncovered option writers, and so on.
+Getting the go-ahead: Registered  
+options principal
+Because of the extra risk of investing in options, all new accounts and option order tickets must 
+be approved and signed by a registered options principal (ROP) — a manager with a Series 4 
+license, in other words. The registered options principal determines the amount of risk that each 
+investor can take. Certainly, sophisticated investors with a lot of money are able to handle more 
+risk than new option investors with a limited supply of funds.
+Options account agreement
+Within 15 days after approval of the account by an ROP, the customer must sign and return an 
+options account agreement (OAA, sometimes just called an options agreement). Basically, the 
+OAA Ûust states that the customer has read the ODD, understands the risk associated with trading 
+options, and will abide by the rules and regulations regarding options trading. Should anything 
+change (such as the customers, investment obÛectives, financial situation, and so on), the cus-
+tomer agrees to notify the firm. If the OAA is not received within 15 days after approval of the 
+account, the customer cannot open any new options positions.
+Order ticket
+You can find out more about what is required on an order ticket in Chapter 16. However, a few 
+things are required on an order ticket that are unique to options. Besides the option that is being 
+bought or sold, you have to write down whether the customer is establishing a long position (if 
+they’re buying) or a short position (if they’re selling). In addition, for option sellers, you need to 
+put down whether the seller is covered or uncovered (naked). The seller of a call option is consid-
+ered covered if they own the underlying security or own an option on the same security with the 
+same or longer expiration that will be in-the-money first. And, of course, an uncovered (naked) 
+
+178 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+position is when the seller owns neither the underlying stock nor an option on the same security 
+that will be in-the-money first with an equal or longer expiration date.
+Last trade, last exercise, and  
+expiration of an option
+Unlike stock certificates, options do expire after a certain period of time. In addition, investors are 
+limited as to when they can trade and exercise an option. Here’s the timeline to keep in mind:
+ »
+Last trade: The last time an investor can trade an option is 00 p.m. Eastern Time on the 
+business day of e[piration.
+ »
+Last exercise: The last time an investor can e[ercise an option is 30 p.m. Eastern Time on 
+the business day of e[piration. If an option is inthemoney by at least  point at e[piration, it 
+will be automatically e[ercised. A vast maMority of options (all eTuity >singlestock@ and 
+e[changetraded fund options) can be e[ercised any time up Ȇtil e[piration ȃ this is known as 
+American style. However, there are also European-style options that can be e[ercised only on 
+the e[piration date. Europeanstyle options include capped inde[ options and some foreign 
+currency options. Even though a Europeanstyle option can be e[ercised only at e[piration, it 
+can still be traded at any time.
+ »
+Option expiration: 2ptions e[pire at  p.m. Eastern Time on the third )riday of the 
+e[piration month.
+Exercise and assignment
+When taking the SIE exam, you are expected to have a basic understanding of how options are 
+exercised and assigned. Options are cleared through the OCC. Here’s how an option is exercised:
+:hen a client wants to e[ercise an option they own, they contact their brokerȂdealer. The brokerȂ
+dealer contacts the 2CC. The trade settles in two business days after the 2CC is notiȴed because 
+when the investor is e[ercising an option, they are actually trading stock (the right to buy or sell 
+stock). Stock trades settle in two business days, so e[ercises of options settle in two business days. 
+However, trades of options settle in one business day.
+The steps involved look like this:
+1. Client #1 tells their broker–dealer (Broker A) to exercise the option.
+2. %roker $ notifies the 2ptions &learing &orporation
+3. The Options Clearing Corporation chooses the contra broker (the broker–dealer on the 
+other side oI the transactionbȃ %roker % randomly
+4. Broker B assigns chooses the clientbȃ &lient  either randomly firstinfirstout )Ζ)2 
+or by any other method that is fair and reasonable.
+However, %roker % cannot choose the assignment based on si]e (the one with the most 
+options, the one with the least options, and so on).
+5. Client #2 sends the proceeds (stock or cash) to Broker B.
+6. Broker B sends the proceeds directly to Broker A (the OCC doesn’t handle stock or cash).
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  179
+So, if you were to look at a flow chart, it would look something like this:
+Although most exercises of options are settled by the delivery of the underlying security, there are 
+some that are settled by the delivery of cash. Specifically, indexoptions (options on an index of 
+securities) and foreign currency options are always settled in cash. This Ûust makes sense because 
+investors can’t be expected to deliver an entire index for index options nor be expected to deliver 
+the underlying foreign currency for foreign currency options.
+$dditional definitions
+For some reason, the SIE exam writers decided you need to know some additional option-specific 
+definitions. I cover several of them earlier in this chapter, but there are several more that you 
+need to be aware of. I will try to make this as painless as possible.
+ »
+Aggregate exercise price: The e[ercise (strike) price of an option multiplied by the number of 
+units (usually shares) of the underlying security covered by the option contract (usually 
+00 shares).
+ »
+Class of options: All option contracts of the same type (puts or calls) covering the same 
+underlying security or inde[.
+ »
+Clearing member: A )I1RA member that has been admitted to membership in the 2CC 
+(2ptions Clearing Corporation).
+ »
+Closing sale transaction: An option transaction in which the seller wants to reduce or 
+eliminate a long position. So, for argumentȇs sake, say an investor is long (owns)  A%C 2ct 0 
+call. To close that position, the investor would short (write or sell) the  A%C 2ct 0 call.
+ »
+Conventional index option: An option that overlies a basket (nine or more eTuity securities) 
+or inde[ of securities providing that no one security comprises more than 30 percent of the 
+basket or inde[.
+ »
+Conventional option: Any option contract not issued or subMect to issuance by the 2CC or an 
+2CCcleared 2TC option.
+ »
+Delta neutral: An eTuity options position that has been fully hedged. )or e[ample, owning 
+00 shares of A%C stock and owning an atthemoney put on A%C stock. %asically, o΍setting 
+long and short positions.
+ »
+Net delta: The number of shares that must be maintained (either long or short) to o΍set the 
+risk the investor is facing by having an eTuity option position.
+ »
+Opening writing (opening sale) transaction: The initial sale of an option in which the seller 
+receives the premium paid.
+ »
+Outstanding: An option contract that has been neither closed (closing sale) nor e[ercised and 
+has not reached the e[piration date.
+
+180 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+ »
+Series of options: All option contracts that are of the same class, same e[piration date,  
+and same e[ercise price and that cover the same number of units of the underlying security  
+or inde[.
+ »
+Type of option: Either a call or a put.
+Some additional option rules
+Yes, I know . . . even more? Don’t blame me; I didn’t design the test. Anyway, as with the preced-
+ing section, I think a quick perusal of the following items will give you enough of a general under-
+standing of some of the additional rules that you should be able to pick them out of any 
+multiple-choice questions posed on the exam.
+ »
+Position limits: A number placed on the amount of option contracts that a person can hold or 
+write on the same side of the market (bullish or bearish) on the same security. This will be 
+covered more in depth if you are taking the Series .
+ »
+Exercise limits: A number placed on the amount of option contracts that a person can 
+e[ercise on the same side of the market (bullish or bearish) within ȴve consecutive business 
+days. This will be covered in more detail if you are taking the Series  e[am.
+ »
+Limit on uncovered short positions: )I1RA may decide to limit the amount of uncovered 
+short positions on option contracts of a given class if deemed necessary for the protection of 
+investors.
+ »
+Restrictions on option transactions and exercises: As with the limit on uncovered short 
+positions, )I1RA may also place restrictions on option transactions or the e[ercise of option 
+contracts in one or more series of options of any class when deemed necessary to help 
+maintain a fair and orderly market.
+ »
+Open order on the “ex-date” (ex-dividend date): Since the underlying stock price will be 
+lowered due to a dividend, the 2CC will adMust option contracts accordingly unless otherwise 
+instructed by the customer.
+ »
+&onfirmations 0embers are responsible for providing a written conȴrmation of each option 
+transaction for each customerȇs account. The conȴrmation must include the type of option (call 
+or put) the underlying security or inde[ the e[piration month the e[ercise (strike) price the 
+number of option contracts the premium, trade, and settlement dates whether it was a 
+purchase or sale (long or short) opening or closing transaction whether it was done on a 
+principal or agency basis the amount of commission and so on. (Thereȇs more on conȴrma
+tions in Chapter 6 ȃ yippee)
+ »
+Statements of account (account statements): All clients must receive account statements at 
+least monthly if there has been any trading in the account for the previous month and at least 
+Tuarterly (once every three months) when there has been no trading in the previous month. 
+The account statements must show the security and money positions, entries, interest 
+charges, and any other charges assessed against the account. (Account statements are 
+covered in more detail in Chapter 6.)
+ »
+Opening of accounts: In order to open an options account for a client, the client must receive 
+an 2'', and you must e[ercise due diligence by getting the customerȇs investment obMectives, 
+employment status, estimated annual income, estimated net worth, estimated liTuid net 
+worth, marital status, number of dependents, age, investment e[perience and knowledge, and 
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  181
+so on. In addition, the account and all transactions must be approved by a registered options 
+principal (R2P), branch oɝce manager, or limited principalgeneral securities sales supervisor. 
+All options accounts must be approved or disapproved within ten business days. Please note 
+that all options accounts may not be approved for all transactions ȃ depending on the client, 
+they may be approved for buying covered writing, uncovered writing, spreading, discretionary 
+transactions, and so on.
+ »
+Options account agreement (OAA): :ithin  days of the approval of the account, a member 
+must obtain from the customer a written account agreement, which states that the customer 
+understands that they are aware of and agrees to be bound by )I1RA rules regarding options 
+trading.
+ »
+Uncovered short option contracts: Since uncovered short option contracts are the riskiest of 
+all option contracts, member ȴrms must create standard rules for evaluating the suitability of 
+customers who plan on writing uncovered options.
+ »
+Maintenance of records: Each member must keep a current log, inde[, or other ȴle for 
+optionsrelated complaints. Each complaint should be easily identiȴed and easy to retrieve if 
+necessary. Each complaint ȴle (hopefully there arenȇt many) must contain the identiȴcation of 
+the complaint, the date the complaint was received, the name of the registered rep handling 
+the account, a description of the complaint (such as a commission that they believe is too 
+high), action taken (if any), and so on.
+ »
+Discretionary account: As with any discretionary account in which the client gives you the 
+right to trade their account without preapproval, it must be approved by a principal (man
+ager). 2ptions discretionary accounts must be approved in writing by a registered options 
+principal (R2P) or limited principalgeneral securities sales supervisor, and written approval 
+must be received from the client. In addition, discretionary accounts must be reviewed 
+freTuently by an R2P.
+ »
+Suitability: <ou may not recommend any option transaction(s) to a customer unless you 
+believe that the transaction is suitable for the customer. Remember that you should already 
+know the customerȇs investment obMectives, ȴnancial information, and so on. In other words, 
+you should not be recommending a risky option transaction for someone you deem incapable 
+of handling the risk.
+ »
+Supervision of accounts: 0embers conducting an options business must have a written 
+supervisory system in place to adeTuately address the public customerȇs option business. In 
+addition, each branch oɝce must have either a registered options principal or a limited 
+principalgeneral securities sales supervisor in order to conduct options business.
+ »
+Fingerprinting: Individuals (directors, oɝcers, employees, temporary personnel, consultants, 
+vendors, independent contractors, service providers, and so on) who would have access to the 
+C%2E facilities must be ȴngerprinted for identiȴcation and processing.
+Testing Your Knowledge
+As I said at the beginning of the chapter, this is really just an introduction to options, so the 
+more-complex strategies are covered in subsequent exams. Take your time and read carefully. I 
+give you a good mix of questions in this chapter quiz without too much math needed to answer 
+the questions. Good luck.
+
+182 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+Practice questions
+1. Which of the following are bearish options strategies?
+I. Buying calls
+II. Buying puts
+III. Selling calls
+IV. Selling puts
+(A) 
+I and II
+(B) I and III
+(C) II and III
+(D) II and IV
+2. A customer owns call options on ABC common stock. ABC announces a cash dividend. What 
+happens on the ex-dividend date?
+(A) The strike price is reduced to reflect the dividend.
+(B) The strike price remains the same.
+(C) The strike price is increased to reflect the dividend.
+(D) The strike price remains the same unless the customer instructs the OCC to change the 
+strike price.
+3. What are possible outcomes for the writer of a covered call option?
+(A) Unlimited profit and unlimited loss
+(B) Unlimited profit and limited loss
+(C) Limited profit and unlimited loss
+(D) Limited profit and limited loss
+4. Declan is opening a new options account at a brokerɡdealer. Declan must return the signed 
+options account agreement
+(A) before the account is approved
+(B) within 15 days after approval of the account
+(C) any time before the first transaction
+(D) sometime before receiving the risk disclosure document
+5. An investor is long 1 GHI Oct 30 call. If GHI has a current market value of 33, which of  
+the following is TRUE?
+(A) The option is out-of-the-money.
+(B) The option is at-the-money.
+(C) The option is in-the-money.
+(D) The call has a negative intrinsic value.
+6. An investor reads in the newspaper that EKL Dec 60 puts are trading for 6 when EKL is at 64. 
+What is the time value of these options?
+(A) 0
+(B) 2
+(C) 4
+(D) 6
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  183
+7. 
+Which of the following is TRUE regarding option contracts?
+I. The OCC sets the contract size.
+II. The OCC sets the strike prices.
+III. The OCC sets the premiums.
+IV. The OCC sets the expiration dates.
+(A) I and III
+(B) I, II, and IV
+(C) II and III
+(D) I, II, III, and IV
+8. Melissa previously wrote 10 MKR Aug 45 puts for 6 each when the market price of MKR was 
+46. MKR is currently trading at 41 and the options are one week away from expiration. Melissa 
+would like to buy her way out of that position. If she does, how would the second option order 
+ticket be marked?
+(A) Opening sale
+(B) Opening purchase
+(C) Closing sale
+(D) Closing purchase
+9. Who is the issuer and guarantor of all listed options?
+(A) OAA
+(B) OCC
+(C) ODD
+(D) FINRA
+10. When is the last time an investor can exercise an option contract?
+(A) 4 p.m. EST on the third Friday of the expiration month
+(B) 5:30 p.m. EST on the third Friday of the expiration month
+(C) 11:59 p.m. EST on the third Friday of the expiration month
+(D) 11:59 p.m. CST on the third Friday of the expiration month
+11. What is the break-even point for an investor who writes a Sep 40 call for 3?
+(A) 37
+(B) 40
+(C) 43
+(D) 34
+12. What is the maximum potential loss for an investor who shorted 1 Y Oct 40 put for 6?
+(A) 3,400
+(B) 4,000
+(C) 4,600
+(D) Unlimited
+
+184 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+13. What is the break-even point for an investor who is long 1 ABC Ean 60 put, which was  
+purchased for 4?
+(A) 56
+(B) 60
+(C) 64
+(D) 66
+14. Which TWO of the following options are in-the-money if TUV is trading at 43?
+I. TUV 40 calls
+II. TUV 40 puts
+III. TUV 50 calls
+IV. TUV 50 puts
+(A) I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+15. Before opening an options account, a customer must receive an
+(A) OAA
+(B) OCC
+(C) ODD
+(D) All of the above
+16. Which TWO of the following options are TRUE of an investor who writes a call option?
+I. The maximum potential gain is the premium.
+II. The maximum potential loss is the premium.
+III. The break-even point is the premium added to the strike price.
+IV. The break-even point is the premium subtracted from the strike price.
+(A) I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+17. If an SʩP 500 index call option is in-the-money at expiration, settlement is made by delivery of
+(A) cash
+(B) a percentage of all of the SʩP 500 index stocks
+(C) an exchange traded fund (ETF) that tracks the SʩP 500
+(D) longer-term SʩP 500 index call options
+18. An investor buys 1 TUV Oct 45 put for a premium of $4 and simultaneously buys 100 shares of 
+TUV stock for $45 per share. At expiration, the stock would have to be selling at what price per 
+share for the investor to be able to break even?
+(A) $4
+(B) $41
+(C) $45
+(D) $49
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  185
+Answers and explanations
+1. C. If you are bearish on a particular security, you want the price of it to decrease. If you  
+are buying a call option without any other underlying positions, you want the price of the 
+underlying security to increase. Therefore, if you purchase a put, you want the price of  
+the underlying security to decrease. You have to remember that the buyer and seller want 
+opposite things to happen. So, if the buyer of a call wants the price of the underlying 
+security to increase, the seller wants it to decrease. Stating that, buyers of puts and sellers 
+of calls with no other positions are bearish.
+2. A. For investors with options positions, the strike (exercise) price would be lowered as a 
+result of a dividend on the underlying security on the ex-dividend date.
+3. D. When writing (selling) a covered call option, you are selling a call option on a security 
+that you already own. The purpose of this is to provide income on the security that you own 
+by receiving the premium for the call option sold. However, this comes at a cost. If the price 
+of the security owned increases to the point where it will be profitable for the purchaser of 
+the option to exercise that option, they will be buying the underlying security from you at 
+the exercise price. This limits your upside potential. In addition, if the option is exercised, 
+the loss is limited because you don’t have to purchase the security in the market; you 
+already own the security, which would have to be delivered.
+4. B. The options account agreement (OAA or options agreement) must be signed and returned 
+within 15 days after approval of the account. The customer would first receive an options 
+risk disclosure document (ODD or options disclosure document), and then the account 
+would be approved by an options principal. Once approved, the customer has 15 days to sign 
+and return the options account agreement.
+5. C. Call options go in-the-money when the price of the underlying security trades above the 
+strike (exercise) price. In this case, the underlying stock price is at 33 and the strike price of 
+the option is 30, so it’s 3 points in-the-money. In case you were wondering, there is no 
+such thing as negative intrinsic value, which is Choice (D).
+6. D. The premium of an option is made up of intrinsic value (how much the option is in-the- 
+money) and time value (the longer the time until expiration, the higher the time value). To 
+determine the time value, use the following equation:
+P(premium)I(intrinsicvalue)T(timevalue)
+60+T
+T6
+Since put options go in-the-money when the price of the underlying security goes below 
+the strike price, this option has no intrinsic value because the price of the stock is above 
+the strike price. This means that the premium is made up of time value only.
+7. B. The OCC (Options Clearing Corporation) sets the contract sizes, the strike prices, and the 
+expiration dates for all options. However, the premium is based off of the intrinsic value 
+(how much the option is in-the-money) and time value (the amount of time until the 
+option expires).
+8. D. When Melissa originally sold (wrote) the options, it was an initial or opening transac-
+tion. Since Melissa sold those options, it’s an opening sale. To get themself out of that 
+
+186 PART 3  Diving Deeper: Taking a Look at More Complex Securities
+position, Melissa would need to close the options. So, since they have to purchase the 
+options, it is a closing purchase.
+9. B. The OCC (Options Clearing Corporation) is the issuer and guarantor of all listed options. 
+The OCC decides which securities will have options, their strike prices, and their expiration 
+dates. In addition, the OCC guarantees that option holders will be able to exercise their 
+options.
+10. B. The last trade of an option is 4:00 p.m. EST on the third Friday of the expiration month. 
+The last exercise is 5:30 p.m. EST on the third Friday of the expiration month. And, options 
+expire 11:59 p.m. EST on the third Friday of the expiration month.
+11. C. When buying or selling a call option with no other positions, you need to add the pre-
+mium to the strike (exercise) price to get the break-even point. In this case, it doesn’t 
+matter whether this investor was purchasing or selling the option because both break even 
+at the same price.
+40343
+12. A. The easiest way to determine the maximum potential loss for this question is to use an 
+options chart.
+Since the investor shorted (sold) the option for $600 (6 ! 100 shares per option), they 
+received $600, so you have to put that on the “Money In” side of the chart. That tells you 
+that their maximum potential gain is $600. To determine the maximum potential loss, you 
+have to exercise the option. So, you exercise at the strike (exercise) price of 40. This means 
+that you have to put $4,000 (40 strike price ! 100 shares per option) on the opposite side of 
+its premium because puts switch (the exercised premium goes on the opposite side of the 
+chart from its premium). Now you see that there is $3,400 more Out than in ($4,000 ɡ 
+$600), so that’s the maximum potential loss.
+13. A. When buying or selling a put option with no other positions, you need to subtract the 
+premium from the strike (exercise) price to get the break-even point. In this case, it 
+doesn’t matter whether this investor was purchasing or selling the option, because both 
+break even at the same price.
+60456
+14. B. Call options go in-the-money when the price of the underlying stock goes above the 
+strike price, and put options go in-the-money when the price of the underlying stock goes 
+below the strike price. Therefore, answers “I” and “IV” are both in-the-money.
+
+CHAPTER   2ptions 8nderstanding the %asics oI 3uts and &alls  187
+15. 
+C. Before a customer opens an options account, they must receive an ODD (options risk 
+disclosure document). This is the document that explains all of the risks of investing in 
+options so that customers will understand what they’re getting into.
+16. A. When writing (selling) an option with no other position, the maximum potential gain is 
+the premium received. To determine the break-even point for a call option, call up, which 
+means to add the premium to the strike price.
+17. A. Index options are settled in cash by multiplying the in-the-money amount by 100 per 
+option.
+18. D. This investor purchased a protective put to limit their potential downside loss. You could 
+set this up in an options chart but in this case, it’s probably not necessary. This investor 
+purchased the stock for $45 per share, and since options are for 100 shares, they purchased 
+the option for $4 per share. This means that they spent $49 ($45 + $4) per share to 
+purchase both positions. This means that their breakeven point is $49.

@@ -263,8 +263,8 @@ When one of your clients is opening a **cash account**, it means that they must 
 ### INVESTMENT ADVISERS
 ### 投资顾问
 
-If you’re working for a broker-dealer as an agent, you’ll receive commission when one of your clients makes a trade. However, there is a different way to make money: receiving a fee for giving investment advice. To do so, you have to pass an exam and be registered as an **investment adviser** under the **Investment Advisers Act of 1940**.
-如果您作为代理人在经纪交易商工作，当您的客户进行交易时，您将收到佣金。然而，还有一种不同的赚钱方式：因提供投资建议而收取费用。为此，您必须通过考试，并根据《**1940 年投资顾问法**》注册为**投资顾问**。
+If you’re working for a broker-dealer as an agent, you’ll receive commission when one of your clients makes a trade. However, there is a different way to make money: receiving a fee for giving investment advice. To do so, you have to pass an exam (typically **Series 65** or **Series 66**) and be registered as an **investment adviser** under the **Investment Advisers Act of 1940**.
+如果您作为代理人在经纪交易商工作，当您的客户进行交易时，您将收到佣金。然而，还有一种不同的赚钱方式：因提供投资建议而收取费用。为此，您必须通过考试（通常是 **65 系列**或 **66 系列**），并根据《**1940 年投资顾问法**》注册为**投资顾问**。
 
 Advisers must have a **written contract** that explains to clients how and when fees will be charged. Fees may be charged as a percentage of managed assets or as **wrap fees**, whereby a client is charged fees for unlimited trading, advice, and/or custody of funds and securities. People who provide investment advice that is **incidental** to their business (teachers, accountants, lawyers, and so on) do not have to register as investment advisers.
 顾问必须拥有一份**书面合同**，向客户解释收费方式和时间。费用可以按管理资产的百分比收取，也可以作为**打包费 （wrap fees）** 收取，即向客户收取包含无限次交易、建议和/或资金及证券托管在内的费用。那些提供与其业务**相关但非主要的**投资建议的人士（教师、会计师、律师等）不需要注册为投资顾问。
@@ -371,8 +371,15 @@ In short, here’s how much an investor has to deposit for a **long** account:
 ### Opening short accounts
 ### 开设做空账户
 
-The minimum deposit for short accounts is fairly easy to remember. The **$2,000 minimum** always applies, even if the customer is selling short only $300 worth of securities. In this case, the customer must deposit **50 percent or $2,000, whichever is greater**.
-做空账户的最低存款额相当容易记住。**2,000 美元的最低额度**始终适用，即使客户仅卖空价值 300 美元的证券。在这种情况下，客户必须存入 **50% 或 2,000 美元，以较高者为准**。
+The minimum deposit for short accounts is fairly easy to remember. The **$2,000 minimum** always applies, even if the customer is selling short only $300 worth of securities. In this case, the customer must deposit **50 percent or $2,000, whichever is greater**. Here is the breakdown:
+
+*   Initial sale < $4,000: **$2,000**
+*   Initial sale > $4,000: **Reg T (50% of market value)**
+
+在这种情况下，客户必须存入 **50% 或 2,000 美元，以较高者为准**。具体细分如下：
+
+*   初始卖空额 < $4,000：**$2,000**
+*   初始卖空额 > $4,000：**Reg T （市场价值的 50%）**
 
 ---
 
@@ -424,6 +431,36 @@ Practice questions (Original English Only)
    (C) You may not make calls to potential customers before 9 a.m. or after 8 p.m.
    (D) You may not make calls to potential customers before 9 a.m. or after 8 p.m. local time of the customer.
 
+6. Which of the following documents are required for an investor opening a margin account?
+   I. A credit agreement II. A hypothecation agreement III. A loan consent form
+   (A) I and II (B) I and III (C) II and III (D) I, II, and III
+
+7. Which of the following are TRUE?
+   I. If an investor of a joint tenants with rights of survivorship account dies, their portion of the account is transferred to their estate.
+   II. If an investor of a joint tenants with rights of survivorship account dies, their portion of the account is transferred to the remaining account holder(s).
+   III. If an investor of a joint tenants in common account dies, their portion of the account is transferred to their estate.
+   IV. If an investor of a joint tenants in common account dies, their portion of the account is transferred to the remaining account holder(s).
+   (A) II and IV (B) I and IV (C) II and III (D) II and IV
+
+8. A customer opens a short margin account by selling short 200 shares of DIM common stock at $17 per share. What is the margin call?
+   (A) $1,700 (B) $2,000 (C) $3,400 (D) Cannot be determined
+
+9. To make proper recommendations to a client, you should know their
+   I. age II. time horizon III. tax bracket IV. liquidity needs
+   (A) I and IV (B) II and III (C) I, III, and IV (D) I, II, III, and IV
+
+10. The Patriot Act requires broker-dealers to identify their investors through
+   (A) CIPs (B) DIMs (C) LLPs (D) All of the above
+
+11. The tax ID of ___________ is required for the opening of an UTMA account.
+   (A) both parents (B) at least one parent (C) the minor (D) the custodian
+
+12. John Smith has a joint account with sisters Mirabelle and Elyse. If the account was set up as a joint with tenants in common, which of the following is true?
+   (A) Since John and siblings are not married, they could not have set up an account as joint with tenants in common.
+   (B) John and the two sisters must share equally in the assets of the account.
+   (C) If any of the siblings die, that individual’s portion of the account is divided equally among the two remaining siblings.
+   (D) Ownership of the decedent’s assets in the account are governed by their will (if any) or by the laws in the state in which they live.
+
 ### Answers and explanations
 
 1.  **D.** For a corporate margin account, all four items are required: the new account form, the corporate resolution (authority to trade), the corporate charter (authority to use margin), and the margin agreement.
@@ -431,3 +468,10 @@ Practice questions (Original English Only)
 3.  **A.** There can only be one minor and one custodian per UGMA account. Parents cannot be joint custodians.
 4.  **A.** Surprisingly, the customer's signature is NOT required on a basic new account form (it is required for margin and options, but not for the form itself). The rep's and principal's signatures are required.
 5.  **B.** Cold calls are restricted to between 8 a.m. and 9 p.m. in the **customer's local time zone**.
+6.  **D.** The credit agreement, hypothecation agreement, and loan consent form are all part of the margin agreement.
+7.  **C.** JTWROS passes to survivor (II). JTIC passes to estate (III). So II and III.
+8.  **B.** Short sale proceeds = $3,400 (200 * $17). Reg T = 50% = $1,700. Minimum maintenance/initial for short is greater of $2,000 or Reg T. Since $1,700 < $2,000, margin call is $2,000.
+9.  **D.** All factors listed (age, time horizon, tax bracket, liquidity needs) are important for suitable recommendations.
+10. **A.** CIPs (Customer Identification Programs) are required by the Patriot Act.
+11. **C.** UTMA accounts are for the minor's benefit and use the minor's Tax ID (SSN).
+12. **D.** In a Tenants in Common (TIC) account, the decedent's share goes to their estate (governed by will/law), not to the survivors.

@@ -227,3 +227,214 @@ Practice questions (Original English Only)
 4.  **A.** Under the T+1 settlement rule, the ex-dividend date is one business day before the record date.
 5.  **C.** Pump and dump is a classic form of market manipulation.
 6.  **D.** All four types of transactions listed are subject to the 5% markup guideline.
+
+
+### Additional Practice Questions
+
+7. Which of the following is an indication of money laundering when a customer opens an
+account?
+(A) Concern with U.S. government reporting requirements
+(B) Reluctance to reveal information about business activities
+(C) Questionable ID
+(D) All of the above
+288 PART 4  Playing Nicely: Serving Your Client’s Needs and Following the Rules
+8. A person will be statutorily disqualified from membership from FINRA under which of the
+following circumstances?
+I. If they had a felony conviction within the last 15 years
+II. If they have been barred from membership in an SRO
+III. If they have made false statements on their application
+(A) I and III
+(B) II and III
+(C) I and II
+(D) I, II, and III
+9. If you resign from a brokerage firm, how long do you have to register with another firm so that
+you don’t have to take your securities exams again?
+(A) 90 days
+(B) 6 months
+(C) 1 year
+(D) 2 years
+10. Which of the following are violations?
+(A) Commingling of funds
+(B) Interpositioning
+(C) Signatures of convenience
+(D) All of the above
+11. Which of the following securities transactions settle in two business days after the trade date?
+I. Stock and corporate bond transactions
+II. Municipal bond transactions
+III. U.S. government bond transactions
+IV. Option transactions
+(A) I, III, and IV
+(B) II and III
+(C) I and II
+(D) I, II, III, and IV
+12. Brokerɡdealers, investment companies, and investment advisers must have written policies
+designed to protect customers’ records and information. This rule falls under
+(A) Regulation S-P
+(B) Regulation D
+(C) Regulation M
+(D) Regulation T
+13. All of the following must be included on a trade confirmation ECEPT
+(A) a description of the security
+(B) the markup or markdown
+(C) the registered rep’s ID number
+(D) the commission
+CHAPTER 6  5ules and 5egulations 1o )ooling $round  289
+14.
+imbot Corporation has Ûust announced a 30-cent dividend to shareholders of record. If the
+record date is Friday, October 8, when is the first day an investor can purchase the stock
+and not receive the dividend?
+(A) Wednesday, October 6
+(B) Thursday, October 7
+(C) Friday, October 8
+(D) Monday, October 11
+15. In which of the following procedures for handling complaints is the decision binding and cannot
+be appealed?
+(A) Code of procedure
+(B) Mediation
+(C) Arbitration
+(D) Both (B) and (C)
+16. Which of the following types of transactions are subÛect to the 5 percent markup policy?
+I. Proceeds transactions
+II. Riskless transactions
+III. Agency transactions
+IV. Principal transactions
+(A) I, III, and IV
+(B) II and III
+(C) I and II
+(D) I, II, III, and IV
+17. Under FINRA rules, all of the following brokerage firm records must be kept for a minimum of
+three years ECEPT
+(A) ledgers
+(B) trade confirmations
+(C) order tickets
+(D) U4 forms of former employees
+18. Brokerɡdealers, banks, investment advisers, and so on must report a possible money-
+laundering transaction to
+(A) FINRA
+(B) FinCEN
+(C) FBI
+(D) SEC
+290 PART 4  Playing Nicely: Serving Your Client’s Needs and Following the Rules
+19. Which TWO of the following are the maximum penalties for insider trading violations?
+I. 20 years in prison per violation
+II. 25 years in prison per violation
+III. $5 million per individual per violation
+IV. $25 million per individual per violation
+(A) I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+20. A violation in which a firm attempts to drive up the price of a stock based on false or misleading
+information so that the firm can later sell their shares at a higher price is known as
+(A) churning
+(B) trading ahead
+(C) frontrunning
+(D) pump and dump
+21. Mr. Slick purchased 400 shares of IP Corporation common stock and sold it at a profit prior to
+paying for the purchase. This is a violation known as
+(A) freeriding
+(B) frontrunning
+(C) trading ahead
+(D) interpositioning
+22. As part of FINRA’s business continuity plan, member firms must provide the emergency
+contact information for ɗɗɗɗɗɗɗɗɗɗ principal(s) of the firm to contact in the event of an
+emergency.
+(A) one
+(B) two
+(C) three
+(D) all
+23. Which TWO of the following are TRUE?
+I. FDIC covers each individual up to $250,000.
+II. FDIC covers each individual up to $500,000, of which no more than $250,000 can be cash.
+III. SIPC covers each individual up to $250,000.
+IV. SIPC covers each individual up to $500,000, of which no more than $250,000 can be cash.
+(A) I and III
+(B) I and IV
+(C) II and III
+(D) II and IV
+CHAPTER 6  5ules and 5egulations 1o )ooling $round  291
+24.
+Under FINRA rules, which of the following records must be kept by a brokerage firm for a mini-
+mum of six years?
+I. Customer account statements
+II. U5 forms
+III. Records of all trades executed
+IV. Sales literature
+(A) I, II, and III
+(B) II, III, and IV
+(C) I and III
+(D) I, II, and IV
+25. Which of the following records must be kept for the lifetime of a brokerɡdealer?
+(A) Records of closed accounts
+(B) General ledgers
+(C) Partnership documents
+(D) All of the above
+292 PART 4  Playing Nicely: Serving Your Client’s Needs and Following the Rules
+
+### Additional Answers
+
+7. D. Certainly all of the choices listed would be considered indications of money laundering.
+8. B. Answers II and III are definitely reasons why a person would be statutorily disqualified.
+However, answer I doesn’t fit because the person would be statutorily disqualified if they
+had a felony conviction in the last 10 years, not 15.
+9. D. If a securities licensed individual leaves a brokerage firm, that person has up to two
+years to get registered with another firm or they will have to take their license exams again.
+10. D. All of the choices listed are violations. Commingling of funds takes place when a firm
+combines a customer’s fully paid securities with margined securities, or when a firm
+combines its own securities with a customer’s securities. Interpositioning is when two
+securities brokerɡdealers act as agents for the same trade, thus requiring the customer to
+pay more than one commission. Signatures of convenience are ones in which a customer’s
+signature is forged.
+CHAPTER 6  5ules and 5egulations 1o )ooling $round  293
+11.
+C. Stock, corporate bond, and municipal bond transactions settle in two business days after
+the trade date (T+2). U.S. government bond and options transactions settle in one business
+day after the trade date. As a reminder, cash trades settle the same business day as the
+trade date.
+12. A. Under Regulation S-P, all brokerɡdealers, investment companies, and investment
+advisers must have written policies to protect customer’s records and private information.
+This would include things like Social Security numbers, bank account numbers, and so on.
+13. B. Although a commission must be included on a trade confirmation for an agency trade,
+a markup or markdown does not need to be included for a principal transaction. Remember,
+a principal transaction is one in which the dealer is buying for or selling from its own
+inventory. Therefore, the price the customer pays or receives already includes a markup
+or markdown.
+14. B. The first day the stock trades without the dividend is on the ex-dividend date. The
+ex-dividend date is one business day before the record date — in this case, Thursday,
+October 7.
+15. C. Arbitration decisions are binding and non-appealable. Arbitration is certainly less formal
+and less costly than going through the court system. As a matter of fact, many brokerage
+firms have customers sign an arbitration clause as part of a new account form stating that
+the customer agrees to have disputes handled through arbitration.
+16. D. All of the choices listed are subÛect to the 5 percent markup policy. The 5 percent markup
+policy is designed to help curb overcharging customers for trades. It Ûust means that for
+standard-size trades with no other contributing factors that make the trade more difficult,
+customers should not be charged more than 5 percent.
+17. A. Ledgers, which are customer account statements, must be kept on file for a minimum of
+six years, not three. As a reminder, all records must be easily accessible for two years.
+18. B. Under the USA Patriot Act, if financial institutions are concerned about the possibility of
+money laundering, they must report the transaction(s) to the U.S. Treasury Financial
+Crimes Network (FinCEN).
+19. A. The maximum penalties for insider trading are $5 million per individual per violation
+($25 million per business) and up to 20 years in prison per violation. Although not part of
+this question, the maximum civil sanctions are three times the gain or three times the loss
+avoided plus disgorgement of profits.
+20. D. Pump and dump is a violation in which a firm promotes a security that they own using
+false or misleading information to try to pump up the price of the security. After the price
+has been driven up, they dump their stock at a profit.
+21. A. Freeriding is a violation that takes place when a customer places an order to purchase
+a security and sells it at a profit prior to paying for it. Freeriding is not permitted under
+Regulation T, and it may require the brokerage firm to freeze the customer’s account for
+90 days.
+294 PART 4  Playing Nicely: Serving Your Client’s Needs and Following the Rules
+22. B. Because of the possibility of an emergency, all firms are required to have business
+continuity plans and provide emergency contact information. In addition, all firms must
+provide the emergency contact information for two principals to FINRA.
+23. B. The FDIC covers each depositor up to $250,000. The SIPC covers each investor up to
+$500,000, of which no more than $250,000 can be cash.
+24. C. Blotters, which includes records of all trades executed by the brokerage firm; ledgers,
+which include customer account statements; general ledgers; position records; account
+records; and information on closed accounts must be kept for a minimum of six years.
+U5 forms and sales literature must be kept for a minimum of three years.
+25. C. Corporate or partnership documents of the member firm must be kept for the lifetime of
+the firm.
