@@ -270,9 +270,29 @@ The Fed has a few tools in its arsenal to help control the money supply:
 *   贴现率：联邦储备银行向成员银行收取的贷款利率。
 *   **Reserve requirement**: The percentage of customers' money that banks are required to keep on deposit. 
 *   法定准备金率：银行必须保留的客户资金存款百分比。
-*   **Regulation T**: The percentage that investors must pay when purchasing securities on margin 
-*   currently 50%). (T 条例:投资者融资购买证券时必须支付的比例
-*   目前为 50%）。
+*   **Regulation T**: The percentage that investors must pay when purchasing securities on margin (currently 50%). (T 条例:投资者融资购买证券时必须支付的比例，目前为 50%）。
+
+### Exchange rates
+### 汇率
+
+Exchange rates are the rates at which one currency can be converted to another. Exchange rates are constantly changing. Some investors even speculate in foreign currencies.
+汇率是一种货币转换为另一种货币的比率。汇率是不断变化的。一些投资者甚至对外币进行投机。
+
+*   You can assume for SIE exam purposes that the value of the U.S. dollar and foreign currency go in **opposite directions**.
+*   出于 SIE 考试的目的，您可以假设美元和外币的价值走势是**相反的**。
+*   The exchange rate is considered to be a **floating rate** because it changes constantly.
+*   汇率被认为是**浮动汇率**，因为它是不断变化的。
+
+### U.S. balance of payments
+### 美国国际收支 (U.S. balance of payments)
+
+The **U.S. balance of payments (BoP)** is an accounting of the United States’ economic transactions with the world over a given period of time.
+**美国国际收支 (BoP)** 是对美国在特定时期内与世界进行的经济交易的核算。
+
+*   If the U.S. dollar is **strong** (expensive), U.S. exports decrease (foreigners buy less) and imports increase (Americans buy more foreign goods). This can lead to a **deficit** (more money flowing out).
+*   如果美元**走强**（昂贵），美国出口会减少（外国人买得少），进口会增加（美国人买更多外国货）。这可能导致**赤字**（更多资金流出）。
+*   If the U.S. dollar is **weak** (cheap), U.S. exports increase (foreigners buy more) and imports decrease. This can lead to a **surplus** or credit (more money flowing in).
+*   如果美元**走弱**（便宜），美国出口会增加（外国人买得多），进口会减少。这可能导致**盈余**或顺差（更多资金流入）。
 
 ---
 
@@ -291,6 +311,19 @@ Economic indicators help predict the direction of the economy:
 *   **Lagging indicators**: Mirror leading indicators but reach their peaks later 
 *   e.g., **prime rate**, corporate profits, duration of employment). (滞后指标:镜像反映领先指标但达峰较晚
 *   如**优惠贷款利率**、公司利润、就业时长）。
+
+### GDP and GNP: Measuring goods and services
+### GDP 与 GNP：衡量商品与服务
+
+*   **Gross Domestic Product (GDP)**: The total of all goods produced and all services provided **by the United States** (within U.S. borders) in a one-year period.
+*   **国内生产总值 (GDP)**：**美国境内**（美国国界内）在一年内生产的所有商品和提供的所有服务的总和。
+*   **Gross National Product (GNP)**: Includes GDP plus investments made by U.S. businesses and residents inside and outside the U.S. It **excludes** income earned by foreign businesses in the U.S.
+*   **国民生产总值 (GNP)**：包括 GDP 加上美国企业和居民在美国境内外进行的投资。它**不包括**外国企业在美国赚取的收入。
+
+🧠 **REMEMBER**
+Both GDP and GNP are measured in **constant dollars** (factoring in inflation) to see if the economy is actually expanding or contracting.
+🧠 **请记住**
+GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡量，以查看经济是否实际上在扩张或收缩。
 
 ---
 

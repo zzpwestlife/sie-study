@@ -425,7 +425,7 @@ Table 7-2 gives you an overview of types of U.S. government securities and their
 | **Treasury bills （T-bills） （短期国库券）** | 4, 8, 13, 17, 26, or 52 weeks； considered to be short-term U.S. debt securities （4, 8, 13, 17, 26 或 52 周；被视为短期美国债务证券） | Issued at a discount and mature at par. The difference between the purchase price and par is considered to be interest， even though no interest payments were made. Minimum purchase is $100. （折价发行，到期按面值兑付。尽管没有支付利息，但购买价与面值之间的差额被视为利息。最低购买金额为 100 美元。） |
 | **Treasury notes （T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |
 | **Treasury bonds （T-bonds） （长期国债）** | 20 or 30 years； considered to be long-term U.S. debt securities （20 或 30 年；被视为长期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |
-| **T-STRIPS （零息国债）** | 6 months to 30 years （6 个月到 30 年） | Considered to be zero-coupon securities （issued at a discount and mature at par） and don't receive interest payments. Purchase price varies. The minimum face value must be $100. （被视为零息证券（折价发行，到期按面值兑付），不接收利息支付。购买价格各异。最低面值必须为 100 美元。） |
+| **T-STRIPS （零息国债）** | 6 months to 30 years （6 个月到 30 年） | Considered to be zero-coupon securities （issued at a discount and mature at par） and don't receive interest payments. Purchase price varies. The minimum face value must be $100. **Note: Investors must pay annual income tax on the accretion (phantom income) even though they don't receive cash interest until maturity.** （被视为零息证券（折价发行，到期按面值兑付），不接收利息支付。购买价格各异。最低面值必须为 100 美元。**注意：投资者必须每年就增值部分（幻影收入）缴纳所得税，即使他们在到期前没有收到现金利息。**） |
 | **TIPS\* （通胀保护证券）** | 5, 10, or 30 years （5, 10 或 30 年） | Pay interest every 6 months. Par value and interest payments adjust according to inflation or deflation. Minimum purchase is $100. （每 6 个月支付一次利息。面值和利息支付根据通货膨胀或通货紧缩进行调整。最低购买金额为 100 美元。） |
 
 *\*TIPS are tied to the Consumer Price Index (CPI), which measures inflation. The par value changes according to inflation. If inflation is high (prices of goods and services are increasing), the par value increases. If we're in a period of deflation (prices on goods and services are decreasing), the par value decreases. Because investors are getting a percentage of par value as their interest payments, the interest payments vary along with the par value.*
@@ -442,8 +442,8 @@ For the SIE exam, keep in mind that the interest received on U.S. government sec
 **Agency bonds** are ones issued by a U.S. government-sponsored agency or government-sponsored entity (GSE). The bonds are backed by the U.S. government, but not all are guaranteed by the full faith and credit of the U.S. government except for **Government National Mortgage Association (GNMA)** bonds, which are directly backed. As such, agency bonds (although almost as safe) are considered to be riskier than U.S. government bonds and notes such as T-bonds, T-notes, and T-bills. Not all U.S. government agency securities are exempt from SEC registration. GSEs include the following:
 **机构债券 （Agency bonds）** 是由美国政府赞助的机构或政府赞助实体 （GSE） 发行的。这些债券由美国政府支持，但并不是所有债券都由美国政府的完全信誉担保，除了**政府全国抵押贷款协会 （GNMA，又称 Ginnie Mae）** 债券，它们是直接担保的。因此，机构债券（虽然几乎同样安全）被认为比长期国债、中期国库票据和短期国库券风险更高。并非所有的美国政府机构证券都免于 SEC 注册。GSE 包括以下几种：
 
-*   **GNMA (Government National Mortgage Association, or Ginnie Mae):** GNMAs are the only agency securities backed by the full faith and credit of the U.S. government. GNMAs support the U.S. Department of Housing and Urban Development (HUD). GNMAs are considered **asset-backed securities** (backed by mortgages), which typically are sold based on their **average life expectancy**, rather than their stated life expectancy (typically 30 years). Even though many people have a 30-year mortgage, the average life might be only 17 years or so based on refinancing and people selling their homes.
-*   **GNMA（政府全国抵押贷款协会，或称 Ginnie Mae）：** GNMAs 是唯一由美国政府完全信誉担保的机构证券。GNMAs 支持美国住房和城市发展部 （HUD）。GNMAs 被视为**资产证券化产品 （asset-backed securities）**（由抵押贷款支持），通常根据其**平均预期寿命**而非规定寿命（通常为 30 年）进行销售。尽管许多人拥有 30 年期的抵押贷款，但基于再融资和人们出售房屋的情况，平均寿命可能仅为 17 年左右。
+*   **GNMA (Government National Mortgage Association, or Ginnie Mae):** GNMAs are the only agency securities backed by the full faith and credit of the U.S. government. GNMAs support the U.S. Department of Housing and Urban Development (HUD). GNMAs are considered **asset-backed securities** (backed by mortgages), which typically are sold based on their **average life expectancy**, rather than their stated life expectancy (typically 30 years). Even though many people have a 30-year mortgage, the average life might be only 17 years or so based on refinancing and people selling their homes. GNMAs pay interest and principal **monthly**.
+*   **GNMA（政府全国抵押贷款协会，或称 Ginnie Mae）：** GNMAs 是唯一由美国政府完全信誉担保的机构证券。GNMAs 支持美国住房和城市发展部 （HUD）。GNMAs 被视为**资产证券化产品 （asset-backed securities）**（由抵押贷款支持），通常根据其**平均预期寿命**而非规定寿命（通常为 30 年）进行销售。尽管许多人拥有 30 年期的抵押贷款，但基于再融资和人们出售房屋的情况，平均寿命可能仅为 17 年左右。GNMAs **每月**支付利息和本金。
 *   **FNMA (Federal National Mortgage Association, or Fannie Mae):** FNMA is a publicly held corporation that is responsible for providing capital for certain mortgages. As such, FNMA may purchase conventional mortgages, Department of Veterans Affairs mortgages, U.S. Federal Housing Association mortgages, and so on. FNMA is privately owned and publicly held but is still a GSE.
 *   **FNMA（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。
 *   **FHLMC (Federal Home Loan Mortgage Corporation, or Freddie Mac):** As a public corporation, Freddie Mac was designed to create a secondary market for mortgages. Freddie Mac purchases residential mortgages from financial institutions and packages them into mortgage-backed securities that are sold to investors.
@@ -510,8 +510,10 @@ Word association can help you here. If you see importing, exporting, or time-dra
 Now that you've discovered what you need to know about corporate and U.S. debt securities as far as the SIE exam goes, it's time to try some additional questions (besides the ones within the chapter). Read carefully so that you don't make any careless mistakes.
 
 ### Practice questions
+### 练习题
 
 1. A corporate bond indenture includes which of the following?
+   公司债券契约包含以下哪项？
    I. The coupon rate
    II. The maturity date
    III. Par value
@@ -522,36 +524,42 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (D) I, II, III, and IV
 
 2. Declan K. has 100 DEF corporate bonds with a coupon rate of 4 1/2 percent. The bonds were purchased at 98 percent of $1,000 par each. How much interest will Declan receive the next time they get paid?
+   Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？
    (A) $2,205
    (B) $2,250
    (C) $4,410
    (D) $4,500
 
 3. Which of the following types of corporate bond issues is most likely to have a sinking fund?
+   以下哪种类型的公司债券发行最可能设有偿债基金？
    (A) Term
    (B) Series
    (C) Serial
    (D) None of the above
 
 4. All of the following are types of secured bonds EXCEPT
+   以下所有都是担保债券的类型，除了
    (A) mortgage bonds
    (B) collateral trusts
    (C) income bonds
    (D) guaranteed bonds
 
 5. Which of the following is the formula that determines the current yield of a bond?
+   以下哪个是确定债券当前收益率的公式？
    (A) Current yield = Semiannual interest divided by the market price
    (B) Current yield = Semiannual interest divided by the par value
    (C) Current yield = Annual interest divided by the market price
    (D) Current yield = Annual interest divided by par value
 
 6. Melissa R. Corporation has issued $6 million worth of 30-year callable bonds with a par value of $1,000, a coupon rate of 5 1/4 percent, and 7 years call protection. Melissa R. Corporation would least likely call the bonds when interest rates are generally
+   Melissa R. 公司发行了价值 600 万美元的 30 年期可赎回债券，面值为 1,000 美元，票面利率为 5.25%，并有 7 年的赎回保护期。当利率通常处于什么状态时，Melissa R. 公司最不可能赎回债券？
    (A) increasing
    (B) decreasing
    (C) remaining the same
    (D) none of the above
 
 7. Which of the following are possible maturities for a U.S. Treasury bill?
+   以下哪项是美国短期国库券的可能期限？
    I. 4 weeks
    II. 8 weeks
    III. 16 weeks
@@ -562,12 +570,14 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (D) I, II, III, and IV
 
 8. Which of the following U.S. government securities has interest payments that vary according to inflation or deflation?
+   以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？
    (A) T-bills
    (B) T-STRIPS
    (C) TIPS
    (D) T-notes
 
 9. Which of the following securities are money market instruments?
+   以下哪些证券属于货币市场工具？
    I. Banker's acceptances
    II. T-bills
    III. Commercial paper
@@ -578,6 +588,7 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (D) I, II, III, and IV
 
 10. Which of the following are direct obligations of the U.S. government?
+    以下哪项是美国政府的直接债务？
     I. T-bills
     II. GNMA
     III. FNMA
@@ -588,56 +599,94 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
     (D) I, II, and IV
 
 11. The last transaction in HIJ 6.50s 2035 was at 99. These HIJ bonds sold
+    HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是
     (A) at par value
     (B) at a discount
     (C) at a premium
     (D) cannot be determined
 
 12. For callable bonds, the call provision must stipulate which of the following factors?
+    对于可赎回债券，赎回条款必须规定以下哪个因素？
     (A) The date of maturity
     (B) The market value
     (C) The call date and coupon rate
     (D) The call price and call date
 
 13. When issued, which of the following debt securities would mature in one year or less?
+    发行时，以下哪种债务证券的期限在一年或以下？
     (A) SLMA bonds
     (B) Money market securities
     (C) U.S. government-issued Treasury notes
     (D) Call options
 
 14. When computing dollar prices and accrued interest on municipal bonds, they are typically calculated using
+    计算市政债券的美元价格和应计利息时，通常使用
     (A) a 30-day month and a 360-day year
     (B) a 30-day month and a 365-day year
     (C) actual days in a month and a 360-day year
     (D) actual days in a month and a 365-day year
 
 15. When would the stability of a portfolio of debt securities be the greatest?
+    在什么时候债务证券投资组合的稳定性最大？
     (A) During a time of rising interest rates
     (B) During a time of falling interest rates
     (C) If the maturities of the debt securities are long-term
     (D) If the maturities of the debt securities are short-term
 
 16. These securities are typically traded based on their average life instead of their stated maturity dates.
+    这些证券通常根据其平均寿命而非规定的到期日进行交易。
     (A) U.S. government bonds
     (B) Asset-backed securities
     (C) Corporate callable bonds
     (D) Industrial development bonds
 
 ### Answers and explanations
+### 答案与解析
 
 1.  **D.** The indenture of a bond includes the date that the bond matures, the coupon rate, par value (typically, $1,000), collateral securing the bond (if any), and any callable or convertible features.
+    **D.** 债券契约包括债券到期日、票面利率、面值（通常为 1,000 美元）、担保债券的抵押品（如果有）以及任何可赎回或可转换特征。
+
 2.  **B.** The coupon rate is based on the par value of the bonds, not the purchase price or market value. Declan purchased $100,000 par value of bonds with a coupon rate of 4 1/2 percent. This means that Declan will receive $4,500 (4.5% × $100,000) in interest per year. But you can assume (unless you're told differently in the question) that bonds pay interest semiannually (every six months). So you need to divide the annual interest by 2 to get $2,250 ($4,500 / 2).
+    **B.** 票面利率是基于债券的面值，而不是购买价格或市场价值。Declan 购买了面值为 100,000 美元、票面利率为 4.5% 的债券。这意味着 Declan 每年将获得 4,500 美元（4.5% × 100,000 美元）的利息。但您可以假设（除非题目中另有说明）债券每半年（每六个月）支付一次利息。因此，您需要将年利息除以 2 得到 2,250 美元（4,500 美元 / 2）。
+
 3.  **A.** Although all the choices listed may have a sinking fund (a fund for which the issuer sets aside money to pay the bonds off at maturity), term bonds are the ones most likely to have one. Term bonds are issues in which all the bonds are issued at the same time and have the same maturity date.
+    **A.** 虽然列出的所有选项都可能设有偿债基金（发行人预留资金用于在到期时偿还债券的基金），但定期债券最有可能设有偿债基金。定期债券是指所有债券同时发行并具有相同到期日的债券。
+
 4.  **C.** This question is an "except" question, so you're looking for the one that's not secured. Income bonds are ones issued by a corporation that's in trouble and needs to reorganize. In this case, the issuing corporation would issue these bonds at a deep discount and not make interest payments unless earnings are high enough. Income bonds are considered to be extremely risky and aren't suitable for most investors.
+    **C.** 这是一个“除外”问题，所以您要找的是没有担保的那一个。收益债券是由陷入困境并需要重组的公司发行的。在这种情况下，发行公司会以大幅折价发行这些债券，并且除非盈利足够高，否则不支付利息。收益债券被认为风险极高，不适合大多数投资者。
+
 5.  **C.** The current yield of a security is the annual rate of return divided by the market price of the security. So if the market price changes, so does the current yield.
+    **C.** 证券的当前收益率是年回报率除以证券的市场价格。因此，如果市场价格发生变化，当前收益率也会随之变化。
+
 6.  **A.** A lot of information thrown into this question is meant to confuse you. The question just wants you to know when an issuer would least likely call its bonds. The whole idea of callable bonds is that issuers want the right to call their bonds if interest rates decrease because then they can issue bonds with lower coupon rates. So they'd least likely call their bonds when interest rates are increasing.
+    **A.** 这个问题中抛出的很多信息都是为了迷惑你。问题只是想让你知道发行人最不可能在什么时候赎回债券。可赎回债券的核心思想是，如果利率下降，发行人希望有权赎回债券，因为这样他们就可以发行票面利率更低的债券。因此，当利率上升时，他们最不可能赎回债券。
+
 7.  **C.** T-bills have initial maturities of 4, 8, 13, 17, 26, and 52 weeks. T-bills are short-term U.S. government securities that are issued at a discount and mature at par value.
+    **C.** 短期国库券的初始期限为 4、8、13、17、26 和 52 周。短期国库券是折价发行并按面值到期的短期美国政府证券。
+
 8.  **C.** TIPS pay interest every six months, like T-notes and T-bonds, but have an interest payment that increases or decreases depending on inflation or deflation.
+    **C.** 通胀保值债券 (TIPS) 像中期国库票据 (T-notes) 和长期国债 (T-bonds) 一样每六个月支付一次利息，但其利息支付会根据通货膨胀或通货紧缩而增加或减少。
+
 9.  **B.** Money market instruments are debt securities that mature in one year or less. They include repurchase agreements, federal funds, commercial paper (some may mature in more than a year), brokered CDs, Eurodollars, BAs, and T-bills.
+    **B.** 货币市场工具是期限在一年或以下的债务证券。它们包括回购协议、联邦基金、商业票据（有些期限可能超过一年）、经纪商存单、欧洲美元、银行承兑汇票和短期国库券。
+
 10. **D.** All the choices listed are directly backed by the U.S. government except for FNMA securities. FNMA is a publicly held corporation that provides capital for certain mortgages. It's privately owned but is still government-sponsored.
+    **D.** 除了 FNMA 证券外，列出的所有选项都由美国政府直接支持。FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。它是私有的，但仍然是政府赞助的。
+
 11. **B.** Remember par value for a bond is 100 (100 percent of $1,000 par). In this case, the bonds sold at a purchase price of 99 (99 percent of $1,000), so they sold at a discount from par value.
+    **B.** 记住债券的面值是 100（1,000 美元面值的 100%）。在这种情况下，债券的售价为 99（1,000 美元的 99%），因此它们是折价出售的。
+
 12. **D.** Although the indenture of the bond will provide the par value, coupon rate, and date of maturity, the call provision would provide the call price (what the issuer would pay the holder if calling the bonds) and also the first date that the bonds can be called.
+    **D.** 虽然债券契约会提供面值、票面利率和到期日，但赎回条款会提供赎回价格（发行人赎回债券时支付给持有人的金额）以及债券可以被赎回的最早日期。
+
 13. **B.** Although call options typically mature in one year or less, they aren't debt securities, so you can count that one out. Out of the other choices, the only debt securities that mature in one year or less at the time of issuance are money market securities.
+    **B.** 虽然看涨期权通常在一年或以下到期，但它们不是债务证券，所以你可以排除它。在其他选项中，唯一在发行时期限为一年或以下的债务证券是货币市场证券。
+
 14. **A.** Logically, you should be able to throw out answers “B” and “C” because there is no way to make them work. If you calculate using 30-day months, it would have to work out to a 360-day year, not 365. Likewise, if you're using actual days in a month, it would have to work out to a 365-day year. Unlike U.S. government securities, which use actual days in a month and a 365-day year, municipal bonds typically compute using 30-day months and 360-day years.
+    **A.** 从逻辑上讲，你应该能够排除答案“B”和“C”，因为它们无法成立。如果你按每月 30 天计算，那必须是每年 360 天，而不是 365 天。同样，如果你按每月实际天数计算，那必须是每年 365 天。与使用每月实际天数和每年 365 天计算的美国政府证券不同，市政债券通常使用每月 30 天和每年 360 天计算。
+
 15. **D.** Remember, when interest rates change, short-term debt securities typically change more quickly in price, but long-term debt securities change more in price. Therefore, an investor holding shorter-term debt securities would be holding securities that are more stable in price than someone holding a portfolio of long-term debt securities.
+    **D.** 记住，当利率变化时，短期债务证券的价格通常变化较快，但长期债务证券的价格变化幅度更大。因此，持有短期债务证券的投资者持有的证券价格比持有长期债务证券投资组合的投资者更稳定。
+
 16. **B.** Asset-backed securities, such as GNMAs, are typically traded based on their average life. Asset-backed securities are ones that are backed by assets such as loans, mortgages, and accounts receivable. So, for argument's sake, say an individual takes out a 30-year mortgage; the average life of that mortgage may be 17 years due to that individual moving or refinancing the loan.
+    **B.** 资产支持证券，如 GNMAs，通常根据其平均寿命进行交易。资产支持证券是由贷款、抵押贷款和应收账款等资产支持的证券。举例来说，假设个人办理了 30 年期的抵押贷款；由于该个人搬家或再融资，该抵押贷款的平均寿命可能为 17 年。

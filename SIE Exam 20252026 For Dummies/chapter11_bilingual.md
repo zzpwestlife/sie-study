@@ -555,15 +555,74 @@ For some reason, the SIE exam writers decided you need to know some additional o
 
 *   **Aggregate exercise price：** The exercise （strike） price of an option multiplied by the number of units （usually 100 shares） of the underlying security covered by the option contract。 （累计行权价：期权的行权（履约）价乘以期权合同所涵盖的标的证券单位数（通常为 100 股）。）
 *   **Class of options：** All option contracts of the **same type** （puts or calls） covering the **same underlying security** or index。 （期权类别：覆盖**同一标的证券**或指数的所有**同类型**（看跌或看涨）期权合同。）
-*   **Series of options：** All option contracts that are of the **same class**， same **expiration date**， and same **exercise price**。 （期权系列：属于**同类别**、具有相同**到期日**和相同**行权价**的所有期权合同。）
 *   **Clearing member：** A FINRA member that has been admitted to membership in the OCC （Options Clearing Corporation）。 （结算会员：已获准加入 OCC（期权结算公司）的 FINRA 会员。）
+*   **Closing sale transaction：** An option transaction in which the seller wants to reduce or eliminate a long position。 So， for argument's sake， say an investor is long （owns） 1 ABC Oct 40 call。 To close that position， the investor would short （write or sell） the 1 ABC Oct 40 call。 （平仓卖出交易：卖方希望减少或消除多头头寸的期权交易。例如，假设投资者做多（持有）1 张 ABC 10 月 40 看涨期权。为了平仓该头寸，投资者将卖空（写入或卖出）1 张 ABC 10 月 40 看涨期权。）
+*   **Conventional index option：** An option that overlies a basket （nine or more equity securities） or index of securities providing that no one security comprises more than 30 percent of the basket or index。 （传统指数期权：覆盖一篮子（九只或更多股票）或证券指数的期权，前提是没有任何一只证券占该篮子或指数的 30% 以上。）
+*   **Conventional option：** Any option contract not issued or subject to issuance by the OCC or an OCC-cleared OTC option。 （传统期权：任何非由 OCC 发行或受其发行约束的期权合同，或非 OCC 结算的场外期权。）
 *   **Delta neutral：** An equity options position that has been **fully hedged**。 For example， owning 100 shares of ABC stock and owning an at-the-money put on ABC stock。 Basically， offsetting long and short positions。 （德尔塔中性：已实现**完全对冲**的股票期权头寸。例如，持有 100 股 ABC 股票并持有一份 ABC 股票的平值看跌期权。基本上就是相互抵销多头和空头头寸。）
+*   **Net delta：** The number of shares that must be maintained （either long or short） to offset the risk the investor is facing by having an equity option position。 （净德尔塔：为了抵销投资者因持有股票期权头寸而面临的风险，必须维持（做多或做空）的股票数量。）
+*   **Opening writing （opening sale） transaction：** The initial sale of an option in which the seller receives the premium paid。 （开仓写入（开仓卖出）交易：卖方收到支付的权利金的期权初始卖出。）
 *   **Outstanding：** An option contract that has been neither closed （closing sale） nor exercised and has not reached the expiration date。 （未平仓期权：既未平仓（平仓卖出）也未行使，且尚未达到到期日的期权合同。）
+*   **Series of options：** All option contracts that are of the **same class**， same **expiration date**， and same **exercise price** and that cover the same number of units of the underlying security or index。 （期权系列：属于**同类别**、具有相同**到期日**和相同**行权价**，且覆盖相同数量标的证券单位或指数的所有期权合同。）
+*   **Type of option：** Either a call or a put。 （期权类型：看涨期权或看跌期权。）
 
 ---
 
-## 15. Testing Your Knowledge
-## 15. 知识测试
+## 15. Some additional option rules
+## 15. 一些额外的期权规则
+
+Yes, I know . . . even more? Don't blame me; I didn't design the test. Anyway, as with the preceding section, I think a quick perusal of the following items will give you enough of a general understanding of some of the additional rules that you should be able to pick them out of any multiple-choice questions posed on the exam.
+是的，我知道……还有更多？别怪我；考试不是我设计的。无论如何，就像前一节一样，我认为快速浏览以下条目将使您对一些额外规则有足够的总体了解，从而能够在考试中遇到的任何多项选择题中识别出它们。
+
+*   **Position limits:** A number placed on the amount of option contracts that a person can hold or write on the same side of the market (bullish or bearish) on the same security. This will be covered more in depth if you are taking the Series 7.
+*   **持仓限额 （Position limits）：** 对一个人可以在同一证券的同一市场方向（看涨或看跌）上持有或写入的期权合同数量设定的限制。如果您参加 Series 7 考试，这将会有更深入的介绍。
+
+*   **Exercise limits:** A number placed on the amount of option contracts that a person can exercise on the same side of the market (bullish or bearish) within five consecutive business days. This will be covered in more detail if you are taking the Series 7 exam.
+*   **行权限额 （Exercise limits）：** 对一个人在连续五个工作日内可以在同一市场方向（看涨或看跌）上行使的期权合同数量设定的限制。如果您参加 Series 7 考试，这将会有更详细的介绍。
+
+*   **Limit on uncovered short positions:** FINRA may decide to limit the amount of uncovered short positions on option contracts of a given class if deemed necessary for the protection of investors.
+*   **未平仓空头头寸限制 （Limit on uncovered short positions）：** 如果认为为了保护投资者有必要，FINRA 可能会决定限制特定类别的期权合同的未平仓空头头寸数量。
+
+*   **Restrictions on option transactions and exercises:** As with the limit on uncovered short positions, FINRA may also place restrictions on option transactions or the exercise of option contracts in one or more series of options of any class when deemed necessary to help maintain a fair and orderly market.
+*   **期权交易和行使的限制：** 与未平仓空头头寸的限制一样，当认为有助于维持公平有序的市场时，FINRA 也可能对任何类别的一个或多个期权系列的期权交易或期权合同的行使施加限制。
+
+*   **Open order on the "ex-date" (ex-dividend date):** Since the underlying stock price will be lowered due to a dividend, the OCC will adjust option contracts accordingly unless otherwise instructed by the customer.
+*   **除息日 （ex-date） 的未结订单：** 由于标的股票价格会因分红而降低，除非客户另有指示，否则 OCC 将相应调整期权合同。
+
+*   **Confirmations:** Members are responsible for providing a written confirmation of each option transaction for each customer's account. The confirmation must include the type of option (call or put); the underlying security or index; the expiration month; the exercise (strike) price; the number of option contracts; the premium, trade, and settlement dates; whether it was a purchase or sale (long or short); opening or closing transaction; whether it was done on a principal or agency basis; the amount of commission; and so on. (There's more on confirmations in Chapter 16 — yippee!)
+*   **确认书 （Confirmations）：** 会员有责任为每个客户账户的每笔期权交易提供书面确认书。确认书必须包括期权类型（看涨或看跌）；标的证券或指数；到期月份；行权（履约）价；期权合同数量；权利金、交易和结算日期；是买入还是卖出（做多或做空）；开仓或平仓交易；是基于本金还是代理基础进行的；佣金金额等。（关于确认书的更多内容见第 16 章——耶！）
+
+*   **Statements of account (account statements):** All clients must receive account statements at least monthly if there has been any trading in the account for the previous month and at least quarterly (once every three months) when there has been no trading in the previous month. The account statements must show the security and money positions, entries, interest charges, and any other charges assessed against the account. (Account statements are covered in more detail in Chapter 16.)
+*   **账户对账单 （Statements of account）：** 如果上个月账户中有任何交易，所有客户必须至少每月收到一次账户对账单；如果上个月没有交易，则至少每季度（每三个月一次）收到一次。账户对账单必须显示证券和资金头寸、分录、利息费用以及对账户评估的任何其他费用。（账户对账单将在第 16 章中更详细地介绍。）
+
+*   **Opening of accounts:** In order to open an options account for a client, the client must receive an ODD, and you must exercise due diligence by getting the customer's investment objectives, employment status, estimated annual income, estimated net worth, estimated liquid net worth, marital status, number of dependents, age, investment experience and knowledge, and so on. In addition, the account and all transactions must be approved by a registered options principal (ROP), branch office manager, or limited principal-general securities sales supervisor. All options accounts must be approved or disapproved within ten business days. Please note that all options accounts may not be approved for all transactions — depending on the client, they may be approved for buying covered writing, uncovered writing, spreading, discretionary transactions, and so on.
+*   **开立账户：** 为了为客户开立期权账户，客户必须收到 ODD，并且您必须进行尽职调查，获取客户的投资目标、就业状况、预估年收入、预估净资产、预估流动净资产、婚姻状况、受抚养人数、年龄、投资经验和知识等。此外，账户和所有交易必须由注册期权主管 （ROP）、分公司经理或有限主管-一般证券销售主管批准。所有期权账户必须在十个工作日内批准或拒绝。请注意，并非所有期权账户都会被批准进行所有交易——根据客户的情况，他们可能被批准进行购买备兑写入、未备兑写入、价差交易、全权委托交易等。
+
+*   **Options account agreement (OAA):** Within 15 days of the approval of the account, a member must obtain from the customer a written account agreement, which states that the customer understands that they are aware of and agrees to be bound by FINRA rules regarding options trading.
+*   **期权账户协议 （OAA）：** 在账户批准后 15 天内，会员必须从客户处获得一份书面账户协议，声明客户了解并同意受有关期权交易的 FINRA 规则的约束。
+
+*   **Uncovered short option contracts:** Since uncovered short option contracts are the riskiest of all option contracts, member firms must create standard rules for evaluating the suitability of customers who plan on writing uncovered options.
+*   **未备兑空头期权合同：** 由于未备兑空头期权合同是所有期权合同中风险最高的，会员公司必须制定标准规则来评估计划写入未备兑期权的客户的适当性。
+
+*   **Maintenance of records:** Each member must keep a current log, index, or other file for options-related complaints. Each complaint should be easily identified and easy to retrieve if necessary. Each complaint file (hopefully there aren't many) must contain the identification of the complaint, the date the complaint was received, the name of the registered rep handling the account, a description of the complaint (such as a commission that they believe is too high), action taken (if any), and so on.
+*   **记录维护：** 每个会员必须为期权相关投诉保留当前的日志、索引或其他文件。如有必要，每个投诉应易于识别和检索。每个投诉文件（希望不会太多）必须包含投诉的标识、收到投诉的日期、处理账户的注册代表的姓名、投诉描述（例如他们认为佣金过高）、采取的行动（如果有）等。
+
+*   **Discretionary account:** As with any discretionary account in which the client gives you the right to trade their account without pre-approval, it must be approved by a principal (manager). Options discretionary accounts must be approved in writing by a registered options principal (ROP) or limited principal-general securities sales supervisor, and written approval must be received from the client. In addition, discretionary accounts must be reviewed frequently by an ROP.
+*   **全权委托账户 （Discretionary account）：** 与任何客户赋予您未经预先批准即可交易其账户权利的全权委托账户一样，它必须由主管（经理）批准。期权全权委托账户必须由注册期权主管 （ROP） 或有限主管-一般证券销售主管书面批准，并且必须收到客户的书面批准。此外，全权委托账户必须由 ROP 频繁审查。
+
+*   **Suitability:** You may not recommend any option transaction(s) to a customer unless you believe that the transaction is suitable for the customer. Remember that you should already know the customer's investment objectives, financial information, and so on. In other words, you should not be recommending a risky option transaction for someone you deem incapable of handling the risk.
+*   **适当性 （Suitability）：** 除非您认为期权交易适合客户，否则不得向客户推荐任何期权交易。请记住，您应该已经了解客户的投资目标、财务信息等。换句话说，您不应该向您认为无法承担风险的人推荐高风险的期权交易。
+
+*   **Supervision of accounts:** Members conducting an options business must have a written supervisory system in place to adequately address the public customer's option business. In addition, each branch office must have either a registered options principal or a limited principal-general securities sales supervisor in order to conduct options business.
+*   **账户监管：** 开展期权业务的会员必须建立书面监管制度，以充分处理公众客户的期权业务。此外，每个分公司必须拥有注册期权主管或有限主管-一般证券销售主管才能开展期权业务。
+
+*   **Fingerprinting:** Individuals (directors, officers, employees, temporary personnel, consultants, vendors, independent contractors, service providers, and so on) who would have access to the CBOE facilities must be fingerprinted for identification and processing.
+*   **指纹采集：** 能够进入 CBOE 设施的个人（董事、高管、员工、临时人员、顾问、供应商、独立承包商、服务提供商等）必须进行指纹采集以进行身份​​识别和处理。
+
+---
+
+## 16. Testing Your Knowledge
+## 16. 知识测试
 
 Practice questions (Original English Only)
 

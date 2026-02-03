@@ -56,6 +56,7 @@ Even though zero-coupon bonds don't generate interest payments, the difference b
 
 *   **Cash dividends**： Qualified cash dividends are taxed at a maximum rate of 0， 15， or 20 percent。 To be **qualified**， the stock must be held for at least 61 days （91 days for preferred stock）。 （现金股息：合格现金股息的最高税率为 0%、15% 或 20%。要成为**合格**股息，股票必须持股至少 61 天（优先股为 91 天）。）
 *   **Stock dividends**： These do **not** change the overall value of investment， so additional shares received are **not taxed**。 However， they **lower the cost basis** per share。 （股票股息：它们**不会**改变投资的总价值，因此收到的额外股份**不纳税**。但是，它们会**降低每股的成本基础**。）
+*   **Dividends from mutual funds**： Dividends and interest generated from securities held in a mutual fund portfolio are **passed through** to investors。 （共同基金的股息：共同基金投资组合中证券产生的股息和利息会**传递**给投资者。）
 
 ---
 
@@ -64,6 +65,12 @@ Even though zero-coupon bonds don't generate interest payments, the difference b
 
 *   **Short-term capital gains**： Realized when a security is held for **one year or less**。 Taxed according to the investor’s regular tax bracket。 （短期资本利得：持股时间为**一年或以下**时实现。按投资者的常规税率档次征税。）
 *   **Long-term capital gains**： Realized when a security is held for **more than one year**。 Taxed at a maximum rate of 0， 15， or 20 percent。 （长期资本利得：持股时间**超过一年**时实现。最高税率为 0%、15% 或 20%。）
+
+### Estate taxes
+### 遗产税 (Estate taxes)
+
+When an individual receives securities as a result of an **inheritance** (not a gift), they assume the **fair market value** of the securities on the date of the owner's death as the cost basis (stepped-up basis). Additionally, inherited securities are always considered **long-term** for tax purposes, regardless of how long the deceased owned them.
+当个人因**继承**（而非赠与）获得证券时，他们将所有者去世当天的**公平市场价值**作为成本基础（基准提升）。此外，无论死者持有证券多久，继承的证券在税务上始终被视为**长期**持有。
 
 ### Offsetting gains with capital losses
 ### 用资本损失抵销利得
@@ -115,6 +122,19 @@ The total "wash sale window" is **61 days** (30 days before, 30 days after, plus
 Required Minimum Distributions (RMDs) must now begin by **April 1 of the year after the investor reaches age 73**. (Older texts may still say 70 1/2 or 72).
 ⚠️ **最新监管变动 （SECURE 2.0）**
 强制最低提款 （RMDs） 现在必须在**投资者年满 73 岁后的次年 4 月 1 日**之前开始。（旧教材可能仍显示为 70.5 岁或 72 岁）。
+
+### Simplified employee pensions (SEP-IRAs)
+### 简化员工养老金 (SEP-IRAs)
+
+An **SEP-IRA** is designed for **small-business owners** and **self-employed individuals**. Employers can make tax-deductible contributions directly to their employees' SEP-IRAs.
+**SEP-IRA** 专为**小企业主**和**个体经营者**设计。雇主可以直接向员工的 SEP-IRA 进行可抵税的缴款。
+
+### 401(k) and 403(b) plans
+### 401(k) 与 403(b) 计划
+
+*   **401(k) plans**： Corporate retirement plans where employees contribute a percentage of their salary （defined contribution）。 Employers may match contributions。 （**401（k） 计划**：企业退休计划，员工按工资的一定比例缴款（固定缴款计划）。雇主可能会匹配缴款。）
+*   **Roth 401(k) plans**： Similar to Roth IRAs， contributions are made **after-tax**， and qualified withdrawals are **tax-free**。 RMD rules apply。 （**Roth 401（k） 计划**：类似于 Roth IRA，缴款是**税后**的，合格提取是**免税**的。适用 RMD 规则。）
+*   **403(b) plans**： Salary reduction plans for **public school employees** and **non-profit organizations** （tax-exempt）。 Also known as **tax-sheltered annuities (TSAs)**。 （**403（b） 计划**：针对**公立学校员工**和**非营利组织**（免税组织）的减薪计划。也称为**税收庇护年金 （TSAs）**。）
 
 ---
 

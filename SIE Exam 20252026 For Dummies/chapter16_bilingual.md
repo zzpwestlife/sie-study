@@ -18,6 +18,15 @@ To keep the market running smoothly and to make sure investors aren’t abused, 
 The **U.S. Securities and Exchange Commission (SEC)** is the major watchdog of the securities industry. Congress created the SEC to regulate securities markets and to protect investors from fraudulent and manipulative practices. All broker-dealers who transact business with investors must register with the SEC.
 **美国证券交易委员会 （SEC）** 是证券行业的主要监管机构。国会成立了 SEC，旨在监管证券市场并保护投资者免受欺诈和操纵行为的侵害。所有与投资者进行交易的经纪交易商都必须向 SEC 注册。
 
+**Key Acts Enforced by the SEC:**
+**SEC 执行的关键法案：**
+
+*   **Securities Act of 1933**： Requires full and fair disclosure of new issues。 （**1933 年证券法**：要求对新发行证券进行全面、公平的披露。）
+*   **Securities Exchange Act of 1934**： Established the SEC and regulates OTC markets， exchanges， and secondary market trading。 （**1934 年证券交易法**：设立了 SEC，并监管场外交易市场、交易所和二级市场交易。）
+*   **Trust Indenture Act of 1939**： Requires corporate bond issues over $50 million to have a trust indenture to protect bondholders。 （**1939 年信托契约法**：要求超过 5000 万美元的公司债券发行必须有信托契约以保护债券持有人。）
+*   **Investment Company Act of 1940**： Regulates investment companies （mutual funds）。 （**1940 年投资公司法**：监管投资公司（共同基金）。）
+*   **Investment Advisers Act of 1940**： Requires registration of investment advisers。 （**1940 年投资顾问法**：要求投资顾问注册。）
+
 🧠 **REMEMBER**
 SEC investigations may lead to a civil complaint. The SEC may seek **disgorgement** (taking away) of ill-gotten gains and civil money penalties. If the matter is criminal in nature, the investigation is conducted by the **U.S. Attorney’s Office**.
 🧠 **请记住**
@@ -33,6 +42,12 @@ A few self-regulatory organizations (SROs) are there to take some of the burden 
 *   **Municipal Securities Rulemaking Board （MSRB）**： Established to develop rules for firms that sell municipal securities。 The MSRB **makes rules** but leaves **enforcement up to FINRA**。 （**市政证券规则制定委员会 （MSRB）**：旨在为销售市政证券的公司制定规则。MSRB **制定规则**，但将**执行权交给 FINRA**。）
 *   **NYSE**： Responsible for listing securities， setting exchange policies， and supervising member firms。 （**纽约证券交易所 （NYSE）**：负责证券上市、设定交易所政策以及监督会员公司。）
 *   **Chicago Board Options Exchange （CBOE）**： Makes and enforces **options exchange rules**。 （**芝加哥期权交易所 （CBOE）**：制定并执行**期权交易所规则**。）
+
+### Other Regulators
+### 其他监管机构
+
+*   **North American Securities Administrators Association (NASAA)**： Voluntary association of state regulators。 Protects investors at the **state level**， investigates fraud， and licenses small investment adviser firms。 （**北美证券管理者协会 （NASAA）**：州监管机构的自愿协会。在**州一级**保护投资者，调查欺诈行为，并向小型投资顾问公司颁发执照。）
+*   **Department of the Treasury / IRS**： Manages U。S。 government revenue， collects taxes， and oversees the issuance of government debt。 （**财政部 / 国税局 （IRS）**：管理美国政府收入，征收税款，并监督政府债务的发行。）
 
 🧠 **REMEMBER**
 FINRA and NYSE can fine, suspend, and expel members; however, they **can't imprison** members who violate the rules.
@@ -74,10 +89,65 @@ Two elements are required:
 If you leave your firm, the firm has to file a **U5 form** with the CRD within **30 days**. After a U5 form has been filed, you have up to **two years** to get registered with another firm, or you'll have to retake your exams.
 如果您离开公司，公司必须在 **30 天内**向 CRD 提交 **U5 表格**。U5 表格提交后，您有最多**两年时间**在另一家公司注册，否则您必须重新参加考试。
 
+### Reporting Requirements and Activities
+### 报告要求与活动
+
+*   **BrokerCheck**： FINRA's public database allowing investors to check the background of firms and representatives。 （**BrokerCheck**：FINRA 的公共数据库，允许投资者查询公司和代表的背景。）
+*   **Rule 4530**： Firms must report specified events （e。g。， complaints， criminal actions， suspensions） to FINRA promptly （within 30 days）。 （**规则 4530**：公司必须及时（30 天内）向 FINRA 报告特定事件（如投诉、刑事诉讼、暂停执业等）。）
+*   **Outside Business Activities (OBA)**： Registered persons must notify their firm in **writing** before engaging in outside employment。 Written permission is **not** required unless it involves securities。 （**外部商业活动 （OBA）**：注册人员在从事外部工作之前必须以**书面形式**通知其公司。除非涉及证券，否则**不**需要书面许可。）
+*   **Private Securities Transactions**： Transactions outside the firm's regular business。 Requires **written notice** and **written approval** from the firm if compensation is received。 （**私人证券交易**：公司常规业务之外的交易。如果收到报酬，需要**书面通知**并获得公司的**书面批准**。）
+
 ---
 
-## 3. Disseminating info: Appropriate communications
-## 3. 传播信息：恰当的沟通
+## 3. Trading and Account Handling Rules
+## 3. 交易与账户处理规则
+
+### Order Tickets
+### 订单票据 (Order Tickets)
+
+Must include account number， solicited/unsolicited status， and time of order。 **Principals** must approve and sign all order tickets (promptly).
+必须包含账号、主动/非主动状态以及订单时间。**主管**必须批准并签署所有订单票据（及时）。
+
+### Regulation S-P (Privacy)
+### S-P 条例 (隐私)
+
+Firms must protect customer **nonpublic personal information**. They must provide a privacy notice at account opening and annually. Customers must be given the right to **opt-out** of sharing info with third parties.
+公司必须保护客户的**非公开个人信息**。必须在开户时和每年提供隐私通知。必须赋予客户**拒绝 (opt-out)** 与第三方共享信息的权利。
+
+### Regulation BI (Best Interest)
+### BI 条例 (最大利益)
+
+Broker-dealers must act in the **best interest** of their retail customers. They must provide a **Form CRS** (Customer Relationship Summary) disclosing relationships and conflicts of interest.
+经纪交易商必须以散户客户的**最大利益**行事。他们必须提供 **CRS 表格**（客户关系摘要），披露关系和利益冲突。
+
+### Financial Exploitation of Seniors
+### 对老年人的金融剥削
+
+For customers **65+** or those with impairments, firms should obtain a **trusted contact person**. Firms can place a **temporary hold** (up to 15 business days) on disbursements if exploitation is suspected.
+对于 **65 岁以上**或有障碍的客户，公司应获取**受信任联系人**的信息。如果怀疑存在剥削，公司可以对资金拨付实行**临时冻结**（最多 15 个工作日）。
+
+### Borrowing and Lending
+### 借贷
+
+Generally **prohibited** between reps and customers unless:
+1. Immediate family.
+2. Financial institution (bank).
+3. Both are registered with the same firm.
+通常**禁止**代表与客户之间进行借贷，除非：
+1. 直系亲属。
+2. 金融机构（银行）。
+3. 两人均在同一家公司注册。
+
+### Trade Confirmations and Statements
+### 交易确认书与对账单
+
+*   **Confirmations**： Sent at or before **settlement**. （**确认书**：在**结算**时或之前发送。）
+*   **Account Statements**： Sent **quarterly** (inactive accounts) or **monthly** (active accounts/penny stocks). （**对账单**：**每季度**（非活跃账户）或**每月**（活跃账户/仙股）发送。）
+
+---
+
+## 4. Disseminating info: Appropriate communications
+## 4. 传播信息：恰当的沟通
 
 FINRA divides communication into three categories:
 FINRA 将沟通分为三类：
@@ -88,8 +158,8 @@ FINRA 将沟通分为三类：
 
 ---
 
-## 4. Record Keeping
-## 4. 记录保存
+## 5. Record Keeping
+## 5. 记录保存
 
 *   **Lifetime records**： Corporate or partnership documents （minutes， articles of incorporation）。 （永久记录：公司或合伙文件（会议纪要、公司章程）。）
 *   **Six-year records**： Blotters， ledgers， customer account records， and records of closed accounts。 （六年记录：流水账、总账、客户账户记录以及已销户记录。）
@@ -114,8 +184,8 @@ Records have to be **easily accessible for two years**.
 
 ---
 
-## 5. Sticking to the 5 percent markup policy
-## 5. 坚持 5% 的加价政策
+## 6. Sticking to the 5 percent markup policy
+## 6. 坚持 5% 的加价政策
 
 The **5 percent policy** is a guideline to ensure investors receive fair treatment. It applies to **over-the-counter trades** of outstanding, nonexempt securities. Justifiable reasons for charging more (or less) than 5 percent include:
 **5% 政策**是一项旨在确保投资者获得公平待遇的准则。它适用于已流通的、非豁免证券的**场外交易**。收取超过（或低于）5% 费用的合理理由包括：
@@ -127,19 +197,36 @@ The **5 percent policy** is a guideline to ensure investors receive fair treatme
 *   **Foreign markets**： Executing transactions on foreign markets。 （国外市场：在国外市场执行交易。）
 
 
-## 6. Avoiding violations
-## 6. 避免违规行为
+---
+
+## 7. Handling Complaints
+## 7. 处理投诉
+
+*   **Code of Procedure (COP)**： FINRA's formal procedure for handling trade practice complaints。 Decisions can be appealed。 （**程序准则 (COP)**：FINRA 处理交易行为投诉的正式程序。决定可以上诉。）
+*   **Code of Arbitration**： Informal hearing for disputes (money)。 Decisions are **binding** and **non-appealable**。 Customers often sign an arbitration agreement。 （**仲裁准则**：处理（金钱）纠纷的非正式听证会。决定具有**约束力**且**不可上诉**。客户通常签署仲裁协议。）
+*   **Mediation**： Voluntary， non-binding process to resolve disputes。 （**调解**：解决纠纷的自愿、非约束性过程。）
+
+---
+
+## 8. Avoiding violations
+## 8. 避免违规行为
 
 *   **Commingling of funds**： Combining a customer’s securities with firm securities。 （资金混用：将客户的证券与公司的证券混合。）
 *   **Interpositioning**： Having two securities dealers act as agents for the same trade to earn two commissions。 （中间商：让两个证券交易商在同一笔交易中担任代理，从而赚取两份佣金。）
 *   **Churning**： Excessively trading a customer’s account to generate commission。 （频繁交易/炒单：为了赚取佣金而过度交易客户账户。）
 *   **Frontrunning**： Executing a trade based on knowledge of a pending **block trade** （10,000 shares or more）。 （抢先交易：基于已知即将发生的**大宗交易**（1 万股或以上）而执行交易。）
 *   **Freeriding**： Buying and selling a security without paying for the purchase。 （无款购买/搭便车：在未支付购股款的情况下买入并卖出证券。）
+*   **Backing Away**： Failure to honor a firm quote。 （食言/背信：未能履行确定的报价。）
+*   **Trading Ahead**： Placing firm orders ahead of customer orders。 （抢先交易：将公司订单置于客户订单之前。）
+*   **Market Rumors**： Spreading false info to manipulate prices。 （市场谣言：散布虚假信息以操纵价格。）
+*   **Pump and Dump**： Inflating price with false info then selling。 （拉高出货：利用虚假信息抬高价格然后卖出。）
+*   **Gifts**： Limit is **$100** per person per year (business entertainment excluded). （**礼物**：每人每年限额 **100 美元**（商务娱乐除外）。）
+*   **Political Contributions**： "Pay-to-play" rules prohibit advisory business for 2 years after contribution. （**政治捐款**：“付费参与”规则禁止在捐款后 2 年内从事顾问业务。）
 
 ---
 
-## 7. Anti-money-laundering (AML) rules
-## 7. 反洗钱 (AML) 规则
+## 9. Anti-money-laundering (AML) rules
+## 9. 反洗钱 (AML) 规则
 
 Here are the three stages of money laundering:
 洗钱的三个阶段如下：
@@ -157,8 +244,8 @@ Here are the three stages of money laundering:
 
 ---
 
-## 8. Working with public info: Following insider trading rules
-## 8. 处理公共信息：遵循内幕交易规则
+## 10. Working with public info: Following insider trading rules
+## 10. 处理公共信息：遵循内幕交易规则
 
 **Insider trading** occurs when an individual trades based on **material nonpublic information**. Both the **tipper** and the **tippee** are liable.
 **内幕交易**发生在个人基于**重大非公开信息**进行交易时。**泄密者 （tipper）** 和**受密者 （tippee）** 都要承担责任。
@@ -174,16 +261,16 @@ Here are the three stages of money laundering:
 
 ---
 
-## 9. The Investor’s Bankruptcy Shield: FDIC and SIPC Coverage
-## 9. 投资者的破产护盾：FDIC 与 SIPC 保障
+## 11. The Investor’s Bankruptcy Shield: FDIC and SIPC Coverage
+## 11. 投资者的破产护盾：FDIC 与 SIPC 保障
 
 *   **FDIC （Federal Deposit Insurance Corporation）**： Protects bank accounts up to **$250,000** per depositor。 （FDIC：保护银行账户，每位存款人最高保障 **25 万美元**。）
 *   **SIPC （Securities Investor Protection Corporation）**： Protects against broker-dealer bankruptcy up to **$500,000**， of which no more than **$250,000 can be cash**。 （SIPC：防范经纪交易商破产风险，最高保障 **50 万美元**，其中现金部分不超过 **25 万美元**。）
 
 ---
 
-## 10. Keeping your dividend dates straight
-## 10. 理清股息日期
+## 12. Keeping your dividend dates straight
+## 12. 理清股息日期
 
 💡 **TIP**
 To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"**:
@@ -194,8 +281,8 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
 
 ---
 
-## 11. Testing Your Knowledge
-## 11. 知识测试
+## 13. Testing Your Knowledge
+## 13. 知识测试
 
 Practice questions (Original English Only)
 

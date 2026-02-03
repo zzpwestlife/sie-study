@@ -404,14 +404,21 @@ The Telephone Act of 1991 **does not apply** to existing customers (those who ex
 ## 10. Testing Your Knowledge
 ## 10. 知识测试
 
-Practice questions (Original English Only)
+Practice questions
 
 1. AylDec Corporation would like to open a margin account at Guess Right Broker-Dealer. To open the account, Guess Right would need
    I. to fill out a new account form II. a copy of the corporate resolution from AylDec III. a copy of the corporate charter from AylDec IV. a signed copy of the margin agreement
    (A) II and IV (B) I and IV (C) I, II, and IV (D) I, II, III, and IV
 
+1. AylDec 公司想在 Guess Right 经纪交易商处开设融资账户。要开设该账户，Guess Right 需要：
+   I. 填写新开户表 II. AylDec 的公司决议副本 III. AylDec 的公司章程副本 IV. 签署的融资协议副本
+   (A) II 和 IV (B) I 和 IV (C) I, II 和 IV (D) I, II, III 和 IV
+
 2. In an initial transaction in a margin account, Alyssa Hudson purchases 100 shares of Hopeful Corporation common stock at $12 per share. How much must Alyssa deposit to meet the margin requirement?
    (A) $600 (B) $1,200 (C) $2,000 (D) Cannot be determined
+
+2. 在融资账户的初始交易中，Alyssa Hudson 以每股 12 美元的价格购买了 100 股 Hopeful 公司的普通股。Alyssa 必须存入多少钱才能满足融资要求？
+   (A) $600 (B) $1,200 (C) $2,000 (D) 无法确定
 
 3. All of the following are true about UGMA accounts EXCEPT
    (A) parents of a minor can be joint custodians.
@@ -419,11 +426,23 @@ Practice questions (Original English Only)
    (C) gifts of securities to the minor are irrevocable.
    (D) they can't be held in street name.
 
+3. 关于 UGMA 账户，以下所有说法都是正确的，除了：
+   (A) 未成年人的父母可以成为共同托管人。
+   (B) 账户中持有的证券不能卖空或进行融资交易。
+   (C) 赠与未成年人的证券是不可撤销的。
+   (D) 它们不能以街名持有。
+
 4. Which of the following DOES NOT have to be included on a new account form?
    (A) The customer's signature
    (B) The registered representative's signature
    (C) The customer's marital status and number of dependents
    (D) The customer's bank references
+
+4. 新开户表上不强制要求包含以下哪项？
+   (A) 客户的签名
+   (B) 登记代表的签名
+   (C) 客户的婚姻状况和受抚养人数量
+   (D) 客户的银行资信证明
 
 5. According to the Telephone Act of 1991, which of the following is TRUE?
    (A) You may not make calls to potential customers before 8 a.m. or after 9 p.m.
@@ -431,9 +450,19 @@ Practice questions (Original English Only)
    (C) You may not make calls to potential customers before 9 a.m. or after 8 p.m.
    (D) You may not make calls to potential customers before 9 a.m. or after 8 p.m. local time of the customer.
 
+5. 根据 1991 年《电话法》，以下哪项是正确的？
+   (A) 您不得在上午 8 点之前或晚上 9 点之后给潜在客户打电话。
+   (B) 您不得在客户当地时间上午 8 点之前或晚上 9 点之后给潜在客户打电话。
+   (C) 您不得在上午 9 点之前或晚上 8 点之后给潜在客户打电话。
+   (D) 您不得在客户当地时间上午 9 点之前或晚上 8 点之后给潜在客户打电话。
+
 6. Which of the following documents are required for an investor opening a margin account?
    I. A credit agreement II. A hypothecation agreement III. A loan consent form
    (A) I and II (B) I and III (C) II and III (D) I, II, and III
+
+6. 投资者开设融资账户需要以下哪些文件？
+   I. 信贷协议 II. 质押协议 III. 借券同意书
+   (A) I 和 II (B) I 和 III (C) II 和 III (D) I, II 和 III
 
 7. Which of the following are TRUE?
    I. If an investor of a joint tenants with rights of survivorship account dies, their portion of the account is transferred to their estate.
@@ -442,36 +471,86 @@ Practice questions (Original English Only)
    IV. If an investor of a joint tenants in common account dies, their portion of the account is transferred to the remaining account holder(s).
    (A) II and IV (B) I and IV (C) II and III (D) II and IV
 
+7. 以下哪项是正确的？
+   I. 如果联名生存者享有权账户的投资者死亡，其账户份额将转移至其遗产。
+   II. 如果联名生存者享有权账户的投资者死亡，其账户份额将转移给剩余的账户持有人。
+   III. 如果联名共有账户的投资者死亡，其账户份额将转移至其遗产。
+   IV. 如果联名共有账户的投资者死亡，其账户份额将转移给剩余的账户持有人。
+   (A) II 和 IV (B) I 和 IV (C) II 和 III (D) II 和 IV
+
 8. A customer opens a short margin account by selling short 200 shares of DIM common stock at $17 per share. What is the margin call?
    (A) $1,700 (B) $2,000 (C) $3,400 (D) Cannot be determined
+
+8. 客户通过以每股 17 美元的价格卖空 200 股 DIM 普通股来开设做空融资账户。追缴保证金是多少？
+   (A) $1,700 (B) $2,000 (C) $3,400 (D) 无法确定
 
 9. To make proper recommendations to a client, you should know their
    I. age II. time horizon III. tax bracket IV. liquidity needs
    (A) I and IV (B) II and III (C) I, III, and IV (D) I, II, III, and IV
 
+9. 为了向客户做出恰当的推荐，您应该了解他们的：
+   I. 年龄 II. 投资期限 III. 税率档次 IV. 流动性需求
+   (A) I 和 IV (B) II 和 III (C) I, III 和 IV (D) I, II, III 和 IV
+
 10. The Patriot Act requires broker-dealers to identify their investors through
-   (A) CIPs (B) DIMs (C) LLPs (D) All of the above
+    (A) CIPs (B) DIMs (C) LLPs (D) All of the above
+
+10. 《爱国者法案》要求经纪交易商通过以下哪项来识别其投资者？
+    (A) CIPs (B) DIMs (C) LLPs (D) 以上所有
 
 11. The tax ID of ___________ is required for the opening of an UTMA account.
-   (A) both parents (B) at least one parent (C) the minor (D) the custodian
+    (A) both parents (B) at least one parent (C) the minor (D) the custodian
+
+11. 开设 UTMA 账户需要 ___________ 的税号。
+    (A) 父母双方 (B) 至少一位家长 (C) 未成年人 (D) 托管人
 
 12. John Smith has a joint account with sisters Mirabelle and Elyse. If the account was set up as a joint with tenants in common, which of the following is true?
-   (A) Since John and siblings are not married, they could not have set up an account as joint with tenants in common.
-   (B) John and the two sisters must share equally in the assets of the account.
-   (C) If any of the siblings die, that individual’s portion of the account is divided equally among the two remaining siblings.
-   (D) Ownership of the decedent’s assets in the account are governed by their will (if any) or by the laws in the state in which they live.
+    (A) Since John and siblings are not married, they could not have set up an account as joint with tenants in common.
+    (B) John and the two sisters must share equally in the assets of the account.
+    (C) If any of the siblings die, that individual’s portion of the account is divided equally among the two remaining siblings.
+    (D) Ownership of the decedent’s assets in the account are governed by their will (if any) or by the laws in the state in which they live.
+
+12. John Smith 与姐妹 Mirabelle 和 Elyse 拥有一个联名账户。如果该账户被设立为联名共有账户 (TIC)，以下哪项是正确的？
+    (A) 由于 John 和姐妹们没有结婚，他们不能设立联名共有账户。
+    (B) John 和这两位姐妹必须平均分享账户资产。
+    (C) 如果任何一位兄弟姐妹死亡，该个人的账户份额将在剩余的两位兄弟姐妹之间平分。
+    (D) 死者在账户中的资产所有权受其遗嘱（如果有）或其居住州的法律管辖。
 
 ### Answers and explanations
+### 答案与解释
 
 1.  **D.** For a corporate margin account, all four items are required: the new account form, the corporate resolution (authority to trade), the corporate charter (authority to use margin), and the margin agreement.
+    **D.** 对于公司融资账户，所有四项都是必需的：新开户表、公司决议（交易授权）、公司章程（使用融资的授权）和融资协议。
+
 2.  **B.** Purchase is $1,200 (100 shares x $12). For an initial long margin purchase under $2,000, the customer must pay in full. Thus, Alyssa must deposit $1,200.
+    **B.** 购买金额为 $1,200 (100 股 x $12)。对于低于 $2,000 的初始做多融资购买，客户必须全额支付。因此，Alyssa 必须存入 $1,200。
+
 3.  **A.** There can only be one minor and one custodian per UGMA account. Parents cannot be joint custodians.
+    **A.** 每个 UGMA 账户只能有一名未成年人和一名托管人。父母不能成为共同托管人。
+
 4.  **A.** Surprisingly, the customer's signature is NOT required on a basic new account form (it is required for margin and options, but not for the form itself). The rep's and principal's signatures are required.
+    **A.** 令人惊讶的是，基本的新开户表不需要客户的签名（融资和期权账户需要，但开户表本身不需要）。需要代表和主管的签名。
+
 5.  **B.** Cold calls are restricted to between 8 a.m. and 9 p.m. in the **customer's local time zone**.
+    **B.** 推销电话限制在**客户当地时区**的上午 8 点至晚上 9 点之间。
+
 6.  **D.** The credit agreement, hypothecation agreement, and loan consent form are all part of the margin agreement.
+    **D.** 信贷协议、质押协议和借券同意书都是融资协议的一部分。
+
 7.  **C.** JTWROS passes to survivor (II). JTIC passes to estate (III). So II and III.
+    **C.** JTWROS 转移给生存者 (II)。JTIC 转移至遗产 (III)。因此选 II 和 III。
+
 8.  **B.** Short sale proceeds = $3,400 (200 * $17). Reg T = 50% = $1,700. Minimum maintenance/initial for short is greater of $2,000 or Reg T. Since $1,700 < $2,000, margin call is $2,000.
+    **B.** 卖空所得 = $3,400 (200 * $17)。Reg T = 50% = $1,700。做空的最低维持/初始保证金为 $2,000 或 Reg T 中的较大者。由于 $1,700 < $2,000，因此追缴保证金为 $2,000。
+
 9.  **D.** All factors listed (age, time horizon, tax bracket, liquidity needs) are important for suitable recommendations.
+    **D.** 列出的所有因素（年龄、投资期限、税率档次、流动性需求）对于做出合适的推荐都很重要。
+
 10. **A.** CIPs (Customer Identification Programs) are required by the Patriot Act.
+    **A.** 《爱国者法案》要求执行 CIPs（客户识别程序）。
+
 11. **C.** UTMA accounts are for the minor's benefit and use the minor's Tax ID (SSN).
+    **C.** UTMA 账户是为了未成年人的利益，使用未成年人的税号 (SSN)。
+
 12. **D.** In a Tenants in Common (TIC) account, the decedent's share goes to their estate (governed by will/law), not to the survivors.
+    **D.** 在联名共有 (TIC) 账户中，死者的份额归入其遗产（受遗嘱/法律管辖），而不是归生存者所有。

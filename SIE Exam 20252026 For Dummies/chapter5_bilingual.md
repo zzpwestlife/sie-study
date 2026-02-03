@@ -280,263 +280,386 @@ An easy way to keep these folks straight is to remember that a registrar is resp
 Table 5-1 deals with the types of offerings that you (as a megabroker) should be familiar with. The offerings that follow usually require the services of an underwriter or underwriting syndicate to sell the securities to the public.
 表5-1介绍了您（作为一名超级经纪人）应该熟悉的发行类型。以下发行通常需要承销商或承销团的服务来向公众出售证券。
 
+| Type 类型 | Description 描述 | Who Benefits 谁受益 |
+| :--- | :--- | :--- |
+| **Initial public offering (IPO)**<br>**首次公开募股** | The first time an issuer sells stock to the public to raise capital; issuers usually hold back some stock for future primary offerings.<br>发行人首次向公众出售股票以筹集资金；发行人通常会保留一些股票用于未来的初次发行。 | The bulk of the money raised goes to the issuer, and the rest goes to the underwriters.<br>筹集的大部分资金归发行人所有，其余归承销商所有。 |
+| **Primary offering**<br>**初次发行（增发）** | An offering of new securities from a new issuer or an issuer that has previously issued securities; a company can have an IPO and several primary offerings if it wants to.<br>新发行人或之前已发行过证券的发行人发行新证券；如果愿意，一家公司可以进行一次IPO和多次初次发行。 | The proceeds of sale go to the issuer and underwriters.<br>销售所得归发行人和承销商所有。 |
+| **Secondary offering**<br>**二次发行** | A sale of a large block of outstanding (stockholder-owned) securities or previously outstanding securities (Treasury stock, or stock the issuer has repurchased). Typically, one or more major stockholders of a corporation make the secondary offerings; new investors are essentially buying used, so the number of shares outstanding doesn't change.<br>出售大量已发行（股东持有）证券或之前的已发行证券（库存股，即发行人回购的股票）。通常，公司的一个或多个大股东进行二次发行；新投资者本质上是在买“二手货”，因此发行在外的股份数量不会改变。 | The proceeds don't go to the issuer (except with Treasury stock); they go to the big shots who sell the securities.<br>所得款项不归发行人所有（库存股除外）；它们归出售证券的大佬们所有。 |
+| **Split (combined) offering**<br>**混合（联合）发行** | A combination of a primary and secondary offerings, with both new and outstanding securities.<br>初次发行和二次发行的组合，既包含新证券也包含已发行证券。 | A portion of the proceeds goes to the issuer, and a portion goes to the selling stockholders.<br>一部分收益归发行人所有，一部分归出售股票的股东所有。 |
+
 For unlisted IPOs (IPOs of non-NMS securities — securities that are not listed on an exchange or Nasdaq, in other words), a final prospectus needs to be available to all purchasers for 90 days after the effective date.
 对于非上市IPO（非NMS证券的IPO——换句话说，即未在交易所或纳斯达克上市的证券），在生效日期后的90天内，必须向所有购买者提供最终招股说明书。
 
 For IPOs of NMS securities (securities listed on an exchange or Nasdaq), a final prospectus must be available for 25 days after the effective date.
-对于NMS证券（在交易所或纳斯达克上市的证券）的IPO，在生效日期后的25天内必须提供最终招股说明书。
-
-### TABLE 5-1: Types of Securities Offerings
-### 表 5-1：证券发行类型
-
-| Type （类型） | Description （描述） | Who Benefits （谁受益） |
-| :--- | :--- | :--- |
-| **Initial public offering （首次公开募股）** | The first time an issuer sells stock to the public to raise capital; issuers usually hold back some stock for future primary offerings. （发行人第一次向公众出售股票以筹集资金；发行人通常会保留一些股票用于未来的后续发行。） | The bulk of the moolah raised goes to the issuer, and the rest goes to the underwriters. （募集到的大部分资金流向发行人，其余部分流向承销商。） |
-| **Primary offering （一级发行）** | An offering of new securities from a new issuer or an issuer that has previously issued securities; a company can have an initial public offering and several primary offerings if it wants to. （新发行人或之前已发行过证券的发行人发行的新证券；如果愿意，一家公司可以进行一次首次公开募股和多次一级发行。） | The proceeds of sale go to the issuer and underwriters. （销售所得流向发行人及承销商。） |
-| **Secondary offering （二级发售）** | A sale of a large block of outstanding （stockholder-owned） securities or previously outstanding securities （Treasury stock, or stock the issuer has repurchased）. Typically, one or more major stockholders of a corporation make the secondary offerings; new investors are essentially buying used, so the number of shares outstanding doesn't change. （出售大笔已发行在外（由股东持有）的证券或之前发行在外的证券（库存股，即发行人回购的股票）。通常，公司的一个或多个主要股东会进行二级发售；新投资者本质上是在购买“二手”证券，因此发行在外的股份总数不会改变。） | The proceeds don't go to the issuer （except with Treasury stock）; they go to the big shots who sell the securities. （所得资金不流向发行人（库存股除外）；它们流向出售证券的大股东/高层。） |
-| **Split （combined） offering （组合发行）** | A combination of a primary and secondary offerings, with both new and outstanding securities. （一级发行和二级发售的结合，既包含新股也包含现有的老股。） | A portion of the proceeds goes to the issuer, and a portion goes to the selling stockholders. （一部分收益流向发行人，一部分流向出售股票的股东。） |
+对于NMS证券（在交易所或纳斯达克上市的证券）的IPO，最终招股说明书必须在生效日期后的25天内提供。
 
 In the event that a member is acting as a dealer or has some other financial interest in recommending a security other than the commission received from the buyer, that fact must be disclosed in writing to the client at or before the completion of the transaction. So, in that regard, all buyers must be notified in writing if your firm is involved in a primary or secondary distribution of securities.
-如果会员作为交易商行事，或者在推荐证券时除了从买方收到的佣金外还有其他财务利益，则必须在交易完成时或之前以书面形式向客户披露该事实。因此，在这方面，如果您的公司参与了证券的一级或二级分销，必须书面通知所有买家。
+如果会员作为交易商行事，或者在推荐证券时除了从买方收取的佣金外还有其他经济利益，必须在交易完成时或之前以书面形式向客户披露这一事实。因此，在这方面，如果您所在的公司参与了证券的初次或二次分销，必须书面通知所有买家。
+
+### Reviewing Exemptions
+### 审查豁免
+
+Certain securities are exempt from registration because of the type of security or the type of transaction involved. You may find that those securities which are exempt because of who's issuing them are a bit easier to recognize. You'll probably have to spend a little more time on the securities that are exempt from registration because of the type of transaction.
+某些证券因证券类型或涉及的交易类型而免于注册。您可能会发现，那些因发行人身份而获得豁免的证券更容易识别。您可能需要花更多时间在那些因交易类型而免于注册的证券上。
+
+#### Exempt securities
+#### 豁免证券
+
+Certain securities are exempt from the registration requirements under the Securities Act of 1933. These securities come from issuers that either have a high level of creditworthiness, or it's the case that another government regulatory agency has some sort of jurisdiction over the issuer of the securities. These types of securities include:
+根据1933年证券法，某些证券免于注册要求。这些证券来自具有高信用度的发行人，或者是其他政府监管机构对证券发行人拥有某种管辖权的情况。这些类型的证券包括：
+
+*   Securities issued by the U.S. government (Treasury bills, Treasury notes, Treasury bonds, and so on) or federal agencies
+    美国政府（国库券、中期国债、长期国债等）或联邦机构发行的证券
+*   Municipal securities (local government bonds and notes)
+    市政证券（地方政府债券和票据）
+*   Securities issued by banks, savings institutions, and credit unions
+    银行、储蓄机构和信用合作社发行的证券
+*   Public utility stocks or bonds
+    公用事业股票或债券
+*   Securities issued by religious, educational, or not-for-profit organizations
+    宗教、教育或非营利组织发行的证券
+*   Notes, bills of exchange, bankers' acceptances, and commercial paper (unsecured corporate debt securities with an initial maturity of 270 days or less)
+    票据、汇票、银行承兑汇票和商业票据（初始期限为270天或以下的无担保公司债务证券）
+*   Insurance policies and fixed annuities
+    保险单和固定年金
+
+Fixed annuities are not securities and are exempt from SEC registration because the issuing insurance company guarantees the payout. Variable annuities require registration, however, because the payout varies depending on the performance of the securities held in the separate account. For more info on annuities and other packaged securities, see Chapter 9.
+固定年金不是证券，免于SEC注册，因为发行保险公司保证支付。然而，可变年金需要注册，因为支付金额取决于独立账户中持有的证券的表现。有关年金和其他打包证券的更多信息，请参阅第9章。
+
+#### Exempt transactions
+#### 豁免交易
+
+Some securities that corporations offer may be exempt from the full registration requirements of the Securities Act of 1933 due to the nature of the sale. The following list shows these exemptions:
+由于销售的性质，公司发行的某些证券可能免于1933年证券法的全面注册要求。以下列表显示了这些豁免：
+
+*   **Intrastate offerings (Rule 147):** An intrastate offering includes the 80% rule. In order for a company to be eligible for the exemption, at least 80% of the corporation's assets must be in the state OR at least 80% of the company's revenues must be generated from in-state business OR at least 80% of money raised from the offering must be used in the state of the offering. In addition, at least 50% of the company's employees must work in the state of the offering. The securities still require registration at the state level and 100% of the purchasers must be residents within the state. Don't confuse intrastate offerings (securities sold in one state) with interstate offerings (securities sold in many states). Interstate offerings do need SEC registration. To help you remember, think of an interstate roadway, which continues from one state to the next.
+    **州内发行（147号规则）：** 州内发行包括80%规则。为了使公司有资格获得豁免，至少80%的公司资产必须位于该州，或者至少80%的公司收入必须来自州内业务，或者至少80%的发行筹集资金必须用于该州。此外，至少50%的公司员工必须在该州工作。这些证券仍然需要在州一级注册，并且100%的购买者必须是该州居民。不要混淆州内发行（在一个州销售的证券）和州际发行（在许多州销售的证券）。州际发行确实需要SEC注册。为了帮助记忆，可以联想州际公路，它从一个州延伸到下一个州。
+
+*   **Regulation A (Reg A, Regulation A+, or Reg A+) offerings:** An offering of securities worth $20 million or less (Tier 1) or $75 million or less (Tier 2) within a 12-month period is Regulation A. Although this company may seem to be large to you, it's relatively small in market terms. Regulation A offerings are exempt from full registration requirements, but the issuer still has to file a simplified registration or abbreviated registration statement.
+    **A条例（Reg A, Regulation A+, 或 Reg A+）发行：** 在12个月内发行价值2000万美元或以下（第一级）或7500万美元或以下（第二级）的证券属于A条例。虽然这家公司对您来说似乎很大，但在市场方面它相对较小。A条例发行免于全面注册要求，但发行人仍需提交简化的注册或缩略的注册说明书。
+
+*   **Regulation D (Reg D) offerings:** Also known as a private placement (private securities offering), a Regulation D offering is an offering to no more than 35 unaccredited (nonaccredited) investors per year. Companies that issue securities through private placement are allowed to raise an unlimited amount of money but are limited in terms of the number of unaccredited investors. Sales of Reg D securities are subject to the sales limitations set forth under Rule 144. All unaccredited (nonaccredited) investors must meet specific suitability requirements.
+    **D条例（Reg D）发行：** 也称为私募（私募证券发行），D条例发行是指每年向不超过35名非认可（未认可）投资者进行的发行。通过私募发行证券的公司允许筹集无限量的资金，但在非认可投资者的数量方面受到限制。Reg D证券的销售受144号规则规定的销售限制约束。所有非认可（未认可）投资者必须符合特定的适当性要求。
+
+    Persons who do not match any of the items on the following list, would be considered unaccredited. The list of who or what is considered to be an accredited investor recently expanded to include the following:
+    不符合以下列表中任何一项的人员将被视为非认可投资者。被视为认可投资者的人员或实体的列表最近扩展到包括以下内容：
+    *   Financial institutions (banks, insurance companies, pension funds, and so on)
+        金融机构（银行、保险公司、养老基金等）
+    *   Insiders of the private placement issuer (officers, directors, and/or owners of 10 percent or more of the outstanding shares, as well as their immediate family members)
+        私募发行人的内部人士（高级职员、董事和/或持有10%或以上已发行股份的所有者，以及他们的直系亲属）
+    *   Investors with a net worth of at least $1 million, excluding primary residence
+        净资产至少为100万美元的投资者，不包括主要住所
+    *   Investors who have had a net income of at least $200,000 ($300,000 joint) for the previous two years and are expected to meet the requirement during the current year and going forward
+        在过去两年中净收入至少为20万美元（夫妻共同30万美元）并预计在当年及未来符合该要求的投资者
+    *   Corporations, partnerships, or organizations with a net worth of at least $5 million
+        净资产至少为500万美元的公司、合伙企业或组织
+    *   Reps who are registered and in good standing with the SEC, FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or Series 82 exam
+        在SEC、FINRA和/或至少一个州注册且信誉良好，并通过了Series 7、Series 65、Series 66和/或Series 82考试的代表
+    *   Knowledgeable employees of private funds (hedge funds, private equity funds, and so on) who have the ability to raise money privately
+        有能力私募筹集资金的私募基金（对冲基金、私募股权基金等）的知识型员工
+    *   Rural business investment companies (investment companies that raise money to invest in small rural businesses)
+        农村商业投资公司（筹集资金投资于小型农村企业的投资公司）
+    *   Limited liability companies (LLC) with more than $5 million in assets
+        资产超过500万美元的有限责任公司（LLC）
+    *   Family offices with at least $5 million in assets under management
+        管理资产至少500万美元的家族办公室
+
+*   **Rule 144:** This rule covers the sale of restricted stock (such as stock sold through private placement), unregistered, and control securities (stock owned by control persons [affiliates], which includes directors, officers, or other people who own 10 percent or more of the issuer's voting stock). According to Rule 144, sellers of these securities must wait at least six months before selling the fully paid securities to the public. Additionally, the most an investor can sell at one time is 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater.
+    **144号规则：** 该规则涵盖受限股票（如通过私募出售的股票）、未注册股票和控制证券（由控制人[关联方]拥有的股票，包括董事、高级职员或其他拥有发行人10%以上有表决权股票的人）的销售。根据144号规则，这些证券的卖方必须等待至少六个月，才能将全额支付的证券出售给公众。此外，投资者一次最多可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准。
+
+*   **Rule 144A:** This rule allows unregistered domestic and foreign securities to be sold to Qualified Institutional Buyers (QIBs) in the United States without a holding period. QIBs include insurance companies, registered investment companies, registered investment advisers, pension plans, corporations, partnerships, and so on.
+    **144A号规则：** 该规则允许将未注册的国内和国外证券出售给美国的合格机构买家（QIB），而无需持有期。QIB包括保险公司、注册投资公司、注册投资顾问、养老金计划、公司、合伙企业等。
+
+To see if you are getting the hang of this, take a look at an example that deals with Rule 144.
+为了看看您是否掌握了这一点，请看一个涉及144号规则的例子。
+
+John Bullini is a control person who purchased shares of restricted stock and wants to sell under Rule 144. John has paid fully for the shares and has held them for more than one year. There are 1.5 million shares outstanding. Form 144 is filed on Monday, May 28, and the weekly trading volume for the restricted stock is as follows:
+John Bullini是一位控制人，他购买了受限股票并希望根据144号规则出售。John已全额支付了股份，并持有了超过一年。已发行股份为150万股。144表于5月28日星期一提交，受限股票的周交易量如下：
+
+| Week Ending 周结束日期 | Trading Volume 交易量 |
+| :--- | :--- |
+| May 25 (5月25日) | 16,000 shares (16,000股) |
+| May 18 (5月18日) | 15,000 shares (15,000股) |
+| May 11 (5月11日) | 17,000 shares (17,000股) |
+| May 4 (5月4日) | 15,000 shares (15,000股) |
+| April 27 (4月27日) | 18,000 shares (18,000股) |
+
+What is the maximum number of shares John can sell with this filing?
+John通过此次申报最多可以出售多少股？
+
+(A) 15,000
+(B) 15,750
+(C) 16,200
+(D) 16,250
+
+The right answer is (B). The test writers often try to trick you on the SIE exam by giving you at least one week more than you need to answer the question. Because John has held the restricted stock for more than a year, John can sell 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater:
+正确答案是 (B)。出题者经常在SIE考试中通过给您提供至少比回答问题所需多一周的数据来试图误导您。因为John持有受限股票已超过一年，他可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准：
+
+1% of 1,500,000 shares outstanding = 15,000 shares
+已发行股份1,500,000股的1% = 15,000股
+
+Average of 4 weeks: (16,000 + 15,000 + 17,000 + 15,000) / 4 = 63,000 / 4 = 15,750 shares
+4周平均值：（16,000 + 15,000 + 17,000 + 15,000）/ 4 = 63,000 / 4 = 15,750股
+
+In this case, the previous four weeks are the top four in the list, but be careful, the examiners are just as likely to use the bottom four to give the table a different look.
+在这种情况下，过去四周是列表中的前四周，但请注意，考官同样可能使用后四周的数据来让表格看起来不同。
+
+Figure out 1 percent of the outstanding shares by multiplying the outstanding shares by 1 percent. (Easy, right?) In this case, you come up with an answer of 15,000 shares. The other possible answer is the average weekly trading volume for the previous four weeks. Add the trading volume for the previous four weeks (the top four in the chart) and divide by 4 to get an answer of 15,750 shares. Because you're looking for the greater number, the answer is (B).
+通过将已发行股份乘以1%来计算已发行股份的1%。（很简单，对吧？）在这种情况下，您得出的答案是15,000股。另一个可能的答案是过去四周的平均周交易量。将过去四周（图表中的前四周）的交易量相加并除以4，得出15,750股的答案。因为您要找的是较大的数字，所以答案是 (B)。
+
+---
+
+## Testing Your Knowledge
+## 测试您的知识
+
+This chapter covers what you need to know about underwriting securities (at least as far as the SIE exam goes). When you're ready, use this section to attack some questions. Read carefully so that you don't make any careless mistakes and be sure to check your answers and understanding later in this section.
+本章涵盖了您需要了解的有关证券承销的内容（至少就SIE考试而言）。当您准备好后，利用本节来攻克一些问题。请仔细阅读，以免犯任何粗心的错误，并务必稍后在本节中检查您的答案和理解。
+
+### Practice questions
+### 练习题
+
+1.  Which of the following agreements specify that any unsold securities are retained by the underwriters?
+    以下哪项协议规定任何未售出的证券由承销商保留？
+
+    I. Firm commitment (全额包销)
+    II. All-or-none (全额或取消)
+    III. Best efforts (代销)
+    IV. Mini-max (最小-最大)
+
+    (A) I only
+    (B) II only
+    (C) I, II, and IV
+    (D) II, III, and IV
+
+2.  Which of the following are exempt transactions?
+    以下哪些是豁免交易？
+
+    I. Private placements (私募)
+    II. Securities issued by the U.S. government (美国政府发行的证券)
+    III. Intrastate offerings (州内发行)
+    IV. Commercial paper (商业票据)
+
+    (A) I and III
+    (B) I, II, and IV
+    (C) II and IV
+    (D) I, II, III, and IV
+
+3.  The trading volume for BBB Corporation for the previous five weeks is as follows:
+    BBB公司过去五周的交易量如下：
+
+    March 31: 50,000 shares (3月31日：50,000股)
+    March 24: 38,000 shares (3月24日：38,000股)
+    March 17: 44,000 shares (3月17日：44,000股)
+    March 10: 40,000 shares (3月10日：40,000股)
+    March 3: 42,000 shares (3月3日：42,000股)
+
+    BBB Corporation is listed on an exchange and has 4.2 million shares outstanding. What is the maximum number of shares an insider can sell under Rule 144 on April 4 of the following year?
+    BBB公司在交易所上市，已发行股份为420万股。内部人士在次年4月4日根据144号规则最多可以出售多少股？
+
+    (A) 41,000
+    (B) 42,000
+    (C) 43,000
+    (D) 44,000
+
+4.  Bullbear Broker-Dealer is managing an IPO that won't be on the NYSE, Nasdaq, or any exchange. How long after the effective date must Bullbear provide a final prospectus to all purchasers of the security?
+    Bullbear经纪交易商正在管理一个不会在NYSE、Nasdaq或任何交易所上市的IPO。在生效日期后多久，Bullbear必须向该证券的所有购买者提供最终招股说明书？
+
+    (A) 25 days (25天)
+    (B) 40 days (40天)
+    (C) 45 days (45天)
+    (D) 90 days (90天)
+
+5.  A preliminary prospectus would include which of the following?
+    初步招股说明书将包括以下哪项？
+
+    I. An SEC disclaimer (SEC免责声明)
+    II. The names of the officers of the issuing corporation (发行公司高级职员的姓名)
+    III. The public offering price (公开发售价)
+    IV. An explanation of what the funds raised by the offering would be used for (对发行筹集资金用途的解释)
+
+    (A) I and IV
+    (B) I, II, and IV
+    (C) II, III, and IV
+    (D) I, II, III, and IV
+
+6.  Which federal law regulates the initial sale of stock to the public?
+    哪部联邦法律监管股票向公众的首次销售？
+
+    (A) Securities Act of 1933 (1933年证券法)
+    (B) Securities Exchange Act of 1934 (1934年证券交易法)
+    (C) Trust Indenture Act (信托契约法)
+    (D) All of the above (以上所有)
+
+7.  Which of the following may be included in a tombstone advertisement?
+    以下哪项可以包含在墓碑广告中？
+
+    (A) The number of securities to be sold (拟出售证券的数量)
+    (B) The issuer's name (发行人名称)
+    (C) All underwriters' names (所有承销商的名称)
+    (D) All of the above (以上所有)
+
+8.  The post-filing cooling-off period usually lasts about
+    提交后的冷却期通常持续约
+
+    (A) 20 days (20天)
+    (B) 30 days (30天)
+    (C) 45 days (45天)
+
+### Answers and explanations
+### 答案与解析
+
+1.  **A.** In a firm commitment underwriting, the underwriter(s) become the owner of any unsold securities. In a best efforts underwriting (all-or-none or mini-max), the issuer has to return the investors' money if the securities aren't sold.
+    **A.** 在全额包销（firm commitment）中，承销商成为任何未售出证券的所有者。在代销（best efforts）（全额或取消或最小-最大）中，如果证券未售出，发行人必须退还投资者的资金。
+
+2.  **A.** Exempt transactions include private placements (Reg D), intrastate offerings (Rule 147), and Regulation A offerings. Securities issued by the U.S. government and commercial paper are exempt securities, not exempt transactions.
+    **A.** 豁免交易包括私募（Reg D）、州内发行（Rule 147）和A条例发行。美国政府发行的证券和商业票据是豁免证券，不是豁免交易。
+
+3.  **C.** Under Rule 144, an insider can sell the greater of 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks. 1 percent of the outstanding shares is 42,000 (4,200,000 × 0.01). The average weekly trading volume for the previous four weeks (don't include the week of March 3) is 43,000 ([50,000 + 38,000 + 44,000 + 40,000] / 4). Because 43,000 is greater than 42,000, the insider can sell 43,000 shares.
+    **C.** 根据144号规则，内部人士可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准。已发行股份的1%是42,000（4,200,000 × 0.01）。过去四周的平均周交易量（不包括3月3日那一周）是43,000（[50,000 + 38,000 + 44,000 + 40,000] / 4）。因为43,000大于42,000，所以内部人士可以出售43,000股。
+
+4.  **D.** For an IPO that will not be listed on an exchange or Nasdaq, the final prospectus must be available for 90 days after the effective date.
+    **D.** 对于不会在交易所或纳斯达克上市的IPO，最终招股说明书必须在生效日期后的90天内提供。
+
+5.  **B.** The preliminary prospectus includes everything the final prospectus does except the final offering price and the effective date.
+    **B.** 初步招股说明书包括最终招股说明书的所有内容，除了最终发行价格和生效日期。
+
+6.  **A.** The Securities Act of 1933 regulates new issues of corporate securities. The Securities Exchange Act of 1934 regulates the secondary market (trading of securities). The Trust Indenture Act regulates corporate bond offerings.
+    **A.** 1933年证券法监管公司证券的新发行。1934年证券交易法监管二级市场（证券交易）。信托契约法监管公司债券发行。
+
+7.  **D.** Tombstone ads are very limited in what they can contain. However, the number of shares to be sold, the issuer's name, and the underwriters' names are all allowed.
+    **D.** 墓碑广告在内容上受到很大限制。然而，拟出售的股票数量、发行人名称和承销商名称都是允许的。
+
+8.  **A.** The cooling-off period is a minimum of 20 days.
+    **A.** 冷却期至少为20天。
+
+In the event that a member is acting as a dealer or has some other financial interest in recommending a security other than the commission received from the buyer, that fact must be disclosed in writing to the client at or before the completion of the transaction. So, in that regard, all buyers must be notified in writing if your firm is involved in a primary or secondary distribution of securities.
+如果会员作为交易商（自营商）行事，或在推荐证券时除了从买方收取的佣金外还有其他经济利益，则必须在交易完成时或之前以书面形式向客户披露这一事实。因此，在这方面，如果您的公司参与了证券的一级或二级分销，必须书面通知所有买家。
+
+### Table 5-1 Types of Securities Offerings
+### 表 5-1 证券发行类型
+
+| Type 类型 | Description: Who Benefits 描述：谁受益 |
+| :--- | :--- |
+| **Initial public offering (IPO)**<br>**首次公开募股** | The first time an issuer sells stock to the public to raise capital; issuers usually hold back some stock for future primary offerings.<br>发行人首次向公众出售股票以筹集资金；发行人通常会保留一些股票用于未来的初级发行。<br><br>**Who Benefits:** The bulk of the moolah raised goes to the issuer, and the rest goes to the underwriters.<br>**谁受益：** 筹集的大部分资金归发行人所有，其余归承销商所有。 |
+| **Primary offering**<br>**初级发行（增发）** | An offering of new securities from a new issuer or an issuer that has previously issued securities; a company can have an initial public offering and several primary offerings if it wants to.<br>新发行人或之前已发行过证券的发行人发行新证券；如果愿意，一家公司可以进行一次IPO和多次初级发行。<br><br>**Who Benefits:** The proceeds of sale go to the issuer and underwriters.<br>**谁受益：** 销售收益归发行人和承销商所有。 |
+| **Secondary offering**<br>**二级发行** | A sale of a large block of outstanding (stockholder-owned) securities or previously outstanding securities (Treasury stock, or stock the issuer has repurchased). Typically, one or more major stockholders of a corporation make the secondary offerings; new investors are essentially buying used, so the number of shares outstanding doesn’t change.<br>出售大宗已发行（股东持有）的证券或之前的已发行证券（库存股，即发行人回购的股票）。通常，公司的一个或多个大股东进行二级发行；新投资者本质上是在购买“二手货”，因此发行在外的股票数量不会改变。<br><br>**Who Benefits:** The proceeds don’t go to the issuer (except with Treasury stock); they go to the big shots who sell the securities.<br>**谁受益：** 收益不归发行人所有（库存股除外）；它们归出售证券的大佬们所有。 |
+| **Split (combined) offering**<br>**混合（联合）发行** | A combination of a primary and secondary offerings, with both new and outstanding securities.<br>初级发行和二级发行的组合，同时包含新证券和已发行证券。<br><br>**Who Benefits:** A portion of the proceeds goes to the issuer, and a portion goes to the selling stockholders.<br>**谁受益：** 一部分收益归发行人所有，一部分归出售股票的股东所有。 |
 
 ---
 
 ## 9. Reviewing Exemptions
-## 9. 审核豁免情况
+## 9. 审查豁免
 
-Certain securities are exempt from registration because of the type of security or the type of transaction involved. You may find that those securities which are exempt because of who's issuing them are a bit easier to recognize. You'll probably have to spend a little more time on the securities that are exempt from registration because of the type of transaction.
-某些证券由于其证券类型或涉及的交易类型而被免于注册。您可能会发现，那些因为发行人身份而获得豁免的证券更容易识别。您可能需要花更多时间在那些因为交易类型而免于注册的证券上。
+Certain securities are exempt from registration because of the type of security or the type of transaction involved. You may find that those securities which are exempt because of who’s issuing them are a bit easier to recognize. You’ll probably have to spend a little more time on the securities that are exempt from registration because of the type of transaction.
+某些证券因证券类型或涉及的交易类型而免于注册。您可能会发现，那些因发行主体而获得豁免的证券更容易识别。您可能需要花更多时间在那些因交易类型而免于注册的证券上。
 
 ### Exempt securities
 ### 豁免证券
 
-Certain securities are exempt from the registration requirements under the Securities Act of 1933. These securities come from issuers that either have a high level of creditworthiness, or it's the case that another government regulatory agency has some sort of jurisdiction over the issuer of the securities. These types of securities include:
-根据1933年证券法，某些证券免于注册要求。这些证券来自信用度极高的发行人，或者由另一个政府监管机构对证券发行人拥有某种管辖权。这些类型的证券包括：
+Certain securities are exempt from the registration requirements under the Securities Act of 1933. These securities come from issuers that either have a high level of creditworthiness, or it’s the case that another government regulatory agency has some sort of jurisdiction over the issuer of the securities. These types of securities include:
+根据1933年证券法，某些证券免于注册要求。这些证券来自具有高信用度的发行人，或者是其他政府监管机构对证券发行人拥有某种管辖权的情况。这些类型的证券包括：
 
 * Securities issued by the U.S. government (Treasury bills, Treasury notes, Treasury bonds, and so on) or federal agencies
-* 由美国政府（短期国库券、中期国债、长期国债等）或联邦机构发行的证券
+* 美国政府发行的证券（国库券、中期国债、长期国债等）或联邦机构证券
 * Municipal securities (local government bonds and notes)
 * 市政证券（地方政府债券和票据）
 * Securities issued by banks, savings institutions, and credit unions
-* 由银行、储蓄机构和信用合作社发行的证券
+* 银行、储蓄机构和信用合作社发行的证券
 * Public utility stocks or bonds
-* 公用事业公司的股票或债券
+* 公用事业股票或债券
 * Securities issued by religious, educational, or not-for-profit organizations
-* 由宗教、教育或非营利组织发行的证券
-* Notes, bills of exchange, bankers' acceptances, and commercial paper (unsecured corporate debt securities with an initial maturity of 270 days or less)
-* 票据、汇票、银行承兑汇票和商业票据（初始期限在270天或以内的无担保公司债务证券）
+* 宗教、教育或非营利组织发行的证券
+* Notes, bills of exchange, bankers’ acceptances, and commercial paper (unsecured corporate debt securities with an initial maturity of 270 days or less)
+* 票据、汇票、银行承兑汇票和商业票据（初始期限为270天或更短的无担保公司债务证券）
 * Insurance policies and fixed annuities
 * 保险单和固定年金
 
 Fixed annuities are not securities and are exempt from SEC registration because the issuing insurance company guarantees the payout. Variable annuities require registration, however, because the payout varies depending on the performance of the securities held in the separate account. For more info on annuities and other packaged securities, see Chapter 9.
-固定年金不是证券，免于SEC注册，因为发行的保险公司保证赔付。然而，变动年金需要注册，因为赔付额取决于独立账户中持有的证券表现。有关年金和其他组合证券的更多信息，请参阅第9章。
+固定年金不是证券，并且免于SEC注册，因为发行保险公司保证支付。然而，可变年金需要注册，因为支付金额取决于独立账户中持有的证券的表现。有关年金和其他打包证券的更多信息，请参阅第9章。
 
----
-
-## 10. Exempt transactions
-## 10. 豁免交易
+### Exempt transactions
+### 豁免交易
 
 Some securities that corporations offer may be exempt from the full registration requirements of the Securities Act of 1933 due to the nature of the sale. The following list shows these exemptions:
-由于销售性质的原因，公司发行的一些证券可能会免于1933年证券法的全面注册要求。以下列表显示了这些豁免情况：
+由于销售的性质，公司发行的某些证券可能免于1933年证券法的全面注册要求。以下列表显示了这些豁免：
 
-* **Intrastate offerings (Rule 147):** An intrastate offering includes the 80% rule. In order for a company to be eligible for the exemption, at least 80% of the corporation's assets must be in the state OR at least 80% of the company's revenues must be generated from in-state business OR at least 80% of money raised from the offering must be used in the state of the offering. In addition, at least 50% of the company's employees must work in the state of the offering. The securities still require registration at the state level and 100% of the purchasers must be within the state.
-* **州内发行（147号规则）：** 州内发行包括“80%规则”。为了符合豁免条件，公司至少80%的资产必须在该州内，或者至少80%的收入必须来自州内业务，或者至少80%的募集资金必须用于该州。此外，至少50%的公司员工必须在该州工作。这些证券仍需在州一级注册，且100%的购买者必须在该州境内。
+* **Intrastate offerings (Rule 147):** An intrastate offering includes the 80% rule. In order for a company to be eligible for the exemption, at least 80% of the corporation’s assets must be in the state OR at least 80% of the company’s revenues must be generated from in-state business OR at least 80% of money raised from the offering must be used in the state of the offering. In addition, at least 50% of the company’s employees must work in the state of the offering. The securities still require registration at the state level and 100% of the purchasers must be within the state.
+* **州内发行（147号规则）：** 州内发行包括80%规则。为了使公司有资格获得豁免，至少80%的公司资产必须在该州，或至少80%的公司收入必须来自州内业务，或至少80%的发行筹集资金必须用于发行所在的州。此外，至少50%的公司员工必须在发行所在的州工作。证券仍然需要在州一级进行注册，并且100%的购买者必须在该州内。
 
-⚠️ **WARNING**
+    Don’t confuse intrastate offerings (securities sold in one state) with interstate offerings (securities sold in many states). Interstate offerings do need SEC registration. To help you remember, think of an interstate roadway, which continues from one state to the next.
+    不要混淆州内发行（在一个州销售的证券）和州际发行（在许多州销售的证券）。州际发行确实需要SEC注册。为了帮助您记忆，可以联想州际公路，它从一个州延伸到下一个州。
 
-Don't confuse intrastate offerings (securities sold in one state) with interstate offerings (securities sold in many states). Interstate offerings do need SEC registration. To help you remember, think of an interstate roadway, which continues from one state to the next.
-⚠️ **警告**
-不要将州内发行（在一个州销售证券）与州际发行（在许多州销售证券）混淆。州际发行确实需要SEC注册。为了帮助记忆，可以想象一下州际公路，它从一个州延伸到下一个州。
-
-* **Regulation A (Reg A, Regulation A+, or Reg A+) offerings:** An offering of securities worth $20 million or less (Tier 1) or $75 million or less (Tier 2) within a 12-month period is Regulation A. Although this company may seem to be large to you, it's relatively small in market terms. Regulation A offerings are exempt from full registration requirements, but the issuer still has to file a simplified registration or abbreviated registration statement.
-* **A条例（Regulation A/A+）发行：** 在12个月内发行价值2000万美元或以下（第一层级）或7500万美元或以下（第二层级）的证券发行属于A条例。虽然对您来说这家公司可能看起来很大，但从市场角度来看，它相对较小。A条例发行免于全面的注册要求，但发行人仍需提交简化的注册说明书或简略注册说明书。
+* **Regulation A (Reg A, Regulation A+, or Reg A+) offerings:** An offering of securities worth $20 million or less (Tier 1) or $75 million or less (Tier 2) within a 12-month period is Regulation A. Although this company may seem to be large to you, it’s relatively small in market terms. Regulation A offerings are exempt from full registration requirements, but the issuer still has to file a simplified registration or abbreviated registration statement.
+* **A条例（Reg A, Regulation A+, or Reg A+）发行：** 在12个月内发行价值2000万美元或以下（第1类）或7500万美元或以下（第2类）的证券属于A条例发行。虽然这家公司对您来说似乎很大，但从市场角度来看，它相对较小。A条例发行免于全面注册要求，但发行人仍需提交简化的注册或简略的注册说明书。
 
 * **Regulation D (Reg D) offerings:** Also known as a private placement (private securities offering), a Regulation D offering is an offering to no more than 35 unaccredited (nonaccredited) investors per year. Companies that issue securities through private placement are allowed to raise an unlimited amount of money but are limited in terms of the number of unaccredited investors. Sales of Reg D securities are subject to the sales limitations set forth under Rule 144. All unaccredited (nonaccredited) investors must meet specific suitability requirements.
-* **D条例（Regulation D）发行：** 也称为私募发行（私人证券发行）。D条例发行是指每年向不超过35名非合格投资者进行的发行。通过私募发行证券的公司被允许筹集无限额度的资金，但在非合格投资者的数量上受到限制。D条例证券的销售受144规则规定的销售限制。所有非合格投资者必须满足特定的适合性要求。
+* **D条例（Reg D）发行：** 也称为私募配售（私人证券发行），D条例发行是指每年向不超过35名非认可（非合格）投资者进行的发行。通过私募配售发行证券的公司可以筹集的资金数额不限，但在非认可投资者的数量上受到限制。Reg D证券的销售受144号规则规定的销售限制。所有非认可（非合格）投资者必须满足特定的适当性要求。
 
-Persons who do not match any of the items on the following list, would be considered unaccredited. The list of who or what is considered to be an accredited investor recently expanded to include the following:
-不符合下列任何一项的人将被视为非合格投资者。关于谁或什么被视为“合格投资者（Accredited Investor）”的名单最近已扩大，包括以下内容：
+    Persons who do not match any of the items on the following list, would be considered unaccredited. The list of who or what is considered to be an accredited investor recently expanded to include the following:
+    不符合以下列表中任何一项的人员将被视为非认可投资者。被视为认可投资者的名单最近有所扩大，包括以下内容：
+    * Financial institutions (banks, insurance companies, pension funds, and so on)
+    * 金融机构（银行、保险公司、养老基金等）
+    * Insiders of the private placement issuer (officers, directors, and/or owners of 10 percent or more of the outstanding shares, as well as their immediate family members)
+    * 私募配售发行人的内部人士（高级职员、董事和/或持有10%以上已发行股份的所有者，以及他们的直系亲属）
+    * Investors with a net worth of at least $1 million, excluding primary residence
+    * 净资产至少为100万美元（不包括主要住所）的投资者
+    * Investors who have had a net income of at least $200,000 ($300,000 joint) for the previous two years and are expected to meet the requirement during the current year and going forward
+    * 过去两年净收入至少为20万美元（夫妻共同30万美元）并预计在当年及未来满足该要求的投资者
+    * Corporations, partnerships, or organizations with a net worth of at least $5 million
+    * 净资产至少为500万美元的公司、合伙企业或组织
+    * Reps who are registered and in good standing with the SEC, FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or Series 82 exam
+    * 在SEC、FINRA和/或至少一个州注册并信誉良好，且通过了Series 7、Series 65、Series 66和/或Series 82考试的代表
+    * Knowledgeable employees of private funds (hedge funds, private equity funds, and so on) who have the ability to raise money privately
+    * 私募基金（对冲基金、私募股权基金等）中具有私募筹资能力的知识型员工
+    * Rural business investment companies (investment companies that raise money to invest in small rural businesses)
+    * 农村商业投资公司（筹集资金投资小型农村企业的投资公司）
+    * Limited liability companies (LLC) with more than $5 million in assets
+    * 资产超过500万美元的有限责任公司（LLC）
+    * Family offices with at least $5 million in assets under management
+    * 管理资产至少500万美元的家族办公室
 
-* Financial institutions (banks, insurance companies, pension funds, and so on)
-* 金融机构（银行、保险公司、养老基金等）
-* Insiders of the private placement issuer (officers, directors, and/or owners of 10 percent or more of the outstanding shares, as well as their immediate family members)
-* 私募发行人的内部人士（高级职员、董事和/或持有10%或以上流通股的所有者，以及他们的直系亲属）
-* Investors with a net worth of at least $1 million, excluding primary residence
-* 净资产至少100万美元的投资者，不包括主要住所
-* Investors who have had a net income of at least $200,000 ($300,000 joint) for the previous two years and are expected to meet the requirement during the current year and going forward
-* 在过去两年中，个人年收入至少20万美元（夫妻共有年收入至少30万美元），且预计今年及以后也能满足该要求的投资者
-* Corporations, partnerships, or organizations with a net worth of at least $5 million
-* 净资产至少500万美元的公司、合伙企业或组织
-* **Latest Change:** Reps who are registered and in good standing with the SEC, FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or Series 82 exam
-* **最新变动：** 在SEC、FINRA和/或至少一个州注册且信誉良好的代表，且已通过Series 7、Series 65、Series 66和/或Series 82考试。
-* Knowledgeable employees of private funds (hedge funds, private equity funds, and so on) who have the ability to raise money privately
-* 私募基金（对冲基金、私募股权基金等）中具有私募筹款能力的资深员工
-* Rural business investment companies (investment companies that raise money to invest in small rural businesses)
-* 农村业务投资公司（筹集资金投资于小型农村业务的投资公司）
-* Limited liability companies (LLC) with more than $5 million in assets
-* 资产超过500万美元的有限责任公司（LLC）
-* Family offices with at least $5 million in assets under management
-* 管理资产至少500万美元的家族办公室
-
-* **Rule 144:** This rule covers the sale of restricted stock (such as stock sold through private placement), unregistered, and control securities (stock owned by control persons [affiliates], which includes directors, officers, or other people who own 10 percent or more of the issuer's voting stock). According to Rule 144, sellers of these securities must wait at least six months before selling the fully paid securities to the public. Additionally, the most an investor can sell at one time is 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater.
-* **144规则：** 该规则涵盖受限股票（如通过私募销售的股票）、未注册证券和控制性证券（由控制人［关联方］持有的股票，包括董事、高级职员或其他持有发行人10%或以上投票权股份的人员）。根据144规则，这些证券的卖方必须等待至少六个月，才能将全额支付的证券出售给公众。此外，投资者一次最多可以出售发行在外股份的1%或过去四周的平均周交易量，以较高者为准。
+* **Rule 144:** This rule covers the sale of restricted stock (such as stock sold through private placement), unregistered, and control securities (stock owned by control persons [affiliates], which includes directors, officers, or other people who own 10 percent or more of the issuer’s voting stock). According to Rule 144, sellers of these securities must wait at least six months before selling the fully paid securities to the public. Additionally, the most an investor can sell at one time is 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater.
+* **144号规则：** 该规则涵盖受限股票（如通过私募配售出售的股票）、未注册证券和控制证券（由控制人[关联方]拥有的股票，包括董事、高级职员或其他拥有发行人10%以上有表决权股票的人）的销售。根据144号规则，这些证券的卖方必须等待至少六个月才能向公众出售已全额支付的证券。此外，投资者一次最多可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准。
 
 * **Rule 144A:** This rule allows unregistered domestic and foreign securities to be sold to Qualified Institutional Buyers (QIBs) in the United States without a holding period. QIBs include insurance companies, registered investment companies, registered investment advisers, pension plans, corporations, partnerships, and so on.
-* **144A规则：** 该规则允许在美国将未注册的国内和国外证券出售给“合格机构买家（QIBs）”，且没有持股期要求。QIBs包括保险公司、注册投资公司、注册投资顾问、养老计划、公司、合伙企业等。
-
-📝 **EXAMPLE**
+* **144A号规则：** 该规则允许未注册的国内和国外证券在没有持有期的情况下出售给美国的合格机构买家（QIBs）。QIB包括保险公司、注册投资公司、注册投资顾问、养老金计划、公司、合伙企业等。
 
 To see if you are getting the hang of this, take a look at an example that deals with Rule 144.
-John Bullini is a control person who purchased shares of restricted stock and wants to sell under Rule 144. John has paid fully for the shares and has held them for more than one year. There are 1.5 million shares outstanding. Form 144 is filed on Monday, May 28, and the weekly trading volume for the restricted stock is as follows:
-* May 25: 16,000 shares
-* May 18: 15,000 shares
-* May 11: 17,000 shares
-* May 4: 15,000 shares
-* April 27: 18,000 shares
-What is the maximum number of shares John can sell with this filing?
-(A) 15,000 (B) 15,750 (C) 16,200 (D) 16,250
-The right answer is (B). The test writers often try to trick you on the SIE exam by giving you at least one week more than you need to answer the question. Because John has held the restricted stock for more than a year, John can sell 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater:
-1% × 1,500,000 shares outstanding = 15,000 shares
-(16,000 + 15,000 + 17,000 + 15,000) / 4 weeks = 63,000 / 4 = 15,750 shares
+为了看看您是否掌握了这一点，请看一个关于144号规则的例子。
 
-📝 **案例**
-为了看看您是否掌握了要领，请看一个涉及144规则的例子。
-John Bullini是一位控制人，他购买了受限股票并希望根据144规则出售。John已经全额支付了股份，并持有这些股份超过一年。该公司发行在外的股份为150万股。144表格于5月28日星期一提交，该受限股票的周交易量如下：
-* 5月25日：16,000股
-* 5月18日：15,000股
-* 5月11日：17,000股
-* 5月4日：15,000股
-* 4月27日：18,000股
-John通过此次归档最多可以卖出多少股份？
-(A) 15,000 (B) 15,750 (C) 16,200 (D) 16,250
-正确答案是（B）。SIE考试的出题者经常试图通过提供比回答问题所需的更多的一周数据来迷惑您。由于John持有受限股票超过一年，他可以出售发行在外股份的1%或过去四周的平均周交易量，以较高者为准：
-发行在外股份的1% × 1,500,000 = 15,000股
-（16,000 + 15,000 + 17,000 + 15,000） / 4周 = 63,000 / 4 = 15,750股
-
-⚠️ **WARNING**
-
-In this case, the previous four weeks are the top four in the list, but be careful, the examiners are just as likely to use the bottom four to give the table a different look. Figure out 1 percent of the outstanding shares by multiplying the outstanding shares by 1 percent. (Easy, right?) In this case, you come up with an answer of 15,000 shares. The other possible answer is the average weekly trading volume for the previous four weeks. Add the trading volume for the previous four weeks (the top four in the chart) and divide by 4 to get an answer of 15,750 shares. Because you're looking for the greater number, the answer is (B).
-⚠️ **警告**
-在这种情况下，过去四周是列表中的前四项，但要小心，出题人同样可能使用底部的四项来让表格看起来不同。通过将发行在外股份乘以1%来算出1%的股份。（简单吧？）在这种情况下，您得出的答案是15,000股。另一个可能的答案是过去四周的平均周交易量。将过去四周（图表中的前四项）的交易量相加并除以4，得出15,750股。因为您要找的是较大的数字，所以答案是（B）。
-
----
-
-## 11. Testing Your Knowledge
-## 11. 知识测试
-
-This chapter covers what you need to know about underwriting securities (at least as far as the SIE exam goes). When you're ready, use this section to attack some questions. Read carefully so that you don't make any careless mistakes and be sure to check your answers and understanding later in this section.
-
-### Practice questions
-
-1. Which of the following agreements specify that any unsold securities are retained by the underwriters?
-   I. Firm commitment
-   II. All-or-none
-   III. Best efforts
-   IV. Mini-max
-   (A) I only
-   (B) II only
-   (C) I, II, and IV
-   (D) II, III, and IV
-
-2. Which of the following are exempt transactions?
-   I. Private placements
-   II. Securities issued by the U.S. government
-   III. Intrastate offerings
-   IV. Commercial paper
-   (A) I and III
-   (B) I, II, and IV
-   (C) II and IV
-   (D) I, II, III, and IV
-
-3. The trading volume for BBB Corporation for the previous five weeks is as follows:
-   March 31: 50,000 shares
-   March 24: 38,000 shares
-   March 17: 44,000 shares
-   March 10: 40,000 shares
-   March 3: 42,000 shares
-   BBB Corporation is listed on an exchange and has 4.2 million shares outstanding. What is the maximum number of shares an insider can sell under Rule 144 on April 4 of the following year?
-   (A) 41,000
-   (B) 42,000
-   (C) 43,000
-   (D) 44,000
-
-4. Bullbear Broker-Dealer is managing an IPO that won't be on the NYSE, Nasdaq, or any exchange. How long after the effective date must Bullbear provide a final prospectus to all purchasers of the security?
-   (A) 25 days
-   (B) 40 days
-   (C) 45 days
-   (D) 90 days
-
-5. A preliminary prospectus would include which of the following?
-   I. An SEC disclaimer
-   II. The names of the officers of the issuing corporation
-   III. The public offering price
-   IV. An explanation of what the funds raised by the offering would be used for
-   (A) I and IV
-   (B) I, II, and IV
-   (C) II, III, and IV
-   (D) I, II, III, and IV
-
-6. Which federal law regulates the initial sale of stock to the public?
-   (A) Securities Act of 1933
-   (B) Securities Exchange Act of 1934
-   (C) Trust Indenture Act
-   (D) All of the above
-
-7. Which of the following may be included in a tombstone advertisement?
-   (A) The number of securities to be sold
-   (B) The issuer's name
-   (C) All underwriters' names
-   (D) All of the above
-
-8. The post-filing cooling-off period usually lasts about
-   (A) 20 days
-   (B) 30 days
-   (C) 45 days
-   (D) 90 days
-
-9. At what point is a broker-dealer allowed to accept payment for a new issue?
-   (A) After the customer has received the red herring
-   (B) Once the registration is effective
-   (C) During the cooling off period
-   (D) As soon as the registration statement has been filed
-
-10. All of the following securities are exempt from registration under the Securities Act of 1933 EXCEPT
-    (A) Treasury bonds
-    (B) general obligation bonds
-    (C) Eurodollar bonds
-    (D) ADRs
-
-### Answers and explanations
-
-1. **A.** In a firm-commitment underwriting, all securities left unsold are retained by the underwriters. All-or-none and mini-max are actually best-efforts underwritings.
-
-2. **A.** This one is tricky, because all the transactions are exempt. Regulation D private placements and intrastate offerings are exempt based on the type of transactions. But securities issued by the U.S. government and commercial paper are exempt based on the type of security.
-
-3. **C.** Because the holding period has been met, the maximum number of shares that can be sold by an insider under Rule 144 is 1 percent of the outstanding shares or the average trading volume for the previous four weeks, whichever is greater. Check out the math:
-   1% × 4,200,000 = 42,000 shares
-   (50,000 + 38,000 + 44,000 + 40,000) / 4 weeks = 172,000 / 4 = 43,000 shares
-   In this case, the previous four weeks were the top ones on the list, but be careful; they're just as likely to be the bottom four. In this case, the answer is 43,000 shares because it's larger than 42,000.
-
-4. **D.** For unlisted IPOs, a final prospectus must be available to all purchasers for 90 days after the effective date.
-
-5. **B.** All the choices would be in the preliminary prospectus (red herring) except the final offering price. The offering price at this point hasn't been determined. The offering price, the underwriting spread, and the delivery date would be included in the final prospectus.
-
-6. **A.** The Securities Act of 1933 (Truth in Securities Act, Paper Act, Full Disclosure Act, Prospectus Act, or New Issues Act) regulates new issues of corporate stocks and bonds. Included in the act are rules to prevent fraud and deception, as well as rules about the issuer's providing information about itself and the securities being offered.
-
-7. **D.** Tombstone advertisements may include the name of the issuer, the type of security being offered, the offering price (or approximate offering price), the names of the underwriters, and the number of securities being offered.
-
-8. **A.** The cooling-off period is when an issuer files a registration statement with the SEC. During this time, the SEC reviews the registration statement to see whether it needs to be amended or additional information is needed. It typically takes 20 days for the SEC to review the registration statement. This period is sometimes referred to as the 20-day cooling-off period.
-
-9. **B.** After the registration is effective (the effective date), the broker-dealer is allowed to accept payments for the new issue.
-
-10. **D.** U.S. Treasury securities (Treasury bonds, Treasury notes, Treasury bills, TIPS, and so on), municipal bonds (general obligation bonds, revenue bonds, and so on), and Eurodollar bonds are exempt from SEC registration. U.S. Treasury securities are backed by the federal government, and municipal bonds are backed by a state or local government. Eurodollar bonds are dollar-denominated bonds issued in Europe, and, therefore, must register in the country of issue. ADRs (American Depositary Receipts) are receipts for foreign securities traded in the United States and, therefore, must be registered in the United States.
-
----
-
-## 质量自检报告 （Quality Assurance Report）
-
-- **术语准确性**：100% （参考了 SIE 考试标准术语及库内 glossary）。
-- **格式一致性**：严格按照中英对照段落格式，Markdown 语法 GFM 兼容。
-- **最新法规校验**：合格投资者 （Accredited Investor） 定义已更新。
-- **数据完整性**：100% （包含所有页面的正文、Icon 提示、表格、案例）。
-- **数值精度**：所有百分比和货币单位均保持原样。
+> **Example: Rule 144 Calculation**
+> **示例：144号规则计算**
+>
+> John Bullini is a control person who purchased shares of restricted stock and wants to sell under Rule 144. John has paid fully for the shares and has held them for more than one year. There are 1.5 million shares outstanding. Form 144 is filed on Monday, May 28, and the weekly trading volume for the restricted stock is as follows:
+> John Bullini 是一位控制人，他购买了受限股票并希望根据144号规则出售。John 已全额支付了股票款项并持有了超过一年。已发行股份为150万股。144表于5月28日星期一提交，受限股票的周交易量如下：
+>
+> | Week Ending 周结束日期 | Trading Volume 交易量 |
+> | :--- | :--- |
+> | May 25 | 16,000 shares |
+> | May 18 | 15,000 shares |
+> | May 11 | 17,000 shares |
+> | May 4 | 15,000 shares |
+> | April 27 | 18,000 shares |
+>
+> What is the maximum number of shares John can sell with this filing?
+> John 通过此次申报最多可以出售多少股？
+>
+> (A) 15,000
+> (B) 15,750
+> (C) 16,200
+> (D) 16,250
+>
+> **The right answer is (B).** The test writers often try to trick you on the SIE exam by giving you at least one week more than you need to answer the question. Because John has held the restricted stock for more than a year, John can sell 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater:
+> **正确答案是 (B)。** 考试出题者经常在SIE考试中试图通过提供至少多一周的数据来迷惑您。因为John持有受限股票超过一年，John可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准：
+>
+> *   1% of 1,500,000 shares outstanding = 15,000 shares
+> *   150万已发行股份的1% = 15,000股
+>
+> *   Average of previous 4 weeks = (16,000 + 15,000 + 17,000 + 15,000) / 4 = 63,000 / 4 = 15,750 shares
+> *   过去4周的平均值 = (16,000 + 15,000 + 17,000 + 15,000) / 4 = 63,000 / 4 = 15,750 股
+>
+> In this case, the previous four weeks are the top four in the list, but be careful, the examiners are just as likely to use the bottom four to give the table a different look.
+> 在这种情况下，前四周是列表中的前四个，但请注意，考官同样可能使用后四个来给表格不同的外观。
+>
+> Figure out 1 percent of the outstanding shares by multiplying the outstanding shares by 1 percent. (Easy, right?) In this case, you come up with an answer of 15,000 shares. The other possible answer is the average weekly trading volume for the previous four weeks. Add the trading volume for the previous four weeks (the top four in the chart) and divide by 4 to get an answer of 15,750 shares. Because you’re looking for the greater number, the answer is (B).
+> 通过将已发行股份乘以1%来计算已发行股份的1%。（很简单，对吧？）在这种情况下，您得到的答案是15,000股。另一个可能的答案是过去四周的平均周交易量。将过去四周（图表中的前四个）的交易量相加并除以4，得到的答案是15,750股。因为您在寻找较大的数字，所以答案是(B)。

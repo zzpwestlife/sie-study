@@ -97,6 +97,22 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 🧠 **请记住**
 公司**不能在同一笔交易中同时充当经纪人和自营商**。在同一笔交易中同时收取加价和佣金是违规行为。
 
+### Other Broker-Dealer Roles
+### 其他经纪自营商角色
+
+*   **Introducing broker (IB)**: A person or business that provides investment advice but does not handle the transactions/assets directly. They hand over the execution to a clearing firm.
+*   **介绍经纪人 (IB)**：提供投资建议但不直接处理交易/资产的个人或企业。他们将执行工作移交给清算公司。
+*   **Clearing (carrying) broker**: Handles orders to buy and sell securities and maintains custody of clients’ assets (securities and cash). They are responsible for segregating clients’ assets.
+*   **清算（持有）经纪人**：处理买卖证券的订单并维护客户资产（证券和现金）的托管。他们负责隔离客户资产。
+*   **Prime broker**: Used mainly by institutional accounts or large retail clients. They provide services such as lending, leveraged trade execution, and cash management, and help combine info from multiple firms into one statement.
+*   **主经纪商 (Prime broker)**：主要由机构账户或大型零售客户使用。他们提供借贷、杠杆交易执行和现金管理等服务，并帮助将来自多家公司的信息整合到一份报表中。
+
+### Depository Trust and Clearing Corporation (DTCC)
+### 存管信托与清算公司 (DTCC)
+
+The **DTCC** provides safeguards to the world’s financial markets. It provides clearing, settlement, and information services for equities, bonds, mutual funds, etc. Its key role is to limit risk and provide transparency.
+**DTCC** 为全球金融市场提供保障。它为股票、债券、共同基金等提供清算、结算和信息服务。其关键作用是限制风险并提供透明度。
+
 ---
 
 ## 4. Receiving and Executing Customer Orders
@@ -112,6 +128,10 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 
 *   **Market order**： For immediate execution at the **best price available**。 （市价单：按**当前最优价格**立即执行。）
 *   **Selling short**： Selling securities they don't actually own （borrowed from a lender）。 A short seller is **bearish**。 All short sales must be executed in **margin accounts**。 （卖空：卖出并不实际拥有的证券（从借出人处借入）。卖空者是**看空**的。所有卖空交易必须在**融资账户**中执行。）
+
+    > **Regulation SHO**: Rules covering short sales. It requires that order tickets be marked as **short sale**. Brokerage firms must **locate** the securities to be borrowed before executing the short sale.
+    > **SHO 条例 (Regulation SHO)**：涵盖卖空交易的规则。它要求委托单必须标记为**卖空**。经纪公司在执行卖空之前必须**定位 (locate)** 将被借入的证券。
+
 *   **Stop order**： Used for **protection** （limit loss or lock in gains）。 （止损单：用于**保护**（限制损失或锁定收益）。）
 *   **Buy stop order**： Protects a short position。 Triggered if the market price touches a particular price or **higher**。 （**买入止损单**：保护空头头寸。如果市场价格达到特定价格或**更高**时触发。）
 *   **Sell stop order**： Protects a long position。 Triggered if the market price touches a particular price or **lower**。 （**卖出止损单**：保护多头头寸。如果市场价格达到特定价格或**更低**时触发。）
@@ -182,6 +202,42 @@ Practice questions (Original English Only)
 8. A not-held order gives a broker discretion as to
    (A) which security is traded (B) the time at which a security is traded (C) whether to purchase, sell, or sell short a security (D) all of the above
 
+### Additional Practice Questions
+
+9. Which of the following order features allows for partial execution?
+   (A) FOK (B) AON (C) IOC (D) All of the above
+
+10. Which TWO of the following are FALSE regarding unsolicited orders?
+    I. They cannot be accepted without prior approval from a principal.
+    II. They can be accepted without prior approval from a principal.
+    III. They must be limited in size.
+    IV. They are not limited in size.
+    (A) I and III (B) I and IV (C) II and III (D) II and IV
+
+11. A market maker quotes a stock at 18.10 - 18.30, 20 x 25. This means the market maker is willing to:
+    (A) Sell 2,500 shares at $18.10 and buy 2,000 shares at $18.30
+    (B) Buy 2,000 shares at $18.10 and sell 2,500 shares at $18.30
+    (C) Sell 250 shares at $18.10 and buy 200 shares at $18.30
+    (D) Buy 200 shares at $18.10 and sell 250 shares at $18.30
+
+12. Mary and John have been married for several years. They have a combined income that has exceeded $300,000 per year for the last four years and is expected to at least be that much for the current year. They would be considered a(n)
+    (A) qualified institutional buyer (QIB) (B) accredited investor (C) institutional investor (D) bank qualified investor
+
+13. WXY Broker-Dealer charges a commission on a securities transaction. WXY Broker-Dealer has acted as a(n)
+    (A) agent (B) principal (C) market maker (D) dealer
+
+14. “Spread” in the over-the-counter (OTC) market refers to the difference between the
+    (A) highest bid and lowest ask price
+    (B) lowest offer price and highest ask price
+    (C) the opening and closing prices of a particular security
+    (D) the “when issued” ask price
+
+15. Marvin Plimpton is an associated person but is not a licensed registered representative. Which of the following activities is Marvin permitted to engage in?
+    (A) Accepting unsolicited orders from a customer who resides in the same state
+    (B) Discussing the plusses and minuses of a particular investment to an existing customer of the firm
+    (C) Forwarding account opening forms to a new customer
+    (D) Discussing investment objectives with a potential customer prior to handing the customer over to a licensed registered representative
+
 ### Answers and explanations
 
 1.  **B.** Dealers act as principals and charge markups/markdowns. Brokers act as agents and charge commissions.
@@ -192,6 +248,13 @@ Practice questions (Original English Only)
 6.  **D.** All choices meet the criteria for accredited investors (institutions and high-net-worth individuals).
 7.  **D.** Short sellers are bearish and face unlimited loss potential because there is no cap on how high a stock price can rise.
 8.  **B.** Not-held (NH) orders only give the broker discretion over the **timing** and **price** of the execution.
+9.  **C.** IOC (Immediate or Cancel) allows partial execution. FOK and AON do not.
+10. **A.** You are looking for FALSE statements. Unsolicited orders do NOT require prior principal approval (I is False), and they are NOT limited in size (III is False). So I and III.
+11. **B.** Bid is 18.10 (buy), Ask is 18.30 (sell). Size 20x25 means buy 2000 (20 round lots) and sell 2500 (25 round lots).
+12. **B.** Married couples with joint income >$300k are accredited investors.
+13. **A.** Brokers (Agents) charge commissions.
+14. **A.** Spread is the difference between the highest bid and lowest ask.
+15. **C.** Unlicensed persons cannot accept orders or discuss investments. They can perform clerical tasks like forwarding forms.
 
 
 ### Additional Practice Questions

@@ -132,521 +132,227 @@ outstanding = issued – Treasury
 outstanding = 15,000,000 – 1,500,000 = 13,500,000
 
 📝 **案例**
-DEF 公司拥有 20,000,000 股授权股份。DEF 已经发行了 15,000,000 股，之后回购了 1,500,000 股。目前有多少股流通股份？
-(A) 13,500,000 (B) 15,000,000 (C) 16,500,000 (D) 20,000,000
-您要找的答案是 （A）。根据给出的数字，您可以看到该公司拥有 20,000,000 股授权股份，但仅发行了 15,000,000 股。自那时起，公司回购了 1,500,000 股（库存股），因此流通股份数量为 13,500,000 股。计算公式如下：
+DEF 公司拥有 20,000,000 股授权股票。DEF 已发行 15,000,000 股，此后回购了 1,500,000 股。流通股份有多少？
+（A） 13,500,000 （B） 15,000,000 （C） 16,500,000 （D） 20,000,000
+您要找的答案是 （A）。使用给定的数字，您会看到该公司拥有 20,000,000 股授权股票，但只发行了 15,000,000 股。自那时起，该公司回购了 1,500,000 股（库存股），因此流通股份数量为 13,500,000。公式如下：
 流通股份 = 已发行股份 – 库存股
 流通股份 = 15,000,000 – 1,500,000 = 13,500,000
 
 ---
 
-## 4. Establishing the par value of common stock
-## 4. 确定普通股的面值
+## 4. Understanding stock dividends and stock splits
+## 4. 了解股票股息和股票拆分
 
-Par value (nominal or original value) for common stock is more or less a bookkeeping value for the issuer. Although issuers may set the par value at $1 (or 1 cent, $5, $10, or whatever), the market price is usually much more. A common stock's par value has **no relationship** with the market price of the stock. Although much rarer, some companies even issue stock with no par value. Par value for common stock isn't as important to investors as it is to bondholders and preferred stockholders (see "Considering characteristics of preferred stock” later in this chapter).
-普通股的**面值 （Par value）**（名义价值或初始价值）对发行人来说或多或少只是一个记账价值。虽然发行人可以将面值设定为 1 美元（或 1 美分、5 美元、10 美元等），但市场价格通常要高得多。普通股的面值与股票的市场价格**没有任何关系**。虽然非常罕见，但有些公司甚至发行无面值股票。对于普通股来说，面值对投资者并不像对债券持有人和优先股股东那样重要（见本章后面的“考虑优先股的特征”）。
+When a corporation wants to reward its shareholders but doesn't have the cash to do so, it may issue a **stock dividend**. Instead of receiving cash, shareholders receive additional shares of stock.
 
-🧠 **REMEMBER**
-The amount over par value that an issuer receives for selling stock is called **additional paid-in capital**, **paid-in surplus**, or **capital in excess of par**.
-🧠 **请记住**
-发行人通过出售股票获得的超过面值的金额被称为**资本公积 （additional paid-in capital）**、**缴入盈余 （paid-in surplus）** 或**超面值资本 （capital in excess of par）**。
-
-The stated par value is printed on the stock certificate; it may change as the result of corporate actions such as a stock split (see "Splitting common stock" later in this chapter). An issuer can also issue **no par value stock** (stock issued without a stated par value); in this case, the stock has a **stated value** that the corporation uses for bookkeeping purposes. A lack of par value doesn't affect investors.
-设定的面值印在股票凭证上；它可能会由于公司行为（如股票拆分）而发生变化（见本章后面的“拆分普通股”）。发行人也可以发行**无面值股票 （no par value stock）**（发行时没有设定面值的股票）；在这种情况下，股票有一个由公司用于记账目的的**设定价值 （stated value）**。缺乏面值并不会影响投资者。
-
----
-
-## 5. Considering corporate actions
-## 5. 考虑公司行为
-
-Besides just attempting to build their business, corporations may take other actions that affect the price of their securities. They can split their stock (see the next section, "Splitting common stock"); reverse-split their stock (see the section “Reverse stock splits"); or engage in buybacks, tender offers, exchange offers, rights offerings (see the later section "Rights: The right to buy new shares at a discount”), mergers, or acquisitions.
-除了努力发展业务外，公司还可能采取其他影响其证券价格的行为。他们可以拆分股票（见下一节“拆分普通股”）；反向拆分股票（见“反向拆股”一节）；或者进行回购、要约收购、交换要约、配股发行（见后文“配股权：以折扣价购买新股的权利”）、合并或收购。
-
-Here are some of the corporate actions:
-以下是一些公司行为：
-
-*   **Buybacks:** A buyback happens when a cash-rich corporation repurchases some of its own shares in the market, turning them into treasury stock. Buybacks typically increase the market value of the underlying security. After a successful buyback, fewer shares are outstanding.
-*   **回购 （Buybacks）：** 回购发生在资金充裕的公司在市场上购买一部分自持股份，并将其转为库存股时。回购通常会增加相关证券的市场价值。成功回购后，流通股份会减少。
-*   **Tender offers:** A tender offer occurs when a corporation, person, or group attempts to gain control (make a takeover bid) of a corporation (the target corporation). A tender offer is typically announced in financial publications, and the offer will be at a premium to the market value of the securities. Tender offers are good for a specified period and specified minimum number of holders of shares (in other words, holders of more than 50 percent of the outstanding shares of the target corporation) must agree; otherwise, the offer is canceled. Tender offers increase the market price of the securities being targeted.
-*   **要约收购 （Tender offers）：** 要约收购发生在一家公司、个人或团体试图获得另一家公司（目标公司）的控制权（发起收购招标）时。要约收购通常在财经出版物上公布，且收购价会高于证券的市场价值。要约收购在指定期限内有效，且必须有指定最低数量的股东（换句话说，持有目标公司 50% 以上流通股份的股东）同意；否则，要约将被取消。要约收购会提高被锁定证券的市场价格。
-*   **Exchange offers:** Sometimes, a corporation decides to exchange some of its securities for other ones. A corporation may offer its bondholders the right to exchange certain debt securities for stock to reduce the corporation's debt. Or a corporation may offer to exchange 4 percent bonds due to mature in 2 years with 5 percent bonds due to mature in 20 years, thus extending the amount of time the corporation has to pay back its debt.
-*   **交换要约 （Exchange offers）：** 有时，公司决定将其某些证券交换为其他证券。公司可能会向其债券持有人提供将某些债务证券交换为股票的权利，以减少公司的债务。或者，公司可能提议将 2 年后到期的利率为 4% 的债券，交换为 20 年后到期的利率为 5% 的债券，从而延长公司偿还债务的时间。
-*   **Mergers:** Two existing corporations may decide to merge their two companies, often to gain market share, expand one corporation's reach, or possibly to expand into new segments. Mergers typically have a positive impact on investors.
-*   **合并 （Mergers）：** 两家现有的公司可能会决定合并，通常是为了获得市场份额、扩大一公司的影响力，或者可能为了扩展到新的领域。合并通常对投资者产生积极影响。
-*   **Acquisitions:** Compared with a merger, in which two corporations work together to make one big corporation, an acquisition happens when a larger corporation takes control of a smaller one or a portion of another corporation. For one corporation to acquire another, it must obtain majority ownership of the target corporation.
-*   **收购 （Acquisitions）：** 与合并（两家公司合作形成一个大公司）相比，收购发生在一家较大的公司控制了一家较小的公司或另一家公司的一部分时。要使一家公司收购另一家公司，它必须获得目标公司的多数所有权。
-
-💡 **TIP**
-As you can imagine, in the event of a corporate action such as a stock split, a merger, an acquisition, and so on, investors of the securities must be notified. For public companies listed on an exchange such as the New York Stock Exchange (NYSE), the exchanges handle notification of clients and make the information available online. If the securities trade over the counter (OTC), the Financial Industry Regulatory Authority (FINRA) is responsible for handling the announcement.
-💡 **提示**
-正如您可以想象的那样，在发生股票拆分、合并、收购等公司行为时，必须通知证券投资者。对于在纽约证券交易所 （NYSE） 等交易所上市的公众持股公司，交易所负责通知客户并在线发布信息。如果证券是在场外交易 （OTC） 的，则由金融业监管局 （FINRA） 负责处理公告。
-
----
-
-## 6. Splitting common stock
-## 6. 拆分普通股
-
-You may ask "Why would a company split its stock?" Obviously in addition to showing investors that their company is growing, it also makes the market price of the security more attractive. The normal unit of trading is 100 shares of stock (a **round lot**), and if the share price of a security gets too high, the number of investors who can purchase it becomes limited. If Microsoft had never split its stock (which it has done nine times, all 2-for-1 or 3-for-2, the last time being in 2003), a round lot would cost investors close to $10 million. Know a lot of investors who could afford that?
-您可能会问“公司为什么要拆分股票？”显然，除了向投资者展示公司正在成长外，这还使证券的市场价格更具吸引力。正常的交易单位是 100 股股票（一个**整手数 （round lot）**），如果证券的股价过高，能够购买它的投资者数量就会变得有限。如果微软从未拆分过股票（它已经拆分过九次，都是 2 拆 1 或 3 拆 2，最后一次是在 2003 年），一个整手将花费投资者接近 1,000 万美元。您认识很多能负担得起这个价格的投资者吗？
-
-Alternatively, companies may use a **reverse-split**, consolidating shares to raise the price of the stock and perhaps keep the price of their stock from dropping too low and possibly face being delisted. The next couple of sections take you through splits so that you know them forward and backward.
-或者，公司可以使用**反向拆股 （reverse-split）**，合并股份以提高股价，或许是为了防止股价跌得太低，从而面临被摘牌的风险。接下来的几节将带您了解拆股，让您能彻底掌握它们。
+当公司想要奖励股东但没有现金时，它可能会发行**股票股息 （stock dividend）**。股东收到的不是现金，而是额外的股票。
 
 🧠 **REMEMBER**
-Stockholders can vote on stock splits. (Refer to “Understanding a shareholder's voting rights" earlier in the chapter, for info on types of voting.) Be aware that after a stock split, investors may have more or fewer votes, but they still hold the same percentage of votes. When a company splits its stock, the number of authorized shares needs to be changed on the corporate charter (refer to "Categorizing shares corporations can sell" earlier in this chapter).
+In the event of a stock dividend or a stock split, the overall value of the investor's position remains the same. The investor receives more shares, but the price per share is adjusted downward accordingly.
 🧠 **请记住**
-股东可以对股票拆分进行投票。（关于投票类型的信息，请参阅本章前面的“了解股东的投票权”。）请注意，股票拆分后，投资者可能拥有更多或更少的选票，但他们持有的选票百分比保持不变。当公司拆分股票时，需要在公司章程上更改授权股份的数量（请参阅本章前面的“公司可售股份的分类”）。
-
-### Forward stock splits
-### 正向拆股
-
-During a forward stock split, or simply split, the number of shares increases, and the price decreases without affecting the total market value of the outstanding shares. After a company forward-splits its stock, investors receive additional shares, but the market price (and par value) per share drops. A forward split may be **even** (2-for-1, 3-for-1, 4-for-1, and so on) or **uneven** (3-for-2, 5-for-3, 5-for-2, and so on). You'll find that whether the forward split is even or uneven, the same formula works. Check out the following equations, in which **A** represents the first number and **B** represents the second number.
-在正向拆股（或简称拆股）期间，股份数量增加，股价降低，而不影响流通股份的总市值。公司正向拆股后，投资者会收到额外的股份，但每股的市场价格（和面值）会下降。正向拆股可以是**整倍拆分**（如 2 拆 1、3 拆 1、4 拆 1 等），也可以是**非整倍拆分**（如 3 拆 2、5 拆 3、5 拆 2 等）。您会发现，无论正向拆分是整倍还是非整倍，同样的公式都适用。请看以下等式，其中 **A** 代表第一个数字，**B** 代表第二个数字。
-
-Use the following calculations to figure out an investor's position after an **A-for-B** split:
-使用以下计算方法计算 **A 拆 B** 之后投资者的头寸：
-
-**shares after a split = shares × (A / B)**
-**拆股后的股数 = 股份数量 × （A / B）**
-
-**price after a split = stock price × (B / A)**
-**拆股后的价格 = 股票价格 × （B / A）**
+在股票股息或股票拆分的情况下，投资者头寸的总体价值保持不变。投资者收到更多的股票，但每股价格相应向下调整。
 
 📝 **EXAMPLE**
-Bob Billingham owns 1,200 shares of DEF common stock at a current market price of $90 per share. If DEF splits its stock 3-for-1, what would Bob's position be after the split?
-(A) 400 shares at $270 per share
-(B) 400 shares at $90 per share
-(C) 3,600 shares at $33.33 per share
-(D) 3,600 shares at $30 per share
-The answer you're looking for is (D). A forward stock split, like a 3-for-1, increases the number of shares and decreases the price of the stock, so you can immediately cross off (A) and (B). Choice (C) doesn't work because the price of the stock would have to be 1/3 of $90, which is $30, not $33.33. Now check your work:
-1,200 shares × (3 / 1) = 3,600 shares
-$90 × (1 / 3) = $30
-
-📝 **案例**
-Bob Billingham 持有 1,200 股 DEF 普通股，当前市场价格为每股 90 美元。如果 DEF 进行 3 拆 1 的拆股，Bob 拆股后的头寸会是多少？
-（A） 400 股，每股 270 美元
-（B） 400 股，每股 90 美元
-（C） 3,600 股，每股 33.33 美元
-（D） 3,600 股，每股 30 美元
-您要找的答案是 （D）。像 3 拆 1 这样的正向拆股会增加股份数量并降低股票价格，因此您可以立即排除 （A） 和 （B）。选项 （C） 不正确，因为股票价格必须是 90 美元的 1/3，即 30 美元，而不是 33.33 美元。现在检查一下您的计算：
-1,200 股 × （3 / 1） = 3,600 股
-$90 × (1 / 3) = $30
-
-💡 **TIP**
-A good way to double-check your work is to make sure that the overall value of the investment doesn't change after the split. Using the example, Bob had $108,000 worth of DEF (1,200 shares × $90) before the split, and after the split, Bob has $108,000 worth of DEF (3,600 shares × $30).
-💡 **提示**
-复核计算结果的一个好方法是确保拆股后投资的总价值没有变化。在例子中，Bob 拆股前拥有价值 108,000 美元的 DEF（1,200 股 × 90 美元），拆股后，Bob 依然拥有价值 108,000 美元的 DEF（3,600 股 × 30 美元）。
-
-### Reverse stock splits
-### 反向拆股
-
-A reverse stock split has the opposite effect on a security from a forward split. In a reverse-split, the market price of the security increases, and the number of shares decreases. As with forward stock splits, the overall market value of the securities doesn't change. A company may reverse-split its stock if the market price gets too low, which may make potential investors think that the company has a problem.
-反向拆股对证券的影响与正向拆股相反。在反向拆股中，证券的市场价格增加，而股份数量减少。与正向拆股一样，证券的整体市场价值不会改变。如果市场价格变得过低，公司可能会进行反向拆股，因为过低的股价可能会让潜在投资者认为公司存在问题。
-
-In the event of a reverse-split, investors usually have to send their old shares to the transfer agent to receive the new shares. If a company were executing a 1-for-3 reverse-split, investors would receive one new share for every three they sent in.
-在反向拆股的情况下，投资者通常必须将旧股份发送给过户代理人，以接收新股份。如果一家公司执行 1 并 3 的反向拆股，投资者每寄回三股将收到一股新股。
-
-💡 **TIP**
-You can use the same formula to determine an investor's position after a reverse-split that you use for forward splits.
-💡 **提示**
-您可以使用与正向拆股相同的公式来确定反向拆股后投资者的头寸。
-
-📝 **EXAMPLE**
-The following question tests your ability to answer a reverse-stock-split question.
-Betty Billings owns 3,600 shares of GHI common stock at a current market price of $2 per share. If GHI reverse-splits its stock 1-for-5, what would Betty's position be after the split?
-(A) 600 shares at $10 per share
-(B) 720 shares at $10 per share
-(C) 18,000 shares at 40 cents per share
-(D) 18,000 shares at $10 per share
-The correct answer is (B). In a reverse-split, the number of shares has to decrease and the price has to increase, so you can immediately eliminate (C) and (D). Choice (A) doesn't work because the investor would end up with too few shares. Check your work:
-3,600 shares × (1 / 5) = 720 shares
-$2 × (5 / 1) = $10
-
-📝 **案例**
-以下问题测试您回答反向拆股问题的能力。
-Betty Billings 持有 3,600 股 GHI 普通股，当前市场价格为每股 2 美元。如果 GHI 对其股票进行 1 并 5 的反向拆股，Betty 拆股后的头寸会是多少？
-（A） 600 股，每股 10 美元
-（B） 720 股，每股 10 美元
-（C） 18,000 股，每股 40 美分
-（D） 18,000 股，每股 10 美元
-正确答案是 （B）。在反向拆股中，股份数量必须减少，价格必须增加，因此您可以立即排除 （C） 和 （D）。选项 （A） 不正确，因为投资者的股份会变得太少。检查一下您的计算：
-3,600 股 × （1 / 5） = 720 股
-$2 × (5 / 1) = $10
-
----
-
-## 7. Sharing corporate profits through dividends
-## 7. 通过股息分享公司利润
-
-If a corporation is profitable (and the board of directors is in a good mood), the board of directors may decide to issue a stock dividend to investors. If and when the corporation declares a dividend, each shareholder is entitled to a **pro rata** share of dividends, meaning that every shareholder receives an equal proportion for each share that they own. The SIE exam expects you to know the forms of dividends an investor can receive and how the dividends affect both the market price of the stock and an investor's position. Although the investor can receive dividends in cash, stock, or property forms (stock of a subsidiary company or sample products made by the issuer), I focus on cash and stock dividends because those scenarios are more common.
-如果公司盈利（且董事会心情不错），董事会可能会决定向投资者发放股票股息。如果公司宣布发放股息，每位股东都有权按**比例 （pro rata）** 分享股息，这意味着每位股东持有的每股股份都获得相同比例的股息。SIE 考试希望您了解投资者可以收到的股息形式，以及股息如何影响股票的市场价格和投资者的头寸。虽然投资者可以收到现金、股票或财产形式（如子公司股票或发行人制造的样品产品）的股息，但我将重点讨论现金和股票股息，因为这些场景更为常见。
-
-🧠 **REMEMBER**
-Investors can't vote on dividends; instead, the board of directors decides dividend payouts. You can imagine that if this decision were left in the investors' hands, they'd vote for dividends weekly! For more info on voting, refer to "Understanding a stockholder's voting rights" earlier in this chapter. Even profitable companies may not pay a cash dividend because they may want to reinvest profits back in the company.
-🧠 **请记住**
-投资者不能对股息进行投票；相反，由董事会决定股息发放。您可以想象，如果这个决定交到投资者手中，他们每周都会投票发放股息！有关投票的更多信息，请参阅本章前面的“了解股东的投票权”。即使是盈利的公司也可能不支付现金股息，因为他们可能希望将利润重新投资于公司。
-
-### Cash dividends
-### 现金股息
-
-Cash dividends are a way for a corporation to share its profits with shareholders. When an investor receives cash dividends, the payout is a taxable event. Corporations aren't required to pay dividends, but dividends provide a good incentive for investors to hold onto stock that isn't experiencing much growth. Although cash dividends are nice, the market price of the stock falls on the **ex-dividend date** (the first day the stock trades without a dividend) to reflect the dividend to be paid on the payment date announced:
-现金股息是公司与股东分享利润的一种方式。当投资者收到现金股息时，该支出属于应税事件。公司不被强制要求支付股息，但股息为投资者持有增长缓慢的股票提供了良好的激励。虽然现金股息很诱人，但股票的市场价格会在**除息日 （ex-dividend date）**（股票在不含股息的情况下交易的第一天）下跌，以反映已宣布的支付日将支付的股息：
-
-**stock price – dividend = price on ex-dividend date**
-**股价 – 股息 = 除息日价格**
-
-📝 **EXAMPLE**
-Try your hand at answering a cash-dividend question.
-The closing price for ABC stock is $49.50 on the day before the ex-dividend date. If ABC previously announced a dividend of 75 cents, what will the next day's opening price be?
-(A) $48.25 (B) $48.75 (C) $49.50 (D) $50.25
-The correct answer is (B). Check your work:
-$49.50 – $0.75 = $48.75
-The math's as simple as that. Because now stocks are trading in pennies instead of eighths, as they used to, calculating the price on the ex-dividend date is a snap.
-
-📝 **案例**
-试着回答一个关于现金股息的问题。
-在除息日的前一天，ABC 股票的收盘价为 49.50 美元。如果 ABC 此前宣布派发 75 美分的股息，那么第二天的开盘价会是多少？
-(A) $48.25 (B) $48.75 (C) $49.50 (D) $50.25
-正确答案是 （B）。检查一下您的计算：
-$49.50 – $0.75 = $48.75
-计算就是这么简单。由于现在的股票交易是以美分为单位，而不是像以前那样以 1/8 为单位，所以计算除息日的价格非常容易。
-
-### Stock dividends
-### 股票股息
-
-Stock dividends are just like forward stock splits in that the investor receives more shares of stock (refer to "Splitting common stock" earlier in this chapter), but the corporation offers a percentage dividend (5 percent, 10 percent, and so on) instead of splitting the stock 2-for-1, 3-for-1, or whatever. Unlike cash dividends, stock dividends aren't taxable to the stockholder because the investor's overall value of investment doesn't change.
-股票股息就像正向拆股一样，投资者会收到更多的股份（请参阅本章前面的“拆分普通股”），但公司提供的是百分比股息（5%、10% 等），而不是将股票进行 2 拆 1、3 拆 1 或其他形式的拆分。与现金股息不同，股票股息对股东来说是不征税的，因为投资者的投资总价值没有改变。
-
-The primary reason for a company to give investors a stock dividend is to make the market price more attractive to investors (if the market price gets too high, it limits the number of investors who can purchase the stock), thus adding **liquidity** (ease of trading) to the stock.
-公司向投资者发放股票股息的主要原因是为了使市场价格对投资者更具吸引力（如果市场价格过高，会限制能够购买该股票的投资者数量），从而增加股票的**流动性 （liquidity）**（交易的便利性）。
-
-📝 **EXAMPLE**
-The following question tests your expertise in answering stock-dividend questions.
-Alyssa H. owns 400 shares of OXX common stock at $33 per share. OXX previously declared a 10 percent stock dividend. Assuming that there's no change in the market price of OXX before the dividend, what is Alyssa's position after the dividend?
+Alyssa H. owns 400 shares of XYZ common stock at $33 per share. XYZ previously declared a 10 percent stock dividend. Assuming that there’s no change in the market price of XYZ before the dividend, what is Alyssa’s position after the dividend?
 (A) 400 shares at $30
 (B) 440 shares at $33
 (C) 400 shares at $36.30
 (D) 440 shares at $30
-The answer you want is (D). In this case, you can find the answer without doing any math. Because the number of shares increases, the price of the stock has to decrease. Therefore, the only answer that works is (D). I can't guarantee that you'll get a question for which you don't have to do the math, but don't rule it out; scan the answer choices before pulling out your calculator.
-Anyway, here's how the numbers work. You have to remember that the investor's overall value of investment doesn't change. Alyssa gets a 10 percent stock dividend, so she receives 10 percent more shares. Now Alyssa has 440 shares of OXX (400 shares + 40 shares [10 percent of 400]). Next, you need to determine her overall value of investment:
-400 shares × $33 = $13,200
-Because the overall value of investment doesn't change, Alyssa needs to have $13,200 worth of OXX after the dividend:
-$13,200 / 440 shares = $30 per share
-Alyssa's position after the split is 440 shares at $30 per share.
+
+The answer is (D). Alyssa gets a 10 percent stock dividend, so she receives 10 percent more shares (400 × 10% = 40 additional shares), making her total 440 shares. To find the new price, divide the original total value ($13,200) by the new number of shares (440), which equals $30 per share.
 
 📝 **案例**
-以下问题测试您在回答股票股息问题方面的专业知识。
-Alyssa H。 持有 400 股 OXX 普通股，每股价格为 33 美元。OXX 此前宣布派发 10% 的股票股息。假设股息发放前 OXX 的市场价格没有变化，Alyssa 派发股息后的头寸是多少？
+Alyssa H. 拥有 400 股 XYZ 普通股，每股 33 美元。XYZ 此前宣布了 10% 的股票股息。假设分红前 XYZ 的市场价格没有变化，分红后 Alyssa 的头寸是多少？
 （A） 400 股，每股 30 美元
 （B） 440 股，每股 33 美元
 （C） 400 股，每股 36.30 美元
 （D） 440 股，每股 30 美元
-您想要的答案是 （D）。在这种情况下，您无需任何计算即可找到答案。因为股份数量增加，股票价格必须下降。因此，唯一可行的答案是 （D）。我不能保证您会遇到一个不需要计算的问题，但不要排除这种可能性；在拿出计算器之前，先扫视一下答案选项。
-无论如何，以下是数字的计算过程。您必须记住，投资者的投资总价值没有改变。Alyssa 获得了 10% 的股票股息，因此她多收到了 10% 的股份。现在 Alyssa 拥有 440 股 OXX（400 股 + 40 股 [400 的 10%]）。接下来，您需要确定她的投资总价值：
-400 股 × $33 = $13,200
-由于投资总价值不变，Alyssa 在股息发放后需要拥有价值 13,200 美元的 OXX：
-$13,200 / 440 股 = 每股 $30
-Alyssa 在拆分后的头寸是 440 股，每股 30 美元。
 
-🧠 **REMEMBER**
-When you or one of your clients own securities subject to corporate actions such as splits, stock dividends, mergers, and so on, the securities are going to change. In some cases, such as forward stock splits and stock dividends, you or your client will receive more shares at a lower cost basis, and the cost basis of the shares held will be lowered accordingly. The adjustment to the cost basis is important for tax purposes when determining the amount of capital gains or losses.
-🧠 **请记住**
-当您或您的客户拥有的证券受到拆股、股票股息、合并等公司行为影响时，这些证券将会发生变化。在某些情况下，如正向拆股和股票股息，您或您的客户将以较低的成本基础获得更多股份，且所持有股份的成本基础将相应降低。成本基础的调整对于确定资本利得或损失的数额，在税务目的上非常重要。
+答案是 （D）。Alyssa 获得 10% 的股票股息，因此她收到 10% 更多的股票（400 × 10% = 40 股额外股票），使她的总股数达到 440 股。要找到新价格，请将原始总价值（13,200 美元）除以新股数（440），等于每股 30 美元。
 
-For argument's sake, suppose that you purchased 1,000 shares of UPPP Corporation at $40 per share. In this case, you have stock with a cost basis of $40,000 (1,000 shares at $40 per share). If the stock splits 2 for 1, you have 2 shares for every 1 purchased. The corporation isn't just giving you another $40,000 worth of stock; it cut the price in half to adjust for the split. As the market price gets cut in half, so does the cost basis per share. In the example, now you have 2,000 shares with a cost basis of $20 per share ($40,000 cost basis) even if the market value is $55,000. In the event of a split, the issuer would adjust your shares to reflect a lower par value. In the event of an exchange offer, merger, or acquisition, the security that you're holding would likely change. In this case (assuming that you physically held the security), the issuer would be responsible for mailing the new security. Whether the securities are physically held, which is becoming increasingly rare, or in **book-entry** form, the issuer must update its books for any changes.
-就论证而言，假设您以每股 40 美元的价格购买了 UPPP 公司的 1,000 股股票。在这种情况下，您持有的股票成本基础为 40,000 美元（1,000 股 × 每股 40 美元）。如果股票进行 2 拆 1，那么您每购买 1 股就拥有 2 股。公司并不是白送您另外价值 40,000 美元的股票；它是将价格减半以适应拆分。随着市场价格减半，每股的成本基础也随之减半。在例子中，您现在拥有 2,000 股，每股成本基础为 20 美元（总成本基础仍为 40,000 美元），即使市场价值可能是 55,000 美元。在拆分的情况下，发行人会调整您的股份以反映较低的面值。在交换要约、合并或收购的情况下，您持有的证券可能会发生变化。在这种情况下（假设您实物持有该证券），发行人将负责邮寄新证券。无论证券是实物持有（这种情况正变得越来越罕见），还是以**账面登记 （book-entry）** 形式存在，发行人都必须针对任何变动更新其账簿。
+### Forward and reverse stock splits
+### 正向和反向股票拆分
+
+*   **Forward stock split:** In a forward split, the number of shares increases and the price per share decreases. For example, in a 2-for-1 split, an investor who owned 100 shares at $60 would now own 200 shares at $30.
+*   **正向股票拆分 （Forward stock split）：** 在正向拆分中，股票数量增加，每股价格下降。例如，在 2 拆 1 的拆分中，拥有 100 股每股 60 美元的投资者现在将拥有 200 股每股 30 美元。
+*   **Reverse stock split:** In a reverse split, the number of shares decreases and the price per share increases. This is often done to increase the market price of a stock to make it look more attractive or to meet exchange listing requirements. For example, in a 1-for-5 reverse split, an investor who owned 500 shares at $2 would now own 100 shares at $10.
+*   **反向股票拆分 （Reverse stock split）：** 在反向拆分中，股票数量减少，每股价格上升。这样做通常是为了提高股票的市场价格，使其看起来更具吸引力或满足交易所上市要求。例如，在 1 并 5 的反向拆分中，拥有 500 股每股 2 美元的投资者现在将拥有 100 股每股 10 美元。
+
+Adjustments to the **cost basis** are important for tax purposes when determining the amount of capital gains or losses.
+**成本基数 （cost basis）** 的调整对于确定资本收益或损失金额的税务目的很重要。
 
 ---
 
-## 8. Getting Preferential Treatment: Preferred Stock
-## 8. 获得优惠待遇：优先股
+## 5. Getting Preferential Treatment: Preferred Stock
+## 5. 获得优惠待遇：优先股
+股票证券代表公司的所有权份额，而债务证券代表……好吧，债务。（有关债务证券的信息，请参见第 7 章和第 8 章。）虽然**优先股 （preferred stock）**（有时称为 preferreds）兼具股票和债务证券的一些特征，但优先股是一种股票证券，因为它像普通股一样代表发行公司的所有权。
 
-Equity securities represent shares of ownership in a company, and debt securities represent . . . well, debt. (See Chapters 7 and 8 for info on debt securities.) Although preferred stock (sometimes called **preferreds**) has some characteristics of both equity and debt securities, preferred stock is an equity security because it represents ownership of the issuing corporation the same way that common stock does.
-权益证券代表公司的所有权股份，而债务证券代表……嗯，债务。（有关债务证券的信息见第 7 章和第 8 章。）虽然优先股（有时称为 **preferreds**）兼具权益和债务证券的一些特征，但优先股仍然是一种权益证券，因为它与普通股一样，代表了发行公司的所有权。
-
-### Considering characteristics of preferred stock
 ### 考虑优先股的特征
+购买优先股而非普通股的一个优势是，如果发行人重组，优先股股东在普通股股东之前收回资金（如果有剩余的话）。然而，优先股和普通股之间的主要区别在于股息。普通股发行人通常只有在公司有能力根据董事会的投票分享公司利润时才支付现金股息。相比之下，优先股发行人通常支付持续的现金股息。如果公司的利润滞后或亏损，它们可能会减少或停止支付股息。优先股的面值通常为每股 100 美元（尽管也可能是 50 美元、25 美元等），并且在市场上的交易价格往往比普通股更接近其面值。
 
-One advantage of purchasing preferred stock instead of common stock is that preferred shareholders receive money back (if any is left) before common stockholders do if the issuer reorganizes. The main difference between preferred stock and common stock, however, has to do with dividends. Issuers of common stock typically pay a cash dividend only if the company is in a position to share corporate profits based on a vote by the board of directors. By contrast, issuers of preferred stock typically pay consistent cash dividends. In the event that a corporation's profits are lagging or they are losing money, they may reduce or stop the dividend payments. Preferred stock generally has a par value of $100 per share (although it could be $50, $25, and so on) and tends to trade in the market much closer to its par value than common stock does.
-与普通股相比，购买优先股的一个优势是，如果发行人进行重组，优先股股东会在普通股股东之前拿回资金（如果有剩余的话）。然而，优先股和普通股的主要区别在于股息。普通股发行人通常只有在董事会投票决定根据公司情况分享利润时，才会支付现金股息。相比之下，优先股发行人通常支付固定的现金股息。如果公司的利润落后或亏损，他们可能会减少或停止股息支付。优先股的面值通常为每股 100 美元（尽管也可能是 50 美元、25 美元等），且在市场上的交易价格往往比普通股更接近其面值。
+由于优先股收到（或应该收到）持续的股息，它们有点像接收利息的债务证券。由于这种相似性，像债务证券（债券）一样，许多优先股由评级机构（如穆迪、标准普尔和惠誉）进行评级。（有关评级机构的更多信息，请参见第 7 章。）
 
-Because preferred stocks receive (or are supposed to receive) a consistent dividend, they're somewhat like debt securities receiving interest. Because of that similarity, like debt securities (bonds), many preferred stocks are rated by rating agencies such as Moody's, Standard & Poor's, and Fitch. (For more on rating agencies, see Chapter 7.)
-由于优先股收到（或理应收到）固定的股息，它们在某种程度上类似于收到利息的债务证券。由于这种相似性，就像债务证券（债券）一样，许多优先股由穆迪 （Moody's）、标准普尔 （Standard & Poor's） 和惠誉 （Fitch） 等评级机构进行评级。（有关评级机构的更多信息，请参阅第 7 章。）
+投资优先股而非普通股的一些缺点是缺乏投票权、每股成本有时较高以及缺乏增长。出于 SIE 考试的目的，您可以假设优先股股东不享有投票权，除非他们未能收到预期的股息。（还有一些其他例外，但您现在不必担心。）此外，由于大多数优先股支付持续的股息，市场价格将根据现行利率的升降而增加或减少，类似于债务证券。
 
-Some of the drawbacks of investing in preferred stock instead of common stock are the lack of voting rights, the sometimes-higher cost per share, and lack of growth. You can assume for SIE exam purposes that preferred stockholders don't receive voting rights unless they fail to receive their expected dividends. (A few other exceptions exist, but you don't need to worry about them now.) Also, because most preferred stock pays consistent dividends, the market price will increase or decrease depending on prevailing interest rates similar to debt securities.
-投资优先股而非普通股的一些缺点包括缺乏投票权、有时每股成本较高以及缺乏增长性。在 SIE 考试中，您可以假设优先股股东不享有投票权，除非他们未能收到预期的股息。（还存在一些其他例外情况，但您现在不需要担心。）此外，由于大多数优先股支付固定的股息，其市场价格会像债务证券一样，根据当前利率的升降而波动。
+如果发行人因收益低而无法付款，并且如果优先股是**累积的 （cumulative）**（见本章下一节“熟悉优先股的类型”），所有者仍然被欠缺的股息支付。优先股股东收到的股息（利润分享）基于面值。因此，虽然在处理普通股时面值可能只是一个簿记价值，但面值对优先股股东来说绝对重要。
 
-🧠 **REMEMBER**
-If the issuer can't make a payment because earnings are low, and if the preferred stock is **cumulative** (see "Getting familiar with types of preferred stock," the next section in this chapter), owners are still owed the missing dividend payment(s). The dividend (sharing of profits) that preferred stockholders receive is based on par value. Thus, although par value may be nothing more than a bookkeeping value when you're dealing with common stock, par value is definitely important to preferred stockholders.
-🧠 **请记住**
-如果发行人因盈利低而无法支付股息，且如果该优先股是**累积的 （cumulative）**（见本章下一节“熟悉优先股的类型”），则公司仍然欠股东所缺的股息。优先股股东收到的股息（利润分配）是基于面值的。因此，虽然在处理普通股时面值可能只是一个记账价值，但面值对优先股股东绝对重要。
+要计算年度股息，请将股息百分比乘以面值。如果客户拥有支付 6% 股息的优先股，且面值为 100 美元，请设置以下公式：
+**6% （优先股） × $100 （面值） = $6 （每年股息）**
 
-To calculate the annual dividend, multiply the percentage of the dividend by the par value. If a customer owns a preferred stock that pays a 6 percent dividend, and the par value is $100, set up the following equation:
-要计算年度股息，请将股息百分比乘以面值。如果客户拥有一份支付 6% 股息且面值为 100 美元的优先股，请列出以下等式：
+如果发行人按季度（每三个月一次）支付此股息，投资者每拥有一般将每三个月收到 $1.50 ($6/4)。
 
-**6% preferred stock × $100 par = $6 per year in dividends**
-**6% 优先股 × $100 面值 = 每年 $6 股息**
+在处理优先股的股息问题时，您需要在问题中寻找面值。面值通常为 100 美元，但也可能是 25 美元、50 美元等。
 
-If the issuer were to pay this dividend quarterly (once every three months), an investor would receive $1.50 ($6/4) every three months for each share owned.
-如果发行人每季度支付一次股息（每三个月一次），投资者持有的每股股份每三个月将收到 1.50 美元（$6 / 4）。
-
-🧠 **REMEMBER**
-When working on a dividend question on preferred stock, you need to look for the par value in the problem. Par value normally is $100, but it could be $25, $50, and so on.
-🧠 **请记住**
-在解答有关优先股股息的问题时，您需要在题目中寻找面值。面值通常为 100 美元，但也可能是 25 美元、50 美元等。
-
-### Getting familiar with types of preferred stock
 ### 熟悉优先股的类型
+您需要了解 Series 7 的几种优先股类型。本节为您简要解释这些类型。有些优先股可能是类型的组合，如累积可转换优先股。以下是非累积和累积优先股之间的区别：
 
-You need to be aware of several types of preferred stock for the Series 7. This section gives you a brief explanation of the types. Some preferred stock may be a combination of types, as in cumulative convertible preferred stock. Here are the distinctions between noncumulative and cumulative preferred stock:
-为了通过 Series 7 考试，您需要了解几种类型的优先股。本节将为您提供这些类型的简要说明。某些优先股可能是多种类型的组合，如累积可转换优先股。以下是**非累积**和**累积**优先股之间的区别：
+*   **非累积（直线）优先股 （Noncumulative (straight) preferred）：** 这种类型的优先股很少见。优先股的主要特征是投资者通常收到持续的现金股息。如果发行人未支付股息，公司通常仍然欠投资者的。非累积优先股并非如此。如果优先股是非累积的，且发行人未能支付股息，发行人并不欠投资者的。投资者可能会选择非累积优先股而非普通股，因为公司仍应支付持续的现金股息，并且在公司破产的情况下，优先股股东仍在普通股股东之前获得支付。由于非累积优先股对投资者来说风险更大，通常提供更高的股息。
+*   **累积优先股 （Cumulative preferred）：** 累积优先股更为常见。如果投资者拥有累积优先股且未收到预期的股息，发行人即处于拖欠状态，仍然欠该股息。在支付普通股股息之前，发行人首先必须向累积优先股股东补足所有拖欠的款项，然后是其他优先股股东。因此，累积优先股比非累积优先股是更安全的投资。
 
-*   **Noncumulative (straight) preferred:** This type of preferred stock is rare. The main feature of preferred stock is that investors typically receive a consistent cash dividend. In the event that the issuer doesn't pay the dividend, the company usually still owes it to investors. This isn't the case for noncumulative preferred stock. If the preferred stock is noncumulative, and the issuer fails to pay a dividend, the issuer doesn't owe it to investors. An investor may choose noncumulative preferred stock over common stock because the company is still supposed to pay a consistent cash dividend and, in the event of corporate bankruptcy, preferred stockholders still get paid before common stockholders. Because noncumulative preferred stock is riskier for investors, they're typically offered a higher dividend.
-*   **非累积（常规）优先股：** 这种类型的优先股很罕见。优先股的主要特征是投资者通常会收到固定的现金股息。如果发行人没有支付股息，公司通常仍然欠投资者这笔钱。但非累积优先股并非如此。如果优先股是非累积的，且发行人未能支付股息，则发行人不欠投资者这笔钱。投资者可能会选择非累积优先股而非普通股，因为公司仍然应该支付固定的现金股息，而且在公司破产的情况下，优先股股东仍然会在普通股股东之前获得赔付。由于非累积优先股对投资者来说风险更高，因此通常会提供更高的股息。
-*   **Cumulative preferred:** Cumulative preferred stock is more common. If an investor owns cumulative preferred stock and doesn't receive an expected dividend, the issuer is **in arrears** and still owes that dividend. Before paying a common dividend, the issuer first has to make up all delinquent payments to cumulative preferred stockholders, then other preferred shareholders. As such, cumulative preferred stock is a safer investment than noncumulative preferred stock.
-*   **累积优先股：** 累积优先股更为常见。如果投资者持有累积优先股但未收到预期股息，则发行人处于**欠款 （in arrears）** 状态，仍欠该笔股息。在支付普通股股息之前，发行人必须首先补足对累积优先股股东的所有欠款，然后是其他优先股股东。因此，累积优先股比非累积优先股是更安全的投资。
-
-🧠 **REMEMBER**
-Because preferred stock is senior to common stock, if the issuer misses a dividend payment to preferred stockholders, the issuer can't make a dividend payment to its common stockholders until the preferred dividend payments resume.
-🧠 **请记住**
-由于优先股优先于普通股，如果发行人错过了对优先股股东的股息支付，在优先股股息支付恢复之前，发行人不能对其普通股股东支付股息。
-
-📝 **EXAMPLE**
-The following question tests your understanding of cumulative preferred stock.
-An ABC investor owns 8 percent cumulative preferred stock ($100 par). In the first year, ABC paid $6 in dividends; in the second year, it paid $4 in dividends. If a common dividend is declared the following year, how much must the preferred shareholders receive?
-(A) $6 (B) $8 (C) $12 (D) $14
-The right answer is (D). Because ABC is cumulative preferred stock, issuers have to catch up preferred stockholders on all outstanding dividends before common shareholders receive a dividend. In this example, the investor is supposed to receive $8 per year in dividends (8% × $100 par). In the first year, the issuer shorted the investor $2; in the second year, $4. The investor hasn't yet received payment for the following year, so they are owed $8. Add up these debts:
-($8 – $6) + ($8 – $4) + $8 = $2 + $4 + $8 = $14
+由于优先股优先于普通股，如果发行人错过了向优先股股东的股息支付，发行人必须在恢复优先股股息支付之前，不能向其普通股股东支付股息。
 
 📝 **案例**
-以下问题测试您对累积优先股的理解。
-一位 ABC 公司的投资者持有 8% 的累积优先股（面值 100 美元）。第一年，ABC 支付了 6 美元的股息；第二年，支付了 4 美元的股息。如果公司在第三年宣布派发普通股股息，优先股股东必须收到多少钱？
-(A) $6 (B) $8 (C) $12 (D) $14
-正确答案是 （D）。因为 ABC 是累积优先股，发行人在普通股股东收到股息之前，必须补足优先股股东的所有欠付股息。在本例中，投资者每年本应收到 8 美元的股息（8% × 100 美元面值）。第一年，发行人欠投资者 2 美元；第二年，欠 4 美元。投资者尚未收到第三年的款项，因此还欠他们 8 美元。将这些欠款相加：
-($8 – $6) + ($8 – $4) + $8 = $2 + $4 + $8 = $14
+ABC 投资者拥有 8% 的累积优先股（面值 100 美元）。第一年，ABC 支付了 6 美元的股息；第二年，支付了 4 美元的股息。如果次年宣布普通股股息，优先股股东必须收到多少？
+（A） $6 （B） $8 （C） $12 （D） $14
+正确答案是 （D）。因为 ABC 是累积优先股，发行人必须在普通股股东收到股息之前，让优先股股东补齐所有未支付的股息。在这个例子中，投资者每年应该收到 8 美元的股息（8% × $100 面值）。第一年，发行人欠投资者 2 美元；第二年，欠 4 美元。投资者尚未收到次年的付款，因此他们被欠 8 美元。将这些债务加起来：
+$8 （当年） + $2 （第一年欠款） + $4 （第二年欠款） = $14
 
-All preferred stock has to be either cumulative or noncumulative. Both types may have other features, including the capability to turn into other kinds of stock, offerings of extra dividends, and other VIP treatment. I run through some of these traits in the list that follows:
-所有的优先股必须要么是累积的，要么是非累积的。这两种类型都可能具有其他特征，包括转换为其他类型股票的能力、提供额外股息以及其他“VIP”待遇。我在下面的列表中列出了其中一些特质：
+所有优先股必须是累积的或非累积的。这两种类型都可能具有其他特征，包括转换为其他类型股票的能力、提供额外股息和其他 VIP 待遇。我在下面的列表中列出了一些这些特征：
 
-*   **Convertible preferred:** Convertible preferred stock allows investors to exchange their preferred stock for common stock of the same company at any time. Because the issuers are providing investors another way to make money, investors usually receive a lower dividend payment than with nonconvertible preferred stock.
-*   **可转换优先股 （Convertible preferred）：** 可转换优先股允许投资者随时将其优先股交换为同一公司的普通股。因为发行人为投资者提供了另一种赚钱的方式，所以投资者收到的股息通常比不可转换优先股要低。
+*   **可转换优先股 （Convertible preferred）：** 可转换优先股允许投资者随时将其优先股兑换成同一公司的普通股。由于发行人向投资者提供了另一种赚钱方式，投资者通常收到比非可转换优先股更低的股息支付。
+    **转换价格 （conversion price）** 是可转换优先股面值可以兑换为一股普通股的美元价格。当首次发行可转换优先股时，转换价格是根据优先股的面值指定的。**转换比率 （conversion ratio）** 告诉您投资者转换一股优先股收到的普通股数量。
 
-The **conversion price** is the dollar price at which a convertible preferred stock par value can be exchanged for a share of common stock. When the convertible preferred stock is first issued, the conversion price is specified, based on the preferred's par value. The **conversion ratio** tells you the number of shares of common stock that an investor receives for converting one share of preferred stock.
-**转换价格 （conversion price）** 是指可转换优先股的面值可以交换一股普通股的美元价格。当可转换优先股首次发行时，会根据优先股的面值指定转换价格。**转换比例 （conversion ratio）** 告诉您投资者转换一股优先股所能获得的普通股数量。
+    您可以对可转换优先股和可转换债券（有关可转换债券的信息见第 7 章）使用以下转换比率公式：
+    **转换比率 = 面值 / 转换价格**
 
-You can use the following conversion ratio formula for convertible preferred stock and also for convertible bonds (see Chapter 7 for info on convertible bonds):
-您可以使用以下转换比例公式来计算可转换优先股，也适用于可转换债券（有关可转换债券的信息见第 7 章）：
+    转换比率帮助您确定可转换优先股和普通股交易平等的**平价 （parity price）**。假设您有一只可兑换为四股普通股的可转换优先股。如果可转换优先股的交易价格为 100 美元，而普通股的交易价格为 25 美元，则它们处于平价，因为四股 25 美元的股票等于 100 美元。然而，如果交换价值存在差异，转换可能会有利可图。如果可转换优先股的交易价格为 100 美元，而普通股的交易价格为 28 美元，则普通股的交易价格高于平价；转换将是有利可图的，因为投资者正在将价值 100 美元的证券兑换为价值 112 美元的证券（$28 × 4）。可转换优先股的交易价格通常非常接近平价。
+*   **可赎回优先股 （Callable preferred）：** 可赎回优先股允许发行人在定义日期后的任何时间以证书上的价格（赎回价格）回购优先股。这种股票对投资者来说风险稍大，因为他们无法控制持有股票的时间，因此公司通常对可赎回优先股支付比常规优先股更高的股息。赎回特征可以添加到其他类型的优先股中，例如可赎回可转换优先股。
+*   **参与优先股 （Participating preferred）：** 虽然很少发行，但参与优先股允许投资者除了通常的优先股股息外，还可以收到高达一定金额的普通股股息。大多数优先股是非参与的，这意味着它们不接收普通股股息，只接收优先股股息。
+*   **优先（高级）优先股 （Prior (senior) preferred）：** 在公司破产的情况下，普通的优先股股东在普通股股东之前获得赔偿。然而，高级优先股股东甚至在其他优先股股东之前获得赔偿。由于额外的安全因素，高级优先股支付的股息略低于同一发行人的其他优先股。
+*   **可调整（可变或浮动）利率优先股 （Adjustable (variable- or floating-rate) preferred）：** 可调整优先股的持有人收到的股息每三个月重置一次，以匹配现行利率的变动。由于股息根据利率变化进行调整（通常基于某个基准，如国库券利率），股票价格保持更稳定。
 
-**conversion ratio = par value / conversion price**
-**转换比例 = 面值 / 转换价格**
-
-🧠 **REMEMBER**
-The conversion ratio helps you determine a **parity price** at which the convertible preferred stock and common stock would be trading equally. Suppose that you have a convertible preferred stock that's exchangeable for four shares of common stock. If the convertible preferred stock is trading at $100, and the common stock is trading at $25, they're on parity because four shares of stock at $25 equal $100. If there's a disparity in the exchange values, however, converting may be profitable. If the convertible preferred stock is trading at $100, and the common stock is trading at $28, the common stock is trading **above parity**; converting would be profitable because investors are exchanging $100 worth of securities for $112 worth of securities ($28 × 4). Convertible preferred stock typically trades very close to the parity price.
-🧠 **请记住**
-转换比例帮助您确定**等价价格 （parity price）**，即在此价格下，可转换优先股和普通股的交易价值相等。假设您持有一种可以交换四股普通股的可转换优先股。如果该优先股交易价格为 100 美元，普通股交易价格为 25 美元，那么它们处于等价状态，因为四股 25 美元的股票等于 100 美元。然而，如果交换价值存在差异，转换可能会盈利。如果优先股交易价格为 100 美元，而普通股交易价格为 28 美元，则普通股处于**等价以上 （above parity）** 状态；转换将是有利可图的，因为投资者是用价值 100 美元的证券换取价值 112 美元的证券（28 美元 × 4）。可转换优先股通常在非常接近等价价格的水平上交易。
-
-*   **Callable preferred:** Callable preferred stock allows the issuer to buy back the preferred stock at any time after a defined date at the price (the **call price**) on the certificate. This stock is a little riskier for investors because they don't have control of how long they can hold the stock, so corporations usually pay a higher dividend on callable preferred stock than on regular preferred stock. A call feature may be added to other types of preferred stock such as callable convertible preferred.
-*   **可赎回优先股 （Callable preferred）：** 可赎回优先股允许发行人在确定日期后的任何时间，按照凭证上的价格（**赎回价格**）回购优先股。这种股票对投资者来说风险稍大，因为他们无法控制持有股票的时间长短，因此公司通常在可赎回优先股上支付比普通优先股更高的股息。赎回功能可以添加到其他类型的优先股中，如可赎回可转换优先股。
-*   **Participating preferred:** Although rarely issued, participating preferred stock allows the investors to receive common dividends in addition to the usual preferred dividends up to a certain amount. Most preferred stock is **non-participating**, meaning that they don't receive common dividends, only preferred dividends.
-*   **参与优先股 （Participating preferred）：** 虽然很少发行，但参与优先股允许投资者在通常的优先股股息之外，还能额外获得一定数额的普通股股息。大多数优先股是**非参与的**，这意味着它们不接收普通股股息，只接收优先股股息。
-*   **Prior (senior) preferred:** Your run-of-the-mill preferred stockholders receive compensation before common stockholders in the event of corporate bankruptcy. Senior preferred stockholders, however, receive compensation even before other preferred stockholders. Because of the extra safety factor, senior preferred stock pays a slightly lower dividend than other preferred stock from the same issuer.
-*   **优先（高级）优先股 （Prior/senior preferred）：** 普通优先股股东在公司破产时比普通股股东先获得补偿。然而，高级优先股股东甚至在其他优先股股东之前获得补偿。由于额外的安全性，高级优先股支付的股息略低于同一发行人的其他优先股。
-*   **Adjustable (variable- or floating-rate) preferred:** Holders of adjustable preferred stock receive a dividend that's reset every three months to match movements in the prevailing interest rates. Because the dividend adjusts to changing interest rates (usually based off of a certain benchmark such as the T-bill rate), the stock price remains more stable.
-*   **可调（浮动利率）优先股 （Adjustable preferred）：** 可调优先股持有人收到的股息每三个月重置一次，以匹配当前利率的变动。由于股息会根据利率的变化进行调整（通常基于某个基准，如国库券利率），因此其股价保持得更加稳定。
-
----
-
-## 9. Securities with a Twist
-## 9. 带有特殊条款的证券
+## 5. 特殊证券
 
 Some securities fall outside the boundaries of the more normal common and preferred stock, but I still include them in this equities chapter because they involve ownership in a company or the opportunity to get it. This section gives you an overview of those special securities.
-有些证券超出了普通股和优先股的范畴，但我仍将它们包含在这个权益章节中，因为它们涉及公司的所有权或获得所有权的机会。本节将为您概述这些特殊的证券。
+有些证券超出了常规普通股和优先股的范畴，但我仍然将它们包含在这个权益章节中，因为它们涉及公司所有权或获得公司所有权的机会。本节将为您概述这些特殊证券。
 
 ### Opening national borders: ADRs
-### 跨越国界：ADRs
+### 开启国界：ADRs（美国存托凭证）
 
-**American Depositary Receipts (ADRs)** are receipts for foreign securities traded in the United States. ADRs are negotiable certificates (they can be sold or transferred to another party, in other words) that represent a specific number of shares (usually, one to ten) of a foreign stock. In many cases, ADR investors don't have voting privileges because the shares are held by the bank. In some cases, ADR holders may be able to give voting instructions to the bank, who can vote on their behalf. U.S. banks issue these stock certificates; therefore, investors receive dividends in U.S. dollars.
-**美国存托凭证 （ADRs）** 是在美国交易的外国证券的凭证。ADR 是可转让的凭证（换句话说，它们可以出售或转让给另一方），代表一定数量（通常是一到十股）的外国股票。在许多情况下，ADR 投资者不享有投票权，因为股份由银行持有。在某些情况下，ADR 持有人可能可以向银行发出投票指示，由银行代表他们投票。美国银行发行这些股票凭证；因此，投资者以美元接收股息。
+**American Depositary Receipts (ADRs)** are receipts for foreign securities traded in the United States. ADRs are negotiable certificates (they can be sold or transferred to another party, in other words) that represent a specific number of shares (usually, one to ten) of a foreign stock.
+**美国存托凭证 （American Depositary Receipts, ADRs）** 是在美国交易的外国证券的收据。ADRs 是可转让证书（换句话说，它们可以出售或转让给另一方），代表特定数量（通常为一到十股）的外国股票。
 
-The certificates are held in a foreign branch of a U.S. bank (the **custodian bank**). To exchange their ADRs for the actual shares, investors return the ADRs to the bank that's holding the shares.
-凭证存放在美国银行的外国分行（**托管银行**）。要将 ADR 交换为实际股份，投资者需将 ADR 退还给持有股份的银行。
+In many cases, ADR investors don't have voting privileges because the shares are held by the bank. In some cases, ADR holders may be able to give voting instructions to the bank, who can vote on their behalf. U.S. banks issue these stock certificates; therefore, investors receive dividends in U.S. dollars. The certificates are held in a foreign branch of a U.S. bank (the custodian bank). To exchange their ADRs for the actual shares, investors return the ADRs to the bank that's holding the shares.
+在许多情况下，ADR 投资者没有投票权，因为股份由银行持有。在某些情况下，ADR 持有人可能能够向银行发出投票指示，由银行代表他们投票。美国银行发行这些股票证书；因此，投资者收到的是美元股息。这些证书由美国银行的海外分行（托管银行）持有。为了将 ADRs 兑换成实际股份，投资者需将 ADRs 交还给持有股份的银行。
 
-In addition to the risks associated with stock ownership in general, ADR owners are subject to **currency risk** — the risk that the value of the security may decline because the value of the currency of the issuing corporation may fall in relation to the U.S. dollar. For information on how the strength of the dollar affects the relative prices of goods in the international market, flip to Chapter 13.
-除了与一般股票所有权相关的风险外，ADR 所有者还面临**汇率风险 （currency risk）**——即由于发行公司的货币价值相对于美元下跌，导致证券价值可能下降的风险。有关美元强度如何影响国际市场商品相对价格的信息，请参阅第 13 章。
+In addition to the risks associated with stock ownership in general, ADR owners are subject to **currency risk** — the risk that the value of the security may decline because the value of the currency of the issuing corporation may fall in relation to the U.S. dollar.
+除了与股票所有权相关的一般风险外，ADR 持有者还面临**货币风险 （currency risk）**——即由于发行公司的货币价值相对于美元下跌，导致证券价值可能下降的风险。
 
 ### Rights: The right to buy new shares at a discount
-### 配股权：以折扣价购买新股的权利
+### 认股权：以折扣价购买新股的权利
 
-Corporations offer special privileges known as **rights** (**subscription** or **preemptive**) to their common stockholders. To maintain stockholders' proportionate ownership of the corporation, rights allow existing stockholders to purchase new shares of the corporation at a fixed discounted price directly from the issuer, before the shares are offered to the public. Stockholders receive one right for each share they own. The rights are short-term — usually, 16 to 30 days, but in some cases may go up to 60. The rights are marketable, and stockholders may sell them to other investors. If existing stockholders don't purchase all the shares, the issuer offers any unsold shares to a **standby underwriter** — a broker-dealer that purchases any shares that weren't sold in the rights offering and resells them to other investors.
-公司向其普通股股东提供被称为**配股权 （rights）**（**认购权**或**优先认股权**）的特殊特权。为了维持股东在公司中的持股比例，配股权允许现有股东在股份向公众提供之前，直接从发行人处以固定的折扣价格购买公司的新股。股东持有的每股股份可获得一个配股权。配股权是短期的——通常为 16 到 30 天，但在某些情况下可能长达 60 天。配股权是可在市场上交易的，股东可以将其出售给其他投资者。如果现有股东没有购买所有股份，发行人会将任何未售出的股份提供给**备用承销商 （standby underwriter）**——这是一家经纪自营商，负责购买配股发行中未售出的任何股份，并将其转售给其他投资者。
+Corporations offer special privileges known as **rights** (subscription or preemptive) to their common stockholders. To maintain stockholders' proportionate ownership of the corporation, rights allow existing stockholders to purchase new shares of the corporation at a fixed discounted price directly from the issuer, before the shares are offered to the public.
+公司向其普通股股东提供称为**认股权 （rights）**（认购权或优先认股权）的特殊特权。为了维持股东在公司的持股比例，认股权允许现有股东在向公众发售股份之前，以固定的折扣价格直接从发行人处购买公司的新股。
 
-💡 **TIP**
+Stockholders receive one right for each share they own. The rights are short-term — usually, 16 to 30 days, but in some cases may go up to 60. The rights are marketable, and stockholders may sell them to other investors. If existing stockholders don't purchase all the shares, the issuer offers any unsold shares to a **standby underwriter** — a broker-dealer that purchases any shares that weren't sold in the rights offering and resells them to other investors.
+股东每持有一股就获得一份认股权。认股权是短期的——通常为 16 到 30 天，但在某些情况下可能长达 60 天。认股权是可交易的，股东可以将其出售给其他投资者。如果现有股东没有购买所有股份，发行人会将任何未售出的股份提供给**备用承销商 （standby underwriter）**——即购买在认股权发行中未售出的任何股份并将其转售给其他投资者的经纪交易商。
+
 For the SIE exam, you can assume that common stockholders automatically receive rights.
-💡 **提示**
-在 SIE 考试中，您可以假设普通股股东会自动获得配股权。
+对于 SIE 考试，您可以假设普通股股东自动获得认股权。
 
 ### Warrants: The right to buy shares of stock at a fixed price
 ### 认股权证：以固定价格购买股票的权利
 
-**Warrants** are certificates that entitle the holder to buy a specific amount of stock at a fixed price and are usually issued along with a new bond, preferred stock, or other securities offering. Warrant holders have no voting rights and receive no dividends. Bundled bonds and warrants or bundled stock and warrants are called **units**. Unlike rights, warrants are long-term and sometimes **perpetual** (without an expiration date). Warrants are **sweeteners** because they're something that the issuer throws into the new offering to make the deal more appealing, but they can also be sold separately just like any other marketable security. As you can imagine, when warrants are issued, the warrant's **exercise price** (the price at which the investor can utilize the warrant to buy the stock) is set well above the underlying stock's market price.
-**认股权证 （Warrants）** 是赋予持有人以固定价格购买特定数量股票权利的凭证，通常与新债券、优先股或其他证券发行一起发放。认股权证持有人没有投票权，也不接收股息。捆绑销售的债券和认股权证或股票和认股权证被称为**单位 （units）**。与配股权不同，认股权证是长期的，有时是**永久的**（没有到期日）。认股权证被称为“**甜头**” （sweeteners），因为它们是发行人加入新发行中以使交易更具吸引力的东西，但它们也可以像任何其他可交易证券一样单独出售。正如您可以想象的那样，当发行认股权证时，认股权证的**行权价格**（投资者利用认股权证购买股票的价格）被设定为远高于标的股票的市场价格。
+**Warrants** are certificates that entitle the holder to buy a specific amount of stock at a fixed price and are usually issued along with a new bond, preferred stock, or other securities offering. Warrant holders have no voting rights and receive no dividends. Bundled bonds and warrants or bundled stock and warrants are called **units**.
+**认股权证 （Warrants）** 是赋予持有人以固定价格购买特定数量股票权利的证书，通常随新债券、优先股或其他证券发行一起发行。认股权证持有人没有投票权，也不获得股息。捆绑的债券和认股权证或捆绑的股票和认股权证被称为**单元 （units）**。
+
+Unlike rights, warrants are long-term and sometimes perpetual (without an expiration date). Warrants are **sweeteners** because they're something that the issuer throws into the new offering to make the deal more appealing, but they can also be sold separately just like any other marketable security. As you can imagine, when warrants are issued, the warrant's **exercise price** (the price at which the investor can utilize the warrant to buy the stock) is set well above the underlying stock's market price.
+与认股权不同，认股权证是长期的，有时是永久的（没有到期日）。认股权证是**甜头 （sweeteners）**，因为它们是发行人在新发行中加入的东西，目的是让交易更具吸引力，但它们也可以像任何其他可交易证券一样单独出售。正如您可以想象的那样，当发行认股权证时，认股权证的**行权价格 （exercise price）**（投资者利用认股权证购买股票的价格）被设定为远高于标的股票的市场价格。
 
 Suppose that QRS warrants give investors the right to buy QRS common stock at $20 per share when QRS common stock is trading at $12. Certainly, exercising their warrants to purchase QRS stock at $20 wouldn't make sense for investors when they can buy QRS stock in the market at $12. If QRS rises above $20 per share, however, holders of warrants can exercise their warrants and purchase the stock from the issuer at $20 per share.
-假设 QRS 认股权证赋予投资者在 QRS 普通股交易价格为 12 美元时以每股 20 美元购买该股票的权利。当然，当投资者可以在市场上以 12 美元购买 QRS 股票时，行使认股权证以 20 美元购买是不合理的。然而，如果 QRS 涨到每股 20 美元以上，认股权证持有人就可以行使权证，并从发行人处以每股 20 美元的价格购买股票。
+假设 QRS 认股权证赋予投资者以每股 20 美元的价格购买 QRS 普通股的权利，而当时 QRS 普通股的交易价格为 12 美元。当然，当投资者可以在市场上以 12 美元的价格购买 QRS 股票时，行使其认股权证以 20 美元的价格购买 QRS 股票是没有意义的。然而，如果 QRS 股价涨到 20 美元以上，认股权证持有人就可以行使其认股权证，以每股 20 美元的价格从发行人处购买股票。
 
-💡 **TIP**
 On the SIE exam, both rights and warrants may be referred to as **derivative securities** because their value is derived from the value of an underlying security (common stock of the issuer).
-💡 **提示**
-在 SIE 考试中，配股权和认股权证都可能被称为**衍生证券 （derivative securities）**，因为它们的价值源自标的证券（发行人的普通股）的价值。
+在 SIE 考试中，认股权和认股权证都可能被称为**衍生证券 （derivative securities）**，因为它们的价值源自标的证券（发行人的普通股）的价值。
 
----
+## 6. Practice Questions
+## 6. 练习题
 
-## 10. Testing Your Knowledge
-## 10. 知识测试
+1.  Common stockholders have the right to vote for which of the following?
+    普通股股东有权对以下哪项进行投票？
+    I. Stock splits （股票拆分）
+    II. Cash dividends （现金股息）
+    III. Board of directors （董事会）
+    (A) I and II
+    (B) I and III
+    (C) II and III
+    (D) I, II, and III
 
-Now that you've learned what you need to know about equity securities (at least as far as the SIE exam goes), it's time to attack some questions. Read carefully so that you don't make any careless mistakes.
+2.  DIMM Corporation has just declared bankruptcy. Remaining assets would be distributed in which way (from first to last)?
+    DIMM 公司刚刚宣布破产。剩余资产将按何种方式分配（从先到后）？
+    (A) IRS, unpaid workers, general creditors, preferred stockholders, secured creditors, subordinated debenture holders, and common stockholders
+    （A） 国税局、未付薪工人、一般债权人、优先股股东、有担保债权人、次级信用债券持有人和普通股股东
+    (B) Common stockholders, general creditors, preferred stockholders, subordinated debenture holders, secured creditors, IRS, and unpaid workers
+    （B） 普通股股东、一般债权人、优先股股东、次级信用债券持有人、有担保债权人、国税局和未付薪工人
+    (C) Unpaid workers, IRS, secured creditors, general creditors, subordinated debenture holders, preferred stockholders, and common stockholders
+    （C） 未付薪工人、国税局、有担保债权人、一般债权人、次级信用债券持有人、优先股股东和普通股股东
+    (D) IRS, unpaid workers, secured creditors, subordinated debenture holders, general creditors, preferred stockholders, and common stockholders
+    （D） 国税局、未付薪工人、有担保债权人、次级信用债券持有人、一般债权人、优先股股东和普通股股东
 
-### Practice questions
+3.  Ayla K. owns 2,000 shares of EKL common stock. EKL has four vacancies on the board of directors. If the voting is cumulative, Ayla may vote in any of the following ways except
+    Ayla K. 拥有 2,000 股 EKL 普通股。EKL 董事会有四个空缺职位。如果是累积投票制，Ayla 可以采用以下任何一种方式投票，除了
+    (A) 2,000 votes for each of the four candidate positions
+    （A） 为四个候选人职位各投 2,000 票
+    (B) 4,000 votes each for two candidate positions
+    （B） 为两个候选人职位各投 4,000 票
+    (C) 5,000 votes for one candidate position and 3,000 votes for another candidate position
+    （C） 为一个候选人职位投 5,000 票，为另一个候选人职位投 3,000 票
+    (D) 3,000 votes for each of three candidate positions
+    （D） 为三个候选人职位各投 3,000 票
 
-1. Common stockholders have the right to vote for which of the following?
-   I. Stock splits
-   II. Cash dividends
-   III. Board of directors
-   (A) I and II
-   (B) I and III
-   (C) II and III
-   (D) I, II, and III
+4.  The par value of a common stock is
+    普通股的面值是
+    (A) in direct relation to the market value
+    （A） 与市场价值直接相关
+    (B) used only for bookkeeping purposes
+    （B） 仅用于记账目的
+    (C) always set at $1 unless the stock is issued as no par value
+    （C） 总是设定为 1 美元，除非股票以无面值发行
+    (D) the basis for which cash dividends are paid
+    （D） 支付现金股息的基础
 
-2. DIMM Corporation has just declared bankruptcy. Remaining assets would be distributed in which way (from first to last)?
-   (A) IRS, unpaid workers, general creditors, preferred stockholders, secured creditors, subordinated debenture holders, and common stockholders
-   (B) Common stockholders, general creditors, preferred stockholders, subordinated debenture holders, secured creditors, IRS, and unpaid workers
-   (C) Unpaid workers, IRS, secured creditors, general creditors, subordinated debenture holders, preferred stockholders, and common stockholders
-   (D) IRS, unpaid workers, secured creditors, subordinated debenture holders, general creditors, preferred stockholders, and common stockholders
+5.  Tender offers typically \_\_\_\_\_\_\_ the price of the outstanding shares of a corporation.
+    要约收购通常会\_\_\_\_\_\_\_公司流通股的价格。
+    (A) increase （增加）
+    (B) decrease （减少）
+    (C) don’t affect （不影响）
+    (D) increase or decrease （增加或减少）
 
-3. Ayla K. owns 2,000 shares of JKL common stock. JKL has four vacancies on the board of directors. If the voting is cumulative, Ayla may vote in any of the following ways except
-   (A) 2,000 votes for each of the four candidate positions
-   (B) 4,000 votes each for two candidate positions
-   (C) 5,000 votes for one candidate position and 3,000 votes for another candidate position
-   (D) 3,000 votes for each of three candidate positions
+6.  Which of the following are true regarding ADRs?
+    关于 ADRs，以下哪项是正确的？
+    I. They’re receipts for foreign securities in U.S. markets. （它们是美国市场上外国证券的收据。）
+    II. They carry voting rights. （它们享有投票权。）
+    III. They receive dividends in U.S. dollars. （它们以美元接收股息。）
+    IV. They’re subject to currency risk. （它们面临货币风险。）
+    (A) I and II only
+    (B) I, III, and IV only
+    (C) I, II, and IV only
+    (D) I, II, III, and IV
 
-4. The par value of a common stock is
-   (A) in direct relation to the market value
-   (B) used only for bookkeeping purposes
-   (C) always set at $1 unless the stock is issued as no par value
-   (D) the basis for which cash dividends are paid
+## Answers
+## 答案
 
-5. Tender offers typically \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ the price of the outstanding shares of a corporation.
-   (A) increase
-   (B) decrease
-   (C) don't affect
-   (D) increase or decrease
+1.  **(B) I and III.** Common stockholders vote for stock splits and the board of directors. Dividends are decided by the board.
+    **(B) I 和 III。** 普通股股东对股票拆分和董事会进行投票。股息由董事会决定。
+2.  **(C) Unpaid workers, IRS, secured creditors, general creditors, subordinated debenture holders, preferred stockholders, and common stockholders.** Secured creditors are paid first among investors, but unpaid wages and taxes (IRS) have priority over them in liquidation.
+    **(C) 未付薪工人、国税局、有担保债权人、一般债权人、次级信用债券持有人、优先股股东和普通股股东。** 有担保债权人在投资者中首先获得偿付，但在清算中，未付工资和税款（国税局）优先于他们。
+3.  **(D) 3,000 votes for each of three candidate positions.** With 2,000 shares and 4 vacancies, Ayla has 8,000 total votes (2,000 × 4). Option D requires 9,000 votes (3,000 × 3), which she doesn't have.
+    **(D) 为三个候选人职位各投 3,000 票。** 拥有 2,000 股股票和 4 个空缺职位，Ayla 总共有 8,000 票（2,000 × 4）。选项 D 需要 9,000 票（3,000 × 3），她没有这么多票。
+4.  **(B) used only for bookkeeping purposes.** Par value for common stock is an arbitrary value used for accounting.
+    **(B) 仅用于记账目的。** 普通股的面值是用于会计核算的任意值。
+5.  **(A) increase.** To induce shareholders to sell, tender offers are made at a premium to the current market price.
+    **(A) 增加。** 为了诱导股东出售，要约收购的价格通常高于当前市场价格。
+6.  **(B) I, III, and IV only.** ADRs do not typically carry voting rights.
+    **(B) 仅 I、III 和 IV。** ADRs 通常不享有投票权。
 
-6. Which of the following are true regarding ADRs?
-   I. They're receipts for foreign securities in U.S. markets.
-   II. Dividends are paid in the foreign currency.
-   III. They're negotiable.
-   (A) I and III
-   (B) I and II
-   (C) II and III
-   (D) I, II, and III
 
-7. Declan Hudson owns 1,200 shares of ABCD Corporation common stock. ABCD announces a 1-for-2 reverse-split. If the price of ABCD closed at $10 the day before the split, what would Declan's position be after the split?
-   (A) 2,400 shares at $20
-   (B) 2,400 shares at $5
-   (C) 600 shares at $5
-   (D) 600 shares at $20
-
-8. An investor purchased 200 shares of DDD common stock at $41 per share. DDD previously announced a 5 percent stock dividend payable to shareholders of record. On the date before the ex-dividend date, DDD closed at $44 per share. What would the investor's position be on the ex-dividend date?
-   (A) 200 shares at $39.05 per share
-   (B) 200 shares at $41.90 per share
-   (C) 210 shares at $39.05 per share
-   (D) 210 shares at $41.90 per share
-
-9. WXY Corporation common stock closed at $45 on the business day before the ex-dividend date. If WXY previously announced a 77-cent dividend, at what price will the stock open the next trading day?
-   (A) 44.22
-   (B) 44.23
-   (C) 45.00
-   (D) 45.77
-
-10. A corporation has issued 6 percent $100 par cumulative preferred stock. It paid $4 in dividends the first year and $3 in dividends the second year. If the corporation wants to declare a dividend for common shareholders the following year, how much must it pay per share to its cumulative preferred stockholders?
-    (A) $5
-    (B) $6
-    (C) $11
-    (D) $14
-
-11. Which of the following preferred stocks would most likely pay the highest dividend if issued by the same corporation?
-    (A) Callable preferred
-    (B) Convertible preferred
-    (C) Prior preferred
-    (D) Can't be determined
-
-12. Rights are automatically received by
-    (A) convertible preferred stockholders
-    (B) senior preferred stockholders
-    (C) common stockholders
-    (D) both (A) and (B)
-
-13. Which of the following is/are true of warrants?
-    (A) They're long-term.
-    (B) They're considered to be sweeteners.
-    (C) They're marketable.
-    (D) All of the above.
-
-14. STU Corporation would like to offer its existing shareholder the privilege to purchase additional shares at a fixed price. Which of the following securities would STU issue?
-    (A) Convertible preferred stock
-    (B) Call
-    (C) Rights
-    (D) Futures
-
-15. Under statutory voting, an individual stockholder may vote for each vacancy on the board of directors equal to
-    (A) the number of vacancies on the board of directors
-    (B) the number of shares owned multiplied by the number of vacancies on the board of directors
-    (C) the number of shares owned by the stockholders
-    (D) any of the above
-
-16. When a corporation splits is its stock,
-    (A) The price of their common stock increases.
-    (B) The price of their common stock decreases.
-    (C) Each shareholder's proportionate ownership increases.
-    (D) Tach shareholder's proportionate ownership decreases.
-
-17. In June, JKL Corporation announced a 20 percent stock dividend for its common shareholders. Ayla K. holds 2,000 shares of JKL common stock at $40 per share. After payment of the dividend, what would Ayla's new price per share be and how many shares would she be holding?
-    (A) 1,600 shares at $48.00
-    (B) 2,000 shares at $32.00
-    (C) 2,400 shares at $32.00
-    (D) 2,400 shares at $40.00
-
-18. If a corporation were to go bankrupt, which of the following entities would have the highest claim on the assets in a Chapter 11 proceeding?
-    (A) Preferred shareholders
-    (B) Common shareholders
-    (C) Secured debt holders
-    (D) Unsecured debt holders
-
-### Answers and explanations
-
-1.  **B.** Of the choices given, common stockholders have the right to vote for stock splits and for members of the board of directors. Common stockholders can't vote for cash or stock dividends.
-2.  **C.** In the event that a corporation declares bankruptcy, the corporate assets are distributed in the following way: unpaid workers, IRS, secured creditors, general creditors, subordinated debenture holders, preferred stockholders, and finally (if there's anything left) common stockholders.
-3.  **D.** Because the voting is cumulative, Ayla has the right to vote as she sees fit. Ayla has 2,000 shares and is voting on 4 positions on the board of directors, so she has a total 8,000 votes (2,000 shares × 4 positions), which she can use in any way. The reason that (D) doesn't work is that it would require Ayla to have 9,000 votes (3,000 votes × 3 positions).
-4.  **B.** The issuer uses the par value of a common stock for bookkeeping purposes. Par value has no relationship with the market value; it has no relationship with dividends paid (if any); and even though it's often set at $1, it doesn't have to be.
-5.  **A.** Tender offers occur when a corporation, person, or group attempts to take control of a particular corporation, attempting to buy enough shares in the market to gain control. To purchase enough shares, the corporation, person, or group offers a premium over the current market price to sellers who are willing to sell a large number of securities. Because the offer is at a premium, tender offers drive up the price of the outstanding securities.
-6.  **A.** ADRs are receipts for foreign securities traded in the United States. ADRs are negotiable (can be sold or transferred to another party). Investors receive dividends in U.S. dollars, not the foreign currency. Because ADRs are receipts, investors don't receive the actual certificates.
-7.  **D.** Because ABCD is doing a reverse-split, Declan would have fewer shares after the split, and the price of the stock would increase. This transaction is a 1-for-2 reverse-split, so to determine the shares, you have to multiply them by 1 divided by 2. To get the price, you have to multiply it by 2 divided by 1. Check out the following equation:
-    Shares after the split = 1,200 shares × (1 / 2) = 600 shares
-    Price after the split = $10 × (2 / 1) = $20
-8.  **D.** You can cross out two answers to this question without doing the math. The investor received a stock dividend, so the number of shares had to increase. Therefore, (A) and (B) are out. Next, ignore the purchase price; you have to look at the overall value of the investment on the day before the ex-dividend date (the first day the stock trades without a dividend). In this case, the investor had 200 shares at $44 per share. Check out the math:
-    200 shares × $44 = $8,800
-    You can see that the investor had an overall value of investment on the day before the ex-dividend date of $8,800. That doesn't change due to the dividend. So, on the ex-dividend date, the investor still had $8,800 worth of stock. Now, however, the investor has 210 shares (200 shares + 10 shares [5% of 200]). By dividing the $8,800 by 210 shares, you'll get a price of $41.90 per share:
-    $8,800 / 210 shares = $41.90 per share
-9.  **B.** On the ex-dividend date, the stock would be reduced by the amount of the dividend. This question is fairly easy, but check out the math:
-    Stock price – dividend = price on the ex-dividend date
-    $45 – $0.77 = $44.23
-10. **C.** Because the stock is cumulative preferred stock, the corporation must make up any missed dividends to its cumulative preferred stockholders before paying a dividend to its common stockholders. In the first year, the corporation shorted its preferred stockholders $2 per share; it was supposed to pay $6 ($100 par × 6%) but paid only $4. In the second year, the corporation paid shareholders only $3, so they were shorted $3. So far, so good. But the key to this question is that the corporation wants to pay a common dividend the following year, so you have to add the $6 in dividends for that year also. Here's how it looks:
-    ($6 – $4) + ($6 – $3) + $6 = $11
-11. **A.** Of the choices listed, callable preferred would most likely pay the highest dividend. Remember that more risk equals more reward. In other words, people who purchase callable preferred can't necessarily hold the stock as long as they want because after a predetermined date, the stock can be called by the issuer. Because the shares can be called, the issuer has to pay a higher dividend to entice investors to buy. Investors can convert convertible preferred stock to common stock of the issuing corporation at any time, so because that option is safer and gives investors more flexibility, the issuer would pay a lower dividend. Prior or senior preferred adds another layer of safety for investors; if the corporation were to go bankrupt, holders would get paid before other preferred stockholders. Accordingly, they receive a lower dividend.
-12. **C.** Rights allow shareholders to purchase new shares issued by a corporation at a discount. Rights are short-term (typically, 30–45 days) and are available only to common stockholders.
-13. **D.** Warrants allow shareholders to purchase shares of a corporation at a fixed price and are typically bundled with a stock or bond offering to sweeten the deal. Warrants are long-term and sometimes perpetual (never-ending). Because they can be traded separately, they're marketable securities.
-14. **C.** If a corporation would like to offer its existing shareholders the right to purchase additional shares at a fixed price, they would have a rights offering. When there is a rights offering, existing shareholders have the right but not the obligation to purchase the new shares at a fixed price, which is at a discount from the market price at the time of the offering. Rights offerings typically only last from a couple of weeks up to 30 days. Any shares not purchased during the rights offering would be placed with a standby underwriter to sell.
-15. **C.** Under statutory (regular) voting rules, individual stockholders may vote up to the amount of shares they own for each open position on the board of directors.
-16. **B.** When a corporation splits its stock (2-for-1, 3-for-1, 3-for-2, and so on), the price of the stock decreases, and the amount of shares each shareholder has increases. This means that after the split, each shareholder will own more shares at a lower price and still keeping their proportionate ownership the same.
-17. **C.** In this case, you didn't even have to do the math. They're giving Ayla a 20 percent stock dividend, so she will have more shares. This eliminates answers A and B. If they're increasing the amount of shares, the price has to decrease. The only answer that works is C. To double-check your work, Ayla had $80,000 worth of stock before the split (2,000 shares × $40), so after the split, she should still have $80,000 worth of stock (2,400 shares × $32).
-18. **C.** In a Chapter 11 proceeding, debt holders have a higher claim on the corporation's assets than shareholders. And, secured debt holders (debt secured with collateral), would have a higher claim on the assets than unsecured debt holders.

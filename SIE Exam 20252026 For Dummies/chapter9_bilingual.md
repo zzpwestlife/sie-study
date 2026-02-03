@@ -528,8 +528,7 @@ Variable annuities, variable life insurance, and variable universal life insuran
 ## 15. Testing Your Knowledge
 ## 15. 知识测试
 
-Practice questions (Original English Only)
-
+Practice questions
 1. Which of the following is TRUE of mutual funds?
    I. They are a one-time offering of new securities.
    II. The issuer continuously offers new shares.
@@ -537,11 +536,24 @@ Practice questions (Original English Only)
    IV. Shares are redeemed with the issuer.
    (A) I and III (B) I and IV (C) II and III (D) II and IV
 
+1. 关于共同基金，以下哪项是正确的？
+   I. 它们是一次性的新证券发行。
+   II. 发行人持续发行新股。
+   III. 股份必须在市场上出售。
+   IV. 股份向发行人赎回。
+   (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
+
 2. For an investment company to be considered diversified, what is the maximum percentage of outstanding shares that the investment company can own of another company?
    (A) 1 percent (B) 5 percent (C) 10 percent (D) 15 percent
 
+2. 要使一家投资公司被视为多样化，该投资公司可以持有的另一家公司流通股的最大百分比是多少？
+   (A) 1% (B) 5% (C) 10% (D) 15%
+
 3. A fund that uses leverage, options, short sales, as well as other speculative investment strategies in an attempt to maximize gains is called a
    (A) balanced fund (B) growth fund (C) aggressive growth fund (D) hedge fund
+
+3. 一种利用杠杆、期权、卖空以及其他投机性投资策略以试图最大化收益的基金被称为：
+   (A) 平衡型基金 (B) 增长型基金 (C) 激进增长型基金 (D) 对冲基金
 
 4. Which of the following is TRUE about a letter of intent?
    I. It remains in effect for 13 months.
@@ -549,14 +561,29 @@ Practice questions (Original English Only)
    III. Shares may be held in escrow.
    (A) I and II (B) I and III (C) II and III (D) I, II, and III
 
+4. 关于意向书，以下哪项是正确的？
+   I. 它的有效期为 13 个月。
+   II. 它可以回溯长达 90 天。
+   III. 股份可以被代管。
+   (A) I 和 II (B) I 和 III (C) II 和 III (D) I, II 和 III
+
 5. What is the maximum sales charge for a mutual fund?
    (A) 8 percent, which is built into the public offering price
    (B) 8 percent, which is added to the public offering price
    (C) 8 1/2 percent, which is built into the public offering price
    (D) 8 1/2 percent, which is added to the public offering price
 
+5. 共同基金的最高销售费用是多少？
+   (A) 8%，包含在公开发售价中
+   (B) 8%，附加在公开发售价之上
+   (C) 8.5%，包含在公开发售价中
+   (D) 8.5%，附加在公开发售价之上
+
 6. Which of the following is exempt from the Investment Company Act of 1940?
    (A) Mutual funds (B) Closed-end funds (C) Fixed annuities (D) Variable annuities
+
+6. 以下哪项免受 1940 年《投资公司法》的监管？
+   (A) 共同基金 (B) 封闭式基金 (C) 固定年金 (D) 变动年金
 
 7. Which of the following is true of private-equity funds?
    I. They are exempt from SEC registration.
@@ -565,26 +592,54 @@ Practice questions (Original English Only)
    IV. They may not purchase private companies.
    (A) I and III (B) I and IV (C) II and III (D) II and IV
 
-8. A \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ fund only invests in a specific industry.
+7. 关于私募股权基金，以下哪项是正确的？
+   I. 它们免于 SEC 注册。
+   II. 它们必须向 SEC 注册。
+   III. 它们可以购买私营公司。
+   IV. 它们不得购买私营公司。
+   (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
+
+8. A _______________ fund only invests in a specific industry.
    (A) Sector (B) Hedge (C) Balanced (D) Growth or aggressive growth
+
+8. _______________ 基金仅投资于特定行业。
+   (A) 行业 (B) 对冲 (C) 平衡型 (D) 增长型或激进增长型
 
 9. Open-end funds may issue
    (A) common stock (B) preferred stock (C) bonds (D) all of the above
 
+9. 开放式基金可以发行：
+   (A) 普通股 (B) 优先股 (C) 债券 (D) 以上所有
+
 10. TUV Balanced Fund has a net asset value of $21.40 and a public offering price of $22.60. What is the sales charge percent?
     (A) 5.15 percent (B) 5.30 percent (C) 5.60 percent (D) 5.66 percent
+
+10. TUV 平衡型基金的资产净值为 21.40 美元，公开发售价为 22.60 美元。销售费用百分比是多少？
+    (A) 5.15% (B) 5.30% (C) 5.60% (D) 5.66%
 
 11. FerdCo Communications Fund has a NAV of $14.20 and a POP of $15.02. FerdCo offers breakpoints for large dollar purchases. If FerdCo is only charging a 4 percent sales charge for purchases between $20,000 and $30,000, how many shares would Smith receive if purchasing $25,000 worth?
     (A) 1,597.225 shares (B) 1,662.882 shares (C) 1,664.447 shares (D) 1,690.331 shares
 
+11. FerdCo 通信基金的 NAV 为 14.20 美元，POP 为 15.02 美元。FerdCo 为大额购买提供折让点。如果 FerdCo 对 20,000 美元至 30,000 美元之间的购买仅收取 4% 的销售费，那么 Smith 购买 25,000 美元将收到多少股？
+    (A) 1,597.225 股 (B) 1,662.882 股 (C) 1,664.447 股 (D) 1,690.331 股
+
 12. Which of the following can be purchased on margin?
     (A) ETFs (B) Mutual fund Class A shares (C) Life-cycle funds (D) Money market funds
+
+12. 以下哪项可以融资购买？
+    (A) ETFs (B) 共同基金 A 类股 (C) 生命周期基金 (D) 货币市场基金
 
 13. All of the following are ways a variable annuity can be purchased EXCEPT
     (A) immediate annuity (B) payment deferred immediate annuity (C) single payment deferred annuity (D) periodic payment deferred annuity
 
+13. 以下所有都是购买变动年金的方式，除了：
+    (A) 即期年金 (B) 支付延期即期年金 (C) 一次性支付延期年金 (D) 定期支付延期年金
+
 14. Which of the following life insurance products has a fixed premium?
     (A) Variable life (B) Variable universal life (C) Both (A) and (B) (D) Neither (A) nor (B)
+
+14. 以下哪种人寿保险产品具有固定保费？
+    (A) 变动人寿保险 (B) 变动万能寿险 (C) (A) 和 (B) 都是 (D) (A) 和 (B) 都不是
 
 15. Which of the following are TRUE about variable annuities?
     I. Investors purchase accumulation units during the pay-in phase.
@@ -593,20 +648,57 @@ Practice questions (Original English Only)
     IV. Payments to variable annuities are made from pretax dollars.
     (A) I and III (B) I, III, and IV (C) II and III (D) II, III, and IV
 
+15. 关于变动年金，以下哪项是正确的？
+    I. 投资者在投入阶段购买累积单位。
+    II. 投资者在投入阶段购买年金单位。
+    III. 如果独立账户中持有的证券表现超过假设利率，给付会增加。
+    IV. 变动年金的支付由税前资金支付。
+    (A) I 和 III (B) I, III 和 IV (C) II 和 III (D) II, III 和 IV
+
 ### Answers and explanations
+### 答案与解释
 
 1.  **D.** Mutual funds are open-end funds. Mutual fund issuers continuously offer new shares. Holders sell their shares by redeeming them with the issuer. By contrast, the issuer of a closed-end fund would sell the securities once, and then they would be traded in the market.
+    **D.** 共同基金是开放式基金。共同基金发行人持续发行新股。持有人通过向发行人赎回股份来出售股份。相比之下，封闭式基金的发行人只会出售一次证券，然后它们将在市场上交易。
+
 2.  **C.** According to the Investment Company Act of 1940, out of the 75 percent that must be diversified, a diversified investment company may not own more than 10 percent of outstanding shares of another company. In addition, the investment company cannot invest more than 5 percent of its diversified assets into one issuer's securities.
+    **C.** 根据 1940 年《投资公司法》，在必须多样化的 75% 资产中，多样化投资公司持有的另一家公司的流通股比例不得超过 10%。此外，投资公司投资于任何一个发行人证券的资金不得超过其多样化资产的 5%。
+
 3.  **D.** Hedge funds are the most speculative (riskiest) type of fund. Hedge funds are available to accredited investors and are allowed to execute trades that other funds cannot.
+    **D.** 对冲基金是投机性最强（风险最高）的基金类型。对冲基金向合格投资者开放，并被允许执行其他基金无法执行的交易。
+
 4.  **D.** Letters of intent allow mutual fund investors to receive a breakpoint (discounted sales charge for large dollar purchases) right away as long as they purchase enough of the fund within 13 months to receive the breakpoint. It may be backdated for up to 90 days so that the 13-month period can apply to a previous purchase. The issuer may hold shares in escrow to make sure the investor lives up to the terms of the letter of intent.
+    **D.** 意向书允许共同基金投资者立即获得折让点（大额购买的折扣销售费），只要他们在 13 个月内购买足够的基金以达到折让点。它可以回溯长达 90 天，以便 13 个月的期限可以适用于之前的购买。发行人可以代管股份，以确保投资者履行意向书的条款。
+
 5.  **C.** The maximum sales charge for a mutual fund is 8 1/2 percent of the amount invested. This means that investors make their purchase at the public offering price, which already has the sales charge built in.
+    **C.** 共同基金的最高销售费用为投资金额的 8.5%。这意味着投资者按公开发售价购买，该价格中已包含销售费用。
+
 6.  **C.** Fixed annuities are not considered investment companies since the payout is guaranteed by the issuing insurance company.
+    **C.** 固定年金不被视为投资公司，因为给付由发行保险公司保证。
+
 7.  **A.** Private-equity funds are only available to sophisticated (accredited) investors and are exempt from SEC registration. As part of their investment strategy, they may purchase private companies and/or purchase enough shares of public companies to gain control.
+    **A.** 私募股权基金仅向资深（合格）投资者开放，并免于 SEC 注册。作为其投资策略的一部分，它们可以购买私营公司和/或购买足够数量的上市公司股份以获得控制权。
+
 8.  **A.** Sector funds invest in specific industries, such as automotives, pharmaceutical, energy, technology, and so on.
+    **A.** 行业基金投资于特定行业，如汽车、制药、能源、技术等。
+
 9.  **A.** Open-end (mutual) funds may only issue common stock. Conversely, closed-end funds may issue common stock, preferred stock, and bonds.
+    **A.** 开放式（共同）基金只能发行普通股。相反，封闭式基金可以发行普通股、优先股和债券。
+
 10. **B.** With mutual funds, the sales charge is built into the public offering price (POP), so you have to subtract the net asset value (NAV) from the POP and then divide that by the POP. Calculation: ($22.60 – $21.40) / $22.60 = $1.20 / $22.60 = 5.3%.
+    **B.** 对于共同基金，销售费用包含在公开发售价 (POP) 中，因此您必须从 POP 中减去资产净值 (NAV)，然后除以 POP。计算：($22.60 – $21.40) / $22.60 = $1.20 / $22.60 = 5.3%。
+
 11. **D.** Because this investor is depositing enough to receive a breakpoint, calculate the POP first: $14.20 / (1 – 0.04) = $14.20 / 0.96 = $14.79 per share. Number of shares: $25,000 / $14.79 = 1,690.331 shares.
+    **D.** 由于该投资者存入的金额足以获得折让点，首先计算 POP：$14.20 / (1 – 0.04) = $14.20 / 0.96 = 每股 $14.79。股数：$25,000 / $14.79 = 1,690.331 股。
+
 12. **A.** ETFs can be purchased on margin. Mutual funds are new securities and may not be purchased on margin but are marginable after being held for 30 days.
+    **A.** ETF 可以融资购买。共同基金是新证券，不能融资购买，但在持有 30 天后可以作为融资抵押品。
+
 13. **B.** (A), (C), and (D) are all possible ways of purchasing a variable annuity. An insurance company is not going to let you collect on an annuity when not a single payment has been made.
+    **B.** (A)、(C) 和 (D) 都是购买变动年金的可能方式。如果没有任何缴款，保险公司是不会让您领取年金的。
+
 14. **A.** Variable life insurance has a fixed premium. Variable universal life has a flexible premium.
+    **A.** 变动人寿保险具有固定保费。变动万能寿险具有灵活保费。
+
 15. **A.** Investors purchase accumulation units during the pay-in phase. Payouts increase if separate account performance exceeds the AIR. Annuity purchases are made from after-tax dollars.
+    **A.** 投资者在投入阶段购买累积单位。如果独立账户表现超过 AIR，给付会增加。年金购买由税后资金支付。
