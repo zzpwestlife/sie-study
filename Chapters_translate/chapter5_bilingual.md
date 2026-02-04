@@ -3,6 +3,7 @@
 
 ---
 
+
 ## IN THIS PART . . .
 ## 在本部分中 . . .
 
@@ -16,6 +17,7 @@
 **区分普通股与优先股、公司债券与美国债券以及市政债券与一般责任债券。**
 
 ---
+
 
 # Chapter 5: Securities Underwriting: The Process and the Team Players
 # 第 5 章：证券承销：流程与团队成员
@@ -34,6 +36,7 @@
 
 ---
 
+
 ## 1. Bringing New Issues to the Market
 ## 1. 将新发行证券推向市场
 
@@ -46,6 +49,7 @@ In this chapter, I cover topics related to bringing new issues (securities) to m
 A lot of things need to happen before securities hit the market. Unless exempt (see later in this chapter) not only do the securities have to be registered, but also, the issuer has to find a broker-dealer (like your firm) to sell the securities to the public. The SIE exam tests your expertise in answering questions about this process.
 在证券进入市场之前，需要发生很多事情。除非获得豁免（见本章后续部分），否则证券不仅必须进行注册，发行人还必须找到一家经纪交易商（比如您所在的公司）向公众销售这些证券。SIE考试会测试您回答有关此流程问题的专业知识。
 
+
 ### Starting out: What the issuer does
 ### 起步：发行人的职责
 
@@ -53,6 +57,7 @@ For an entity to become a corporation, the corporate founders must file a docume
 一个实体要成为一家公司，创始人必须在其业务所在地（主州）提交一份名为“公司章程”（corporate charter/bylaws）的文件。公司章程中包括创始人的姓名、正在经营或计划经营的业务类型、营业地点、可以发行的股票数量（授权股数）等。如果一家公司想向公众出售证券，它必须向各州和美国证券交易委员会（SEC）进行注册。请继续阅读以了解注册流程是如何运作的。
 
 ---
+
 
 ## 2. THE SECURITIES ACTS
 ## 2. 证券法案
@@ -79,6 +84,7 @@ Registration helps ensure that securities issued to the public adhere to certain
 **信托契约法：** 该法案最初被称为1939年信托契约法，禁止在没有契约的情况下向投资者发行价值超过500万美元的债券。这500万美元后来提高到了5000万美元。信托契约是一份书面协议，通过披露发行的详细信息（票面利率、到期日、支持债券的任何抵押品等）来保护投资者。作为《信托契约法》的一部分，所有公司必须聘请一名受托人，负责保护债券持有人的权利。
 
 ---
+
 
 ## 3. Registering securities with the SEC
 ## 3. 向 SEC 注册证券
@@ -126,6 +132,7 @@ Most of the information required is very similar; in fact, you can substitute mu
 Because the registration process to sell securities is a somewhat daunting and costly process for issuers, they may register more securities than they may need to sell now. Shelf registration (SEC Rule 415) allows issuers to sell securities that were previously registered with the SEC without additional permission. Shelf registration gives issuers up to three years (depending on their status) to sell previously registered shares.
 由于销售证券的注册过程对发行人来说是一个有些艰巨且成本高昂的过程，他们可能会注册比现在需要销售的更多的证券。暂搁注册（SEC 415号规则）允许发行人在没有额外许可的情况下，出售先前已在SEC注册的证券。暂搁注册给予发行人长达三年的时间（取决于其地位）来出售先前注册的股份。
 
+
 ### Awaiting approval: The cooling-off period
 ### 等待批准：冷却期
 
@@ -159,6 +166,7 @@ In addition, tombstone ads often provide investors information about how to obta
 Underwriters and selling group members use the preliminary prospectus to obtain indications of interest from prospective customers. The preliminary prospectus must be made available to all customers who are interested in the new issue during the cooling-off period. I talk more about what that prospectus has to include in "Getting the skinny on the issue and issuer: The prospectus" a little later in this chapter.
 承销商和销售小组成员使用“初步招股说明书（preliminary prospectus）”来获取潜在客户的投资意向。在冷却期内，初步招股说明书必须提供给所有对新发行感兴趣的客户。我将在本章后面的“获取发行和发行人的详情：招股说明书”中详细讨论该说明书必须包含的内容。
 
+
 ### Holding the required due-diligence meeting
 ### 举行法定的尽职调查会议
 
@@ -172,6 +180,7 @@ The last time syndicate members can back out of an underwriting agreement is tow
 承销团成员最后一次可以退出承销协议的时间是在冷却期结束前（大约在尽职调查会议举行前后）。您可以假设，如果承销团成员退出，其原因极有可能是负面的市场状况。
 
 ---
+
 
 ## 4. Registering with the states: Blue skies
 ## 4. 向各州注册：蓝天法
@@ -192,6 +201,7 @@ Here are the methods of state security registration:
 * **核准注册：** 对于豁免联邦（SEC）注册但需要通过州管理机构向该州注册的证券，公司会使用这种注册方法。
 
 ---
+
 
 ## 5. Roll call: Introducing the team players
 ## 5. 成员点名：团队角色介绍
@@ -217,6 +227,7 @@ The following list explains who's involved in the securities registration and se
 Although corporations could use a bidding process to pick the underwriter for new issues, they typically choose the underwriter directly. This type of offering is called a negotiated offering. Because municipal general obligation (GO) bonds are backed by the taxes of the people in the community, the issuers are most likely to choose a competitive offering (bidding process) to ensure that they're getting the best deal for taxpayers. (This topic is covered in more detail in Chapter 8.)
 虽然公司可以使用投标程序来选择新发行的承销商，但他们通常直接选择承销商。这种类型的发行被称为“议价发行（negotiated offering）”。由于市政一般责任（GO）债券由社区民众的税收支持，发行人最有可能选择“竞价发行（competitive offering）”（投标程序），以确保为纳税人争取到最好的条件。（此话题在第8章有更详细的介绍。）
 
+
 ### Signing an agreement among underwriters
 ### 签署承销商间协议
 
@@ -226,6 +237,7 @@ When an issuer hires an underwriter (dealer) to sell its securities to the publi
 The underwriting agreement is a contract between the issuer of the securities and the managing or lead underwriter. It must be agreed on and signed before any securities can be sold to the public. Now, for SIE purposes, you don't need to know all the details about the underwriting agreement, but you should have a basic understanding of the types of underwritings: firm commitment and best efforts.
 承销协议是证券发行人与管理或主承销商之间的合同。在向公众出售任何证券之前，必须达成一致并签署该协议。现在，就SIE考试而言，您不需要了解承销协议的所有细节，但您应该对承销类型有基本的了解：全额包销（firm commitment）和代销（best efforts）。
 
+
 ### Committing to the deal: Firm-commitment underwriting
 ### 承诺交易：全额包销（Firm-commitment）
 
@@ -234,6 +246,7 @@ In a firm-commitment underwriting, the lead underwriter and syndicate members (o
 
 Another type of firm commitment offering is a standby. A standby underwriter signs an agreement with the issuer to purchase any stock not purchased by the public if and when an issuer has a rights offering. (See Chapter 10 for more on that topic.)
 另一种全额包销类型是“备用承销（standby）”。当发行人进行配股发行（rights offering）时，备用承销商会与发行人签署协议，承诺购买公众未购买的所有股票。（有关该话题的更多信息请参阅第10章。）
+
 
 ### Taking your best shot: Best-efforts underwriting
 ### 尽力而为：代销（Best-efforts）
@@ -257,6 +270,7 @@ According to FINRA, "A member, in the conduct of its business, shall observe hig
 根据FINRA的规定：“会员在开展业务时，应遵守高标准的商业信誉以及公正公平的贸易原则。”因此，无论IPO期间发行的证券是全额包销还是代销，都必须以公开发售价对证券进行“真实发行（bona fide offering）”。公司不能为自己、关联人、直系亲属、行业内幕人士、投资组合经理等保留证券。
 
 ---
+
 
 ## 6. Getting the skinny on the issue and issuer: The prospectus
 ## 6. 获取发行和发行人的详情：招股说明书
@@ -285,6 +299,7 @@ Note: Because all mutual (open-end) funds, which I cover in Chapter 9, issue new
 
 ---
 
+
 ## 7. Counting the securities along the way
 ## 7. 全程监控证券数量
 
@@ -304,6 +319,7 @@ An easy way to keep these folks straight is to remember that a registrar is resp
 区分这两者的一个简单方法是：记住“登记代理人（registrar）”负责“计数（计数/统计）”，“过户代理人（transfer agent）”负责“过户”或发送东西。
 
 ---
+
 
 ## 8. Getting Up to Speed on the Types of Securities Offerings
 ## 8. 快速了解证券发行类型
@@ -327,11 +343,13 @@ For IPOs of NMS securities (securities listed on an exchange or Nasdaq), a final
 In the event that a member is acting as a dealer or has some other financial interest in recommending a security other than the commission received from the buyer, that fact must be disclosed in writing to the client at or before the completion of the transaction. So, in that regard, all buyers must be notified in writing if your firm is involved in a primary or secondary distribution of securities.
 如果会员作为交易商行事，或者在推荐证券时除了从买方收取的佣金外还有其他经济利益，必须在交易完成时或之前以书面形式向客户披露这一事实。因此，在这方面，如果您所在的公司参与了证券的初次或二次分销，必须书面通知所有买家。
 
+
 ### Reviewing Exemptions
 ### 审查豁免
 
 Certain securities are exempt from registration because of the type of security or the type of transaction involved. You may find that those securities which are exempt because of who's issuing them are a bit easier to recognize. You'll probably have to spend a little more time on the securities that are exempt from registration because of the type of transaction.
 某些证券因证券类型或涉及的交易类型而免于注册。您可能会发现，那些因发行人身份而获得豁免的证券更容易识别。您可能需要花更多时间在那些因交易类型而免于注册的证券上。
+
 
 #### Exempt securities
 #### 豁免证券
@@ -356,6 +374,7 @@ Certain securities are exempt from the registration requirements under the Secur
 
 Fixed annuities are not securities and are exempt from SEC registration because the issuing insurance company guarantees the payout. Variable annuities require registration, however, because the payout varies depending on the performance of the securities held in the separate account. For more info on annuities and other packaged securities, see Chapter 9.
 固定年金不是证券，免于SEC注册，因为发行保险公司保证支付。然而，可变年金需要注册，因为支付金额取决于独立账户中持有的证券的表现。有关年金和其他打包证券的更多信息，请参阅第9章。
+
 
 #### Exempt transactions
 #### 豁免交易
@@ -440,11 +459,13 @@ Figure out 1 percent of the outstanding shares by multiplying the outstanding sh
 
 ---
 
+
 ## Testing Your Knowledge
 ## 测试您的知识
 
 This chapter covers what you need to know about underwriting securities (at least as far as the SIE exam goes). When you're ready, use this section to attack some questions. Read carefully so that you don't make any careless mistakes and be sure to check your answers and understanding later in this section.
 本章涵盖了您需要了解的有关证券承销的内容（至少就SIE考试而言）。当您准备好后，利用本节来攻克一些问题。请仔细阅读，以免犯任何粗心的错误，并务必稍后在本节中检查您的答案和理解。
+
 
 ### Practice questions
 ### 练习题
@@ -560,6 +581,7 @@ This chapter covers what you need to know about underwriting securities (at leas
     (C) 欧洲美元债券
     (D) ADRs
     (D) 美国存托凭证（ADRs）
+
 
 ### Answers and explanations
 ### 答案与解析

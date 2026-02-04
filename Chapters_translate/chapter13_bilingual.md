@@ -9,17 +9,20 @@ One of your main jobs as a registered representative is to figure out the best i
 
 ---
 
+
 ## 1. Getting to Know Your Securities and Markets: Securities Analysis Basics
 ## 1. 了解您的证券与市场：证券分析基础
 
 Although many brokerage firms have their own analysts, you do need to know some of the basics of securities analysis to pass the SIE and corequisite exams. In this section, I cover investment risks that your customers face and show you the differences between technical and fundamental analysis.
 虽然许多经纪公司都有自己的分析师，但您确实需要了解一些证券分析的基础知识，才能通过 SIE 及相关进阶考试。在本节中，我将涵盖您的客户面临的投资风险，并向您展示技术面分析和基本面分析之间的区别。
 
+
 ### Regarding systematic and nonsystematic risk
 ### 关于系统性风险与非系统性风险
 
 Investors face many risks (and many rewards) when investing in the market. You need to understand the risks because this knowledge cannot only make you sound like a genius, but also help you score higher on the SIE exam.
 投资者在市场投资时面临许多风险（以及许多回报）。您需要理解这些风险，因为这些知识不仅能让您听起来像个天才，还能帮助您在 SIE 考试中获得更高的分数。
+
 
 #### Systematic risk
 #### 系统性风险 (Systematic risk)
@@ -36,6 +39,7 @@ Investors face many risks (and many rewards) when investing in the market. You n
 *   再投资风险：收到的利息和股息必须以较低的回报率进行再投资的风险。
 *   **Purchasing power (inflation or inflationary) risk**: The risk that the return on the investment is less than the inflation rate. Long-term bonds (even Treasury bonds) and fixed annuities have high inflation risk. **To avoid inflation risk, investors should buy stocks and variable annuities.**
 *   **购买力风险 （通胀风险）**：投资回报率低于通货膨胀率的风险。长期债券（甚至是国债）和固定年金具有较高的通胀风险。**为了规避通胀风险，投资者应购买股票和变动年金。**
+
 
 #### Nonsystematic risk
 #### 非系统性风险 (Nonsystematic risk)
@@ -72,11 +76,13 @@ When taking the real exam, you should always pay close attention to the investor
 
 ---
 
+
 ## 2. Strategies for mitigating risk
 ## 2. 规避风险的策略
 
 Certainly, all investments have a certain degree of risk. However, you should help your clients make decisions that will help them mitigate their risk.
 诚然，所有投资都具有一定程度的风险。然而，您应该帮助客户做出能够降低风险的决策。
+
 
 ### Diversification
 ### 多样化 (Diversification)
@@ -100,6 +106,7 @@ Remember that **mutual funds** and **exchange traded funds (ETFs)** provide a ce
 💡 **提示**
 请记住，**共同基金**和**交易所交易基金 （ETFs）** 在单个持仓内就提供了一定程度的多样化。这就是为什么小额投资者是共同基金的理想人选。
 
+
 ### Portfolio rebalancing
 ### 投资组合再平衡
 
@@ -110,6 +117,7 @@ Say that you and one of your clients determine that it is best for them to have 
 Typically, as investors age, they can’t afford to take as much risk and should change their asset allocation to include fewer equity securities and more debt securities.
 🧠 **请记住**
 通常，随着投资者年龄的增长，他们无法承担太大的风险，应该改变其资产配置，减少权益类证券，增加债务类证券。
+
 
 ### Hedging
 ### 对冲 (Hedging)
@@ -132,6 +140,7 @@ For SIE exam purposes, the main thing you need to remember is that **hedge means
 
 ---
 
+
 ## 3. Deciding what to buy: Fundamental analysis
 ## 3. 决定买什么：基本面分析
 
@@ -142,6 +151,7 @@ Fundamental analysts perform an in-depth analysis of companies. They look at the
 In simplest terms, **fundamental analysts decide what to buy**. A fundamental analyst’s goal is to determine the **value** of a particular security and decide whether it’s underpriced or overpriced.
 🧠 **请记住**
 最简单来说，**基本面分析师决定“买什么”**。基本面分析师的目标是确定特定证券的**价值**，并判断其价格是被低估还是被高估了。
+
 
 ### Balance sheet components
 ### 资产负债表的组成部分
@@ -154,6 +164,7 @@ People call this statement a balance sheet because the **assets must always bala
 🧠 **请记住**
 人们称这份报表为资产负债表，是因为其**资产必须始终等于负债加上股东权益**。
 
+
 #### Assets (资产)
 Assets are items that a company owns. They include:
 资产是公司拥有的项目。它们包括：
@@ -165,6 +176,7 @@ Assets are items that a company owns. They include:
 *   **Intangible assets**: Items that don't have any physical properties, such as trademarks, patents, and **goodwill**. 
 *   无形资产：没有实物属性的项目，如商标、专利和**商誉**。
 
+
 #### Liabilities (负债)
 Liabilities are what a company owes. They include:
 负债是公司欠下的债务。它们包括：
@@ -174,11 +186,13 @@ Liabilities are what a company owes. They include:
 *   **Long-term liabilities**: Debt obligation due to be paid after 12 months, such as mortgages and outstanding corporate bonds. 
 *   长期负债：在 12 个月后支付的债务，如抵押贷款和未偿还的公司债券。
 
+
 #### Stockholders’ equity (net worth)
 #### 股东权益（净值）
 
 Stockholders’ equity is the difference between the assets and the liabilities (basically, what the company is worth). This value includes **par value**, **additional paid-in capital**, **treasury stock**, and **retained earnings**.
 股东权益是资产与负债之间的差额（基本上代表了公司的价值）。该数值包括**面值**、**资本公积**、**库存股**和**留存收益**。
+
 
 ### Income statement components
 ### 损益表的组成部分
@@ -197,6 +211,7 @@ Key items include:
 
 ---
 
+
 ## 4. Deciding when to buy: Technical analysis
 ## 4. 决定何时买：技术面分析
 
@@ -208,6 +223,7 @@ Technical analysts look at the market to identify **patterns** and measure indic
 🧠 **请记住**
 **基本面分析师决定“买什么”,而技术面分析师决定“何时买”
 *即择时）。**
+
 
 ### Benchmarks and indices
 ### 基准与指数
@@ -229,6 +245,7 @@ Most of the indices are **weighted toward larger companies**. This means that pr
 
 ---
 
+
 ## 5. Stages of the business cycle
 ## 5. 经济周期的阶段
 
@@ -241,6 +258,7 @@ The business cycle has four phases that occur over and over:
 4。  **Trough**： The lowest part of the contraction phase， right before the economy starts to expand （recover） again。 （谷底：收缩阶段的最低点，紧接在经济开始再次扩张（复苏）之前。）
 
 ---
+
 
 ## 6. Following the Green: Money Supply and Monetary Policy
 ## 6. 顺势而为：货币供应与货币政策
@@ -257,6 +275,7 @@ The Fed controls the **monetary policy**, but the **fiscal policy** is controlle
 *   **货币政策** = 货币供应、利率
 *   **财政政策** = 借贷、支出、税收
 
+
 ### Opening the Federal Reserve Board’s toolbox
 ### 打开美联储的工具箱
 
@@ -272,6 +291,7 @@ The Fed has a few tools in its arsenal to help control the money supply:
 *   法定准备金率：银行必须保留的客户资金存款百分比。
 *   **Regulation T**: The percentage that investors must pay when purchasing securities on margin (currently 50%). (T 条例:投资者融资购买证券时必须支付的比例，目前为 50%）。
 
+
 ### Exchange rates
 ### 汇率
 
@@ -282,6 +302,7 @@ Exchange rates are the rates at which one currency can be converted to another. 
 *   出于 SIE 考试的目的，您可以假设美元和外币的价值走势是**相反的**。
 *   The exchange rate is considered to be a **floating rate** because it changes constantly.
 *   汇率被认为是**浮动汇率**，因为它是不断变化的。
+
 
 ### U.S. balance of payments
 ### 美国国际收支 (U.S. balance of payments)
@@ -295,6 +316,7 @@ The **U.S. balance of payments (BoP)** is an accounting of the United States’ 
 *   如果美元**走弱**（便宜），美国出口会增加（外国人买得多），进口会减少。这可能导致**盈余**或顺差（更多资金流入）。
 
 ---
+
 
 ## 7. Reading Economic Indicators
 ## 7. 解读经济指标
@@ -312,6 +334,7 @@ Economic indicators help predict the direction of the economy:
 *   e.g., **prime rate**, corporate profits, duration of employment). (滞后指标:镜像反映领先指标但达峰较晚
 *   如**优惠贷款利率**、公司利润、就业时长）。
 
+
 ### GDP and GNP: Measuring goods and services
 ### GDP 与 GNP：衡量商品与服务
 
@@ -327,6 +350,7 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 
 ---
 
+
 ## 8. How Economic Factors Affect Securities
 ## 8. 经济因素如何影响证券
 
@@ -341,6 +365,7 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 
 ---
 
+
 ## 9. Your Principal Economic Theory Primer
 ## 9. 主要经济理论入门
 
@@ -353,6 +378,7 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 *   由美联储控制）。
 
 ---
+
 
 ## 10. Testing Your Knowledge
 ## 10. 知识测试
@@ -398,7 +424,9 @@ Practice questions (Original English Only)
     (C) the DJIA and the Dow Jones Transportation Average
     (D) the Dow Jones Composite Average and the Dow Jones Utility Average
 
+
 ### Answers and explanations
+### Answers And Explanations [需要翻译]
 
 1.  **A.** Utilities and food are defensive because people need them regardless of the economy. Tourism and appliances are cyclical.
 2.  **D.** Fundamental analysis is about "what to buy" (value). Technical analysis is about "when to buy" (timing).

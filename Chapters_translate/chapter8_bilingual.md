@@ -1,4 +1,19 @@
 # Chapter 8: Municipal Bonds: Local Government Debt Securities
+
+
+## IN THIS CHAPTER
+## 在本章内容
+
+**Distinguishing between general obligation and revenue bonds**
+**区分一般责任债券和收益债券**
+
+**Understanding municipal bond tax implications**
+**了解市政债券的税务影响**
+
+**Recognizing municipal bond features and ratings**
+**识别市政债券的特征和评级**
+
+
 # 第 8 章：市政债券：地方政府债务证券
 
 Municipal bonds are securities that state governments, local governments, and U.S. territories issue. The municipality uses the money it borrows from investors to fund and support projects, such as roads, schools, sewer systems, hospitals, and so on. Municipal bonds may also be issued to raise money for operating budgets.
@@ -12,11 +27,13 @@ In this chapter, I cover the SIE exam topics that are going to be tested relatin
 
 ---
 
+
 ## 1. General Obligation (GO) Bonds: Backing Bonds with Taxes
 ## 1. 一般责任 （GO） 债券：以税收作为担保
 
 Most SIE municipal test questions are on general obligation (GO) bonds. The following sections help you prepare.
 大多数关于市政债的 SIE 考试题目都是关于一般责任 （GO） 债券的。以下各节将帮助您进行准备。
+
 
 ### General characteristics of GOs
 ### 一般责任 （GO） 债券的一般特征
@@ -52,11 +69,13 @@ IV. 新的图书馆
 
 ---
 
+
 ## 2. Analyzing GO bonds
 ## 2. 分析一般责任 （GO） 债券
 
 The SIE exam tests your ability to analyze different types of municipal securities and help a customer make a decision that best suits their needs. You should be able to analyze a GO bond as you'd analyze other investments. But because they're backed by taxes rather than sales of goods and services (as most corporations are), GO bonds have different components you need to look at when analyzing the marketability and safety of the issue.
 SIE 考试会测试您分析不同类型市政证券并帮助客户做出最适合其需求的决定的能力。您应该能够像分析其他投资一样分析 GO 债券。但由于它们是由税收而非商品和服务销售（如大多数公司那样）担保的，因此在分析该发行的可销售性和安全性时，您需要关注不同的组成部分。
+
 
 ### Ascertaining marketability
 ### 确定可销售性
@@ -74,6 +93,7 @@ Many items can affect the marketability of municipal bonds, including the charac
 *   **Sinking fund：** If the issuer has put money aside to pay the bonds off at maturity， the bonds are more marketable because the default risk is lower. （如果发行人拨备了资金用于到期偿债，则债券的可销售性更高。）
 *   **Insurance：** If the bonds are insured against default， they're considered to be very safe and are much more marketable. Bond insurance is considered to be a **credit enhancement**。 （如果债券针对违约进行了投保，则被认为非常安全且更易销售。债券保险被视为一种**信用增级**。）
 
+
 ### Dealing with debt
 ### 处理债务
 
@@ -82,6 +102,7 @@ One factor that influences the safety of a GO bond is the municipality's ability
 
 In addition to the municipality's name (and credit history), you want to look at its **current debt** (the debt the municipality owes directly) and its **net overall debt** (including the debt the issuer owes directly and **overlapping debt**). Overlapping debt is debt that an issuer owes for being part of a larger state and local government. In other words, a town is part of a county and, in turn, is part of a state.
 除了市政府的名称（和信用历史）之外，您还需要查看其**当前债务**（市政府直接欠下的债务）和**净总债务**（包括发行人直接欠下的债务和**重叠债务 （overlapping debt）**）。重叠债务是指发行人因属于更大的州或地方政府的一部分而欠下的债务。换句话说，一个镇属于一个县，而一个县又属于一个州。
+
 
 ### Bringing in taxes, fees, and fines
 ### 引入税收、费用和罚款
@@ -95,6 +116,7 @@ Municipal GO bonds are backed by the huge taxing power of a municipality, so GO 
 市政一般责任 （GO） 债券由市政府巨大的征税权担保，因此 GO 债券的评级通常高于收益债券，而收益率则低于收益债券。因为投资者承担的风险较小，所以他们获得的回报（即收益率）也较少。
 
 ---
+
 
 ## 3. Revenue Bonds: Raising Money for Utilities and Such
 ## 3. 收益债券：为公用事业等筹集资金
@@ -110,6 +132,7 @@ Because IDRs are backed by a corporation rather than a municipality, IDRs are ge
 🧠 **请记住**
 因为工业发展收益债券 （IDRs） 是由企业而非市政府担保的，所以 IDRs 通常被认为风险最高的市政债券。此外，由于这些债券是为企业的利益而非市政府的利益发行的，因此对于受**替代性最低税 （AMT）** 影响的投资者来说，其利息收入可能无法免除联邦税。
 
+
 ### General characteristics of revenue bonds
 ### 收益债券的一般特征
 
@@ -121,6 +144,7 @@ Before taking the SIE exam, you need to recognize and remember a couple of items
 在参加 SIE 考试之前，您需要识别并记住收益债券特有的几项内容：
 *   **它们不需要选民批准。** 因为收益债券资助的是盈利性设施，因此不由税收担保，所以不需要选民批准。设施产生的收入应足以偿还债务。
 *   **它们需要可行性研究。** 在发行收益债券之前，市政府会聘请顾问编写可行性研究报告。该研究旨在回答“这个项目是否有意义？”这一问题。
+
 
 ### Analyzing revenue bonds
 ### 分析收益债券
@@ -136,7 +160,8 @@ If you see the word **covenant** on the SIE exam or any of the corequisite exams
 💡 **提示**
 如果您在 SIE 考试或任何进阶考试中看到 **covenant （承诺条款）** 这个词，请立即联想到**收益债券**。
 
-### TABLE 8-1: Revenue Bond Covenants
+
+#### TABLE 8-1: Revenue Bond Covenants
 ### 表 8-1：收益债券承诺条款
 
 | Type of Covenant （条款类型） | Promises That the Municipality Will （市政府承诺将。..） |
@@ -146,6 +171,7 @@ If you see the word **covenant** on the SIE exam or any of the corequisite exams
 | **Insurance covenant （保险条款）** | Adequately insure the facility. （为设施提供充足的保险。） |
 
 ---
+
 
 ## 4. Other Types of Municipal Bonds
 ## 4. 其他类型的市政债券
@@ -168,6 +194,7 @@ Besides standard GO and revenue bonds, the SIE exam expects you to know a few ot
 
 ---
 
+
 ## 5. Build America Bonds (BABs)
 ## 5. “建设美国”债券 （BABs）
 
@@ -187,8 +214,9 @@ Even though the BAB program expired in 2010, plenty of these bonds are still out
 
 ---
 
+
 ## 6. The Primary Market: Bringing New Municipal Bonds to Market
-## 4. 一级市场：将新市政债券推向市场
+## 6. 一级市场：将新市政债券推向市场
 
 As you can imagine, like corporations and partnerships, municipalities need help selling their issues. To that end, they can choose their underwriter(s) directly, the way almost all corporations and Direct Participation Programs (DPPs) do it, or through a competitive (bidding) process:
 您可以想象，与公司和合伙企业一样，市政府在销售其发行的债券时也需要帮助。为此，他们可以直接选择承销商（就像几乎所有的公司和直接参与计划 （DPPs） 所做的那样），或者通过竞争性招标过程：
@@ -209,6 +237,7 @@ The notice of sale contains all bidding information about new municipal issues. 
 An underwriter needs to be able to sell the issue and still make a profit, so the selling price and the coupon rate have to be attractive to investors. You should remember that the difference between the cost the issuer pays for the security and the amount it receives from investors is called the **spread**.
 承销商需要能够售出发行的证券并仍能获利，因此销售价格和票面利率必须对投资者具有吸引力。您应该记住，发行人为证券支付的成本与从投资者那里收到的金额之间的差额被称为**价差 （spread）**。
 
+
 ### Allocation of Orders
 ### 订单分配
 
@@ -224,17 +253,20 @@ Under Municipal Securities Rulemaking Board (MSRB) rules, all syndicates must es
 4.  **Member orders:** If any securities are left after the presale, syndicate, and designated orders, syndicate members may purchase them for their own portfolios.
 4.  **成员订单 （Member orders）：** 如果在预售、承销团和指定订单之后还有剩余证券，承销团成员可以购买它们用于自己的投资组合。
 
+
 ### Municipal Bond Documentation
 ### 市政债券文档
 
 This section reviews some of the information that you have to know to ace the SIE exam.
 本节回顾了您为通过 SIE 考试必须了解的一些信息。
 
+
 #### The bond resolution (indenture)
 #### 债券决议（契约）
 
 A bond resolution (indenture) provides investors contract terms including the coupon rate, years until maturity, and collateral backing the bond (if any). Almost every municipal bond comes with a bond indenture, which is printed on the face of most municipal bond certificates. A bond indenture isn’t required by law, but it makes the bonds more marketable because it serves as a contract between the municipality and a trustee that’s appointed to protect the investors’ rights. Included in the indenture are the **flow of funds** (how the money collected from the revenue-producing project is distributed) and any assets that may be backing the issue.
 债券决议（契约）向投资者提供合同条款，包括票面利率、到期年限和支持债券的抵押品（如果有）。几乎每一种市政债券都附带债券契约，它印在大多数市政债券证书的正面。法律并不强制要求债券契约，但它使债券更具可销售性，因为它是市政府与被任命保护投资者权利的受托人之间的合同。契约中包括**资金流向 （flow of funds）**（如何分配从产生收益的项目中收取的资金）以及可能支持该发行的任何资产。
+
 
 #### Legal opinion
 #### 法律意见书
@@ -244,6 +276,7 @@ Printed on the face of municipal bond certificates, the legal opinion is prepare
 
 If a bond is stamped ex-legal, it doesn’t contain a legal opinion.
 如果债券被盖上 ex-legal（无保留意见）的印章，则它不包含法律意见书。
+
 
 #### Official statement
 #### 官方声明书
@@ -266,8 +299,9 @@ Any dealer selling municipal securities to a customer during the issue’s under
 ---
 
 
-## 8. Municipal Notes: Securing Short-Term Financing
-## 8. 市政票据：获得短期融资
+
+## 7. Municipal Notes: Securing Short-Term Financing
+## 7. 市政票据：获得短期融资
 
 When municipalities need short-term (interim) financing, **municipal notes** come into play. These notes bring money into the municipality until other revenue is received. Municipal notes typically have maturities of one year or less (usually, three to five months). Know the different types of municipal notes listed below for the SIE exam:
 当市政府需要短期（中期）融资时，**市政票据 （municipal notes）** 就会发挥作用。这些票据在收到其他收入之前为市政府带来资金。市政票据的期限通常为一年或以下（通常为三到五个月）。为参加 SIE 考试，请了解下面列出的不同类型的市政票据：
@@ -306,11 +340,13 @@ Municipal notes aren't rated the same as municipal or corporate bonds (AAA, AA, 
 
 ---
 
+
 ## 8. Taking a Closer Look at Municipal Fund Securities
 ## 8. 近距离观察市政基金证券
 
 Municipal fund securities are established by municipal governments, municipal agencies, or educational institutions but don't represent loans to the government. Included in municipal fund securities are Section 529 savings plans, Achieving a Better Life Experience (ABLE) accounts, and Local Government Investment Pools (LGIPs).
 市政基金证券由市政政府、市政机构或教育机构设立，但不代表对政府的贷款。市政基金证券包括 529 储蓄计划、ABLE 账户和地方政府投资池 （LGIPs）。
+
 
 ### Section 529 savings plans
 ### 529 储蓄计划
@@ -321,11 +357,13 @@ Section 529 savings plans are specialized educational savings accounts available
 Withdrawals of the amount invested plus interest received is **tax-free**, meaning that the earnings grow on a tax-deferred basis, and no tax is due if earnings are used for **qualified educational expenses**. Investors must receive an **official statement** or **offering circular** before opening the account.
 投资金额加上收到的利息的提取是**免税**的，这意味着收益在税收递延的基础上增长，如果收益用于**合格教育支出**，则无需纳税。投资者在开户前必须收到一份**官方声明书**或**发行说明书**。
 
+
 ### ABLE (Achieving a Better Life Experience) accounts
 ### ABLE（获得更美好生活体验）账户
 
 ABLE programs are designed for people with provable disabilities and their families. ABLE accounts allow people to invest after-tax dollars in an ABLE account. Any earnings or distributions are tax-free as long as they're used to pay for qualified disability expenses for the beneficiary. To be eligible, the **onset of the disability must have been discovered before the person reached age 26**.
 ABLE 计划是为有证据证明的残障人士及其家庭设计的。ABLE 账户允许人们将税后资金投入其中。只要收益或分配用于支付受益人的合格残疾费用，就是免税的。要符合资格，**残疾的发作必须是在该人年满 26 岁之前发现的**。
+
 
 ### LGIPs (Local Government Investment Pools)
 ### 地方政府投资池 （LGIPs）
@@ -338,6 +376,7 @@ Although they aren't money market funds, they're similar in the fact that many o
 
 ---
 
+
 ## 9. Understanding the Taxes on Municipal Bonds
 ## 9. 了解市政债券的税收
 
@@ -345,6 +384,7 @@ Although they aren't money market funds, they're similar in the fact that many o
 Municipal bonds have a tax advantage that U.S. government bonds don't have: The interest received on municipal bonds is **federally tax-free**. In addition, if an investor purchases a municipal bond issued by the state in which they reside (or a territory such as Puerto Rico, Guam, or the U.S. Virgin Islands), the interest is also **free from state and local taxes**. This is often referred to as being **triple tax-free**. (The interest on most U.S. government securities is free of state taxes but subject to federal tax.)
 🧠 **请记住**
 市政债券具有美国政府债券所没有的税收优势：市政债券收到的利息**免除联邦税**。此外，如果投资者购买其居住州（或波多黎各、关岛或美属维尔京群岛等领土）发行的市政债券，利息也**免除州和地方税**。这通常被称为**三重免税 （triple tax-free）**。（大多数美国政府证券的利息免除州税，但需缴纳联邦税。）
+
 
 ### Comparing municipal and corporate bonds equally
 ### 公平比较市政债券和公司债券
@@ -373,6 +413,7 @@ Stevenson 夫人是一位处于 32% 税率档次的投资者。以下哪种证�
 5% 的一般责任 （GO） 债券提供的收益率相当于 7.35% 的应税债券，这高于其他选项（6%、7% 和 7%）。
 
 ---
+
 
 ## 10. “G” That’s a Whole Lot of Rules
 ## 10. “G” 系列规则大全
@@ -455,8 +496,37 @@ The following list isn’t as huge as it could be because many of the rules are 
 
 ---
 
-## Practice Questions
-## 练习题
+
+## 11. Following Municipal Bond Rules
+## 11. 遵循市政债券规则
+
+
+### Confirmations
+### 交易确认书
+
+All confirmations of trades must be sent or given to customers at or before the completion of the transaction (settlement date).
+所有交易确认书必须在交易完成（结算日）或之前发送或交给客户。
+
+⚠️ **LATEST REGULATORY CHANGE (2024)**
+Municipal securities now settle the regular way **one business day after the trade date, or T+1**. (Note: Older textbooks may still mention T+2, but the SEC moved to T+1 on May 28, 2024).
+⚠️ **最新监管变动 （2024）**
+市政证券现在的常规结算方式是**交易日后的一个营业日，即 T+1**。（注：旧教材可能仍提到 T+2，但 SEC 已于 2024 年 5 月 28 日统一改为 T+1）。
+
+🧠 **REMEMBER**
+According to MSRB rules, municipal securities dealers can't give customers gifts valued at more than **$100 per year**. Business expenses are exempt from the rule.
+🧠 **请记住**
+根据 MSRB 规则，市政证券自营商每年向客户赠送的礼物价值不得超过 **100 美元**。业务支出不受此规则限制。
+
+💡 **TIP**
+Municipal bonds don't have a prospectus; instead, municipalities usually provide an **official statement (OS)**. Any dealer selling municipal securities to a customer during the issue's underwriting period must deliver a final official statement, if there is one, to a customer by the settlement of the transaction.
+💡 **提示**
+市政债券没有招股说明书；相反，市政府通常提供**官方声明书 （OS）**。任何在发行承销期间向客户销售市政证券的自营商，必须在交易结算前向客户提供最终官方声明书（如果有的话）。
+
+---
+
+
+## 12. Practice Questions
+## 12. 练习题
 
 1.  Which of the following municipal securities could have a rating of MIG 2?
     I. PN
@@ -577,12 +647,6 @@ The following list isn’t as huge as it could be because many of the rules are 
     (C) Once, any time before the first transaction
     (D) Once a year
 
-9.  根据 MSRB 规则，经纪自营商和市政证券交易商必须多久向客户发送一次投资手册，说明他们已在 SEC 和 MSRB 注册？
-    (A) 一次，在客户开户前
-    (B) 一次，在客户开户后 60 天内
-    (C) 一次，在第一笔交易前的任何时间
-    (D) 每年一次
-
 10. According to MSRB rules, which of the following are considered to be forms of advertising?
     I. Market letters
     II. Seminar text
@@ -593,35 +657,13 @@ The following list isn’t as huge as it could be because many of the rules are 
     (C) I, II, and III
     (D) I, II, III, and IV
 
-10. 根据 MSRB 规则，以下哪项被视为广告形式？
-    I. 市场信函
-    II. 研讨会文本
-    III. 官方声明书
-    IV. 发行说明书
-    (A) 仅 I
-    (B) I 和 II
-    (C) I, II, 和 III
-    (D) I, II, III, 和 IV
-
 11. What is the taxable equivalent yield for an investor purchasing a 5 percent municipal bond if they're in the 24 percent tax bracket?
     (A) 5%
     (B) 5.88%
     (C) 6.14%
     (D) 6.58%
 
-11. 如果投资者处于 24% 的税率档次，购买 5% 的市政债券的税收等值收益率是多少？
-    (A) 5%
-    (B) 5.88%
-    (C) 6.14%
-    (D) 6.58%
-
 12. All of the following are types of municipal notes EXCEPT
-    (A) PN
-    (B) TRAN
-    (C) AON
-    (D) CLN
-
-12. 以下所有都是市政票据的类型，除了
     (A) PN
     (B) TRAN
     (C) AON
@@ -633,23 +675,11 @@ The following list isn’t as huge as it could be because many of the rules are 
     (C) LGIPs
     (D) LTGOs
 
-13. 以下哪项不是市政基金证券的类型？
-    (A) 529 计划
-    (B) ABLE 账户
-    (C) LGIPs
-    (D) LTGOs
-
 14. All things being equal, which of the following municipal bonds would most likely have the lowest coupon rate?
     (A) Special assessment bonds
     (B) LTGOs
     (C) PHAs
     (D) IDRs
-
-14. 在其他条件相同的情况下，以下哪种市政债券最可能拥有最低的票面利率？
-    (A) 特别评估债券
-    (B) LTGOs （有限税收一般责任债券）
-    (C) PHAs （公共住房管理局债券）
-    (D) IDRs （工业发展收益债券）
 
 15. Under MSRB rules, all syndicates must establish an allocation of orders, which states which orders are to be filled first. Place the typical allocation of orders in order from first to be filled to last to be filled.
     I. Member
@@ -661,42 +691,27 @@ The following list isn’t as huge as it could be because many of the rules are 
     (C) II, I, III, IV
     (D) III, IV, I, II
 
-15. 根据 MSRB 规则，所有承销团必须建立订单分配制度，规定哪些订单首先被执行。将典型的订单分配按从先执行到后执行的顺序排列。
-    I. 成员订单
-    II. 指定订单
-    III. 承销团订单
-    IV. 预售订单
-    (A) IV, III, II, I
-    (B) I, II, III, IV
-    (C) II, I, III, IV
-    (D) III, IV, I, II
-
 16. Which type of security provides holders with a floating interest rate, a stated maturity date, and an option to put the security back to the issuer on a daily or weekly basis?
     (A) Fixed annuities
     (B) Build America Bonds
     (C) Variable-rate demand notes
     (D) GNMAs
 
-16. 哪种类型的证券为持有人提供浮动利率、规定的到期日，以及每天或每周将证券回售给发行人的期权？
-    (A) 固定年金
-    (B) 建设美国债券
-    (C) 可变利率即期票据
-    (D) GNMAs
 
-### Answers and explanations
+### Answers and Explanations
 ### 答案与解析
 
 1.  **B.** MIG (Moody's Investment Grade) ratings are for municipal notes (short-term municipal securities). Municipal notes include TANs, RANs, TRANs, GANs, BANs, CLNs, PNs, and tax-exempt commercial paper. IDRs (Industrial Development Revenue bonds) are long-term debt securities issued by a municipality backed by a private user.
 1.  **B.** MIG （穆迪投资等级）评级适用于市政票据（短期市政证券）。市政票据包括 TANs、RANs、TRANs、GANs、BANs、CLNs、PNs 和免税商业票据。IDRs （工业发展收益债券）是由私人用户支持的市政当局发行的长期债务证券。
 
-2.  **B.** If you look at (A) and (B), they more or less contradict each other, so it makes sense that one of them is the answer. General obligation (GO) bonds are backed by the municipality's taxing power while revenue bonds are backed by money collected from revenue-producing facilities. Therefore, (B) is the correct answer for this question.
-2.  **B.** 如果你看 (A) 和 (B)，它们或多或少相互矛盾，所以其中一个是答案是有道理的。一般责任 （GO） 债券由市政府的征税权支持，而收益债券由从产生收益的设施收集的资金支持。因此，(B) 是此问题的正确答案。
+2.  **B.** General obligation (GO) bonds are backed by the municipality's taxing power while revenue bonds are backed by money collected from revenue-producing facilities.
+2.  **B.** 一般责任 （GO） 债券由市政府的征税权支持，而收益债券由从产生收益的设施收集的资金支持。
 
-3.  **D.** There is no set rule as far as the percentage that a municipal broker-dealer may charge when buying or selling municipal securities. Because this trade was executed out of the broker-dealer's inventory, you would expect that the amount that the broker-dealer would charge would be relatively low. The rule is “whatever is fair and reasonable,” meaning that if the broker-dealer expended a lot of effort getting the securities, they would not be in violation if charging extra.
-3.  **D.** 关于市政经纪自营商在买卖市政证券时可能收取的百分比，没有既定的规则。因为这笔交易是从经纪自营商的库存中执行的，您会期望经纪自营商收取的金额相对较低。规则是“任何公平合理的金额”，这意味着如果经纪自营商在获取证券方面付出了很大努力，如果收取额外费用，他们也不会违规。
+3.  **D.** There is no set rule as far as the percentage that a municipal broker-dealer may charge when buying or selling municipal securities. The rule is "whatever is fair and reasonable."
+3.  **D.** 关于市政经纪自营商在买卖市政证券时可能收取的百分比，没有既定的规则。规则是"任何公平合理的金额"。
 
-4.  **A.** Municipal bonds don't have a prospectus. Instead, they have an official statement. Official statements, like prospectuses, come in preliminary and final versions. If prepared, an official statement would contain things like the offering terms, a description of the bonds being offered, a description of the issuer, the bond offering price, the coupon rate, and the maturity.
-4.  **A.** 市政债券没有招股说明书。相反，它们有一份官方声明书。官方声明书像招股说明书一样，有初步版本和最终版本。如果准备了官方声明书，它将包含发行条款、所发行债券的描述、发行人的描述、债券发行价格、票面利率和到期日等内容。
+4.  **A.** Municipal bonds don't have a prospectus. Instead, they have an official statement.
+4.  **A.** 市政债券没有招股说明书。相反，它们有一份官方声明书。
 
 5.  **C.** A special assessment (special district or special purpose) bond is backed on taxes on the properties that benefit from the improvement(s).
 5.  **C.** 特别评估（特别行政区或特别目的）债券由受益于该改进项目的财产税支持。
@@ -704,162 +719,32 @@ The following list isn’t as huge as it could be because many of the rules are 
 6.  **B.** Under MSRB rules, all municipal securities advertising must be kept on file for a minimum of three years and kept easily accessible for at least two years.
 6.  **B.** 根据 MSRB 规则，所有市政证券广告必须存档至少三年，并在至少两年内保持易于获取。
 
-7.  **A.** U.S. territory bonds and bonds issued by federal districts are triple tax-free (exempt from federal, state, and local tax). Bonds issued by the state of Hawaii are not, however. The triple tax-free bonds you should be aware of are the ones issued by Puerto Rico, Guam, U.S. Virgin Islands, American Samoa, and Washington, D.C.
-7.  **A.** 美国领土债券和联邦特区发行的债券是三重免税的（免除联邦、州和地方税）。然而，夏威夷州发行的债券并非如此。您应该注意的三重免税债券是由波多黎各、关岛、美属维尔京群岛、美属萨摩亚和华盛顿特区发行的。
+7.  **A.** U.S. territory bonds and bonds issued by federal districts are triple tax-free. Bonds issued by the state of Hawaii are not.
+7.  **A.** 美国领地债券和联邦地区发行的债券是三重免税的。夏威夷州发行的债券则不然。
 
-8.  **A.** Municipal securities trades settle the regular way in one business day after the trade date (T+1). *(Note: Updated to reflect current T+1 settlement cycle rules effective May 2024, replacing previous T+2 standard)*.
-8.  **A.** 市政证券交易的常规结算方式是在交易日后一个工作日 （T+1）。*（注：更新以反映 2024 年 5 月生效的 T+1 结算周期规则，取代之前的 T+2 标准）*。
+8.  **A.** Municipal securities trades settle the regular way in one business day after the trade date (T+1).
+8.  **A.** 市政证券交易的常规结算方式为交易日后的一个工作日（T+1）。
 
-9.  **D.** Broker-dealers and municipal securities dealers must send yearly statements to their clients, which may be in electronic form (emails and such). These statements must let the clients know that their firm is registered with the SEC and MSRB. The statement must let clients know their protections, how they can make a complaint to the proper authority, and so on.
-9.  **D.** 经纪自营商和市政证券交易商必须每年向客户发送声明，可以是电子形式（电子邮件等）。这些声明必须让客户知道他们的公司已在 SEC 和 MSRB 注册。该声明必须让客户了解他们的保护措施，如何向有关当局投诉等。
+9.  **D.** Broker-dealers and municipal securities dealers must send yearly statements to their clients.
+9.  **D.** 经纪交易商和市政证券交易商必须每年向其客户发送声明。
 
-10. **B.** Advertisements include promotional literature (written and electronic), circulars, market letters, seminar text, press releases, and so on. Preliminary official statements, official statements, offering circulars, and so on are not considered to be advertisements.
-10. **B.** 广告包括宣传资料（书面和电子）、传单、市场信函、研讨会文本、新闻稿等。初步官方声明书、官方声明书、发行说明书等不被视为广告。
+10. **B.** Advertisements include promotional literature, circulars, market letters, seminar text, and press releases. Official statements and offering circulars are not considered advertisements.
+10. **B.** 广告包括促销文献、传单、市场信函、研讨会文本和新闻稿。官方声明书和发行说明书不被视为广告。
 
-11. **D.** Because the interest received on municipal bonds is federally tax-free, you have to determine the taxable equivalent yield to be able to compare municipal bonds and corporate bonds equally. So, when you're using the taxable equivalent yield (TEY) formula, you're looking at what a corporate bond would have to yield to be equal to this municipal bond after taxes. See the following formula:
-    TEY = municipal yield / (100% – investor's tax bracket) = 5% / (100% – 24%) = 5% / 76% = 6.58%
-11. **D.** 因为市政债券收到的利息是免联邦税的，您必须确定税收等值收益率，以便能够公平地比较市政债券和公司债券。所以，当您使用税收等值收益率 （TEY） 公式时，您是在看公司债券必须产生多少收益才能在税后等于该市政债券。请参见以下公式：
-    TEY = 市政债收益率 / （100% – 投资者的边际税率） = 5% / （100% – 24%） = 5% / 76% = 6.58%
+11. **D.** TEY = 5% / (100% – 24%) = 5% / 76% = 6.58%.
+11. **D.** 市政等值收益率 = 5% / (100% – 24%) = 5% / 76% = 6.58%。
 
-12. **C.** AON (All-or-None) is a type of order qualifier or underwriting commitment, not a municipal note.
-12. **C.** AON （全额或取消）是一种订单限定词或承销承诺类型，不是市政票据。
+12. **C.** AON (all-or-none) is an order qualifier and not a type of municipal note.
+12. **C.** AON（全部或 none）是一个订单限定词，而不是一种市政票据。
 
-13. **D.** LTGOs (Limited Tax General Obligation bonds) are a type of municipal bond, not a municipal fund security.
-13. **D.** LTGOs （有限税收一般责任债券）是一种市政债券，不是市政基金证券。
+13. **D.** Section 529 plans, ABLE accounts, and LGIPs are all types of municipal fund securities. LTGOs are general obligation bonds.
+13. **D.** 529 计划、ABLE 账户和 LGIPs 都是市政基金证券的类型。LTGO 是一般责任债券。
 
-14. **C.** PHAs (Public Housing Authority bonds) are backed by the U.S. government, making them the safest municipal bond. Safer bonds have lower yields/coupon rates.
-14. **C.** PHAs （公共住房管理局债券）由美国政府支持，使其成为最安全的市政债券。更安全的债券具有较低的收益率/票面利率。
+14. **C.** PHA (Public Housing Authority) bonds are the safest because they are backed by U.S. government subsidies. Safer bonds usually have lower coupon rates.
+14. **C.** PHA（公共住房管理局）债券是最安全的，因为它们由美国政府补贴支持。更安全的债券通常票面利率较低。
 
-15. **A.** The standard order priority is Presale, Syndicate (Group-net), Designated, Member. (Pro-tip: "Please Send Don Money" or similar mnemonic).
-15. **A.** 标准订单优先级是预售订单、承销团（团体净利）订单、指定订单、成员订单。
+15. **A.** The standard order priority is Presale, Syndicate (Group-net), Designated, Member.
+15. **A.** 标准订单优先级是预售、承销团（团体净利）、指定、成员。
 
 16. **C.** Variable-rate demand notes (VRDNs) have floating rates and a put feature allowing the holder to sell it back at par.
-16. **C.** 可变利率即期票据 （VRDNs） 具有浮动利率和看跌特征，允许持有人按面值将其回售。
-
-
-Note: Although this situation is less likely, the SIE may ask you to determine the **municipal equivalent yield (MEY)**, which is the yield on a taxable bond after taxes. When you have that yield, you can compare it with a municipal bond to determine the best investment for one of your customers. The formula for the municipal equivalent yield is as follows:
-注：虽然这种情况不太可能发生，但 SIE 可能会要求您确定**市政等值收益率 （MEY）**，即应税债券的税后收益率。当您得到该收益率后，可以将其与市政债券进行比较，以确定最适合您客户的投资。市政等值收益率的公式如下：
-
-**MEY = Taxable Yield × (100% – investor's tax bracket)**
-**市政等值收益率 （MEY） = 应税收益率 × （100% – 投资者的税率档次）**
-
-💡 **TIP**
-Bonds that U.S. territories (and federal districts) issue are **triple tax-free**; the interest is not taxed on the federal, state, or local level. These places include:
-💡 **提示**
-美国领地（和联邦地区）发行的债券是**三重免税**的；其利息在联邦、州和地方层面均不征税。这些地方包括：
-
-*   **Puerto Rico （波多黎各）**
-*   **Guam （关岛）**
-*   **U.S. Virgin Islands （美属维尔京群岛）**
-*   **American Samoa （美属萨摩亚）**
-*   **Washington, D.C. （华盛顿特区）**
-
-Additionally, in most cases (a few exceptions exist), if you buy a municipal bond issued within your own state, the interest will be triple tax-free.
-此外，在大多数情况下（存在少数例外），如果您购买本州发行的市政债券，其利息将是三重免税的。
-
----
-
-## 10. Following Municipal Bond Rules
-## 10. 遵循市政债券规则
-
-### Confirmations
-### 交易确认书
-
-All confirmations of trades must be sent or given to customers at or before the completion of the transaction (settlement date).
-所有交易确认书必须在交易完成（结算日）或之前发送或交给客户。
-
-⚠️ **LATEST REGULATORY CHANGE (2024)**
-Municipal securities now settle the regular way **one business day after the trade date, or T+1**. (Note: Older textbooks may still mention T+2, but the SEC moved to T+1 on May 28, 2024).
-⚠️ **最新监管变动 （2024）**
-市政证券现在的常规结算方式是**交易日后的一个营业日，即 T+1**。（注：旧教材可能仍提到 T+2，但 SEC 已于 2024 年 5 月 28 日统一改为 T+1）。
-
-🧠 **REMEMBER**
-According to MSRB rules, municipal securities dealers can't give customers gifts valued at more than **$100 per year**. Business expenses are exempt from the rule.
-🧠 **请记住**
-根据 MSRB 规则，市政证券自营商每年向客户赠送的礼物价值不得超过 **100 美元**。业务支出不受此规则限制。
-
-💡 **TIP**
-Municipal bonds don't have a prospectus; instead, municipalities usually provide an **official statement (OS)**. Any dealer selling municipal securities to a customer during the issue's underwriting period must deliver a final official statement, if there is one, to a customer by the settlement of the transaction.
-💡 **提示**
-市政债券没有招股说明书；相反，市政府通常提供**官方声明书 （OS）**。任何在发行承销期间向客户销售市政证券的自营商，必须在交易结算前向客户提供最终官方声明书（如果有的话）。
-
----
-
-## 9. Testing Your Knowledge
-## 9. 知识测试
-
-Practice questions (Original English Only)
-
-1. Which of the following municipal securities could have a rating of MIG 2?
-   I. PN II. Tax-exempt commercial paper III. TRAN IV. IDR
-   (A) I and III (B) I, II, and III (C) I, III, and IV (D) II, III, and IV
-
-2. Which of the following is NOT TRUE about general obligation bonds?
-   (A) They are backed by the taxing power of the municipality.
-   (B) They are issued to fund revenue-producing facilities.
-   (C) They are subject to a debt ceiling.
-   (D) They need voter approval to be issued.
-
-3. A municipal securities broker-dealer sells 100 GO bonds to a customer on a principal basis. How much of a markup may the broker-dealer charge?
-   (A) 5% of the selling price (B) 8% of the selling price (C) 8 1/2% of the selling price (D) Whatever is fair and reasonable
-
-4. Which of the following documents include all relevant information about a municipal issuer?
-   (A) Official statement (B) Notice of sale (C) Prospectus (D) Indenture
-
-5. A special assessment bond is backed by
-   (A) a private user (B) excise taxes (C) charges on the benefitted property (D) a revenue-producing facility
-
-6. According to MSRB rules, brokerage firms must keep all municipal securities advertising
-   I. for a minimum of 3 years II. for a minimum of 6 years III. easily accessible for a minimum of 1 year IV. easily accessible for a minimum of 2 years
-   (A) I and III (B) I and IV (C) II and III (D) II and IV
-
-7. Municipal bonds issued by each of the following would be triple tax-free EXCEPT
-   (A) Hawaii (B) Guam (C) Washington, D.C. (D) Puerto Rico
-
-8. Municipal bonds settle the regular way in
-   (A) 1 business day after the trade date (B) 2 business days after the trade date (C) 3 business days after the trade date (D) 4 business days after the trade date
-
-9. Under MSRB rules, how often must broker-dealers and municipal securities dealers send out investment brochures to their customers stating that they are registered with the SEC and MSRB?
-   (A) Once, before the customer opening the account (B) Once, within 60 days of the customer opening the account (C) Once, any time before the first transaction (D) Once a year
-
-10. According to MSRB rules, which of the following are considered to be forms of advertising?
-    I. Market letters II. Seminar text III. Official statements IV. Offering circulars
-    (A) I only (B) I and II (C) I, II, and III (D) I, II, III, and IV
-
-11. What is the taxable equivalent yield for an investor purchasing a 5 percent municipal bond if they're in the 24 percent tax bracket?
-    (A) 5% (B) 5.88% (C) 6.14% (D) 6.58%
-
-12. All of the following are types of municipal notes EXCEPT
-    (A) PN (B) TRAN (C) AON (D) CLN
-
-13. Which of the following IS NOT a type of municipal fund security?
-    (A) Section 529 plans (B) ABLE accounts (C) LGIPs (D) LTGOs
-
-14. All things being equal, which of the following municipal bonds would most likely have the lowest coupon rate?
-    (A) Special assessment bonds (B) LTGOs (C) PHAs (D) IDRs
-
-15. Under MSRB rules, all syndicates must establish an allocation of orders, which states which orders are to be filled first. Place the typical allocation of orders in order from first to be filled to last to be filled.
-    I. Member II. Designated III. Syndicate IV. Presale
-    (A) IV, III, II, I (B) I, II, III, IV (C) II, I, III, IV (D) III, IV, I, II
-
-16. Which type of security provides holders with a floating interest rate, a stated maturity date, and an option to put the security back to the issuer on a daily or weekly basis?
-    (A) Fixed annuities (B) Build America Bonds (C) Variable-rate demand notes (D) GNMAs
-
-### Answers and explanations
-
-1.  **B.** MIG (Moody's Investment Grade) ratings are for municipal notes (short-term municipal securities). Municipal notes include TANs, RANs, TRANs, GANs, BANs, CLNs, PNs, and tax-exempt commercial paper. IDRs (Industrial Development Revenue bonds) are long-term debt securities issued by a municipality backed by a private user.
-2.  **B.** If you look at (A) and (B), they more or less contradict each other, so it makes sense that one of them is the answer. General obligation (GO) bonds are backed by the municipality's taxing power while revenue bonds are backed by money collected from revenue-producing facilities. Therefore, (B) is the correct answer for this question.
-3.  **D.** There is no set rule as far as the percentage that a municipal broker-dealer may charge when buying or selling municipal securities. The rule is "whatever is fair and reasonable," meaning that if the broker-dealer expended a lot of effort getting the securities, they would not be in violation if charging extra.
-4.  **A.** Municipal bonds don't have a prospectus. Instead, they have an official statement. Official statements, like prospectuses, come in preliminary and final versions.
-5.  **C.** A special assessment (special district or special purpose) bond is backed on taxes on the properties that benefit from the improvement(s).
-6.  **B.** Under MSRB rules, all municipal securities advertising must be kept on file for a minimum of three years and kept easily accessible for at least two years.
-7.  **A.** U.S. territory bonds and bonds issued by federal districts are triple tax-free. Bonds issued by the state of Hawaii are not, however.
-8.  **A.** (Note: Regulatory change to T+1). Municipal securities trades settle the regular way in one business day after the trade date (T+1).
-9.  **D.** Broker-dealers and municipal securities dealers must send yearly statements to their clients.
-10. **B.** Advertisements include promotional literature (written and electronic), circulars, market letters, seminar text, press releases, and so on. Preliminary official statements, official statements, offering circulars, and so on are not considered to be advertisements.
-11. **D.** TEY = 5% / (100% – 24%) = 5% / 76% = 6.58%.
-12. **C.** AON (all-or-none) is an order qualifier and not a type of municipal note.
-13. **D.** Section 529 plans, ABLE accounts, and LGIPs are all types of municipal fund securities. LTGOs are general obligation bonds.
-14. **C.** PHA (Public Housing Authority) bonds are the safest because they are backed by U.S. government subsidies. Safer bonds usually have lower coupon rates.
-15. **A.** Typically, a syndicate sets up the way their orders are to be filled as follows: presale, syndicate (group-net), designated, member.
-16. **C.** Variable-rate demand notes are municipal securities that have a variable interest rate as well as a put option.
+16. **C.** 可变利率即期票据（VRDNs）具有浮动利率和看跌特征，允许持有人按面值回售。

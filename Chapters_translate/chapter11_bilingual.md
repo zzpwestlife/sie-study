@@ -14,6 +14,7 @@ Many more-complex options strategies exist — **straddles, spreads, combination
 
 ---
 
+
 ## 1. Brushing Up on Option Basics
 ## 1. 复习期权基础知识
 
@@ -27,6 +28,7 @@ All option strategies, whether simple or sophisticated, when broken down are mad
 所有的期权策略，无论简单还是复杂，拆解开来都是由简单的看涨和/或看跌期权组成的。在介绍如何解读期权之后，我将解释基本的看涨期权，并帮助您在进入看跌期权之前弄清楚如何操作。接下来，我将讨论实值、平值或虚值期权以及期权的成本。在您充分掌握了基础知识之后，其余部分（本章后面更难的策略）就会变得更容易。
 
 ---
+
 
 ## 2. Reading an option
 ## 2. 解读期权
@@ -77,6 +79,7 @@ EST (Eastern Standard Time) is generally easier to recall than CST (Central Stan
 
 ---
 
+
 ## 3. Looking at call options: The right to buy
 ## 3. 审视看涨期权：买入权
 
@@ -90,6 +93,7 @@ Assume that Ms. Smith buys 1 DEF Oct 40 call option. Ms. Smith bought the right 
 
 ---
 
+
 ## 4. Checking out put options: The right to sell
 ## 4. 审视看跌期权：卖出权
 
@@ -102,6 +106,7 @@ Assume that Mr. Jones buys 1 ABC October 60 put option. Mr. Jones is buying the 
 假设 Jones 先生购买了 1 张 ABC 10 月 60 看跌期权。Jones 先生购买的是按 60 的价格卖出 100 股 ABC 的权利。如果 ABC 的价格跌至每股 60 美元以下，这个期权对 Jones 先生来说就变得非常有价值。如果您处于 Jones 先生的位置，且 ABC 跌至每股 50 美元，您可以从市场上购买股票，并行使（使用）期权按每股 60 美元卖出股票，这会让您（作为新的 Jones 先生）非常开心。如果 ABC 从未跌破 60 的行权价，那么 Jones 先生就没法从中获利，他也不会行使该期权。然而，这对期权卖方来说是有利的，因为卖方通过卖出期权收到了权利金，并且可以保留这笔钱。
 
 ---
+
 
 ## 5. Getting your money back: Options in-, at-, or out-of-the-money
 ## 5. 拿回您的钱：实值、平值或虚值期权
@@ -159,6 +164,7 @@ When people purchase an option, it is said that they are **long** the option. An
 
 ---
 
+
 ## 6. Paying the premium: The cost of an option
 ## 6. 支付权利金：期权的成本
 
@@ -212,6 +218,7 @@ LMN 10 月 30 看涨期权的时间价值是多少？
 
 ---
 
+
 ## 7. Incorporating Standard Option Math
 ## 7. 融入标准期权数学计算
 
@@ -223,6 +230,7 @@ I'm here to make your life easier. Prep courses use several different types of c
 
 If it looks basic, it is — and that's the idea. Any time an investor spends money, you place that value in the **Money Out** side of the options chart, and any time an investor receives money, you place the number in the **Money In** side of the chart.
 
+
 ### Buying or selling call options
 ### 买入或卖出看涨期权
 
@@ -230,7 +238,8 @@ The most basic options calculations involve buying or selling call or put option
 
 As you work with options charts, you may notice a pattern when determining maximum losses and gains. Table 11-1 gives you a quick reference concerning the maximum gain or maximum loss an investor faces when buying or selling call options. Notice that the buyer's loss is equal to the seller's gain (and vice versa).
 
-### TABLE 11-1: Maximum Gains and Losses for Call Options
+
+#### TABLE 11-1: Maximum Gains and Losses for Call Options
 ### 表 11-1：看涨期权的最大收益与亏损
 
 | Buying or Selling （买入或卖出） | Maximum Loss （最大亏损） | Maximum Gain （最大收益） |
@@ -242,6 +251,7 @@ As you work with options charts, you may notice a pattern when determining maxim
 The key phrase to remember when working with call options is **"calls same"**, which means that the premium and the strike price go on the same side of the options chart.
 💡 **提示**
 处理看涨期权时要记住的关键短语是“**看涨同侧** （calls same）”，这意味着权利金和行权价都放在期权图表的同一侧。
+
 
 ### Buying call options
 ### 买入看涨期权
@@ -270,6 +280,7 @@ When you see a question about the **break-even point**, the SIE examiners are as
 
 For this investor, the break-even point is 45. This number makes sense because the investor paid $5 for the option, so the option has to go $5 in-the-money for the investor to recoup the amount they paid. Note: The break-even point is always the same for the buyer and the seller.
 
+
 ### Selling call options
 ### 卖出看涨期权
 
@@ -297,6 +308,7 @@ When you see a question about the break-even point, the examiners are asking you
 
 For this investor, the break-even point is 62. This makes sense because the investor received $2 for the option, so the option has to go $2 in-the-money for this investor to lose the amount that she received for selling the option. Call options go in-the-money when the price of the stock goes above the strike price.
 
+
 ### Buying or selling put options
 ### 买入或卖出看跌期权
 
@@ -304,13 +316,15 @@ Fortunately, when you're calculating the buying or selling of put options (which
 
 Table 11-2 serves as a quick reference regarding the maximum gain or maximum loss an investor faces when buying or selling put options.
 
-### TABLE 11-2: Maximum Gains and Losses for Put Options
+
+#### TABLE 11-2: Maximum Gains and Losses for Put Options
 ### 表 11-2：看跌期权的最大收益与亏损
 
 | Buying or Selling （买入或卖出） | Maximum Loss （最大亏损） | Maximum Gain （最大收益） |
 | :--- | :--- | :--- |
 | **Buying a put （买入看跌期权）** | Premium （权利金） | （Strike – premium） × 100 shares （（行权价 – 权利金）× 100 股） |
 | **Selling a put （卖出看跌期权）** | （Strike – premium） × 100 shares （（行权价 – 权利金）× 100 股） | Premium （权利金） |
+
 
 ### Buying put options
 ### 买入看跌期权
@@ -337,6 +351,7 @@ The break-even point is the security price where the investor doesn't have a gai
 **行权价 – 权利金 = 55 – 6 = 49**
 
 For this investor, the break-even point is 49. The investor paid $6 for the option, so the option has to go $6 in-the-money in order for this investor to recoup the amount that they paid. As with call options, the break-even point is always the same for the buyer and the seller.
+
 
 ### Selling put options
 ### 卖出看跌期权
@@ -366,8 +381,10 @@ For this investor, the break-even point is 22. Because this investor received $8
 
 ---
 
+
 ## 8. Trading options: Opening and closing transactions
 ## 8. 交易期权：开仓和平仓交易
+
 
 ### Putting things back where you found them: Doing opposite transactions
 ### 物归原处：进行相反交易
@@ -394,6 +411,7 @@ The right answer is (C). This is the second time that Mr. Kollen does something 
 
 ---
 
+
 ## 9. Tricks of the options trade: Calculating gains and losses
 ## 9. 期权交易技巧：计算损益
 
@@ -412,6 +430,7 @@ Total Money Out: $5,000 + $400 = $5,400
 Gain: $5,800 – $5,400 = **$400 gain**.
 
 ---
+
 
 ## 10. Got it covered: Stock/option contracts
 ## 10. 备兑头寸：股票与期权的结合
@@ -450,6 +469,7 @@ Here's how to find the break-even point for stock and options:
 
 ---
 
+
 ## 11. Index options
 ## 11. 指数期权
 
@@ -457,15 +477,18 @@ Besides buying or selling options on an individual stock, you can also buy or se
 
 Note: The Chicago Board Options Exchange (CBOE) **VIX** is a measure of how volatile investors believe that the S&P 500 index will be over the next 30 days. Typically, the higher the expectation of volatility, the higher the VIX premiums.
 
+
 ### Premiums of index options
 ### 指数期权的权利金
 
 Like standard stock options, the pricing unit for index options is 100. This means that, like standard stock options, you **multiply the premium by 100** to get the actual cost.
 
+
 ### Exercises in cash
 ### 现金结算
 
 Unlike regular stock options in which, when the option is exercised, the underlying security must be delivered, index options are **settled in cash**. This makes sense because it would be very difficult for investors to buy and deliver all the securities covered by an index. If the holder of an index call option exercises their option, they will receive the in-the-money amount multiplied by 100 based on the **closing price at the end of the trading day**, not the current value at the time of exercise.
+
 
 ### Trading hours, settlement, and expiration dates
 ### 交易时间、结算与到期日
@@ -480,10 +503,12 @@ You'll find that buyers and sellers of index options can incorporate most of the
 
 ---
 
+
 ## 12. Gaining Additional Option Insight
 ## 12. 获取更多期权见解
 
 To help you get a deeper understanding of options, you need to know a few additional things that you will most certainly see on the real-deal SIE exam. Some of these items include who issues the options, what an ROP is, what a risk disclosure document is, and so on.
+
 
 ### Clearing through the OCC
 ### 通过 OCC 进行结算
@@ -493,25 +518,30 @@ The **Options Clearing Corporation (OCC)** is the issuer and guarantor of all li
 🧠 **REMEMBER**
 The OCC **does not determine the premium** for options; the premium is determined by investors based on supply and demand, the option's intrinsic value, and the amount of time until the option expires.
 
+
 ### That's ODD: Options risk disclosure document
 ### 奇怪的 ODD：期权风险披露文件
 
 Because options have a risk that is greater than almost any other investment, all investors must receive an **options risk disclosure document (Options Disclosure Document or ODD)** and a copy of amendments (if any) **prior to their first options transaction** (at the time of or before the account is approved). This ODD explains to investors option terminology and strategies as well as the potential rewards and risks involved in investing in options, such as the chance of losing all money invested or, if selling call options, facing an unlimited maximum loss potential. In addition to the risks, the ODD must also explain tax rules related to options, transaction costs, margin requirements, a special statement for uncovered option writers, and so on.
+
 
 ### Getting the go-ahead: Registered options principal
 ### 获得许可：注册期权主管 (ROP)
 
 Because of the extra risk of investing in options, all new accounts and option order tickets must be approved and signed by a **registered options principal (ROP)** — a manager with a **Series 4** license, in other words. The registered options principal determines the amount of risk that each investor can take. Certainly, sophisticated investors with a lot of money are able to handle more risk than new option investors with a limited supply of funds.
 
+
 ### Options account agreement
 ### 期权账户协议 (OAA)
 
 **Within 15 days** after approval of the account by an ROP, the customer must sign and return an **options account agreement (OAA)**. Basically, the OAA just states that the customer has read the ODD, understands the risk associated with trading options, and will abide by the rules and regulations regarding options trading. Should anything change, the customer agrees to notify the firm. If the OAA is not received within 15 days after approval of the account, the customer **cannot open any new options positions**.
 
+
 ### Order ticket
 ### 委托单
 
 A few things are required on an order ticket that are unique to options. Besides the option that is being bought or sold, you have to write down whether the customer is establishing a **long position** (if they're buying) or a **short position** (if they're selling). In addition, for option sellers, you need to put down whether the seller is **covered** or **uncovered (naked)**.
+
 
 ### Last trade, last exercise, and expiration of an option
 ### 期权的最后交易、最后行使与到期
@@ -524,6 +554,7 @@ Unlike stock certificates, options do expire after a certain period of time. In 
 *   **Option expiration：** Options expire at **11：59 p。m。 Eastern Time on the third Friday of the expiration month**。 （期权到期：期权在**到期月第三个星期五的美国东部时间晚上 11：59** 到期。）
 
 ---
+
 
 ## 13. Exercise and assignment
 ## 13. 行使与指派
@@ -548,6 +579,7 @@ Although most exercises of options are settled by the delivery of the underlying
 
 ---
 
+
 ## 14. Additional definitions
 ## 14. 额外定义
 
@@ -567,6 +599,7 @@ For some reason, the SIE exam writers decided you need to know some additional o
 *   **Type of option：** Either a call or a put。 （期权类型：看涨期权或看跌期权。）
 
 ---
+
 
 ## 15. Some additional option rules
 ## 15. 一些额外的期权规则
@@ -620,6 +653,7 @@ Yes, I know . . . even more? Don't blame me; I didn't design the test. Anyway, a
 *   **指纹采集：** 能够进入 CBOE 设施的个人（董事、高管、员工、临时人员、顾问、供应商、独立承包商、服务提供商等）必须进行指纹采集以进行身份​​识别和处理。
 
 ---
+
 
 ## 16. Testing Your Knowledge
 ## 16. 知识测试
@@ -699,7 +733,9 @@ Practice questions (Original English Only)
 18. An investor buys 1 TUV Oct 45 put for a premium of $4 and simultaneously buys 100 shares of TUV stock for $45 per share. At expiration, the stock would have to be selling at what price per share for the investor to be able to break even?
     (A) $4 (B) $41 (C) $45 (D) $49
 
+
 ### Answers and explanations
+### Answers And Explanations [需要翻译]
 
 1.  **C.** Put buyers and call sellers are bearish.
 2.  **A.** Strike prices are adjusted downwards for cash dividends on the ex-dividend date.

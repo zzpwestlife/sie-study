@@ -1,6 +1,28 @@
+# Part 4: Customer Accounts, Markets, and Taxes
+# 第 4 部分：客户账户、市场与税务
+
+---
+
+
+## IN THIS PART . . .
+## 在本部分中 . . .
+
+**Learn the proper procedures for opening and managing customer accounts, including margin requirements.**
+**了解开设和管理客户账户的正确程序，包括融资要求。**
+
+**Understand how securities markets operate and how orders are executed.**
+**了解证券市场如何运作以及订单如何执行。**
+
+**Master the tax implications of securities investments and retirement planning.**
+**掌握证券投资和退休计划的税务影响。**
+
+---
+
+
 # Chapter 12: Customer Accounts: Proper Handling of Accounts
 
 [TOC]
+
 
 
 
@@ -14,11 +36,13 @@ In this chapter, I cover topics related to opening accounts. First, I help you u
 
 ---
 
+
 ## 1. Following Protocol When Opening Accounts
 ## 1. 开户时遵循的协议
 
 The SIE examiners seem to be focusing more and more on the handling of customer accounts. You need to know what to do to open accounts, how to take customer orders, the rules for sending out confirmations, and so on.
 SIE 考试的出题人似乎越来越关注客户账户的处理。您需要了解开户的操作流程、如何接受客户订单、发送交易确认书的规则等等。
+
 
 ### Filing the facts on the new account form
 ### 在新开户表上登记事实
@@ -88,6 +112,7 @@ I. 客户 II. 客户配偶 III. 登记代表 IV. 主管
 
 ---
 
+
 ## 2. Gathering other important customer info
 ## 2. 收集其他重要的客户信息
 
@@ -114,6 +139,7 @@ Some of the things you should know (or attempt to find out) to make accurate rec
 
 ---
 
+
 ## 3. Word on the street: Street name accounts
 ## 3. 街面传言：街名账户
 
@@ -134,11 +160,13 @@ You need to know a few rules about street name accounts for the SIE:
 
 ---
 
+
 ## 4. Selecting the Appropriate Type of Account
 ## 4. 选择合适的账户类型
 
 Investors can open many types of accounts through a broker-dealer. Besides knowing a customer’s investment profile, you also need a basic understanding of the types of accounts for the SIE exam.
 投资者可以通过经纪交易商开设多种类型的账户。除了了解客户的投资概况外，您还需要对 SIE 考试中的账户类型有基本的掌握。
+
 
 ### Single and joint accounts
 ### 个人与联名账户
@@ -158,6 +186,7 @@ The right choice here is (C). A joint account is an account in the name of more 
 以下所有人都可以开设联名账户，除了：
 （A） 两个朋友 （B） 丈夫和妻子 （C） 父母和未成年的儿子 （D） 三个一起工作的同事
 这里的正确选择是 （C）。联名账户是以多名**成年人**的名义开设的账户。选项 （A）、（B） 和 （D） 对于联名账户都是可能的，但为未成年人开设的账户必须是**托管账户**。
+
 
 ### Trust accounts
 ### 信托账户
@@ -195,6 +224,7 @@ UGMA accounts are for minors, so as soon as a minor reaches the **age of majorit
 🧠 **请记住**
 UGMA 账户是为未成年人设立的，因此一旦未成年人达到**法定成年年龄**（由未成年人居住的州决定），UGMA 账户就会终止，账户将转入以该（前）未成年人名义开设的个人账户。
 
+
 ### Discretionary accounts
 ### 全权委托账户 (Discretionary accounts)
 
@@ -221,6 +251,7 @@ A **fiduciary** is anyone who can legally make decisions for another investor. E
 🧠 **请记住**
 **受托人 （fiduciary）** 是指任何能依法为另一名投资者做决策的人。受托人的例子包括托管人（UGMA 账户）、拥有授权书的登记代表、遗产执行人、信托受托人等。受托人受**“审慎人”或“审慎投资者”规则**的约束，这意味着他们必须将委托客户的资金投资于所在州**“法定名单” （legal list）** 所指定的证券。如果所在州没有法定名单，受托人应仅投资于那些追求合理收入和资本保值的审慎人士会投资的证券。
 
+
 ### Corporate accounts
 ### 公司账户
 
@@ -235,11 +266,13 @@ An **unincorporated association** (sometimes called a **voluntary organization**
 🧠 **请记住**
 **非法人团体**（有时被称为**自愿组织**）是指为了特定目的（在此情况下为投资）而组建组织的两个或两个以上个人。如果一个非法人团体具有过多的公司特征，它可能会像公司一样被对待并按更高的税率纳税。
 
+
 ### Institutional accounts
 ### 机构账户
 
 Accounts setup by institutions such as banks, mutual funds, insurance companies, pension funds, hedge funds, and investment advisers are considered institutional accounts. Their role is to act as specialized investors on behalf of others.
 由银行、共同基金、保险公司、养老基金、对冲基金和投资顾问等机构设立的账户被视为机构账户。他们的角色是代表他人担任专业投资者。
+
 
 ### Partnership accounts
 ### 合伙账户
@@ -254,11 +287,13 @@ Accounts can be opened for many reasons other than to just buy and sell stocks. 
 
 ---
 
+
 ## 5. Cash or margin account
 ## 5. 现金或融资账户
 
 When one of your clients is opening a **cash account**, it means that they must pay for each trade in full. The trades are typically paid for via check or wire transfer. When a customer opens a cash account, they **cannot purchase securities on margin**.
 当您的客户开设**现金账户**时，意味着他们必须为每笔交易全额支付。交易通常通过支票或电汇支付。当客户开设现金账户时，他们**不能进行融资证券交易**。
+
 
 ### INVESTMENT ADVISERS
 ### 投资顾问
@@ -271,11 +306,13 @@ Advisers must have a **written contract** that explains to clients how and when 
 
 ---
 
+
 ## 6. Working with Margin Accounts
 ## 6. 使用融资账户
 
 Margin accounts allow customers to borrow money from a broker-dealer to purchase securities or borrow the securities themselves. This can increase their potential profit substantially but also introduces an additional degree of risk.
 融资账户允许客户从经纪交易商那里借钱购买证券，或借入证券本身。这可以大幅增加他们的潜在利润，但也带来了额外的风险。
+
 
 ### Disclosures and agreements: Getting margin paperwork out of the way
 ### 披露与协议：完成融资文书工作
@@ -295,6 +332,7 @@ Besides the margin agreement, firms can force the sale of securities in the acco
 🧠 **请记住**
 除了融资协议外，公司可以在不联系客户的情况下强制出售账户中的证券，客户不能选择清算账户中的哪些证券，且公司可以随时提高公司自定的维持保证金要求。
 
+
 ### Introducing long and short margin accounts
 ### 介绍做多和做空融资账户
 
@@ -313,6 +351,7 @@ When a customer buys securities, they can purchase the securities in a cash or m
 
 ---
 
+
 ## 7. Regulation T: Following the Fed’s rules for purchasing margin accounts
 ## 7. T 条例：遵循美联储关于融资账户购买的规则
 
@@ -324,6 +363,7 @@ Regulation T is currently set at 50 percent; however, firms may increase the **h
 🧠 **请记住**
 T 条例目前设定为 50%；然而，公司可以提高其**自定融资要求**至 55%、60% 等。除非题目另有说明，否则您应假设为 50%。T 条例不仅适用于融资账户，也适用于**现金账户**（付款延迟被视为信用延期）。
 
+
 ### Making margin call
 ### 进行追缴保证金通知
 
@@ -334,6 +374,7 @@ A **margin call** (also known as a Fed call, federal call, or Reg T call) is the
 **追缴保证金 = 当前市场价值 × Reg T （50%）**
 
 ---
+
 
 ## 8. Opening a margin account: The initial requirements
 ## 8. 开设融资账户：初始要求
@@ -350,6 +391,7 @@ When you’re taking the SIE, pay attention to the wording. Phrases like “open
 If an investor wants to open a **day trading account**, the initial margin requirement is **$25,000**, and the investor must keep at least $25,000 in equity. A **pattern day trader** is one who trades the same security on the same day at least four times in five consecutive days.
 🧠 **请记住**
 如果投资者想开设**日内交易账户**，初始融资要求为 **25,000 美元**，且投资者必须维持至少 25,000 美元的权益。**惯性日内交易者 （pattern day trader）** 是指在连续五个交易日内，对同一证券进行至少四次日内交易的人。
+
 
 ### Starting long accounts
 ### 开始做多账户
@@ -368,6 +410,7 @@ In short, here’s how much an investor has to deposit for a **long** account:
 *   $2,000 ≤ 初始购买额 ≤ $4,000：**$2,000**
 *   初始购买额 > $4,000：**Reg T （50%）**
 
+
 ### Opening short accounts
 ### 开设做空账户
 
@@ -382,6 +425,7 @@ The minimum deposit for short accounts is fairly easy to remember. The **$2,000 
 *   初始卖空额 > $4,000：**Reg T （市场价值的 50%）**
 
 ---
+
 
 ## 9. Obeying the Telephone Consumer Protection Act of 1991
 ## 9. 遵守 1991 年《电话消费者保护法》
@@ -400,6 +444,7 @@ The Telephone Act of 1991 **does not apply** to existing customers (those who ex
 1991 年《电话法》**不适用于**现有客户（指在过去 18 个月内执行过交易或持有证券的客户）或非营利组织的电话。
 
 ---
+
 
 ## 10. Testing Your Knowledge
 ## 10. 知识测试
@@ -515,6 +560,7 @@ Practice questions
     (B) John 和这两位姐妹必须平均分享账户资产。
     (C) 如果任何一位兄弟姐妹死亡，该个人的账户份额将在剩余的两位兄弟姐妹之间平分。
     (D) 死者在账户中的资产所有权受其遗嘱（如果有）或其居住州的法律管辖。
+
 
 ### Answers and explanations
 ### 答案与解释

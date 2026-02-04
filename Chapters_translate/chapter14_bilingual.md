@@ -1,4 +1,19 @@
 # Chapter 14: Securities Markets: Taking Orders and Executing Trades
+
+
+## IN THIS CHAPTER
+## 在本章内容
+
+**Understanding primary and secondary markets**
+**了解一级市场和二级市场**
+
+**Reviewing basic order types and features**
+**回顾基本订单类型和特征**
+
+**Recognizing market participants and their roles**
+**识别市场参与者及其角色**
+
+
 # 第 14 章：证券市场：接受订单与执行交易
 
 Part of your function as a registered rep will be to understand and explain to customers (and potential customers) how the stock market works. I designed this chapter with that in mind (along with the fact that you need to know this stuff for the SIE, of course).
@@ -9,11 +24,13 @@ In this chapter, I cover the basics of exchanges and the over-the-counter (OTC) 
 
 ---
 
+
 ## 1. Shopping at Primary and Secondary Markets
 ## 1. 在一级市场与二级市场购物
 
 Depending on whether the securities are new or outstanding, they trade in either the primary or secondary market.
 根据证券是新发行的还是已流通的，它们分别在一级市场或二级市场进行交易。
+
 
 ### Buying new in the primary market
 ### 在一级市场购买新股
@@ -33,6 +50,7 @@ When securities are sold in the primary market, the **bulk of the sales proceeds
 🧠 **请记住**
 当证券在一级市场出售时，**销售收益的大部分归发行人所有**，余额则归负责向公众销售证券的实体——即承销商和销售小组成员（如果有的话）。
 
+
 ### Buying used in the secondary market
 ### 在二级市场购买“二手”股
 
@@ -51,11 +69,13 @@ You’re more likely to get a question on the third or fourth market than the fi
 
 ---
 
+
 ## 2. Making the Trade
 ## 2. 执行交易
 
 After securities are issued publicly, they may trade on an exchange or on the OTC market.
 证券公开发行后，可以在交易所或场外交易 （OTC） 市场进行交易。
+
 
 ### Auctioning securities at securities exchanges
 ### 在证券交易所拍卖证券
@@ -66,6 +86,7 @@ Exchanges are **auction markets**, where bidders and sellers get together to exe
 *   All exchanges have a **trading floor**。 （所有交易所都有一个交易大厅。）
 *   Each security listed on an exchange has its own **trading post** （location） on the floor。 （在交易所上市的每种证券在大厅都有自己的交易点。）
 *   **Designated market makers （DMMs）** （formerly specialists）： These professionals manage the auction market for a particular security。 Their purpose is to maintain a **“fair and orderly market。”** A DMM can act as a broker or a dealer。 An important function of a DMM is to keep track of and execute **limit orders**。 （**指定做市商 （DMMs）**（原名特种商）：这些专业人士管理特定证券的拍卖市场。他们的目的是维持**“公平且有序的市场”**。DMM 既可以作为经纪人，也可以作为自营商。DMM 的一个重要功能是记录并执行**限价单**。）
+
 
 ### Negotiating trades over the counter
 ### 在场外协商交易
@@ -83,6 +104,7 @@ Unlike exchanges, the OTC market is considered a **negotiated market**. Instead 
 
 ---
 
+
 ## 3. Understanding the Role of a Broker-Dealer
 ## 3. 理解经纪自营商的角色
 
@@ -97,6 +119,7 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 🧠 **请记住**
 公司**不能在同一笔交易中同时充当经纪人和自营商**。在同一笔交易中同时收取加价和佣金是违规行为。
 
+
 ### Other Broker-Dealer Roles
 ### 其他经纪自营商角色
 
@@ -107,6 +130,7 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 *   **Prime broker**: Used mainly by institutional accounts or large retail clients. They provide services such as lending, leveraged trade execution, and cash management, and help combine info from multiple firms into one statement.
 *   **主经纪商 (Prime broker)**：主要由机构账户或大型零售客户使用。他们提供借贷、杠杆交易执行和现金管理等服务，并帮助将来自多家公司的信息整合到一份报表中。
 
+
 ### Depository Trust and Clearing Corporation (DTCC)
 ### 存管信托与清算公司 (DTCC)
 
@@ -115,6 +139,7 @@ The **DTCC** provides safeguards to the world’s financial markets. It provides
 
 ---
 
+
 ## 4. Receiving and Executing Customer Orders
 ## 4. 接收并执行客户订单
 
@@ -122,6 +147,7 @@ The **DTCC** provides safeguards to the world’s financial markets. It provides
 **Unlicensed associated persons** cannot receive or execute orders for customers. In order to discuss investment objectives or take orders, the person must be **licensed**.
 🧠 **请记住**
 **未经许可的关联人员**不能接收或执行客户订单。为了讨论投资目标或接受订单，该人员必须**持有执照**。
+
 
 ### Reviewing basic order types
 ### 回顾基本订单类型
@@ -146,6 +172,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 
 ---
 
+
 ## 5. Factoring in order features
 ## 5. 考虑订单特征
 
@@ -158,6 +185,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 
 ---
 
+
 ## 6. Recognizing Different Types of Investors
 ## 6. 识别不同类型的投资者
 
@@ -168,8 +196,10 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 ---
 
 
+
 ## 7. Testing Your Knowledge
 ## 7. 知识测试
+
 
 ### Practice questions
 ### 练习题
@@ -252,6 +282,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    **8. 不限时订单（not-held order）赋予经纪人关于以下哪方面的裁量权？**
    (A) 交易哪种证券 (B) 证券交易的时间 (C) 买入、卖出还是卖空证券 (D) 以上所有
 
+
 ### Answers and explanations
 ### 答案与解析
 
@@ -278,6 +309,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 
 8. **B.** Not-held (NH) orders only give the broker discretion over the **timing** and **price** of the execution.
    **8. B.** 不限时（NH）订单仅赋予经纪人对执行的**时间**和**价格**的裁量权。
+
 
 ### Additional Practice Questions
 ### 补充练习题
@@ -355,6 +387,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (B) 与公司的现有客户讨论特定投资的利弊
     (C) 将开户表格转发给新客户
     (D) 在将潜在客户移交给持牌注册代表之前，与客户讨论投资目标
+
 
 ### Additional Answers
 ### 补充答案

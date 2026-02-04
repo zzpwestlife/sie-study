@@ -1,4 +1,19 @@
 # Chapter 10: Working with Direct Participation Programs (DPPs) and REITs
+
+
+## IN THIS CHAPTER
+## 在本章内容
+
+**Understanding DPPs and limited partnerships**
+**了解 DPPs 和有限合伙企业**
+
+**Recognizing REIT characteristics and risks**
+**识别 REIT 的特征和风险**
+
+**Evaluating tax implications of direct participation programs**
+**评估直接参与计划的税务影响**
+
+
 # 第 10 章：直接参与计划 （DPPs） 与房地产投资信托基金 （REITs）
 
 Direct participation programs (DPPs) can raise money to invest in real estate, oil and gas, equipment leasing, and so on. More commonly known as **limited partnerships**, these businesses are somewhat similar to corporations (stockholder-owned companies). Limited partnerships, however, have some specific tax advantages (and disadvantages) that a lot of other investments don't have. According to tax laws, limited partnerships **aren't taxed directly**; the income or losses are **passed directly through** to the investors.
@@ -11,6 +26,7 @@ In this chapter, I explain the differences between limited and general partners,
 在本章中，我将解释有限合伙人和普通合伙人之间的区别，以及合伙企业的类型、它们的特殊风险及潜在回报。这里的信息可以帮助您审视这些风险与回报，并确定 DPP 对投资者的适用性。我还将解释适用于合伙企业的两个不可避免的生活事实：文件的归档和税款的支付。最后，我将解释关于**房地产投资信托基金 （REITs）** 的细节和您需要了解的一些具体信息。与投资于证券池的共同基金不同，REITs 投资于房地产。如果您等不及了，它们将在本章末尾进行讨论。在最后，我将通过一个简短的章节测验来测试您的知识。
 
 ---
+
 
 ## 1. Searching for Identity: What DPPs Are (and Aren't)
 ## 1. 寻找身份：DPPs 是（及不是）什么
@@ -35,6 +51,7 @@ For SIE exam purposes, you need to remember that the easiest corporate character
 
 ---
 
+
 ## 2. The DPP Characters: General and Limited Partners
 ## 2. DPP 中的角色：普通合伙人与有限合伙人
 
@@ -44,7 +61,8 @@ By law, limited partnerships require at least one limited partner and one genera
 General partners are responsible for the day-to-day decision-making (overseeing operations, deciding when to buy or sell, choosing what to invest in, and so on) for the partnership. Limited partners (the investors) provide the bulk of the money for the partnership but, unlike general partners, they can't make any of the partnership's investment decisions. Table 10-1 lays out the key things to remember about general and limited partners for the SIE.
 普通合伙人负责合伙企业的日常决策（监督运营、决定何时买卖、选择投资对象等）。有限合伙人（投资者）为合伙企业提供大部分资金，但与普通合伙人不同，他们不能做出任何合伙企业的投资决策。表 10-1 列出了关于 SIE 考试中普通合伙人和有限合伙人的关键记忆点。
 
-### TABLE 10-1: Comparing General and Limited Partners
+
+#### TABLE 10-1: Comparing General and Limited Partners
 ### 表 10-1：普通合伙人与有限合伙人对比
 
 | Category （类别） | General Partners （普通合伙人） | Limited Partners （有限合伙人） |
@@ -61,10 +79,12 @@ Partnerships are usually set up as **tenants in common (TIC)**. Each limited par
 
 ---
 
+
 ## 3. Pushing through Partnership Paperwork
 ## 3. 推进合伙企业文书工作
 
 For the SIE exam, you need to know about certain paperwork that's specific to limited partnerships. In the following sections, I discuss the three documents necessary for a limited partnership to exist.
+
 
 ### Partnership agreement
 ### 合伙协议
@@ -76,6 +96,7 @@ The **partnership agreement** is a document that includes the rights and respons
 *   Enter the partnership into contracts （代表合伙企业签署合同）
 *   Decide whether cash distributions will be made to the limited partners （决定是否向有限合伙人进行现金分配）
 *   Accept or decline limited partners （接受或拒绝有限合伙人）
+
 
 ### Certificate of limited partnership
 ### 有限合伙证明书
@@ -92,6 +113,7 @@ The **certificate of limited partnership** is the legal agreement between the ge
 
 If any significant changes are made to the partnership, such as adding new limited partners, the certificate of limited partnership must be amended accordingly.
 如果合伙企业发生了任何重大变动（例如增加新的有限合伙人），必须相应地修改有限合伙证明书。
+
 
 ### Subscription agreement
 ### 认购协议
@@ -112,6 +134,7 @@ Also, you need to review the agreement to ensure (to the best of your ability) t
 
 ---
 
+
 ## 4. Passive Income and Losses: Looking at Taxes on Partnerships
 ## 4. 被动收入与亏损：审视合伙企业的税务
 
@@ -124,6 +147,7 @@ The key thing to remember for SIE purposes is that investors can write off passi
 在 SIE 考试中要记住的关键一点是：投资者只能用被动损失**抵销来自其他 DPP 投资的被动收入**。
 
 ---
+
 
 ## 5. Evaluating DPPs
 ## 5. 评估 DPPs
@@ -141,6 +165,7 @@ Certainly, direct participation programs provide some advantages, but they also 
 
 ---
 
+
 ## 6. Checking Out Types of Partnerships
 ## 6. 了解合伙企业的类型
 
@@ -150,6 +175,7 @@ Partnerships can be formed to run just about any sort of business that you can i
 Because of the risks associated with some types of DPPs, investors should have the ability to tie up their money for a long period of time and be able to recover from a loss of all the money invested in case the partnership never becomes profitable.
 🧠 **请记住**
 由于某些类型的 DPP 相关的风险，投资者应该有能力长期占用资金，并且能够在合伙企业从未盈利的情况下，承受损失所有投资资金的后果。
+
 
 ### Building on real-estate partnership info
 ### 深入了解房地产合伙企业信息
@@ -175,6 +201,7 @@ The main thing to remember with real-estate DPPs is that depending on which type
 💡 **提示**
 关于房地产 DPP，最需要记住的是：根据您投资的类型，它们可以提供通过持有房产增值实现的资本增长潜力；持有出租物业的 DPP 的现金流；抵押贷款利息、折旧和资本改良的税收抵扣；以及持有政府资助住房的 DPP 的税收抵免。
 
+
 ### Gearing up with equipment leasing
 ### 装备起来：设备租赁
 
@@ -189,6 +216,7 @@ Although you may be tested on equipment leasing programs on the SIE exam, it's t
 The main thing to remember about equipment leasing is that the **operating lease is riskier**, because the equipment becomes less valuable or outdated over time and, therefore, less rentable.
 🧠 **请记住**
 关于设备租赁最需要记住的是：**营运租赁风险更高**，因为设备会随着时间的推移而贬值或过时，从而导致更难租出。
+
 
 ### Strengthening your grasp on oil and gas
 ### 强化掌握石油和天然气
@@ -215,7 +243,8 @@ Depletion deductions are only for DPPs that deal with natural resources. On the 
 
 When investing in oil, partnerships can pioneer new territory, drill near existing wells, buy producing wells, or try a combination of those methods. For SIE-exam purposes, exploratory programs are the riskiest oil and gas DPPs because oil may never be found, and income programs are the safest oil and gas DPPs. To make your life easier (I hope), I've composed a DPP comparison chart (see Table 10-2) to help you focus on the main points of each type of oil and gas DPP.
 
-### TABLE 10-2: Advantages and Risks of Various Oil and Gas DPPs
+
+#### TABLE 10-2: Advantages and Risks of Various Oil and Gas DPPs
 ### 表 10-2：各种石油和天然气 DPP 的优势与风险
 
 | Type （类型） | Objective （目标） | Advantages （优势） | Risks （风险） |
@@ -243,6 +272,7 @@ Unlike corporations, DPPs have an ending date. That date could be predetermined 
 与公司不同，DPP 有终止日期。该日期可以是合伙协议中预先确定的日期，也可以是项目完成时（例如建筑完工并售出、发现石油且土地售出、设备售出等），或者是有限合伙人投票解散合伙企业时。当合伙企业解散时，合伙资产的首批偿付对象是**有担保债权人**；然后偿付**一般债权人**；接着偿付**有限合伙人**；最后偿付的是**普通合伙人**。
 
 ---
+
 
 ## 7. Reducing Real-Estate Risk with REITs
 ## 7. 通过 REITs 降低房地产风险
@@ -285,6 +315,7 @@ Don't kill yourself worrying too much about REITs (not that you would); you won'
 不要在 REIT 上花费太多精力（虽然您可能也不会）；在 SIE 考试中，您不会遇到超过一两个关于 REIT 的问题。
 
 ---
+
 
 ## 8. Testing Your Knowledge
 ## 8. 知识测试
@@ -350,7 +381,9 @@ Practice questions (Original English Only)
     I. Equity REITs II. Mortgage REITs III. Hybrid REITs
     (A) I and III (B) II and III (C) I and II (D) I, II, and III
 
+
 ### Answers and explanations
+### Answers And Explanations [需要翻译]
 
 1.  **C.** REITs are a one-time offering of securities, and after the IPO, they must be purchased and sold in the market. They're not redeemed with the issuer, like mutual funds.
 2.  **A.** A limited partnership must file a certificate of limited partnership with the SEC before making a public offering.

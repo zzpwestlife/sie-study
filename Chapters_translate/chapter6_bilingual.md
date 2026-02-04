@@ -1,4 +1,19 @@
 # Chapter 6: Equity Securities: Corporate Ownership
+
+
+## IN THIS CHAPTER
+## 在本章内容
+
+**Identifying the characteristics of common and preferred stock**
+**识别普通股和优先股的特征**
+
+**Understanding stockholder rights and privileges**
+**了解股东的权利和特权**
+
+**Recognizing different classes of stock**
+**识别不同类别的股票**
+
+
 # 第 6 章：权益证券：公司所有权
 
 Equity securities — such as common and preferred stock — represent ownership interest in the issuing corporation. All publicly held corporations issue common stock to investors. Investors love these securities because they've historically outperformed most other investments, so an average (or above-average, in your case) stockbroker typically sells more of these types of securities than any other kind.
@@ -11,6 +26,7 @@ At the end of this chapter, you can find some equity security questions to reinf
 在本章末尾，您可以找到一些权益证券的问题，以强化本章所涵盖的内容。这一部分是您大显身手的地方。
 
 ---
+
 
 ## 1. Beginning with the Basics: Common Stock
 ## 1. 从基础开始：普通股
@@ -39,6 +55,7 @@ Common and preferred stockholders would get paid after the creditors (if there's
 
 ---
 
+
 ## 2. Understanding a shareholder's voting rights
 ## 2. 了解股东的投票权
 
@@ -51,6 +68,7 @@ When investors have voting rights, every so often a corporation may have those i
 Because having all stockholders attend the annual corporate meeting to vote would be difficult, stockholders usually vote by **proxy** — absentee ballot, in other words. (See "Proxies: Voting by mail" later in this chapter.)
 由于让所有股东都参加年度公司会议进行投票会很困难，股东通常通过**代理投票 （proxy）** 进行投票——换句话说，就是缺席投票。（见本章后面的“代理人：邮寄投票”。）
 
+
 ### Statutory (regular) voting
 ### 法定投票（常规投票）
 
@@ -59,6 +77,7 @@ Statutory, or regular, voting is the most common type of voting that corporation
 
 If an investor owns 500 shares (and decides to vote), and four positions need to be filled on the board of directors, the investor has a total 2,000 votes (500 × 4), which the investor must split evenly among all open positions (500 each). The investor votes yes or no for each candidate.
 如果一名投资者持有 500 股（并决定投票），且董事会有四个席位需要填补，则该投资者总共有 2,000 票（500 × 4），投资者必须将这些票数平均分配到所有开放的席位中（每个席位 500 票）。投资者对每个候选人投赞成或反对票。
+
 
 ### Cumulative voting
 ### 累积投票
@@ -92,6 +111,7 @@ The answer you're looking for is (D). Cumulative voting allows investors to spli
 （D） 以上皆是
 您要找的答案是 （D）。累积投票允许投资者以任何方式分配他们的选票。在这种情况下，持有 1,000 股 DEF 普通股并为四名董事会成员投票的股东总共拥有 4,000 票（1,000 股 × 4 个董事会席位）。因此，（A）、（B） 和 （C） 都是可能的选择。而在法定投票下，投资者唯一的投票方式是 （A）。
 
+
 ### Proxies: Voting by mail
 ### 代理人：邮寄投票
 
@@ -105,6 +125,7 @@ A **proxy fight** or **proxy battle** is an unfriendly event that occurs when a 
 **代理权争夺 （proxy fight/battle）** 是一种不友好的事件，发生在一组公司股东决定共同投票以获得公司控制权时。这种情况通常发生在股东对公司的运营方式不满意时。通常，他们试图更换董事会成员或管理层人员。
 
 ---
+
 
 ## 3. Categorizing shares corporations can sell
 ## 3. 公司可售股份的分类
@@ -140,6 +161,7 @@ DEF 公司拥有 20,000,000 股授权股票。DEF 已发行 15,000,000 股，此
 
 ---
 
+
 ## 4. Understanding stock dividends and stock splits
 ## 4. 了解股票股息和股票拆分
 
@@ -170,6 +192,7 @@ Alyssa H. 拥有 400 股 XYZ 普通股，每股 33 美元。XYZ 此前宣布了 
 
 答案是 （D）。Alyssa 获得 10% 的股票股息，因此她收到 10% 更多的股票（400 × 10% = 40 股额外股票），使她的总股数达到 440 股。要找到新价格，请将原始总价值（13,200 美元）除以新股数（440），等于每股 30 美元。
 
+
 ### Forward and reverse stock splits
 ### 正向和反向股票拆分
 
@@ -183,10 +206,13 @@ Adjustments to the **cost basis** are important for tax purposes when determinin
 
 ---
 
+
 ## 5. Getting Preferential Treatment: Preferred Stock
 ## 5. 获得优惠待遇：优先股
 股票证券代表公司的所有权份额，而债务证券代表……好吧，债务。（有关债务证券的信息，请参见第 7 章和第 8 章。）虽然**优先股 （preferred stock）**（有时称为 preferreds）兼具股票和债务证券的一些特征，但优先股是一种股票证券，因为它像普通股一样代表发行公司的所有权。
 
+
+### Considering the Characteristics of Preferred Stock
 ### 考虑优先股的特征
 购买优先股而非普通股的一个优势是，如果发行人重组，优先股股东在普通股股东之前收回资金（如果有剩余的话）。然而，优先股和普通股之间的主要区别在于股息。普通股发行人通常只有在公司有能力根据董事会的投票分享公司利润时才支付现金股息。相比之下，优先股发行人通常支付持续的现金股息。如果公司的利润滞后或亏损，它们可能会减少或停止支付股息。优先股的面值通常为每股 100 美元（尽管也可能是 50 美元、25 美元等），并且在市场上的交易价格往往比普通股更接近其面值。
 
@@ -203,6 +229,8 @@ Adjustments to the **cost basis** are important for tax purposes when determinin
 
 在处理优先股的股息问题时，您需要在问题中寻找面值。面值通常为 100 美元，但也可能是 25 美元、50 美元等。
 
+
+### Familiarizing Yourself with Types of Preferred Stock
 ### 熟悉优先股的类型
 您需要了解 Series 7 的几种优先股类型。本节为您简要解释这些类型。有些优先股可能是类型的组合，如累积可转换优先股。以下是非累积和累积优先股之间的区别：
 
@@ -231,10 +259,13 @@ $8 （当年） + $2 （第一年欠款） + $4 （第二年欠款） = $14
 *   **优先（高级）优先股 （Prior (senior) preferred）：** 在公司破产的情况下，普通的优先股股东在普通股股东之前获得赔偿。然而，高级优先股股东甚至在其他优先股股东之前获得赔偿。由于额外的安全因素，高级优先股支付的股息略低于同一发行人的其他优先股。
 *   **可调整（可变或浮动）利率优先股 （Adjustable (variable- or floating-rate) preferred）：** 可调整优先股的持有人收到的股息每三个月重置一次，以匹配现行利率的变动。由于股息根据利率变化进行调整（通常基于某个基准，如国库券利率），股票价格保持更稳定。
 
-## 5. 特殊证券
+
+## 6. Special Securities
+## 6. 特殊证券
 
 Some securities fall outside the boundaries of the more normal common and preferred stock, but I still include them in this equities chapter because they involve ownership in a company or the opportunity to get it. This section gives you an overview of those special securities.
 有些证券超出了常规普通股和优先股的范畴，但我仍然将它们包含在这个权益章节中，因为它们涉及公司所有权或获得公司所有权的机会。本节将为您概述这些特殊证券。
+
 
 ### Opening national borders: ADRs
 ### 开启国界：ADRs（美国存托凭证）
@@ -248,6 +279,7 @@ In many cases, ADR investors don't have voting privileges because the shares are
 In addition to the risks associated with stock ownership in general, ADR owners are subject to **currency risk** — the risk that the value of the security may decline because the value of the currency of the issuing corporation may fall in relation to the U.S. dollar.
 除了与股票所有权相关的一般风险外，ADR 持有者还面临**货币风险 （currency risk）**——即由于发行公司的货币价值相对于美元下跌，导致证券价值可能下降的风险。
 
+
 ### Rights: The right to buy new shares at a discount
 ### 认股权：以折扣价购买新股的权利
 
@@ -259,6 +291,7 @@ Stockholders receive one right for each share they own. The rights are short-ter
 
 For the SIE exam, you can assume that common stockholders automatically receive rights.
 对于 SIE 考试，您可以假设普通股股东自动获得认股权。
+
 
 ### Warrants: The right to buy shares of stock at a fixed price
 ### 认股权证：以固定价格购买股票的权利
@@ -275,8 +308,9 @@ Suppose that QRS warrants give investors the right to buy QRS common stock at $2
 On the SIE exam, both rights and warrants may be referred to as **derivative securities** because their value is derived from the value of an underlying security (common stock of the issuer).
 在 SIE 考试中，认股权和认股权证都可能被称为**衍生证券 （derivative securities）**，因为它们的价值源自标的证券（发行人的普通股）的价值。
 
-## 6. Practice Questions
-## 6. 练习题
+
+## 7. Practice Questions
+## 7. 练习题
 
 1.  Common stockholders have the right to vote for which of the following?
     普通股股东有权对以下哪项进行投票？
@@ -338,6 +372,7 @@ On the SIE exam, both rights and warrants may be referred to as **derivative sec
     (B) I, III, and IV only
     (C) I, II, and IV only
     (D) I, II, III, and IV
+
 
 ## Answers
 ## 答案

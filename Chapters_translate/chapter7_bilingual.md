@@ -1,4 +1,19 @@
 # Chapter 7: Debt Securities: Corporate and U.S. Government Loans
+
+
+## IN THIS CHAPTER
+## 在本章内容
+
+**Understanding bond terminology and characteristics**
+**了解债券术语和特征**
+
+**Differentiating between corporate and U.S. government bonds**
+**区分公司债券和美国政府债券**
+
+**Calculating bond yields and prices**
+**计算债券收益率和价格**
+
+
 # 第 7 章：债务证券：公司与美国政府贷款
 
 Instead of giving up a portion of their company (via stock sales), corporations can borrow money from investors by selling bonds. Local governments (through municipal bonds; see Chapter 8) and the U.S. government also issue bonds. For SIE exam purposes, most bonds from the same issuer are considered to be safer than stocks.
@@ -12,11 +27,13 @@ SIE 考试会测试您对已发行债券类型、所用术语以及（没错）�
 
 ---
 
+
 ## 1. Tackling Bond Terms, Types, and Traits
 ## 1. 攻克债券术语、类型和特征
 
 Before you delve deeper into bonds, make sure that you have a good handle on the basics. Understanding bond basics is a building block that can make all the rest of the bond stuff easier. In this section, I first review basic bond terminology and then move on to some bond characteristics.
 在深入研究债券之前，请确保您已经很好地掌握了基础知识。理解债券基础是基石，可以让所有其他的债券知识变得更容易。在本节中，我首先回顾基本的债券术语，然后讨论一些债券特征。
+
 
 ### Covering bond terminology
 ### 涵盖债券术语
@@ -71,6 +88,7 @@ Melissa 购买了 100 张面值为 1,000 美元的债券（记住您可以假设
 100 张债券 × $1,000 面值 × 7.5% = $7,500.00
 如果问题问的是半年利息，选项 （C） 才是正确的。
 
+
 ### Following bond issue and maturity schedules
 ### 遵循债券发行和到期计划
 
@@ -94,6 +112,7 @@ The SIE exam focuses mainly on term and serial bonds. A typical SIE exam questio
 SIE 考试主要侧重于定期债券和分期偿还债券。一个典型的 SIE 考试问题可能会问：“以下哪种类型的债券最有可能设有偿债基金？”答案是定期债券；因为这类债券的整个发行只有一到期日，因此需要发行人在同一时间支付大量资金。
 
 ---
+
 
 ## 2. Comparing secured and unsecured bonds
 ## 2. 比较有担保和无担保债券
@@ -143,6 +162,7 @@ When you're comparing short-term and long-term debt securities, short-term bonds
 
 ---
 
+
 ## 3. Making Basic Bond Price and Yield Calculations
 ## 3. 进行基础债券价格和收益率计算
 
@@ -163,11 +183,13 @@ The relationship between outstanding bond prices and yields is an **inverse (opp
 As a side note, when an investor sells their bonds between coupon dates, they're entitled to **accrued interest**. Suppose that this investor owned a bond paying $20 interest every 6 months. If they sold that bond halfway between coupon dates, they'd be entitled to receive $10 from the purchaser on top of the selling price. Calculations for accrued interest (broken down on a daily basis) aren't part of the SIE exam but are covered in detail in some of the top-off exams, such as the Series 7.
 顺便提一下，当投资者在付息日之间出售债券时，他们有权获得**应计利息 （accrued interest）**。假设这位投资者拥有一张每 6 个月支付 20 美元利息的债券。如果他们在两个付息日的中点出售该债券，他们有权在售价之外，从购买者那里获得 10 美元的利息。应计利息的计算（分解到每一天）不属于 SIE 考试的内容，但在 Series 7 等进阶考试中会有详细介绍。
 
+
 ### Nominal yield (coupon rate)
 ### 名义收益率（票面利率）
 
 The **nominal yield (NY)** is the easiest yield to understand because it's the coupon rate on the face of the bonds. For exam purposes, you can assume that the coupon rate will remain fixed for the life of a bond. If you have a 5 percent bond, the bond will pay $50 per year interest (5% × $1,000 par value) for the life of the bond. When a problem states that a security is a 5 percent (or 6 percent or whatever) bond, it's giving the nominal yield.
 **名义收益率 （NY）** 是最容易理解的收益率，因为它是债券票面上的利率。出于考试目的，您可以假设在债券的整个有效期内，票面利率保持不变。如果您有一张 5% 的债券，该债券在有效期内每年将支付 50 美元的利息（5% × 1,000 美元面值）。当题目说某种证券是 5%（或 6% 或其他）债券时，给出的就是名义收益率。
+
 
 ### Current yield
 ### 当期收益率
@@ -197,6 +219,7 @@ Monique Moneybags 以 105 的报价购买了一张 XYZ 可转换抵押债券。�
 🧠 **请记住**
 “无法确定”虽然很有诱惑力，但在 SIE 考试中几乎永远不是正确答案。
 
+
 ### Yield to maturity (basis)
 ### 到期收益率（基准）
 
@@ -220,17 +243,20 @@ Accretion and amortization (the adjustment of the bond price toward par over the
 💡 **提示**
 折价摊销 （Accretion） 和溢价摊销 （Amortization）（即在债券到期前，将债券价格向面值方向进行的调整），如上述等式所示，在 SIE 考试中并不考查，但您需要在某些进阶考试中学会计算它们。（**折价摊销**用于以低于面值的价格购买债券时，**溢价摊销**用于以高于面值的价格购买债券时。）上述等式应该能帮助您直观地理解 YTM 是如何运作的。
 
+
 ### Yield to call
 ### 赎回收益率
 
 The **yield to call (YTC)** is the amount that the investor receives if the bond is called by the issuer prior to maturity, which requires the bondholders to surrender their bonds for par value and sometimes above. The calculations are similar to those for the YTM (see the preceding section), but you substitute the call price for the par value. Your chances of needing to know this on the SIE exam are even more remote than those of needing the YTM calculations.
 **赎回收益率 （YTC）** 是指如果债券在到期前被发行人赎回，投资者所获得的收益。赎回要求债券持有人交回债券以换取面值（有时高于面值）。计算方法与 YTM 类似（见前一节），但您需要将赎回价格替换为面值。在 SIE 考试中考到这个知识点的可能性，比考到 YTM 计算还要渺茫。
 
+
 ### Yield to worst
 ### 最差收益率
 
 To determine the **yield to worst (YTW)**, you have to calculate the yield to maturity and YTC for all the call dates (if there's more than one) and choose the lowest. If you get a question on YTW, knowing the definition should be enough to get you by.
 要确定**最差收益率 （YTW）**，您必须计算所有赎回日期（如果有一个以上）的到期收益率和 YTC，并选择其中最低的一个。如果您遇到关于 YTW 的问题，了解其定义应该就足够应付了。
+
 
 ### Total return
 ### 总回报
@@ -243,11 +269,13 @@ The **total return** calculates the full return on a particular investment over 
 3.  Add the interest or dividends to the selling price. （将利息或股息加到售价中。）
 4.  Divide that number by the initial cost of the investment and subtract 1. （将该数值除以投资的初始成本，然后减去 1。）
 
+
 ### Basis point
 ### 基点
 
 A **basis point** is one of the easier calculations. Basis points are typically used in the bond market, mutual funds, and exchange-traded funds (ETFs). Basis points are simply 1/100th of a percent. If the yield on a Treasury bond (T-bond) lowers 1.2 percent to 1.1 percent, it is said to have moved ten basis points. Also, when comparing expenses on a fund (see Chapter 9), people often refer to the fund expenses by basis points. If you're comparing two funds, one fund's expenses might be 0.15 percent and the other's 0.13 percent for a difference of 0.02 percent or two basis points.
 **基点 （Basis point）** 是比较简单的计算之一。基点通常用于债券市场、共同基金和交易所交易基金 （ETFs）。基点就是百分之一的百分之一（即 0.01%）。如果国债 （T-bond） 的收益率从 1.2% 下降到 1.1%，就说它变动了 10 个基点。此外，在比较基金费用时（见第 9 章），人们经常用基点来指代基金费用。如果您正在比较两个基金，一个基金的费用可能是 0.15%，另一个是 0.13%，差额为 0.02%，即 2 个基点。
+
 
 ### Accrued interest
 ### 应计利息
@@ -262,11 +290,13 @@ Although you won't be required to calculate accrued interest when taking the SIE
 
 ---
 
+
 ## 4. Determining the Best Investment: Comparing Corporate Bonds
 ## 4. 确定最佳投资：比较公司债券
 
 As you grind your way through SIE exam questions, you may be asked to determine the best investment for a particular investor. You need to look at the question carefully for clues to help you choose the correct answer. (Is the investor looking for safety, for example, or is the investor close to retirement?) Consider several factors, including credit rating, callable and put features, and convertible features. Certainly, the investor's investment objectives (if stated) have to take center stage.
 当您在 SIE 考试题目中摸爬滚打时，您可能会被要求为特定的投资者确定最佳投资。您需要仔细审题，寻找线索以帮助您选择正确答案。（例如，投资者是在追求安全性，还是即将退休？）考虑多个因素，包括信用评级、赎回和回售特征以及转换特征。当然，投资者的投资目标（如果已说明）必须放在首要位置。
+
 
 ### Considering bond credit ratings
 ### 考虑债券信用评级
@@ -277,7 +307,8 @@ The institutions that rate bonds are most interested in the likelihood of **defa
 The two main bond credit rating companies are **Moody's** and **Standard & Poor's (S&P)**. S&P ratings of **BB and lower** and Moody's ratings of **Ba and lower** are considered to be **junk bonds** or **high-yield bonds**, which have a higher likelihood of default, as Table 7-1 explains. (Another credit rating service, called **Fitch**, uses the same rating symbols as S&P.) Note: Different sources may show some slight variations in how S&P and Moody's ratings compare, but the relationships shown here are the most common.
 两家主要的债券信用评级公司是**穆迪 （Moody's）** 和**标准普尔 （S&P）**。标普评级在 **BB 及以下**、穆迪评级在 **Ba 及以下** 的债券被认为是**垃圾债券 （junk bonds）** 或**高收益债券 （high-yield bonds）**，如表 7-1 所示，这些债券发生违约的可能性较高。（另一家名为**惠誉 （Fitch）** 的评级机构使用与标普相同的评级符号。）注：不同的资料来源在标普和穆迪评级的对比上可能显示出细微的差异，但这里显示的关系是最通用的。
 
-### TABLE 7-1: Bond Credit Ratings (by Quality)
+
+#### TABLE 7-1: Bond Credit Ratings (by Quality)
 ### 表 7-1：债券信用评级（按质量划分）
 
 | Quality （质量） | S&P | Moody's |
@@ -310,6 +341,7 @@ The correct answer is (D). When you're answering this type of question, always l
 I. A+ II. AA III. A– IV. BBB+
 (A) I, II, III, IV (B) I, III, II, IV (C) IV, I, II, III (D) II, I, III, IV
 正确答案是 （D）。在回答这类问题时，一定要先看字母。只有当两个选项的字母相同时，加号或减号才会起作用，如陈述 I 和 III。最高级别的选择是 AA，接着是 A+（因为它高于 A–），而 A– 又高于 BBB+。
+
 
 ### Contrasting callable and putable (put) bonds
 ### 赎回债券与回售债券的对比
@@ -351,6 +383,7 @@ The correct answer is (B). Being adaptable when taking the SIE exam can certainl
 You can assume for SIE exam purposes that if interest rates increase, bond yields increase.
 🧠 **请记住**
 就 SIE 考试而言，您可以假设：如果利率上升，债券收益率就会上升。
+
 
 ### Popping the top on convertible bonds
 ### 拆解可转换债券
@@ -394,6 +427,7 @@ ABCD 可转换债券可以转换为 25 股普通股。如果该股票的交易�
 
 ---
 
+
 ## 5. Exploring U.S. Government Securities
 ## 5. 探索美国政府证券
 
@@ -411,13 +445,15 @@ With government bonds, you use some of the same types of calculations you use fo
 💡 **提示**
 对于政府债券，您可以使用与公司债券相同的一些计算方法。
 
+
 ### Understanding the types of U.S. government securities
 ### 了解美国政府证券的类型
 
 Table 7-2 gives you an overview of types of U.S. government securities and their specifics. Memorize all the information in the following table so that you can ace U.S. government securities questions on the SIE exam. Individual investors can purchase U.S. government securities directly through www.treasurydirect.gov, through a bank, or through a broker. The securities are issued in electronic form, so investors don't receive the actual bond certificate.
 表 7-2 为您概述了美国政府证券的类型及其详情。请背下下表中的所有信息，以便在 SIE 考试中轻松应对美国政府证券的问题。个人投资者可以直接通过 www.treasurydirect.gov、银行或经纪人购买美国政府证券。这些证券以电子形式发行，因此投资者不会收到实物债券凭证。
 
-### TABLE 7-2: U.S. Government Securities and Time until Maturity
+
+#### TABLE 7-2: U.S. Government Securities and Time until Maturity
 ### 表 7-2：美国政府证券及到期时间
 
 | Security （证券） | Initial Maturity （初始期限） | Characteristics （特征） |
@@ -435,6 +471,7 @@ Table 7-2 gives you an overview of types of U.S. government securities and their
 For the SIE exam, keep in mind that the interest received on U.S. government securities is **exempt from state and local taxes**. The interest received on municipal bonds is exempt from federal taxes (although I get into that topic a little more in Chapter 8). Chapter 15 gives you the scoop on taxes.
 🧠 **请记住**
 在 SIE 考试中，请记住：美国政府证券收到的利息**免除州和地方税**。而市政债券收到的利息则免除联邦税（尽管我将在第 8 章详细讨论这个话题）。第 15 章为您提供了关于税收的详细信息。
+
 
 ### Looking at agency securities
 ### 查看机构证券
@@ -459,6 +496,7 @@ Certain mortgage-backed securities are susceptible to **reinvestment risk** beca
 某些抵押贷款支持证券 （MBS） 容易受到**再投资风险**的影响，因为当利率下降时，许多房主会进行再融资（**提前还款风险**）。在这种情况下，MBS 持有人收回资金的时间比预期的早，并且只能以较低的利率进行再投资。此外，如果利率保持不变或上升，房主就不会那么频繁地进行再融资，MBS 持有人最终可能不得不持有投资比预期更长的时间（**展期风险**）。
 
 ---
+
 
 ## 6. Playing It Safe: Short-Term Loans or Money Market Instruments
 ## 6. 稳健投资：短期贷款或货币市场工具
@@ -504,10 +542,12 @@ Word association can help you here. If you see importing, exporting, or time-dra
 
 ---
 
+
 ## 7. Testing Your Knowledge
 ## 7. 知识测试
 
 Now that you've discovered what you need to know about corporate and U.S. debt securities as far as the SIE exam goes, it's time to try some additional questions (besides the ones within the chapter). Read carefully so that you don't make any careless mistakes.
+
 
 ### Practice questions
 ### 练习题
@@ -639,6 +679,7 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
     (B) Asset-backed securities
     (C) Corporate callable bonds
     (D) Industrial development bonds
+
 
 ### Answers and explanations
 ### 答案与解析

@@ -1,3 +1,24 @@
+# Part 3: Packaged Securities and Managed Money
+# 第 3 部分：组合证券与受托理财
+
+---
+
+
+## IN THIS PART . . .
+## 在本部分中 . . .
+
+**Discover how packaged securities such as mutual funds, closed-end funds, and annuities offer built-in diversification.**
+**发现共同基金、封闭式基金和年金等组合证券如何提供内置的多样化。**
+
+**Explore the benefits and risks of exchange-traded funds (ETFs) and other nonpackaged securities.**
+**探索交易所交易基金（ETF）和其他非组合证券的益处与风险。**
+
+**Master the fundamentals of options — puts, calls, and the strategies that use them.**
+**掌握期权的基础知识——看跌期权、看涨期权及其策略。**
+
+---
+
+
 # Chapter 9: Delivering Diversification with Packaged Securities
 # 第 9 章：通过组合证券实现多样化
 
@@ -8,6 +29,7 @@ In this chapter, I cover topics relating to investment companies and annuities. 
 在本章中，我将涵盖与投资公司和年金相关的主题。开放式（共同）基金和封闭式基金只是开始。我还将讨论面值证单公司和信托（如单位投资信托）。我还会为您介绍人寿保险产品，并在章末通过一个小测验来总结全文。
 
 ---
+
 
 ## 1. Looking at Investment Company Registration
 ## 1. 审视投资公司注册
@@ -24,6 +46,7 @@ As with other nonexempt securities, investment companies must register with the 
 *   The business experience of each director and officer （每位董事和高级职员的业务经验）
 
 ---
+
 
 ## 2. Diversifying through Management Investment Companies
 ## 2. 通过管理型投资公司实现多样化
@@ -44,11 +67,13 @@ Because the diversified portion relates to only 75 percent of the management com
 
 ---
 
+
 ## 3. Comparing open- and closed-end funds
 ## 3. 比较开放式和封闭式基金
 
 Management companies are either open-end or closed-end funds. Make sure that you know the difference.
 管理型公司分为开放式或封闭式基金。请务必了解它们之间的区别。
+
 
 ### Open-end (mutual) funds
 ### 开放式（共同）基金
@@ -75,6 +100,7 @@ On an ongoing basis, funds must include in their prospectus annual report graphs
 Note: Expenses of a mutual fund include salaries for the board of directors; management (investment adviser) fees for the person or people who make the investment decisions for the fund; custodial fees for safeguarding assets (cash, securities, and so on) held by the fund; transfer agent fees for keeping track of investors, sending distributions, and sending proxies; and 12b-1 fees, if any. **12b-1 fees** are fees paid by a mutual fund out of the fund assets to cover promotional expenses such as advertising, printing and mailing of prospectuses to new investors, and so on. If there are 12b-1 fees, they must be included in the prospectus.
 注：共同基金的支出包括董事会薪酬；为基金做出投资决策的人员的管理（投资顾问）费；用于保护基金持有的资产（现金、证券等）的托管费；用于跟踪投资者、发放分配金和寄送委托书的过户代理费；以及 12b-1 费用（如果有）。**12b-1 费用**是由共同基金从基金资产中支付的，用于支付广告、印刷和向新投资者邮寄招股说明书等促销费用。如果有 12b-1 费用，必须包含在招股说明书中。
 
+
 ### Closed-end funds
 ### 封闭式基金
 
@@ -91,13 +117,15 @@ Note: Although closed-end funds aren't purchased from and redeemed with the issu
 
 ---
 
+
 ## 4. Open and closed: Focusing on their differences
 ## 4. 开放与封闭：聚焦差异
 
 You can expect at least a question or two on the SIE exam relating to investment companies to test you on the differences between open-end and closed-end funds. Table 9-1 should help you zone in on the major distinctions.
 您可以预期 SIE 考试中至少会有一两个关于投资公司的问题，测试您对开放式和封闭式基金差异的掌握。表 9-1 应该能帮助您聚焦于主要的区别。
 
-### TABLE 9-1: Comparing Open-End and Closed-End Funds
+
+#### TABLE 9-1: Comparing Open-End and Closed-End Funds
 ### 表 9-1：开放式与封闭式基金对比
 
 | Category （类别） | Closed-End （封闭式） | Open-End （开放式） |
@@ -114,6 +142,7 @@ The key difference between open-end and closed-end funds is the method of capita
 开放式和封闭式基金的关键区别在于其资本化（募集）方式。开放式（共同）基金是新证券的持续发行，而封闭式基金是新证券的一次性发行。
 
 ---
+
 
 ## 5. Keeping your customer's investment objectives in mind
 ## 5. 牢记客户的投资目标
@@ -160,6 +189,7 @@ Because of the inherent risk of investing in growth funds, they're better for yo
 *   **Index fund:** This type of fund invests in securities that are similar to a particular stock or bond index. Rather than being actively managed, these types of funds are **passively managed**, which means investors can expect lower or no management fees. Investors can expect that the NAV of the fund will increase or decrease based on the movement of the benchmark index (S&P 500, DJIA, and so on) the fund mimics.
 *   **指数基金：** 这种类型的基金投资于与特定股票或债券指数相似的证券。这些基金不是主动管理的，而是**被动管理**的，这意味着投资者可以期待较低或没有管理费。投资者可以预期，基金的 NAV 将根据其模仿的基准指数（标普 500、道琼斯工业平均指数等）的走势而上涨或下跌。
 
+
 ### Hedge funds: What are they?
 ### 对冲基金：它们是什么？
 
@@ -176,17 +206,20 @@ Don't let the variety of funds distract you too much. So many different funds ar
 
 ---
 
+
 ## 6. Dealing with discounts
 ## 6. 处理折扣
 
 Investors who have the extra funds available may be able to receive a reduced sales charge for large dollar purchases. **Breakpoints** (see the next sections) and the **letter of intent** (see the next sections) are available to investors of open-end funds and unit investment trusts. Because closed-end funds, after the initial offering, are traded in the market, investors do not receive breakpoints. Dollar cost averaging and fixed share averaging are most often used for open-end fund purchases but may apply to other investments as well.
 拥有额外可用资金的投资者，在大额购买时可能会获得销售费用的减免。**折让点 （Breakpoints）**（见下节）和**意向书 （letter of intent）**（见下节）适用于开放式基金和单位投资信托的投资者。由于封闭式基金在首次发行后是在市场上交易的，因此投资者不会获得折让点。平均成本投资法 （Dollar cost averaging） 和定额股份投资法 （fixed share averaging） 最常用于开放式基金的购买，但也可能适用于其他投资。
 
+
 ### FUND OF A FUND
 ### 基金中的基金 （FOF）
 
 A **fund of funds** is a fund that invests in other funds, as opposed to individual securities. Many funds are actually funds of funds, such as funds of hedge funds and **life-cycle funds**. Life-cycle funds are also called **targeted** or **age-based** funds. The idea behind life-cycle funds is to automatically adjust the composition of the fund so that investors take less risk as they get older. Typically, younger investors can afford to take more financial risk and, therefore, invest a larger percentage of their portfolio in equity securities and a lesser percentage in fixed-income securities. As investors grow older, the percentages should change so that a larger percentage of the portfolio is in fixed-income securities and a lesser percentage is in equity securities. Life-cycle funds are set up with targeted retirement dates. Investors choose the life-cycle fund that matches their retirement date, and the fund adjusts its holdings occasionally so that equity funds gradually decrease and funds that invest in fixed-income securities gradually increase.
 **基金中的基金 （FOF）** 是指投资于其他基金而非单一证券的基金。许多基金实际上都是 FOF，例如对冲基金的基金和**生命周期基金 （life-cycle funds）**。生命周期基金也被称为**目标日期基金**或**基于年龄的基金**。生命周期基金背后的理念是自动调整基金的构成，使投资者随着年龄的增长承担更小的风险。通常，年轻投资者能够承担更多的财务风险，因此在投资组合中投资较大比例的权益证券和较小比例的固定收益证券。随着投资者年龄的增长，比例应该发生变化，使投资组合中固定收益证券的比例增大，权益证券的比例减小。生命周期基金是根据目标退休日期设置的。投资者选择与其退休日期相匹配的生命周期基金，基金会不时调整其持仓，使股票基金逐渐减少，投资于固定收益证券的基金逐渐增加。
+
 
 ### Breakpoints
 ### 折让点 （Breakpoints）
@@ -207,13 +240,15 @@ Here are a few key points for you to remember for the SIE exam:
 *   Breakpoints aren't available to partnerships or investment clubs （several people pooling money to receive reduced sales charges）。 （折让点不适用于合伙企业或投资俱乐部（多人集资以获得销售费用减免）。）
 *   Breakpoints are generally available to individual investors， joint accounts with family members， UGMA accounts， and corporations. （折让点通常适用于个人投资者、家庭成员共同账户、UGMA（统一赠与未成年人法）账户和公司。）
 
+
 ### Breakpoint sales
 ### 挂点销售 （Breakpoint sales）
 
 As an agent, you're responsible for letting investors know about the existence of breakpoints. A **breakpoint sale** occurs when you induce a sale just below the level where an investor would receive a breakpoint or an additional sales discount. As shown in Table 9-2, you would make more money if a client purchased $23,000 worth of a fund instead of $25,000 because of the discounted sales charge the customer would receive at $25,000. It's your responsibility to let the client know that by investing $2,000 more, they can reach a breakpoint. Not disclosing breakpoints and inducing sales just below breakpoints are **violations**.
 作为代理人，您有责任让投资者知道折让点的存在。**挂点销售 （breakpoint sale）** 发生在您诱导投资者在略低于获得折让点或额外销售折扣的水平进行购买。如表 9-2 所示，如果客户购买价值 23,000 美元的基金而不是 25,000 美元的基金，您会赚更多的钱，因为客户在 25,000 美元时可以获得折扣销售费。您的责任是让客户知道，通过再投资 2,000 美元，他们可以达到折让点。不披露折让点并诱导在折让点以下进行销售属于**违规行为**。
 
-### TABLE 9-2: Breakpoints for AylDec Growth Fund
+
+#### TABLE 9-2: Breakpoints for AylDec Growth Fund
 ### 表 9-2：AylDec 增长型基金的折让点
 
 | Purchase Amount （购买金额） | Sales Charge （销售费用） |
@@ -222,6 +257,7 @@ As an agent, you're responsible for letting investors know about the existence o
 | $25,000–$49,999 | 3% |
 | $50,000–$99,999 | 2% |
 | $100,000 and up （及以上） | 1.5% |
+
 
 ### Letters of intent
 ### 意向书 （LOI）
@@ -243,11 +279,13 @@ Investors may redeem their shares at any time, even if they're under a LOI.
 
 ---
 
+
 ## 7. Figuring the sales charge and public offering price of open-end funds
 ## 7. 计算开放式基金的销售费用和公开发售价
 
 You need to know two basic formulas to determine the sales charge and public offering price of open-end funds. Yes, every chapter seems to have more formulas, but these formulas are pretty straightforward and shouldn't cause you too many sleepless nights.
 您需要了解两个基本公式来确定开放式基金的销售费用和公开发售价。是的，每一章似乎都有更多的公式，但这些公式非常简单，不应该让您失眠。
+
 
 ### Sales charge percent
 ### 销售费用百分比
@@ -277,6 +315,7 @@ To help you remember that the ask (offer) price of a fund is the same as the POP
 💡 **提示**
 为了帮助您记住基金的卖出价 （ask price） 就是 POP，请记住“**问问您的老爸 （ask your POP）**”。（注：POP 是父亲的昵称，此处为谐音记忆法）
 
+
 ### Public offering price (POP)
 ### 公开发售价 （POP）
 
@@ -288,6 +327,7 @@ When taking the SIE exam, you may be asked to figure out the POP of a mutual fun
 **公开发售价 = 资产净值 / （100% – 销售费用 %）**
 
 ---
+
 
 ## 8. Classifying the load
 ## 8. 费用类别的分类
@@ -306,17 +346,20 @@ As I explain earlier in this chapter, most mutual funds charge a sales charge (a
 
 ---
 
+
 ## 9. Considering Other Investment Company Options
 ## 9. 考虑其他投资公司选项
 
 A couple of other types of investment companies — **face-amount certificate companies** and **unit investment trusts (UITs)** — aren't as popular as they used to be. Unfortunately, even though you may never sell any, you do need to know them for the SIE exam. You probably won't see more than a question or two on these topics. But **exchange-traded funds (ETFs)** are becoming increasingly popular, so your chance of seeing a question on ETFs and/or inverse ETFs is pretty high.
 另外两类投资公司——**面值证单公司**和**单位投资信托 （UITs）**——已经不像以前那样受欢迎了。遗憾的是，尽管您可能永远不会销售这些产品，但为了参加 SIE 考试，您确实需要了解它们。在这些主题上，您可能只会看到一两个问题。但是，**交易所交易基金 （ETFs）** 正变得越来越流行，因此您在考试中看到关于 ETFs 和/或反向 ETFs 问题的概率相当高。
 
+
 ### Face-amount certificate companies
 ### 面值证单公司
 
 A **face-amount certificate** is a type of packaged security that's similar to a zero-coupon bond (see Chapter 7); investors make either a lump-sum payment or periodic payments in return for a larger future payment. The issuer of a face-amount certificate guarantees payment of the face amount (a fixed sum) to the investor at a preset date. Very few face-amount certificate companies are around today, which is why the SIE exam doesn't include many questions about this type of packaged security.
 **面值证单**是一种类似于零息债券的组合证券（见第 7 章）；投资者通过一次性支付或定期支付，以换取未来的一笔更大的支付。面值证单的发行人保证在预设日期向投资者支付票面金额（固定金额）。目前现存的面值证单公司非常少，这就是为什么 SIE 考试中关于这类组合证券的问题不多的原因。
+
 
 ### Unit investment trusts
 ### 单位投资信托 （UITs）
@@ -340,6 +383,7 @@ Because the portfolio of securities is fixed, UITs don't employ investment advis
 
 ---
 
+
 ## 10. Exchange-traded products (funds and notes)
 ## 10. 交易所交易产品（基金与票据）
 
@@ -350,6 +394,7 @@ Exchange-traded products (ETPs), which you're likely to encounter on the exam, i
 Most ETFs are **passive**, meaning that they're designed to be a single security that tracks certain indices such as the S&P 500, the S&P 100, the Dow Jones Industrial Average (DJIA), Nasdaq securities, and so on. Some ETFs are **active**, meaning that the securities they hold may change. Quite often, ETFs are designed to mirror securities held by certain mutual funds.
 🧠 **请记住**
 大多数 ETF 是**被动的**，这意味着它们被设计为跟踪特定指数（如标普 500、标普 100、道琼斯工业平均指数、纳斯达克证券等）的单一证券。一些 ETF 是**主动的**，这意味着它们持有的证券可能会发生变化。通常，ETF 被设计用来镜像某些共同基金持有的证券。
+
 
 ### Exchange-traded funds (ETFs)
 ### 交易所交易基金 （ETFs）
@@ -374,6 +419,7 @@ A couple of disadvantages exist when comparing ETFs to mutual funds: Investors a
 Note: Because of the risk of inverse ETFs and leveraged ETFs, they are **not long- or intermediate-term investments**. In addition, because of the risk of these investments, it has to be determined by the firm if a customer is suitable for these investments prior to a recommendation. If a firm determines that a particular leveraged ETF or inverse ETF is suitable for recommendation, they have to determine which customers are suitable.
 注：由于反向 ETF 和杠杆 ETF 的风险，它们**不是长期或中期投资工具**。此外，由于这些投资的风险，公司在做出推荐之前必须确定客户是否适合这些投资。如果公司确定某个特定的杠杆 ETF 或反向 ETF 适合推荐，他们必须确定哪些客户是适合的。
 
+
 ### Exchange-traded notes (ETNs)
 ### 交易所交易票据 （ETNs）
 
@@ -381,6 +427,7 @@ ETNs have characteristics of ETFs and fixed-income securities. ETNs are **unsecu
 ETNs 兼具 ETF 和固定收益证券的特征。ETN 是由银行或金融机构发行的**无担保债务证券**。其回报与特定的市场指数挂钩。ETN 不提供股息或息票支付，因此投资者在指定的到期日获得收益。由于 ETN 在交易所交易，它们可以融资买入或卖空。如果投资者持有 ETN 直至到期，投资者将根据该票据所跟踪的指数表现获得本金金额。因为 ETN 是债务证券，如果**发行人的信用评级被下调**，它们将受到负面影响。ETN 并不适合所有投资者，因为它们通常相当复杂且风险较高。
 
 ---
+
 
 ## 11. Investment company rules 17a-6 and 17a-7
 ## 11. 投资公司规则 17a-6 和 17a-7
@@ -400,6 +447,7 @@ As with other securities, all investment company advertisements released by a br
 
 ---
 
+
 ## 12. Adding Annuities to a Portfolio
 ## 12. 将年金加入投资组合
 
@@ -411,6 +459,7 @@ Gather very specific information about your client before making recommendations
 🧠 **请记住**
 在做出推荐之前，请收集有关客户的非常具体的详细信息。此外，在推荐年金之前，请确保您真正了解其中的细枝末节，并清楚自己在说什么。由于一些经纪人的不当推荐，年金一直受到州保险委员会和 SEC 的密切关注。年金通常不推荐给年轻客户（大多数年金购买者年龄在 50 岁以上）、75 岁以上的客户，或者作为客户的全部投资组合。有关投资组合和证券分析的信息，请参阅第 13 章。
 
+
 ### Looking at fixed annuities
 ### 审视固定年金
 
@@ -421,6 +470,7 @@ The main thing for you to remember about **fixed annuities** is that they have f
 Because the payouts associated with a fixed annuity remain the same, they're subject to **purchasing power risk** (the risk that the investment won't keep up with inflation). An investor who received payments of $1,000 per month in the 1970s may have been able to survive; however, that amount today is not even likely to pay your monthly grocery bill.
 🧠 **请记住**
 由于固定年金的相关给付保持不变，它们面临**购买力风险 （purchasing power risk）**（即投资跟不上通货膨胀的风险）。在 20 世纪 70 年代，每月领取 1,000 美元给付的投资者或许还能生存；然而，这笔钱在今天甚至可能负担不起您的每月杂货账单。
+
 
 ### Focusing on variable annuities
 ### 聚焦变动年金
@@ -436,11 +486,13 @@ The **assumed interest rate (AIR)** is a projection of the performance of the se
 
 ---
 
+
 ## 13. Putting money into (and receiving money from) annuities
 ## 13. 向年金投入资金（并从中领取资金）
 
 Investors have choices when purchasing annuities and getting distributions. Investors may choose a lump-sum payment or multiple payments, depending on their needs. Investors also have a choice regarding how they want to get their distributions at retirement.
 投资者在购买年金和获取分配时有多种选择。根据需求，投资者可以选择一次性支付或多次支付。在退休时，投资者对于如何领取分配金也有多种选择。
+
 
 ### The pay-in (accumulation) phase
 ### 投入（累积）阶段
@@ -462,6 +514,7 @@ Investors have a few payment options to select when purchasing fixed or variable
 Most annuities in which investors are making scheduled deposits provide a **waiver of premium** during the pay-in phase if the annuitant becomes disabled or is confined to long-term care.
 🧠 **请记住**
 对于大多数投资者进行定期缴款的年金，如果年金参加人变得残疾或被限制在长期护理机构中，通常在投入阶段提供**保费豁免 （waiver of premium）**。
+
 
 ### Getting the payout
 ### 领取给付
@@ -487,6 +540,7 @@ All annuities have a **mortality guarantee**. This guarantee means that the inve
 🧠 **请记住**
 所有年金都具有**死亡率保证 （mortality guarantee）**。这项保证意味着只要投资者活着，他们就会收到给付，即使寿命超过了预期寿命。
 
+
 ### Being mindful of the early withdrawal penalty
 ### 留意提前支取罚款
 
@@ -494,6 +548,7 @@ As with most other retirement plans, annuity investors are hit with a **10 perce
 与大多数其他退休计划一样，如果年金投资者在 **59.5 岁**之前提取资金，将面临 **10% 的提前支取罚款**。是的，没错——这 10% 的罚款是叠加在投资者的所得税档次之上的。通常，年金在某些情况下会豁免这 10% 的罚款，例如需要支付长期护理费用、死亡或残疾。
 
 ---
+
 
 ## 14. Understanding the Investment Component of Variable Life Insurance Products
 ## 14. 了解变动人寿保险产品的投资成分
@@ -506,11 +561,13 @@ Persons selling variable annuities, variable life insurance, and variable univer
 🧠 **请记住**
 销售变动年金、变动人寿保险和变动万能寿险的人员不仅必须持有**适当的证券执照**，还必须持有**保险执照**。在推荐上述任何产品之前，您应该分析客户的需求并做出适当的推荐。
 
+
 ### Variable life
 ### 变动人寿保险 （Variable life）
 
 Variable life policies have a **fixed premium**. As with variable annuities, the investor chooses the investments held in a separate account. The **death benefit** (face amount) on the policy is fixed to a minimum but not to a maximum. The death benefit may increase depending on the performance of the securities held in the separate account. If the separate account performs poorly, there may be limited or no cash value built up. Policyholders may borrow up to **75 percent of the cash value**.
 变动人寿保单具有**固定保费**。与变动年金一样，投资者选择独立账户中持有的投资项目。保单的**死亡给付**（票面金额）设有最低限额，但没有最高限额。死亡给付可能会根据独立账户中证券的表现而增加。如果独立账户表现不佳，可能只会建立有限的现金价值，甚至没有。投保人最多可以借入**现金价值的 75%**。
+
 
 ### Variable universal life
 ### 变动万能寿险 （Variable universal life）
@@ -524,6 +581,7 @@ Variable annuities, variable life insurance, and variable universal life insuran
 变动年金、变动人寿保险和变动万能寿险在考试中可能被统称为**变动合同 （variable contracts）**。
 
 ---
+
 
 ## 15. Testing Your Knowledge
 ## 15. 知识测试
@@ -654,6 +712,7 @@ Practice questions
     III. 如果独立账户中持有的证券表现超过假设利率，给付会增加。
     IV. 变动年金的支付由税前资金支付。
     (A) I 和 III (B) I, III 和 IV (C) II 和 III (D) II, III 和 IV
+
 
 ### Answers and explanations
 ### 答案与解释
