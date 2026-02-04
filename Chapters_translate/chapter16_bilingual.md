@@ -6,7 +6,7 @@
 ## IN THIS PART . . . 在本部分中 . . .
 
 **Understand the regulatory framework governing securities markets, including FINRA and SEC rules.**
-**了解证券市场的监管框架，包括 FINRA 和 SEC 规则。**
+**了解证券市场的监管框架，包括 FINRA（美国金融业监管局）和 SEC（证券交易委员会）规则。**
 
 **Learn about compliance requirements and prohibited activities in the securities industry.**
 **了解合规要求以及证券行业的禁止行为。**
@@ -17,7 +17,7 @@
 # Chapter 16: Rules and Regulations: No Fooling Around 第 16 章：规则与条例：绝非儿戏
 
 Rules have become increasingly important on FINRA securities exams like the SIE, especially since the Patriot Act came into the picture. In this chapter, I help you understand who the guardians of the market are and their roles in protecting customers and enforcing rules.
-在包括 SIE 在内的 FINRA 证券考试中，规则变得越来越重要，特别是在《爱国者法案》出台之后。在本章中，我将帮助您了解市场的守护者是谁，以及他们在保护客户和执行规则方面扮演的角色。
+在包括 SIE 在内的 美国金融业监管局（FINRA）证券考试中，规则变得越来越重要，特别是在《爱国者法案》出台之后。在本章中，我将帮助您了解市场的守护者是谁，以及他们在保护客户和执行规则方面扮演的角色。
 
 ---
 
@@ -31,30 +31,30 @@ To keep the market running smoothly and to make sure investors aren’t abused, 
 ### The Securities and Exchange Commission (SEC) 美国证券交易委员会 (SEC)
 
 The **U.S. Securities and Exchange Commission (SEC)** is the major watchdog of the securities industry. Congress created the SEC to regulate securities markets and to protect investors from fraudulent and manipulative practices. All broker-dealers who transact business with investors must register with the SEC.
-**美国证券交易委员会 （SEC）** 是证券行业的主要监管机构。国会成立了 SEC，旨在监管证券市场并保护投资者免受欺诈和操纵行为的侵害。所有与投资者进行交易的经纪交易商都必须向 SEC 注册。
+**证券交易委员会（SEC）**是证券行业的主要监管机构。国会成立了证券交易委员会（SEC），旨在监管证券市场并保护投资者免受欺诈和操纵行为的侵害。所有与投资者进行交易的经纪交易商都必须向证券交易委员会（SEC）注册。
 
 **Key Acts Enforced by the SEC:**
-**SEC 执行的关键法案：**
+**证券交易委员会（SEC）执行的关键法案：**
 
 *   **Securities Act of 1933**： Requires full and fair disclosure of new issues。 （**1933 年证券法**：要求对新发行证券进行全面、公平的披露。）
-*   **Securities Exchange Act of 1934**： Established the SEC and regulates OTC markets， exchanges， and secondary market trading。 （**1934 年证券交易法**：设立了 SEC，并监管场外交易市场、交易所和二级市场交易。）
+*   **Securities Exchange Act of 1934**： Established the SEC and regulates OTC markets， exchanges， and secondary market trading。 （**1934 年证券交易法**：设立了证券交易委员会（SEC），并监管场外交易市场、交易所和二级市场交易。）
 *   **Trust Indenture Act of 1939**： Requires corporate bond issues over $50 million to have a trust indenture to protect bondholders。 （**1939 年信托契约法**：要求超过 5000 万美元的公司债券发行必须有信托契约以保护债券持有人。）
-*   **Investment Company Act of 1940**： Regulates investment companies （mutual funds）。 （**1940 年投资公司法**：监管投资公司（共同基金）。）
+*   **Investment Company Act of 1940**： Regulates investment companies （mutual funds）。 （**1940年投资公司法**：监管投资公司（共同基金）。）
 *   **Investment Advisers Act of 1940**： Requires registration of investment advisers。 （**1940 年投资顾问法**：要求投资顾问注册。）
 
 🧠 **REMEMBER**
 SEC investigations may lead to a civil complaint. The SEC may seek **disgorgement** (taking away) of ill-gotten gains and civil money penalties. If the matter is criminal in nature, the investigation is conducted by the **U.S. Attorney’s Office**.
 🧠 **请记住**
-SEC 的调查可能会导致民事诉讼。SEC 可能会寻求**追缴 (disgorgement)** 不当得利以及处以民事罚款。如果案件性质属于刑事案件，调查将由**美国检察官办公室**进行。
+证券交易委员会（SEC）的调查可能会导致民事诉讼。证券交易委员会（SEC）可能会寻求**追缴 (disgorgement)** 不当得利以及处以民事罚款。如果案件性质属于刑事案件，调查将由**美国检察官办公室**进行。
 
 
 ### Self-regulatory organizations (SROs) 自律组织 (SROs)
 
 A few self-regulatory organizations (SROs) are there to take some of the burden off of the SEC’s shoulders. SRO rules are usually **stricter** than those of the SEC.
-一些自律组织 （SROs） 的存在是为了减轻 SEC 的负担。SRO 的规则通常比 SEC 的**更严格**。
+一些自律组织 （SROs） 的存在是为了减轻证券交易委员会（SEC）的负担。SRO 的规则通常比证券交易委员会（SEC）的**更严格**。
 
-*   **Financial Industry Regulatory Authority （FINRA）**： Responsible for the operation and regulation of the **OTC market**， investment banking， and NYSE trades。 FINRA is responsible for administering securities exams such as the SIE。 （**金融业监管局 （FINRA）**：负责**场外交易 （OTC） 市场**、投资银行业务和纽约证券交易所交易的运营和监管。FINRA 负责管理 SIE 等证券考试。）
-*   **Municipal Securities Rulemaking Board （MSRB）**： Established to develop rules for firms that sell municipal securities。 The MSRB **makes rules** but leaves **enforcement up to FINRA**。 （**市政证券规则制定委员会 （MSRB）**：旨在为销售市政证券的公司制定规则。MSRB **制定规则**，但将**执行权交给 FINRA**。）
+*   **Financial Industry Regulatory Authority （FINRA）**： Responsible for the operation and regulation of the **OTC market**， investment banking， and NYSE trades。 FINRA is responsible for administering securities exams such as the SIE。 （**美国金融业监管局（FINRA）**：负责**场外交易市场（OTC）**、投资银行业务和纽约证券交易所（NYSE）交易的运营和监管。FINRA（美国金融业监管局）负责管理 SIE 等证券考试。）
+*   **Municipal Securities Rulemaking Board （MSRB）**： Established to develop rules for firms that sell municipal securities。 The MSRB **makes rules** but leaves **enforcement up to FINRA**。 （**市政证券规则制定委员会（MSRB）**：旨在为销售市政证券的公司制定规则。MSRB **制定规则**，但将**执行权交给 FINRA（美国金融业监管局）**。）
 *   **NYSE**： Responsible for listing securities， setting exchange policies， and supervising member firms。 （**纽约证券交易所 （NYSE）**：负责证券上市、设定交易所政策以及监督会员公司。）
 *   **Chicago Board Options Exchange （CBOE）**： Makes and enforces **options exchange rules**。 （**芝加哥期权交易所 （CBOE）**：制定并执行**期权交易所规则**。）
 
@@ -67,17 +67,17 @@ A few self-regulatory organizations (SROs) are there to take some of the burden 
 🧠 **REMEMBER**
 FINRA and NYSE can fine, suspend, and expel members; however, they **can't imprison** members who violate the rules.
 🧠 **请记住**
-FINRA 和 NYSE 可以对会员处以罚款、暂停执业和开除会员资格；然而，它们**无权监禁**违反规则的会员。
+FINRA（美国金融业监管局）和 NYSE（纽约证券交易所）可以对会员处以罚款、暂停执业和开除会员资格；然而，它们**无权监禁**违反规则的会员。
 
 💡 **TIP**
 The FINRA, SEC, NYSE, and so on **do not approve or guarantee** securities. Any statement that says they do is **false**.
 💡 **提示**
-FINRA、SEC、NYSE 等机构**不批准也不担保**证券。任何声称它们会这样做的话都是**错误**的。
+FINRA（美国金融业监管局）、SEC（证券交易委员会）、NYSE（纽约证券交易所）等机构**不批准也不担保**证券。任何声称它们会这样做的话都是**错误**的。
 
 ---
 
 
-## 2. FINRA Registration and Reporting Requirements 2. FINRA 注册与报告要求
+## 2. FINRA Registration and Reporting Requirements 2. FINRA（美国金融业监管局）注册与报告要求
 
 
 ### Filling out the U4 form 填写 U4 表格
@@ -96,7 +96,7 @@ A person will be **statutorily disqualified** from membership if they had a **fe
 Two elements are required:
 需要完成两个部分：
 1。  **Firm element**： Member firms must have annual meetings covering the services and strategies offered。 （公司部分：会员公司必须举行年度会议，涵盖所提供的服务和策略。）
-2。  **Regulatory element**： All registered persons must take a computer-based training session covering FINRA regulations。 （**监管部分**：所有注册人员必须参加涵盖 FINRA 法规的计算机培训课程。）
+2。  **Regulatory element**： All registered persons must take a computer-based training session covering FINRA regulations。 （**监管部分**：所有注册人员必须参加涵盖 FINRA（美国金融业监管局）法规的计算机培训课程。）
 
 
 ### What happens when a rep resigns or is terminated 当代表辞职或被解雇时
@@ -107,8 +107,8 @@ If you leave your firm, the firm has to file a **U5 form** with the CRD within *
 
 ### Reporting Requirements and Activities 报告要求与活动
 
-*   **BrokerCheck**： FINRA's public database allowing investors to check the background of firms and representatives。 （**BrokerCheck**：FINRA 的公共数据库，允许投资者查询公司和代表的背景。）
-*   **Rule 4530**： Firms must report specified events （e。g。， complaints， criminal actions， suspensions） to FINRA promptly （within 30 days）。 （**规则 4530**：公司必须及时（30 天内）向 FINRA 报告特定事件（如投诉、刑事诉讼、暂停执业等）。）
+*   **BrokerCheck**： FINRA's public database allowing investors to check the background of firms and representatives。 （**BrokerCheck**：美国金融业监管局（FINRA）的公共数据库，允许投资者查询公司和代表的背景。）
+*   **Rule 4530**： Firms must report specified events （e。g。， complaints， criminal actions， suspensions） to FINRA promptly （within 30 days）。 （**规则 4530**：公司必须及时（30 天内）向 FINRA（美国金融业监管局）报告特定事件（如投诉、刑事诉讼、暂停执业等）。）
 *   **Outside Business Activities (OBA)**： Registered persons must notify their firm in **writing** before engaging in outside employment。 Written permission is **not** required unless it involves securities。 （**外部商业活动 （OBA）**：注册人员在从事外部工作之前必须以**书面形式**通知其公司。除非涉及证券，否则**不**需要书面许可。）
 *   **Private Securities Transactions**： Transactions outside the firm's regular business。 Requires **written notice** and **written approval** from the firm if compensation is received。 （**私人证券交易**：公司常规业务之外的交易。如果收到报酬，需要**书面通知**并获得公司的**书面批准**。）
 
@@ -165,7 +165,7 @@ Generally **prohibited** between reps and customers unless:
 ## 4. Disseminating info: Appropriate communications 4. 传播信息：恰当的沟通
 
 FINRA divides communication into three categories:
-FINRA 将沟通分为三类：
+美国金融业监管局（FINRA）将沟通分为三类：
 
 *   **Correspondence**： Written communication distributed to **25 or fewer** retail investors within a 30-day period。 （通信：在 30 天内分发给 **25 名或更少**散户投资者的书面沟通。）
 *   **Retail communication**： Written communication distributed to **more than 25** retail investors within a 30-day period。 Must be approved by a **qualified principal**。 （散户沟通：在 30 天内分发给 **25 名以上**散户投资者的书面沟通。必须经过**合格主管**的批准。）
@@ -193,10 +193,10 @@ Records have to be **easily accessible for two years**.
 | Type of Security （证券类型） | Settlement Date （结算日） | Payment Date （付款日） |
 
 | :--- | :--- | :--- |
-| **Stocks and corporate bonds （股票与公司债）** | 1 Business Day （T+1） | 4 Business Days |
-| **Municipal bonds （市政债）** | 1 Business Day （T+1） | 2 Business Days |
-| **U。S。 government bonds （美国政府债券）** | 1 Business Day （T+1） | 1 Business Day |
-| **Options （期权）** | 1 Business Day （T+1） | 4 Business Days |
+| **Stocks and corporate bonds （股票与公司债）** | 1 Business Day （T+1（交易日后一个营业日结算（2024年5月起执行的标准））） | 4 Business Days |
+| **Municipal bonds （市政债）** | 1 Business Day （T+1（交易日后一个营业日结算（2024年5月起执行的标准））） | 2 Business Days |
+| **U。S。 government bonds （美国政府债券）** | 1 Business Day （T+1（交易日后一个营业日结算（2024年5月起执行的标准））） | 1 Business Day |
+| **Options （期权）** | 1 Business Day （T+1（交易日后一个营业日结算（2024年5月起执行的标准））） | 4 Business Days |
 
 *Note: As of May 2024, the industry standard for most securities moved from T+2 to T+1.*
 
@@ -220,7 +220,7 @@ The **5 percent policy** is a guideline to ensure investors receive fair treatme
 
 ## 7. Handling Complaints 7. 处理投诉
 
-*   **Code of Procedure (COP)**： FINRA's formal procedure for handling trade practice complaints。 Decisions can be appealed。 （**程序准则 (COP)**：FINRA 处理交易行为投诉的正式程序。决定可以上诉。）
+*   **Code of Procedure (COP)**： FINRA's formal procedure for handling trade practice complaints。 Decisions can be appealed。 （**程序准则 (COP)**：FINRA（美国金融业监管局）处理交易行为投诉的正式程序。决定可以上诉。）
 *   **Code of Arbitration**： Informal hearing for disputes (money)。 Decisions are **binding** and **non-appealable**。 Customers often sign an arbitration agreement。 （**仲裁准则**：处理（金钱）纠纷的非正式听证会。决定具有**约束力**且**不可上诉**。客户通常签署仲裁协议。）
 *   **Mediation**： Voluntary， non-binding process to resolve disputes。 （**调解**：解决纠纷的自愿、非约束性过程。）
 
@@ -374,7 +374,7 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
    (B) II, III, and IV
    (C) I, III, and IV
    (D) I, II, III, and IV
-6.  以下哪些受 FINRA 5% 加价政策的约束？
+6.  以下哪些受 FINRA（美国金融业监管局）5% 加价政策的约束？
    I. 本金交易
    II. 代理交易
    III. 无风险交易
@@ -401,7 +401,7 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
    (B) II and III
    (C) I and II
    (D) I, II, and III
-8.  在以下哪种情况下，个人将被法定取消 FINRA 会员资格？
+8.  在以下哪种情况下，个人将被法定取消 FINRA（美国金融业监管局）会员资格？
    I. 如果他们在过去 15 年内有重罪定罪记录
    II. 如果他们被自律组织取消会员资格
    III. 如果他们在申请中作出虚假陈述
@@ -483,7 +483,7 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
 14. 以下哪项是客户投诉的要求？
     (A) 必须在 10 个工作日内确认收到
     (B) 必须在 30 天内调查
-    (C) 必须立即向 FINRA 报告
+    (C) 必须立即向 FINRA（美国金融业监管局）报告
     (D) 必须保存在客户档案中
 15. Which of the following best describes the purpose of the Bank Secrecy Act (BSA)?
     (A) To regulate the securities industry
@@ -602,11 +602,11 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
 1.  **C.** A customer's signature is NOT required on an order ticket. The time of the order, quantity, and solicited/unsolicited status are required.
 1.  **C.** 客户的签名不需要在订单票据上。订单时间、数量和招揽/非招揽状态是必需的。
 2.  **B.** The SEC is a government agency, not an SRO. SROs include FINRA, MSRB, and NYSE.
-2.  **B.** SEC 是一个政府机构，不是自律组织。自律组织包括 FINRA、MSRB 和 NYSE。
+2.  **B.** SEC（证券交易委员会）是一个政府机构，不是自律组织。自律组织包括 FINRA（美国金融业监管局）、MSRB（市政证券规则制定委员会）和 NYSE（纽约证券交易所）。
 3.  **B.** For inactive accounts, statements must be sent at least quarterly.
 3.  **B.** 对于不活跃的账户，必须至少每季度发送一次对账单。
 4.  **A.** Under the T+1 settlement rule, the ex-dividend date is one business day before the record date.
-4.  **A.** 根据 T+1 结算规则，除息日是登记日前一个工作日。
+4.  **A.** 根据 T+1（交易日后一个营业日结算（2024年5月起执行的标准））结算规则，除息日是登记日前一个工作日。
 5.  **C.** Pump and dump is a classic form of market manipulation.
 5.  **C.** 拉高出货是一种典型的市场操纵形式。
 6.  **D.** All four types of transactions listed are subject to the 5% markup guideline.
@@ -620,7 +620,7 @@ To help you remember the sequence, use the phrase **"Don’t Eat Rubber Pickles"
 10. **D.** All of the above (commingling, interpositioning, signatures of convenience) are violations.
 10. **D.** 以上所有（混合资金、嵌位交易、便利签名）都是违规行为。
 11. **C.** Stock and corporate bond transactions settle in T+1, U.S. government bonds settle in T+1, options settle in T+1.
-11. **C.** 股票和公司债券交易在 T+1 结算，美国政府债券在 T+1 结算，期权在 T+1 结算。
+11. **C.** 股票和公司债券交易在 T+1（交易日后一个营业日结算（2024年5月起执行的标准））结算，美国政府债券在 T+1（交易日后一个营业日结算（2024年5月起执行的标准））结算，期权在 T+1（交易日后一个营业日结算（2024年5月起执行的标准））结算。
 12. **D.** All types of communications (email, instant messages, text messages, social media) must be preserved for a minimum of three years.
 12. **D.** 所有类型的通信（电子邮件、即时消息、短信、社交媒体帖子）都必须保存至少三年。
 13. **D.** Customers must sign all relevant documents when opening a new account or adding new account features.

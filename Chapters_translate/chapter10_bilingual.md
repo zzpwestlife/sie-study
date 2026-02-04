@@ -98,7 +98,7 @@ The **partnership agreement** is a document that includes the rights and respons
 ### Certificate of limited partnership 有限合伙证明书
 
 The **certificate of limited partnership** is the legal agreement between the general and limited partners, which is filed with the U.S. Securities and Exchange Commission (SEC) for public offerings and the secretary of state in the home state of the partnership. The certificate of limited partnership includes basic information such as the name of the partnership and its primary place of business, the names and addresses of the limited and general partner(s), and the following items:
-**有限合伙证明书**是普通合伙人和有限合伙人之间的法律协议，公开发行时需向美国证券交易委员会 （SEC） 归档，并向合伙企业所在州的州务卿归档。有限合伙证明书包括合伙企业名称、主要营业地点、有限和普通合伙人的姓名及地址等基本信息，以及以下项目：
+**有限合伙证明书**是普通合伙人和有限合伙人之间的法律协议，公开发行时需向证券交易委员会 （SEC） 归档，并向合伙企业所在州的州务卿归档。有限合伙证明书包括合伙企业名称、主要营业地点、有限和普通合伙人的姓名及地址等基本信息，以及以下项目：
 
 *   The objectives （goals） of the partnership and how long the partnership is expected to last （合伙企业的目标及其预期存续时间）
 *   The amount contributed by each partner， plus future expected investments （每位合伙人的出资额以及未来的预期投资）
@@ -146,7 +146,7 @@ The key thing to remember for SIE purposes is that investors can write off passi
 ## 5. Evaluating DPPs 5. 评估 DPPs
 
 DPPs can be offered publicly or privately. **Public offerings** of DPPs must be registered with the SEC, whereas **private offerings** (offerings to mostly wealthy investors) are not. Typically, publicly offered DPPs have a lower unit (buy-in) cost than that of privately offered DPPs.
-DPP 可以公开发行或私募发行。**公开发行**的 DPP 必须向 SEC 注册，而**私募发行**（主要面向富有投资者的发行）则不需要。通常，公开发行的 DPP 的单位（起投）成本低于私募发行的 DPP。
+DPP 可以公开发行或私募发行。**公开发行**的 DPP 必须向证券交易委员会（SEC）注册，而**私募发行**（主要面向富有投资者的发行）则不需要。通常，公开发行的 DPP 的单位（起投）成本低于私募发行的 DPP。
 
 Certainly, direct participation programs provide some advantages, but they also have additional risks that investors don't face with other types of investments, such as having to lend additional money to the partnership if necessary. Therefore, when evaluating whether an investment in a DPP may be right for one of your clients, you need to determine whether investing in a partnership is wise for that client, and as their representative, you also need to consider the following items:
 诚然，直接参与计划提供了一些优势，但它们也具有投资者在其他类型的投资中不会面临的额外风险，例如在必要时必须向合伙企业提供额外贷款。因此，在评估 DPP 投资是否适合您的某位客户时，您需要判断投资合伙企业对该客户是否明智，作为他们的代表，您还需要考虑以下事项：
@@ -268,7 +268,7 @@ Unlike corporations, DPPs have an ending date. That date could be predetermined 
 ## 7. Reducing Real-Estate Risk with REITs 7. 通过 REITs 降低房地产风险
 
 A **real-estate investment trust (REIT)** invests in real-estate-related projects such as properties, mortgage loans, and construction loans. REITs pool the capital of many investors to manage property and/or purchase mortgage loans. Like other trusts, they issue shares to investors representing their interest in the trust. REITs registered with the SEC are known as **public REITs**, and those that aren't registered with the SEC are known as **private REITs**. In addition, REITs may be listed on an exchange or can trade over the counter. (See Chapter 14 for more info on markets.) They also provide real estate diversification and liquidity for investors.
-**房地产投资信托基金 （REIT）** 投资于与房地产相关的项目，如物业、抵押贷款和建筑贷款。REIT 汇集许多投资者的资金来管理物业和/或购买抵押贷款。与其他信托一样，它们向投资者发行代表其在信托中权益的股份。向 SEC 注册的 REIT 被称为**公开 REITs**，未向 SEC 注册的被称为**私募 REITs**。此外，REIT 可以在交易所上市，也可以在场外交易。（有关市场的更多信息见第 14 章。）它们还为投资者提供房地产多样化和流动性。
+**房地产投资信托基金 （REIT）** 投资于与房地产相关的项目，如物业、抵押贷款和建筑贷款。REIT 汇集许多投资者的资金来管理物业和/或购买抵押贷款。与其他信托一样，它们向投资者发行代表其在信托中权益的股份。向证券交易委员会（SEC）注册的 REIT 被称为**公开 REITs**，未向证券交易委员会（SEC）注册的被称为**私募 REITs**。此外，REIT 可以在交易所上市，也可以在场外交易。（有关市场的更多信息见第 14 章。）它们还为投资者提供房地产多样化和流动性。
 
 REITs are distributed in the primary market at the initial public offering (IPO) price. Unlike mutual funds, which are redeemed with the issuer, REITs are **traded (bought and sold) in the secondary market** (the sale of outstanding securities) to other investors. In addition, REITs have a finite number of shares outstanding, like closed-end funds. Because REITs are traded in the secondary market, their price may be at a **discount or premium to the net asset value (NAV)**, depending on profitability and investor sentiment.
 REIT 在一级市场按首次公开募股 （IPO） 价格分销。与向发行人赎回的共同基金不同，REIT 在**二级市场（流通证券的买卖）向其他投资者进行交易**。此外，REIT 的流通股数是有限的，类似于封闭式基金。由于 REIT 在二级市场交易，其价格可能会相对于**资产净值 （NAV） 存在折价或溢价**，这取决于其盈利能力和投资者情绪。
@@ -295,11 +295,11 @@ Don't get REITs confused with real-estate limited partnerships. Limited partners
 REITs may be sold as private placements, nonlisted, or listed. Check out the following list of specifics:
 
 *   **Private (private placement) REITs:** REITs may be sold privately. Private REITs are exempt from SEC registration, and their shares don't trade on a national securities exchange, such as the New York Stock Exchange. As such, they're not subject to the same disclosure requirements as exchange-listed or public nonlisted REITs. Private REITs are exempt from SEC registration under **Regulation D** of the Securities Act of 1933. (See Chapter 5.) In general, private REITs can be sold only to accredited investors and institutional investors. Because they aren't sold on an exchange and can't be sold to just any investor, private REITs are not liquid investments.
-*   **私募 （Private placement） REITs：** REIT 可以私下销售。私募 REIT 免于 SEC 注册，其股份不在纽约证券交易所等国家级证券交易所交易。因此，它们不受与交易所上市或公开非上市 REIT 相同的披露要求的约束。私募 REIT 根据 1933 年《证券法》的 **D 条例**免于 SEC 注册。（见第 5 章。）通常，私募 REIT 只能出售给合格投资者和机构投资者。因为它们不在交易所销售，且不能卖给任何普通投资者，所以私募 REIT 不是流动性投资。
+*   **私募 （Private placement） REITs：** REIT 可以私下销售。私募 REIT 免于证券交易委员会（SEC）注册，其股份不在纽约证券交易所等国家级证券交易所交易。因此，它们不受与交易所上市或公开非上市 REIT 相同的披露要求的约束。私募 REIT 根据 1933 年《证券法》的 **D条例**免于证券交易委员会（SEC）注册。（见第 5 章。）通常，私募 REIT 只能出售给合格投资者和机构投资者。因为它们不在交易所销售，且不能卖给任何普通投资者，所以私募 REIT 不是流动性投资。
 *   **Registered nonlisted REITs:** Registered nonlisted REITs are also known as **public nonlisted REITs (PNLRs)**. PNLRs are registered with the SEC but don't trade on a major exchange. PNLRs are similar to listed REITs in every way, including disclosure requirements, except that they're not as liquid. PNLRs may be purchased and sold over the counter and some issuers have periodic (daily or less frequent) repurchase options that allow investors to sell shares back to the issuer at the NAV.
-*   **注册非上市 REITs：** 注册非上市 REIT 也被称为**公开非上市 REITs （PNLRs）**。PNLR 向 SEC 注册，但不在主要交易所交易。PNLR 在各方面（包括披露要求）都与上市 REIT 相似，只是流动性较差。PNLR 可以在场外进行买卖，一些发行人提供定期的（每日或频率较低）回购选项，允许投资者按 NAV 将股份卖回给发行人。
+*   **注册非上市 REITs：** 注册非上市 REIT 也被称为**公开非上市 REITs （PNLRs）**。PNLR 向证券交易委员会（SEC）注册，但不在主要交易所交易。PNLR 在各方面（包括披露要求）都与上市 REIT 相似，只是流动性较差。PNLR 可以在场外进行买卖，一些发行人提供定期的（每日或频率较低）回购选项，允许投资者按 NAV 将股份卖回给发行人。
 *   **Listed REITs:** As you can imagine, listed REITs are ones that have to register with the SEC and are also listed on one or more national exchanges. So listed REITs provide the highest degree of liquidity to investors.
-*   **上市 REITs：** 正如您所料，上市 REIT 是那些必须向 SEC 注册且在一家或多家国家级交易所上市的 REIT。因此，上市 REIT 为投资者提供了最高程度的流动性。
+*   **上市 REITs：** 正如您所料，上市 REIT 是那些必须向证券交易委员会（SEC）注册且在一家或多家国家级交易所上市的 REIT。因此，上市 REIT 为投资者提供了最高程度的流动性。
 
 Don't kill yourself worrying too much about REITs (not that you would); you won't get more than one or two questions on the SIE relating to REITs.
 不要在 REIT 上花费太多精力（虽然您可能也不会）；在 SIE 考试中，您不会遇到超过一两个关于 REIT 的问题。

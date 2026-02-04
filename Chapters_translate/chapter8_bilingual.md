@@ -348,7 +348,7 @@ ABLE 计划是为有证据证明的残障人士及其家庭设计的。ABLE 账�
 ### LGIPs (Local Government Investment Pools) 地方政府投资池 （LGIPs）
 
 LGIPs are established by states to provide other government entities (cities, counties, school districts, and so on) a short-term investment vehicle for investing their funds. Because these pools are set up by state governments for state entities, LGIPs are exempt from registration with the SEC. As a result, no prospectus is required, but LGIPs have disclosure documents to cover investment policies, operating procedures, and so on.
-地方政府投资池 （LGIPs） 由州政府设立，旨在为其他政府实体（城市、县、学区等）提供一种投资其资金的短期投资工具。由于这些投资池是由州政府为州实体设立的，因此 LGIPs 免于在 SEC 注册。因此，不需要招股说明书，但 LGIPs 拥有披露文件，涵盖投资政策、操作程序等。
+地方政府投资池 （LGIPs） 由州政府设立，旨在为其他政府实体（城市、县、学区等）提供一种投资其资金的短期投资工具。由于这些投资池是由州政府为州实体设立的，因此 LGIPs 免于在 证券交易委员会（SEC） 注册。因此，不需要招股说明书，但 LGIPs 拥有披露文件，涵盖投资政策、操作程序等。
 
 Although they aren't money market funds, they're similar in the fact that many of them operate like those funds. Like money market funds, LGIPs typically set the net asset value (NAV) at $1, and normally, the money is invested safely, although it doesn't have to be. LGIPs may be sold directly to municipalities or through Municipal Advisers hired by the municipal issuers.
 虽然它们不是货币市场基金，但它们的相似之处在于，其中许多运作方式类似于货币市场基金。像货币市场基金一样，LGIPs 通常将净资产价值 （NAV） 设定为 1 美元，通常资金投资是安全的，尽管并非必须如此。LGIPs 可以直接出售给市政府，也可以通过市政发行人聘请的市政顾问出售。
@@ -401,7 +401,7 @@ The following list isn’t as huge as it could be because many of the rules are 
 下面的列表并没有那么庞大，因为本书已经涵盖了许多规则。但不要求您了解每条规则的细枝末节——只需了解主要思想。幸运的是，许多规则都很有道理。另外，不要担心规则编号；多关注规则本身。
 
 *   **Rule G-2 (standards of professional qualifications):** Before effecting any transaction (solicitation, negotiation of terms, or execution of a trade) in — or inducing or attempting to induce the purchase or sale of — any municipal security, the dealer and every person associated with that dealer must be qualified in accordance with MSRB rules.
-*   **规则 G-2 （专业资格标准）：** 在进行任何市政证券交易（招揽、条款谈判或执行交易）——或诱导或试图诱导购买或出售任何市政证券——之前，交易商及与该交易商关联的每个人都必须符合 MSRB 规则的资格要求。
+*   **规则 G-2 （专业资格标准）：** 在进行任何市政证券交易（招揽、条款谈判或执行交易）——或诱导或试图诱导购买或出售任何市政证券——之前，交易商及与该交易商关联的每个人都必须符合 市政证券规则制定委员会（MSRB） 规则的资格要求。
 *   **Rule G-3 (professional qualification requirements):** Broker-dealers that conduct a business in general securities must have at least one associated person qualified as a municipal securities principal to oversee and supervise their municipal securities business.
 *   **规则 G-3 （专业资格要求）：** 经营一般证券业务的经纪自营商必须至少有一名具有市政证券主管资格的关联人员，以监督和管理其市政证券业务。
 *   **Rule G-7 (information concerning associated persons):** Associated persons (municipal securities sales principal, municipal securities principal, general securities principal engaging in municipal securities business, municipal securities representative, limited representatives, and so on) must provide their employer a form U-4 or MSD-4 for bank dealers. A U-4 form is an application form sent to the Central Registration Deposit (CRD) along with the applicant's fingerprints. Included in the form are the applicant's address, work history, arrest record (if any — ideally not), education, previous addresses, and so on. A copy of the form must be kept by the employer. In addition, the employer is responsible for calling previous employers to find out whether the information in the form is accurate. In the event that the applicant's information changes any time during employ, the employer is responsible for updating the information.
@@ -432,13 +432,13 @@ The following list isn’t as huge as it could be because many of the rules are 
     *   关于政治捐款的记录
 
     You aren't expected to remember the entire preceding list. Just get a general feeling for what's required. It looks as though the MSRB wants the broker-dealer or municipal securities dealer to maintain records of just about everything.
-    不要求您记住前面的整个列表。只需对要求的内容有一个大致的感觉。看起来 MSRB 希望经纪自营商或市政证券交易商保存几乎所有事情的记录。
+    不要求您记住前面的整个列表。只需对要求的内容有一个大致的感觉。看起来 市政证券规则制定委员会（MSRB） 希望经纪自营商或市政证券交易商保存几乎所有事情的记录。
 *   **Rule G-9 (preservation of records):** MSRB's record-keeping requirements are very similar to (but not exactly the same as) FINRA's requirements. Most records have to be kept for four or six years.
-*   **规则 G-9 （记录保存）：** MSRB 的记录保存要求与 FINRA 的要求非常相似（但不完全相同）。大多数记录必须保存四年或六年。
+*   **规则 G-9 （记录保存）：** 市政证券规则制定委员会（MSRB） 的记录保存要求与 美国金融业监管局（FINRA） 的要求非常相似（但不完全相同）。大多数记录必须保存四年或六年。
 *   **Rule G-10 (delivery of investment brochure):** Broker-dealers and municipal securities dealers must send yearly written statements (which may be electronic) to each customer, stating that they're registered with the SEC and MSRB. The statement must also include the web address for the MSRB and a statement of how to receive an investment brochure on the website describing customer protections and how to file a complaint to the proper authority. The same information holds true of Municipal Advisers.
-*   **规则 G-10 （投资手册的交付）：** 经纪自营商和市政证券交易商必须每年向每位客户发送书面声明（可以是电子形式），说明他们已在 SEC 和 MSRB 注册。该声明还必须包括 MSRB 的网址，以及关于如何在网站上获取描述客户保护以及如何向有关当局提出投诉的投资手册的说明。同样的信息也适用于市政顾问。
+*   **规则 G-10 （投资手册的交付）：** 经纪自营商和市政证券交易商必须每年向每位客户发送书面声明（可以是电子形式），说明他们已在 证券交易委员会（SEC） 和 市政证券规则制定委员会（MSRB） 注册。该声明还必须包括 市政证券规则制定委员会（MSRB） 的网址，以及关于如何在网站上获取描述客户保护以及如何向有关当局提出投诉的投资手册的说明。同样的信息也适用于市政顾问。
 *   **Rule G-13 (quotations):** According to MSRB rules, all quotations for municipal securities published or distributed by any broker-dealer, municipal securities dealer, or person associated with a broker-dealer or municipal securities dealer must be genuine.
-*   **规则 G-13 （报价）：** 根据 MSRB 规则，任何经纪自营商、市政证券交易商或与经纪自营商或市政证券交易商关联的人员发布或分发的所有市政证券报价必须是真实的。
+*   **规则 G-13 （报价）：** 根据 市政证券规则制定委员会（MSRB） 规则，任何经纪自营商、市政证券交易商或与经纪自营商或市政证券交易商关联的人员发布或分发的所有市政证券报价必须是真实的。
 *   **Rule G-17 (conduct of municipal securities and municipal adviser activities):** Municipal securities broker-dealers, municipal securities dealers, Municipal Advisers, agents, and so on shall deal fairly with all people and not engage in dishonest, deceptive, or unfair practices.
 *   **规则 G-17 （市政证券和市政顾问活动的行为）：** 市政证券经纪自营商、市政证券交易商、市政顾问、代理人等应公平对待所有人，不得从事不诚实、欺骗或不公平的行为。
 *   **Rule G-18 (best execution):** When entering into a municipal securities transaction with a customer or customer of another broker, dealer, or municipal securities dealer, a broker must use reasonable diligence to attempt to get the best price for the security (lowest buying price or highest selling price for the customer). This rule is similar to Rule G-30, but G-30 includes markups, markdowns, and commission.
@@ -470,12 +470,12 @@ All confirmations of trades must be sent or given to customers at or before the 
 ⚠️ **LATEST REGULATORY CHANGE (2024)**
 Municipal securities now settle the regular way **one business day after the trade date, or T+1**. (Note: Older textbooks may still mention T+2, but the SEC moved to T+1 on May 28, 2024).
 ⚠️ **最新监管变动 （2024）**
-市政证券现在的常规结算方式是**交易日后的一个营业日，即 T+1**。（注：旧教材可能仍提到 T+2，但 SEC 已于 2024 年 5 月 28 日统一改为 T+1）。
+市政证券现在的常规结算方式是**交易日后的一个营业日，即 T+1（交易日后一个营业日结算（2024年5月起执行的标准））**。（注：旧教材可能仍提到 T+2，但 证券交易委员会（SEC） 已于 2024 年 5 月 28 日统一改为 T+1（交易日后一个营业日结算（2024年5月起执行的标准）））。
 
 🧠 **REMEMBER**
 According to MSRB rules, municipal securities dealers can't give customers gifts valued at more than **$100 per year**. Business expenses are exempt from the rule.
 🧠 **请记住**
-根据 MSRB 规则，市政证券自营商每年向客户赠送的礼物价值不得超过 **100 美元**。业务支出不受此规则限制。
+根据 市政证券规则制定委员会（MSRB） 规则，市政证券自营商每年向客户赠送的礼物价值不得超过 **100 美元**。业务支出不受此规则限制。
 
 💡 **TIP**
 Municipal bonds don't have a prospectus; instead, municipalities usually provide an **official statement (OS)**. Any dealer selling municipal securities to a customer during the issue's underwriting period must deliver a final official statement, if there is one, to a customer by the settlement of the transaction.
@@ -554,7 +554,7 @@ Municipal bonds don't have a prospectus; instead, municipalities usually provide
     (B) I and IV
     (C) II and III
     (D) II and IV
-6.  根据 MSRB 规则，经纪公司必须保存所有市政证券广告
+6.  根据 市政证券规则制定委员会（MSRB） 规则，经纪公司必须保存所有市政证券广告
     I. 至少 3 年
     II. 至少 6 年
     III. 至少 1 年内易于获取
@@ -583,7 +583,7 @@ Municipal bonds don't have a prospectus; instead, municipalities usually provide
     (B) 交易日后 2 个工作日
     (C) 交易日后 3 个工作日
     (D) 交易日后 4 个工作日
-    *(注：根据最新规则，结算周期已缩短为 T+1，但原书题目可能仍基于旧规则 T+2。在当前市场环境下，正确答案应修正为 T+1，即 1 个工作日。但在考试中请注意题目背景。这里保留原书选项，但请注意规则变更。)*
+    *(注：根据最新规则，结算周期已缩短为 T+1（交易日后一个营业日结算（2024年5月起执行的标准）），但原书题目可能仍基于旧规则 T+2。在当前市场环境下，正确答案应修正为 T+1（交易日后一个营业日结算（2024年5月起执行的标准）），即 1 个工作日。但在考试中请注意题目背景。这里保留原书选项，但请注意规则变更。)*
 9.  Under MSRB rules, how often must broker-dealers and municipal securities dealers send out investment brochures to their customers stating that they are registered with the SEC and MSRB?
     (A) Once, before the customer opening the account
     (B) Once, within 60 days of the customer opening the account
@@ -647,11 +647,11 @@ Municipal bonds don't have a prospectus; instead, municipalities usually provide
 5.  **C.** A special assessment (special district or special purpose) bond is backed on taxes on the properties that benefit from the improvement(s).
 5.  **C.** 特别评估（特别行政区或特别目的）债券由受益于该改进项目的财产税支持。
 6.  **B.** Under MSRB rules, all municipal securities advertising must be kept on file for a minimum of three years and kept easily accessible for at least two years.
-6.  **B.** 根据 MSRB 规则，所有市政证券广告必须存档至少三年，并在至少两年内保持易于获取。
+6.  **B.** 根据 市政证券规则制定委员会（MSRB） 规则，所有市政证券广告必须存档至少三年，并在至少两年内保持易于获取。
 7.  **A.** U.S. territory bonds and bonds issued by federal districts are triple tax-free. Bonds issued by the state of Hawaii are not.
 7.  **A.** 美国领地债券和联邦地区发行的债券是三重免税的。夏威夷州发行的债券则不然。
 8.  **A.** Municipal securities trades settle the regular way in one business day after the trade date (T+1).
-8.  **A.** 市政证券交易的常规结算方式为交易日后的一个工作日（T+1）。
+8.  **A.** 市政证券交易的常规结算方式为交易日后的一个工作日（T+1（交易日后一个营业日结算（2024年5月起执行的标准）））。
 9.  **D.** Broker-dealers and municipal securities dealers must send yearly statements to their clients.
 9.  **D.** 经纪交易商和市政证券交易商必须每年向其客户发送声明。
 10. **B.** Advertisements include promotional literature, circulars, market letters, seminar text, and press releases. Official statements and offering circulars are not considered advertisements.

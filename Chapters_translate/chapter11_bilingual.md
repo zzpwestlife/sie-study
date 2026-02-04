@@ -549,7 +549,7 @@ Unlike stock certificates, options do expire after a certain period of time. In 
 When taking the SIE exam, you are expected to have a basic understanding of how options are exercised and assigned. Options are cleared through the OCC. Here's how an option is exercised:
 
 When a client wants to exercise an option they own, they contact their broker-dealer. The broker-dealer contacts the OCC. The trade settles in **one business day (T+1)** after the OCC is notified because when the investor is exercising an option, they are actually **trading stock**. (Note: As of May 2024, the settlement cycle for equity options exercises and stock trades has been shortened to T+1).
-当客户想要行使他们拥有的期权时，他们会联系其经纪自营商。经纪自营商联系 OCC。在通知 OCC 后的**一个营业日 （T+1）** 内完成交易结算，因为当投资者行使期权时，他们实际上是在**交易股票**。（注：自 2024 年 5 月起，股票期权行权及股票交易的结算周期已缩短至 T+1）。
+当客户想要行使他们拥有的期权时，他们会联系其经纪自营商。经纪自营商联系 OCC。在通知 OCC 后的**一个营业日（T+1（交易日后一个营业日结算（2024年5月起执行的标准）））**内完成交易结算，因为当投资者行使期权时，他们实际上是在**交易股票**。（注：自 2024 年 5 月起，股票期权行权及股票交易的结算周期已缩短至 T+1）。
 
 The steps involved look like this:
 
@@ -573,10 +573,10 @@ For some reason, the SIE exam writers decided you need to know some additional o
 
 *   **Aggregate exercise price：** The exercise （strike） price of an option multiplied by the number of units （usually 100 shares） of the underlying security covered by the option contract。 （累计行权价：期权的行权（履约）价乘以期权合同所涵盖的标的证券单位数（通常为 100 股）。）
 *   **Class of options：** All option contracts of the **same type** （puts or calls） covering the **same underlying security** or index。 （期权类别：覆盖**同一标的证券**或指数的所有**同类型**（看跌或看涨）期权合同。）
-*   **Clearing member：** A FINRA member that has been admitted to membership in the OCC （Options Clearing Corporation）。 （结算会员：已获准加入 OCC（期权结算公司）的 FINRA 会员。）
+*   **Clearing member：** A FINRA member that has been admitted to membership in the OCC （Options Clearing Corporation）。 （结算会员：已获准加入 OCC（期权结算公司）的 FINRA（美国金融业监管局）会员。）
 *   **Closing sale transaction：** An option transaction in which the seller wants to reduce or eliminate a long position。 So， for argument's sake， say an investor is long （owns） 1 ABC Oct 40 call。 To close that position， the investor would short （write or sell） the 1 ABC Oct 40 call。 （平仓卖出交易：卖方希望减少或消除多头头寸的期权交易。例如，假设投资者做多（持有）1 张 ABC 10 月 40 看涨期权。为了平仓该头寸，投资者将卖空（写入或卖出）1 张 ABC 10 月 40 看涨期权。）
 *   **Conventional index option：** An option that overlies a basket （nine or more equity securities） or index of securities providing that no one security comprises more than 30 percent of the basket or index。 （传统指数期权：覆盖一篮子（九只或更多股票）或证券指数的期权，前提是没有任何一只证券占该篮子或指数的 30% 以上。）
-*   **Conventional option：** Any option contract not issued or subject to issuance by the OCC or an OCC-cleared OTC option。 （传统期权：任何非由 OCC 发行或受其发行约束的期权合同，或非 OCC 结算的场外期权。）
+*   **Conventional option：** Any option contract not issued or subject to issuance by the OCC or an OCC-cleared OTC option。 （传统期权：任何非由 OCC 发行或受其发行约束的期权合同，或非 OCC 结算的 OTC（场外交易市场）期权。）
 *   **Delta neutral：** An equity options position that has been **fully hedged**。 For example， owning 100 shares of ABC stock and owning an at-the-money put on ABC stock。 Basically， offsetting long and short positions。 （德尔塔中性：已实现**完全对冲**的股票期权头寸。例如，持有 100 股 ABC 股票并持有一份 ABC 股票的平值看跌期权。基本上就是相互抵销多头和空头头寸。）
 *   **Net delta：** The number of shares that must be maintained （either long or short） to offset the risk the investor is facing by having an equity option position。 （净德尔塔：为了抵销投资者因持有股票期权头寸而面临的风险，必须维持（做多或做空）的股票数量。）
 *   **Opening writing （opening sale） transaction：** The initial sale of an option in which the seller receives the premium paid。 （开仓写入（开仓卖出）交易：卖方收到支付的权利金的期权初始卖出。）
@@ -597,9 +597,9 @@ Yes, I know . . . even more? Don't blame me; I didn't design the test. Anyway, a
 *   **Exercise limits:** A number placed on the amount of option contracts that a person can exercise on the same side of the market (bullish or bearish) within five consecutive business days. This will be covered in more detail if you are taking the Series 7 exam.
 *   **行权限额 （Exercise limits）：** 对一个人在连续五个工作日内可以在同一市场方向（看涨或看跌）上行使的期权合同数量设定的限制。如果您参加 Series 7 考试，这将会有更详细的介绍。
 *   **Limit on uncovered short positions:** FINRA may decide to limit the amount of uncovered short positions on option contracts of a given class if deemed necessary for the protection of investors.
-*   **未平仓空头头寸限制 （Limit on uncovered short positions）：** 如果认为为了保护投资者有必要，FINRA 可能会决定限制特定类别的期权合同的未平仓空头头寸数量。
+*   **未平仓空头头寸限制 （Limit on uncovered short positions）：** 如果认为为了保护投资者有必要，FINRA（美国金融业监管局）可能会决定限制特定类别的期权合同的未平仓空头头寸数量。
 *   **Restrictions on option transactions and exercises:** As with the limit on uncovered short positions, FINRA may also place restrictions on option transactions or the exercise of option contracts in one or more series of options of any class when deemed necessary to help maintain a fair and orderly market.
-*   **期权交易和行使的限制：** 与未平仓空头头寸的限制一样，当认为有助于维持公平有序的市场时，FINRA 也可能对任何类别的一个或多个期权系列的期权交易或期权合同的行使施加限制。
+*   **期权交易和行使的限制：** 与未平仓空头头寸的限制一样，当认为有助于维持公平有序的市场时，FINRA（美国金融业监管局）也可能对任何类别的一个或多个期权系列的期权交易或期权合同的行使施加限制。
 *   **Open order on the "ex-date" (ex-dividend date):** Since the underlying stock price will be lowered due to a dividend, the OCC will adjust option contracts accordingly unless otherwise instructed by the customer.
 *   **除息日 （ex-date） 的未结订单：** 由于标的股票价格会因分红而降低，除非客户另有指示，否则 OCC 将相应调整期权合同。
 *   **Confirmations:** Members are responsible for providing a written confirmation of each option transaction for each customer's account. The confirmation must include the type of option (call or put); the underlying security or index; the expiration month; the exercise (strike) price; the number of option contracts; the premium, trade, and settlement dates; whether it was a purchase or sale (long or short); opening or closing transaction; whether it was done on a principal or agency basis; the amount of commission; and so on. (There's more on confirmations in Chapter 16 — yippee!)
@@ -609,7 +609,7 @@ Yes, I know . . . even more? Don't blame me; I didn't design the test. Anyway, a
 *   **Opening of accounts:** In order to open an options account for a client, the client must receive an ODD, and you must exercise due diligence by getting the customer's investment objectives, employment status, estimated annual income, estimated net worth, estimated liquid net worth, marital status, number of dependents, age, investment experience and knowledge, and so on. In addition, the account and all transactions must be approved by a registered options principal (ROP), branch office manager, or limited principal-general securities sales supervisor. All options accounts must be approved or disapproved within ten business days. Please note that all options accounts may not be approved for all transactions — depending on the client, they may be approved for buying covered writing, uncovered writing, spreading, discretionary transactions, and so on.
 *   **开立账户：** 为了为客户开立期权账户，客户必须收到 ODD，并且您必须进行尽职调查，获取客户的投资目标、就业状况、预估年收入、预估净资产、预估流动净资产、婚姻状况、受抚养人数、年龄、投资经验和知识等。此外，账户和所有交易必须由注册期权主管 （ROP）、分公司经理或有限主管-一般证券销售主管批准。所有期权账户必须在十个工作日内批准或拒绝。请注意，并非所有期权账户都会被批准进行所有交易——根据客户的情况，他们可能被批准进行购买备兑写入、未备兑写入、价差交易、全权委托交易等。
 *   **Options account agreement (OAA):** Within 15 days of the approval of the account, a member must obtain from the customer a written account agreement, which states that the customer understands that they are aware of and agrees to be bound by FINRA rules regarding options trading.
-*   **期权账户协议 （OAA）：** 在账户批准后 15 天内，会员必须从客户处获得一份书面账户协议，声明客户了解并同意受有关期权交易的 FINRA 规则的约束。
+*   **期权账户协议 （OAA）：** 在账户批准后 15 天内，会员必须从客户处获得一份书面账户协议，声明客户了解并同意受有关期权交易的 FINRA（美国金融业监管局）规则的约束。
 *   **Uncovered short option contracts:** Since uncovered short option contracts are the riskiest of all option contracts, member firms must create standard rules for evaluating the suitability of customers who plan on writing uncovered options.
 *   **未备兑空头期权合同：** 由于未备兑空头期权合同是所有期权合同中风险最高的，会员公司必须制定标准规则来评估计划写入未备兑期权的客户的适当性。
 *   **Maintenance of records:** Each member must keep a current log, index, or other file for options-related complaints. Each complaint should be easily identified and easy to retrieve if necessary. Each complaint file (hopefully there aren't many) must contain the identification of the complaint, the date the complaint was received, the name of the registered rep handling the account, a description of the complaint (such as a commission that they believe is too high), action taken (if any), and so on.

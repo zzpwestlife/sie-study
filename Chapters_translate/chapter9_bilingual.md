@@ -31,7 +31,7 @@ In this chapter, I cover topics relating to investment companies and annuities. 
 ## 1. Looking at Investment Company Registration 1. 审视投资公司注册
 
 As with other nonexempt securities, investment companies must register with the U.S. Securities and Exchange Commission (SEC). You need to understand certain specifics about the registration process when taking the SIE. When registering with the SEC, investment companies must disclose:
-与其他非豁免证券一样，投资公司必须向美国证券交易委员会 （SEC） 注册。在参加 SIE 考试时，您需要了解注册过程中的某些细节。向 SEC 注册时，投资公司必须披露：
+与其他非豁免证券一样，投资公司必须向证券交易委员会 （SEC） 注册。在参加 SIE 考试时，您需要了解注册过程中的某些细节。向 SEC 注册时，投资公司必须披露：
 
 *   Whether the investment company will be open- or closed-end （投资公司是开放式还是封闭式）
 *   The names and addresses of affiliated people （关联人员的姓名和地址）
@@ -82,7 +82,7 @@ An open-end fund is more commonly known as a **mutual fund**. Like closed-end fu
 🧠 **REMEMBER**
 Because mutual funds are new issues, investors must receive a statutory prospectus (for more on what a prospectus is, see Chapter 5) and/or receive a summary prospectus and have access to the statutory prospectus. Prospectuses for mutual funds include their holdings, investment strategy, fees, expenses, graphs of the fund's performance, and so on. Every prospectus for every security must contain a disclosure stating that the SEC doesn't approve of the issue. I assume that this disclosure is the SEC's way of not being sued if investors lose money. The SEC just clears the issue for sale to investors.
 🧠 **请记住**
-由于共同基金属于新发行证券，投资者必须收到法定招股说明书（有关招股说明书的更多内容见第 5 章）和/或收到简要招股说明书并有权查阅法定招股说明书。共同基金的招股说明书包括其持仓、投资策略、费用、支出、基金表现图表等。每种证券的每份招股说明书都必须包含一项披露，声明 SEC 不对该发行表示“批准”。我推测这项披露是 SEC 在投资者亏损时避免被起诉的方式。SEC 只是核准该发行向投资者销售。
+由于共同基金属于新发行证券，投资者必须收到法定招股说明书（有关招股说明书的更多内容见第 5 章）和/或收到简要招股说明书并有权查阅法定招股说明书。共同基金的招股说明书包括其持仓、投资策略、费用、支出、基金表现图表等。每种证券的每份招股说明书都必须包含一项披露，声明 证券交易委员会（SEC） 不对该发行表示“批准”。我推测这项披露是 证券交易委员会（SEC） 在投资者亏损时避免被起诉的方式。证券交易委员会（SEC） 只是核准该发行向投资者销售。
 
 If the fund provides a summary prospectus, it must include items such as the fund's name and ticker symbol, the class of shares, the fund's investment strategies, investment objectives, costs of investing, investment advisers, financial compensation, risks, and performance. The summary prospectus may include an application that investors can use to purchase shares. Potential investors can also request a full prospectus before investing. If an investor purchases via a summary prospectus, they must either receive or be provided online access to a full prospectus.
 如果基金提供简要招股说明书，其中必须包含基金名称和股票代码、股份类别、基金投资策略、投资目标、投资成本、投资顾问、财务补偿、风险和表现等项目。简要招股说明书可能包含投资者可用于购买股份的申请表。潜在投资者也可以在投资前索取完整招股说明书。如果投资者通过简要招股说明书购买，他们必须收到或获得在线查阅完整招股说明书的途径。
@@ -185,7 +185,7 @@ Because of the inherent risk of investing in growth funds, they're better for yo
 ### Hedge funds: What are they? 对冲基金：它们是什么？
 
 You've probably heard about hedge funds but aren't exactly sure what they are. For the SIE exam, you do need to know a little bit about them. Because they aren't open- or closed-end funds, unit investment trusts, or face-amount certificate companies, they are an **exception** to the standard definition of investment company under the Investment Company Act of 1940. In addition, because they are considered **private equity** and are only open to sophisticated (**accredited**) investors, they are **exempt from SEC registration**. Hedge funds often require a very high initial investment — sometimes $500,000 or more.
-您可能听说过对冲基金，但并不确切知道它们是什么。为了参加 SIE 考试，您确实需要对它们有一点了解。因为它们既不是开放式也不是封闭式基金，也不是单位投资信托或面值证单公司，所以它们是 1940 年《投资公司法》下投资公司标准定义的**例外**。此外，由于它们被视为**私募股权**且仅对资深（**合格**）投资者开放，因此它们**免于 SEC 注册**。对冲基金通常需要极高的初始投资——有时达 50 万美元或更多。
+您可能听说过对冲基金，但并不确切知道它们是什么。为了参加 SIE 考试，您确实需要对它们有一点了解。因为它们既不是开放式也不是封闭式基金，也不是单位投资信托或面值证单公司，所以它们是 1940 年《投资公司法》下投资公司标准定义的**例外**。此外，由于它们被视为**私募股权**且仅对资深（**合格**）投资者开放，因此它们**免于 证券交易委员会（SEC） 注册**。对冲基金通常需要极高的初始投资——有时达 50 万美元或更多。
 
 Hedge funds hold a pool of investments and are professionally managed like mutual (open-end) funds but have a lot more flexibility. Hedge funds are typically much more aggressive in nature and may buy securities on margin, sell securities short, purchase or sell options, and so on in an attempt to maximize gains. I guess you can almost think of them as a "whatever it takes to make money" type of fund.
 对冲基金持有一个投资池，并像共同（开放式）基金一样由专业人士管理，但灵活性要大得多。对冲基金在性质上通常更具侵略性，可能会融资融券、卖空证券、买卖期权等，以期最大限度地提高收益。我想您几乎可以把它们看作是一种“不惜一切代价赚钱”的基金。
@@ -219,20 +219,20 @@ Management investment companies divide purchase amounts into different tiers. Wi
 管理型投资公司将购买金额分为不同的等级。在一定范围内，投资者的销售费用百分比是相同的。但是，当投资者投入的金额和/或账户增长足以使他们进入下一个等级时（即触及折让点时），他们将获得较低的销售费用百分比。折让点没有统一的时间表，因此因基金而异。
 
 Another discount, **rights of accumulation (ROA)**, allows shareholders to receive a reduced sales charge when the amount of the funds held (based on their current price, not purchase price) plus the amount purchased is enough to reach a breakpoint. There is no time limit for rights of accumulation.
-另一种折扣是**累计优先权 （ROA）**，它允许股东在持有的基金金额（基于当前价格而非购买价格）加上新购买的金额足以达到折让点时，获得销售费用减免。累计优先权没有时间限制。
+另一种折扣是**累计优先权 （ROA）**，它允许股东在持有的基金金额（基于当前价格而非购买价格）加上新购买的金额足以达到费率折让点时，获得销售费用减免。累计优先权没有时间限制。
 
 Here are a few key points for you to remember for the SIE exam:
 以下是参加 SIE 考试需要记住的几个关键点：
 
-*   Breakpoints must be disclosed in the prospectus. （折让点必须在招股说明书中披露。）
-*   Breakpoints aren't available to partnerships or investment clubs （several people pooling money to receive reduced sales charges）。 （折让点不适用于合伙企业或投资俱乐部（多人集资以获得销售费用减免）。）
-*   Breakpoints are generally available to individual investors， joint accounts with family members， UGMA accounts， and corporations. （折让点通常适用于个人投资者、家庭成员共同账户、UGMA（统一赠与未成年人法）账户和公司。）
+*   Breakpoints must be disclosed in the prospectus. （费率折让点必须在招股说明书中披露。）
+*   Breakpoints aren't available to partnerships or investment clubs （several people pooling money to receive reduced sales charges）。 （费率折让点不适用于合伙企业或投资俱乐部（多人集资以获得销售费用减免）。）
+*   Breakpoints are generally available to individual investors， joint accounts with family members， UGMA accounts， and corporations. （费率折让点通常适用于个人投资者、家庭成员共同账户、UGMA（统一赠与未成年人法）账户和公司。）
 
 
-### Breakpoint sales 挂点销售 （Breakpoint sales）
+### Breakpoint sales 费率折让点销售（Breakpoint sales）
 
 As an agent, you're responsible for letting investors know about the existence of breakpoints. A **breakpoint sale** occurs when you induce a sale just below the level where an investor would receive a breakpoint or an additional sales discount. As shown in Table 9-2, you would make more money if a client purchased $23,000 worth of a fund instead of $25,000 because of the discounted sales charge the customer would receive at $25,000. It's your responsibility to let the client know that by investing $2,000 more, they can reach a breakpoint. Not disclosing breakpoints and inducing sales just below breakpoints are **violations**.
-作为代理人，您有责任让投资者知道折让点的存在。**挂点销售 （breakpoint sale）** 发生在您诱导投资者在略低于获得折让点或额外销售折扣的水平进行购买。如表 9-2 所示，如果客户购买价值 23,000 美元的基金而不是 25,000 美元的基金，您会赚更多的钱，因为客户在 25,000 美元时可以获得折扣销售费。您的责任是让客户知道，通过再投资 2,000 美元，他们可以达到折让点。不披露折让点并诱导在折让点以下进行销售属于**违规行为**。
+作为代理人，您有责任让投资者知道费率折让点的存在。**费率折让点销售（breakpoint sale）**发生在您诱导投资者在略低于获得费率折让点或额外销售折扣的水平进行购买。如表 9-2 所示，如果客户购买价值 23,000 美元的基金而不是 25,000 美元的基金，您会赚更多的钱，因为客户在 25,000 美元时可以获得折扣销售费。您的责任是让客户知道，通过再投资 2,000 美元，他们可以达到费率折让点。不披露费率折让点并诱导在费率折让点以下进行销售属于**违规行为**。
 
 
 #### TABLE 9-2: Breakpoints for AylDec Growth Fund
@@ -434,13 +434,13 @@ Annuities are similar to mutual funds, except annuities are designed to provide 
 🧠 **REMEMBER**
 Gather very specific information about your client before making recommendations. In addition, before recommending annuities, make sure you really understand the ins and outs and know what you're talking about. Annuities have been under the watchful eye of state insurance commissions and the SEC due to inappropriate recommendations from some brokers. Annuities typically aren't recommended for younger clients (most annuity purchasers are older than 50), for clients older than 75, or for a client's entire investment portfolio. For information on portfolio and securities analysis, see Chapter 13.
 🧠 **请记住**
-在做出推荐之前，请收集有关客户的非常具体的详细信息。此外，在推荐年金之前，请确保您真正了解其中的细枝末节，并清楚自己在说什么。由于一些经纪人的不当推荐，年金一直受到州保险委员会和 SEC 的密切关注。年金通常不推荐给年轻客户（大多数年金购买者年龄在 50 岁以上）、75 岁以上的客户，或者作为客户的全部投资组合。有关投资组合和证券分析的信息，请参阅第 13 章。
+在做出推荐之前，请收集有关客户的非常具体的详细信息。此外，在推荐年金之前，请确保您真正了解其中的细枝末节，并清楚自己在说什么。由于一些经纪人的不当推荐，年金一直受到州保险委员会和 证券交易委员会（SEC） 的密切关注。年金通常不推荐给年轻客户（大多数年金购买者年龄在 50 岁以上）、75 岁以上的客户，或者作为客户的全部投资组合。有关投资组合和证券分析的信息，请参阅第 13 章。
 
 
 ### Looking at fixed annuities 审视固定年金
 
 The main thing for you to remember about **fixed annuities** is that they have fixed rates of return that the issuer guarantees. Investors pay money into fixed annuities, and the money is deposited into the insurance company's general account. After the investor starts receiving payments from the fixed annuity (usually monthly), the payments remain the same for the remainder of the investor's life. Because of the guaranteed payout, fixed annuities are **not considered securities** and, therefore, are exempt from SEC registration requirements and from the Investment Company Act of 1940. Therefore, whereas sellers of fixed annuities must have an appropriate insurance license, a securities license is not required.
-关于**固定年金**，您需要记住的最重要一点是，它们具有发行人保证的固定回报率。投资者向固定年金缴款，资金被存入保险公司的通用账户。在投资者开始从固定年金中领取给付（通常是每月）后，给付额在投资者的余生中保持不变。由于有保证给付，固定年金**不被视为证券**，因此免于 SEC 注册要求和 1940 年《投资公司法》的监管。因此，虽然固定年金的销售人员必须持有适当的保险执照，但不需要证券执照。
+关于**固定年金**，您需要记住的最重要一点是，它们具有发行人保证的固定回报率。投资者向固定年金缴款，资金被存入保险公司的通用账户。在投资者开始从固定年金中领取给付（通常是每月）后，给付额在投资者的余生中保持不变。由于有保证给付，固定年金**不被视为证券**，因此免于 证券交易委员会（SEC） 注册要求和 1940 年《投资公司法》的监管。因此，虽然固定年金的销售人员必须持有适当的保险执照，但不需要证券执照。
 
 🧠 **REMEMBER**
 Because the payouts associated with a fixed annuity remain the same, they're subject to **purchasing power risk** (the risk that the investment won't keep up with inflation). An investor who received payments of $1,000 per month in the 1970s may have been able to survive; however, that amount today is not even likely to pay your monthly grocery bill.
@@ -451,7 +451,7 @@ Because the payouts associated with a fixed annuity remain the same, they're sub
 ### Focusing on variable annuities 聚焦变动年金
 
 Insurance companies introduced **variable annuities** as a way to keep pace with (or hopefully exceed) inflation. In a fixed annuity, the insurance company bears the investment risk; however, in a variable annuity, the **investment risk is borne by the investor**. Because the investors assume the investment risk, variable annuities are **considered securities** and must be registered with the SEC. All variable annuities have to be sold with a prospectus, and only individuals who hold appropriate securities and insurance licenses can sell them.
-保险公司推出**变动年金**是为了跟上（或希望超过）通货膨胀。在固定年金中，保险公司承担投资风险；然而，在变动年金中，**投资风险由投资者承担**。由于投资者承担了投资风险，变动年金被**视为证券**，必须向 SEC 注册。所有变动年金在销售时必须附带招股说明书，且只有持有适当证券和保险执照的人员才能销售。
+保险公司推出**变动年金**是为了跟上（或希望超过）通货膨胀。在固定年金中，保险公司承担投资风险；然而，在变动年金中，**投资风险由投资者承担**。由于投资者承担了投资风险，变动年金被**视为证券**，必须向 证券交易委员会（SEC） 注册。所有变动年金在销售时必须附带招股说明书，且只有持有适当证券和保险执照的人员才能销售。
 
 The money that investors deposit is held in a **separate account** (separate from the insurance company's other business) because the money is invested differently. The separate account is invested in securities such as common stock, bonds, mutual funds, and so on, with the hope that the investments will keep pace with or exceed the inflation rate.
 投资者存入的资金存放在一个**独立账户 （separate account）** 中（与保险公司的其他业务分开），因为这些资金的投资方式不同。独立账户投资于普通股、债券、共同基金等证券，希望能使投资跟上或超过通货膨胀率。
@@ -606,8 +606,8 @@ Practice questions
    IV. They may not purchase private companies.
    (A) I and III (B) I and IV (C) II and III (D) II and IV
 7. 关于私募股权基金，以下哪项是正确的？
-   I. 它们免于 SEC 注册。
-   II. 它们必须向 SEC 注册。
+   I. 它们免于 证券交易委员会（SEC） 注册。
+   II. 它们必须向 证券交易委员会（SEC） 注册。
    III. 它们可以购买私营公司。
    IV. 它们不得购买私营公司。
    (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
@@ -656,23 +656,23 @@ Practice questions
 
 ### Answers and explanations 答案与解释
 
-1.  **D.** Mutual funds are open-end funds. Mutual fund issuers continuously offer new shares. Holders sell their shares by redeeming them with the issuer. By contrast, the issuer of a closed-end fund would sell the securities once, and then they would be traded in the market.
+1. **D.** Mutual funds are open-end funds. Mutual fund issuers continuously offer new shares. Holders sell their shares by redeeming them with the issuer. By contrast, the issuer of a closed-end fund would sell the securities once, and then they would be traded in the market.
     **D.** 共同基金是开放式基金。共同基金发行人持续发行新股。持有人通过向发行人赎回股份来出售股份。相比之下，封闭式基金的发行人只会出售一次证券，然后它们将在市场上交易。
-2.  **C.** According to the Investment Company Act of 1940, out of the 75 percent that must be diversified, a diversified investment company may not own more than 10 percent of outstanding shares of another company. In addition, the investment company cannot invest more than 5 percent of its diversified assets into one issuer's securities.
+2. **C.** According to the Investment Company Act of 1940, out of the 75 percent that must be diversified, a diversified investment company may not own more than 10 percent of outstanding shares of another company. In addition, the investment company cannot invest more than 5 percent of its diversified assets into one issuer's securities.
     **C.** 根据 1940 年《投资公司法》，在必须多样化的 75% 资产中，多样化投资公司持有的另一家公司的流通股比例不得超过 10%。此外，投资公司投资于任何一个发行人证券的资金不得超过其多样化资产的 5%。
-3.  **D.** Hedge funds are the most speculative (riskiest) type of fund. Hedge funds are available to accredited investors and are allowed to execute trades that other funds cannot.
+3. **D.** Hedge funds are the most speculative (riskiest) type of fund. Hedge funds are available to accredited investors and are allowed to execute trades that other funds cannot.
     **D.** 对冲基金是投机性最强（风险最高）的基金类型。对冲基金向合格投资者开放，并被允许执行其他基金无法执行的交易。
-4.  **D.** Letters of intent allow mutual fund investors to receive a breakpoint (discounted sales charge for large dollar purchases) right away as long as they purchase enough of the fund within 13 months to receive the breakpoint. It may be backdated for up to 90 days so that the 13-month period can apply to a previous purchase. The issuer may hold shares in escrow to make sure the investor lives up to the terms of the letter of intent.
+4. **D.** Letters of intent allow mutual fund investors to receive a breakpoint (discounted sales charge for large dollar purchases) right away as long as they purchase enough of the fund within 13 months to receive the breakpoint. It may be backdated for up to 90 days so that the 13-month period can apply to a previous purchase. The issuer may hold shares in escrow to make sure the investor lives up to the terms of the letter of intent.
     **D.** 意向书允许共同基金投资者立即获得折让点（大额购买的折扣销售费），只要他们在 13 个月内购买足够的基金以达到折让点。它可以回溯长达 90 天，以便 13 个月的期限可以适用于之前的购买。发行人可以代管股份，以确保投资者履行意向书的条款。
-5.  **C.** The maximum sales charge for a mutual fund is 8 1/2 percent of the amount invested. This means that investors make their purchase at the public offering price, which already has the sales charge built in.
+5. **C.** The maximum sales charge for a mutual fund is 8 1/2 percent of the amount invested. This means that investors make their purchase at the public offering price, which already has the sales charge built in.
     **C.** 共同基金的最高销售费用为投资金额的 8.5%。这意味着投资者按公开发售价购买，该价格中已包含销售费用。
-6.  **C.** Fixed annuities are not considered investment companies since the payout is guaranteed by the issuing insurance company.
+6. **C.** Fixed annuities are not considered investment companies since the payout is guaranteed by the issuing insurance company.
     **C.** 固定年金不被视为投资公司，因为给付由发行保险公司保证。
-7.  **A.** Private-equity funds are only available to sophisticated (accredited) investors and are exempt from SEC registration. As part of their investment strategy, they may purchase private companies and/or purchase enough shares of public companies to gain control.
-    **A.** 私募股权基金仅向资深（合格）投资者开放，并免于 SEC 注册。作为其投资策略的一部分，它们可以购买私营公司和/或购买足够数量的上市公司股份以获得控制权。
-8.  **A.** Sector funds invest in specific industries, such as automotives, pharmaceutical, energy, technology, and so on.
+7. **A.** Private-equity funds are only available to sophisticated (accredited) investors and are exempt from SEC registration. As part of their investment strategy, they may purchase private companies and/or purchase enough shares of public companies to gain control.
+    **A.** 私募股权基金仅向资深（合格）投资者开放，并免于 证券交易委员会（SEC） 注册。作为其投资策略的一部分，它们可以购买私营公司和/或购买足够数量的上市公司股份以获得控制权。
+8. **A.** Sector funds invest in specific industries, such as automotives, pharmaceutical, energy, technology, and so on.
     **A.** 行业基金投资于特定行业，如汽车、制药、能源、技术等。
-9.  **A.** Open-end (mutual) funds may only issue common stock. Conversely, closed-end funds may issue common stock, preferred stock, and bonds.
+9. **A.** Open-end (mutual) funds may only issue common stock. Conversely, closed-end funds may issue common stock, preferred stock, and bonds.
     **A.** 开放式（共同）基金只能发行普通股。相反，封闭式基金可以发行普通股、优先股和债券。
 10. **B.** With mutual funds, the sales charge is built into the public offering price (POP), so you have to subtract the net asset value (NAV) from the POP and then divide that by the POP. Calculation: ($22.60 – $21.40) / $22.60 = $1.20 / $22.60 = 5.3%.
     **B.** 对于共同基金，销售费用包含在公开发售价 (POP) 中，因此您必须从 POP 中减去资产净值 (NAV)，然后除以 POP。计算：($22.60 – $21.40) / $22.60 = $1.20 / $22.60 = 5.3%。

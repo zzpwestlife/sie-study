@@ -51,7 +51,7 @@ A lot of things need to happen before securities hit the market. Unless exempt (
 ### Starting out: What the issuer does 起步：发行人的职责
 
 For an entity to become a corporation, the corporate founders must file a document called a corporate charter (bylaws) in the home state of their business. Included in the corporate charter are the names of the founders, the type of business they're running or planning to run, the location of business, the number of shares (authorized shares) that can be issued, and so on. If a corporation wants to sell securities to the public, it has to register with states and the U.S. Securities and Exchange Commission (SEC). Read on for info on how the registration process works.
-一个实体要成为一家公司，创始人必须在其业务所在地（主州）提交一份名为“公司章程”（corporate charter/bylaws）的文件。公司章程中包括创始人的姓名、正在经营或计划经营的业务类型、营业地点、可以发行的股票数量（授权股数）等。如果一家公司想向公众出售证券，它必须向各州和美国证券交易委员会（SEC）进行注册。请继续阅读以了解注册流程是如何运作的。
+一个实体要成为一家公司，创始人必须在其业务所在地（主州）提交一份名为“公司章程”（corporate charter/bylaws）的文件。公司章程中包括创始人的姓名、正在经营或计划经营的业务类型、营业地点、可以发行的股票数量（授权股数）等。如果一家公司想向公众出售证券，它必须向各州和证券交易委员会（SEC）进行注册。请继续阅读以了解注册流程是如何运作的。
 
 ---
 
@@ -65,7 +65,7 @@ Registration helps ensure that securities issued to the public adhere to certain
 **1933年证券法：** 该法案（也称为证券真相法、纸面法、全面披露法、招股说明书法和新发行法）监管公司证券的新发行。公司证券的发行人必须提供有关其自身和发行情况的全面且公正的披露。该法案中包含了防止欺诈和欺骗的规则。
 
 **Securities Exchange Act of 1934:** The Act of 1934, which established the SEC, was enacted to protect investors by regulating the over-the-counter (OTC) market and exchanges, such as the New York Stock Exchange (NYSE). (Chapter 14 tells you more about markets.) In addition, the Act of 1934 regulates
-**1934年证券交易法：** 1934年法案成立了SEC（美国证券交易委员会），旨在通过监管场外交易（OTC）市场和交易所（如纽约证券交易所，NYSE）来保护投资者。（第14章将为您介绍更多关于市场的内容。）此外，1934年法案还监管：
+**1934年证券交易法：** 1934年法案成立了证券交易委员会（SEC），旨在通过监管场外交易市场（OTC）和交易所（如纽约证券交易所（NYSE））来保护投资者。（第14章将为您介绍更多关于市场的内容。）此外，1934年法案还监管：
 
 * The extension of credit in margin accounts (see Chapter 12)
 * 融资账户中的信用展期（见第12章）
@@ -82,10 +82,10 @@ Registration helps ensure that securities issued to the public adhere to certain
 ---
 
 
-## 3. Registering securities with the SEC 3. 向 SEC 注册证券
+## 3. Registering securities with the SEC 3. 向证券交易委员会（SEC）注册证券
 
 Unless the securities are exempt from registration (see "Exempt securities" later in this chapter), when a company wants to go public (sell stock to public investors), it has to file a registration statement and a prospectus (see "Getting the skinny on the issue and issuer: The prospectus" later in this chapter) with the SEC.
-除非证券获得注册豁免（见本章后面的“豁免证券”），否则当一家公司想要上市（向公众投资者出售股票）时，它必须向SEC提交注册说明书和招股说明书（见本章后面的“获取发行和发行人的详情：招股说明书”）。
+除非证券获得注册豁免（见本章后面的“豁免证券”），否则当一家公司想要上市（向公众投资者出售股票）时，它必须向证券交易委员会（SEC）提交注册说明书和招股说明书（见本章后面的“获取发行和发行人的详情：招股说明书”）。
 
 The registration statement includes
 注册说明书包括：
@@ -125,7 +125,7 @@ Most of the information required is very similar; in fact, you can substitute mu
 🧠 **请记住**
 
 Because the registration process to sell securities is a somewhat daunting and costly process for issuers, they may register more securities than they may need to sell now. Shelf registration (SEC Rule 415) allows issuers to sell securities that were previously registered with the SEC without additional permission. Shelf registration gives issuers up to three years (depending on their status) to sell previously registered shares.
-由于销售证券的注册过程对发行人来说是一个有些艰巨且成本高昂的过程，他们可能会注册比现在需要销售的更多的证券。暂搁注册（SEC 415号规则）允许发行人在没有额外许可的情况下，出售先前已在SEC注册的证券。暂搁注册给予发行人长达三年的时间（取决于其地位）来出售先前注册的股份。
+由于销售证券的注册过程对发行人来说是一个有些艰巨且成本高昂的过程，他们可能会注册比现在需要销售的更多的证券。暂搁注册（证券交易委员会（SEC）415号规则）允许发行人在没有额外许可的情况下，出售先前已在证券交易委员会（SEC）注册的证券。暂搁注册给予发行人长达三年的时间（取决于其地位）来出售先前注册的股份。
 
 
 ### Awaiting approval: The cooling-off period 等待批准：冷却期
@@ -188,7 +188,7 @@ Here are the methods of state security registration:
 * **Coordination:** This method involves registering with the SEC and states at the same time. The SEC helps companies meet the blue-sky laws by notifying all states in which the securities are to be sold. This type of registration is typically used for initial public offerings (IPOs).
 * **协调注册：** 这种方法涉及同时向SEC和各州进行注册。SEC通过通知所有计划销售证券的州，协助公司满足蓝天法的要求。这种类型的注册通常用于首次公开募股（IPO）。
 * **Qualification:** Companies use this registration method for securities that are exempt from federal (SEC) registration but require registration with the state through the State Administrator.
-* **核准注册：** 对于豁免联邦（SEC）注册但需要通过州管理机构向该州注册的证券，公司会使用这种注册方法。
+* **核准注册：** 对于豁免联邦证券交易委员会（SEC）注册但需要通过州管理机构向该州注册的证券，公司会使用这种注册方法。
 
 ---
 
@@ -490,7 +490,7 @@ This chapter covers what you need to know about underwriting securities (at leas
 5.  A preliminary prospectus would include which of the following?
     初步招股说明书将包括以下哪项？
 
-    I. An SEC disclaimer (SEC免责声明)
+I. An SEC disclaimer (证券交易委员会（SEC）免责声明)
     II. The names of the officers of the issuing corporation (发行公司高级职员的姓名)
     III. The public offering price (公开发售价)
     IV. An explanation of what the funds raised by the offering would be used for (对发行筹集资金用途的解释)
@@ -571,4 +571,4 @@ This chapter covers what you need to know about underwriting securities (at leas
 9. **B. After the registration is effective (the effective date), the broker-dealer is allowed to accept payments for the new issue.**
 9. **B。在注册生效（生效日期）后，经纪交易商被允许接受新发行的付款。**
 10. **D. U.S. Treasury securities (Treasury bonds, Treasury notes, Treasury bills, TIPS, and so on), municipal bonds (general obligation bonds, revenue bonds, and so on), and Eurodollar bonds are exempt from SEC registration. U.S. Treasury securities are backed by the federal government, and municipal bonds are backed by a state or local government. Eurodollar bonds are dollar-denominated bonds issued in Europe, and, therefore, must register in the country of issue. ADRs (American Depositary Receipts) are receipts for foreign securities traded in the United States and, therefore, must be registered in the United States.**
-10. **D。美国国债（长期国债、中期国债、短期国债、TIPS 等）、市政债券（一般责任债券、收益债券等）以及欧洲美元债券均免于 SEC 注册。美国国债由联邦政府支持，市政债券由州或地方政府支持。欧洲美元债券是在欧洲发行的美元计价债券，因此必须在发行国注册。ADRs（美国存托凭证）是在美国交易的外国证券收据，因此必须在美国注册。**
+10. **D。美国国债（长期国债、中期国债、短期国债、TIPS 等）、市政债券（一般责任债券、收益债券等）以及欧洲美元债券均免于证券交易委员会（SEC）注册。美国国债由联邦政府支持，市政债券由州或地方政府支持。欧洲美元债券是在欧洲发行的美元计价债券，因此必须在发行国注册。ADRs（美国存托凭证）是在美国交易的外国证券收据，因此必须在美国注册。**

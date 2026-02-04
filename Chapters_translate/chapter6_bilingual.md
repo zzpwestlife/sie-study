@@ -129,7 +129,7 @@ All publicly held corporations have a certain quantity of shares that they can s
 *   **Authorized shares:** Authorized shares are the number of shares of stock that a corporation can issue. The issuer's bylaws or corporate charter (a document filed with the state that identifies the names of the founders of the corporation, the company's objectives, and so on) states the number of shares the company is authorized to sell. The issuer usually holds back a large percentage of the authorized stock, which it can sell later as needed through a primary offering. (See Chapter 5 for details on offerings.) In the event that the issuer wishes to sell more shares than were previously authorized, the issuer's corporate charter would have to be updated, which would require a vote by stockholders.
 *   **授权股份 （Authorized shares）：** 授权股份是公司可以发行的股票数量。公司的细则或公司章程（一份提交给州政府的文件，用于识别公司创始人姓名、公司目标等）规定了公司被授权出售的股份数量。发行人通常会保留很大比例的授权股票，以后可以根据需要通过一级发行进行销售。（有关发行的详细信息见第 5 章。）如果发行人希望出售比之前授权更多的股份，则必须更新其公司章程，这需要经过股东投票。
 *   **Issued shares:** Issued shares are the portion of authorized shares that the issuer has actually sold to the public to raise money, including shares owned by founding shareholders. Logically, the portion of authorized shares that hasn't been issued to the public is called **unissued shares**. Unissued shares do not carry the rights and privileges of issued shares. Under SEC Rule 415, shares may be kept unissued for up to two or three years (shelf registration). (See Chapter 5 for more on this topic.)
-*   **已发行股份 （Issued shares）：** 已发行股份是发行人为筹集资金而实际向公众出售的那部分授权股份，包括原始股东持有的股份。从逻辑上讲，尚未向公众发行的那部分授权股份被称为**未发行股份 （unissued shares）**。未发行股份不享有已发行股份的权利和特权。根据 SEC 415 号规则，股份可以保持未发行状态长达两到三年（货架注册）。（有关此话题的更多信息见第 5 章。）
+*   **已发行股份 （Issued shares）：** 已发行股份是发行人为筹集资金而实际向公众出售的那部分授权股份，包括原始股东持有的股份。从逻辑上讲，尚未向公众发行的那部分授权股份被称为**未发行股份 （unissued shares）**。未发行股份不享有已发行股份的权利和特权。根据 证券交易委员会（SEC） 415 号规则，股份可以保持未发行状态长达两到三年（货架注册）。（有关此话题的更多信息见第 5 章。）
 *   **Outstanding shares:** Outstanding shares are the number of shares that are in investors' hands. This quantity may or may not be the same number as the issued shares. At times, an issuer may decide to repurchase its stock in the market for numerous reasons, including to help increase the demand (and the price) of the stock trading in the market or to avoid a hostile takeover (when another company is trying to gain control of the issuer). Stock that the issuer repurchases from the outstanding shares is called **treasury stock**. Only the issuer can own treasury stock; stock owned by the CEO or founders is considered part of the outstanding stock.
 *   **流通股份 （Outstanding shares）：** 流通股份是投资者手中的股份数量。该数量可能与已发行股份的数量相同，也可能不同。有时，发行人可能出于多种原因决定在市场上回购其股票，包括为了帮助增加市场上交易股票的需求（和价格），或为了避免恶意收购（当另一家公司试图获得该发行人的控制权时）。发行人从流通股份中回购的股票被称为**库存股 （treasury stock）**。只有发行人才能拥有库存股；首席执行官或创始人拥有的股票被视为流通股的一部分。
 
@@ -269,16 +269,16 @@ In addition to the risks associated with stock ownership in general, ADR owners 
 除了与股票所有权相关的一般风险外，ADR 持有者还面临**货币风险 （currency risk）**——即由于发行公司的货币价值相对于美元下跌，导致证券价值可能下降的风险。
 
 
-### Rights: The right to buy new shares at a discount 认股权：以折扣价购买新股的权利
+### Rights: The right to buy new shares at a discount 配股权：以折扣价购买新股的权利
 
 Corporations offer special privileges known as **rights** (subscription or preemptive) to their common stockholders. To maintain stockholders' proportionate ownership of the corporation, rights allow existing stockholders to purchase new shares of the corporation at a fixed discounted price directly from the issuer, before the shares are offered to the public.
-公司向其普通股股东提供称为**认股权 （rights）**（认购权或优先认股权）的特殊特权。为了维持股东在公司的持股比例，认股权允许现有股东在向公众发售股份之前，以固定的折扣价格直接从发行人处购买公司的新股。
+公司向其普通股股东提供称为**配股权（rights）**（认购权或优先认股权）的特殊特权。为了维持股东在公司的持股比例，配股权允许现有股东在向公众发售股份之前，以固定的折扣价格直接从发行人处购买公司的新股。
 
 Stockholders receive one right for each share they own. The rights are short-term — usually, 16 to 30 days, but in some cases may go up to 60. The rights are marketable, and stockholders may sell them to other investors. If existing stockholders don't purchase all the shares, the issuer offers any unsold shares to a **standby underwriter** — a broker-dealer that purchases any shares that weren't sold in the rights offering and resells them to other investors.
-股东每持有一股就获得一份认股权。认股权是短期的——通常为 16 到 30 天，但在某些情况下可能长达 60 天。认股权是可交易的，股东可以将其出售给其他投资者。如果现有股东没有购买所有股份，发行人会将任何未售出的股份提供给**备用承销商 （standby underwriter）**——即购买在认股权发行中未售出的任何股份并将其转售给其他投资者的经纪交易商。
+股东每持有一股就获得一份配股权。配股权是短期的——通常为 16 到 30 天，但在某些情况下可能长达 60 天。配股权是可交易的，股东可以将其出售给其他投资者。如果现有股东没有购买所有股份，发行人会将任何未售出的股份提供给**备用承销商 （standby underwriter）**——即购买在配股权发行中未售出的任何股份并将其转售给其他投资者的经纪交易商。
 
 For the SIE exam, you can assume that common stockholders automatically receive rights.
-对于 SIE 考试，您可以假设普通股股东自动获得认股权。
+对于 SIE 考试，您可以假设普通股股东自动获得配股权。
 
 
 ### Warrants: The right to buy shares of stock at a fixed price 认股权证：以固定价格购买股票的权利
@@ -383,5 +383,4 @@ On the SIE exam, both rights and warrants may be referred to as **derivative sec
     **(A) 增加。** 为了诱导股东出售，要约收购的价格通常高于当前市场价格。
 6.  **(B) I, III, and IV only.** ADRs do not typically carry voting rights.
     **(B) 仅 I、III 和 IV。** ADRs 通常不享有投票权。
-
 

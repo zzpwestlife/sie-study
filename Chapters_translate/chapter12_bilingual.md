@@ -87,7 +87,7 @@ Broker-Dealers may, in accordance with the **Patriot Act**, also require a custo
 🧠 **REMEMBER**
 If anything changes (such as a customer’s address or marital status), the new account form needs to be updated. Additionally, only individuals who are **legally competent** may open accounts — meaning you have to pay close attention to the investor’s age and/or mental or physical ability. The Financial Industry Regulatory Authority (FINRA) has additional rules specifically put in place for older people and/or those with some sort of disability; these rules, regarding “financial exploitation of specified adults,” are covered in Chapter 16.
 🧠 **请记住**
-如果发生任何变化（如客户地址或婚姻状况），需要更新新开户表。此外，只有具有**法律行为能力**的个人才能开户——这意味着您必须密切关注投资者的年龄和/或精神、身体状况。金融业监管局 （FINRA） 针对老年人和/或有某种残疾的人士制定了额外的规则；这些关于“特定成年人的财务剥削”的规则将在第 16 章中介绍。
+如果发生任何变化（如客户地址或婚姻状况），需要更新新开户表。此外，只有具有**法律行为能力**的个人才能开户——这意味着您必须密切关注投资者的年龄和/或精神、身体状况。美国金融业监管局（FINRA）针对老年人和/或有某种残疾的人士制定了额外的规则；这些关于“特定成年人的财务剥削”的规则将在第 16 章中介绍。
 
 💡 **TIP**
 In the course of filling out a new account form, be sure to ask whether your client is **accredited**. (See Chapter 14 for more on the topic of accredited investors.) If a client is, in fact, accredited, they’re potentially able to handle more risk than non-accredited retail investors.
@@ -359,7 +359,7 @@ A **margin call** (also known as a Fed call, federal call, or Reg T call) is the
 ## 8. Opening a margin account: The initial requirements 8. 开设融资账户：初始要求
 
 For an initial purchase in a margin account, customers must deposit a minimum of equity. Regulation T calls for a minimum of 50 percent, however, **FINRA and the NYSE** call for a minimum deposit of **$2,000** or for the customers to pay for the securities in full.
-对于融资账户的初始购买，客户必须存入最低限额的权益。T 条例要求最低 50%，然而，**FINRA 和 NYSE** 要求最低存入 **2,000 美元**，或者要求客户全额支付证券款项。
+对于融资账户的初始购买，客户必须存入最低限额的权益。T 条例要求最低 50%，然而，**FINRA（美国金融业监管局）和 NYSE（纽约证券交易所）**要求最低存入 **2,000 美元**，或者要求客户全额支付证券款项。
 
 💡 **TIP**
 When you’re taking the SIE, pay attention to the wording. Phrases like “opens a margin account” or “in an initial transaction” indicate the question is asking for the **initial margin requirement** rather than a margin call.

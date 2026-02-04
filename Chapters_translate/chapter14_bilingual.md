@@ -19,7 +19,7 @@ Part of your function as a registered rep will be to understand and explain to c
 作为一名登记代表，您的部分职责是理解并向客户（及潜在客户）解释股票市场是如何运作的。我设计本章时正是基于这一考量（当然，这也是因为您需要掌握这些内容以应对 SIE 考试）。
 
 In this chapter, I cover the basics of exchanges and the over-the-counter (OTC) market, along with some of the active participants who help the market run smoothly (at least most of the time). Pay particular attention to the sections “Reviewing basic order types” and “Factoring in order features,” because you’ll definitely use that information every day after you pass the SIE and corequisite tests.
-在本章中，我将涵盖交易所和场外交易 （OTC） 市场的基本知识，以及一些帮助市场平稳运行（至少大部分时间是这样）的活跃参与者。请特别关注“回顾基本订单类型”和“考虑订单特征”这两节，因为在您通过 SIE 及相关进阶考试后，您每天都会用到这些信息。
+在本章中，我将涵盖交易所和场外交易市场（OTC）的基本知识，以及一些帮助市场平稳运行（至少大部分时间是这样）的活跃参与者。请特别关注“回顾基本订单类型”和“考虑订单特征”这两节，因为在您通过 SIE 及相关进阶考试后，您每天都会用到这些信息。
 
 ---
 
@@ -53,9 +53,9 @@ When securities are sold in the primary market, the **bulk of the sales proceeds
 When the securities are already trading in the market, the sales proceeds go to **another investor** instead of to the issuer. The secondary market, also called the **aftermarket**, consists of the following categories:
 当证券已经在市场上交易时，销售收益流向**另一名投资者**，而不是发行人。二级市场（也称为**后续市场 aftermarket**）由以下类别组成：
 
-*   **First market**： Trading of **listed securities** on an exchange floor （e。g。， NYSE）。 （第一市场：在交易所大厅交易的**上市证券**。）
-*   **Second market**： Trading of **unlisted securities** over-the-counter （OTC）。 （第二市场：场外交易的**非上市证券**。）
-*   **Third market**： The trading of **exchange-listed securities** in the over-the-counter （OTC） market。 （第三市场：在场外交易 （OTC） 市场交易的**交易所上市证券**。）
+*   **First market**： Trading of **listed securities** on an exchange floor （e。g。， NYSE）。 （第一市场：在交易所大厅交易的**上市证券**（如纽约证券交易所（NYSE））。）
+*   **Second market**： Trading of **unlisted securities** over-the-counter （OTC）。 （第二市场：在场外交易市场（OTC）交易的**非上市证券**。）
+*   **Third market**： The trading of **exchange-listed securities** in the over-the-counter （OTC） market。 （第三市场：在场外交易市场（OTC）交易的**交易所上市证券**。）
 *   **Fourth market**： The trading of securities **between institutions** without the use of a brokerage firm。 These trades are typically executed through **electronic communication networks （ECNs）** such as Instinet。 （第四市场：**机构之间**不通过经纪公司而直接进行的证券交易。这些交易通常通过 Instinet 等**电子通信网络 （ECNs）** 执行。）
 
 💡 **TIP**
@@ -69,7 +69,7 @@ You’re more likely to get a question on the third or fourth market than the fi
 ## 2. Making the Trade 2. 执行交易
 
 After securities are issued publicly, they may trade on an exchange or on the OTC market.
-证券公开发行后，可以在交易所或场外交易 （OTC） 市场进行交易。
+证券公开发行后，可以在交易所或场外交易市场（OTC）进行交易。
 
 
 ### Auctioning securities at securities exchanges 在证券交易所拍卖证券
@@ -85,23 +85,23 @@ Exchanges are **auction markets**, where bidders and sellers get together to exe
 ### Negotiating trades over the counter 在场外协商交易
 
 Unlike exchanges, the OTC market is considered a **negotiated market**. Instead of yelling out prices, traders buy and sell by way of telephone or computer transactions.
-与交易所不同，场外交易 （OTC） 市场被视为**协商市场**。交易者不是大声喊价，而是通过电话或计算机交易来买卖证券。
+与交易所不同，场外交易市场（OTC）被视为**协商市场**。交易者不是大声喊价，而是通过电话或计算机交易来买卖证券。
 
-*   **OTCBB （Over the Counter Bulletin Board）**： A quotation service operated by FINRA for unlisted （non-Nasdaq） securities。 （OTCBB：由 FINRA 运营的为非上市（非纳斯达克）证券提供的报价服务。）
-*   **Pink Market （Pink Sheets）**： For corporations too small to be placed on the OTCBB。 They are not required to meet listing requirements or file with the SEC。 （**粉单市场**：适用于规模太小而无法在 OTCBB 上市的公司。他们不需要满足上市要求或向 SEC 备案。）
+*   **OTCBB （Over the Counter Bulletin Board）**： A quotation service operated by FINRA for unlisted （non-Nasdaq） securities。 （OTCBB：由美国金融业监管局（FINRA）运营的为非上市（非纳斯达克）证券提供的报价服务。）
+*   **Pink Market （Pink Sheets）**： For corporations too small to be placed on the OTCBB。 They are not required to meet listing requirements or file with the SEC。 （**粉单市场**：适用于规模太小而无法在 OTCBB 上市的公司。他们不需要满足上市要求或向证券交易委员会（SEC）备案。）
 
 🧠 **REMEMBER**
 **U.S. government and municipal bonds trade only OTC.**
 🧠 **请记住**
-**美国政府债券和市政债券仅在场外交易 （OTC） 交易。**
+**美国政府债券和市政债券仅在场外交易市场（OTC）交易。**
 
 ---
 
 
-## 3. Understanding the Role of a Broker-Dealer 3. 理解经纪自营商的角色
+## 3. Understanding the Role of a Broker-Dealer 3. 理解经纪交易商的角色
 
 For a firm to be considered a **broker-dealer**, it must buy and sell securities from its own account and act as a middleman for securities not in inventory.
-对于一家被称为**经纪自营商 （broker-dealer）** 的公司，它必须既能利用自有账户买卖证券，又能为不在库存中的证券充当中间人。
+对于一家被称为**经纪交易商（broker-dealer）**的公司，它必须既能利用自有账户买卖证券，又能为不在库存中的证券充当中间人。
 
 *   **Broker （Agent）**： A firm is acting as a broker when it **doesn't use its own inventory**。 A broker charges a **commission**。 The terms *broker* and *agent* may be used interchangeably。 （经纪人（代理人）：当公司**不使用自有库存**时，它是在作为经纪人行事。经纪人收取**佣金**。术语“经纪人”和“代理人”可以互换使用。）
 *   **Dealer （Principal）**： A firm is acting as a dealer when it **uses its own inventory**。 A dealer charges a **markup** （when selling） or a **markdown** （when buying）。 The terms *dealer*， *principal*， and *market maker* may be used interchangeably。 （自营商（主事人）：当公司**使用自有库存**时，它是在作为自营商行事。自营商收取**加价 （markup）**（卖出时）或**减价 （markdown）**（买入时）。术语“自营商”、“主事人”和“做做市商”可以互换使用。）
@@ -112,7 +112,7 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 公司**不能在同一笔交易中同时充当经纪人和自营商**。在同一笔交易中同时收取加价和佣金是违规行为。
 
 
-### Other Broker-Dealer Roles 其他经纪自营商角色
+### Other Broker-Dealer Roles 其他经纪交易商角色
 
 *   **Introducing broker (IB)**: A person or business that provides investment advice but does not handle the transactions/assets directly. They hand over the execution to a clearing firm.
 *   **介绍经纪人 (IB)**：提供投资建议但不直接处理交易/资产的个人或企业。他们将执行工作移交给清算公司。
@@ -122,10 +122,10 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 *   **主经纪商 (Prime broker)**：主要由机构账户或大型零售客户使用。他们提供借贷、杠杆交易执行和现金管理等服务，并帮助将来自多家公司的信息整合到一份报表中。
 
 
-### Depository Trust and Clearing Corporation (DTCC) 存管信托与清算公司 (DTCC)
+### Depository Trust and Clearing Corporation (DTCC) 美国证券存托结算公司 (DTCC)
 
 The **DTCC** provides safeguards to the world’s financial markets. It provides clearing, settlement, and information services for equities, bonds, mutual funds, etc. Its key role is to limit risk and provide transparency.
-**DTCC** 为全球金融市场提供保障。它为股票、债券、共同基金等提供清算、结算和信息服务。其关键作用是限制风险并提供透明度。
+**美国证券存托结算公司（DTCC）**为全球金融市场提供保障。它为股票、债券、共同基金等提供清算、结算和信息服务。其关键作用是限制风险并提供透明度。
 
 ---
 
@@ -207,9 +207,9 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    (D) Institutional trading without using the services of a broker-dealer
 
    **2. 以下哪项最能描述第三市场交易？**
-   (A) 交易所上市证券在场外（OTC）交易
+   (A) 交易所上市证券在场外交易市场（OTC）交易
    (B) 交易所上市证券在交易所大厅交易
-   (C) 非上市证券在场外（OTC）交易
+   (C) 非上市证券在场外交易市场（OTC）交易
    (D) 机构投资者不通过经纪交易商服务进行的交易
 3. Which of the following orders would protect a short position?
    (A) Buy limit (B) Sell limit (C) Buy stop (D) Sell stop
@@ -264,7 +264,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 1. **B.** Dealers act as principals and charge markups/markdowns. Brokers act as agents and charge commissions.
    **1. B.** 交易商作为委托人（principals）行事并收取加价/减价。经纪人作为代理人（agents）行事并收取佣金。
 2. **A.** The third market involves listed securities trading in the OTC market.
-   **2. A.** 第三市场涉及在 OTC 市场交易的上市证券。
+   **2. A.** 第三市场涉及在场外交易市场（OTC）交易的上市证券。
 3. **C.** A buy stop order protects short positions by triggering a purchase if the price rises.
    **3. C.** 买入止损单通过在价格上涨时触发买入来保护空头头寸。
 4. **A.** At-the-open orders must be executed at the start of trading or be canceled.
@@ -332,7 +332,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (C) the opening and closing prices of a particular security
     (D) the “when issued” ask price
 
-    **14. 场外交易 (OTC) 市场中的“价差”是指以下哪两者之间的差额？**
+    **14. 场外交易市场（OTC）中的“价差”是指以下哪两者之间的差额？**
     (A) 最高买入价与最低卖出价
     (B) 最低报价与最高卖出价
     (C) 某证券的开盘价与收盘价
