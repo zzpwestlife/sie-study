@@ -1,5 +1,27 @@
 # Chapter 11: Options: Understanding the Basics of Puts and Calls 第 11 章：期权：了解看跌与看涨期权的基础知识
 
+
+## IN THIS CHAPTER 在本章内容
+
+**Understanding option basics and terminology**
+**了解期权基础知识和术语**
+
+**Reading option order tickets and understanding premium calculations**
+**解读期权委托单并理解权利金计算**
+
+**Distinguishing between call and put options**
+**区分看涨期权和看跌期权**
+
+**Recognizing in-the-money, at-the-money, and out-of-the-money options**
+**识别实值期权、平价期权和虚值期权**
+
+**Calculating gains and losses for option strategies**
+**计算期权策略的损益**
+
+**Taking a practice quiz**
+**进行练习测验**
+
+
 Welcome to the wonderful world of options. I'm sure you've heard stories about the difficulty of options. Put your mind at ease; I'm here to make your life easier. Maybe I'm a little warped, but options are my favorite part of the SIE exam!
 欢迎来到奇妙的期权世界。我确定您听说过关于期权难度的种种说法。放轻松；我在这里就是为了让您的学习变得更简单。也许我有点古怪，但期权确实是我在 SIE 考试中最喜欢的部分！
 
@@ -12,7 +34,6 @@ Many more-complex options strategies exist — **straddles, spreads, combination
 还存在许多更复杂的期权策略——**跨式期权 （straddles）**、**价差期权 （spreads）**、**组合期权 （combinations）** 等——但您在 SIE 考试中不需要计算其中的任何一种。然而，如果您计划在此之后参加 Series 7 考试，请做好准备。
 
 ---
-
 
 ## 1. Brushing Up on Option Basics 1. 复习期权基础知识
 
@@ -707,3 +728,19 @@ Practice questions (Original English Only)
 16. **A.** A call writer's max gain is the premium and break-even is strike + premium.
 17. **A.** Index options settle in cash.
 18. **D.** Buy stock (45) + Buy put (4) = $49 cost basis. The investor breaks even at $49.
+
+
+### Practice Questions 练习题
+
+Practice questions
+
+Which of the following are bearish options strategies?
+
+Buying calls
+
+Buying puts
+
+Selling calls
+
+Selling puts
+

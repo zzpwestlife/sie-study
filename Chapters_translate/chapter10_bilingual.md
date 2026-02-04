@@ -362,7 +362,7 @@ Practice questions (Original English Only)
     (A) I and III (B) II and III (C) I and II (D) I, II, and III
 
 
-### Answers and explanations Answers And Explanations [需要翻译]
+### Answers and explanations 答案与解析
 
 1.  **C.** REITs are a one-time offering of securities, and after the IPO, they must be purchased and sold in the market. They're not redeemed with the issuer, like mutual funds.
 2.  **A.** A limited partnership must file a certificate of limited partnership with the SEC before making a public offering.
@@ -374,3 +374,45 @@ Practice questions (Original English Only)
 8.  **C.** The partnership agreement lays out the rights and responsibilities of the limited and general partner(s).
 9.  **D.** To claim depletion deductions, the partnership has to be depleting a natural resource. Of the choices given, only oil and gas programs deal with a natural resource. Exploratory programs (ones that are looking for oil) don't have depletion deductions until they actually hit oil and start pulling it from the ground, like income programs.
 10. **A.** Both equity REITs and hybrid REITs, which are a combination of equity and mortgage REITs, derive part of their income from rent collected from property that is owned.
+
+
+### Practice Questions 练习题
+
+Practice questions
+
+Which of the following is NOT TRUE of real-estate investment trusts?
+
+They may trade at a discount to the NAV.
+
+They may invest in construction loans.
+
+They are redeemable securities.
+
+None of the above.
+
+When making a public offering, which of the following documents is a limited partnership required to file with the SEC?
+
+Certificate of limited partnership
+
+Agreement of limited partnership
+
+Subscription agreement
+
+All of the above
+
+Passive income can be written off against which of the following?
+
+Passive losses
+
+Capital losses
+
+Both (A) and (B)
+
+Neither (A) nor (B)
+
+Which of the following types of oil and gas partnerships is the riskiest?
+
+Exploratory
+
+Developmental
+

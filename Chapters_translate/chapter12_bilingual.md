@@ -23,7 +23,6 @@
 
 
 
-
 # 第 12 章：客户账户：账户的妥善处理
 
 If you’re going to have a successful business, you have to be able to open accounts. Beyond “smiling and dialing,” you need to know what to do when you hook your first whale. Next, you need to get the account form filled out. The account form and conversations with your customers and potential customers help you make appropriate recommendations. Ideally, the securities you recommend will do well, and your customers will rent a van with a huge speaker on top so they can drive through town telling everyone how great you are.
@@ -32,8 +31,26 @@ If you’re going to have a successful business, you have to be able to open acc
 In this chapter, I cover topics related to opening accounts. First, I help you understand the information required on a new account form. Then I go over investment objectives, cover margin accounts, and finally discuss when you can call potential customers. I also include a couple of example questions throughout the chapter and more practice questions at the end to give you an idea of potential questions you may see on the exam.
 在本章中，我将涵盖与开户相关的主题。首先，我将帮助您了解新开户表所需的信息。然后，我将介绍投资目标，涵盖融资账户，并最后讨论何时可以给潜在客户打电话。我还在本章中穿插了几个示例问题，并在末尾提供了更多练习题，以帮助您了解考试中可能出现的题目。
 
----
 
+## IN THIS CHAPTER 在本章内容
+
+**Understanding new account form requirements and customer information**
+**了解新开户表要求和客户信息**
+
+**Recognizing different account types and their characteristics**
+**识别不同账户类型及其特征**
+
+**Understanding margin account requirements and Regulation T**
+**了解融资账户要求和 T 条例**
+
+**Following proper account handling procedures**
+**遵循正确的账户处理程序**
+
+**Taking a practice quiz**
+**进行练习测验**
+
+
+---
 
 ## 1. Following Protocol When Opening Accounts 1. 开户时遵循的协议
 
@@ -540,3 +557,79 @@ Practice questions
     **C.** UTMA 账户是为了未成年人的利益，使用未成年人的税号 (SSN)。
 12. **D.** In a Tenants in Common (TIC) account, the decedent's share goes to their estate (governed by will/law), not to the survivors.
     **D.** 在联名共有 (TIC) 账户中，死者的份额归入其遗产（受遗嘱/法律管辖），而不是归生存者所有。
+
+
+### Practice Questions 练习题
+
+In this chapter, I cover topics related to opening accounts. First, I help you understand the infor- mation required on a new account form. Then I go over investment objectives, cover margin accounts, and finally discuss when you can call potential customers. I also include a couple of example questions throughout the chapter and more practice questions at the end to give you an idea of potential questions you may see on the exam.
+
+The SIE examiners seem to be focusing more and more on the handling of customer accounts. You need to know what to do to open accounts, how to take customer orders, the rules for sending out confirmations, and so on.
+
+Filing the facts on the new account form
+
+When you’re opening any new account for a customer, you first need to fill out a new account form — an internal document used to compile basic information about customers for compliance
+
+purposes. Getting this information is your responsibility (or the responsibility of the broker–dealer).
+
+Here’s a list of the items that need to be on the new account form:
+
+» The name(s) and address(es) of the individual(s) who’ll have access to the account as well as a
+
+trusted contact person age 18 or older (especially if the person opening the account is 65 or older) (A trusted contact person isn´t mandatory but is highly encouraged.)
+
+» The customer´s date of birth (The customer must be of legal age to open an account.)
+
+» Contact telephone number(s)
+
+» Marital status and number of dependents (if any)
+
+» Whether the person opening the account or any immediate family member is employed or associated with the securities industry, and if so, how
+
+» The type of account the customer is opening (cash, margin, retirement, day trading, prime
+
+brokerage, delivery versus payment [DVP]/receive versus payment [RVP], advisory or fee- based, discretionary, options, and so on)
+
+» The customer´s Social Security number (if the customer is an individual) or tax ID number (if the customer is a business)
+
+» The customer´s occupation, employer, address of employer, and type of business (Certain
+
+limitations are placed on customers who work for banks, broker-dealers, insurance compa- nies, self-regulatory organizations [SROs], and so on)
+
+» Domestic or foreign residency and/or citizenship (including ID info per the customer´s driver´s license, passport, state ID, government ID, and so on)
+
+» Bank references and the customer´s net worth, liquid net worth, tax rate, and annual income
+
+» Whether the customer is an insider of a company (By insider, I mean a senior officer, director, or individual who owns more than 10 percent of the issuer´s voting shares.)
+
+» Financial investment experience
+
+» The signature of a principal (manager)
+
+Broker–Dealers may, in accordance with the Patriot Act, also require a customer to provide proof of identification. The Patriot Act was enacted in 2001 to help identify and catch terrorists. As part of the Patriot Act, broker–dealers should
+
+» Keep records of the information used to identify the customer via customer identification programs (CIPs). Financial institutions use CIPs to verify the identity of customers who want to
+
+conduct financial transactions.
+
+» Verify that a customer doesn´t appear on any list of known terrorists or terrorist organizations. (The Office of Financial Assets Control [OFAC], which is a U.S. Treasury Department Agency,
+
+keeps this list.)
+
+If anything changes (such as a customer’s address or marital status), the new account form needs to be updated. Additionally, only individuals who are legally competent may open accounts — meaning you have to pay close attention to the investor’s age and/or mental or physical ability. The Financial Industry Regulatory Authority (FINRA) has additional rules specifically put in place for older people and/or those with some sort of disability; these rules, regarding “financial exploitation of specified adults,” are covered in Chapter 16.
+
+In the course of filling out a new account form, be sure to ask whether your client is accredited. (See Chapter 14 for more on the topic of accredited investors.) If a client is, in fact, accredited, they’re potentially able to handle more risk than non-accredited retail investors.
+
+The following question tests your knowledge about opening a new account.
+
+Which of the following people must sign a new account form?
+
+The customer
+
+The customer’s spouse
+
+The registered representative
+
+A principal
+
+I and II only
+
