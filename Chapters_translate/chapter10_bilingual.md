@@ -1,8 +1,7 @@
 # Chapter 10: Working with Direct Participation Programs (DPPs) and REITs
 
 
-## IN THIS CHAPTER
-## 在本章内容
+## IN THIS CHAPTER 在本章内容
 
 **Understanding DPPs and limited partnerships**
 **了解 DPPs 和有限合伙企业**
@@ -28,8 +27,7 @@ In this chapter, I explain the differences between limited and general partners,
 ---
 
 
-## 1. Searching for Identity: What DPPs Are (and Aren't)
-## 1. 寻找身份：DPPs 是（及不是）什么
+## 1. Searching for Identity: What DPPs Are (and Aren't) 1. 寻找身份：DPPs 是（及不是）什么
 
 Just as stockholders are owners of a corporation, limited (and general) partners are owners of a direct participation program. The key difference for people investing in DPPs is that they're **illiquid**, so investors can expect that their investment dollars will be tied up for a long period of time, though they receive tax advantages for doing so. Most DPPs (at least the ones you'll be tested on) are set up for real-estate projects, oil and gas projects, or equipment leasing.
 正如股东是公司的所有者一样，有限（及普通）合伙人是直接参与计划的所有者。对于投资 DPP 的人来说，关键区别在于它们是**缺乏流动性 （illiquid）** 的，因此投资者可以预期其投资资金将被占用很长一段时间，尽管这样做可以获得税务优势。大多数 DPP（至少是您将被考查到的那些）是为房地产项目、石油和天然气项目或设备租赁而设立的。
@@ -52,8 +50,7 @@ For SIE exam purposes, you need to remember that the easiest corporate character
 ---
 
 
-## 2. The DPP Characters: General and Limited Partners
-## 2. DPP 中的角色：普通合伙人与有限合伙人
+## 2. The DPP Characters: General and Limited Partners 2. DPP 中的角色：普通合伙人与有限合伙人
 
 By law, limited partnerships require at least one limited partner and one general partner. Limited partners are the investors, and general partners are the managers. When you're looking at general and limited partners, you want to focus on who can and can't do what.
 根据法律，有限合伙企业至少需要一名有限合伙人和一名普通合伙人。有限合伙人是投资者，普通合伙人是管理者。当您观察普通合伙人和有限合伙人时，您需要关注谁能做什么，以及谁不能做什么。
@@ -63,9 +60,11 @@ General partners are responsible for the day-to-day decision-making (overseeing 
 
 
 #### TABLE 10-1: Comparing General and Limited Partners
+
 ### 表 10-1：普通合伙人与有限合伙人对比
 
 | Category （类别） | General Partners （普通合伙人） | Limited Partners （有限合伙人） |
+
 | :--- | :--- | :--- |
 | **Decision-making （决策）** | Are legally bound to make decisions in the best interest of the partnership； make all the partnership's day-to-day decisions. （法律上有义务做出符合合伙企业最佳利益的决策；负责所有日常决策。） | Have voting rights but can't make decisions for the partnership. （拥有投票权，但不能为合伙企业做决策。） |
 | **Tasks （任务）** | Buy and sell property for the partnership； manage the partnership's assets. （为合伙企业买卖财产；管理合伙企业的资产。） | Provide capital； vote； can keep general partners in check by reviewing books. （提供资本；投票；可以通过查阅账簿来制约普通合伙人。） |
@@ -80,14 +79,12 @@ Partnerships are usually set up as **tenants in common (TIC)**. Each limited par
 ---
 
 
-## 3. Pushing through Partnership Paperwork
-## 3. 推进合伙企业文书工作
+## 3. Pushing through Partnership Paperwork 3. 推进合伙企业文书工作
 
 For the SIE exam, you need to know about certain paperwork that's specific to limited partnerships. In the following sections, I discuss the three documents necessary for a limited partnership to exist.
 
 
-### Partnership agreement
-### 合伙协议
+### Partnership agreement 合伙协议
 
 The **partnership agreement** is a document that includes the rights and responsibilities of the limited and general partners. Included in the agreement are basics that you would probably guess, such as the name of the partnership, the location of the partnership, the name(s) of the general partner(s), and so on. In addition, the partnership agreement addresses the general partner's rights to:
 **合伙协议**是一份包含有限合伙人和普通合伙人权利与责任的文件。协议中包含了一些您可能会猜到的基础信息，如合伙企业名称、所在地、普通合伙人姓名等。此外，合伙协议还涉及普通合伙人的以下权利：
@@ -98,8 +95,7 @@ The **partnership agreement** is a document that includes the rights and respons
 *   Accept or decline limited partners （接受或拒绝有限合伙人）
 
 
-### Certificate of limited partnership
-### 有限合伙证明书
+### Certificate of limited partnership 有限合伙证明书
 
 The **certificate of limited partnership** is the legal agreement between the general and limited partners, which is filed with the U.S. Securities and Exchange Commission (SEC) for public offerings and the secretary of state in the home state of the partnership. The certificate of limited partnership includes basic information such as the name of the partnership and its primary place of business, the names and addresses of the limited and general partner(s), and the following items:
 **有限合伙证明书**是普通合伙人和有限合伙人之间的法律协议，公开发行时需向美国证券交易委员会 （SEC） 归档，并向合伙企业所在州的州务卿归档。有限合伙证明书包括合伙企业名称、主要营业地点、有限和普通合伙人的姓名及地址等基本信息，以及以下项目：
@@ -115,8 +111,7 @@ If any significant changes are made to the partnership, such as adding new limit
 如果合伙企业发生了任何重大变动（例如增加新的有限合伙人），必须相应地修改有限合伙证明书。
 
 
-### Subscription agreement
-### 认购协议
+### Subscription agreement 认购协议
 
 The **subscription agreement** is an application form that potential limited partners have to complete. The general partner uses this agreement to determine whether an investor is suitable to become a limited partner. The general partner has to sign the subscription agreement to officially accept an investor into the DPP.
 **认购协议**是潜在有限合伙人必须填写的申请表。普通合伙人利用这份协议来确定投资者是否适合成为有限合伙人。普通合伙人必须在认购协议上签字，才算正式接受投资者加入 DPP。
@@ -135,8 +130,7 @@ Also, you need to review the agreement to ensure (to the best of your ability) t
 ---
 
 
-## 4. Passive Income and Losses: Looking at Taxes on Partnerships
-## 4. 被动收入与亏损：审视合伙企业的税务
+## 4. Passive Income and Losses: Looking at Taxes on Partnerships 4. 被动收入与亏损：审视合伙企业的税务
 
 DPPs used to be called tax shelters because DPPs **flow through** (or pass through) not only income, but also **losses** to investors. (Corporations flow through only income.) Before 1986, investors could write off these losses against income from other investments, such as capital gains. Then Congress stepped in because it felt that this write-off was too much of an advantage for investors (or our elected officials felt that the IRS wasn't collecting enough money) and decided to give DPPs their own tax category. Now, because investors aren't actively involved in earning the income, taxes on DPPs are classified as **passive income** and **passive losses**. (See Chapter 15 for more info on taxes and types of income.)
 DPP 过去被称为避税工具，因为 DPP 不仅将收入，还将**亏损****穿透 （flow through）** 给投资者。（公司仅穿透收入。）在 1986 年之前，投资者可以用这些亏损来抵销其他投资（如资本利得）的收入。后来，国会介入了，因为它认为这种抵扣对投资者来说优势太大了（或者是我们的民选官员觉得 IRS 收到的钱不够多），于是决定给 DPP 设定专门的税务类别。现在，由于投资者并不直接参与获取收入的过程，DPP 的税收被分类为**被动收入**和**被动损失**。（有关税收和收入类型的更多信息，请参阅第 15 章。）
@@ -149,8 +143,7 @@ The key thing to remember for SIE purposes is that investors can write off passi
 ---
 
 
-## 5. Evaluating DPPs
-## 5. 评估 DPPs
+## 5. Evaluating DPPs 5. 评估 DPPs
 
 DPPs can be offered publicly or privately. **Public offerings** of DPPs must be registered with the SEC, whereas **private offerings** (offerings to mostly wealthy investors) are not. Typically, publicly offered DPPs have a lower unit (buy-in) cost than that of privately offered DPPs.
 DPP 可以公开发行或私募发行。**公开发行**的 DPP 必须向 SEC 注册，而**私募发行**（主要面向富有投资者的发行）则不需要。通常，公开发行的 DPP 的单位（起投）成本低于私募发行的 DPP。
@@ -166,8 +159,7 @@ Certainly, direct participation programs provide some advantages, but they also 
 ---
 
 
-## 6. Checking Out Types of Partnerships
-## 6. 了解合伙企业的类型
+## 6. Checking Out Types of Partnerships 6. 了解合伙企业的类型
 
 Partnerships can be formed to run just about any sort of business that you can imagine, but the SIE exam focuses on the big three: **real estate, equipment leasing, and oil and gas**. You need to be able to identify the risks and potential rewards of each of the following types of partnerships.
 
@@ -177,8 +169,7 @@ Because of the risks associated with some types of DPPs, investors should have t
 由于某些类型的 DPP 相关的风险，投资者应该有能力长期占用资金，并且能够在合伙企业从未盈利的情况下，承受损失所有投资资金的后果。
 
 
-### Building on real-estate partnership info
-### 深入了解房地产合伙企业信息
+### Building on real-estate partnership info 深入了解房地产合伙企业信息
 
 **Real-estate limited partnerships (RELPs)** include programs that invest in raw land, new construction, existing properties, or government-assisted housing. You need to know the differences among the types of programs, along with their risks and potential rewards. Here are the types of real-estate DPPs, from safest to riskiest:
 
@@ -202,8 +193,7 @@ The main thing to remember with real-estate DPPs is that depending on which type
 关于房地产 DPP，最需要记住的是：根据您投资的类型，它们可以提供通过持有房产增值实现的资本增长潜力；持有出租物业的 DPP 的现金流；抵押贷款利息、折旧和资本改良的税收抵扣；以及持有政府资助住房的 DPP 的税收抵免。
 
 
-### Gearing up with equipment leasing
-### 装备起来：设备租赁
+### Gearing up with equipment leasing 装备起来：设备租赁
 
 Although you may be tested on equipment leasing programs on the SIE exam, it's typically the least-tested type of DPP on securities exams. Equipment leasing programs purchase equipment (trucks, heavy machinery, computers, you name it) and lease it out to other businesses. The objective is to obtain a steady cash flow and depreciation write-offs. The two types of leasing arrangements you need to be aware of are the **operating lease** and the **full payout lease**:
 
@@ -218,8 +208,7 @@ The main thing to remember about equipment leasing is that the **operating lease
 关于设备租赁最需要记住的是：**营运租赁风险更高**，因为设备会随着时间的推移而贬值或过时，从而导致更难租出。
 
 
-### Strengthening your grasp on oil and gas
-### 强化掌握石油和天然气
+### Strengthening your grasp on oil and gas 强化掌握石油和天然气
 
 Oil and gas partnerships include programs that produce income, are speculative in nature, or are a combination of the two. You need to know how the types of programs differ, along with their risks and potential rewards. Oil and gas partnerships also have certain tax advantages that are unique:
 
@@ -245,9 +234,11 @@ When investing in oil, partnerships can pioneer new territory, drill near existi
 
 
 #### TABLE 10-2: Advantages and Risks of Various Oil and Gas DPPs
+
 ### 表 10-2：各种石油和天然气 DPP 的优势与风险
 
 | Type （类型） | Objective （目标） | Advantages （优势） | Risks （风险） |
+
 | :--- | :--- | :--- | :--- |
 | **Exploratory （wildcatting） （勘探型/野猫钻探）** | To locate and drill for oil in unproven， undiscovered areas. （在未证实的、未发现的区域寻找并钻探石油。） | Long-term capital appreciation potential； high returns for discovery of new oil or gas reserves. （长期的资本增值潜力；发现新油气储量的高额回报。） | Riskiest oil and gas DPP because new oil reserves may never be found； high IDCs because the DPP isn't working with producing wells. （风险最高的油气 DPP，因为可能永远发现不了新油量；由于不在产油井上工作，IDCs 很高。） |
 | **Developmental （开发型）** | To drill near producing wells with the hope of finding new reserves. （在产油井附近钻探，希望能发现新储量。） | Long-term capital appreciation potential with less risk than exploratory programs； oil will likely be found. （具有长期的资本增值潜力，且风险低于勘探型项目；很可能发现石油。） | The property's expensive； the drilling costs may be higher than expected； the risk of dry holes （nonproducing wells） is still somewhat high； medium level of IDCs. （地块昂贵；钻探成本可能高于预期；干井（不产油井）的风险仍然较高；IDCs 处于中等水平。） |
@@ -274,8 +265,7 @@ Unlike corporations, DPPs have an ending date. That date could be predetermined 
 ---
 
 
-## 7. Reducing Real-Estate Risk with REITs
-## 7. 通过 REITs 降低房地产风险
+## 7. Reducing Real-Estate Risk with REITs 7. 通过 REITs 降低房地产风险
 
 A **real-estate investment trust (REIT)** invests in real-estate-related projects such as properties, mortgage loans, and construction loans. REITs pool the capital of many investors to manage property and/or purchase mortgage loans. Like other trusts, they issue shares to investors representing their interest in the trust. REITs registered with the SEC are known as **public REITs**, and those that aren't registered with the SEC are known as **private REITs**. In addition, REITs may be listed on an exchange or can trade over the counter. (See Chapter 14 for more info on markets.) They also provide real estate diversification and liquidity for investors.
 **房地产投资信托基金 （REIT）** 投资于与房地产相关的项目，如物业、抵押贷款和建筑贷款。REIT 汇集许多投资者的资金来管理物业和/或购买抵押贷款。与其他信托一样，它们向投资者发行代表其在信托中权益的股份。向 SEC 注册的 REIT 被称为**公开 REITs**，未向 SEC 注册的被称为**私募 REITs**。此外，REIT 可以在交易所上市，也可以在场外交易。（有关市场的更多信息见第 14 章。）它们还为投资者提供房地产多样化和流动性。
@@ -317,8 +307,7 @@ Don't kill yourself worrying too much about REITs (not that you would); you won'
 ---
 
 
-## 8. Testing Your Knowledge
-## 8. 知识测试
+## 8. Testing Your Knowledge 8. 知识测试
 
 Practice questions (Original English Only)
 
@@ -327,63 +316,53 @@ Practice questions (Original English Only)
    (B) They may invest in construction loans.
    (C) They are redeemable securities.
    (D) None of the above.
-
 2. When making a public offering, which of the following documents is a limited partnership required to file with the SEC?
    (A) Certificate of limited partnership
    (B) Agreement of limited partnership
    (C) Subscription agreement
    (D) All of the above
-
 3. Passive income can be written off against which of the following?
    (A) Passive losses
    (B) Capital losses
    (C) Both (A) and (B)
    (D) Neither (A) nor (B)
-
 4. Which of the following types of oil and gas partnerships is the riskiest?
    (A) Exploratory
    (B) Developmental
    (C) Income
    (D) Combination
-
 5. Which of the following documents must be signed by a general partner to accept a new limited partner?
    (A) Partnership welcome form
    (B) Certificate of limited partnership
    (C) Agreement of limited partnership
    (D) Subscription agreement
-
 6. Which two of the following corporate characteristics are the easiest for a limited partnership to avoid?
    I. Having perpetual life
    II. Providing limited liability
    III. Having centralized management
    IV. Having free transferability
    (A) I and III (B) I and IV (C) II and III (D) II and IV
-
 7. Which of the following is a benefit of investing in a direct participation program?
    (A) Professional management
    (B) Pass-through of income and losses
    (C) Limited liability
    (D) All of the above
-
 8. Which of the following partnership documents includes the rights and responsibilities of the general and limited partners?
    (A) Certificate of limited partnership
    (B) Subscription agreement
    (C) Partnership agreement
    (D) Both (A) and (C)
-
 9. Depletion deductions may be claimed for
    (A) equipment leasing programs
    (B) raw land real-estate programs
    (C) exploratory oil and gas programs
    (D) income oil and gas programs
-
 10. Which of the following real-estate investment trusts have income that is derived at least partially from rent collected?
     I. Equity REITs II. Mortgage REITs III. Hybrid REITs
     (A) I and III (B) II and III (C) I and II (D) I, II, and III
 
 
-### Answers and explanations
-### Answers And Explanations [需要翻译]
+### Answers and explanations Answers And Explanations [需要翻译]
 
 1.  **C.** REITs are a one-time offering of securities, and after the IPO, they must be purchased and sold in the market. They're not redeemed with the issuer, like mutual funds.
 2.  **A.** A limited partnership must file a certificate of limited partnership with the SEC before making a public offering.

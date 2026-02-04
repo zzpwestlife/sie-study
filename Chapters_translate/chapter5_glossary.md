@@ -1,9 +1,9 @@
-# Chapter 5 Terminology Glossary (Securities Underwriting)
-# 第 5 章 术语表（证券承销）
+# Chapter 5 Terminology Glossary (Securities Underwriting) 第 5 章 术语表（证券承销）
 
 ## 1. 核心参与者与机构 (Core Players)
 
 | 英文术语 | 中文标准翻译 | 定义/上下文备注 |
+
 | :--- | :--- | :--- |
 | **Issuer** | 发行人 | 筹集资金的实体 |
 | **Underwriter** | 承销商 | 负责销售证券的经纪自营商 |
@@ -17,6 +17,7 @@
 ## 2. 法律与注册流程 (Acts & Process)
 
 | 英文术语 | 中文标准翻译 | 定义/上下文备注 |
+
 | :--- | :--- | :--- |
 | **Securities Act of 1933** | 1933年证券法 | 监管公司证券的新发行，侧重全面披露 |
 | **Securities Exchange Act of 1934** | 1934年证券交易法 | 成立 SEC，监管二级市场、交易所及经纪人 |
@@ -31,6 +32,7 @@
 ## 3. 承销协议与类型 (Underwriting Types)
 
 | 英文术语 | 中文标准翻译 | 定义/上下文备注 |
+
 | :--- | :--- | :--- |
 | **Firm-commitment** | 包销 | 承销商购入全部证券，承担未售出部分的财务风险 |
 | **Best-efforts** | 代销 / 尽力推销 | 承销商不承担风险，仅作为代理人尽力销售 |
@@ -43,6 +45,7 @@
 ## 4. 豁免与规则 (Exemptions & Rules)
 
 | 英文术语 | 中文标准翻译 | 监管变动标注/备注 |
+
 | :--- | :--- | :--- |
 | **Exempt Securities** | 豁免证券 | 如国债、市政债、银行发行的证券等 |
 | **Accredited Investor** | 合格投资者 / 认证投资者 | **最新变动**：现包含持有 Series 7/65/66 等执照的专业人士 |

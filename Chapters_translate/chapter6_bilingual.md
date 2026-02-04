@@ -1,8 +1,7 @@
 # Chapter 6: Equity Securities: Corporate Ownership
 
 
-## IN THIS CHAPTER
-## 在本章内容
+## IN THIS CHAPTER 在本章内容
 
 **Identifying the characteristics of common and preferred stock**
 **识别普通股和优先股的特征**
@@ -28,8 +27,7 @@ At the end of this chapter, you can find some equity security questions to reinf
 ---
 
 
-## 1. Beginning with the Basics: Common Stock
-## 1. 从基础开始：普通股
+## 1. Beginning with the Basics: Common Stock 1. 从基础开始：普通股
 
 Corporations issue common stock (as well as other securities) to raise business capital (money). As an equity security, common stock represents ownership of the issuing corporation. If a corporation issues 1 million shares of stock, each share represents one-millionth ownership of the issuing corporation. The market value of a common stock is based on the worth (or perceived worth) of the company — how many shares are outstanding, supply and demand, and so on.
 公司发行普通股（以及其他证券）是为了筹集业务资本（资金）。作为一种权益证券，普通股代表了发行公司的所有权。如果一家公司发行了 100 万股股票，每股就代表了该公司百万分之一的所有权。普通股的市场价值基于公司的价值（或感知价值）——即发行在外的股份数量、供求关系等。
@@ -56,8 +54,7 @@ Common and preferred stockholders would get paid after the creditors (if there's
 ---
 
 
-## 2. Understanding a shareholder's voting rights
-## 2. 了解股东的投票权
+## 2. Understanding a shareholder's voting rights 2. 了解股东的投票权
 
 One of the most basic rights that most common stockholders receive is voting rights, although certain corporations will issue nonvoting common stock in rare circumstances, sometimes to protect their board of directors. But nonvoting stock is not as attractive to investors who like to have some control of who's running the company. Most preferred stock, however, is nonvoting. (See "Getting Preferential Treatment: Preferred Stock" later in the chapter.)
 大多数普通股股东获得的最基本权利之一是投票权，尽管某些公司在极少数情况下会发行无投票权的普通股，有时是为了保护其董事会。但无投票权的股票对于那些希望对公司经营有一定控制权的投资者来说并不具吸引力。然而，大多数优先股是没有投票权的。（见本章后面的“获得优惠待遇：优先股”。）
@@ -69,8 +66,7 @@ Because having all stockholders attend the annual corporate meeting to vote woul
 由于让所有股东都参加年度公司会议进行投票会很困难，股东通常通过**代理投票 （proxy）** 进行投票——换句话说，就是缺席投票。（见本章后面的“代理人：邮寄投票”。）
 
 
-### Statutory (regular) voting
-### 法定投票（常规投票）
+### Statutory (regular) voting 法定投票（常规投票）
 
 Statutory, or regular, voting is the most common type of voting that corporations offer their shareholders. This type of voting is quite straightforward. Investors receive one vote for every share they own, multiplied by the number of positions to be filled on the board of directors (or issues to be decided). But investors have to split the votes evenly for each item on the ballot.
 法定投票或常规投票是公司向其股东提供的最常见的投票类型。这种类型的投票非常简单。投资者每持有一股就获得一票，再乘以要填补的董事会席位数量（或待决定的事项）。但投资者必须为选票上的每个项目平均分配票数。
@@ -79,8 +75,7 @@ If an investor owns 500 shares (and decides to vote), and four positions need to
 如果一名投资者持有 500 股（并决定投票），且董事会有四个席位需要填补，则该投资者总共有 2,000 票（500 × 4），投资者必须将这些票数平均分配到所有开放的席位中（每个席位 500 票）。投资者对每个候选人投赞成或反对票。
 
 
-### Cumulative voting
-### 累积投票
+### Cumulative voting 累积投票
 
 Cumulative voting is a little different from statutory voting. Although the investor still gets the same number of overall votes as in statutory voting, the stockholder can vote the shares in any way they see fit. Cumulative voting gives smaller shareholders (in terms of shares) an easier way to gain representation on the board of directors.
 累积投票与法定投票略有不同。虽然投资者获得的总体票数与法定投票相同，但股东可以按照自己认为合适的方式进行投票。累积投票让持股较少的股东（就股份而言）更容易在董事会中获得代表权。
@@ -112,8 +107,7 @@ The answer you're looking for is (D). Cumulative voting allows investors to spli
 您要找的答案是 （D）。累积投票允许投资者以任何方式分配他们的选票。在这种情况下，持有 1,000 股 DEF 普通股并为四名董事会成员投票的股东总共拥有 4,000 票（1,000 股 × 4 个董事会席位）。因此，（A）、（B） 和 （C） 都是可能的选择。而在法定投票下，投资者唯一的投票方式是 （A）。
 
 
-### Proxies: Voting by mail
-### 代理人：邮寄投票
+### Proxies: Voting by mail 代理人：邮寄投票
 
 Regardless of whether a corporation offers statutory or cumulative voting, when a corporation requires a vote on certain issues — such as splitting its stock, voting for members on the board of directors, and so on — shareholders (because they're owners) are allowed to vote unless the corporation issued nonvoting stock (Class B shares). Certainly, the more shares you own, the more voting power you have.
 无论公司提供的是法定投票还是累积投票，当公司需要就某些事项进行投票时——例如拆分股票、投票选举董事会成员等——股东（因为他们是所有者）都被允许投票，除非公司发行了无投票权的股票（B 类股）。当然，您拥有的股份越多，您的投票权就越大。
@@ -127,8 +121,7 @@ A **proxy fight** or **proxy battle** is an unfriendly event that occurs when a 
 ---
 
 
-## 3. Categorizing shares corporations can sell
-## 3. 公司可售股份的分类
+## 3. Categorizing shares corporations can sell 3. 公司可售股份的分类
 
 All publicly held corporations have a certain quantity of shares that they can sell based on their corporate charter. These shares are broken into a few categories, depending on whether the issuer or investors hold the shares:
 所有公众持股公司根据其公司章程都有一定数量的可售股份。根据是由发行人还是投资者持有这些股份，这些股份被分为几个类别：
@@ -142,6 +135,7 @@ All publicly held corporations have a certain quantity of shares that they can s
 
 The standard formula for outstanding shares is:
 计算流通股份的标准公式为：
+
 **outstanding = issued – treasury**
 **流通股份 = 已发行股份 – 库存股**
 
@@ -154,6 +148,7 @@ outstanding = 15,000,000 – 1,500,000 = 13,500,000
 
 📝 **案例**
 DEF 公司拥有 20,000,000 股授权股票。DEF 已发行 15,000,000 股，此后回购了 1,500,000 股。流通股份有多少？
+
 （A） 13,500,000 （B） 15,000,000 （C） 16,500,000 （D） 20,000,000
 您要找的答案是 （A）。使用给定的数字，您会看到该公司拥有 20,000,000 股授权股票，但只发行了 15,000,000 股。自那时起，该公司回购了 1,500,000 股（库存股），因此流通股份数量为 13,500,000。公式如下：
 流通股份 = 已发行股份 – 库存股
@@ -162,8 +157,7 @@ DEF 公司拥有 20,000,000 股授权股票。DEF 已发行 15,000,000 股，此
 ---
 
 
-## 4. Understanding stock dividends and stock splits
-## 4. 了解股票股息和股票拆分
+## 4. Understanding stock dividends and stock splits 4. 了解股票股息和股票拆分
 
 When a corporation wants to reward its shareholders but doesn't have the cash to do so, it may issue a **stock dividend**. Instead of receiving cash, shareholders receive additional shares of stock.
 
@@ -193,8 +187,7 @@ Alyssa H. 拥有 400 股 XYZ 普通股，每股 33 美元。XYZ 此前宣布了 
 答案是 （D）。Alyssa 获得 10% 的股票股息，因此她收到 10% 更多的股票（400 × 10% = 40 股额外股票），使她的总股数达到 440 股。要找到新价格，请将原始总价值（13,200 美元）除以新股数（440），等于每股 30 美元。
 
 
-### Forward and reverse stock splits
-### 正向和反向股票拆分
+### Forward and reverse stock splits 正向和反向股票拆分
 
 *   **Forward stock split:** In a forward split, the number of shares increases and the price per share decreases. For example, in a 2-for-1 split, an investor who owned 100 shares at $60 would now own 200 shares at $30.
 *   **正向股票拆分 （Forward stock split）：** 在正向拆分中，股票数量增加，每股价格下降。例如，在 2 拆 1 的拆分中，拥有 100 股每股 60 美元的投资者现在将拥有 200 股每股 30 美元。
@@ -207,13 +200,11 @@ Adjustments to the **cost basis** are important for tax purposes when determinin
 ---
 
 
-## 5. Getting Preferential Treatment: Preferred Stock
-## 5. 获得优惠待遇：优先股
+## 5. Getting Preferential Treatment: Preferred Stock 5. 获得优惠待遇：优先股
 股票证券代表公司的所有权份额，而债务证券代表……好吧，债务。（有关债务证券的信息，请参见第 7 章和第 8 章。）虽然**优先股 （preferred stock）**（有时称为 preferreds）兼具股票和债务证券的一些特征，但优先股是一种股票证券，因为它像普通股一样代表发行公司的所有权。
 
 
-### Considering the Characteristics of Preferred Stock
-### 考虑优先股的特征
+### Considering the Characteristics of Preferred Stock 考虑优先股的特征
 购买优先股而非普通股的一个优势是，如果发行人重组，优先股股东在普通股股东之前收回资金（如果有剩余的话）。然而，优先股和普通股之间的主要区别在于股息。普通股发行人通常只有在公司有能力根据董事会的投票分享公司利润时才支付现金股息。相比之下，优先股发行人通常支付持续的现金股息。如果公司的利润滞后或亏损，它们可能会减少或停止支付股息。优先股的面值通常为每股 100 美元（尽管也可能是 50 美元、25 美元等），并且在市场上的交易价格往往比普通股更接近其面值。
 
 由于优先股收到（或应该收到）持续的股息，它们有点像接收利息的债务证券。由于这种相似性，像债务证券（债券）一样，许多优先股由评级机构（如穆迪、标准普尔和惠誉）进行评级。（有关评级机构的更多信息，请参见第 7 章。）
@@ -230,8 +221,7 @@ Adjustments to the **cost basis** are important for tax purposes when determinin
 在处理优先股的股息问题时，您需要在问题中寻找面值。面值通常为 100 美元，但也可能是 25 美元、50 美元等。
 
 
-### Familiarizing Yourself with Types of Preferred Stock
-### 熟悉优先股的类型
+### Familiarizing Yourself with Types of Preferred Stock 熟悉优先股的类型
 您需要了解 Series 7 的几种优先股类型。本节为您简要解释这些类型。有些优先股可能是类型的组合，如累积可转换优先股。以下是非累积和累积优先股之间的区别：
 
 *   **非累积（直线）优先股 （Noncumulative (straight) preferred）：** 这种类型的优先股很少见。优先股的主要特征是投资者通常收到持续的现金股息。如果发行人未支付股息，公司通常仍然欠投资者的。非累积优先股并非如此。如果优先股是非累积的，且发行人未能支付股息，发行人并不欠投资者的。投资者可能会选择非累积优先股而非普通股，因为公司仍应支付持续的现金股息，并且在公司破产的情况下，优先股股东仍在普通股股东之前获得支付。由于非累积优先股对投资者来说风险更大，通常提供更高的股息。
@@ -241,6 +231,7 @@ Adjustments to the **cost basis** are important for tax purposes when determinin
 
 📝 **案例**
 ABC 投资者拥有 8% 的累积优先股（面值 100 美元）。第一年，ABC 支付了 6 美元的股息；第二年，支付了 4 美元的股息。如果次年宣布普通股股息，优先股股东必须收到多少？
+
 （A） $6 （B） $8 （C） $12 （D） $14
 正确答案是 （D）。因为 ABC 是累积优先股，发行人必须在普通股股东收到股息之前，让优先股股东补齐所有未支付的股息。在这个例子中，投资者每年应该收到 8 美元的股息（8% × $100 面值）。第一年，发行人欠投资者 2 美元；第二年，欠 4 美元。投资者尚未收到次年的付款，因此他们被欠 8 美元。将这些债务加起来：
 $8 （当年） + $2 （第一年欠款） + $4 （第二年欠款） = $14
@@ -260,15 +251,13 @@ $8 （当年） + $2 （第一年欠款） + $4 （第二年欠款） = $14
 *   **可调整（可变或浮动）利率优先股 （Adjustable (variable- or floating-rate) preferred）：** 可调整优先股的持有人收到的股息每三个月重置一次，以匹配现行利率的变动。由于股息根据利率变化进行调整（通常基于某个基准，如国库券利率），股票价格保持更稳定。
 
 
-## 6. Special Securities
-## 6. 特殊证券
+## 6. Special Securities 6. 特殊证券
 
 Some securities fall outside the boundaries of the more normal common and preferred stock, but I still include them in this equities chapter because they involve ownership in a company or the opportunity to get it. This section gives you an overview of those special securities.
 有些证券超出了常规普通股和优先股的范畴，但我仍然将它们包含在这个权益章节中，因为它们涉及公司所有权或获得公司所有权的机会。本节将为您概述这些特殊证券。
 
 
-### Opening national borders: ADRs
-### 开启国界：ADRs（美国存托凭证）
+### Opening national borders: ADRs 开启国界：ADRs（美国存托凭证）
 
 **American Depositary Receipts (ADRs)** are receipts for foreign securities traded in the United States. ADRs are negotiable certificates (they can be sold or transferred to another party, in other words) that represent a specific number of shares (usually, one to ten) of a foreign stock.
 **美国存托凭证 （American Depositary Receipts, ADRs）** 是在美国交易的外国证券的收据。ADRs 是可转让证书（换句话说，它们可以出售或转让给另一方），代表特定数量（通常为一到十股）的外国股票。
@@ -280,8 +269,7 @@ In addition to the risks associated with stock ownership in general, ADR owners 
 除了与股票所有权相关的一般风险外，ADR 持有者还面临**货币风险 （currency risk）**——即由于发行公司的货币价值相对于美元下跌，导致证券价值可能下降的风险。
 
 
-### Rights: The right to buy new shares at a discount
-### 认股权：以折扣价购买新股的权利
+### Rights: The right to buy new shares at a discount 认股权：以折扣价购买新股的权利
 
 Corporations offer special privileges known as **rights** (subscription or preemptive) to their common stockholders. To maintain stockholders' proportionate ownership of the corporation, rights allow existing stockholders to purchase new shares of the corporation at a fixed discounted price directly from the issuer, before the shares are offered to the public.
 公司向其普通股股东提供称为**认股权 （rights）**（认购权或优先认股权）的特殊特权。为了维持股东在公司的持股比例，认股权允许现有股东在向公众发售股份之前，以固定的折扣价格直接从发行人处购买公司的新股。
@@ -293,8 +281,7 @@ For the SIE exam, you can assume that common stockholders automatically receive 
 对于 SIE 考试，您可以假设普通股股东自动获得认股权。
 
 
-### Warrants: The right to buy shares of stock at a fixed price
-### 认股权证：以固定价格购买股票的权利
+### Warrants: The right to buy shares of stock at a fixed price 认股权证：以固定价格购买股票的权利
 
 **Warrants** are certificates that entitle the holder to buy a specific amount of stock at a fixed price and are usually issued along with a new bond, preferred stock, or other securities offering. Warrant holders have no voting rights and receive no dividends. Bundled bonds and warrants or bundled stock and warrants are called **units**.
 **认股权证 （Warrants）** 是赋予持有人以固定价格购买特定数量股票权利的证书，通常随新债券、优先股或其他证券发行一起发行。认股权证持有人没有投票权，也不获得股息。捆绑的债券和认股权证或捆绑的股票和认股权证被称为**单元 （units）**。
@@ -309,73 +296,80 @@ On the SIE exam, both rights and warrants may be referred to as **derivative sec
 在 SIE 考试中，认股权和认股权证都可能被称为**衍生证券 （derivative securities）**，因为它们的价值源自标的证券（发行人的普通股）的价值。
 
 
-## 7. Practice Questions
-## 7. 练习题
+## 7. Practice Questions 7. 练习题
 
 1.  Common stockholders have the right to vote for which of the following?
     普通股股东有权对以下哪项进行投票？
     I. Stock splits （股票拆分）
     II. Cash dividends （现金股息）
     III. Board of directors （董事会）
+
     (A) I and II
     (B) I and III
     (C) II and III
     (D) I, II, and III
-
 2.  DIMM Corporation has just declared bankruptcy. Remaining assets would be distributed in which way (from first to last)?
     DIMM 公司刚刚宣布破产。剩余资产将按何种方式分配（从先到后）？
+
     (A) IRS, unpaid workers, general creditors, preferred stockholders, secured creditors, subordinated debenture holders, and common stockholders
     （A） 国税局、未付薪工人、一般债权人、优先股股东、有担保债权人、次级信用债券持有人和普通股股东
+
     (B) Common stockholders, general creditors, preferred stockholders, subordinated debenture holders, secured creditors, IRS, and unpaid workers
     （B） 普通股股东、一般债权人、优先股股东、次级信用债券持有人、有担保债权人、国税局和未付薪工人
+
     (C) Unpaid workers, IRS, secured creditors, general creditors, subordinated debenture holders, preferred stockholders, and common stockholders
     （C） 未付薪工人、国税局、有担保债权人、一般债权人、次级信用债券持有人、优先股股东和普通股股东
+
     (D) IRS, unpaid workers, secured creditors, subordinated debenture holders, general creditors, preferred stockholders, and common stockholders
     （D） 国税局、未付薪工人、有担保债权人、次级信用债券持有人、一般债权人、优先股股东和普通股股东
-
 3.  Ayla K. owns 2,000 shares of EKL common stock. EKL has four vacancies on the board of directors. If the voting is cumulative, Ayla may vote in any of the following ways except
     Ayla K. 拥有 2,000 股 EKL 普通股。EKL 董事会有四个空缺职位。如果是累积投票制，Ayla 可以采用以下任何一种方式投票，除了
+
     (A) 2,000 votes for each of the four candidate positions
     （A） 为四个候选人职位各投 2,000 票
+
     (B) 4,000 votes each for two candidate positions
     （B） 为两个候选人职位各投 4,000 票
+
     (C) 5,000 votes for one candidate position and 3,000 votes for another candidate position
     （C） 为一个候选人职位投 5,000 票，为另一个候选人职位投 3,000 票
+
     (D) 3,000 votes for each of three candidate positions
     （D） 为三个候选人职位各投 3,000 票
-
 4.  The par value of a common stock is
     普通股的面值是
+
     (A) in direct relation to the market value
     （A） 与市场价值直接相关
+
     (B) used only for bookkeeping purposes
     （B） 仅用于记账目的
+
     (C) always set at $1 unless the stock is issued as no par value
     （C） 总是设定为 1 美元，除非股票以无面值发行
+
     (D) the basis for which cash dividends are paid
     （D） 支付现金股息的基础
-
 5.  Tender offers typically \_\_\_\_\_\_\_ the price of the outstanding shares of a corporation.
     要约收购通常会\_\_\_\_\_\_\_公司流通股的价格。
     (A) increase （增加）
     (B) decrease （减少）
     (C) don’t affect （不影响）
     (D) increase or decrease （增加或减少）
-
 6.  Which of the following are true regarding ADRs?
     关于 ADRs，以下哪项是正确的？
     I. They’re receipts for foreign securities in U.S. markets. （它们是美国市场上外国证券的收据。）
     II. They carry voting rights. （它们享有投票权。）
     III. They receive dividends in U.S. dollars. （它们以美元接收股息。）
     IV. They’re subject to currency risk. （它们面临货币风险。）
+
     (A) I and II only
     (B) I, III, and IV only
     (C) I, II, and IV only
     (D) I, II, III, and IV
 
 
-## Answers
-## 答案
+## Answers 答案
 
 1.  **(B) I and III.** Common stockholders vote for stock splits and the board of directors. Dividends are decided by the board.
     **(B) I 和 III。** 普通股股东对股票拆分和董事会进行投票。股息由董事会决定。

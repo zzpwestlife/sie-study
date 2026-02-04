@@ -1,8 +1,7 @@
 # Chapter 7: Debt Securities: Corporate and U.S. Government Loans
 
 
-## IN THIS CHAPTER
-## 在本章内容
+## IN THIS CHAPTER 在本章内容
 
 **Understanding bond terminology and characteristics**
 **了解债券术语和特征**
@@ -28,15 +27,13 @@ SIE 考试会测试您对已发行债券类型、所用术语以及（没错）�
 ---
 
 
-## 1. Tackling Bond Terms, Types, and Traits
-## 1. 攻克债券术语、类型和特征
+## 1. Tackling Bond Terms, Types, and Traits 1. 攻克债券术语、类型和特征
 
 Before you delve deeper into bonds, make sure that you have a good handle on the basics. Understanding bond basics is a building block that can make all the rest of the bond stuff easier. In this section, I first review basic bond terminology and then move on to some bond characteristics.
 在深入研究债券之前，请确保您已经很好地掌握了基础知识。理解债券基础是基石，可以让所有其他的债券知识变得更容易。在本节中，我首先回顾基本的债券术语，然后讨论一些债券特征。
 
 
-### Covering bond terminology
-### 涵盖债券术语
+### Covering bond terminology 涵盖债券术语
 
 The SIE exam designers expect you to know general bond terminology. (And I give it to you here; that's why I get paid the big bucks!) If you've already studied another textbook or taken a course, this section serves as a review. This stuff is basic, but the SIE exam does test it:
 SIE 考试的出题者希望您了解通用的债券术语。（我在这里为您提供这些术语；这就是我拿高薪的原因！）如果您已经学习过另一本教科书或参加过课程，本节将作为复习。这些内容很基础，但 SIE 考试确实会考：
@@ -82,6 +79,7 @@ Option (C) would have been correct if the question had asked for the semiannual 
 
 📝 **案例**
 Melissa R. 购买了 100 张由 COW 公司发行的 AA 级债券。Melissa 以面值的 105% 购买了这些债券，它们目前在市场上的交易价格为 104。如果票面利率为 7.5%，Melissa 每年收到多少利息？
+
 (A) $37.50 (B) $75.00 (C) $3,750.00 (D) $7,500.00
 正确答案是 （D）。在过滤掉不需要的信息后，这是一个非常简单的问题。您只需要债券数量和票面利率就能算出答案。不要被 AA 评级、购买价格或市场价格所分心；这些信息的存在是为了迷惑您。
 Melissa 购买了 100 张面值为 1,000 美元的债券（记住您可以假设面值为 1,000 美元），票面利率为 7.5%，所以进行计算：
@@ -89,8 +87,7 @@ Melissa 购买了 100 张面值为 1,000 美元的债券（记住您可以假设
 如果问题问的是半年利息，选项 （C） 才是正确的。
 
 
-### Following bond issue and maturity schedules
-### 遵循债券发行和到期计划
+### Following bond issue and maturity schedules 遵循债券发行和到期计划
 
 Bond certificates can not only be in different forms, but also be scheduled with different types of maturities. Maturity schedules depend on the issuer's needs. The following list presents an explanation of the types of bond issues and maturity schedules:
 债券凭证不仅可以有不同的形式，还可以安排不同类型的到期时间。到期计划取决于发行人的需求。以下列表解释了债券发行和到期计划的类型：
@@ -114,8 +111,7 @@ SIE 考试主要侧重于定期债券和分期偿还债券。一个典型的 SIE
 ---
 
 
-## 2. Comparing secured and unsecured bonds
-## 2. 比较有担保和无担保债券
+## 2. Comparing secured and unsecured bonds 2. 比较有担保和无担保债券
 
 The assets of the issuer may or may not back bonds. For test purposes, assume that bonds backed by **collateral** (assets that the issuer owns) are considered to be safer for the investor. Such **secured bonds** (bonds backed by collateral) involve a pledge from the issuer that a specific asset, such as property, would be sold to pay off the outstanding debt in the event of default. Unsecured bonds, as the name implies, involves no such pledge. Obviously, with all else being equal, secured bonds normally have a lower yield than unsecured bonds.
 发行人的资产可能会也可能不会为债券提供担保。出于考试目的，假设由**抵押品 （collateral）**（发行人拥有的资产）担保的债券对投资者来说更安全。此类**有担保债券 （secured bonds）** 涉及发行人的承诺，即在违约的情况下，将出售特定资产（如房产）以偿还未偿债务。正如其名，无担保债券不涉及此类承诺。显然，在其他条件相同的情况下，有担保债券的收益率通常低于无担保债券。
@@ -163,8 +159,7 @@ When you're comparing short-term and long-term debt securities, short-term bonds
 ---
 
 
-## 3. Making Basic Bond Price and Yield Calculations
-## 3. 进行基础债券价格和收益率计算
+## 3. Making Basic Bond Price and Yield Calculations 3. 进行基础债券价格和收益率计算
 
 🧠 **REMEMBER**
 Although there's not a lot of math on the SIE exam, it does test your knowledge of bond prices and bond yields and how to calculate them. In this section, I review the relationship between bond prices and bond yields. Outstanding bond prices typically don't remain static. As you can imagine, they, too, are affected by things like supply and demand, corporate rating change (see "Determining the Best Investment: Comparing Corporate Bonds" later in this chapter), interest rate changes, whether the bond was purchased at a discount (below par value) or a premium (above par value), and so on.
@@ -184,15 +179,13 @@ As a side note, when an investor sells their bonds between coupon dates, they're
 顺便提一下，当投资者在付息日之间出售债券时，他们有权获得**应计利息 （accrued interest）**。假设这位投资者拥有一张每 6 个月支付 20 美元利息的债券。如果他们在两个付息日的中点出售该债券，他们有权在售价之外，从购买者那里获得 10 美元的利息。应计利息的计算（分解到每一天）不属于 SIE 考试的内容，但在 Series 7 等进阶考试中会有详细介绍。
 
 
-### Nominal yield (coupon rate)
-### 名义收益率（票面利率）
+### Nominal yield (coupon rate) 名义收益率（票面利率）
 
 The **nominal yield (NY)** is the easiest yield to understand because it's the coupon rate on the face of the bonds. For exam purposes, you can assume that the coupon rate will remain fixed for the life of a bond. If you have a 5 percent bond, the bond will pay $50 per year interest (5% × $1,000 par value) for the life of the bond. When a problem states that a security is a 5 percent (or 6 percent or whatever) bond, it's giving the nominal yield.
 **名义收益率 （NY）** 是最容易理解的收益率，因为它是债券票面上的利率。出于考试目的，您可以假设在债券的整个有效期内，票面利率保持不变。如果您有一张 5% 的债券，该债券在有效期内每年将支付 50 美元的利息（5% × 1,000 美元面值）。当题目说某种证券是 5%（或 6% 或其他）债券时，给出的就是名义收益率。
 
 
-### Current yield
-### 当期收益率
+### Current yield 当期收益率
 
 The **current yield (CY)** is the annual rate of return on a security. The CY of a bond changes when the market price changes. You can determine the CY by dividing the annual interest by the market price:
 **当期收益率 （CY）** 是一种证券的年回报率。当市场价格发生变化时，债券的 CY 也会发生变化。您可以通过将年利息除以市场价格来确定 CY：
@@ -220,8 +213,7 @@ Monique Moneybags 以 105 的报价购买了一张 XYZ 可转换抵押债券。�
 “无法确定”虽然很有诱惑力，但在 SIE 考试中几乎永远不是正确答案。
 
 
-### Yield to maturity (basis)
-### 到期收益率（基准）
+### Yield to maturity (basis) 到期收益率（基准）
 
 The **yield to maturity (YTM)** is the yield an investor can expect if holding the bond until maturity. The YTM takes into account not only the market price, but also the par value, the coupon rate, and the amount of time until maturity. When someone yells to you, "Hey, what's that bond yielding?" (all right, maybe I run in a different circle of friends), they're asking for the YTM. The formula for YTM is as follows:
 **到期收益率 （YTM）** 是投资者持有债券直至到期时可以预期的收益率。YTM 不仅考虑了市场价格，还考虑了面值、票面利率以及距离到期的时间。当有人冲您喊道：“嘿，那张债券的收益率是多少？”（好吧，也许我的朋友圈比较特别），他们问的就是 YTM。YTM 的公式如下：
@@ -244,22 +236,19 @@ Accretion and amortization (the adjustment of the bond price toward par over the
 折价摊销 （Accretion） 和溢价摊销 （Amortization）（即在债券到期前，将债券价格向面值方向进行的调整），如上述等式所示，在 SIE 考试中并不考查，但您需要在某些进阶考试中学会计算它们。（**折价摊销**用于以低于面值的价格购买债券时，**溢价摊销**用于以高于面值的价格购买债券时。）上述等式应该能帮助您直观地理解 YTM 是如何运作的。
 
 
-### Yield to call
-### 赎回收益率
+### Yield to call 赎回收益率
 
 The **yield to call (YTC)** is the amount that the investor receives if the bond is called by the issuer prior to maturity, which requires the bondholders to surrender their bonds for par value and sometimes above. The calculations are similar to those for the YTM (see the preceding section), but you substitute the call price for the par value. Your chances of needing to know this on the SIE exam are even more remote than those of needing the YTM calculations.
 **赎回收益率 （YTC）** 是指如果债券在到期前被发行人赎回，投资者所获得的收益。赎回要求债券持有人交回债券以换取面值（有时高于面值）。计算方法与 YTM 类似（见前一节），但您需要将赎回价格替换为面值。在 SIE 考试中考到这个知识点的可能性，比考到 YTM 计算还要渺茫。
 
 
-### Yield to worst
-### 最差收益率
+### Yield to worst 最差收益率
 
 To determine the **yield to worst (YTW)**, you have to calculate the yield to maturity and YTC for all the call dates (if there's more than one) and choose the lowest. If you get a question on YTW, knowing the definition should be enough to get you by.
 要确定**最差收益率 （YTW）**，您必须计算所有赎回日期（如果有一个以上）的到期收益率和 YTC，并选择其中最低的一个。如果您遇到关于 YTW 的问题，了解其定义应该就足够应付了。
 
 
-### Total return
-### 总回报
+### Total return 总回报
 
 The **total return** calculates the full return on a particular investment over a given period of time. As with the other yields noted, you'll likely not need to calculate it, but you'll need to understand it. The total return provides you a percentage of gain or loss of an investment. To determine the total return, you need to follow these steps:
 **总回报 （Total return）** 计算的是特定投资在给定时间段内的全部回报。与前面提到的其他收益率一样，您可能不需要计算它，但需要理解它。总回报为您提供了投资盈亏的百分比。要确定总回报，您需要遵循以下步骤：
@@ -270,15 +259,13 @@ The **total return** calculates the full return on a particular investment over 
 4.  Divide that number by the initial cost of the investment and subtract 1. （将该数值除以投资的初始成本，然后减去 1。）
 
 
-### Basis point
-### 基点
+### Basis point 基点
 
 A **basis point** is one of the easier calculations. Basis points are typically used in the bond market, mutual funds, and exchange-traded funds (ETFs). Basis points are simply 1/100th of a percent. If the yield on a Treasury bond (T-bond) lowers 1.2 percent to 1.1 percent, it is said to have moved ten basis points. Also, when comparing expenses on a fund (see Chapter 9), people often refer to the fund expenses by basis points. If you're comparing two funds, one fund's expenses might be 0.15 percent and the other's 0.13 percent for a difference of 0.02 percent or two basis points.
 **基点 （Basis point）** 是比较简单的计算之一。基点通常用于债券市场、共同基金和交易所交易基金 （ETFs）。基点就是百分之一的百分之一（即 0.01%）。如果国债 （T-bond） 的收益率从 1.2% 下降到 1.1%，就说它变动了 10 个基点。此外，在比较基金费用时（见第 9 章），人们经常用基点来指代基金费用。如果您正在比较两个基金，一个基金的费用可能是 0.15%，另一个是 0.13%，差额为 0.02%，即 2 个基点。
 
 
-### Accrued interest
-### 应计利息
+### Accrued interest 应计利息
 
 When investors purchase outstanding bonds in the market, they may have to pay an additional cost besides the market price (and, of course, your commission). The additional cost is called **accrued interest**. Accrued interest, which is due when bonds are purchased between coupon dates, is the portion of the interest still due to the seller. As you may remember, most bonds pay interest once every six months. If an investor holds onto a bond for 87 days out of a 180-day six-month period (for corporate and municipal bonds), they are entitled to 87/180 of that next interest payment; that's accrued interest.
 当投资者在市场上购买流通债券时，除了市场价格（当然还有您的佣金）之外，他们可能还需要支付一笔额外费用。这笔额外费用被称为**应计利息 （accrued interest）**。应计利息是指在两个付息日之间购买债券时，仍应支付给卖方的那部分利息。正如您可能记得的，大多数债券每六个月支付一次利息。如果一名投资者在 180 天的半年周期内持有债券 87 天（对于公司债和市政债），他们有权获得下次利息支付额的 87/180；这就是应计利息。
@@ -291,15 +278,13 @@ Although you won't be required to calculate accrued interest when taking the SIE
 ---
 
 
-## 4. Determining the Best Investment: Comparing Corporate Bonds
-## 4. 确定最佳投资：比较公司债券
+## 4. Determining the Best Investment: Comparing Corporate Bonds 4. 确定最佳投资：比较公司债券
 
 As you grind your way through SIE exam questions, you may be asked to determine the best investment for a particular investor. You need to look at the question carefully for clues to help you choose the correct answer. (Is the investor looking for safety, for example, or is the investor close to retirement?) Consider several factors, including credit rating, callable and put features, and convertible features. Certainly, the investor's investment objectives (if stated) have to take center stage.
 当您在 SIE 考试题目中摸爬滚打时，您可能会被要求为特定的投资者确定最佳投资。您需要仔细审题，寻找线索以帮助您选择正确答案。（例如，投资者是在追求安全性，还是即将退休？）考虑多个因素，包括信用评级、赎回和回售特征以及转换特征。当然，投资者的投资目标（如果已说明）必须放在首要位置。
 
 
-### Considering bond credit ratings
-### 考虑债券信用评级
+### Considering bond credit ratings 考虑债券信用评级
 
 The institutions that rate bonds are most interested in the likelihood of **default** (the likelihood that the interest and principal won't be paid when due). For the exam, you can assume that the higher the credit rating, the safer the bond and, therefore, the lower the yield.
 债券评级机构最感兴趣的是**违约 （default）** 的可能性（即利息和本金无法按时支付的可能性）。对于考试，您可以假设：信用评级越高，债券越安全，因此收益率越低。
@@ -309,9 +294,11 @@ The two main bond credit rating companies are **Moody's** and **Standard & Poor'
 
 
 #### TABLE 7-1: Bond Credit Ratings (by Quality)
+
 ### 表 7-1：债券信用评级（按质量划分）
 
 | Quality （质量） | S&P | Moody's |
+
 | :--- | :--- | :--- |
 | **Highest （最高）** | AAA | Aaa |
 | **High （高）** | AA | Aa |
@@ -338,13 +325,13 @@ The correct answer is (D). When you're answering this type of question, always l
 
 📝 **案例**
 将以下标普债券评级按从高到低的顺序排列：
+
 I. A+ II. AA III. A– IV. BBB+
 (A) I, II, III, IV (B) I, III, II, IV (C) IV, I, II, III (D) II, I, III, IV
 正确答案是 （D）。在回答这类问题时，一定要先看字母。只有当两个选项的字母相同时，加号或减号才会起作用，如陈述 I 和 III。最高级别的选择是 AA，接着是 A+（因为它高于 A–），而 A– 又高于 BBB+。
 
 
-### Contrasting callable and putable (put) bonds
-### 赎回债券与回售债券的对比
+### Contrasting callable and putable (put) bonds 赎回债券与回售债券的对比
 
 Your mission for the SIE exam is to know which bonds are better for investors and when bonds are likely to be called or put. As you may know, bonds can be issued in callable and put forms:
 您在 SIE 考试中的任务是了解哪些债券对投资者更好，以及债券何时可能被赎回 （call） 或回售 （put）。如您所知，债券可以以可赎回和可回售的形式发行：
@@ -385,8 +372,7 @@ You can assume for SIE exam purposes that if interest rates increase, bond yield
 就 SIE 考试而言，您可以假设：如果利率上升，债券收益率就会上升。
 
 
-### Popping the top on convertible bonds
-### 拆解可转换债券
+### Popping the top on convertible bonds 拆解可转换债券
 
 Bonds that are convertible to common stock are called **convertible bonds**. Convertible bonds are attractive to investors because investors have an interest in the bond price as well as the price of the underlying stock. **Parity** occurs when a convertible bond and its underlying stock (the stock it's convertible into) are trading equally (that is, when a bond trading for $1,100 is convertible into $1,100 worth of stock).
 可转换为普通股的债券被称为**可转换债券 （convertible bonds）**。可转换债券对投资者很有吸引力，因为投资者不仅对债券价格感兴趣，也对标的股票价格感兴趣。当可转换债券及其标的股票（可转换成的股票）的交易价值相等时，就出现了**等价 （parity）**（即一张交易价格为 1,100 美元的债券可以转换为价值 1,100 美元的股票）。
@@ -420,6 +406,7 @@ parity price of the bond = $36 × 25 shares = $900
 
 📝 **案例**
 ABCD 可转换债券可以转换为 25 股普通股。如果该股票的交易价格为 36 美元，那么该债券的等价价格是多少？
+
 (A) $36 (B) $40 (C) $80 (D) $900
 正确答案是 （D）。当您遇到等价价格的问题时，您必须确定股票和债券（或可转换优先股）在何处交易价值相等。在本例中，已经给出了转换比例，即该债券可转换成的股份数量 （25）。因此，利用这些信息，您可以将给出的数据代入以下等式：
 债券的等价价格 = 股票市场价格 × 转换比例
@@ -428,8 +415,7 @@ ABCD 可转换债券可以转换为 25 股普通股。如果该股票的交易�
 ---
 
 
-## 5. Exploring U.S. Government Securities
-## 5. 探索美国政府证券
+## 5. Exploring U.S. Government Securities 5. 探索美国政府证券
 
 On the SIE and companion exams, you need to know the basic types of U.S. government securities, their initial maturities, and certain characteristics.
 在 SIE 及其进阶考试中，您需要了解美国政府证券的基本类型、初始期限及某些特征。
@@ -446,17 +432,18 @@ With government bonds, you use some of the same types of calculations you use fo
 对于政府债券，您可以使用与公司债券相同的一些计算方法。
 
 
-### Understanding the types of U.S. government securities
-### 了解美国政府证券的类型
+### Understanding the types of U.S. government securities 了解美国政府证券的类型
 
 Table 7-2 gives you an overview of types of U.S. government securities and their specifics. Memorize all the information in the following table so that you can ace U.S. government securities questions on the SIE exam. Individual investors can purchase U.S. government securities directly through www.treasurydirect.gov, through a bank, or through a broker. The securities are issued in electronic form, so investors don't receive the actual bond certificate.
 表 7-2 为您概述了美国政府证券的类型及其详情。请背下下表中的所有信息，以便在 SIE 考试中轻松应对美国政府证券的问题。个人投资者可以直接通过 www.treasurydirect.gov、银行或经纪人购买美国政府证券。这些证券以电子形式发行，因此投资者不会收到实物债券凭证。
 
 
 #### TABLE 7-2: U.S. Government Securities and Time until Maturity
+
 ### 表 7-2：美国政府证券及到期时间
 
 | Security （证券） | Initial Maturity （初始期限） | Characteristics （特征） |
+
 | :--- | :--- | :--- |
 | **Treasury bills （T-bills） （短期国库券）** | 4, 8, 13, 17, 26, or 52 weeks； considered to be short-term U.S. debt securities （4, 8, 13, 17, 26 或 52 周；被视为短期美国债务证券） | Issued at a discount and mature at par. The difference between the purchase price and par is considered to be interest， even though no interest payments were made. Minimum purchase is $100. （折价发行，到期按面值兑付。尽管没有支付利息，但购买价与面值之间的差额被视为利息。最低购买金额为 100 美元。） |
 | **Treasury notes （T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |
@@ -473,8 +460,7 @@ For the SIE exam, keep in mind that the interest received on U.S. government sec
 在 SIE 考试中，请记住：美国政府证券收到的利息**免除州和地方税**。而市政债券收到的利息则免除联邦税（尽管我将在第 8 章详细讨论这个话题）。第 15 章为您提供了关于税收的详细信息。
 
 
-### Looking at agency securities
-### 查看机构证券
+### Looking at agency securities 查看机构证券
 
 **Agency bonds** are ones issued by a U.S. government-sponsored agency or government-sponsored entity (GSE). The bonds are backed by the U.S. government, but not all are guaranteed by the full faith and credit of the U.S. government except for **Government National Mortgage Association (GNMA)** bonds, which are directly backed. As such, agency bonds (although almost as safe) are considered to be riskier than U.S. government bonds and notes such as T-bonds, T-notes, and T-bills. Not all U.S. government agency securities are exempt from SEC registration. GSEs include the following:
 **机构债券 （Agency bonds）** 是由美国政府赞助的机构或政府赞助实体 （GSE） 发行的。这些债券由美国政府支持，但并不是所有债券都由美国政府的完全信誉担保，除了**政府全国抵押贷款协会 （GNMA，又称 Ginnie Mae）** 债券，它们是直接担保的。因此，机构债券（虽然几乎同样安全）被认为比长期国债、中期国库票据和短期国库券风险更高。并非所有的美国政府机构证券都免于 SEC 注册。GSE 包括以下几种：
@@ -498,8 +484,7 @@ Certain mortgage-backed securities are susceptible to **reinvestment risk** beca
 ---
 
 
-## 6. Playing It Safe: Short-Term Loans or Money Market Instruments
-## 6. 稳健投资：短期贷款或货币市场工具
+## 6. Playing It Safe: Short-Term Loans or Money Market Instruments 6. 稳健投资：短期贷款或货币市场工具
 
 Your SIE exam will likely include a question or two on money market instruments. **Money market instruments** are relatively safe short-term loans that can be issued by corporations, banks, the U.S. government, and municipalities. Most of these instruments have maturities of one year or less; they're usually issued at a discount and mature at par value. The following list reviews some basic characteristics of money market instruments to help you earn an easy point or two on the SIE exam:
 您的 SIE 考试很可能会包含一两个关于货币市场工具的问题。**货币市场工具 （money market instruments）** 是相对安全的短期贷款，可以由公司、银行、美国政府和市政府发行。这些工具的大多数期限为一年或以下；它们通常折价发行，到期时按面值兑付。以下列表回顾了货币市场工具的一些基本特征，帮助您在 SIE 考试中轻松拿分：
@@ -543,17 +528,16 @@ Word association can help you here. If you see importing, exporting, or time-dra
 ---
 
 
-## 7. Testing Your Knowledge
-## 7. 知识测试
+## 7. Testing Your Knowledge 7. 知识测试
 
 Now that you've discovered what you need to know about corporate and U.S. debt securities as far as the SIE exam goes, it's time to try some additional questions (besides the ones within the chapter). Read carefully so that you don't make any careless mistakes.
 
 
-### Practice questions
-### 练习题
+### Practice questions 练习题
 
 1. A corporate bond indenture includes which of the following?
    公司债券契约包含以下哪项？
+
    I. The coupon rate
    II. The maturity date
    III. Par value
@@ -562,44 +546,44 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (B) I, II, and III
    (C) I, II, and IV
    (D) I, II, III, and IV
-
 2. Declan K. has 100 DEF corporate bonds with a coupon rate of 4 1/2 percent. The bonds were purchased at 98 percent of $1,000 par each. How much interest will Declan receive the next time they get paid?
    Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？
+
    (A) $2,205
    (B) $2,250
    (C) $4,410
    (D) $4,500
-
 3. Which of the following types of corporate bond issues is most likely to have a sinking fund?
    以下哪种类型的公司债券发行最可能设有偿债基金？
+
    (A) Term
    (B) Series
    (C) Serial
    (D) None of the above
-
 4. All of the following are types of secured bonds EXCEPT
    以下所有都是担保债券的类型，除了
+
    (A) mortgage bonds
    (B) collateral trusts
    (C) income bonds
    (D) guaranteed bonds
-
 5. Which of the following is the formula that determines the current yield of a bond?
    以下哪个是确定债券当前收益率的公式？
+
    (A) Current yield = Semiannual interest divided by the market price
    (B) Current yield = Semiannual interest divided by the par value
    (C) Current yield = Annual interest divided by the market price
    (D) Current yield = Annual interest divided by par value
-
 6. Melissa R. Corporation has issued $6 million worth of 30-year callable bonds with a par value of $1,000, a coupon rate of 5 1/4 percent, and 7 years call protection. Melissa R. Corporation would least likely call the bonds when interest rates are generally
    Melissa R. 公司发行了价值 600 万美元的 30 年期可赎回债券，面值为 1,000 美元，票面利率为 5.25%，并有 7 年的赎回保护期。当利率通常处于什么状态时，Melissa R. 公司最不可能赎回债券？
+
    (A) increasing
    (B) decreasing
    (C) remaining the same
    (D) none of the above
-
 7. Which of the following are possible maturities for a U.S. Treasury bill?
    以下哪项是美国短期国库券的可能期限？
+
    I. 4 weeks
    II. 8 weeks
    III. 16 weeks
@@ -608,16 +592,16 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (B) I, II, and III
    (C) I, II, and IV
    (D) I, II, III, and IV
-
 8. Which of the following U.S. government securities has interest payments that vary according to inflation or deflation?
    以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？
+
    (A) T-bills
    (B) T-STRIPS
    (C) TIPS
    (D) T-notes
-
 9. Which of the following securities are money market instruments?
    以下哪些证券属于货币市场工具？
+
    I. Banker's acceptances
    II. T-bills
    III. Commercial paper
@@ -626,9 +610,9 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
    (B) I, II, and III
    (C) II, III, and IV
    (D) I, II, III, and IV
-
 10. Which of the following are direct obligations of the U.S. government?
     以下哪项是美国政府的直接债务？
+
     I. T-bills
     II. GNMA
     III. FNMA
@@ -637,97 +621,81 @@ Now that you've discovered what you need to know about corporate and U.S. debt s
     (B) I, II, and III
     (C) II, III, and IV
     (D) I, II, and IV
-
 11. The last transaction in HIJ 6.50s 2035 was at 99. These HIJ bonds sold
     HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是
+
     (A) at par value
     (B) at a discount
     (C) at a premium
     (D) cannot be determined
-
 12. For callable bonds, the call provision must stipulate which of the following factors?
     对于可赎回债券，赎回条款必须规定以下哪个因素？
+
     (A) The date of maturity
     (B) The market value
     (C) The call date and coupon rate
     (D) The call price and call date
-
 13. When issued, which of the following debt securities would mature in one year or less?
     发行时，以下哪种债务证券的期限在一年或以下？
+
     (A) SLMA bonds
     (B) Money market securities
     (C) U.S. government-issued Treasury notes
     (D) Call options
-
 14. When computing dollar prices and accrued interest on municipal bonds, they are typically calculated using
     计算市政债券的美元价格和应计利息时，通常使用
+
     (A) a 30-day month and a 360-day year
     (B) a 30-day month and a 365-day year
     (C) actual days in a month and a 360-day year
     (D) actual days in a month and a 365-day year
-
 15. When would the stability of a portfolio of debt securities be the greatest?
     在什么时候债务证券投资组合的稳定性最大？
+
     (A) During a time of rising interest rates
     (B) During a time of falling interest rates
     (C) If the maturities of the debt securities are long-term
     (D) If the maturities of the debt securities are short-term
-
 16. These securities are typically traded based on their average life instead of their stated maturity dates.
     这些证券通常根据其平均寿命而非规定的到期日进行交易。
+
     (A) U.S. government bonds
     (B) Asset-backed securities
     (C) Corporate callable bonds
     (D) Industrial development bonds
 
 
-### Answers and explanations
-### 答案与解析
+### Answers and explanations 答案与解析
 
 1.  **D.** The indenture of a bond includes the date that the bond matures, the coupon rate, par value (typically, $1,000), collateral securing the bond (if any), and any callable or convertible features.
     **D.** 债券契约包括债券到期日、票面利率、面值（通常为 1,000 美元）、担保债券的抵押品（如果有）以及任何可赎回或可转换特征。
-
 2.  **B.** The coupon rate is based on the par value of the bonds, not the purchase price or market value. Declan purchased $100,000 par value of bonds with a coupon rate of 4 1/2 percent. This means that Declan will receive $4,500 (4.5% × $100,000) in interest per year. But you can assume (unless you're told differently in the question) that bonds pay interest semiannually (every six months). So you need to divide the annual interest by 2 to get $2,250 ($4,500 / 2).
     **B.** 票面利率是基于债券的面值，而不是购买价格或市场价值。Declan 购买了面值为 100,000 美元、票面利率为 4.5% 的债券。这意味着 Declan 每年将获得 4,500 美元（4.5% × 100,000 美元）的利息。但您可以假设（除非题目中另有说明）债券每半年（每六个月）支付一次利息。因此，您需要将年利息除以 2 得到 2,250 美元（4,500 美元 / 2）。
-
 3.  **A.** Although all the choices listed may have a sinking fund (a fund for which the issuer sets aside money to pay the bonds off at maturity), term bonds are the ones most likely to have one. Term bonds are issues in which all the bonds are issued at the same time and have the same maturity date.
     **A.** 虽然列出的所有选项都可能设有偿债基金（发行人预留资金用于在到期时偿还债券的基金），但定期债券最有可能设有偿债基金。定期债券是指所有债券同时发行并具有相同到期日的债券。
-
 4.  **C.** This question is an "except" question, so you're looking for the one that's not secured. Income bonds are ones issued by a corporation that's in trouble and needs to reorganize. In this case, the issuing corporation would issue these bonds at a deep discount and not make interest payments unless earnings are high enough. Income bonds are considered to be extremely risky and aren't suitable for most investors.
     **C.** 这是一个“除外”问题，所以您要找的是没有担保的那一个。收益债券是由陷入困境并需要重组的公司发行的。在这种情况下，发行公司会以大幅折价发行这些债券，并且除非盈利足够高，否则不支付利息。收益债券被认为风险极高，不适合大多数投资者。
-
 5.  **C.** The current yield of a security is the annual rate of return divided by the market price of the security. So if the market price changes, so does the current yield.
     **C.** 证券的当前收益率是年回报率除以证券的市场价格。因此，如果市场价格发生变化，当前收益率也会随之变化。
-
 6.  **A.** A lot of information thrown into this question is meant to confuse you. The question just wants you to know when an issuer would least likely call its bonds. The whole idea of callable bonds is that issuers want the right to call their bonds if interest rates decrease because then they can issue bonds with lower coupon rates. So they'd least likely call their bonds when interest rates are increasing.
     **A.** 这个问题中抛出的很多信息都是为了迷惑你。问题只是想让你知道发行人最不可能在什么时候赎回债券。可赎回债券的核心思想是，如果利率下降，发行人希望有权赎回债券，因为这样他们就可以发行票面利率更低的债券。因此，当利率上升时，他们最不可能赎回债券。
-
 7.  **C.** T-bills have initial maturities of 4, 8, 13, 17, 26, and 52 weeks. T-bills are short-term U.S. government securities that are issued at a discount and mature at par value.
     **C.** 短期国库券的初始期限为 4、8、13、17、26 和 52 周。短期国库券是折价发行并按面值到期的短期美国政府证券。
-
 8.  **C.** TIPS pay interest every six months, like T-notes and T-bonds, but have an interest payment that increases or decreases depending on inflation or deflation.
     **C.** 通胀保值债券 (TIPS) 像中期国库票据 (T-notes) 和长期国债 (T-bonds) 一样每六个月支付一次利息，但其利息支付会根据通货膨胀或通货紧缩而增加或减少。
-
 9.  **B.** Money market instruments are debt securities that mature in one year or less. They include repurchase agreements, federal funds, commercial paper (some may mature in more than a year), brokered CDs, Eurodollars, BAs, and T-bills.
     **B.** 货币市场工具是期限在一年或以下的债务证券。它们包括回购协议、联邦基金、商业票据（有些期限可能超过一年）、经纪商存单、欧洲美元、银行承兑汇票和短期国库券。
-
 10. **D.** All the choices listed are directly backed by the U.S. government except for FNMA securities. FNMA is a publicly held corporation that provides capital for certain mortgages. It's privately owned but is still government-sponsored.
     **D.** 除了 FNMA 证券外，列出的所有选项都由美国政府直接支持。FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。它是私有的，但仍然是政府赞助的。
-
 11. **B.** Remember par value for a bond is 100 (100 percent of $1,000 par). In this case, the bonds sold at a purchase price of 99 (99 percent of $1,000), so they sold at a discount from par value.
     **B.** 记住债券的面值是 100（1,000 美元面值的 100%）。在这种情况下，债券的售价为 99（1,000 美元的 99%），因此它们是折价出售的。
-
 12. **D.** Although the indenture of the bond will provide the par value, coupon rate, and date of maturity, the call provision would provide the call price (what the issuer would pay the holder if calling the bonds) and also the first date that the bonds can be called.
     **D.** 虽然债券契约会提供面值、票面利率和到期日，但赎回条款会提供赎回价格（发行人赎回债券时支付给持有人的金额）以及债券可以被赎回的最早日期。
-
 13. **B.** Although call options typically mature in one year or less, they aren't debt securities, so you can count that one out. Out of the other choices, the only debt securities that mature in one year or less at the time of issuance are money market securities.
     **B.** 虽然看涨期权通常在一年或以下到期，但它们不是债务证券，所以你可以排除它。在其他选项中，唯一在发行时期限为一年或以下的债务证券是货币市场证券。
-
 14. **A.** Logically, you should be able to throw out answers “B” and “C” because there is no way to make them work. If you calculate using 30-day months, it would have to work out to a 360-day year, not 365. Likewise, if you're using actual days in a month, it would have to work out to a 365-day year. Unlike U.S. government securities, which use actual days in a month and a 365-day year, municipal bonds typically compute using 30-day months and 360-day years.
     **A.** 从逻辑上讲，你应该能够排除答案“B”和“C”，因为它们无法成立。如果你按每月 30 天计算，那必须是每年 360 天，而不是 365 天。同样，如果你按每月实际天数计算，那必须是每年 365 天。与使用每月实际天数和每年 365 天计算的美国政府证券不同，市政债券通常使用每月 30 天和每年 360 天计算。
-
 15. **D.** Remember, when interest rates change, short-term debt securities typically change more quickly in price, but long-term debt securities change more in price. Therefore, an investor holding shorter-term debt securities would be holding securities that are more stable in price than someone holding a portfolio of long-term debt securities.
     **D.** 记住，当利率变化时，短期债务证券的价格通常变化较快，但长期债务证券的价格变化幅度更大。因此，持有短期债务证券的投资者持有的证券价格比持有长期债务证券投资组合的投资者更稳定。
-
 16. **B.** Asset-backed securities, such as GNMAs, are typically traded based on their average life. Asset-backed securities are ones that are backed by assets such as loans, mortgages, and accounts receivable. So, for argument's sake, say an individual takes out a 30-year mortgage; the average life of that mortgage may be 17 years due to that individual moving or refinancing the loan.
     **B.** 资产支持证券，如 GNMAs，通常根据其平均寿命进行交易。资产支持证券是由贷款、抵押贷款和应收账款等资产支持的证券。举例来说，假设个人办理了 30 年期的抵押贷款；由于该个人搬家或再融资，该抵押贷款的平均寿命可能为 17 年。

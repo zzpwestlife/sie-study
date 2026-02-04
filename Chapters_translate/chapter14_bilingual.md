@@ -1,8 +1,7 @@
 # Chapter 14: Securities Markets: Taking Orders and Executing Trades
 
 
-## IN THIS CHAPTER
-## 在本章内容
+## IN THIS CHAPTER 在本章内容
 
 **Understanding primary and secondary markets**
 **了解一级市场和二级市场**
@@ -25,15 +24,13 @@ In this chapter, I cover the basics of exchanges and the over-the-counter (OTC) 
 ---
 
 
-## 1. Shopping at Primary and Secondary Markets
-## 1. 在一级市场与二级市场购物
+## 1. Shopping at Primary and Secondary Markets 1. 在一级市场与二级市场购物
 
 Depending on whether the securities are new or outstanding, they trade in either the primary or secondary market.
 根据证券是新发行的还是已流通的，它们分别在一级市场或二级市场进行交易。
 
 
-### Buying new in the primary market
-### 在一级市场购买新股
+### Buying new in the primary market 在一级市场购买新股
 
 The **primary market** (new issue market) is where the issuer receives the proceeds from the sale of securities. A security that has never been offered or sold to the public is considered a new issue. Here are the three types of offerings on the primary market:
 **一级市场 （Primary market）**（新发行市场）是发行人获取证券销售收入的市场。从未向公众提供或出售过的证券被视为新发行证券。以下是一级市场的三种发行类型：
@@ -51,8 +48,7 @@ When securities are sold in the primary market, the **bulk of the sales proceeds
 当证券在一级市场出售时，**销售收益的大部分归发行人所有**，余额则归负责向公众销售证券的实体——即承销商和销售小组成员（如果有的话）。
 
 
-### Buying used in the secondary market
-### 在二级市场购买“二手”股
+### Buying used in the secondary market 在二级市场购买“二手”股
 
 When the securities are already trading in the market, the sales proceeds go to **another investor** instead of to the issuer. The secondary market, also called the **aftermarket**, consists of the following categories:
 当证券已经在市场上交易时，销售收益流向**另一名投资者**，而不是发行人。二级市场（也称为**后续市场 aftermarket**）由以下类别组成：
@@ -70,15 +66,13 @@ You’re more likely to get a question on the third or fourth market than the fi
 ---
 
 
-## 2. Making the Trade
-## 2. 执行交易
+## 2. Making the Trade 2. 执行交易
 
 After securities are issued publicly, they may trade on an exchange or on the OTC market.
 证券公开发行后，可以在交易所或场外交易 （OTC） 市场进行交易。
 
 
-### Auctioning securities at securities exchanges
-### 在证券交易所拍卖证券
+### Auctioning securities at securities exchanges 在证券交易所拍卖证券
 
 Exchanges are **auction markets**, where bidders and sellers get together to execute trades.
 交易所是**拍卖市场**，买卖双方聚集在一起执行交易。
@@ -88,8 +82,7 @@ Exchanges are **auction markets**, where bidders and sellers get together to exe
 *   **Designated market makers （DMMs）** （formerly specialists）： These professionals manage the auction market for a particular security。 Their purpose is to maintain a **“fair and orderly market。”** A DMM can act as a broker or a dealer。 An important function of a DMM is to keep track of and execute **limit orders**。 （**指定做市商 （DMMs）**（原名特种商）：这些专业人士管理特定证券的拍卖市场。他们的目的是维持**“公平且有序的市场”**。DMM 既可以作为经纪人，也可以作为自营商。DMM 的一个重要功能是记录并执行**限价单**。）
 
 
-### Negotiating trades over the counter
-### 在场外协商交易
+### Negotiating trades over the counter 在场外协商交易
 
 Unlike exchanges, the OTC market is considered a **negotiated market**. Instead of yelling out prices, traders buy and sell by way of telephone or computer transactions.
 与交易所不同，场外交易 （OTC） 市场被视为**协商市场**。交易者不是大声喊价，而是通过电话或计算机交易来买卖证券。
@@ -105,8 +98,7 @@ Unlike exchanges, the OTC market is considered a **negotiated market**. Instead 
 ---
 
 
-## 3. Understanding the Role of a Broker-Dealer
-## 3. 理解经纪自营商的角色
+## 3. Understanding the Role of a Broker-Dealer 3. 理解经纪自营商的角色
 
 For a firm to be considered a **broker-dealer**, it must buy and sell securities from its own account and act as a middleman for securities not in inventory.
 对于一家被称为**经纪自营商 （broker-dealer）** 的公司，它必须既能利用自有账户买卖证券，又能为不在库存中的证券充当中间人。
@@ -120,8 +112,7 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 公司**不能在同一笔交易中同时充当经纪人和自营商**。在同一笔交易中同时收取加价和佣金是违规行为。
 
 
-### Other Broker-Dealer Roles
-### 其他经纪自营商角色
+### Other Broker-Dealer Roles 其他经纪自营商角色
 
 *   **Introducing broker (IB)**: A person or business that provides investment advice but does not handle the transactions/assets directly. They hand over the execution to a clearing firm.
 *   **介绍经纪人 (IB)**：提供投资建议但不直接处理交易/资产的个人或企业。他们将执行工作移交给清算公司。
@@ -131,8 +122,7 @@ A firm **can't act as a broker and a dealer for the same trade**. Charging a mar
 *   **主经纪商 (Prime broker)**：主要由机构账户或大型零售客户使用。他们提供借贷、杠杆交易执行和现金管理等服务，并帮助将来自多家公司的信息整合到一份报表中。
 
 
-### Depository Trust and Clearing Corporation (DTCC)
-### 存管信托与清算公司 (DTCC)
+### Depository Trust and Clearing Corporation (DTCC) 存管信托与清算公司 (DTCC)
 
 The **DTCC** provides safeguards to the world’s financial markets. It provides clearing, settlement, and information services for equities, bonds, mutual funds, etc. Its key role is to limit risk and provide transparency.
 **DTCC** 为全球金融市场提供保障。它为股票、债券、共同基金等提供清算、结算和信息服务。其关键作用是限制风险并提供透明度。
@@ -140,8 +130,7 @@ The **DTCC** provides safeguards to the world’s financial markets. It provides
 ---
 
 
-## 4. Receiving and Executing Customer Orders
-## 4. 接收并执行客户订单
+## 4. Receiving and Executing Customer Orders 4. 接收并执行客户订单
 
 🧠 **REMEMBER**
 **Unlicensed associated persons** cannot receive or execute orders for customers. In order to discuss investment objectives or take orders, the person must be **licensed**.
@@ -149,15 +138,13 @@ The **DTCC** provides safeguards to the world’s financial markets. It provides
 **未经许可的关联人员**不能接收或执行客户订单。为了讨论投资目标或接受订单，该人员必须**持有执照**。
 
 
-### Reviewing basic order types
-### 回顾基本订单类型
+### Reviewing basic order types 回顾基本订单类型
 
 *   **Market order**： For immediate execution at the **best price available**。 （市价单：按**当前最优价格**立即执行。）
 *   **Selling short**： Selling securities they don't actually own （borrowed from a lender）。 A short seller is **bearish**。 All short sales must be executed in **margin accounts**。 （卖空：卖出并不实际拥有的证券（从借出人处借入）。卖空者是**看空**的。所有卖空交易必须在**融资账户**中执行。）
 
     > **Regulation SHO**: Rules covering short sales. It requires that order tickets be marked as **short sale**. Brokerage firms must **locate** the securities to be borrowed before executing the short sale.
     > **SHO 条例 (Regulation SHO)**：涵盖卖空交易的规则。它要求委托单必须标记为**卖空**。经纪公司在执行卖空之前必须**定位 (locate)** 将被借入的证券。
-
 *   **Stop order**： Used for **protection** （limit loss or lock in gains）。 （止损单：用于**保护**（限制损失或锁定收益）。）
 *   **Buy stop order**： Protects a short position。 Triggered if the market price touches a particular price or **higher**。 （**买入止损单**：保护空头头寸。如果市场价格达到特定价格或**更高**时触发。）
 *   **Sell stop order**： Protects a long position。 Triggered if the market price touches a particular price or **lower**。 （**卖出止损单**：保护多头头寸。如果市场价格达到特定价格或**更低**时触发。）
@@ -173,8 +160,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 ---
 
 
-## 5. Factoring in order features
-## 5. 考虑订单特征
+## 5. Factoring in order features 5. 考虑订单特征
 
 *   **Day**： Canceled if not filled by the end of the trading day。 （当日有效单：如果交易日结束前未成交则取消。）
 *   **Good-'til-canceled （GTC）**： Open until executed or canceled。 （撤销前有效单 （GTC）：一直开启，直到执行或被撤销。）
@@ -186,8 +172,7 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 ---
 
 
-## 6. Recognizing Different Types of Investors
-## 6. 识别不同类型的投资者
+## 6. Recognizing Different Types of Investors 6. 识别不同类型的投资者
 
 *   **Retail investors**： Nonprofessionals trading for their own accounts。 （散户投资者：为自己的账户进行交易的非专业人士。）
 *   **Accredited investors**： Investors with more money or knowledge。 Includes financial institutions， insiders， and individuals with an **annual income of $200,000** （$300,000 joint） or a **net worth of $1 million** （excluding primary residence）。 （合格投资者：拥有更多资金或知识的投资者。包括金融机构、内幕人士，以及**年收入达 20 万美元**（夫妻共有 30 万美元）或**净资产达 100 万美元**（不包括主要住所）的个人。）
@@ -197,12 +182,10 @@ Because stop and limit orders are price-specific, they **may or may not be execu
 
 
 
-## 7. Testing Your Knowledge
-## 7. 知识测试
+## 7. Testing Your Knowledge 7. 知识测试
 
 
-### Practice questions
-### 练习题
+### Practice questions 练习题
 
 1. Which two of the following are TRUE?
    I. Dealers charge a markup or markdown for trades.
@@ -217,7 +200,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    III. 经纪人（Brokers）在交易中收取加价或减价。
    IV. 经纪人（Brokers）在交易中收取佣金。
    (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
-
 2. Which of the following best describes a third market trade?
    (A) Exchange-listed securities trading OTC
    (B) Exchange-listed securities trading on the exchange floor
@@ -229,25 +211,21 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    (B) 交易所上市证券在交易所大厅交易
    (C) 非上市证券在场外（OTC）交易
    (D) 机构投资者不通过经纪交易商服务进行的交易
-
 3. Which of the following orders would protect a short position?
    (A) Buy limit (B) Sell limit (C) Buy stop (D) Sell stop
 
    **3. 以下哪种订单可以保护空头头寸？**
    (A) 买入限价单 (B) 卖出限价单 (C) 买入止损单 (D) 卖出止损单
-
 4. If an at-the-open order is not executed at the opening price, what happens to the order?
    (A) It is canceled. (B) It becomes a market order. (C) It becomes a day order. (D) It becomes a limit order.
 
    **4. 如果开盘市价单（at-the-open order）未能在开盘价执行，该订单会怎样？**
    (A) 被取消。 (B) 变为市价单。 (C) 变为当日有效单。 (D) 变为限价单。
-
 5. An investor with no other positions would like to purchase ABC common stock, which is currently trading at $30.80. If this investor is interested in purchasing the stock for $28 or less, you should suggest the investor enters a
    (A) buy stop limit order (B) buy limit order (C) buy stop order (D) market order
 
    **5. 一位没有其他持仓的投资者想购买 ABC 普通股，当前交易价格为 $30.80。如果该投资者希望以 $28 或更低的价格购买，你应该建议投资者输入：**
    (A) 买入止损限价单 (B) 买入限价单 (C) 买入止损单 (D) 市价单
-
 6. Which of the following would be considered accredited investors?
    I. Banks
    II. An individual investor with a net worth of $2 million, excluding her primary residence
@@ -261,7 +239,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    III. 净资产为 1000 万美元的公司
    IV. 保险公司
    (A) II 和 IV (B) I 和 IV (C) I, III, 和 IV (D) I, II, III, 和 IV
-
 7. Which TWO of the following are TRUE of short sellers?
    I. They are taking a bullish position.
    II. They are taking a bearish position.
@@ -275,7 +252,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    III. 他们的最大潜在收益是无限的。
    IV. 他们的最大潜在损失是无限的。
    (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
-
 8. A not-held order gives a broker discretion as to
    (A) which security is traded (B) the time at which a security is traded (C) whether to purchase, sell, or sell short a security (D) all of the above
 
@@ -283,43 +259,33 @@ Because stop and limit orders are price-specific, they **may or may not be execu
    (A) 交易哪种证券 (B) 证券交易的时间 (C) 买入、卖出还是卖空证券 (D) 以上所有
 
 
-### Answers and explanations
-### 答案与解析
+### Answers and explanations 答案与解析
 
 1. **B.** Dealers act as principals and charge markups/markdowns. Brokers act as agents and charge commissions.
    **1. B.** 交易商作为委托人（principals）行事并收取加价/减价。经纪人作为代理人（agents）行事并收取佣金。
-
 2. **A.** The third market involves listed securities trading in the OTC market.
    **2. A.** 第三市场涉及在 OTC 市场交易的上市证券。
-
 3. **C.** A buy stop order protects short positions by triggering a purchase if the price rises.
    **3. C.** 买入止损单通过在价格上涨时触发买入来保护空头头寸。
-
 4. **A.** At-the-open orders must be executed at the start of trading or be canceled.
    **4. A.** 开盘市价单必须在交易开始时执行，否则被取消。
-
 5. **B.** A buy limit order allows an investor to buy at a specific price or lower.
    **5. B.** 买入限价单允许投资者以特定价格或更低价格买入。
-
 6. **D.** All choices meet the criteria for accredited investors (institutions and high-net-worth individuals).
    **6. D.** 所有选项都符合合格投资者（机构和高净值个人）的标准。
-
 7. **D.** Short sellers are bearish and face unlimited loss potential because there is no cap on how high a stock price can rise.
    **7. D.** 卖空者看空，并面临无限的潜在损失，因为股价上涨没有上限。
-
 8. **B.** Not-held (NH) orders only give the broker discretion over the **timing** and **price** of the execution.
    **8. B.** 不限时（NH）订单仅赋予经纪人对执行的**时间**和**价格**的裁量权。
 
 
-### Additional Practice Questions
-### 补充练习题
+### Additional Practice Questions 补充练习题
 
 9. Which of the following order features allows for partial execution?
    (A) FOK (B) AON (C) IOC (D) All of the above
 
    **9. 以下哪种订单特征允许部分成交？**
    (A) FOK (B) AON (C) IOC (D) 以上所有
-
 10. Which TWO of the following are FALSE regarding unsolicited orders?
     I. They cannot be accepted without prior approval from a principal.
     II. They can be accepted without prior approval from a principal.
@@ -333,7 +299,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     III. 必须限制规模。
     IV. 不限制规模。
     (A) I 和 III (B) I 和 IV (C) II 和 III (D) II 和 IV
-
 11. A market maker quotes a stock at 18.10 - 18.30, 20 x 25. This means the market maker is willing to:
     (A) Sell 2,500 shares at $18.10 and buy 2,000 shares at $18.30
     (B) Buy 2,000 shares at $18.10 and sell 2,500 shares at $18.30
@@ -345,7 +310,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (B) 以 $18.10 买入 2,000 股，以 $18.30 卖出 2,500 股
     (C) 以 $18.10 卖出 250 股，以 $18.30 买入 200 股
     (D) 以 $18.10 买入 200 股，以 $18.30 卖出 250 股
-
 12. Mary and John have been married for several years. They have a combined income that has exceeded $300,000 per year for the last four years and is expected to at least be that much for the current year. They would be considered a(n)
     (A) qualified institutional buyer (QIB)
     (B) accredited investor
@@ -357,13 +321,11 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (B) 合格投资者
     (C) 机构投资者
     (D) 银行合格投资者
-
 13. WXY Broker-Dealer charges a commission on a securities transaction. WXY Broker-Dealer has acted as a(n)
     (A) agent (B) principal (C) market maker (D) dealer
 
     **13. WXY 经纪交易商在证券交易中收取佣金。WXY 经纪交易商充当了：**
     (A) 代理人 (B) 委托人 (C) 做市商 (D) 交易商
-
 14. “Spread” in the over-the-counter (OTC) market refers to the difference between the
     (A) highest bid and lowest ask price
     (B) lowest offer price and highest ask price
@@ -375,7 +337,6 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (B) 最低报价与最高卖出价
     (C) 某证券的开盘价与收盘价
     (D) “发行时”卖出价
-
 15. Marvin Plimpton is an associated person but is not a licensed registered representative. Which of the following activities is Marvin permitted to engage in?
     (A) Accepting unsolicited orders from a customer who resides in the same state
     (B) Discussing the plusses and minuses of a particular investment to an existing customer of the firm
@@ -389,26 +350,19 @@ Because stop and limit orders are price-specific, they **may or may not be execu
     (D) 在将潜在客户移交给持牌注册代表之前，与客户讨论投资目标
 
 
-### Additional Answers
-### 补充答案
+### Additional Answers 补充答案
 
 9. **C.** If you remember what the initials stand for, it makes the question a lot easier. FOK stands for fill or kill... AON stands for all-or-none... IOC (immediate or cancel)... allows for partial execution.
    **9. C.** 只要记住首字母缩写的含义，这个问题就容易多了。FOK 代表全额成交或取消... AON 代表全额成交... IOC（立即成交或取消）... 允许部分成交。
-
 10. **A.** Remember, you’re looking for false answers... Unsolicited orders are ones in which the investor tells the registered rep which securities they want... Although orders must be approved by a principal, they don’t have to be approved prior to the order being placed. In addition, there are no limits to the size of the order...
     **10. A.** 请记住，你要找的是错误答案... 非招揽订单是投资者告诉注册代表他们想要... 虽然订单必须由主管批准，但不需要在下单前批准。此外，非招揽订单没有规模限制...
-
 11. **B.** The first price (18.10) is the bid price (market maker willing to purchase). The second price (18.30) is the ask price (selling). The “20x25” represents the number of round lots (100 shares). Therefore, 2,000 shares at $18.10 and sell 2,500 shares at $18.30.
     **11. B.** 第一个价格 (18.10) 是买入价（做市商愿意购买）。第二个价格 (18.30) 是卖出价（卖出）。“20x25”代表整手（100 股）的数量。因此，买入 2,000 股（$18.10）并卖出 2,500 股（$18.30）。
-
 12. **B.** As a married couple, accredited investors are ones that have a joint income of at least $300,000 for the previous two years...
     **12. B.** 作为已婚夫妇，合格投资者是指过去两年合并收入至少达到 300,000 美元的人...
-
 13. **A.** Brokers act as middlemen... charge a commission.
     **13. A.** 经纪人充当中间人... 收取佣金。
-
 14. **A.** The term “spread” refers the difference between the highest bid price... and the lowest ask (offer) price...
     **14. A.** 术语“价差”是指最高买入价...与最低卖出价（要价）之间的差额...
-
 15. **C.** Since Marvin is not licensed, he cannot discuss anything relating to investments... However, he can do things such as sending account opening forms to a new customer.
     **15. C.** 由于 Marvin 没有执照，他不能讨论任何与投资有关的事情... 但是，他可以做一些事情，比如将开户表格发送给新客户。

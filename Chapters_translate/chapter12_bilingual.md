@@ -1,11 +1,9 @@
-# Part 4: Customer Accounts, Markets, and Taxes
-# 第 4 部分：客户账户、市场与税务
+# Part 4: Customer Accounts, Markets, and Taxes 第 4 部分：客户账户、市场与税务
 
 ---
 
 
-## IN THIS PART . . .
-## 在本部分中 . . .
+## IN THIS PART . . . 在本部分中 . . .
 
 **Learn the proper procedures for opening and managing customer accounts, including margin requirements.**
 **了解开设和管理客户账户的正确程序，包括融资要求。**
@@ -37,15 +35,13 @@ In this chapter, I cover topics related to opening accounts. First, I help you u
 ---
 
 
-## 1. Following Protocol When Opening Accounts
-## 1. 开户时遵循的协议
+## 1. Following Protocol When Opening Accounts 1. 开户时遵循的协议
 
 The SIE examiners seem to be focusing more and more on the handling of customer accounts. You need to know what to do to open accounts, how to take customer orders, the rules for sending out confirmations, and so on.
 SIE 考试的出题人似乎越来越关注客户账户的处理。您需要了解开户的操作流程、如何接受客户订单、发送交易确认书的规则等等。
 
 
-### Filing the facts on the new account form
-### 在新开户表上登记事实
+### Filing the facts on the new account form 在新开户表上登记事实
 
 When you’re opening any new account for a customer, you first need to fill out a **new account form** — an internal document used to compile basic information about customers for compliance purposes. Getting this information is your responsibility (or the responsibility of the broker-dealer).
 当您为客户开设任何新账户时，首先需要填写**新开户表 （new account form）**——这是一种用于汇集客户基本信息以满足合规要求的内部文件。获取这些信息是您的职责（或经纪交易商的职责）。
@@ -113,8 +109,7 @@ I. 客户 II. 客户配偶 III. 登记代表 IV. 主管
 ---
 
 
-## 2. Gathering other important customer info
-## 2. 收集其他重要的客户信息
+## 2. Gathering other important customer info 2. 收集其他重要的客户信息
 
 You should be able to gather the information you need for making recommendations based on the customer’s account form and your conversations with the person. It is your duty to know your customer (also conveniently called the **“Know-Your-Customer [KYC] Rule”**) so you can make recommendations that are suitable and are able to handle the account effectively.
 您应该能够根据客户的开户表以及您与该人的交谈，收集到做出推荐所需的信息。**“了解您的客户 （KYC）”规则**是您的职责，这样您才能做出合适的推荐并有效地处理账户。
@@ -140,8 +135,7 @@ Some of the things you should know (or attempt to find out) to make accurate rec
 ---
 
 
-## 3. Word on the street: Street name accounts
-## 3. 街面传言：街名账户
+## 3. Word on the street: Street name accounts 3. 街面传言：街名账户
 
 A **street name account** is an account registered in the name of the broker-dealer with an ID number for the benefit of the customer. Most firms put new customer accounts in street name format to make trading easier. Street name accounts give the investor a certain degree of privacy and help facilitate the trading of securities because the brokerage firm, not the customer, signs the certificates.
 **街名账户 （street name account）** 是指以经纪交易商的名义注册，并配有 ID 号码以供客户使用的账户。大多数公司将新客户账户设为街名形式，以使交易更加便捷。街名账户为投资者提供了一定程度的隐私，并有助于促进证券交易，因为由经纪公司而非客户在凭证上签字。
@@ -161,15 +155,13 @@ You need to know a few rules about street name accounts for the SIE:
 ---
 
 
-## 4. Selecting the Appropriate Type of Account
-## 4. 选择合适的账户类型
+## 4. Selecting the Appropriate Type of Account 4. 选择合适的账户类型
 
 Investors can open many types of accounts through a broker-dealer. Besides knowing a customer’s investment profile, you also need a basic understanding of the types of accounts for the SIE exam.
 投资者可以通过经纪交易商开设多种类型的账户。除了了解客户的投资概况外，您还需要对 SIE 考试中的账户类型有基本的掌握。
 
 
-### Single and joint accounts
-### 个人与联名账户
+### Single and joint accounts 个人与联名账户
 
 *   **Single （individual） accounts**： Naturally， this account is in the name of one person。 The key thing for you to remember is that individuals may not open accounts in other people’s names without written permission （**power of attorney**）。 （个人账户：顾名思义，此账户是以一个人的名义开设的。您需要记住的关键点是：未经书面许可（**授权书**），个人不得以他人的名义开设账户。）
 *   **Joint accounts**: This account is in the name of more than one person. All individuals named on the account have equal trading authority for the account. For SIE exam purposes, you need to be familiar with two types of joint accounts:
@@ -188,8 +180,7 @@ The right choice here is (C). A joint account is an account in the name of more 
 这里的正确选择是 （C）。联名账户是以多名**成年人**的名义开设的账户。选项 （A）、（B） 和 （D） 对于联名账户都是可能的，但为未成年人开设的账户必须是**托管账户**。
 
 
-### Trust accounts
-### 信托账户
+### Trust accounts 信托账户
 
 Trust accounts are managed by one party (the **trustee**) for the benefit of another party. A specific type of trust account that you’re most likely to see on the SIE exam is a **custodial account**.
 信托账户由一方（**受托人**）为了另一方的利益而管理。您在 SIE 考试中最可能看到的特定类型信托账户是**托管账户 （custodial account）**。
@@ -225,8 +216,7 @@ UGMA accounts are for minors, so as soon as a minor reaches the **age of majorit
 UGMA 账户是为未成年人设立的，因此一旦未成年人达到**法定成年年龄**（由未成年人居住的州决定），UGMA 账户就会终止，账户将转入以该（前）未成年人名义开设的个人账户。
 
 
-### Discretionary accounts
-### 全权委托账户 (Discretionary accounts)
+### Discretionary accounts 全权委托账户 (Discretionary accounts)
 
 Decision-making can be stressful, and some investors don't want to deal with it. With a **discretionary account**, an investor can give you (the registered rep) the right to make trading decisions for the account. All discretionary accounts need a **written power of attorney** signed by the investor, which gives trading authorization to the registered rep.
 做决策可能会有压力，一些投资者不想处理这些事。通过**全权委托账户**，投资者可以赋予您（登记代表）代表该账户做出交易决策的权利。所有全权委托账户都需要一份由投资者签署的**书面授权书**，以向登记代表授予交易权限。
@@ -252,8 +242,7 @@ A **fiduciary** is anyone who can legally make decisions for another investor. E
 **受托人 （fiduciary）** 是指任何能依法为另一名投资者做决策的人。受托人的例子包括托管人（UGMA 账户）、拥有授权书的登记代表、遗产执行人、信托受托人等。受托人受**“审慎人”或“审慎投资者”规则**的约束，这意味着他们必须将委托客户的资金投资于所在州**“法定名单” （legal list）** 所指定的证券。如果所在州没有法定名单，受托人应仅投资于那些追求合理收入和资本保值的审慎人士会投资的证券。
 
 
-### Corporate accounts
-### 公司账户
+### Corporate accounts 公司账户
 
 Only incorporated businesses can open corporate accounts. If you’re opening a corporate account, you need to obtain the **tax ID number** of the corporation. Additionally, you need to obtain a copy of the **corporate resolution**, which lets you know whom you should be taking trading instructions from.
 只有注册成立的公司才能开设公司账户。如果您正在开设公司账户，您需要获取公司的**税号**。此外，您还需要获取一份**公司决议 （corporate resolution）** 的副本，这样您就能知道应该听从谁的交易指令。
@@ -267,15 +256,13 @@ An **unincorporated association** (sometimes called a **voluntary organization**
 **非法人团体**（有时被称为**自愿组织**）是指为了特定目的（在此情况下为投资）而组建组织的两个或两个以上个人。如果一个非法人团体具有过多的公司特征，它可能会像公司一样被对待并按更高的税率纳税。
 
 
-### Institutional accounts
-### 机构账户
+### Institutional accounts 机构账户
 
 Accounts setup by institutions such as banks, mutual funds, insurance companies, pension funds, hedge funds, and investment advisers are considered institutional accounts. Their role is to act as specialized investors on behalf of others.
 由银行、共同基金、保险公司、养老基金、对冲基金和投资顾问等机构设立的账户被视为机构账户。他们的角色是代表他人担任专业投资者。
 
 
-### Partnership accounts
-### 合伙账户
+### Partnership accounts 合伙账户
 
 Two or more individual owners of a business that’s not set up as a corporation may set up a partnership account. All partnerships must complete a **partnership agreement**, which the broker-dealer has to keep on file. The partnership agreement states who has trading authorization for the account.
 两个或两个以上非公司制企业的个人所有者可以设立合伙账户。所有合伙企业必须完成一份**合伙协议 （partnership agreement）**，经纪交易商必须将其归档。合伙协议规定了谁拥有该账户的交易授权。
@@ -288,15 +275,13 @@ Accounts can be opened for many reasons other than to just buy and sell stocks. 
 ---
 
 
-## 5. Cash or margin account
-## 5. 现金或融资账户
+## 5. Cash or margin account 5. 现金或融资账户
 
 When one of your clients is opening a **cash account**, it means that they must pay for each trade in full. The trades are typically paid for via check or wire transfer. When a customer opens a cash account, they **cannot purchase securities on margin**.
 当您的客户开设**现金账户**时，意味着他们必须为每笔交易全额支付。交易通常通过支票或电汇支付。当客户开设现金账户时，他们**不能进行融资证券交易**。
 
 
-### INVESTMENT ADVISERS
-### 投资顾问
+### INVESTMENT ADVISERS 投资顾问
 
 If you’re working for a broker-dealer as an agent, you’ll receive commission when one of your clients makes a trade. However, there is a different way to make money: receiving a fee for giving investment advice. To do so, you have to pass an exam (typically **Series 65** or **Series 66**) and be registered as an **investment adviser** under the **Investment Advisers Act of 1940**.
 如果您作为代理人在经纪交易商工作，当您的客户进行交易时，您将收到佣金。然而，还有一种不同的赚钱方式：因提供投资建议而收取费用。为此，您必须通过考试（通常是 **65 系列**或 **66 系列**），并根据《**1940 年投资顾问法**》注册为**投资顾问**。
@@ -307,15 +292,13 @@ Advisers must have a **written contract** that explains to clients how and when 
 ---
 
 
-## 6. Working with Margin Accounts
-## 6. 使用融资账户
+## 6. Working with Margin Accounts 6. 使用融资账户
 
 Margin accounts allow customers to borrow money from a broker-dealer to purchase securities or borrow the securities themselves. This can increase their potential profit substantially but also introduces an additional degree of risk.
 融资账户允许客户从经纪交易商那里借钱购买证券，或借入证券本身。这可以大幅增加他们的潜在利润，但也带来了额外的风险。
 
 
-### Disclosures and agreements: Getting margin paperwork out of the way
-### 披露与协议：完成融资文书工作
+### Disclosures and agreements: Getting margin paperwork out of the way 披露与协议：完成融资文书工作
 
 Because purchasing or selling short on margin involves extra risk, all customers must receive a **risk disclosure document**. Besides receiving the document, the customer must sign a **margin agreement** before any securities can be purchased or sold short on margin. The margin agreement is broken down into three main sections:
 由于进行融资购买或融资卖空涉及额外风险，所有客户必须收到一份**风险披露文件**。除了收到该文件外，在进行任何融资购买或卖空之前，客户必须签署一份**融资协议 （margin agreement）**。融资协议分为三个主要部分：
@@ -333,8 +316,7 @@ Besides the margin agreement, firms can force the sale of securities in the acco
 除了融资协议外，公司可以在不联系客户的情况下强制出售账户中的证券，客户不能选择清算账户中的哪些证券，且公司可以随时提高公司自定的维持保证金要求。
 
 
-### Introducing long and short margin accounts
-### 介绍做多和做空融资账户
+### Introducing long and short margin accounts 介绍做多和做空融资账户
 
 In margin accounts, investors either borrow money to buy securities or borrow the securities themselves.
 在融资账户中，投资者要么借钱买入证券，要么借入证券本身。
@@ -352,8 +334,7 @@ When a customer buys securities, they can purchase the securities in a cash or m
 ---
 
 
-## 7. Regulation T: Following the Fed’s rules for purchasing margin accounts
-## 7. T 条例：遵循美联储关于融资账户购买的规则
+## 7. Regulation T: Following the Fed’s rules for purchasing margin accounts 7. T 条例：遵循美联储关于融资账户购买的规则
 
 The **Securities Exchange Act of 1934** gives the **Federal Reserve Board (FRB)** the authority to regulate the extension of credit. **Regulation T (Reg T)** is the FRB rule that covers the credit broker-dealers may extend. Currently, Reg T requires customers to deposit at least **50 percent** of the current market value.
 《**1934 年证券交易法**》赋予了**联邦储备委员会 （FRB）** 监管信用延期的权力。**T 条例 （Reg T）** 是 FRB 关于经纪交易商可延展信用的规则。目前，Reg T 要求客户存入至少 **50%** 的当前市场价值。
@@ -364,8 +345,7 @@ Regulation T is currently set at 50 percent; however, firms may increase the **h
 T 条例目前设定为 50%；然而，公司可以提高其**自定融资要求**至 55%、60% 等。除非题目另有说明，否则您应假设为 50%。T 条例不仅适用于融资账户，也适用于**现金账户**（付款延迟被视为信用延期）。
 
 
-### Making margin call
-### 进行追缴保证金通知
+### Making margin call 进行追缴保证金通知
 
 A **margin call** (also known as a Fed call, federal call, or Reg T call) is the broker-dealer’s demand for a customer to deposit money. For both long and short margin accounts, the margin call is:
 **追缴保证金通知 （margin call）**（也称为美联储追缴、联邦追缴或 Reg T 追缴）是经纪交易商要求客户存入资金。对于做多和做空融资账户，追缴保证金的金额为：
@@ -376,8 +356,7 @@ A **margin call** (also known as a Fed call, federal call, or Reg T call) is the
 ---
 
 
-## 8. Opening a margin account: The initial requirements
-## 8. 开设融资账户：初始要求
+## 8. Opening a margin account: The initial requirements 8. 开设融资账户：初始要求
 
 For an initial purchase in a margin account, customers must deposit a minimum of equity. Regulation T calls for a minimum of 50 percent, however, **FINRA and the NYSE** call for a minimum deposit of **$2,000** or for the customers to pay for the securities in full.
 对于融资账户的初始购买，客户必须存入最低限额的权益。T 条例要求最低 50%，然而，**FINRA 和 NYSE** 要求最低存入 **2,000 美元**，或者要求客户全额支付证券款项。
@@ -393,8 +372,7 @@ If an investor wants to open a **day trading account**, the initial margin requi
 如果投资者想开设**日内交易账户**，初始融资要求为 **25,000 美元**，且投资者必须维持至少 25,000 美元的权益。**惯性日内交易者 （pattern day trader）** 是指在连续五个交易日内，对同一证券进行至少四次日内交易的人。
 
 
-### Starting long accounts
-### 开始做多账户
+### Starting long accounts 开始做多账户
 
 To open a long margin account, the customer is required to deposit **Reg T (50%) or $2,000, whichever is greater**. If the purchase is less than $2,000, the customer pays in full.
 开设做多融资账户时，客户需要存入 **Reg T （50%） 或 2,000 美元，以较高者为准**。如果购买金额低于 2,000 美元，客户需全额支付。
@@ -411,8 +389,7 @@ In short, here’s how much an investor has to deposit for a **long** account:
 *   初始购买额 > $4,000：**Reg T （50%）**
 
 
-### Opening short accounts
-### 开设做空账户
+### Opening short accounts 开设做空账户
 
 The minimum deposit for short accounts is fairly easy to remember. The **$2,000 minimum** always applies, even if the customer is selling short only $300 worth of securities. In this case, the customer must deposit **50 percent or $2,000, whichever is greater**. Here is the breakdown:
 
@@ -427,8 +404,7 @@ The minimum deposit for short accounts is fairly easy to remember. The **$2,000 
 ---
 
 
-## 9. Obeying the Telephone Consumer Protection Act of 1991
-## 9. 遵守 1991 年《电话消费者保护法》
+## 9. Obeying the Telephone Consumer Protection Act of 1991 9. 遵守 1991 年《电话消费者保护法》
 
 To make sure that certain standards are used when calling potential customers, the **Telephone Act of 1991** was created. When you’re dealing with potential customers on the phone, you need to know these rules:
 为了确保在致电潜在客户时遵循某些标准，1991 年颁布了《**电话法**》。当您在电话中与潜在客户打交道时，需要了解以下规则：
@@ -446,115 +422,91 @@ The Telephone Act of 1991 **does not apply** to existing customers (those who ex
 ---
 
 
-## 10. Testing Your Knowledge
-## 10. 知识测试
+## 10. Testing Your Knowledge 10. 知识测试
 
 Practice questions
 
 1. AylDec Corporation would like to open a margin account at Guess Right Broker-Dealer. To open the account, Guess Right would need
    I. to fill out a new account form II. a copy of the corporate resolution from AylDec III. a copy of the corporate charter from AylDec IV. a signed copy of the margin agreement
    (A) II and IV (B) I and IV (C) I, II, and IV (D) I, II, III, and IV
-
 1. AylDec 公司想在 Guess Right 经纪交易商处开设融资账户。要开设该账户，Guess Right 需要：
    I. 填写新开户表 II. AylDec 的公司决议副本 III. AylDec 的公司章程副本 IV. 签署的融资协议副本
    (A) II 和 IV (B) I 和 IV (C) I, II 和 IV (D) I, II, III 和 IV
-
 2. In an initial transaction in a margin account, Alyssa Hudson purchases 100 shares of Hopeful Corporation common stock at $12 per share. How much must Alyssa deposit to meet the margin requirement?
    (A) $600 (B) $1,200 (C) $2,000 (D) Cannot be determined
-
 2. 在融资账户的初始交易中，Alyssa Hudson 以每股 12 美元的价格购买了 100 股 Hopeful 公司的普通股。Alyssa 必须存入多少钱才能满足融资要求？
    (A) $600 (B) $1,200 (C) $2,000 (D) 无法确定
-
 3. All of the following are true about UGMA accounts EXCEPT
    (A) parents of a minor can be joint custodians.
    (B) securities held in the account cannot be sold short or traded on margin.
    (C) gifts of securities to the minor are irrevocable.
    (D) they can't be held in street name.
-
 3. 关于 UGMA 账户，以下所有说法都是正确的，除了：
    (A) 未成年人的父母可以成为共同托管人。
    (B) 账户中持有的证券不能卖空或进行融资交易。
    (C) 赠与未成年人的证券是不可撤销的。
    (D) 它们不能以街名持有。
-
 4. Which of the following DOES NOT have to be included on a new account form?
    (A) The customer's signature
    (B) The registered representative's signature
    (C) The customer's marital status and number of dependents
    (D) The customer's bank references
-
 4. 新开户表上不强制要求包含以下哪项？
    (A) 客户的签名
    (B) 登记代表的签名
    (C) 客户的婚姻状况和受抚养人数量
    (D) 客户的银行资信证明
-
 5. According to the Telephone Act of 1991, which of the following is TRUE?
    (A) You may not make calls to potential customers before 8 a.m. or after 9 p.m.
    (B) You may not make calls to potential customers before 8 a.m. or after 9 p.m. local time of the customer.
    (C) You may not make calls to potential customers before 9 a.m. or after 8 p.m.
    (D) You may not make calls to potential customers before 9 a.m. or after 8 p.m. local time of the customer.
-
 5. 根据 1991 年《电话法》，以下哪项是正确的？
    (A) 您不得在上午 8 点之前或晚上 9 点之后给潜在客户打电话。
    (B) 您不得在客户当地时间上午 8 点之前或晚上 9 点之后给潜在客户打电话。
    (C) 您不得在上午 9 点之前或晚上 8 点之后给潜在客户打电话。
    (D) 您不得在客户当地时间上午 9 点之前或晚上 8 点之后给潜在客户打电话。
-
 6. Which of the following documents are required for an investor opening a margin account?
    I. A credit agreement II. A hypothecation agreement III. A loan consent form
    (A) I and II (B) I and III (C) II and III (D) I, II, and III
-
 6. 投资者开设融资账户需要以下哪些文件？
    I. 信贷协议 II. 质押协议 III. 借券同意书
    (A) I 和 II (B) I 和 III (C) II 和 III (D) I, II 和 III
-
 7. Which of the following are TRUE?
    I. If an investor of a joint tenants with rights of survivorship account dies, their portion of the account is transferred to their estate.
    II. If an investor of a joint tenants with rights of survivorship account dies, their portion of the account is transferred to the remaining account holder(s).
    III. If an investor of a joint tenants in common account dies, their portion of the account is transferred to their estate.
    IV. If an investor of a joint tenants in common account dies, their portion of the account is transferred to the remaining account holder(s).
    (A) II and IV (B) I and IV (C) II and III (D) II and IV
-
 7. 以下哪项是正确的？
    I. 如果联名生存者享有权账户的投资者死亡，其账户份额将转移至其遗产。
    II. 如果联名生存者享有权账户的投资者死亡，其账户份额将转移给剩余的账户持有人。
    III. 如果联名共有账户的投资者死亡，其账户份额将转移至其遗产。
    IV. 如果联名共有账户的投资者死亡，其账户份额将转移给剩余的账户持有人。
    (A) II 和 IV (B) I 和 IV (C) II 和 III (D) II 和 IV
-
 8. A customer opens a short margin account by selling short 200 shares of DIM common stock at $17 per share. What is the margin call?
    (A) $1,700 (B) $2,000 (C) $3,400 (D) Cannot be determined
-
 8. 客户通过以每股 17 美元的价格卖空 200 股 DIM 普通股来开设做空融资账户。追缴保证金是多少？
    (A) $1,700 (B) $2,000 (C) $3,400 (D) 无法确定
-
 9. To make proper recommendations to a client, you should know their
    I. age II. time horizon III. tax bracket IV. liquidity needs
    (A) I and IV (B) II and III (C) I, III, and IV (D) I, II, III, and IV
-
 9. 为了向客户做出恰当的推荐，您应该了解他们的：
    I. 年龄 II. 投资期限 III. 税率档次 IV. 流动性需求
    (A) I 和 IV (B) II 和 III (C) I, III 和 IV (D) I, II, III 和 IV
-
 10. The Patriot Act requires broker-dealers to identify their investors through
     (A) CIPs (B) DIMs (C) LLPs (D) All of the above
-
 10. 《爱国者法案》要求经纪交易商通过以下哪项来识别其投资者？
     (A) CIPs (B) DIMs (C) LLPs (D) 以上所有
-
 11. The tax ID of ___________ is required for the opening of an UTMA account.
     (A) both parents (B) at least one parent (C) the minor (D) the custodian
-
 11. 开设 UTMA 账户需要 ___________ 的税号。
     (A) 父母双方 (B) 至少一位家长 (C) 未成年人 (D) 托管人
-
 12. John Smith has a joint account with sisters Mirabelle and Elyse. If the account was set up as a joint with tenants in common, which of the following is true?
     (A) Since John and siblings are not married, they could not have set up an account as joint with tenants in common.
     (B) John and the two sisters must share equally in the assets of the account.
     (C) If any of the siblings die, that individual’s portion of the account is divided equally among the two remaining siblings.
     (D) Ownership of the decedent’s assets in the account are governed by their will (if any) or by the laws in the state in which they live.
-
 12. John Smith 与姐妹 Mirabelle 和 Elyse 拥有一个联名账户。如果该账户被设立为联名共有账户 (TIC)，以下哪项是正确的？
     (A) 由于 John 和姐妹们没有结婚，他们不能设立联名共有账户。
     (B) John 和这两位姐妹必须平均分享账户资产。
@@ -562,41 +514,29 @@ Practice questions
     (D) 死者在账户中的资产所有权受其遗嘱（如果有）或其居住州的法律管辖。
 
 
-### Answers and explanations
-### 答案与解释
+### Answers and explanations 答案与解释
 
 1.  **D.** For a corporate margin account, all four items are required: the new account form, the corporate resolution (authority to trade), the corporate charter (authority to use margin), and the margin agreement.
     **D.** 对于公司融资账户，所有四项都是必需的：新开户表、公司决议（交易授权）、公司章程（使用融资的授权）和融资协议。
-
 2.  **B.** Purchase is $1,200 (100 shares x $12). For an initial long margin purchase under $2,000, the customer must pay in full. Thus, Alyssa must deposit $1,200.
     **B.** 购买金额为 $1,200 (100 股 x $12)。对于低于 $2,000 的初始做多融资购买，客户必须全额支付。因此，Alyssa 必须存入 $1,200。
-
 3.  **A.** There can only be one minor and one custodian per UGMA account. Parents cannot be joint custodians.
     **A.** 每个 UGMA 账户只能有一名未成年人和一名托管人。父母不能成为共同托管人。
-
 4.  **A.** Surprisingly, the customer's signature is NOT required on a basic new account form (it is required for margin and options, but not for the form itself). The rep's and principal's signatures are required.
     **A.** 令人惊讶的是，基本的新开户表不需要客户的签名（融资和期权账户需要，但开户表本身不需要）。需要代表和主管的签名。
-
 5.  **B.** Cold calls are restricted to between 8 a.m. and 9 p.m. in the **customer's local time zone**.
     **B.** 推销电话限制在**客户当地时区**的上午 8 点至晚上 9 点之间。
-
 6.  **D.** The credit agreement, hypothecation agreement, and loan consent form are all part of the margin agreement.
     **D.** 信贷协议、质押协议和借券同意书都是融资协议的一部分。
-
 7.  **C.** JTWROS passes to survivor (II). JTIC passes to estate (III). So II and III.
     **C.** JTWROS 转移给生存者 (II)。JTIC 转移至遗产 (III)。因此选 II 和 III。
-
 8.  **B.** Short sale proceeds = $3,400 (200 * $17). Reg T = 50% = $1,700. Minimum maintenance/initial for short is greater of $2,000 or Reg T. Since $1,700 < $2,000, margin call is $2,000.
     **B.** 卖空所得 = $3,400 (200 * $17)。Reg T = 50% = $1,700。做空的最低维持/初始保证金为 $2,000 或 Reg T 中的较大者。由于 $1,700 < $2,000，因此追缴保证金为 $2,000。
-
 9.  **D.** All factors listed (age, time horizon, tax bracket, liquidity needs) are important for suitable recommendations.
     **D.** 列出的所有因素（年龄、投资期限、税率档次、流动性需求）对于做出合适的推荐都很重要。
-
 10. **A.** CIPs (Customer Identification Programs) are required by the Patriot Act.
     **A.** 《爱国者法案》要求执行 CIPs（客户识别程序）。
-
 11. **C.** UTMA accounts are for the minor's benefit and use the minor's Tax ID (SSN).
     **C.** UTMA 账户是为了未成年人的利益，使用未成年人的税号 (SSN)。
-
 12. **D.** In a Tenants in Common (TIC) account, the decedent's share goes to their estate (governed by will/law), not to the survivors.
     **D.** 在联名共有 (TIC) 账户中，死者的份额归入其遗产（受遗嘱/法律管辖），而不是归生存者所有。

@@ -1,5 +1,4 @@
-# Chapter 13: Securities Analysis: Doing a Little Market Research
-# 第 13 章：证券分析：进行一点市场研究
+# Chapter 13: Securities Analysis: Doing a Little Market Research 第 13 章：证券分析：进行一点市场研究
 
 In terms of choosing securities, throwing darts at a list of stocks seems to have fallen out of favor. So has drawing company names out of a hat. But, hey, no problem. Your psychic powers may not be the most reliable, but you still have tons of tools that can help you get a good idea of where the market’s heading and how certain securities may perform.
 在选择证券方面，对着股票名单掷飞镖似乎已经过时了。从帽子里抓阄决定公司名称也是如此。但是，嘿，没问题。您的通灵能力可能不太靠谱，但您仍有大量的工具可以帮助您很好地了解市场的走向以及某些证券的表现。
@@ -10,22 +9,19 @@ One of your main jobs as a registered representative is to figure out the best i
 ---
 
 
-## 1. Getting to Know Your Securities and Markets: Securities Analysis Basics
-## 1. 了解您的证券与市场：证券分析基础
+## 1. Getting to Know Your Securities and Markets: Securities Analysis Basics 1. 了解您的证券与市场：证券分析基础
 
 Although many brokerage firms have their own analysts, you do need to know some of the basics of securities analysis to pass the SIE and corequisite exams. In this section, I cover investment risks that your customers face and show you the differences between technical and fundamental analysis.
 虽然许多经纪公司都有自己的分析师，但您确实需要了解一些证券分析的基础知识，才能通过 SIE 及相关进阶考试。在本节中，我将涵盖您的客户面临的投资风险，并向您展示技术面分析和基本面分析之间的区别。
 
 
-### Regarding systematic and nonsystematic risk
-### 关于系统性风险与非系统性风险
+### Regarding systematic and nonsystematic risk 关于系统性风险与非系统性风险
 
 Investors face many risks (and many rewards) when investing in the market. You need to understand the risks because this knowledge cannot only make you sound like a genius, but also help you score higher on the SIE exam.
 投资者在市场投资时面临许多风险（以及许多回报）。您需要理解这些风险，因为这些知识不仅能让您听起来像个天才，还能帮助您在 SIE 考试中获得更高的分数。
 
 
-#### Systematic risk
-#### 系统性风险 (Systematic risk)
+#### Systematic risk 系统性风险 (Systematic risk)
 
 **Systematic (undiversifiable or market) risk** is the risk that securities can decline due to political, social, or economic factors — changes in the economy, natural disasters, government policy, and so on. Systematic risk is a risk that could affect the **whole market**. Systematic risks include:
 **系统性风险 (Systematic risk)**
@@ -41,8 +37,7 @@ Investors face many risks (and many rewards) when investing in the market. You n
 *   **购买力风险 （通胀风险）**：投资回报率低于通货膨胀率的风险。长期债券（甚至是国债）和固定年金具有较高的通胀风险。**为了规避通胀风险，投资者应购买股票和变动年金。**
 
 
-#### Nonsystematic risk
-#### 非系统性风险 (Nonsystematic risk)
+#### Nonsystematic risk 非系统性风险 (Nonsystematic risk)
 
 **Nonsystematic (unsystematic, unique, or diversifiable) risk** is more industry- or firm-specific. The good news is that this type of risk can be **eliminated through diversification**. You’ve probably heard the expression “Don’t put all your eggs in one basket.” Well, the same holds true for investing.
 **非系统性风险 (Nonsystematic risk)**
@@ -77,15 +72,13 @@ When taking the real exam, you should always pay close attention to the investor
 ---
 
 
-## 2. Strategies for mitigating risk
-## 2. 规避风险的策略
+## 2. Strategies for mitigating risk 2. 规避风险的策略
 
 Certainly, all investments have a certain degree of risk. However, you should help your clients make decisions that will help them mitigate their risk.
 诚然，所有投资都具有一定程度的风险。然而，您应该帮助客户做出能够降低风险的决策。
 
 
-### Diversification
-### 多样化 (Diversification)
+### Diversification 多样化 (Diversification)
 
 Consider again the customer who has everything invested in one company's common stock. If that company loses a big contract, the customer could be wiped out. This is the reason that having a **diversified portfolio** is so important. There are many ways to diversify, including:
 再想一想那个把所有钱都投在一家公司普通股上的客户。如果那家公司失去了一份大合同，客户可能会倾家荡产。这就是拥有**多样化投资组合**如此重要的原因。多样化的方式有很多，包括：
@@ -107,8 +100,7 @@ Remember that **mutual funds** and **exchange traded funds (ETFs)** provide a ce
 请记住，**共同基金**和**交易所交易基金 （ETFs）** 在单个持仓内就提供了一定程度的多样化。这就是为什么小额投资者是共同基金的理想人选。
 
 
-### Portfolio rebalancing
-### 投资组合再平衡
+### Portfolio rebalancing 投资组合再平衡
 
 Say that you and one of your clients determine that it is best for them to have a portfolio of 50 percent equity and 50 percent debt. One year later, due to appreciation, your client has 60 percent in equity and 40 percent in debt. At that point, your client may decide to **rebalance** their portfolio by selling some equity and purchasing more debt to help maintain their original desired level of asset allocation.
 假设您和您的一位客户确定 50% 权益类证券和 50% 债务类证券的组合对他们最有利。一年后，由于增值，您的客户持有的权益类占比达到 60%，债务类降至 40%。此时，您的客户可能会决定通过卖出部分权益类资产并买入更多债务类资产来对其投资组合进行**再平衡 （rebalance）**，从而恢复最初设定的资产配置比例。
@@ -119,8 +111,7 @@ Typically, as investors age, they can’t afford to take as much risk and should
 通常，随着投资者年龄的增长，他们无法承担太大的风险，应该改变其资产配置，减少权益类证券，增加债务类证券。
 
 
-### Hedging
-### 对冲 (Hedging)
+### Hedging 对冲 (Hedging)
 
 I’m sure you’ve heard the saying “Hedge your bets.” It means that you are trying to reduce your risk. In the investors’ world, there are several ways to hedge, depending on what you’re investing in.
 我肯定您听过“两头下注 （Hedge your bets）”这句话。它的意思是您正在努力降低风险。在投资界，对冲的方式有很多种，取决于您投资的对象。
@@ -141,8 +132,7 @@ For SIE exam purposes, the main thing you need to remember is that **hedge means
 ---
 
 
-## 3. Deciding what to buy: Fundamental analysis
-## 3. 决定买什么：基本面分析
+## 3. Deciding what to buy: Fundamental analysis 3. 决定买什么：基本面分析
 
 Fundamental analysts perform an in-depth analysis of companies. They look at the management of a company and its **financial condition** (balance sheets, income statements, the industry, earnings, and so on) and compare with other companies in the same industry.
 基本面分析师对公司进行深入分析。他们观察公司的管理层及其**财务状况**（资产负债表、损益表、行业地位、盈利情况等），并与同行业的其他公司进行比较。
@@ -153,8 +143,7 @@ In simplest terms, **fundamental analysts decide what to buy**. A fundamental an
 最简单来说，**基本面分析师决定“买什么”**。基本面分析师的目标是确定特定证券的**价值**，并判断其价格是被低估还是被高估了。
 
 
-### Balance sheet components
-### 资产负债表的组成部分
+### Balance sheet components 资产负债表的组成部分
 
 The balance sheet provides an image of a company’s financial position at a given point in time. Understanding how a balance sheet works is more important than being able to name all the components.
 资产负债表展示了公司在特定时间点的财务状况。理解资产负债表的运作原理，比能够叫出所有组成部分的名称更重要。
@@ -187,21 +176,20 @@ Liabilities are what a company owes. They include:
 *   长期负债：在 12 个月后支付的债务，如抵押贷款和未偿还的公司债券。
 
 
-#### Stockholders’ equity (net worth)
-#### 股东权益（净值）
+#### Stockholders’ equity (net worth) 股东权益（净值）
 
 Stockholders’ equity is the difference between the assets and the liabilities (basically, what the company is worth). This value includes **par value**, **additional paid-in capital**, **treasury stock**, and **retained earnings**.
 股东权益是资产与负债之间的差额（基本上代表了公司的价值）。该数值包括**面值**、**资本公积**、**库存股**和**留存收益**。
 
 
-### Income statement components
-### 损益表的组成部分
+### Income statement components 损益表的组成部分
 
 An income statement tells you how profitable a company is currently. It lists a corporation’s expenses and revenue for a specific period of time.
 损益表告诉您公司目前的盈利能力。它列出了公司在特定时间段内的支出和收入。
 
 Key items include:
 关键项目包括：
+
 *   **Net sales** 
 *   净销售额
 *   **EBITDA** 
@@ -212,8 +200,7 @@ Key items include:
 ---
 
 
-## 4. Deciding when to buy: Technical analysis
-## 4. 决定何时买：技术面分析
+## 4. Deciding when to buy: Technical analysis 4. 决定何时买：技术面分析
 
 Technical analysts look at the market to identify **patterns** and measure indicators in an attempt to predict whether the market will become or remain bullish or bearish. They believe that history tends to repeat itself and that past performance indicates future performance.
 技术面分析师观察市场以识别**模式**并衡量指标，试图预测市场将变得或保持牛市还是熊市。他们相信历史往往会重演，且过去的表现预示着未来的表现。
@@ -225,8 +212,7 @@ Technical analysts look at the market to identify **patterns** and measure indic
 *即择时）。**
 
 
-### Benchmarks and indices
-### 基准与指数
+### Benchmarks and indices 基准与指数
 
 Benchmarks are typically used to evaluate the performance of individual investments.
 基准通常用于评估个人投资的表现。
@@ -246,8 +232,7 @@ Most of the indices are **weighted toward larger companies**. This means that pr
 ---
 
 
-## 5. Stages of the business cycle
-## 5. 经济周期的阶段
+## 5. Stages of the business cycle 5. 经济周期的阶段
 
 The business cycle has four phases that occur over and over:
 经济周期有四个循环往复的阶段：
@@ -260,8 +245,7 @@ The business cycle has four phases that occur over and over:
 ---
 
 
-## 6. Following the Green: Money Supply and Monetary Policy
-## 6. 顺势而为：货币供应与货币政策
+## 6. Following the Green: Money Supply and Monetary Policy 6. 顺势而为：货币供应与货币政策
 
 The money supply heavily affects the market. The Federal Reserve Board (**the Fed**) tries to do a balancing act to help the economy grow at a slow and steady rate.
 货币供应量极大地影响着市场。联邦储备委员会（**美联储**）努力通过平衡操作，帮助经济以缓慢而稳定的速度增长。
@@ -276,8 +260,7 @@ The Fed controls the **monetary policy**, but the **fiscal policy** is controlle
 *   **财政政策** = 借贷、支出、税收
 
 
-### Opening the Federal Reserve Board’s toolbox
-### 打开美联储的工具箱
+### Opening the Federal Reserve Board’s toolbox 打开美联储的工具箱
 
 The Fed has a few tools in its arsenal to help control the money supply:
 美联储的军火库中有几种工具可以帮助控制货币供应量：
@@ -292,8 +275,7 @@ The Fed has a few tools in its arsenal to help control the money supply:
 *   **Regulation T**: The percentage that investors must pay when purchasing securities on margin (currently 50%). (T 条例:投资者融资购买证券时必须支付的比例，目前为 50%）。
 
 
-### Exchange rates
-### 汇率
+### Exchange rates 汇率
 
 Exchange rates are the rates at which one currency can be converted to another. Exchange rates are constantly changing. Some investors even speculate in foreign currencies.
 汇率是一种货币转换为另一种货币的比率。汇率是不断变化的。一些投资者甚至对外币进行投机。
@@ -304,8 +286,7 @@ Exchange rates are the rates at which one currency can be converted to another. 
 *   汇率被认为是**浮动汇率**，因为它是不断变化的。
 
 
-### U.S. balance of payments
-### 美国国际收支 (U.S. balance of payments)
+### U.S. balance of payments 美国国际收支 (U.S. balance of payments)
 
 The **U.S. balance of payments (BoP)** is an accounting of the United States’ economic transactions with the world over a given period of time.
 **美国国际收支 (BoP)** 是对美国在特定时期内与世界进行的经济交易的核算。
@@ -318,8 +299,7 @@ The **U.S. balance of payments (BoP)** is an accounting of the United States’ 
 ---
 
 
-## 7. Reading Economic Indicators
-## 7. 解读经济指标
+## 7. Reading Economic Indicators 7. 解读经济指标
 
 Economic indicators help predict the direction of the economy:
 经济指标有助于预测经济走向：
@@ -335,8 +315,7 @@ Economic indicators help predict the direction of the economy:
 *   如**优惠贷款利率**、公司利润、就业时长）。
 
 
-### GDP and GNP: Measuring goods and services
-### GDP 与 GNP：衡量商品与服务
+### GDP and GNP: Measuring goods and services GDP 与 GNP：衡量商品与服务
 
 *   **Gross Domestic Product (GDP)**: The total of all goods produced and all services provided **by the United States** (within U.S. borders) in a one-year period.
 *   **国内生产总值 (GDP)**：**美国境内**（美国国界内）在一年内生产的所有商品和提供的所有服务的总和。
@@ -351,8 +330,7 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 ---
 
 
-## 8. How Economic Factors Affect Securities
-## 8. 经济因素如何影响证券
+## 8. How Economic Factors Affect Securities 8. 经济因素如何影响证券
 
 *   **Cyclical**: Performance depends on the economy 
 *   e.g., automobiles, construction, manufacturing). (周期性:表现依赖于经济状况
@@ -366,8 +344,7 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 ---
 
 
-## 9. Your Principal Economic Theory Primer
-## 9. 主要经济理论入门
+## 9. Your Principal Economic Theory Primer 9. 主要经济理论入门
 
 *   **Keynesian demand side)**: Government intervention through fiscal policy helps stimulate demand. (凯恩斯主义
 *   需求侧）：通过财政政策进行的政府干预有助于刺激需求。
@@ -380,44 +357,34 @@ GDP 和 GNP 均以**不变价格/恒定美元**（计入通货膨胀因素）衡
 ---
 
 
-## 10. Testing Your Knowledge
-## 10. 知识测试
+## 10. Testing Your Knowledge 10. 知识测试
 
 Practice questions (Original English Only)
 
 1. Which of the following are defensive industries?
    I. Utilities II. Tourism III. Household appliances IV. Food
    (A) I and IV (B) II, III, and IV (C) II and III (D) I, II, III, and IV
-
 2. All of the following are examined by a fundamental analyst EXCEPT
    (A) earnings per share (B) balance sheets (C) the industry (D) timing
-
 3. All of the following are bearish positions EXCEPT
    (A) buying inverse ETFs (B) selling uncovered call options (C) selling short (D) selling naked put options
-
 4. Which of the following best describes the discount rate?
    (A) The interest rate that banks charge one another for overnight loans
    (B) The interest rate that the banks charge their best customers for loans
    (C) The interest rate that the Fed charges banks for loans
    (D) The interest rates charged in margin accounts
-
 5. Melissa wants to invest in a retirement plan that protects against purchasing power risk. Which of the following would be the most suitable investment?
    (A) Municipal bonds (B) Common stock (C) Variable annuities (D) Fixed annuities
-
 6. Looking at the stages of the business cycle, if the economy is expanding, what stages would you expect to follow, in order from first to last?
    I. Trough II. Peak III. Contraction
    (A) I, II, III (B) II, III, I (C) III, II, I (D) I, III, II
-
 7. Which TWO of the following actions may the Fed take to ease the money supply?
    I. Purchase T-bills II. Sell T-bills III. Increase reserve requirements IV. Decrease reserve requirements
    (A) I and III (B) I and IV (C) II and III (D) II and IV
-
 8. All of the following are leading indicators EXCEPT
    (A) the prime rate (B) M2 money supply (C) the discount rate (D) stock prices
-
 9. Which of the following is measured in constant dollars?
    (A) The Fed funds rate (B) The M2 money supply (C) The prime rate (D) GDP
-
 10. Proponents of the Dow Theory look at
     (A) the Dow Jones Composite Average and the DJIA
     (B) the Dow Jones Utility Average and the Dow Jones Transportation Average
@@ -425,8 +392,7 @@ Practice questions (Original English Only)
     (D) the Dow Jones Composite Average and the Dow Jones Utility Average
 
 
-### Answers and explanations
-### Answers And Explanations [需要翻译]
+### Answers and explanations Answers And Explanations [需要翻译]
 
 1.  **A.** Utilities and food are defensive because people need them regardless of the economy. Tourism and appliances are cyclical.
 2.  **D.** Fundamental analysis is about "what to buy" (value). Technical analysis is about "when to buy" (timing).
