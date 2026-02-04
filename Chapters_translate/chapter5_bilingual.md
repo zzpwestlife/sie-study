@@ -1,5 +1,36 @@
+# Part 2: Starting at the Beginning: Basic Security Investments
+# 第 2 部分：从头开始：基础证券投资
+
+---
+
+## IN THIS PART . . .
+## 在本部分中 . . .
+
+**Get familiar with basic securities — stocks and bonds, including municipal securities — that form the foundation of an investor’s portfolio.**
+**熟悉基础证券——股票和债券，包括市政证券——它们构成了投资者投资组合的基础。**
+
+**Review the registration procedure that securities go through before they can be sold to the public and find out which securities are exempt from registration.**
+**回顾证券在向公众出售之前所经历的注册程序，并了解哪些证券免于注册。**
+
+**Distinguish common stock from preferred stock, corporate bonds from U.S. bonds, and municipal bonds from general obligation bonds.**
+**区分普通股与优先股、公司债券与美国债券以及市政债券与一般责任债券。**
+
+---
+
 # Chapter 5: Securities Underwriting: The Process and the Team Players
 # 第 5 章：证券承销：流程与团队成员
+
+**IN THIS CHAPTER**
+**在本章中**
+
+*   **Understanding the specifics of registering securities**
+    **了解注册证券的详情**
+*   **Knowing the types of offerings**
+    **了解发行类型**
+*   **Spotting exempt securities**
+    **识别豁免证券**
+*   **Testing what you know**
+    **测试您的所学**
 
 ---
 
@@ -90,9 +121,9 @@ Most of the information required is very similar; in fact, you can substitute mu
 所需的大部分信息都非常相似；事实上，您可以将“公司（company/corporation）”替换为“市（municipality）”。您需要知道借款政府或部门的名称、筹资用途、新证券发行后的长期债务（Funded Debt）金额和短期债务（Unfunded Debt）金额、发行人在过去20年内是否发生过债务违约、所有相关人员的姓名（即律师、承销商等）、支付给承销商的佣金、与承销商签订的协议副本、律师就发行的合法性及可能的免税性质出具的法律意见书等。
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 Because the registration process to sell securities is a somewhat daunting and costly process for issuers, they may register more securities than they may need to sell now. Shelf registration (SEC Rule 415) allows issuers to sell securities that were previously registered with the SEC without additional permission. Shelf registration gives issuers up to three years (depending on their status) to sell previously registered shares.
-🧠 **请记住**
 由于销售证券的注册过程对发行人来说是一个有些艰巨且成本高昂的过程，他们可能会注册比现在需要销售的更多的证券。暂搁注册（SEC 415号规则）允许发行人在没有额外许可的情况下，出售先前已在SEC注册的证券。暂搁注册给予发行人长达三年的时间（取决于其地位）来出售先前注册的股份。
 
 ### Awaiting approval: The cooling-off period
@@ -105,18 +136,18 @@ In the event that the registration statement must be amended or additional infor
 如果注册说明书必须修改或需要额外信息，SEC会发出“缺陷函（deficiency letter）”，并停止注册过程，直到收到所需信息。如果SEC发现注册说明书具有误导性（因为发行人包含了关于重大事实的虚假陈述或遗漏了重大事实），它会发布“停止令（stop order）”（即缺陷函），中止注册说明书的效力。此时，发行人需要修改注册说明书并回答委员会提出的任何问题，以继续注册流程。
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 Neither the SEC nor any self-regulatory organization approves an issue. The SEC only clears the issue for sale. Also, the SEC is not responsible for making sure that the information included on the registration statement is complete, true, or accurate. As a matter of fact, it's unlawful to represent that the SEC approved of an issue or issuer (known as the No Approval Clause).
-🧠 **请记住**
 SEC或任何自律组织都不会“批准”发行。SEC只是“核准”其销售。此外，SEC也不负责确保注册说明书上包含的信息是完整、真实或准确的。事实上，声称SEC批准了某项发行或发行人是违法的（这被称为“不批准条款（No Approval Clause）”）。
 
 During the cooling-off period, the underwriter(s) can obtain indications of interest from investors who may want to purchase the issue. Agents scramble to get indications of interest from prospective purchasers of the securities.
 在冷却期内，承销商可以从可能想要购买该发行证券的投资者那里获得“投资意向（indications of interest, IOI）”。代理人会努力从潜在的证券购买者那里获取投资意向。
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 Indications of interest aren't binding on customers or underwriters. Customers always have the prerogative to change their minds, and underwriters may not have enough shares available to meet every prospective buyer's needs.
-🧠 **请记住**
 投资意向对客户或承销商均不具约束力。客户始终拥有改变主意的权利，承销商也可能没有足够的股份来满足每个潜在买家的需求。
 
 A tombstone advertisement — a newspaper ad that's shaped like . . . well, a tombstone (typically, rectangular with black borders) — is an announcement (but not an offer) of a new security for sale. It's the only advertisement allowed during the cooling-off period. These ads aren't required and don't have to be filed with the SEC. Tombstone ads contain a simple statement of facts about the new issue (the name of the issuer, type of security, number of shares or bonds available, underwriter's name, and so on).
@@ -135,9 +166,9 @@ Toward the end of the cooling-off period, the lead underwriter holds a due-dilig
 在冷却期即将结束时，主承销商会举行一次尽职调查会议。这是法律要求的。在会议期间，承销商提供有关发行的信息，以及发行人将如何使用销售所得。该会议旨在向承销团成员（承销小组或承销台）、销售小组、经纪人、分析师、机构等提供此类信息，并允许他们提问。
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 The last time syndicate members can back out of an underwriting agreement is toward the end of the cooling-off period (around the time of the due-diligence meeting). You can assume that if syndicate members are backing out, the reason is most likely negative market conditions.
-🧠 **请记住**
 承销团成员最后一次可以退出承销协议的时间是在冷却期结束前（大约在尽职调查会议举行前后）。您可以假设，如果承销团成员退出，其原因极有可能是负面的市场状况。
 
 ---
@@ -220,9 +251,9 @@ You should be aware that if securities are sold on a best-efforts basis, purchas
 您应该意识到，如果证券是以代销方式销售的，购买者和潜在购买者必须被告知发行可能会被取消。购买者的资金被保存在一个“代管账户（escrow account）”中，直到满足条款或交易取消。当售出指定数量看证券时，承销商将证券释放给购买者。如果承销商在截止日期前没有售出足够的证券，购买者将拿回他们的钱。
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 According to FINRA, "A member, in the conduct of its business, shall observe high standards of commercial honor and just and equitable principles of trade." So regardless of whether the securities offered during an IPO are sold on a firm commitment or best-efforts underwriting, it must be a bona fide offering of the securities at the public offering price. Firms can't hold back securities for themselves, associates, immediate family members, industry insiders, portfolio managers, and so on.
-🧠 **请记住**
 根据FINRA的规定：“会员在开展业务时，应遵守高标准的商业信誉以及公正公平的贸易原则。”因此，无论IPO期间发行的证券是全额包销还是代销，都必须以公开发售价对证券进行“真实发行（bona fide offering）”。公司不能为自己、关联人、直系亲属、行业内幕人士、投资组合经理等保留证券。
 
 ---
@@ -234,9 +265,9 @@ The issuer prepares a preliminary prospectus (sometimes with the help of the und
 发行人准备一份“初步招股说明书”（有时在承销商的帮助下），并随注册说明书一起提交。在向SEC注册期间（冷却期内），初步招股说明书必须提供给潜在购买者。初步招股说明书是简略的，但它包含了关于发行人和发行的所有基本事实，除了最终公开发售价（POP）和生效日期（首次销售证券的日期）。（在注册生效之前，经纪交易商不得接受新发行的付款。）
 
 🧠 **REMEMBER**
+🧠 **请记住**
 
 A preliminary prospectus is sometimes called a red herring, not because it smells fishy (or is totally misleading and irrelevant), but because a statement in red letters on the cover of the preliminary prospectus declares that it's not the final version and that some items may change in the meantime. The statement is often in the margin and elsewhere.
-🧠 **请记住**
 初步招股说明书有时被称为“红鲱鱼（red herring）”，并不是因为它闻起来有鱼腥味（或者是完全误导和无关的），而是因为初步招股说明书封面上的红色字母声明指出这不是最终版本，在此期间某些项目可能会发生变化。该声明通常出现在页边空白处或其他地方。
 
 The final prospectus, which is prepared toward the end of the cooling-off period, is a legal document that the issuer prepares, containing material information about the issuer and new issue of securities. The final prospectus has to be available to all potential purchasers of the issue. It includes
@@ -267,9 +298,9 @@ When a company issues securities that are traded in the market, someone has to b
 * **过户代理人：** 过户代理人是维护公司股票和债券所有者记录的人员或机构（很像登记代理人），但也负责注销和发行证券证书以及分发股息。
 
 💡 **TIP**
+💡 **提示**
 
 An easy way to keep these folks straight is to remember that a registrar is responsible for counting things, and a transfer agent is responsible for transferring or sending things.
-💡 **提示**
 区分这两者的一个简单方法是：记住“登记代理人（registrar）”负责“计数（计数/统计）”，“过户代理人（transfer agent）”负责“过户”或发送东西。
 
 ---
@@ -504,6 +535,31 @@ This chapter covers what you need to know about underwriting securities (at leas
     (A) 20 days (20天)
     (B) 30 days (30天)
     (C) 45 days (45天)
+    (D) 90 days (90天)
+
+9. At what point is a broker-dealer allowed to accept payment for a new issue?
+9. 经纪交易商在什么时候被允许接受新发行证券的付款？
+
+    (A) After the customer has received the red herring
+    (A) 在客户收到红鲱鱼（初步招股说明书）之后
+    (B) Once the registration is effective
+    (B) 一旦注册生效
+    (C) During the cooling off period
+    (C) 在冷却期内
+    (D) As soon as the registration statement has been filed
+    (D) 注册说明书一经归档
+
+10. All of the following securities are exempt from registration under the Securities Act of 1933 EXCEPT
+10. 以下所有证券均根据 1933 年证券法免于注册，除了：
+
+    (A) Treasury bonds
+    (A) 长期国债
+    (B) general obligation bonds
+    (B) 一般责任债券
+    (C) Eurodollar bonds
+    (C) 欧洲美元债券
+    (D) ADRs
+    (D) 美国存托凭证（ADRs）
 
 ### Answers and explanations
 ### 答案与解析
@@ -511,155 +567,29 @@ This chapter covers what you need to know about underwriting securities (at leas
 1.  **A.** In a firm commitment underwriting, the underwriter(s) become the owner of any unsold securities. In a best efforts underwriting (all-or-none or mini-max), the issuer has to return the investors' money if the securities aren't sold.
     **A.** 在全额包销（firm commitment）中，承销商成为任何未售出证券的所有者。在代销（best efforts）（全额或取消或最小-最大）中，如果证券未售出，发行人必须退还投资者的资金。
 
-2.  **A.** Exempt transactions include private placements (Reg D), intrastate offerings (Rule 147), and Regulation A offerings. Securities issued by the U.S. government and commercial paper are exempt securities, not exempt transactions.
-    **A.** 豁免交易包括私募（Reg D）、州内发行（Rule 147）和A条例发行。美国政府发行的证券和商业票据是豁免证券，不是豁免交易。
+2.  **D.** This one is tricky, because all the transactions are exempt. Regulation D private placements and intrastate offerings are exempt based on the type of transactions. But securities issued by the U.S. government and commercial paper are exempt based on the type of security.
+    **D.** 这一题比较棘手，因为所有选项都属于豁免范畴。D 条例私募和州内发行是基于“交易类型”获得豁免的。而美国政府发行的证券和商业票据则是基于“证券类型”获得豁免的。
 
 3.  **C.** Under Rule 144, an insider can sell the greater of 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks. 1 percent of the outstanding shares is 42,000 (4,200,000 × 0.01). The average weekly trading volume for the previous four weeks (don't include the week of March 3) is 43,000 ([50,000 + 38,000 + 44,000 + 40,000] / 4). Because 43,000 is greater than 42,000, the insider can sell 43,000 shares.
     **C.** 根据144号规则，内部人士可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准。已发行股份的1%是42,000（4,200,000 × 0.01）。过去四周的平均周交易量（不包括3月3日那一周）是43,000（[50,000 + 38,000 + 44,000 + 40,000] / 4）。因为43,000大于42,000，所以内部人士可以出售43,000股。
 
-4.  **D.** For an IPO that will not be listed on an exchange or Nasdaq, the final prospectus must be available for 90 days after the effective date.
-    **D.** 对于不会在交易所或纳斯达克上市的IPO，最终招股说明书必须在生效日期后的90天内提供。
+4.  **D.** For IPOs, a final prospectus must be available to all purchasers for 90 days after the effective date.
+    **D.** 对于未在交易所或纳斯达克上市的IPO，最终招股说明书必须在生效日期后的90天内提供。
 
-5.  **B.** The preliminary prospectus includes everything the final prospectus does except the final offering price and the effective date.
-    **B.** 初步招股说明书包括最终招股说明书的所有内容，除了最终发行价格和生效日期。
+5.  **B.** All the choices would be in the preliminary prospectus (red herring) except the final offering price. The offering price at this point hasn't been determined. The offering price, the underwriting spread, and the delivery date would be included in the final prospectus.
+    **B.** 初步招股说明书（红鲱鱼）包括最终招股说明书的所有内容，除了最终发行价格。此时发行价格尚未确定。最终发行价格、承销差价和交付日期将包含在最终招股说明书中。
 
-6.  **A.** The Securities Act of 1933 regulates new issues of corporate securities. The Securities Exchange Act of 1934 regulates the secondary market (trading of securities). The Trust Indenture Act regulates corporate bond offerings.
-    **A.** 1933年证券法监管公司证券的新发行。1934年证券交易法监管二级市场（证券交易）。信托契约法监管公司债券发行。
+6.  **A.** The Securities Act of 1933 (Truth in Securities Act, Paper Act, Full Disclosure Act, Prospectus Act, or New Issues Act) regulates new issues of corporate stocks and bonds. Included in the act are rules to prevent fraud and deception, as well as rules about the issuer's providing information about itself and the securities being offered.
+    **A.** 1933年证券法（证券真相法、纸面法、全面披露法、招股说明书或新发行法）监管公司股票和债券的新发行。该法案包括防止欺诈和欺骗的规则，以及关于发行人提供有关其自身和所提供证券的信息的规则。
 
-7.  **D.** Tombstone ads are very limited in what they can contain. However, the number of shares to be sold, the issuer's name, and the underwriters' names are all allowed.
-    **D.** 墓碑广告在内容上受到很大限制。然而，拟出售的股票数量、发行人名称和承销商名称都是允许的。
+7.  **D.** Tombstone advertisements may include the name of the issuer, the type of security being offered, the offering price (or approximate offering price), the names of the underwriters, and the number of securities being offered.
+    **D.** 墓碑广告可以包含发行人的名称、所发行证券的类型、发行价格（或大约发行价格）、承销商的名称以及所发行证券的数量。
 
-8.  **A.** The cooling-off period is a minimum of 20 days.
-    **A.** 冷却期至少为20天。
+8.  **A.** The cooling-off period is when an issuer files a registration statement with the SEC. During this time, the SEC reviews the registration statement to see whether it needs to be amended or additional information is needed. It typically takes 20 days for the SEC to review the registration statement. This period is sometimes referred to as the 20-day cooling-off period.
+    **A.** 冷却期是发行人向SEC提交注册说明书的时期。在此期间，SEC审查注册说明书，看是否需要修改或需要额外信息。SEC审查注册说明书通常需要20天。这一时期有时被称为20天冷却期。
 
-In the event that a member is acting as a dealer or has some other financial interest in recommending a security other than the commission received from the buyer, that fact must be disclosed in writing to the client at or before the completion of the transaction. So, in that regard, all buyers must be notified in writing if your firm is involved in a primary or secondary distribution of securities.
-如果会员作为交易商（自营商）行事，或在推荐证券时除了从买方收取的佣金外还有其他经济利益，则必须在交易完成时或之前以书面形式向客户披露这一事实。因此，在这方面，如果您的公司参与了证券的一级或二级分销，必须书面通知所有买家。
+9. **B. After the registration is effective (the effective date), the broker-dealer is allowed to accept payments for the new issue.**
+9. **B。在注册生效（生效日期）后，经纪交易商被允许接受新发行的付款。**
 
-### Table 5-1 Types of Securities Offerings
-### 表 5-1 证券发行类型
-
-| Type 类型 | Description: Who Benefits 描述：谁受益 |
-| :--- | :--- |
-| **Initial public offering (IPO)**<br>**首次公开募股** | The first time an issuer sells stock to the public to raise capital; issuers usually hold back some stock for future primary offerings.<br>发行人首次向公众出售股票以筹集资金；发行人通常会保留一些股票用于未来的初级发行。<br><br>**Who Benefits:** The bulk of the moolah raised goes to the issuer, and the rest goes to the underwriters.<br>**谁受益：** 筹集的大部分资金归发行人所有，其余归承销商所有。 |
-| **Primary offering**<br>**初级发行（增发）** | An offering of new securities from a new issuer or an issuer that has previously issued securities; a company can have an initial public offering and several primary offerings if it wants to.<br>新发行人或之前已发行过证券的发行人发行新证券；如果愿意，一家公司可以进行一次IPO和多次初级发行。<br><br>**Who Benefits:** The proceeds of sale go to the issuer and underwriters.<br>**谁受益：** 销售收益归发行人和承销商所有。 |
-| **Secondary offering**<br>**二级发行** | A sale of a large block of outstanding (stockholder-owned) securities or previously outstanding securities (Treasury stock, or stock the issuer has repurchased). Typically, one or more major stockholders of a corporation make the secondary offerings; new investors are essentially buying used, so the number of shares outstanding doesn’t change.<br>出售大宗已发行（股东持有）的证券或之前的已发行证券（库存股，即发行人回购的股票）。通常，公司的一个或多个大股东进行二级发行；新投资者本质上是在购买“二手货”，因此发行在外的股票数量不会改变。<br><br>**Who Benefits:** The proceeds don’t go to the issuer (except with Treasury stock); they go to the big shots who sell the securities.<br>**谁受益：** 收益不归发行人所有（库存股除外）；它们归出售证券的大佬们所有。 |
-| **Split (combined) offering**<br>**混合（联合）发行** | A combination of a primary and secondary offerings, with both new and outstanding securities.<br>初级发行和二级发行的组合，同时包含新证券和已发行证券。<br><br>**Who Benefits:** A portion of the proceeds goes to the issuer, and a portion goes to the selling stockholders.<br>**谁受益：** 一部分收益归发行人所有，一部分归出售股票的股东所有。 |
-
----
-
-## 9. Reviewing Exemptions
-## 9. 审查豁免
-
-Certain securities are exempt from registration because of the type of security or the type of transaction involved. You may find that those securities which are exempt because of who’s issuing them are a bit easier to recognize. You’ll probably have to spend a little more time on the securities that are exempt from registration because of the type of transaction.
-某些证券因证券类型或涉及的交易类型而免于注册。您可能会发现，那些因发行主体而获得豁免的证券更容易识别。您可能需要花更多时间在那些因交易类型而免于注册的证券上。
-
-### Exempt securities
-### 豁免证券
-
-Certain securities are exempt from the registration requirements under the Securities Act of 1933. These securities come from issuers that either have a high level of creditworthiness, or it’s the case that another government regulatory agency has some sort of jurisdiction over the issuer of the securities. These types of securities include:
-根据1933年证券法，某些证券免于注册要求。这些证券来自具有高信用度的发行人，或者是其他政府监管机构对证券发行人拥有某种管辖权的情况。这些类型的证券包括：
-
-* Securities issued by the U.S. government (Treasury bills, Treasury notes, Treasury bonds, and so on) or federal agencies
-* 美国政府发行的证券（国库券、中期国债、长期国债等）或联邦机构证券
-* Municipal securities (local government bonds and notes)
-* 市政证券（地方政府债券和票据）
-* Securities issued by banks, savings institutions, and credit unions
-* 银行、储蓄机构和信用合作社发行的证券
-* Public utility stocks or bonds
-* 公用事业股票或债券
-* Securities issued by religious, educational, or not-for-profit organizations
-* 宗教、教育或非营利组织发行的证券
-* Notes, bills of exchange, bankers’ acceptances, and commercial paper (unsecured corporate debt securities with an initial maturity of 270 days or less)
-* 票据、汇票、银行承兑汇票和商业票据（初始期限为270天或更短的无担保公司债务证券）
-* Insurance policies and fixed annuities
-* 保险单和固定年金
-
-Fixed annuities are not securities and are exempt from SEC registration because the issuing insurance company guarantees the payout. Variable annuities require registration, however, because the payout varies depending on the performance of the securities held in the separate account. For more info on annuities and other packaged securities, see Chapter 9.
-固定年金不是证券，并且免于SEC注册，因为发行保险公司保证支付。然而，可变年金需要注册，因为支付金额取决于独立账户中持有的证券的表现。有关年金和其他打包证券的更多信息，请参阅第9章。
-
-### Exempt transactions
-### 豁免交易
-
-Some securities that corporations offer may be exempt from the full registration requirements of the Securities Act of 1933 due to the nature of the sale. The following list shows these exemptions:
-由于销售的性质，公司发行的某些证券可能免于1933年证券法的全面注册要求。以下列表显示了这些豁免：
-
-* **Intrastate offerings (Rule 147):** An intrastate offering includes the 80% rule. In order for a company to be eligible for the exemption, at least 80% of the corporation’s assets must be in the state OR at least 80% of the company’s revenues must be generated from in-state business OR at least 80% of money raised from the offering must be used in the state of the offering. In addition, at least 50% of the company’s employees must work in the state of the offering. The securities still require registration at the state level and 100% of the purchasers must be within the state.
-* **州内发行（147号规则）：** 州内发行包括80%规则。为了使公司有资格获得豁免，至少80%的公司资产必须在该州，或至少80%的公司收入必须来自州内业务，或至少80%的发行筹集资金必须用于发行所在的州。此外，至少50%的公司员工必须在发行所在的州工作。证券仍然需要在州一级进行注册，并且100%的购买者必须在该州内。
-
-    Don’t confuse intrastate offerings (securities sold in one state) with interstate offerings (securities sold in many states). Interstate offerings do need SEC registration. To help you remember, think of an interstate roadway, which continues from one state to the next.
-    不要混淆州内发行（在一个州销售的证券）和州际发行（在许多州销售的证券）。州际发行确实需要SEC注册。为了帮助您记忆，可以联想州际公路，它从一个州延伸到下一个州。
-
-* **Regulation A (Reg A, Regulation A+, or Reg A+) offerings:** An offering of securities worth $20 million or less (Tier 1) or $75 million or less (Tier 2) within a 12-month period is Regulation A. Although this company may seem to be large to you, it’s relatively small in market terms. Regulation A offerings are exempt from full registration requirements, but the issuer still has to file a simplified registration or abbreviated registration statement.
-* **A条例（Reg A, Regulation A+, or Reg A+）发行：** 在12个月内发行价值2000万美元或以下（第1类）或7500万美元或以下（第2类）的证券属于A条例发行。虽然这家公司对您来说似乎很大，但从市场角度来看，它相对较小。A条例发行免于全面注册要求，但发行人仍需提交简化的注册或简略的注册说明书。
-
-* **Regulation D (Reg D) offerings:** Also known as a private placement (private securities offering), a Regulation D offering is an offering to no more than 35 unaccredited (nonaccredited) investors per year. Companies that issue securities through private placement are allowed to raise an unlimited amount of money but are limited in terms of the number of unaccredited investors. Sales of Reg D securities are subject to the sales limitations set forth under Rule 144. All unaccredited (nonaccredited) investors must meet specific suitability requirements.
-* **D条例（Reg D）发行：** 也称为私募配售（私人证券发行），D条例发行是指每年向不超过35名非认可（非合格）投资者进行的发行。通过私募配售发行证券的公司可以筹集的资金数额不限，但在非认可投资者的数量上受到限制。Reg D证券的销售受144号规则规定的销售限制。所有非认可（非合格）投资者必须满足特定的适当性要求。
-
-    Persons who do not match any of the items on the following list, would be considered unaccredited. The list of who or what is considered to be an accredited investor recently expanded to include the following:
-    不符合以下列表中任何一项的人员将被视为非认可投资者。被视为认可投资者的名单最近有所扩大，包括以下内容：
-    * Financial institutions (banks, insurance companies, pension funds, and so on)
-    * 金融机构（银行、保险公司、养老基金等）
-    * Insiders of the private placement issuer (officers, directors, and/or owners of 10 percent or more of the outstanding shares, as well as their immediate family members)
-    * 私募配售发行人的内部人士（高级职员、董事和/或持有10%以上已发行股份的所有者，以及他们的直系亲属）
-    * Investors with a net worth of at least $1 million, excluding primary residence
-    * 净资产至少为100万美元（不包括主要住所）的投资者
-    * Investors who have had a net income of at least $200,000 ($300,000 joint) for the previous two years and are expected to meet the requirement during the current year and going forward
-    * 过去两年净收入至少为20万美元（夫妻共同30万美元）并预计在当年及未来满足该要求的投资者
-    * Corporations, partnerships, or organizations with a net worth of at least $5 million
-    * 净资产至少为500万美元的公司、合伙企业或组织
-    * Reps who are registered and in good standing with the SEC, FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or Series 82 exam
-    * 在SEC、FINRA和/或至少一个州注册并信誉良好，且通过了Series 7、Series 65、Series 66和/或Series 82考试的代表
-    * Knowledgeable employees of private funds (hedge funds, private equity funds, and so on) who have the ability to raise money privately
-    * 私募基金（对冲基金、私募股权基金等）中具有私募筹资能力的知识型员工
-    * Rural business investment companies (investment companies that raise money to invest in small rural businesses)
-    * 农村商业投资公司（筹集资金投资小型农村企业的投资公司）
-    * Limited liability companies (LLC) with more than $5 million in assets
-    * 资产超过500万美元的有限责任公司（LLC）
-    * Family offices with at least $5 million in assets under management
-    * 管理资产至少500万美元的家族办公室
-
-* **Rule 144:** This rule covers the sale of restricted stock (such as stock sold through private placement), unregistered, and control securities (stock owned by control persons [affiliates], which includes directors, officers, or other people who own 10 percent or more of the issuer’s voting stock). According to Rule 144, sellers of these securities must wait at least six months before selling the fully paid securities to the public. Additionally, the most an investor can sell at one time is 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater.
-* **144号规则：** 该规则涵盖受限股票（如通过私募配售出售的股票）、未注册证券和控制证券（由控制人[关联方]拥有的股票，包括董事、高级职员或其他拥有发行人10%以上有表决权股票的人）的销售。根据144号规则，这些证券的卖方必须等待至少六个月才能向公众出售已全额支付的证券。此外，投资者一次最多可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准。
-
-* **Rule 144A:** This rule allows unregistered domestic and foreign securities to be sold to Qualified Institutional Buyers (QIBs) in the United States without a holding period. QIBs include insurance companies, registered investment companies, registered investment advisers, pension plans, corporations, partnerships, and so on.
-* **144A号规则：** 该规则允许未注册的国内和国外证券在没有持有期的情况下出售给美国的合格机构买家（QIBs）。QIB包括保险公司、注册投资公司、注册投资顾问、养老金计划、公司、合伙企业等。
-
-To see if you are getting the hang of this, take a look at an example that deals with Rule 144.
-为了看看您是否掌握了这一点，请看一个关于144号规则的例子。
-
-> **Example: Rule 144 Calculation**
-> **示例：144号规则计算**
->
-> John Bullini is a control person who purchased shares of restricted stock and wants to sell under Rule 144. John has paid fully for the shares and has held them for more than one year. There are 1.5 million shares outstanding. Form 144 is filed on Monday, May 28, and the weekly trading volume for the restricted stock is as follows:
-> John Bullini 是一位控制人，他购买了受限股票并希望根据144号规则出售。John 已全额支付了股票款项并持有了超过一年。已发行股份为150万股。144表于5月28日星期一提交，受限股票的周交易量如下：
->
-> | Week Ending 周结束日期 | Trading Volume 交易量 |
-> | :--- | :--- |
-> | May 25 | 16,000 shares |
-> | May 18 | 15,000 shares |
-> | May 11 | 17,000 shares |
-> | May 4 | 15,000 shares |
-> | April 27 | 18,000 shares |
->
-> What is the maximum number of shares John can sell with this filing?
-> John 通过此次申报最多可以出售多少股？
->
-> (A) 15,000
-> (B) 15,750
-> (C) 16,200
-> (D) 16,250
->
-> **The right answer is (B).** The test writers often try to trick you on the SIE exam by giving you at least one week more than you need to answer the question. Because John has held the restricted stock for more than a year, John can sell 1 percent of the outstanding shares or the average weekly trading volume for the previous four weeks, whichever is greater:
-> **正确答案是 (B)。** 考试出题者经常在SIE考试中试图通过提供至少多一周的数据来迷惑您。因为John持有受限股票超过一年，John可以出售已发行股份的1%或过去四周的平均周交易量，以较大者为准：
->
-> *   1% of 1,500,000 shares outstanding = 15,000 shares
-> *   150万已发行股份的1% = 15,000股
->
-> *   Average of previous 4 weeks = (16,000 + 15,000 + 17,000 + 15,000) / 4 = 63,000 / 4 = 15,750 shares
-> *   过去4周的平均值 = (16,000 + 15,000 + 17,000 + 15,000) / 4 = 63,000 / 4 = 15,750 股
->
-> In this case, the previous four weeks are the top four in the list, but be careful, the examiners are just as likely to use the bottom four to give the table a different look.
-> 在这种情况下，前四周是列表中的前四个，但请注意，考官同样可能使用后四个来给表格不同的外观。
->
-> Figure out 1 percent of the outstanding shares by multiplying the outstanding shares by 1 percent. (Easy, right?) In this case, you come up with an answer of 15,000 shares. The other possible answer is the average weekly trading volume for the previous four weeks. Add the trading volume for the previous four weeks (the top four in the chart) and divide by 4 to get an answer of 15,750 shares. Because you’re looking for the greater number, the answer is (B).
-> 通过将已发行股份乘以1%来计算已发行股份的1%。（很简单，对吧？）在这种情况下，您得到的答案是15,000股。另一个可能的答案是过去四周的平均周交易量。将过去四周（图表中的前四个）的交易量相加并除以4，得到的答案是15,750股。因为您在寻找较大的数字，所以答案是(B)。
+10. **D. U.S. Treasury securities (Treasury bonds, Treasury notes, Treasury bills, TIPS, and so on), municipal bonds (general obligation bonds, revenue bonds, and so on), and Eurodollar bonds are exempt from SEC registration. U.S. Treasury securities are backed by the federal government, and municipal bonds are backed by a state or local government. Eurodollar bonds are dollar-denominated bonds issued in Europe, and, therefore, must register in the country of issue. ADRs (American Depositary Receipts) are receipts for foreign securities traded in the United States and, therefore, must be registered in the United States.**
+10. **D。美国国债（长期国债、中期国债、短期国债、TIPS 等）、市政债券（一般责任债券、收益债券等）以及欧洲美元债券均免于 SEC 注册。美国国债由联邦政府支持，市政债券由州或地方政府支持。欧洲美元债券是在欧洲发行的美元计价债券，因此必须在发行国注册。ADRs（美国存托凭证）是在美国交易的外国证券收据，因此必须在美国注册。**
