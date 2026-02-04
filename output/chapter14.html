@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: 15px"><a href="#block-4406752208">Buying new in the primary market...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406971856">Buying used in the secondary market...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406975184">Auctioning securities at securities exch...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407203280">Negotiating trades over the counter...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407204432">OTC market makers...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407205968">An introducing broker...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407206608">A clearing (carrying) broker...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407206992">A prime broker...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407207248">Reviewing basic order types...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407207376">Market order...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407242960">Stop order...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407242064">Limit order...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407243088">Stop limit order...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407243984">Factoring in order features...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407214160">Following customers’ orders or using you...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407345360">Discretionary versus nondiscretionary or...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407346256">Solicited versus unsolicited orders...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407346640">It Takes All Kinds: Recognizing Differen...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407346896">Retail investors...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407347024">Accredited investors...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407349072">Institutional investors...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407349712">Practice questions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406782928">Answers and explanations...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 14</h1>
+            <a href="Chapter_14.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4407171408">
+<p class="block-en">Chapter 14</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406751696">
+<p class="block-en">Securities Markets: Taking Orders and Executing Trades</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406751440">
+<p class="block-en">art of your function as a registered rep will be to understand and explain to customers (and potential customers) how the stock market works. I designed this chapter with that in mind (along with the fact that you need to know this stuff for the SIE, of course).</p>
+<p class="block-zh">作为一名登记代表，您的部分职责是理解并向客户（及潜在客户）解释股票市场是如何运作的。我设计本章时正是基于这一考量（当然，这也是因为您需要掌握这些内容以应对 SIE 考试）。</p>
+</section>
+<section class="block paragraph" id="block-4406751952">
+<p class="block-en">In this chapter, I cover the basics of exchanges and the over-the-counter (OTC) market, along with some of the active participants who help the market run smoothly (at least most of the time). Pay particular attention to the sections “Reviewing basic order types” and “Factoring in order features,” because you’ll definitely use that information every day after you pass the SIE and corequisite tests. The chapter wraps up with a short quiz.</p>
+<p class="block-zh">在本章中，我将涵盖交易所和场外交易市场（OTC）的基本知识，以及一些帮助市场平稳运行（至少大部分时间是这样）的活跃参与者。请特别关注“回顾基本订单类型”和“考虑订单特征”这两节，因为在您通过 SIE 及相关进阶考试后，您每天都会用到这些信息。</p>
+</section>
+<section class="block paragraph" id="block-4406752080">
+<p class="block-en">Depending on whether the securities are new or outstanding, they trade in either the primary or secondary market. This section deals with the differences between the two.</p>
+<p class="block-zh">根据证券是新发行的还是已流通的，它们分别在一级市场或二级市场进行交易。</p>
+</section>
+<section class="block heading" id="block-4406752208">
+<h2>Buying new in the primary market</h2>
+<div class="block-zh">在一级市场购买新股</div>
+</section>
+<section class="block paragraph" id="block-4406752720">
+<p class="block-en">The primary market (new issue market) is where the issuer receives the proceeds from the sale of securities. This market’s offerings are broken into two categories, depending on whether the company has ever issued securities before. A security that has never been offered or sold to the public is considered a new issue. Here are the three types of offerings on the primary market:</p>
+<p class="block-zh">**一级市场 （Primary market）**（新发行市场）是发行人获取证券销售收入的市场。从未向公众提供或出售过的证券被视为新发行证券。以下是一级市场的三种发行类型：</p>
+</section>
+<div class="block list-item" id="block-4406753360">
+<div class="block-en">• Initial public offering (IPO): An IPO is the first time a corporation ever sells stock to the public to raise money. When a corporation is in the process of issuing securities for the first time, it´s</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406753616">
+<p class="block-en">said to be going public. So, an IPO is the first primary offering.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406753232">
+<div class="block-en">• Primary offering: A primary offering is the issuer market, where the issuer is selling shares to raise money. Certainly, an IPO falls into that category. However, the corporation usually holds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406753744">
+<p class="block-en">shares back for future use; it later pulls those securities out of storage and sells them in a subse- quent (add-on, additional, or follow-up) offering, which is also a primary offering. A corporation may be authorized to sell 2 million shares of common stock, but in its IPO, it may sell only 800,000. At this point, 1.2 million new shares remain that have never been offered to the public. One year later, when the company needs to raise additional capital to build a new warehouse, it can sell some of the remaining 1.2 million shares in a subsequent primary offering.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406972240">
+<div class="block-en">• Combined (split) offering: This type of offering is a combination of new securities and a large block of outstanding or previously outstanding securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406971984">
+<p class="block-en">When securities are sold in the primary market, the bulk of the sales proceeds goes to the issuer and the balance goes to the entity or entities responsible for selling the securities to the public — the underwriter(s) and selling group members (if any) in other words.</p>
+<p class="block-zh">当证券在一级市场出售时，**销售收益的大部分归发行人所有**，余额则归负责向公众销售证券的实体——即承销商和销售小组成员（如果有的话）。</p>
+</section>
+<section class="block heading" id="block-4406971856">
+<h2>Buying used in the secondary market</h2>
+<div class="block-zh">在二级市场购买“二手”股</div>
+</section>
+<section class="block paragraph" id="block-4406972880">
+<p class="block-en">When the securities are already trading in the market, the sales proceeds go to another investor instead of to the issuer. The securities sold in a secondary distribution consists of selling already issued and outstanding shares. The secondary market, also called the aftermarket, consists of the fol- lowing categories (see the following section for info on trading on exchanges versus OTC markets):</p>
+<p class="block-zh">当证券已经在市场上交易时，销售收益流向**另一名投资者**，而不是发行人。二级市场（也称为**后续市场 aftermarket**）由以下类别组成：</p>
+</section>
+<div class="block list-item" id="block-4406972496">
+<div class="block-en">• Second market: Issued securities trading on an exchange. Auction market.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406973520">
+<div class="block-en">• Third market: The third market is the over-the-counter (OTC) market, where prices are</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406752848">
+<p class="block-en">negotiated, and there is no central location for trading. Any securities that can trade in the second market can also trade in the third market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406974288">
+<div class="block-en">• Fourth market: The fourth market is the trading of securities between institutions without the use of a brokerage firm. Fourth-market trades are typically executed through electronic</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406974544">
+<p class="block-en">communication networks (ECNs) such as Instinet.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406973776">
+<p class="block-en">You’re more likely to get a question on the third or fourth market than the first or second.</p>
+<p class="block-zh">在考试中，您遇到关于第三或第四市场的问题的可能性比第一或第二市场要大。</p>
+</section>
+<section class="block paragraph" id="block-4406974672">
+<p class="block-en">After securities are issued publicly, they may trade on an exchange or on the OTC market.</p>
+<p class="block-zh">证券公开发行后，可以在交易所或场外交易市场（OTC）进行交易。</p>
+</section>
+<section class="block heading" id="block-4406975184">
+<h2>Auctioning securities at securities exchanges</h2>
+<div class="block-zh">在证券交易所拍卖证券</div>
+</section>
+<section class="block paragraph" id="block-4407007056">
+<p class="block-en">Exchanges are auction markets, where bidders and sellers get together to execute trades. I’m sure</p>
+<p class="block-zh">交易所是**拍卖市场**，买卖双方聚集在一起执行交易。</p>
+</section>
+<section class="block paragraph" id="block-4407055440">
+<p class="block-en">a good place to have a heart attack or develop an ulcer). However, some sort of order is definitely there:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407056208">
+<div class="block-en">• All exchanges have a trading floor where all trades are executed.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407055568">
+<div class="block-en">• Each security listed on an exchange has its own trading post (location) on the floor where the auction takes place.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407054672">
+<div class="block-en">• Brokers looking to purchase shout out and/or make hand signals to indicate the price they´re willing to spend to buy a particular security.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407202000">
+<div class="block-en">• Sellers in turn shout out the price they´re willing to sell a security for.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407202640">
+<div class="block-en">• If buyers and sellers can come to an agreement, a trade is made.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407202512">
+<p class="block-en">The main exchange that the SIE tests you on is the NYSE, also known as the Big Board or Exchange, but there are others, such as NYSE Amex Equities (formerly the American Stock Exchange [AMEX]), Nasdaq, Chicago Board Options Exchange (CBOE), Boston Stock Exchange (formerly BSE, now Nasdaq OMX BX), and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407202384">
+<p class="block-en">Listed securities are ones that satisfy minimum requirements and are traded on a regional or national exchange like the NYSE. Listed securities may trade on the exchange or in the OTC market discussed in the following section.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407202896">
+<p class="block-en">Although thousands of people may seem to be on the floor of the exchange, you don’t need to be aware of too many titles. Most of the people on the floor of the exchange fall into one of three categories:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407203152">
+<div class="block-en">• Floor brokers: These individuals act as agents in executing buy or sell orders on behalf of their</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407202768">
+<p class="block-en">firms´ customers. A floor broker may also facilitate buying and selling for their firm. Floor brokers receive buy or sell orders from their firms and either transfer the orders to a desig- nated market maker (see below) or trade with another floor broker.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407203536">
+<div class="block-en">• Two-dollar brokers (independent brokers): These brokers assist other floor brokers in getting their orders executed on busy days. (By the way, they´re called two-dollar brokers</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407203408">
+<p class="block-en">because many, many years ago, they used to receive $2 per trade. Commissions may have gone up a bit since then.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407203792">
+<div class="block-en">• Designated market makers (DMMs; formerly specialists): These market professionals</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407203664">
+<p class="block-en">manage the auction market trading for a particular security (or for a few securities, if not actively traded). Their purpose is to maintain a "fair and orderly market" in one or more securities. A DMM can act as a broker or a dealer (trading out of their own account) to help keep trading as active as possible. An important function of a DMM is to keep track of and execute limit orders on behalf of other exchange members.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407203280">
+<h2>Negotiating trades over the counter</h2>
+<div class="block-zh">在场外协商交易</div>
+</section>
+<section class="block paragraph" id="block-4407203920">
+<p class="block-en">Unlike exchanges, the OTC market is considered a negotiated market. Instead of yelling out bid and ask prices, traders buy and sell securities by way of telephone or computer transactions.</p>
+<p class="block-zh">与交易所不同，场外交易市场（OTC）被视为**协商市场**。交易者不是大声喊价，而是通过电话或计算机交易来买卖证券。</p>
+</section>
+<section class="block paragraph" id="block-4407204048">
+<p class="block-en">There’s no central location for trading OTC securities. Instead, traders use the Over the Counter Bulletin Board (OTCBB), which is a quotation service operated by FINRA for unlisted (non- Nasdaq) securities. OTCBB shows bid and ask prices of securities unable to meet the listing requirements for Nasdaq.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407204176">
+<p class="block-en">Corporations too small to be placed on the OTCBB may still sell their securities in the Pink Market (better known as Pink Sheets to some). Corporations on the Pink Market are not required to meet the listing requirements or file with the SEC.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407204304">
+<p class="block-en">Thousands of securities — both listed and unlisted — are traded OTC. In fact, unlisted securities, which aren’t listed on an exchange, can only trade OTC. Unlisted securities are ones that either don’t meet the listing requirements of the exchanges or that the corporation decided it didn’t want to list for whatever reason.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407204560">
+<p class="block-en">U.S. government and municipal bonds trade only OTC.</p>
+<p class="block-zh">**美国政府债券和市政债券仅在场外交易市场（OTC）交易。**</p>
+</section>
+<section class="block heading" id="block-4407204432">
+<h3>OTC market makers</h3>
+</section>
+<section class="block paragraph" id="block-4407204688">
+<p class="block-en">Unlike exchanges where they have designated market makers, the OTC market has none. However, some firms (dealers) will make a market for particular securities and be willing to trade to and from their own inventory. If they wish to make a market in a security, they must receive FINRA’s approval. OTC market makers create the inside market by offering to buy and sell securities. The inside market is the highest bid price (the most a market maker is willing to pay) for a security and the lowest ask or offer price (the most a market maker is willing to accept) for a security. In the NASDAQ system, you typically have several market makers for one security. Take a look at what happens when you have several market makers entering quotes for ABCD common stock:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407204816">
+<p class="block-en">By looking at this chart, you can see that three market makers have entered quotes for LMNO Common stock as well as the size (how many round lots they’re willing to buy and/or sell). To determine the inside market, look at the highest bid price, which was entered by Cardinal Wing Securities, and the lowest ask price, which was entered by DK Broker-Dealer. For LMNO, the inside market is currently 18.35–18.75. Looking at a Level I machine in the brokerage firm, you would see only the name of the security and the inside market price. If you were to give a quote to customers, you would have to let them know it’s a subject quote (subject to change) because as buy and sell orders are placed, the inside market will change.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407204944">
+<p class="block-en">If you were placing an order to buy, you would buy at the lowest ask price. If you were placing an order to sell, you would sell at the highest bid price. The size of the market relates to how many round lots (100 shares) each market maker is willing to trade. So, if you look at DK Broker-Dealer, they’re wanting to purchase five round lots (500 shares) and sell ten round lots (1,000 shares).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407205072">
+<p class="block-en">I would guestimate that a large percentage of people taking the SIE exam will be working for a broker–dealer. For a firm to be considered a broker–dealer, it must buy and sell securities from its own account and act as a middleman for securities not in inventory. Here are the differences between brokers and dealers:</p>
+<p class="block-zh">对于一家被称为**经纪交易商（broker-dealer）**的公司，它必须既能利用自有账户买卖证券，又能为不在库存中的证券充当中间人。</p>
+</section>
+<div class="block list-item" id="block-4407205456">
+<div class="block-en">• Broker: A firm is acting as a broker when it doesn´t use its own inventory to execute a trade. A broker charges a commission (sales charge) for acting as a middleman between a buyer and a seller.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407205328">
+<p class="block-en">For SIE exam purposes, the terms broker and agent may be used interchangeably. A registered representative is sometimes called an agent or stockbroker because they act as an intermedi- ary between buyers and sellers.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407205840">
+<div class="block-en">• Dealer: A firm is acting as a dealer when it uses its own inventory to execute a trade. When a dealer sells securities to a customer using its own inventory, it charges a markup (sales charge).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407205712">
+<p class="block-en">When a dealer buys securities from a customer for its own inventory, it charges a markdown (reducing the price a customer receives by charging a sales charge). A firm becomes a dealer in the hopes that the securities it has in its own inventory will increase in price so that the dealer can benefit from the appreciation and subsequent sale of the securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407206096">
+<p class="block-en">The terms dealer, principal, and market maker may be used interchangeably on the SIE and corequisite exams.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407205200">
+<p class="block-en">Capacity refers to whether a firm is acting as a broker (agent) or dealer (principal), and it must always be disclosed on the confirmDtion (receipt of trade). If a firm is acting as a broker, the com- mission always needs to be disclosed on the confirmation. However, if a firm is acting as a dealer, the markup or markdown doesn’t always have to be disclosed.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407205584">
+<p class="block-en">A firm can’t act as a broker and a dealer for the same trade. In other words, charging a markup (or markdown) and a commission on the same trade is a violation. (For info on rules and regula- tions, see Chapter 16.)</p>
+<p class="block-zh">公司**不能在同一笔交易中同时充当经纪人和自营商**。在同一笔交易中同时收取加价和佣金是违规行为。</p>
+</section>
+<section class="block paragraph" id="block-4407206224">
+<p class="block-en">To help you remember the differences between a broker and a dealer, think of a real-estate broker. A real-estate broker (or agent) acts as an intermediary between sellers and buyers and charges a commission, just like a stockbroker does. Conversely, a dealer, like a used-car dealer, sells from their own inventory, charges a markup, and buys in the hopes of making a profit on that inventory.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407205968">
+<h2>An introducing broker</h2>
+</section>
+<section class="block paragraph" id="block-4407206352">
+<p class="block-en">An introducing broker (IB) is a person or business that does not actually handle the transactions but just provides investment advice or counsel to investors. In general, an introducing broker will recommend trades to clients while handing over the job of executing the trade to a clearing firm. (See the next section.) In general, the IB and the clearing firm that executes the trade split the trading fees and/or commission.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407206608">
+<h2>A clearing (carrying) broker</h2>
+</section>
+<section class="block paragraph" id="block-4407206736">
+<p class="block-en">Clearing brokers (clearing firms) handle orders to buy and sell securities. In addition, clearing brokers maintain custody of clients’ assets (securities and cash). Clearing firms are responsible for segregating (separating) clients’ cash and securities held in their custody.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407206992">
+<h2>A prime broker</h2>
+</section>
+<section class="block paragraph" id="block-4407206864">
+<p class="block-en">Prime brokers are used mainly by institutional accounts or large retail clients. Prime brokerage accounts are ones set up for individuals or entities with more-complex financial needs. Besides helping the client combine information from all firms they are using into one statement, they also provide services such as lending, leveraged trade execution, and cash management. Often, hedge funds use a prime brokerage account.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407206480">
+<p class="block-en">Here’s where the rubber meets the road. You can receive several types of orders from customers along with numerous order qualifiers. This section explains the types of orders and how to exe- cute them.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407207120">
+<p class="block-en">Unlicensed associated persons cannot receive or execute orders for customers. In addition, they cannot discuss securities, recommend securities, talk about investment objectives, and so on. However, they may send out paperwork, answer phonecalls, and so on. In order to discuss invest- ment objectives, take orders, execute trades, and so on, the person must be licensed.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407207248">
+<h2>Reviewing basic order types</h2>
+<div class="block-zh">回顾基本订单类型</div>
+</section>
+<section class="block paragraph" id="block-4407207504">
+<p class="block-en">You can definitely expect a question or two on the SIE exam relating to orders (you know, the buy- ing and selling kind). The following sections explore the most common order types.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407207376">
+<h3>Market order</h3>
+</section>
+<section class="block paragraph" id="block-4407207632">
+<p class="block-en">A market order is for immediate execution at the best price available. A majority of the orders that you’ll receive will be market orders. Here are the varieties they come in:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407207760">
+<div class="block-en">• Buy order: When an investor places a market order to buy, they´re not price-specific; the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407211344">
+<p class="block-en">investor purchases the security at the lowest ask price (the lowest price at which someone´s willing to sell the security). An investor who´s purchasing a security wants the price to increase (after the sale, of course) and is establishing a bullish position.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407211600">
+<div class="block-en">• Sell order: When an investor places a market order to sell, they´re not price-specific; they sell the security at the highest bid price (the highest price someone´s willing to pay for the security).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407207888">
+<p class="block-en">Note: As with exchanges, the difference between the highest bid price and lowest ask (offer) price in the OTC market is known as the spread. Typically, the narrower the spread, the more actively traded the security.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407211728">
+<p class="block-en">For investors looking to make a profit when they believe the price of a security is going to drop, there’s always selling short. Selling short occurs when an investor sells securities they don’t actu- ally own. (The investor is actually borrowing securities from a lender to sell.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407211472">
+<p class="block-en">Here’s how selling short works: Say an investor borrows 100 shares of ABC stock and sells them short at $40 per share, thus receiving $4,000. The borrower doesn’t owe the lender $4,000; they owe the lender 100 shares of ABC stock. After a month or two, when ABC is trading at $20 per share, the borrower can purchase the 100 shares for $2,000 and return them to the lender, mak- ing a nice $2,000 profit (excluding commission costs).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407211856">
+<p class="block-en">A short seller is bearish (wants the price of the security to decrease). If the price increases instead, the short seller has to buy the stock in the market at a higher price, thus losing money. Remember that all short sales must be executed in margin accounts. Short sales are subject to short-sale regulations under Regulation SHO. (See the nearby sidebar.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407241808">
+<p class="block-en">Note: Investors may sell short for speculation (believing the price of the security will decrease), hedging (protecting a security or several securities in the event of a market decline), or arbitrage (taking advantage of a price disparity on the security in different markets).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407242192">
+<p class="block-en">When you purchase a security, the most you can lose is the amount you invest. When you short a security, your maximum loss potential is unlimited because the price of the stock could keep climbing, in which case you’d have to spend more money to cover your short position. Additionally, because of the additional risk, all short sales must be executed in a margin account. Chapter 12 tells you a little more about margin accounts.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407242960">
+<h3>Stop order</h3>
+</section>
+<section class="block paragraph" id="block-4407242704">
+<p class="block-en">A stop order is used for protection; it tries to limit how much an investor can lose. (On the other hand, it can also be used to lock in gains.) Depending on whether an investor has a long or short stock position, they may enter a buy stop order or a sell stop order:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407242576">
+<div class="block-en">• Buy stop orders: These orders protect a short position (when an investor sells borrowed securities). A buy stop tells you to buy a security if the market price touches a particular price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407242448">
+<p class="block-en">or higher. Investors who are short the stock make money when the price of the stock decreases; however, if the price increases, they lose money. An investor who´s short ABC stock currently trading at $25 could enter a buy stop order on ABC at $30. If ABC reaches $30 or more, the order is triggered, and the order becomes a market order for immediate execution at the next available price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407242320">
+<div class="block-en">• Sell stop orders: These orders protect a long position (when an investor owns the stock involved); they tell you to sell a security if the market price touches a particular price or lower. Investors who</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407241936">
+<p class="block-en">are long stock make money when the price of the stock increases; if the price decreases, they lose money. Say an investor who is long DEF stock currently trading at $50 enters a sell stop order on ABC at $45. If DEF reaches $45 or below, the order is triggered, and the order becomes a market order for immediate execution at the next price, whether higher or lower than $45.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407242064">
+<h3>Limit order</h3>
+</section>
+<section class="block paragraph" id="block-4407242832">
+<p class="block-en">A customer who’s specific about the price they want to spend or receive for a security places a limit order; this order says the customer doesn’t want to pay more than a certain amount or sell for less than a certain amount. Depending on whether an investor is interested in buying or sell- ing, they can enter a buy limit or a sell limit order:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407243216">
+<div class="block-en">• Buy limit orders: Investors who want to purchase a security place these orders. A buy limit</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407243344">
+<p class="block-en">order is a directive to buy a particular security at the limit price or lower. Suppose DEF stock is trading at $35 per share but one of your customers doesn´t want to pay more than $30 per share. You could place a buy limit order at $30. If the price of DEF ever reaches $30 or less, chances are good that your customer will end up with the stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407243472">
+<div class="block-en">• Sell limit orders: Investors who want to sell a security place sell limit orders. A sell limit order is a directive to sell a particular security at the limit price or higher. Suppose one of</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407243600">
+<p class="block-en">your customers owns LMN stock, which is currently trading at $62 per share, but they want to receive at least $70 per share if they´re going to sell it. This customer could place a sell limit on LMN at $70 per share. If LMN touches or goes above $70 per share, chances are good that the stock will be sold.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407243088">
+<h3>Stop limit order</h3>
+</section>
+<section class="block paragraph" id="block-4407243728">
+<p class="block-en">A stop limit order is a combination of a stop and limit order (see the preceding sections); it’s a buy stop or sell stop order that becomes a limit order after the stop price is reached. An order that reads “sell 1,000 HIJ at 41 stop, 40.75 limit” means that the sell stop order will be triggered as soon as HIJ reaches $41 or below (the stop price). If this were just a stop order, the stock would be sold on the next trade (no matter what the price). But because this is a stop limit order, after the order is triggered, it becomes a limit order to sell at $40.75 or above (the limit price). In other words, this customer is interested in selling their stock if it drops to $41 but wants to receive at least $40.75 per share.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407243856">
+<p class="block-en">Because stop and limit orders are price-specific, they may or may not be executed. Additionally, even if limit orders do reach or surpass the limit price, the order may not be executed if more orders were placed ahead of the investor’s order.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407243984">
+<h2>Factoring in order features</h2>
+<div class="block-zh">考虑订单特征</div>
+</section>
+<section class="block paragraph" id="block-4407244112">
+<p class="block-en">Besides knowing the basic types of orders (market, stop, and limit; see “Reviewing basic order types”), you should have a handle on some additional features that may be added to the order to make your customers happy. A lot of them exist, but for the most part, the name of the order feature pretty much explains what it is:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407244368">
+<div class="block-en">• Day: If a day order hasn´t been filled by the end of the trading day, it´s canceled. All price-</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407244496">
+<p class="block-en">specific orders (stop and limit) are assumed to be day orders unless marked to the contrary. Most of the orders you´ll receive will be market orders for immediate execution at the best price available (highest bid and lowest ask prices).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407244624">
+<div class="block-en">• Good-'til-canceled (GTC): Good-'til-canceled orders are also called open orders because the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407244752">
+<p class="block-en">order is kept open until executed or canceled. Say that an investor wants to purchase ABC stock at $30. While the price of ABC is at $35, they enter an open buy limit order for ABC at</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407244880">
+<p class="block-en">$30. If the price of ABC ever hits $30 or below, the order will likely be executed; however, if the price of ABC never hits $30 or below, the order stays open until canceled.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407245008">
+<p class="block-en">Note: An investor may specify that they want the order canceled next week, next month, in two months, and so on. Many exchanges no longer take GTC orders, but customers can place them with their broker-dealers, and they will handle it internally. In actual practice, because customers may forget about their GTC orders, many broker-dealers will set them to expire</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407245136">
+<p class="block-en">in 30 days, 60 days, 90 days, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407245264">
+<div class="block-en">• Not held (NH): This order gives the broker discretion about when to execute the trade.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407245520">
+<p class="block-en">Typically, investors use not held orders when the broker believes they can get the customer a better price later in the day.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407245648">
+<p class="block-en">Not held orders deal only with timing. For registered reps to choose the security, number of shares, and/or whether to buy or sell, the customer needs to open a discretionary account, which requires a written power of attorney. See "Discretionary versus nondiscretionary orders," later in this chapter, for details.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407245776">
+<div class="block-en">• Fill or kill (FOK): This order instructs a floor broker either to immediately execute an entire order at the limit price or better or to cancel it.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407245904">
+<div class="block-en">• Immediate or cancel (IOC): These limit orders are similar to FOK orders except that the order may be partially filled. Any portion of the order that´s not completed is canceled.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407246032">
+<div class="block-en">• All-or-none (AON): These limit orders have to be executed either in their entirety or not at all. AON orders don´t have to be filled immediately (several attempts to fill the order completely</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407246160">
+<p class="block-en">are allowed) and may be day orders or good-till-canceled orders.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407246288">
+<div class="block-en">• At-the-open: These orders are to be executed at the security´s opening price. At-the-open orders can be market or limit orders, but if they aren´t executed at the opening price, they´re</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407246416">
+<p class="block-en">canceled. These orders allow for partial execution.</p>
+<p class="block-zh">(A) FOK (B) AON (C) IOC (D) All of the above</p>
+</section>
+<div class="block list-item" id="block-4407246544">
+<div class="block-en">• At the close (market on close): This order is to be executed at the closing price (or as near as possible). If this order isn´t completed, it´s canceled.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407246672">
+<div class="block-en">• Do not reduce (DNR): This order says not to reduce the price of a stop or limit order in response to a dividend. Say that QRS stock is currently trading at $50 on the day prior to the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407245392">
+<p class="block-en">ex-dividend date (the first day the stock starts trading without a previously declared dividend). If QRS previously announced a $0.50 dividend, the next day´s opening price would be $49.50. If a customer had placed a DNR limit order to buy 1,000 shares of QRS at $45, the order wouldn´t be reduced by the $0.50 dividend.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407214288">
+<div class="block-en">• Alternative: The alternative order is also known as a one cancels the other order or an either/or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407214416">
+<p class="block-en">order. This type of order instructs the broker to execute one of two orders and then cancel the other. Say Smith owns stock at $60 per share. They enter a sell stop order at $55 for protection and a sell limit order at $70 in the event that the stock price increases. If one of the orders is executed, the other order is canceled immediately.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407214544">
+<div class="block-en">• Bid wanted: This order is an indication or notice that an investor or broker-dealer wants to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407214672">
+<p class="block-en">sell a security at a specific price. Bid wanted is used most often when no current buyers of a security are available.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407214800">
+<div class="block-en">• Offer wanted: This order is an indication or notice that an investor or a broker-dealer wants</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407214928">
+<p class="block-en">to buy a particular security at a specific price. Offer wanted is used particularly when no current sellers of a security are available.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407214160">
+<h2>Following customers’ orders or using your discretion</h2>
+</section>
+<section class="block paragraph" id="block-4407345232">
+<p class="block-en">No matter whether a buy or sell order is involved, some customers will be willing to give you a little more input and freedom to make choices for them than others. Other customers are going to provide you with every detail of a trade (security, price, dollar amount, the whole shebang) without needing your input at all, which actually is a good thing.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407348688">
+<p class="block-en">No matter what the type of order, or how it’s communicated to you, your job and your firm’s job is to get your customers the best price available for their orders. As such, your customers’ orders cannot be split into multiple smaller orders for execution with the primary purpose of maximizing the amount of money (credits, commissions, gratuities, fees, and so on) that you or your firm makes. In addition, “reasonable diligence” must be used to get the customer the best price. Here are some of the factors involved to determine if reasonable diligence was used: the price of the security, the volatility of the security, the liquidity of the security, the size and type of transaction, the number of markets checked, and accessibility of the quotation.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407345360">
+<h3>Discretionary versus nondiscretionary orders</h3>
+</section>
+<section class="block paragraph" id="block-4407345488">
+<p class="block-en">To be sure, most of the orders you will receive from your clients will be nondiscretionary orders. If one of your clients tells you to purchase 100 shares of ABC common stock, they are giving you a nondiscretionary order. It is nondiscretionary because they are giving you all the components of an order: purchase or sell, how many shares or dollar amount, and what security. If the client does not provide that information, it is considered discretionary, meaning that you must use your discretion. Here are some examples of discretionary orders:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407345616">
+<p class="block-en">"Buy or sell 100 shares of ABC common stock"</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407345872">
+<p class="block-en">"Buy as many shares of ABC common stock as you think I should own" "Buy 100 shares of pharmaceutical stock"</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407345744">
+<p class="block-en">Discretionary orders may be executed by a registered rep or brokerage firm without prior verbal permission from the client. Because they don’t require verbal approval, the registered rep is required to have a written power of attorney signed by the customer prior to executing any dis- cretionary orders. The power of attorney remains in effect until the discretionary account is closed or the power of attorney is removed by the client. As you can imagine, discretionary orders must be marked as such on the order ticket. In addition, these accounts must be closely watched by a principal of the firm to make sure that there’s no excessive trading (churning) for the pur- pose of generating commission.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407346000">
+<p class="block-en">A client may give you approval to place the order at a later time in the day without discretionary authority. Say a client tells you to purchase 100 shares of DIM stock at the market price. You may tell your client that you believe that the price will drop later in the day and you may be able to get him a better price. This is allowed as long as the customer gives verbal approval, and it’s not con- sidered a discretionary order.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407346256">
+<h3>Solicited versus unsolicited orders</h3>
+</section>
+<section class="block paragraph" id="block-4407346384">
+<p class="block-en">As with nondiscretionary orders, most of the orders you receive from clients will be solicited by you, meaning that you may call up one of your clients and say, “DEF Corporation seems to be on the move, so I think it would be wise for you to buy 100 shares of DEF common stock.” Because you called and suggested what the client should buy (or sell), you actually solicited that order.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407346128">
+<p class="block-en">Unsolicited orders are ones in which your client tells you what they want to buy or sell. You may not think that this is the best idea for them and may tell them that, but you are not going to turn down the order and lose commission. In this case, because it was not your suggestion, you need to mark the order ticket in the box that says “unsolicited.” This basically takes you off the hook in the event that the client loses money on that particular investment.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407346640">
+<h1>It Takes All Kinds: Recognizing Different</h1>
+</section>
+<section class="block paragraph" id="block-4407346512">
+<p class="block-en">As a financial professional, you’ll be working with all different types of investors: some smaller investors, some larger investors, corporations, and so on. Part of the SIE exam is knowing that you understand who’s who when it comes to these different types of investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407346896">
+<h2>Retail investors</h2>
+</section>
+<section class="block paragraph" id="block-4407346768">
+<p class="block-en">You are more likely to deal with retail investors than accredited or institutional investors. These guys (or gals) are nonprofessionals who trade (buy or sell) for their own accounts. Retail inves- tors typically purchase or sell a much smaller number of securities than accredited or institu- tional investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407347024">
+<h2>Accredited investors</h2>
+</section>
+<section class="block paragraph" id="block-4407347152">
+<p class="block-en">Some investors just have access to more money or are considered more knowledgeable than other investors. The bigger investors are called accredited investors. As such, they are typically able to handle more risk than retail investors. Accredited investors include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407347280">
+<div class="block-en">• Financial institutions (banks, insurance companies, pension funds, and so on)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407347664">
+<div class="block-en">• Insiders (officers, directors, or owners of 10 percent or more of the outstanding shares of the corporation and their immediate family members)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407347792">
+<div class="block-en">• Investors who have an annual income of at least $200,000 (joint $300,000) for the previous two years and are expected to meet that requirement this year</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407347920">
+<div class="block-en">• Investors who have a net worth of at least $1 million excluding primary residence</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407348176">
+<div class="block-en">• Reps registered and in good standing with the U.S. Securities and Exchange Commission (SEC),</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407348304">
+<p class="block-en">FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or the Series 82 exams</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407348560">
+<div class="block-en">• Knowledgeable employees of private funds (hedge funds, private-equity funds, and so on) who have the ability to raise money privately</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407348432">
+<div class="block-en">• Rural business investment companies (investment companies that raise money to invest in small rural businesses)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407348816">
+<div class="block-en">• Limited liability companies (LLCs) with more than $5 million in assets</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407349200">
+<div class="block-en">• Family offices with at least $5 million in assets under management</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407348944">
+<div class="block-en">• Corporations, partnerships, or organizations with a net worth of at least $5 million</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407349072">
+<h2>Institutional investors</h2>
+</section>
+<section class="block paragraph" id="block-4407349328">
+<p class="block-en">Institutional investors are the big guys. They are the ones that invest a lot of money on behalf of their entity. They are generally considered to be knowledgeable about the market. Institutional investors include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407349456">
+<p class="block-en">So, you just learned about market participants and types of orders; it’s time to see questions like those you’ll experience on the SIE exam. Here’s a small sampling of questions for you to ace.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407349712">
+<h2>Practice questions</h2>
+<div class="block-zh">补充练习题</div>
+</section>
+<div class="block list-item" id="block-4407349840">
+<div class="block-en">• Which two of the following are TRUE?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407349584">
+<div class="block-en">• Dealers charge a markup or markdown for trades.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350096">
+<div class="block-en">• Dealers charge a commission for trades.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407349968">
+<div class="block-en">• Brokers charge a markup or markdown for trades.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350224">
+<div class="block-en">• Brokers charge a commission for trades.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350352">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350480">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350608">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350864">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350992">
+<div class="block-en">• Which of the following best describes a third market trade?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407350736">
+<div class="block-en">• Exchange-listed securities trading OTC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351888">
+<div class="block-en">• Exchange-listed securities trading on the exchange floor</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351248">
+<div class="block-en">• Unlisted securities trading OTC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351120">
+<div class="block-en">• Institutional trading without using the services of a broker–dealer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351504">
+<div class="block-en">• Which of the following orders would protect a short position?</div>
+<div class="block-zh">(A) FOK (B) AON (C) IOC (D) All of the above</div>
+</div>
+<div class="block list-item" id="block-4407351376">
+<div class="block-en">• Buy limit</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351632">
+<div class="block-en">• Sell limit</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352016">
+<div class="block-en">• Buy stop</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407351760">
+<div class="block-en">• Sell stop</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352144">
+<div class="block-en">• If an at-the-open order is not executed at the opening price, what happens to the order?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352272">
+<div class="block-en">• It is canceled.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352400">
+<div class="block-en">• It becomes a market order.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352528">
+<div class="block-en">• It becomes a day order.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352784">
+<div class="block-en">• It becomes a limit order.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352656">
+<div class="block-en">• An investor with no other positions would like to purchase ABC common stock, which is cur- rently trading at $30.80. If this investor is interested in purchasing the stock for $28 or less, you should suggest the investor enters a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407352912">
+<div class="block-en">• buy stop limit order</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353040">
+<div class="block-en">• buy limit order</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355728">
+<div class="block-en">• buy stop order</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353424">
+<div class="block-en">• market order</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354192">
+<div class="block-en">• Which of the following would be considered accredited investors?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353168">
+<div class="block-en">• Banks</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353296">
+<div class="block-en">• An individual investor with a net worth of $2 million, excluding her primary residence</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353680">
+<div class="block-en">• A corporation with a net worth of $10 million</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353808">
+<div class="block-en">• Insurance companies</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407353936">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354064">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354320">
+<div class="block-en">• I, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354448">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354576">
+<div class="block-en">• Which TWO of the following are TRUE of short sellers?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354704">
+<div class="block-en">• They are taking a bullish position.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354832">
+<div class="block-en">• They are taking a bearish position.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407354960">
+<div class="block-en">• They have a maximum gain potential that is unlimited.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355088">
+<div class="block-en">• They have a maximum loss potential that is unlimited.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355216">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355344">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355472">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355600">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355856">
+<div class="block-en">• A not-held order gives a broker discretion as to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407355984">
+<div class="block-en">• which security is traded</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356112">
+<div class="block-en">• the time at which a security is traded</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356240">
+<div class="block-en">• whether to purchase, sell, or sell short a security</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356368">
+<div class="block-en">• all of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356496">
+<div class="block-en">• Which of the following order features allows for partial execution?</div>
+<div class="block-zh">(A) FOK (B) AON (C) IOC (D) All of the above</div>
+</div>
+<div class="block list-item" id="block-4407356624">
+<div class="block-en">• FOK</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356752">
+<div class="block-en">• AON</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407356880">
+<div class="block-en">• IOC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357008">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357136">
+<div class="block-en">• Which TWO of the following are FALSE regarding unsolicited orders?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357264">
+<div class="block-en">• They cannot be accepted without prior approval from a principal.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357520">
+<div class="block-en">• They can be accepted without prior approval from a principal.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357392">
+<div class="block-en">• They must be limited in size.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357648">
+<div class="block-en">• They are not limited in size.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357776">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407357904">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407358032">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407358160">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407358288">
+<div class="block-en">• Which of the following order features allows for partial execution?</div>
+<div class="block-zh">(A) FOK (B) AON (C) IOC (D) All of the above</div>
+</div>
+<div class="block list-item" id="block-4406784208">
+<div class="block-en">• Sell 2,500 shares at $18.10 and buy 2,000 shares at $18.30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784336">
+<div class="block-en">• Buy 2,000 shares at $18.10 and sell 2,500 shares at $18.30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784464">
+<div class="block-en">• Sell 250 shares at $18.10 and buy 200 shares at $18.30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784720">
+<div class="block-en">• Buy 200 shares at $18.10 and sell 250 shares at $18.30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784592">
+<div class="block-en">• Mary and John have been married for several years. They have a combined income that has exceeded $300,000 per year for the last four years and is expected to at least be that much for the current year. They would be considered a(n)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784848">
+<div class="block-en">• qualified institutional buyer (QIB)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406785104">
+<div class="block-en">• accredited investor</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784976">
+<div class="block-en">• institutional investor</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406785232">
+<div class="block-en">• bank qualified investor</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406785360">
+<div class="block-en">• WXY Broker-Dealer charges a commission on a securities transaction. WXY Broker-Dealer has</div>
+<div class="block-zh">**12. Mary 和 John 结婚多年。过去四年他们的合并年收入超过 300,000 美元，并且预计今年至少也会达到这个数额。他们被视为：** (B) 合格投资者 (C) 机构投资者 (D) 银行合格投资者</div>
+</div>
+<section class="block paragraph" id="block-4406785488">
+<p class="block-en">acted as a(n)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406785616">
+<div class="block-en">• agent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406785744">
+<div class="block-en">• principal</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406785872">
+<div class="block-en">• market maker</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786000">
+<div class="block-en">• dealer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786128">
+<div class="block-en">• “Spread” in the over-the-counter (OTC) market refers to the difference between the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786256">
+<div class="block-en">• highest bid and lowest ask price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786384">
+<div class="block-en">• lowest offer price and highest ask price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786512">
+<div class="block-en">• the opening and closing prices of a particular security</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786640">
+<div class="block-en">• the “when issued” ask price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406786768">
+<div class="block-en">• Marvin Plimpton is an associated person but is not a licensed registered representative. Which of the following activities is Marvin permitted to engage in?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787024">
+<div class="block-en">• Accepting unsolicited orders from a customer who resides in the same state</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787152">
+<div class="block-en">• Discussing the plusses and minuses of a particular investment to an existing customer of the firm</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787280">
+<div class="block-en">• Forwarding account opening forms to a new customer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406783312">
+<div class="block-en">• Discussing investment objectives with a potential customer prior to handing the customer over to a licensed registered representative</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406782928">
+<h1>Answers and explanations</h1>
+</section>
+<div class="block list-item" id="block-4406783440">
+<div class="block-en">• B. Most brokerage firms are broker–dealers, meaning that they act as a middleman and deal out of their own inventory. When acting as a broker, a firm is buying or selling a security for a customer through another dealer. If executing a trade as a broker, the firm charges the customer a commission. Firms also act as dealers if they are buying and selling out of their own inventory. If acting as a dealer, the firm charges a markup when the customer buys and a markdown when the customer sells.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406783056">
+<div class="block-en">• A. A third market trade is a trade of exchange-listed securities trading OTC. This type of</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406783184">
+<p class="block-en">trade takes place all the time.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406783568">
+<div class="block-en">• C. Remember, stop orders are used for protection. So, in this case, you’re looking for a stop order. Because the investor is short the security, they would have to buy themselves out of that position if the price of the security went in the wrong direction (up in this case). To protect a short position, an investor could enter a buy stop order.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406783696">
+<div class="block-en">• A. At-the-open orders must be executed at the opening price; otherwise, the order must be cancelled. At-the-open orders allow for partial execution.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406783824">
+<div class="block-en">• B. Because this investor would like to purchase the stock at a particular price or better and is not currently short the stock, you should enter a buy limit order for ABC common stock at $28.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406783952">
+<div class="block-en">• D. Actually, all of the choices listed are considered accredited investors. Accredited inves- tors are able to handle more financial risk than average investors.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406784080">
+<div class="block-en">• D. Short sellers are bearish because they want the price of the security they’re purchasing to decrease. Because short sellers can lose money if the price of the security increases, their maximum loss potential is unlimited because there is nothing from keeping the price of the security from increasing more.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787408">
+<div class="block-en">• B. Not held orders have to do with the timing of an order. So, for not-held orders, the customer must agree to whether they want to buy, sell, or sell short a security as well as the number of shares. A not-held order is one in which the customer is giving you, their registered rep, discretion as to the time an order is placed. This may be a situation in which you think that you can get the customer a better price later in the day.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787536">
+<div class="block-en">• C. If you remember what the initials stand for, it makes the question a lot easier. FOK stands for fill or kill, which means that the entire order must be either filled immediately or killed (canceled). AON stands for all-or-none, which means that the entire order must be filled entirely (but not immediately) or none of the order gets executed. The one that allows for partial execution is an IOC (immediate or cancel) order, which means that the broker has to execute as much of the order as possible immediately and cancel the rest.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406787792">
+<div class="block-en">• A. Remember, you’re looking for false answers to this question. Unsolicited orders are ones in which the investor tells the registered rep which securities they want to purchase, sell, or sell short. Although orders must be approved by a principal, they don’t have to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406787920">
+<p class="block-en">be approved prior to the order being placed. In addition, there are no limits to the size of the order regarding unsolicited orders; they are only limited based on the investor’s ability to pay.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406787664">
+<div class="block-en">• B. The first price (18.10) is the bid price (the price at which the market maker is willing to purchase the security). The second price (18.30) is the ask price that the market maker is willing to accept when selling the security. The “20x25” represents the number of round lots the market maker is willing to buy or sell. Unless told differently, a round lot is 100 shares. Therefore, the market maker is willing to buy up to 2,000 shares at $18.10 and sell up to 2,500 shares at $18.30.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407082064">
+<div class="block-en">• B. As a married couple, accredited investors are ones that have a joint income of at least</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407074512">
+<p class="block-en">$300,000 for the previous two years and is expected to be at least $300,000 for the current</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407074640">
+<p class="block-en">year.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407074896">
+<div class="block-en">• A. Brokers act as middlemen in a securities transaction. They’re putting a buyer and seller together to make a trade. As such, they charge a commission. A good way to remember this is to think of a real estate agent or broker. Real estate agents or brokers charge a commis- sion for selling someone else’s house to a buyer.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407075024">
+<div class="block-en">• A. The term “spread” refers the difference between the highest bid price (the most a market maker is willing to pay to purchase the security) and the lowest ask (offer) price (the least a market maker will take when selling the security). Typically, the narrower the spread, the more actively traded the security.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407074768">
+<div class="block-en">• C. Since Marvin is not licensed, he cannot discuss anything relating to investments with an existing customer or potential customer. If he cannot do that, he certainly cannot accept orders (whether solicited or not) from a customer. However, he can do things such as sending account opening forms to a new customer.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

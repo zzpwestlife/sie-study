@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 13</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: 0px"><a href="#block-4406970576">Getting to Know Your Securities and Mark...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406978128">Regarding systematic and nonsystematic r...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406978256">Systematic risk...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406837328">Nonsystematic risk...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406934352">Strategies for mitigating risk...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406934736">Diversification...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406919888">Portfolio rebalancing...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406920400">Hedging...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406921296">Deciding what to buy: Fundamental analys...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406922192">Balance sheet components...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407231440">Income statement components...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407232464">Deciding when to buy: Technical analysis...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407232976">Benchmarks and indices...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407235792">Stages of the business cycle...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407237968">Bullish versus bearish...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407238608">Following the Green: Money Supply...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407239376">Influencing the money supply...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407241680">Opening the Federal Reserve Board’s tool...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407226704">Exchange rates...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407216336">U.S. balance of payments...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407217360">Leading indicators...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407219536">Coincident (coincidental) indicators...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407219920">Lagging indicators...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407221072">GDP and GNP: Measuring goods and service...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407222864">Cyclical...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407223632">Defensive...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407223888">Growth...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407225552">Practice questions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406780112">Answers and explanations...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 13</h1>
+            <a href="Chapter_13.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4406808528">
+<p class="block-en">Chapter 13</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406808272">
+<p class="block-en">Securities Analysis: Doing</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406817232">
+<p class="block-en">a Little Market Research</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406820432">
+<p class="block-en">n terms of choosing securities, throwing darts at a list of stocks seems to have fallen out of favor. So has drawing company names out of a hat. But, hey, no problem. Your psychic powers may not be the most reliable, but you still have tons of tools that can help you get a good idea</p>
+<p class="block-zh">在选择证券方面，对着股票名单掷飞镖似乎已经过时了。从帽子里抓阄决定公司名称也是如此。但是，嘿，没问题。您的通灵能力可能不太靠谱，但您仍有大量的工具可以帮助您很好地了解市场的走向以及某些证券的表现。</p>
+</section>
+<section class="block paragraph" id="block-4406970320">
+<p class="block-en">of where the market’s heading and how certain securities may perform.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406970704">
+<p class="block-en">One of your main jobs as a registered representative is to figure out the best investments for your customers based on their investment objectives and your research. To help lead people down the path to riches, you have to analyze each customer’s portfolio and the market and try to find a good fit. In many cases, firms hire analysts to provide registered reps investment information, which helps you (as the registered rep) determine the best recommendations for each customer.</p>
+<p class="block-zh">作为一名登记代表，您的主要职责之一是根据客户的投资目标和您的研究，为他们找出最佳投资。为了引导人们走上致富之路，您必须分析每位客户的投资组合和市场，并尝试找到合适的匹配。在许多情况下，公司会雇佣分析师为登记代表提供投资信息，这有助于您为每位客户做出最佳推荐。</p>
+</section>
+<section class="block paragraph" id="block-4406970192">
+<p class="block-en">In this chapter, I cover topics relating to securities analysis and money supply. The majority of this chapter is about analyzing companies and the market and seeing what happens with the money supply. Don’t worry, though — I don’t leave out technical and fundamental analysis. I just focus on the information that can help you get the best score on the SIE. At the end, you get to test your knowledge with a quick chapter quiz.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406970576">
+<h1>Getting to Know Your Securities and Markets:</h1>
+<div class="block-zh">了解您的证券与市场：证券分析基础</div>
+</section>
+<section class="block paragraph" id="block-4406971088">
+<p class="block-en">Although many brokerage firms have their own analysts, you do need to know some of the basics of securities analysis to pass the SIE and corequisite exams. Besides, the more you know about securities analysis, the better you’ll be able to understand the analysts and the more informed</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406977872">
+<p class="block-en">you’ll sound when talking to your customers and potential customers. In this section, I cover investment risks that your customers face and show you the differences between technical and fundamental analysis.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406978128">
+<h2>Regarding systematic and nonsystematic risk</h2>
+<div class="block-zh">关于系统性风险与非系统性风险</div>
+</section>
+<section class="block paragraph" id="block-4406978384">
+<p class="block-en">Investors face many risks (and many rewards) when investing in the market. You need to under- stand the risks because this knowledge cannot only make you sound like a genius, but also help you score higher on the SIE exam.</p>
+<p class="block-zh">投资者在市场投资时面临许多风险（以及许多回报）。您需要理解这些风险，因为这些知识不仅能让您听起来像个天才，还能帮助您在 SIE 考试中获得更高的分数。</p>
+</section>
+<section class="block heading" id="block-4406978256">
+<h3>Systematic risk</h3>
+<div class="block-zh">系统性风险 (Systematic risk)</div>
+</section>
+<section class="block paragraph" id="block-4406978896">
+<p class="block-en">Systematic (undiversifiable or market) risk is the risk that securities can decline due to political, social, or economic factors — changes in the economy, natural disasters, government policy, and so on. Examples of systematic risks are the housing crisis of 2008 and COVID-19, which started in 2020 and is still negatively affecting our economy. Systematic risk is a risk that could affect the whole market. Systematic risks include the following:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406978768">
+<div class="block-en">• Market risk: The risk of a security or securities declining due to regular market fluctuations</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406979536">
+<p class="block-en">or negative market conditions. All securities have market risk.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406979792">
+<div class="block-en">• Interest rate risk: The risk of bond prices declining with increasing interest rates. (Use the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406979152">
+<p class="block-en">idea behind the seesaw from Chapter 7: When interest rates increase, outstanding bond prices decrease.) All bonds, even zero-coupon bonds, are subject to interest risk.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406980048">
+<div class="block-en">• Reinvestment risk: The risk that interest and dividends received will have to be reinvested</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407001808">
+<p class="block-en">at a lower rate of return; zero-coupon bonds, T-bills, T-STRIPS, and so on have no interperiod</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406971472">
+<p class="block-en">reinvestment risk (until maturity) because they don’t receive interest payments.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406839504">
+<div class="block-en">• Purchasing power (inflation or inflationary) risk: The risk that the return on the investment</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406841296">
+<p class="block-en">is less than the inflation rate. As of the time of this writing, we´re experiencing the worst inflation in more than 40 years. Long-term bonds (even Treasury bonds) and fixed annuities have high inflation risk. To avoid inflation risk, investors should buy stocks and variable annuities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406837328">
+<h3>Nonsystematic risk</h3>
+<div class="block-zh">非系统性风险 (Nonsystematic risk)</div>
+</section>
+<section class="block paragraph" id="block-4406840784">
+<p class="block-en">Nonsystematic (unsystematic, unique, or diversifiable) risk is more industry- or firm-specific. The good news is that this type of risk can be eliminated through diversification. You’ve probably heard the expression “Don’t put all your eggs in one basket.” Well, the same holds true for investing. Suppose that one of your customers has everything, or a large portion of their invest- ment money, invested in DIMP Corporation common stock, and DIMP files for bankruptcy; now you have to tell your customer they’ve lost all (or at least a large portion of) their investment money.</p>
+<p class="block-zh">*也称为非系统风险、独特风险或可分散风险）更多地针对特定的行业或公司。好消息是，这类风险可以**通过多样化来消除**。您可能听过“不要把鸡蛋放在同一个篮子里”这句话。投资也是同样的道理。</p>
+</section>
+<div class="block list-item" id="block-4406850000">
+<div class="block-en">• Business risk: The risk of a corporation failing to perform up to expectations.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847056">
+<div class="block-en">• Political (geopolitical) risk: The risk that the value of a security could suffer due to instability or political changes in a country (such as the nationalization of corporations).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406849744">
+<div class="block-en">• Default risk (Credit risk): The risk of default or that the principal and interest aren’t paid on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406848720">
+<p class="block-en">time; Moody´s, Standard & Poor´s, and Fitch are the main bond-rating companies.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406849360">
+<div class="block-en">• Regulatory risk: The risk that changes in the regulatory climate (rulings by the Food and Drug Administration, Environmental Protection Agency, and so on) will have a detrimental affect on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406852560">
+<p class="block-en">certain securities in the market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406848976">
+<div class="block-en">• Legislative risk: The risk that changes in state or federal law will affect certain securities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406851792">
+<p class="block-en">in the market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406848336">
+<div class="block-en">• Currency (exchange rate) risk: The risk that an investment´s value will be affected by a change in currency exchange rates; long-term investors who have international investments</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406845776">
+<p class="block-en">are the ones most affected by currency risk.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406838736">
+<p class="block-en">Many investors buy and sell currencies in an attempt to take advantage of currency exchange rates. The initial currency to be traded (the base currency) would be exchanged for another currency (the counter currency). To determine the amount of counter currency they would receive, they would look at the spot exchange rate.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406840656">
+<div class="block-en">• Liquidity (marketability) risk: The risk that the security is not easily traded without affecting the price of the security; long-term bonds and limited partnerships have more liquidity risk.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838096">
+<div class="block-en">• Capital risk: The risk of losing all money invested (for options [Chapter 11] and warrants [Chapter 6]); because options and warrants have expiration dates, purchasers may lose all</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406850768">
+<p class="block-en">money invested at expiration. To reduce capital risk, investors should buy high-quality stocks or investment-grade (higher rated) bonds.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406933712">
+<div class="block-en">• Prepayment risk: The type of risk mostly associated with real-estate investments such as</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406934096">
+<p class="block-en">mortgage-backed securities (Chapter 7); mortgage-backed securities have an average expected life when first issued, but if mortgage interest rates decrease, more investors will refinance, and the bonds will be pre-paid earlier than expected.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406934224">
+<div class="block-en">• Timing risk: The risk of an investor buying or selling a security at the wrong time, thus failing to maximize profits.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406933840">
+<p class="block-en">When taking the real exam and practice exams, you should always pay close attention to the investor’s risk tolerance, financial considerations, nonfinancial considerations, and risk(s) men- tioned in order to determine the best investment for a particular customer.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406934352">
+<h2>Strategies for mitigating risk</h2>
+<div class="block-zh">规避风险的策略</div>
+</section>
+<section class="block paragraph" id="block-4406934480">
+<p class="block-en">Certainly, all investments have a certain degree of risk. Younger investors, sophisticated inves- tors, and wealthy investors can all afford to take more risk than the average investor. However, when you are talking to your clients, you should help them make decisions that will help them mitigate their risk. Those in charge of coming up with questions for the SIE exam would expect you to be able to navigate the whole risk topic effectively, so you can be sure that some questions will address the following topics directly.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406934736">
+<h3>Diversification</h3>
+<div class="block-zh">多样化 (Diversification)</div>
+</section>
+<section class="block paragraph" id="block-4406933968">
+<p class="block-en">Consider again the customer mentioned in the earlier section “Nonsystematic risk” who has everything invested in DIMP Corporation common stock. All of a sudden, DIMP Corporation loses a big contract or is being investigated. Your customer could be wiped out. However, if your cus- tomer had a diversified portfolio, DIMP Corporation would likely be only a small part of their investments, and they wouldn’t be ruined. This is the reason that having a diversified portfolio is so important.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934608">
+<p class="block-en">There are many ways to diversify, including the following:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406935248">
+<div class="block-en">• Geographical: Investing in securities in different parts of the country or world.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406935376">
+<div class="block-en">• Buying bonds with different maturity dates: Buying a mixture of short-term, intermediate- term, and long-term debt securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406919376">
+<div class="block-en">• Buying bonds with different credit ratings: Purchasing high-yield bonds (bonds with a low credit rating, also known as junk bonds) in combination with highly rated bonds with lower</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406919504">
+<p class="block-en">returns so that you get a mixture of high returns with the safety of the highly rated bonds.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406919632">
+<div class="block-en">• Investing in stocks from different sectors: Assumingthat different sectors may perform better than others at certain times, it definitely makes sense to look at different sectors when</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406919248">
+<p class="block-en">considering which securities to buy. By spreading your investments out among these different sectors, you can manage your risk and ideally make a profit if one or more sectors happen to be performing well. Sectors include financials, utilities, energy, healthcare, industrials, technol- ogy, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406919760">
+<div class="block-en">• Type of investment: Investing in a mixture of different types of stocks, bonds, direct participa- tion programs (DPPs), real estate, options, and so on.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406934992">
+<p class="block-en">There are certainly many more ways to diversify a portfolio than the ones listed previously; use your imagination. In addition, they aren’t mutually exclusive. Remember that mutual funds (packaged securities) and exchange traded funds (ETFs) provide a certain amount of diversifica- tion within an individual holding. This is why smaller investors who may not be able to afford to diversify their portfolio are ideal candidates for mutual funds.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406919888">
+<h3>Portfolio rebalancing</h3>
+<div class="block-zh">投资组合再平衡</div>
+</section>
+<section class="block paragraph" id="block-4406920016">
+<p class="block-en">Say that you and one of your clients determine that it is best for them to have a portfolio of 50 percent equity securities and 50 percent debt securities. After setting up and purchasing the portfolio, one year later, due to appreciation, your client has 60 percent in equity securities and 40 percent in debt securities. At that point, your client may decide to rebalance their portfolio by selling some equity securities and purchasing more debt securities to help maintain their original desired level of asset allocation (50–50). As a matter of fact, a subset of mutual funds known as asset allocation funds will rebalance the portfolio of securities held by the fund without needing to contact the shareholders.</p>
+<p class="block-zh">假设您和您的一位客户确定 50% 权益类证券和 50% 债务类证券的组合对他们最有利。一年后，由于增值，您的客户持有的权益类占比达到 60%，债务类降至 40%。此时，您的客户可能会决定通过卖出部分权益类资产并买入更多债务类资产来对其投资组合进行**再平衡 （rebalance）**，从而恢复最初设定的资产配置比例。</p>
+</section>
+<section class="block paragraph" id="block-4406920144">
+<p class="block-en">Typically, as investors age, they can’t afford to take as much risk and should change their asset</p>
+<p class="block-zh">通常，随着投资者年龄的增长，他们无法承担太大的风险，应该改变其资产配置，减少权益类证券，增加债务类证券。</p>
+</section>
+<section class="block paragraph" id="block-4406920272">
+<p class="block-en">allocation to include fewer equity securities and more debt securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406920400">
+<h3>Hedging</h3>
+<div class="block-zh">对冲 (Hedging)</div>
+</section>
+<section class="block paragraph" id="block-4406920528">
+<p class="block-en">I’m sure you’ve heard the saying “Hedge your bets.” In the gamblers’ world, this may mean tak- ing insurance to protect oneself against the possibility of the dealer getting a 21 when playing blackjack. It means that you are trying to reduce your risk. The problem is that by doing so, you may be limiting your upside potential. In the investors’ world, there are several ways to hedge, depending on what you’re investing in.</p>
+<p class="block-zh">我肯定您听过“两头下注 （Hedge your bets）”这句话。它的意思是您正在努力降低风险。在投资界，对冲的方式有很多种，取决于您投资的对象。</p>
+</section>
+<section class="block paragraph" id="block-4406920656">
+<p class="block-en">You can hedge (protect) your investments against market volatility (the risk that the market will fluctuate in price) by having a diversified portfolio. In this case, although some of your invest- ments may be subject to big swings in price, others will remain stable or increase when the mar- ket decreases. A well-diversified portfolio may include short- and long-term bonds of varying credit risk, cash equivalents (in other words, money market funds), all sorts of equity securities (value, growth, large-cap, small-cap, and so on), real-estate investments, commodities, pre- cious metals, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406920784">
+<p class="block-en">To hedge against credit risk (the risk that bond issuers will default), you can purchase some more secure debt securities issued by the U.S. government (T-bills, T-notes, T-bonds, and so forth),</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406920912">
+<p class="block-en">debt securities issued by local governments (municipal bonds and municipal notes), debt securi- ties by higher-rated corporations, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921040">
+<p class="block-en">To hedge against the risk that a security doesn’t keep pace with inflation, you can purchase stocks (best answer in for an SIE question), variable annuities, real estate, commodities (raw materials or agricultural products), or even Treasury Inflation-Protected Securities (TIPS).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921168">
+<p class="block-en">Just as there are many types of risk (as you can see in the previous sections “Systematic risk” and “Nonsystematic risk”), there are different ways to hedge against risk, depending on which risk you’re concerned about. The preceding are just a few examples. Options can also be used to hedge against the risk of a security you own going in the wrong direction. The best way to limit risk for most investors is to have a diversified portfolio. You must also understand that in most cases, older investors can’t afford to take as much risk. For SIE exam purposes, the main thing you need to remember is that hedge means to protect.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406921296">
+<h2>Deciding what to buy: Fundamental analysis</h2>
+<div class="block-zh">决定买什么：基本面分析</div>
+</section>
+<section class="block paragraph" id="block-4406921424">
+<p class="block-en">Although most analysts use some combination of fundamental analysis and technical analysis to make their securities recommendations, for SIE exam purposes, you need to be able to differentiate between the two types. This section discusses fundamental analysis; I cover techni- cal analysis later in the section “Deciding when to buy: Technical analysis.”</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921552">
+<p class="block-en">Fundamental analysts perform an in-depth analysis of companies. They look at the management of a company and its financial condition (balance sheets, income statements, the industry, management, earnings, and so on) and compare with other companies in the same industry. They can also compare many years of financial statements to help determine whether a company is heading in the right direction. In addition, fundamental analysts look at the overall economy and industry conditions to determine whether an investment is good to buy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921808">
+<p class="block-en">In simplest terms, fundamental analysts decide what to buy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921680">
+<p class="block-en">A fundamental analyst’s goal is to determine the value of a particular security and decide whether it’s underpriced or overpriced. If they believe the security is underpriced, a fundamental analyst recommends buying the security; if they believe the security is overpriced, they recommend selling outright or selling the security short.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921936">
+<p class="block-en">The following sections explain some of the fundamental analyst’s tools of the trade and how to</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922064">
+<p class="block-en">use them.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406922192">
+<h3>Balance sheet components</h3>
+<div class="block-zh">资产负债表的组成部分</div>
+</section>
+<section class="block paragraph" id="block-4406922320">
+<p class="block-en">The balance sheet provides an image of a company’s financial position at a given point in time. The SIE exam tests your ability to understand the components of a balance sheet (see Figure 13-1) and how financial moves that the company makes (buying equipment, issuing stock, issuing bonds, paying off bonds, and so on) affect the balance sheet. In general, understanding how a balance sheet works is more important than being able to name all the components.</p>
+<p class="block-zh">资产负债表展示了公司在特定时间点的财务状况。理解资产负债表的运作原理，比能够叫出所有组成部分的名称更重要。</p>
+</section>
+<section class="block paragraph" id="block-4406922448">
+<p class="block-en">People call this statement a balance sheet because the assets must always balance out the liabili- ties plus the stockholders’ equity.</p>
+<p class="block-zh">人们称这份报表为资产负债表，是因为其**资产必须始终等于负债加上股东权益**。</p>
+</section>
+<section class="block paragraph" id="block-4406922704">
+<p class="block-en">FIGURE 13-1:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922832">
+<p class="block-en">Components of a balance</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922960">
+<p class="block-en">sheet.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922576">
+<p class="block-en">Assets are items that a company owns. They include</p>
+<p class="block-zh">资产是公司拥有的项目。它们包括：</p>
+</section>
+<div class="block list-item" id="block-4406923216">
+<div class="block-en">• Current assets: Owned items that are easily converted into cash within the next 12 months; included in current assets are cash, marketable securities, accounts receivable, inventory, and</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923472">
+<p class="block-en">any prepaid expenses (like rent or advertising).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923600">
+<p class="block-en">Note: Fundamental analysts also look at methods of inventory valuation, such as LIFO (last-in- first-out) or FIFO (first-in-first-out). In addition, they look at the methods of depreciation, which are either straight line (depreciating an equal amount each year) or accelerated (depreciating more in earlier years and less in later years).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406923344">
+<div class="block-en">• Fixed assets: Owned items that aren´t easily converted into cash; included are property, building(s), furniture, and equipment. Because many fixed assets wear down or become</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923728">
+<p class="block-en">outdated over time, they can be depreciated (except for land). Therefore, accumulated depreciation is usually deducted from fixed assets.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406923984">
+<div class="block-en">• Intangible assets: Owned items that don’t have any physical properties; included are items</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923856">
+<p class="block-en">such as trademarks, patents, formulas, copyrights, goodwill, and so on. (Created when a corporation purchases or merges with another company, goodwill is the dollar amount paid above the fair market value to purchase that company.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923088">
+<p class="block-en">Liabilities are what a company owes. They may be current or long-term:</p>
+<p class="block-zh">负债是公司欠下的债务。它们包括：</p>
+</section>
+<div class="block list-item" id="block-4406924240">
+<div class="block-en">• Current liabilities: Debt obligations that are due to be paid within the next 12 months;</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406924368">
+<p class="block-en">included in current liabilities are accounts payable (what a company owes in bills), wages, debt securities due to mature, short-term notes payable (the balance due on money borrowed), declared cash dividends, and taxes.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924624">
+<div class="block-en">• Long-term liabilities: Debt obligation due to be paid after 12 months; included in long-term liabilities are mortgages, bank loans, outstanding corporate bonds, and long-term notes.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406924496">
+<p class="block-en">Stockholders’ equity (net worth) is the difference between the assets and the liabilities (basically,</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406924112">
+<p class="block-en">what the company is worth). This value includes</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407241168">
+<div class="block-en">• Par value of the common stock: The arbitrary amount that the company uses for book- keeping purposes; if a company issues 1 million shares of common stock with a par value</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407230544">
+<p class="block-en">of $1, the par value on the stockholders´ equity portion of the balance sheet is $1 million.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407230800">
+<div class="block-en">• Par value of the preferred stock: The value that the company uses for bookkeeping</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407231056">
+<p class="block-en">purposes (usually $100 per share but could be $25, $50, $1,000, or some other number); if the company issues 10,000 shares of preferred stock at $100 par, the par value of the stockholders´ equity portion of the balance sheet is $1 million.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407230672">
+<p class="block-en">Unlike common stock, preferred stock has a par value that is typically $100 and a stated divi- dend rate; preferred stock shareholders would also receive money prior to common stock- holders in the event of corporate bankruptcy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407231312">
+<div class="block-en">• Additional paid-in capital: The amount over par value that the company receives for issuing</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407231568">
+<p class="block-en">stock; if the par value of the common stock is $1 but the company receives $7 per share, the additional paid-in capital is $6 per share. The same theory holds true for the preferred stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407231184">
+<div class="block-en">• Treasury stock: Stock that was outstanding in the market but was repurchased by the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407231696">
+<p class="block-en">company.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407231824">
+<div class="block-en">• Retained earnings: The amount of net earnings the company holds after paying out dividends (if any) to its shareholders.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407231440">
+<h3>Income statement components</h3>
+<div class="block-zh">损益表的组成部分</div>
+</section>
+<section class="block paragraph" id="block-4407231952">
+<p class="block-en">An income statement tells you how profitable a company is currently. Income statements list a corporation’s expenses and revenue for a specific period of time (quarterly, year-to-date, or yearly). When comparing revenue and expenses, you should be able to see the efficiency of the company and how profitable it is.</p>
+<p class="block-zh">损益表告诉您公司目前的盈利能力。它列出了公司在特定时间段内的支出和收入。</p>
+</section>
+<section class="block paragraph" id="block-4407232080">
+<p class="block-en">Again, I don’t think you need to actually see a detailed income statement from a company, but knowing the components of an income statement is important. Take a look at Figure 13-2 to see how an income statement is laid out. Most of the items are self-explanatory.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407232208">
+<p class="block-en">FIGURE 13-2:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407232336">
+<p class="block-en">Components of an income statement.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407232464">
+<h2>Deciding when to buy: Technical analysis</h2>
+<div class="block-zh">决定何时买：技术面分析</div>
+</section>
+<section class="block paragraph" id="block-4407232592">
+<p class="block-en">Technical analysts look at the market to identify patterns and measure indicators in an attempt to predict whether the market and/or particular securities will become or remain bullish or bearish. They look at trend lines, trading volume, market sentiment, market indices (Standard & Poor’s [S&P] 500, Dow Jones Industrial Average [DJIA], and so on), options volatility, market momentum, available funds, index futures, new highs and lows, the advance-decline ratio, odd lot volume, short interest, put-to-call ratio (options trading), and so on. These analysts believe that history tends to repeat itself and that past performance of securities and the market indicate its future performance.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407232720">
+<p class="block-en">Fundamental analysts decide what to buy, and technical analysts decide when to buy (timing).</p>
+<p class="block-zh">**基本面分析师决定“买什么”,而技术面分析师决定“何时买” *即择时）。**</p>
+</section>
+<section class="block paragraph" id="block-4407232848">
+<p class="block-en">Technical analysts chart not only the market, but also market sectors and individual securities. Technical analysts try to identify market patterns and patterns of particular securities in an attempt to determine the best time to purchase or sell. Even though a security’s price may vary a lot from one day to another, the prices tend to head in a particular direction (up, down, or side- ways) and create a trend line over a period of time.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407232976">
+<h3>Benchmarks and indices</h3>
+<div class="block-zh">基准与指数</div>
+</section>
+<section class="block paragraph" id="block-4407233104">
+<p class="block-en">If you watch news stations, read the newspaper, listen to the radio, and so on, you can’t help but see or hear about the DJIA or the Nasdaq being up or down. Well, those are indices (indexes) or benchmarks. Benchmarks are typically used to evaluate the performance of individual invest- ments or a group of investments. Most investors compare their investments with certain broad- based or narrow-based indices:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407233360">
+<div class="block-en">• Narrow-based: Narrow-based indices indicate the performance of a particular industry such as the Dow Jones Transportation Index.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233232">
+<div class="block-en">• Broad-based: Broad-based indices are more indicative of the overall market. Broad-based</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407233744">
+<p class="block-en">indices measure securities from many industries.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407233616">
+<p class="block-en">There are certainly more indices than the ones listed, but for SIE exam purposes, you shouldn’t need to memorize them — mainly understand what indices are and that they are often used as benchmarks.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407233872">
+<p class="block-en">Here are examples of some of the broad-based stock indices:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407234256">
+<div class="block-en">• S&P 500 Index: Includes 500 large-cap (companies that have a market capitalization above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407234128">
+<p class="block-en">$10 billion) common stocks.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407234384">
+<div class="block-en">• Wilshire 5000 Total Market Index: The largest of all stock indexes; includes 5,000 listed</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407234512">
+<p class="block-en">common stocks.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407234640">
+<div class="block-en">• Russell 2000 Index: An index of 2,000 small-cap (companies that have a market capitalization between $300 million and $2 billion) companies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234768">
+<div class="block-en">• Lipper Indexes: Track the financial performance of different mutual funds based on their</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407234896">
+<p class="block-en">investment strategy; each Lipper Index tracks the performance of only the largest fund in each category (large-cap growth, mid-cap value, international fund, and so on).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407235024">
+<div class="block-en">• Dow Jones Composite Average: An index that tracks 65 stocks from some of the most prominent companies; the Dow Jones Composite is broken into</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234000">
+<div class="block-en">• Dow Jones Industrial Average (DJIA): Tracks 30 stocks from the industrial sector; the DJIA is the index most commonly used to indicate the performance of the market in general.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235152">
+<div class="block-en">• Dow Jones Transportation Average: Tracks 20 stocks from the transportation sector</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235408">
+<div class="block-en">• Dow Jones Utility Average: Tracks 15 stocks from the utility sector</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407235536">
+<p class="block-en">Proponents of the Dow Theory believe that major market trends are confirmed if the Dow Jones Industrial Average and the Dow Jones Transportation Average are trending in the same direction (that is, both advancing or both declining). Logic dictates that if industrial companies are produc- ing more goods, those same goods need to be transported.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407235664">
+<p class="block-en">Most of the indices listed here are weighted toward larger companies. This means that price movement of the larger companies has a greater impact on the particular index than a smaller company does.</p>
+<p class="block-zh">大多数指数都是**针对大公司加权的**。这意味着大公司的价格变动对指数的影响更大。</p>
+</section>
+<section class="block heading" id="block-4407235792">
+<h3>Stages of the business cycle</h3>
+<div class="block-zh">经济周期的阶段</div>
+</section>
+<section class="block paragraph" id="block-4407235920">
+<p class="block-en">The business cycle is the natural rise and fall of goods and services (gross domestic product, or</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407236048">
+<p class="block-en">GDP) that occur over time. The business cycle has four phases that will occur over and over:</p>
+<p class="block-zh">经济周期有四个循环往复的阶段：</p>
+</section>
+<div class="block list-item" id="block-4407236304">
+<div class="block-en">• Expansion (A in Figure 13-3): Expansion is characterized by increasing demand for goods and services. During expansion, the stock market is generally increasing (bullish), property values</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407236560">
+<p class="block-en">are increasing, and industrial production is increasing. Expansion also can be characterized</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407236432">
+<p class="block-en">as recovery.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407236688">
+<div class="block-en">• Peak (B in Figure 13-3): The peak occurs at the top of the expansion phase and happens right</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407236816">
+<p class="block-en">before the economy starts to contract.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407237072">
+<div class="block-en">• Contraction (C in Figure 13-3): Contraction is characterized by higher levels of consumer debt, a stock market that is generally decreasing (bearish), a decreasing demand for goods and</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407236944">
+<p class="block-en">services, and an increasing number of bond defaults and bankruptcies.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407237456">
+<div class="block-en">• Trough (D in Figure 13-3): Trough is the lowest part of the contraction phase and happens right</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407237200">
+<p class="block-en">before the economy starts to expand (recover) again.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407237328">
+<p class="block-en">FIGURE 13-3:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407237712">
+<p class="block-en">The four phases of the business</p>
+<p class="block-zh">经济周期的阶段</p>
+</section>
+<section class="block paragraph" id="block-4407237584">
+<p class="block-en">cycle.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407236176">
+<p class="block-en">If asked to place these phases in order on the SIE exam, you can put them in order just as they’re</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407237840">
+<p class="block-en">given in the preceding list.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407237968">
+<h3>Bullish versus bearish</h3>
+</section>
+<section class="block paragraph" id="block-4407238096">
+<p class="block-en">When thinking of whether the market is bullish or bearish, think of the terms. You can think of bullish as charging ahead. So, if the market is bullish, it is generally increasing in value. If the market is bearish, it is generally hibernating or sleeping. When the market is bearish, it is gener- ally decreasing in value.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407238224">
+<p class="block-en">Individuals can be bullish or bearish on the market in general or bullish or bearish on certain</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407238480">
+<p class="block-en">securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407238864">
+<div class="block-en">• Bullish strategies include buying individual stocks, buying mutual funds, buying call options, selling uncovered (naked) put options, and so on.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407238352">
+<div class="block-en">• Bearish strategies include selling short individual stocks, buying bearish funds (funds that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407238992">
+<p class="block-en">generally increase in value in a declining market), buying inverse exchange-traded funds (ETFs), selling uncovered (naked) call options, buying put options, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407238608">
+<h1>Following the Green: Money Supply</h1>
+<div class="block-zh">顺势而为：货币供应与货币政策</div>
+</section>
+<section class="block paragraph" id="block-4407239248">
+<p class="block-en">The money supply heavily affects the market. If the money supply is higher than average, typi- cally interest rates go down, people usually borrow more money, and people spend more money. That all sounds great, but the situation can lead to some negatives, such as higher inflation and the weakening of U.S. currency in relation to foreign currency. The Federal Reserve Board (the Fed or FRB) tries to do a balancing act to help the economy grow at a slow and steady rate. This sec- tion deals with how the money supply affects the market and the tools that the Fed uses to control the money supply.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407239120">
+<p class="block-en">The Fed controls the monetary policy, but the fiscDl policy is controlled by government politicians (the House, the Senate, and ultimately signed by the president). The fiscal policy is typically included in budget decisions and includes how much the U.S. government will borrow (and how), how much it will spend (and on what), how much money will be raised through taxes, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407239504">
+<p class="block-en">To put it in a nutshell, so to speak, you can think of monetary and fiscal policies like this:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407239632">
+<div class="block-en">• Monetary policy = money supply, interest rates</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407239760">
+<div class="block-en">• Fiscal policy = borrowing, spending, taxes</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407239376">
+<h2>Influencing the money supply</h2>
+</section>
+<section class="block paragraph" id="block-4407240016">
+<p class="block-en">Changes in money supply can affect rates of economic growth, inflation, and foreign exchange, so knowing a bit about monetary policy can help you predict how certain securities will fare and how interest rates will change. Take a look at Table 13-1 to see what easing and tightening the money supply can do.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407240144">
+<p class="block-en">TABLE 13-1  Effects of Easing and Tightening the Money Supply</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407239888">
+<p class="block-en">When the money supply is eased (resulting in easy money), interest rates in general decrease. The</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407240272">
+<p class="block-en">Fed can ease the money supply by</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407240656">
+<div class="block-en">• Buying U.S. government securities in the open market</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407240400">
+<div class="block-en">• Lowering the discount rate, reserve requirements, and/or Regulation T (although changing Reg</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407240912">
+<p class="block-en">T isn’t likely)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407240784">
+<div class="block-en">• Printing U.S. currency</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407240528">
+<p class="block-en">Occasionally, the Fed has to tighten the money supply. (Remember that the Fed wants the U.S. economy to grow at a slow, steady pace.) When the money supply is tightened (resulting in tight money), interest rates across the board increase. The Fed can tighten the money supply by</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407241296">
+<div class="block-en">• Selling U.S. government securities (pulling money out of the banking system)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241552">
+<div class="block-en">• Increasing the discount rate, increasing reserve requirements, and/or raising Regulation T</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407241424">
+<p class="block-en">The following section tells you more about these tools.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407241680">
+<h2>Opening the Federal Reserve Board’s toolbox</h2>
+<div class="block-zh">’s toolbox 打开美联储的工具箱</div>
+</section>
+<section class="block paragraph" id="block-4407217744">
+<p class="block-en">The Fed has the authority on behalf of the U.S. government to lend money to banks; it determines the interest rate charged to banks for these loans. You probably remember the chairman of the Fed (currently, Jerome Powell) coming on TV to announce an increase or decrease in the discount rate (the rate the Fed charges banks for loans) and what a big deal it was. The rate the Fed charges affects the rates banks charge one another and their public customers. Because banks charge customers higher rates than the Fed charges banks, the Fed policy affects consumers as well (through credit card fees, mortgage loans, auto loans, and so on):</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407225296">
+<p class="block-en">Fed $   banks $   customers $</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407218384">
+<p class="block-en">The Fed has a few tools in its arsenal to help control the money supply. (The preceding section explains the effects of tightening and easing the supply.) Here’s what you need to understand about these tools for the SIE:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407229008">
+<div class="block-en">• Open market operations: Besides the printing of money, this is the tool the Fed uses most</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407215184">
+<p class="block-en">often. Open market operations are the buying or selling of U.S. government bonds or U.S. government agency securities to control the money supply. Open market operations are performed by the Federal Open Market Committee (FOMC). If the Fed sells securities, it pulls money out of the banking system; if the Fed purchases securities in the open market, it puts money into the banking system.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407215312">
+<div class="block-en">• The discount rate: This value is the rate that the 12 Federal Reserve Banks charge member banks for loans. If the discount rate increases, the money supply tightens; by contrast, if the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407215440">
+<p class="block-en">discount rate decreases, the money supply eases.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407215568">
+<div class="block-en">• Reserve requirement: The reserve requirement is the percentage of customers’ money that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407215696">
+<p class="block-en">banks are required to keep on deposit in the form of cash. In line with the theory of supply and demand, if the Fed increases the reserve requirement, banks have less money to lend to customers, so interest rates increase.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407215952">
+<div class="block-en">• Regulation T: Reg T is the percentage that investors must pay when purchasing securities on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407215824">
+<p class="block-en">margin (see Chapter 12 for details). Regulation T is currently set at 50 percent, and it doesn´t change very often. If the Fed raises the rate, investors have less cash, which tightens the money supply.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407226704">
+<h3>Exchange rates</h3>
+<div class="block-zh">汇率</div>
+</section>
+<section class="block paragraph" id="block-4407216080">
+<p class="block-en">Exchange rates are the rates at which one currency can be converted to another. As you can imag- ine, exchange rates are constantly changing as the value of currency in different countries appre- ciates, stays the same, or depreciates. Some investors even speculate in foreign currencies, hoping to be able to purchase a foreign currency when its value is low in the hope that it will appreciate so that they can sell it at a higher value. Certainly, many things can affect the value of a currency, such as a change in a country’s social policies, taxing policies, economy, government, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407216208">
+<p class="block-en">You can assume for SIE exam purposes that the value of the U.S. dollar and foreign currency go in opposite directions. The exchange rate is considered to be a ĶoDting rDte because it changes constantly.</p>
+<p class="block-zh">*   出于 SIE 考试的目的，您可以假设美元和外币的价值走势是**相反的**。 *   汇率被认为是**浮动汇率**，因为它是不断变化的。</p>
+</section>
+<section class="block heading" id="block-4407216336">
+<h3>U.S. balance of payments</h3>
+<div class="block-zh">美国国际收支 (U.S. balance of payments)</div>
+</section>
+<section class="block paragraph" id="block-4407216592">
+<p class="block-en">The U.S. bDlDnce of pDyments (BoP) is an accounting of the United States’ economic transactions with the world over a given period of time (typically quarterly or annually). The balance of payments may show a deficit (more money flowing out of the United States than in) or a credit (more money flowing into the United States than out). As such, the value of our currency (strong or weak dollar) greatly affects our balance of trade and, thus, the U.S. BoP.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407216720">
+<p class="block-en">If the U.S. dollar is strong in comparison with other currencies, it will be cheaper for Americans</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407216848">
+<p class="block-en">to buy foreign goods and services. Thus, more money will likely be going out of the United States.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407216976">
+<p class="block-en">If the U.S. dollar is weak in comparison with other currencies, it will be cheaper for foreign corporations, governments, individuals, and so on to purchase U.S. goods and services. As a result, more money will be flowing into the United States.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407217104">
+<p class="block-en">Economic indicators are statistics that help show the performance or direction of the economy and help predict the direction of the economy in the near future. The economic indicators are broken into leading indicators, coincident indicators, and lagging indicators.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407217232">
+<p class="block-en">For the following section, you should pay attention to the indicators toward the top of each indi- cator list because those are the ones most likely to be tested.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407217360">
+<h2>Leading indicators</h2>
+<div class="block-zh">解读经济指标</div>
+</section>
+<section class="block paragraph" id="block-4407217488">
+<p class="block-en">Leading indicators are statistics that indicate how the economy is going to (or likely to) do in the future. Leading indicators include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407216464">
+<div class="block-en">• M2 money supply — the Federal Reserve´s estimate of cash people have on hand plus, money available in checking accounts, savings deposits, money market instruments, and so on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407217872">
+<div class="block-en">• Stock prices</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407218000">
+<div class="block-en">• Fed funds rate (rates that depository institutions [banks and credit unions] charge each other</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407218128">
+<p class="block-en">for overnight loans)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407218512">
+<div class="block-en">• Discount rate (the rate the Fed charges banks for loans)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407218256">
+<div class="block-en">• Reserve requirements (the percentage of customer deposits that the banks must hold)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407218896">
+<div class="block-en">• Housing; new construction (building permits)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407218768">
+<div class="block-en">• Unemployment claims</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407219024">
+<div class="block-en">• Average hours per workweek</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407219280">
+<div class="block-en">• Orders for durable goods (those not for immediate consumption)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407219152">
+<div class="block-en">• Consumer sentiment</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407219408">
+<div class="block-en">• Yield curves (lines that plot interest rates for bonds of different maturities)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407219536">
+<h2>Coincident (coincidental) indicators</h2>
+</section>
+<section class="block paragraph" id="block-4407219664">
+<p class="block-en">Coincident (coincidental) indicators are statistics that indicate how the economy is performing right</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407219792">
+<p class="block-en">now. Coincident indicators include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407220048">
+<div class="block-en">• Industrial production</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407220304">
+<div class="block-en">• Personal income</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407220176">
+<div class="block-en">• GDP</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407220560">
+<div class="block-en">• Number of employees on nonagricultural payrolls and employment levels</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407220432">
+<div class="block-en">• Retail sales</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407219920">
+<h2>Lagging indicators</h2>
+</section>
+<section class="block paragraph" id="block-4407220688">
+<p class="block-en">Lagging indicators are statistics that mirror leading indicators but reach their peaks and troughs somewhat later. Lagging indicators include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407220816">
+<div class="block-en">• The prime rate (the rate that banks charge their best customers for loans)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221200">
+<div class="block-en">• Outstanding industrial and commercial loans</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221328">
+<div class="block-en">• Corporate profits</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221584">
+<div class="block-en">• Ratio of consumer credit to personal income</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221456">
+<div class="block-en">• Duration of employment — in other words, how long people stay at their jobs before they retire, become unemployed, or move on to a new job</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221712">
+<div class="block-en">• Unemployment rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407221840">
+<div class="block-en">• Ratio of inventories to sales</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407221072">
+<h2>GDP and GNP: Measuring goods and services</h2>
+<div class="block-zh">与 GNP：衡量商品与服务</div>
+</section>
+<section class="block paragraph" id="block-4407221968">
+<p class="block-en">As you can imagine, gross national product (GNP) and gross domestic product (GDP) are closely related terms. When you are taking the SIE exam, you should understand the difference between the two. Because the SIE is mainly taken by U.S. residents, I focus on the GDP and GNP in U.S. terms. Certainly, the better the GNP and the GDP, analysts would see that as a good sign.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407222224">
+<div class="block-en">• GDP: To cut the information down to what you need to know for the SIE exam, think of the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407222352">
+<p class="block-en">GDP as the total of all goods produced and all services provided by the United States in a one-year period.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407222480">
+<div class="block-en">• GNP: GNP includes the GDP plus the investments made by U.S. businesses and residents</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407222992">
+<p class="block-en">inside and outside the United States. However, the GNP doesn´t count income earned by foreign businesses or residents in the United States. It also excludes products from overseas firms manufactured in the United States.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407222608">
+<p class="block-en">Because inflation occurs over time, the GDP and GNP are measured in constant dollars, which includes the cost of inflation. This is necessary to help determine whether the economy is expand- ing or contracting from year to year.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407222736">
+<p class="block-en">Economic factors affect securities differently. When taking the SIE exam, you are expected to understand how the economy affects cyclical, defensive, and growth companies.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407222864">
+<h2>Cyclical</h2>
+</section>
+<section class="block paragraph" id="block-4407223248">
+<p class="block-en">A cyclical corporation is one in which the performance depends on the economy. If the economy is expanding, cyclical companies will do well. If the economy is contracting, cyclical companies will be heavily affected. Some examples of cyclical corporations are household appliances, automobile companies, tourism, construction, and manufacturing. Obviously, when the economy is not doing well, people will wait to buy that new refrigerator or that new car, wait to go on vacation, and so on. As such, cyclical companies’ stock will likely decrease, and these companies may have prob- lems paying interest on their debt securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407223120">
+<p class="block-en">Countercyclical stocks such as fast food, auto parts, discount retailers, and other investments</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407223504">
+<p class="block-en">such as precious metals may actually do better as the economy gets worse.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407223632">
+<h2>Defensive</h2>
+</section>
+<section class="block paragraph" id="block-4407223760">
+<p class="block-en">Defensive corporations are ones whose sales remain relatively stable no matter how the economy performs. The corporations offer products or services that people will purchase even in a con- tracting economy. Examples of defensive companies include utilities, food, clothing, alcohol, tobacco, and cosmetics.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407223888">
+<h2>Growth</h2>
+</section>
+<section class="block paragraph" id="block-4407224016">
+<p class="block-en">Growth companies, such as technology companies, are ones that are growing at a more rapid pace than comparable companies or the market as a whole. Growth companies are typically the newer companies and are more likely to do extremely well during periods in which the economy is expanding, but they underperform other stocks, such as value stocks, when the economy is con- tracting and the market is bearish. Because growth companies invest a lot of money back into their business, they typically don’t pay much (or anything) in dividends.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407224144">
+<p class="block-en">Economists follow principal economic theories. These theories are important because the admin- istration that’s in power typically nominates people to help run our economy who share their same beliefs. Economists typically believe in one of these theories, and there has been much debate about which one is best for the economy. Fortunately for you, you don’t have to figure that out; you only need to understand the basics of each theory to help you pass the SIE exam. This list describes the three main economic theories that economists usually follow.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407224400">
+<div class="block-en">• Keynesian (demand side): The basis of the Keynesian theory is that government intervention</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407224528">
+<p class="block-en">through fiscal policy is good to help stimulate consumer demand for goods and services. Keynesian policy typically involves raising taxes, enabling deficit spending, borrowing money, and printing currency.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407224656">
+<div class="block-en">• Supply side (Reaganomics): Supply-side economics is the theory that the government should</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407224784">
+<p class="block-en">remain relatively inactive and the economy will grow by itself. According to this theory, the less regulation and the lower the taxes are, the more businesses will reinvest and the more people they will hire.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407224912">
+<div class="block-en">• Monetarist: Monetarists believe that the economy’s performance is largely determined by the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407225168">
+<p class="block-en">money supply (controlled by the Fed). The money supply can be used to fight inflation or to</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407225040">
+<p class="block-en">stimulate the economy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407224272">
+<p class="block-en">This chapter, probably more than any other one, requires you to think about what happens. What happens, for example, if the Fed raises interest rates? Or what happens if a company’s liabilities increase? This type of analysis is important because it helps analysts and investors decide which securities to buy or sell.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407225424">
+<p class="block-en">As with other chapter questions, I try to give you a wide variety of potential questions you may see on the exam.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407225552">
+<h2>Practice questions</h2>
+</section>
+<div class="block list-item" id="block-4407225680">
+<div class="block-en">• Which of the following are defensive industries?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407225808">
+<div class="block-en">• Utilities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407225936">
+<div class="block-en">• Tourism</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226064">
+<div class="block-en">• Household appliances</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226192">
+<div class="block-en">• Food</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226320">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226576">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226448">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226832">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407226960">
+<div class="block-en">• All of the following are examined by a fundamental analyst EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227088">
+<div class="block-en">• earnings per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227216">
+<div class="block-en">• balance sheets</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227344">
+<div class="block-en">• the industry</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227472">
+<div class="block-en">• timing</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227600">
+<div class="block-en">• All of the following are bearish positions EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227728">
+<div class="block-en">• buying inverse ETFs</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227856">
+<div class="block-en">• selling uncovered call options</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407227984">
+<div class="block-en">• selling short</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228112">
+<div class="block-en">• selling naked put options</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228240">
+<div class="block-en">• Which of the following best describes the discount rate?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228368">
+<div class="block-en">• The interest rate that banks charge one another for overnight loans</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228496">
+<div class="block-en">• The interest rate that the banks charge their best customers for loans</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228624">
+<div class="block-en">• The interest rate that the Fed charges banks for loans</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228880">
+<div class="block-en">• The interest rates charged in margin accounts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407228752">
+<div class="block-en">• Melissa wants to invest in a retirement plan that protects against purchasing power risk. Which of the following would be the most suitable investment?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229136">
+<div class="block-en">• Municipal bonds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229264">
+<div class="block-en">• Common stock</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229392">
+<div class="block-en">• Variable annuities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229520">
+<div class="block-en">• Fixed annuities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229648">
+<div class="block-en">• Looking at the stages of the business cycle, if the economy is expanding, what stages would you expect to follow, in order from first to last?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229776">
+<div class="block-en">• Trough</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407229904">
+<div class="block-en">• Peak</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230032">
+<div class="block-en">• Contraction</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230288">
+<div class="block-en">• I, II, III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230160">
+<div class="block-en">• II, III, I</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406771792">
+<div class="block-en">• III, II, I</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776016">
+<div class="block-en">• I, III, II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772048">
+<div class="block-en">• Which TWO of the following actions may the Fed take to ease the money supply?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772176">
+<div class="block-en">• Purchase T-bills</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772304">
+<div class="block-en">• Sell T-bills</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772432">
+<div class="block-en">• Increase reserve requirements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772560">
+<div class="block-en">• Decrease reserve requirements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772688">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772816">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406772944">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773072">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773328">
+<div class="block-en">• All of the following are leading indicators EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773200">
+<div class="block-en">• the prime rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773456">
+<div class="block-en">• M2 money supply</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773584">
+<div class="block-en">• the discount rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773712">
+<div class="block-en">• stock prices</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773840">
+<div class="block-en">• Which of the following is measured in constant dollars?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774096">
+<div class="block-en">• The Fed funds rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406773968">
+<div class="block-en">• The M2 money supply</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774352">
+<div class="block-en">• The prime rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774224">
+<div class="block-en">• GDP</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774480">
+<div class="block-en">• Proponents of the Dow Theory look at</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774608">
+<div class="block-en">• the Dow Jones Composite Average and the DJIA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775120">
+<div class="block-en">• the Dow Jones Utility Average and the Dow Jones Transportation Average</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774864">
+<div class="block-en">• the DJIA and the Dow Jones Transportation Average</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774736">
+<div class="block-en">• the Dow Jones Composite Average and the Dow Jones Utility Average</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406774992">
+<div class="block-en">• Zero-coupon bonds have no</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775248">
+<div class="block-en">• reinvestment risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775376">
+<div class="block-en">• purchasing power risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775504">
+<div class="block-en">• market risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775632">
+<div class="block-en">• interest risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775760">
+<div class="block-en">• All of the following can be found on a corporation’s balance sheet EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406775888">
+<div class="block-en">• fixed assets</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776144">
+<div class="block-en">• long-term liabilities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776272">
+<div class="block-en">• retained earnings</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776528">
+<div class="block-en">• net income</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776400">
+<div class="block-en">• Which of the following is a way an investor can diversify investments?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776784">
+<div class="block-en">• Geographically</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776656">
+<div class="block-en">• Investing in stocks from different sectors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406776912">
+<div class="block-en">• Purchasing bonds with different maturity dates</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777040">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777296">
+<div class="block-en">• A holder of which of the following securities is the most exposed to inflationary risk?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777424">
+<div class="block-en">• U.S. Treasury bonds with ten years until maturity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777552">
+<div class="block-en">• U.S. Treasury bills with one year until maturity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777680">
+<div class="block-en">• Stocks issued by a utility company</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777936">
+<div class="block-en">• Pharmaceutical stocks</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406777808">
+<div class="block-en">• A registered representative from Missed Again Securities is reviewing one of their client’s portfolios. They see that the client has 35 percent invested in TUV Energy Company, 15 percent invested in ETFs tracking the S&P 500, 35 percent in LMN Healthcare Company, 15 percent in</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406778064">
+<p class="block-en">U.S. government securities, and 10 percent in money market funds. Which of the following risks are built into this portfolio?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406778192">
+<div class="block-en">• Liquidity risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406778320">
+<div class="block-en">• Political risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406778448">
+<div class="block-en">• Credit risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406778576">
+<div class="block-en">• Nonsystematic risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406778960">
+<div class="block-en">• Which of the following risks apply to both domestic and foreign debt securities?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406778832">
+<div class="block-en">• Regulatory</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779088">
+<div class="block-en">• Political</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779216">
+<div class="block-en">• Interest rate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779344">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779472">
+<div class="block-en">• The greatest investment risk that an investor would face when purchasing a variable annuity is</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779600">
+<div class="block-en">• interest rate risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779728">
+<div class="block-en">• market risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779856">
+<div class="block-en">• purchasing power risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406779984">
+<div class="block-en">• credit risk</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406780112">
+<h1>Answers and explanations</h1>
+<div class="block-zh">需要翻译]</div>
+</section>
+<div class="block list-item" id="block-4406780240">
+<div class="block-en">• A. Defensive industries are ones that are pretty much resistant to economic downturns. These include utilities, food, clothing, alcohol, tobacco, cosmetics, and so on. Tourism and household appliance–related companies suffer during economic downturns and, therefore, are considered to be cyclical companies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406780368">
+<div class="block-en">• D. Fundamental analysts look at and compare companies. They do an in-depth analysis to help professionals decide which companies would be good or bad investments. So funda- mental analysts help decide what to buy, whereas technical analysts look at the market and help professionals decide when to buy (timing).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406780496">
+<div class="block-en">• D. Bearish strategies are ones in which you want the price of the security to decrease. Bearish strategies include selling short, buying bearish funds, buying inverse exchange- traded funds, selling uncovered (naked) call options, and so on. Selling naked (uncovered) put options is actually a bullish strategy because the investor who holds that position wants the price of the underlying security to increase.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406780752">
+<div class="block-en">• C. The discount rate is the rate that the Fed charges banks for loans. These loans are</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406781008">
+<p class="block-en">typically overnight loans taken by banks to help them meet their reserve requirements.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406781136">
+<div class="block-en">• C. You can cross off (A) and (B) right away because stocks and bonds are not retirement plans. Out of the two annuity plans, variable annuities do not have purchasing power (inflation) risk because the return is based on the performance of the securities held in the separate account. Ideally, the securities will outperform the rate of inflation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781392">
+<div class="block-en">• B. If the economy is expanding, you would expect it to hit a peak at some point. After reaching the peak, the economy would start to contract until hitting the lowest point, which is the trough. After that, you would expect it to start all over again.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781264">
+<div class="block-en">• B. The Fed has a few tools to help ease or tighten the money supply including open market operations, adjusting the discount rate, changing reserve requirements, and raising or lowering Regulation T requirements. Of the choices given, the two that would ease (add money to) the money supply would be inserting money into the system by purchasing U.S. government securities like T-bills and lowering reserve requirements (the percentage of customer deposits banks have to hold each night).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781520">
+<div class="block-en">• A. Leading indicators are those that help give an indication of how the economy is going to do. The main leading indicators are M2 money supply, stock prices, the Fed funds rate, and the discount rate. The prime rate — the rate that banks charge their best customers for loans — is a lagging indicator. Lagging indicators go the same direction as the leading indicators but arrive a little later.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781648">
+<div class="block-en">• D. Both the GDP and GNP are measured in constant dollars. When measuring in constant dollars, they are factoring inflation into the equation to see whether the economy is actually expanding or contracting year to year.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781776">
+<div class="block-en">• C. Proponents of the Dow Theory logically believe that major market trends are confirmed if both the DJIA and the Dow Jones Transportation Average are going the same direction. In other words, companies not only have to be making a lot of goods, but also have to be transporting those goods to be considered a positive sign.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406782160">
+<div class="block-en">• A. Reinvestment risk is the additional risk taken with interest or dividends received. Zero-coupon bonds are issued at a discount and mature at par value. These bonds do not make interest payments along the way, so there is nothing to reinvest.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406781904">
+<div class="block-en">• D. The balance sheet is just a snapshot of the net worth (stockholders’ equity) of a com- pany. The balance sheet includes the company’s assets, liabilities, and stockholders’ equity. Net income is derived from a company’s income statement. The income statement looks at a company’s income minus expenses.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406782032">
+<div class="block-en">• D. Diversification helps investors mitigate investment risk. All the choices listed are ways investors can lessen risk. When dealing with clients, you should always help them diversify their portfolio. It’s the old “don’t put all of your eggs in one basket” theory.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406782288">
+<div class="block-en">• A. Inflationary risk (purchasing power risk) is the risk that inflation can pose to a security or portfolio over time. Treasury bonds (T bonds) have a longer maturity, and if inflation kicks in, the Fed is likely to raise interest rates. If interest rates increase, outstanding bond prices decrease. Longer-term bonds are affected more than shorter-term bonds, like Treasury bills.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406782672">
+<div class="block-en">• D. This investor has 70 percent of their portfolio invested in two different companies (35 percent in TUV and 35 percent in LMN). Therefore, this customer has nonsystematic</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406782416">
+<p class="block-en">(unsystematic or diversifiable) risk built into their portfolio. Nonsystematic risk is the risk that a particular company or industry might do poorly and bring the value of the portfolio down substantially. Obviously, you would look at this portfolio and say that the invest- ments in U.S. government securities, money market funds, and ETFs provide a certain degree of safety. However, those investments are only 30 percent of their portfolio. There- fore, you would likely recommend that the other 70 percent should be spread out to more than two companies.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406782544">
+<div class="block-en">• D. All of the choices listed can apply to both domestic and foreign debt securities. Regula- tory risk is the risk that law changes will affect the market. Political risk is the risk that politics in a particular country could negatively affect securities. Interest rate (money rate) risk is the risk that bond prices will decline due to increasing interest rates.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406782800">
+<div class="block-en">• B. The greatest investment risk that an investor will face when purchasing a variable annuity is market risk. Variable annuities have a separate account where an investor chooses the securities held. The securities held in the account are subject to market risk, which is the risk that the securities can decline due to negative market conditions.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

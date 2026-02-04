@@ -1,0 +1,2690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 16</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: 0px"><a href="#block-4406920272">Meeting the Market Watchdogs: Securities...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406920016">The Securities and Exchange Commission...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406924368">Self-regulatory organizations...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406927568">State regulators...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406932432">Department of the Treasury/IRS...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406932304">FINRA Registration and Reporting...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406932176">Filling out the U4 form...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406930640">Missing the mark: Grounds for disqualifi...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406930768">Handing over your fingerprints...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406930256">Continuing education...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406930000">Firm element...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406929232">Regulatory element...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406929360">What happens when a rep resigns or is te...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406928208">Skipping a step: Who’s exempt from FINRA...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406612560">Adhering to reporting requirements...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406612688">Outside business activities...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406612304">Accounts at other broker–dealers and fin...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406617296">Private securities transactions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406611024">Trading by the Book When...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406611280">Filling out an order ticket...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406615760">Getting the particulars on paper (or in ...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406111952">Designating unsolicited trades...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406112720">A trip to the principal's office: Securi...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406115024">Proportionate sharing...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406115152">Checking your calendar: Payment and sett...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406115536">Safeguarding investor info: Regulation S...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406114640">Confirming a trade...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406841040">Acting in your customers’ best interest...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406837584">SEC Regulation BI (Best Interest) - Rule...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406849104">Financial exploitation of specified adul...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406845264">Borrowing from or lending to...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406839632">Following up with account statements...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406844624">Keeping your dividend dates straight...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406851280">Handling complaints...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406851024">Code of procedure (COP)...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406837456">Code of arbitration...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406842576">Mediation...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406842064">Disseminating info: Appropriate communic...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406846928">Keeping clear records...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407006032">Sticking to the 5 percent markup policy...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407017168">Avoiding violations...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407014864">Following the money: Anti-money- launder...</a></li>
+<li style="padding-left: 45px"><a href="#block-4407003984">Placement...</a></li>
+<li style="padding-left: 45px"><a href="#block-4407014736">Layering...</a></li>
+<li style="padding-left: 45px"><a href="#block-4407003728">Integration...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407172944">Complying with AML rules...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407179856">Working with public info: Following insi...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407181008">Penalties for insider trading...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407180368">Contemporaneous traders...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407176144">The Investor’s Bankruptcy Shield:...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407171792">Holding a customer’s mail...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407174480">Business continuity plans and emergency ...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407170640">Practice questions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407057360">Answers and explanations...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 16</h1>
+            <a href="Chapter_16.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4406921040">
+<p class="block-en">Chapter 16</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923344">
+<p class="block-en">Rules and Regulations:</p>
+<p class="block-zh">第 5 部分：规则与法规</p>
+</section>
+<section class="block paragraph" id="block-4406920784">
+<p class="block-en">No Fooling Around</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923728">
+<p class="block-en">irst off, I’d like to apologize for having to include this chapter. Unfortunately, rules are a part of life and part of the SIE. When you’re reading this, please remember that I didn’t make the rules — but I do my best to make them as easy to digest as possible. Rules have become</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406920528">
+<p class="block-en">increasingly important on FINRA securities exams like the SIE, especially since the Patriot Act came into the picture.</p>
+<p class="block-zh">在包括 SIE 在内的 美国金融业监管局（FINRA）证券考试中，规则变得越来越重要，特别是在《爱国者法案》出台之后。在本章中，我将帮助您了解市场的守护者是谁，以及他们在保护客户和执行规则方面扮演的角色。</p>
+</section>
+<section class="block paragraph" id="block-4406923600">
+<p class="block-en">In this chapter, I cover topics related to rules and regulations. First, I help you understand who the guardians of the market are and their roles in protecting customers and enforcing rules. I also place considerable emphasis on opening, closing, transferring, and handling customers’ accounts. And, of course, I provide practice questions to guide you on your way. At the end, I give you a 30-question chapter quiz to help you test your knowledge.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406920272">
+<h1>Meeting the Market Watchdogs: Securities</h1>
+<div class="block-zh">会见市场监管机构：证券监管组织</div>
+</section>
+<section class="block paragraph" id="block-4406923472">
+<p class="block-en">To keep the market running smoothly and to make sure investors aren’t abused (at least too much), regulatory organizations stay on the lookout. Although you don’t need to know all the minute details about each of them, you do have to know the basics.</p>
+<p class="block-zh">为了确保市场平稳运行并防止投资者受到（哪怕是一点点）侵害，监管组织始终保持警惕。</p>
+</section>
+<section class="block heading" id="block-4406920016">
+<h2>The Securities and Exchange Commission</h2>
+<div class="block-zh">美国证券交易委员会 (SEC)</div>
+</section>
+<section class="block paragraph" id="block-4406921936">
+<p class="block-en">The U.S. Securities and Exchange Commission (SEC) is the major watchdog of the securities industry. Congress created the SEC to regulate securities markets and to protect investors from</p>
+<p class="block-zh">**证券交易委员会（SEC）**是证券行业的主要监管机构。国会成立了证券交易委员会（SEC），旨在监管证券市场并保护投资者免受欺诈和操纵行为的侵害。所有与投资者进行交易的经纪交易商都必须向证券交易委员会（SEC）注册。</p>
+</section>
+<section class="block paragraph" id="block-4406919248">
+<p class="block-en">fraudulent and manipulative practices. All broker–dealers who transact business with investors and other broker–dealers must register with the SEC. And that registration means something: All broker–dealers have to comply with SEC rules or face censure (an official reprimand), limits on activity, their own suspension or suspension of one or more associated persons (such as a regis- tered rep or principal), a fine, and/or having their registration revoked.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922064">
+<p class="block-en">SEC investigations may lead to a civil (financial) complaint being filed in a federal court. The SEC may seek disgorgement (taking away) of ill-gotten gains, civil money penalties, and injunctive relief (a cease-and-desist order from the court). If the matter is criminal in nature, the investiga- tion is conducted by the U.S. attorney’s office and the grand jury.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406919632">
+<p class="block-en">Among its other numerous functions, you need to be aware that the SEC also enforces the follow- ing acts:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406919376">
+<div class="block-en">• The Securities Act of 1933: The Act of 1933 requires the full and fair disclosure of all material information about a new issue.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406922576">
+<div class="block-en">• The Securities Exchange Act of 1934: The Act of 1934, which established the SEC, was</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406922960">
+<p class="block-en">enacted to protect investors by regulating the over-the-counter (OTC) market and exchanges, such as the New York Stock Exchange (NYSE). Chapter 14 tells you more about markets. In addition, the Act of 1934 regulates</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406934864">
+<div class="block-en">• The extension of credit in margin accounts (see Chapter 12)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406934992">
+<div class="block-en">• The registration and regulation of brokers and dealers</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406934608">
+<div class="block-en">• The registration of securities associations</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406934736">
+<div class="block-en">• Transactions by insiders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406922832">
+<div class="block-en">• Customer accounts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406934352">
+<div class="block-en">• Trading activities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406934224">
+<div class="block-en">• The Trust Indenture Act (TIA): This act, formerly called the Trust Indenture Act of 1939,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406922448">
+<p class="block-en">prohibits bond issues valued at more than $50 million (originally $5 million) from being offered to investors without an indenture. The trust indenture is a written agreement that protects investors by disclosing the particulars of the issue (the coupon rate, the maturity date, any collateral backing the bond, and so on). As part of the Trust Indenture Act, all companies</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406933712">
+<p class="block-en">must hire a trustee who´s responsible for protecting the rights of bondholders.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924112">
+<div class="block-en">• The Investment Company Act of 1940: This act regulates the registration requirements and the activities of investment companies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406922320">
+<div class="block-en">• The Investment Advisers Act of 1940: This act requires the registration of certain investment advisers with the SEC. An investment adviser is a person who receives a fee for giving invest-</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406924496">
+<p class="block-en">ment advice. Any investment adviser with at least $25 million of assets under management or anyone who advises an investment company must register with the SEC. All other investment advisers have to register on the state level. The Investment Advisers Act of 1940 regulates</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406922704">
+<div class="block-en">• Record-keeping responsibilities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406922192">
+<div class="block-en">• Advisory contracts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406924624">
+<div class="block-en">• Advertising rules</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406921680">
+<div class="block-en">• Custody of customers´ assets and funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406924368">
+<h2>Self-regulatory organizations</h2>
+<div class="block-zh">自律组织 (SROs)</div>
+</section>
+<section class="block paragraph" id="block-4406921808">
+<p class="block-en">As you can imagine, due to the unscrupulous nature of some investors and registered representa- tives, the SEC’s job is overwhelming. Fortunately, a few self-regulatory organizations (SROs) are there to take some of the burden off of the SEC’s shoulders. Although membership isn’t mandatory, most broker–dealers are members of one or more SROs. SRO rules are usually stricter than those of the SEC.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921552">
+<p class="block-en">The four types of SROs you need to know for the SIE are the FINRA, MSRB, NYSE, and CBOE:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406921424">
+<div class="block-en">• Financial Industry Regulatory Authority (FINRA): FINRA is the SRO responsible for the operation and regulation of the OTC market, investment banking (the underwriting of securi-</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923088">
+<p class="block-en">ties), NYSE trades, investment companies, limited partnerships, and so on. FINRA was created in 2007 and is a consolidation of the National Association of Securities Dealers (NASD) and the regulation and enforcement portions of the NYSE. FINRA is responsible for making sure that its members follow not only FINRA rules, but also the rules set forth by the SEC. Additionally, the FINRA is responsible for handling complaints against member firms and may take disciplinary action if necessary. FINRA is also responsible for administering securities exams such as the SIE. (Now you know who to blame.) FINRA has strict rules (as the other SROs do, I suspect) regarding filing of misleading, incomplete, or inaccurate information concerning membership, the firm´s registration, and the registration of member associates.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924240">
+<div class="block-en">• Municipal Securities Rulemaking Board (MSRB): The MSRB was established to develop rules</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923984">
+<p class="block-en">that banks and securities firms have to follow when underwriting, selling, buying, and recom- mending municipal securities. (Check out Chapter 8 for info on municipal bonds.) The MSRB is subject to SEC oversight but does not enforce SEC rules.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923856">
+<p class="block-en">The MSRB makes rules for firms (and representatives) who sell municipal bonds but don´t enforce them; it leaves enforcement up to FINRA.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406928464">
+<div class="block-en">• NYSE: The NYSE is the oldest and largest stock exchange in the United States. The NYSE is</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406933456">
+<p class="block-en">responsible for listing securities, setting exchange policies, and supervising the exchange and member firms. The NYSE has the power to take disciplinary action against member firms.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406927952">
+<div class="block-en">• Chicago Board Options Exchange (CBOE): The CBOE is an exchange that makes and enforces options exchange rules.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406921168">
+<p class="block-en">Although SROs may be independent, they work together creating and enforcing rules. FINRA and NYSE can fine, suspend, censure (reprimand), and expel members; however, the FINRA and NYSE can’t imprison members who violate the rules and regulations.</p>
+<p class="block-zh">FINRA（美国金融业监管局）和 NYSE（纽约证券交易所）可以对会员处以罚款、暂停执业和开除会员资格；然而，它们**无权监禁**违反规则的会员。</p>
+</section>
+<section class="block paragraph" id="block-4406933200">
+<p class="block-en">Look at SIE questions with the words guarantee or approve in them very carefully. The FINRA, SEC, NYSE, and so on do not approve or guarantee securities. Any statement that says that they do is false. In addition, because a firm is registered with (or didn’t have its registration revoked by) an SRO, it does not mean that the SRO approves of the firm, its financial standing, its business, its conduct, and so on. As such, member firms and their associates may not claim that they’ve been approved by the SEC or any SRO.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406927568">
+<h2>State regulators</h2>
+<div class="block-zh">其他监管机构</div>
+</section>
+<section class="block paragraph" id="block-4406933328">
+<p class="block-en">The North American Securities Administrators Association (NASAA) is devoted to investor protec- tion. It is a voluntary association that consists of 67 regulators. NASAA even predates the creation of the SEC. Its key roles include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406932944">
+<div class="block-en">• Licensing stockbrokers, smaller investment adviser firms (ones managing less than $100 million in assets), and securities firms conducting business in the state.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406927824">
+<div class="block-en">• Registering securities on the state level.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406933072">
+<div class="block-en">• Investigating customer complaints and possible cases of investment fraud.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406932816">
+<div class="block-en">• Enforcing state securities laws. As such, the NASAA may fine, penalize, provide restitution to investors, assist in prosecuting investment-related criminals, and impose new conduct laws to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406926416">
+<p class="block-en">correct problems as they arise.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406932688">
+<div class="block-en">• Examining investment adviser firms and broker-dealers to ensure compliance with securities laws and making sure they keep accurate client records.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406932560">
+<div class="block-en">• Reviewing offerings that are not exempt from state law.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406927184">
+<div class="block-en">• Providing education to investors regarding their rights and providing information so that they can make more informed financial decisions.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406927312">
+<div class="block-en">• Advocating for the passage of state securities laws.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406927440">
+<p class="block-en">When it comes to the SIE exam, don’t go crazy trying to remember every minute detail regarding the NASAA; you’ll have to know more when taking the Series 63, Series 65, or Series 66. Get a general feeling for what they do so that you’re able to recognize them in a question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406932432">
+<h2>Department of the Treasury/IRS</h2>
+</section>
+<section class="block paragraph" id="block-4406927056">
+<p class="block-en">The U.S. Department of the Treasury (USDT) was established to manage U.S. government reve- nue. As such, the USDT oversees the printing of all paper currency and minting of all coins. In addition, it is responsible for collecting taxes through the Internal Revenue Service (IRS); it is responsible for managing U.S. government debt securities (T-bonds, T-notes, T-bills, and so on); it licenses banks; and it helps advise U.S. government branches regarding fiscal policy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406932304">
+<h1>FINRA Registration and Reporting</h1>
+<div class="block-zh">（美国金融业监管局）注册与报告要求</div>
+</section>
+<section class="block paragraph" id="block-4406926928">
+<p class="block-en">Unless an individual is exempt from registration requirements, all brokerage firms have registra- tion and reporting requirements that must be followed for their employees. Financial profession- als must fill out U4 forms, be fingerprinted, pass necessary exams, take continuing education, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406932176">
+<h2>Filling out the U4 form</h2>
+<div class="block-zh">填写 U4 表格</div>
+</section>
+<section class="block paragraph" id="block-4406926800">
+<p class="block-en">Persons wanting to register as financial professionals with FINRA (like you) must submit a U4 form. The application includes things like a ten-year employment history and a five-year resi- dential history; if you’re registered with another firm, how you’re registering (Securities Trader, Financial and Operations Principal, General Securities Representative, and a slew more); states you want to be registered in; and so on. In addition, applicants must submit their fingerprints.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406932048">
+<p class="block-en">All U4 forms (www.finra.org/sites/default/files/form-u4.pdf) must be thoroughly reviewed by a principal of the firm. Background checks must be performed, and the applicant’s employers for the previous three years must be called to verify the applicant’s employment his- tory. The calls must be made within 30 days of the firm receiving the U4 form. Special scrutiny of the applicant is required if the applicant has previously worked in the securities industry. Infor- mation contained in the U4 form must be complete and not misleading.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406926672">
+<p class="block-en">The U4 form also contains an arbitration disclosure, which states that disputes between the appli- cant and the member firm will be settled by arbitration (essentially, you won’t take the firm to court).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406931792">
+<p class="block-en">Although a lot of information listed here can disqualify a person, most of the information follows a common theme —which makes sense; you shouldn’t have to memorize it all, in other words. However, I suggest you be aware of the ten-year disqualification rule if an individual has been convicted (not charged or accused) of a felony or certain misdemeanors. In addition, if a registrant includes misleading information or omits information, their registration will be denied.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406926032">
+<p class="block-en">Note: Nonregistered (unregistered) persons may not solicit customers or take orders. In addition, member firms are prohibited from paying commissions, fees, concessions, discounts, and so on to any person who is not registered. The failure of a member firm to register someone who should be registered will likely end in disciplinary action by FINRA. Nonregistered persons may handle basic questions. (What is your location? Can I leave a message? What are your hours?) In addition, they may send out literature, transfer calls, set up appointments, let customers know about upcoming seminars, and such. They can’t be directly involved in securities business (opening accounts, taking trade orders, soliciting trades, giving quotes, and so on). In the event that a nonregistered person is to handle securities and/or money, they must be fingerprinted.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406930640">
+<h2>Missing the mark: Grounds for disqualification</h2>
+</section>
+<section class="block paragraph" id="block-4406931920">
+<p class="block-en">A person will be stDtutorily dis¢uDlified from membership from FINRA under the following circumstances:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406926288">
+<div class="block-en">• If they had a felony criminal conviction or certain misdemeanor convictions within the last ten years.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406931536">
+<div class="block-en">• If they have had a temporary or permanent injunction (no matter what the injunction´s age) issued by a court involving a long list of unlawful investment activities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406926160">
+<div class="block-en">• If they have been expelled, barred, or are currently suspended from membership or participa-</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406931664">
+<p class="block-en">tion in another self-regulatory organization. This holds true even if the person has been barred with the right to reapply.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406925904">
+<div class="block-en">• If they have been barred or current suspension orders are coming from the SEC, Commodity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406931408">
+<p class="block-en">Futures Trading Commission (CFTC), or any other appropriate authority or regulatory agency. As with the preceding rule, this holds true even if the person has been barred with the right to reapply.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406925776">
+<div class="block-en">• If they have been denied or had their registration revoked by the CFTC, SEC, or any other appropriate authority or regulatory agency.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406931152">
+<div class="block-en">• If it has been found that a member or person has made certain false statements in their application, in reports, or in proceedings before the SEC, SROs, or any other appropriate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406925648">
+<p class="block-en">regulatory authority or agency.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406931280">
+<div class="block-en">• If any final order from a state securities commission (or from any agency or state officer performing similar functions), savings association, credit union, any state authority that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406925520">
+<p class="block-en">examines or supervises banks, state insurance commission (or any office or agency perform- ing similar functions), an appropriate federal banking agency, or the National Credit Union Administration.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406926544">
+<div class="block-en">• Bars said person from association with an entity (such as a broker-dealer, investment advisory firm, and so on) regulated by such commission, agency, authority, or officer, or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406925136">
+<p class="block-en">from engaging in the business of banking, insurance, securities, savings association activities, or credit union activities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406931024">
+<div class="block-en">• Constitutes a final order based on violations of any regulations or laws that prohibit manipulative, fraudulent, or deceptive conduct.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406925264">
+<div class="block-en">• If the SEC, CFTC, or any SRO finds that a person</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406930896">
+<div class="block-en">• "Willfully" violated federal securities laws, "willfully" violated commodities laws, or "willfully" violated MSRB rules.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406929616">
+<div class="block-en">• "Willfully" aided, commanded, induced, abetted, counseled, or procured violations as set forth in the preceding rule.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406925392">
+<div class="block-en">• Failed to supervise another person who committed violations as set forth in rule number one.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406930768">
+<h2>Handing over your fingerprints</h2>
+</section>
+<section class="block paragraph" id="block-4406925008">
+<p class="block-en">Under SEC Rule 17f-2 (you don’t have to remember the rule number), all employees of a broker- age firm are required to be fingerprinted if they are involved in any of the following activities:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924880">
+<div class="block-en">• Making sales</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406930512">
+<div class="block-en">• Handling assets (cash and/or certificates)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406935120">
+<div class="block-en">• Accessing original books and records</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406929744">
+<div class="block-en">• Supervising any of the preceding activities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406930384">
+<p class="block-en">Fingerprints are always required when a person is applying for registration. The fingerprints must be submitted as well as the U4 form. If FINRA doesn’t receive the fingerprints within 30 days of the U4 being submitted, the applicant’s registration will be deemed inactive.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406928080">
+<p class="block-en">The information you provide and your investment professional history don’t remain in a bubble. The Central Registration Depository’s (CRD’s) BrokerCheck (https://brokercheck.finra.org/) allows investors access to vital information that they may need to help them pick the right firm and the right professional, like you. Don’t worry; it won’t disclose your address, Social Security number, and the like. However, it will disclose complaints against you and your employer, where you and your employer are registered, exams you passed, how many years you’ve been in the business, if you were convicted or pled guilty to a crime, if you or your broker have been expelled from an SRO, and so on. If a member maintains a website, the site must provide a link to BrokerCheck.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406930256">
+<h2>Continuing education</h2>
+<div class="block-zh">后续教育 (Continuing education)</div>
+</section>
+<section class="block paragraph" id="block-4406930128">
+<p class="block-en">Yes, even after you’ve passed your securities exams like this one, you’re not done. You’re required to take continuing education programs as required by FINRA. These are to make sure that you are up-to-date with any new laws and that you remember the existing ones. Two elements of con- tinuing education are required: the firm element and the regulatory element.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406930000">
+<h3>Firm element</h3>
+</section>
+<section class="block paragraph" id="block-4406929872">
+<p class="block-en">Member firms must have annual meetings covering the services and strategies offered by the firm. In addition, the meeting must cover any recent regulatory developments, if any. The meet- ings must be interactive and allow people to ask questions. All registered persons who have direct contact with the public must attend the meeting. All firms must have continuing and current education programs for their covered employees.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406929232">
+<h3>Regulatory element</h3>
+</section>
+<section class="block paragraph" id="block-4406929488">
+<p class="block-en">All registered persons are required to take a computer-based training session covering FINRA regulations by December 31st of each year. In the event that the training isn’t taken within the required period, the person’s securities license(s) will be deactivated until it’s completed. If the registered person’s licenses have been deactivated for two years, the individual will be adminis- tratively terminated. If administratively terminated, the person must reapply for registration.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406929360">
+<h2>What happens when a rep resigns or is terminated</h2>
+<div class="block-zh">当代表辞职或被解雇时</div>
+</section>
+<section class="block paragraph" id="block-4406929104">
+<p class="block-en">If you leave your firm for whatever reason, the member firm you were working for has to file a U5 form with the CRD within 30 days of the date you resigned or were terminated. You will also receive a copy for your records. The U5 form requires the member firm to provide an explanation of why you left or why you were terminated. If you’re moving to a new member firm, your new employer must file a new U4 form and receive a copy of the U5 filed by your former employer.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406928720">
+<p class="block-en">Things sometimes change, so if something on your U4 or U5 form is or becomes inaccurate, your firm must update the information on the CRD. This could be something as simple as an address change or something a tad more complex — a violation of some kind or (Heaven forbid) a felony conviction.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406928336">
+<p class="block-en">Don’t wait too long going from one firm to another. After a U5 form has been filed on your behalf, you have up to two years to get registered with another firm or you’ll have to take your securities exams all over again. You certainly don’t want that to happen.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406928208">
+<h2>Skipping a step: Who’s exempt from FINRA registration</h2>
+</section>
+<section class="block paragraph" id="block-4406933584">
+<p class="block-en">Certain individuals who work for a member firm are exempt from FINRA registration. These include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406928848">
+<div class="block-en">• Persons whose functions are solely clerical or ministerial</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406928976">
+<div class="block-en">• Persons solely affecting transactions on the floor of a national securities exchange and who are registered with that exchange</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406608336">
+<div class="block-en">• Persons whose function is solely and exclusively involved in transactions of municipal securities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406615376">
+<div class="block-en">• Persons whose function is solely and exclusively involved in transactions of commodities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406608848">
+<div class="block-en">• Persons whose function is solely and exclusively involved in transactions in securities futures, as long as that person is registered with a registered futures association</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406612560">
+<h2>Adhering to reporting requirements</h2>
+<div class="block-zh">报告要求与活动</div>
+</section>
+<section class="block paragraph" id="block-4406615120">
+<p class="block-en">Under FINRA Rule 4530, member firms must report specified events, including quarterly statistical and summary information regarding customer complaints as well as copies of certain civil and criminal actions. Members must report promptly (no later than 30 days after the member knows or should’ve known about the event) if the member (or associated person of the member)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406613968">
+<div class="block-en">• Has been found to have violated any securities-related or non-securities-related investment laws or standards of conduct by a U.S. or foreign regulatory organization.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406608720">
+<div class="block-en">• Is the subject of a written customer complaint involving allegations of theft or misappropria- tion of funds or securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406614608">
+<div class="block-en">• Is the subject of a written customer complaint involving allegations of forgery.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406614352">
+<div class="block-en">• Has been named as a defendant or respondent in a proceeding brought by a U.S. or foreign regulatory body alleging a violation of rules.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406609872">
+<div class="block-en">• Has been denied registration, suspended, expelled, or disciplined by a U.S. or foreign regula- tory organization.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406614096">
+<div class="block-en">• Is indicted, convicted of, or pleads guilty to any felony or certain misdemeanors in or outside the United States.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406608080">
+<p class="block-en">The preceding list includes firm reporting requirements under Rule 4530, but firms are required to report certain other events, too. These include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406609744">
+<div class="block-en">• Outside business activities (covered in the following section).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406613712">
+<div class="block-en">• Private securities transactions — transactions outside the broker-dealer´s normal business, in</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406612944">
+<p class="block-en">other words. For argument´s sake, say that an associate of a firm has a client who wants to trade options but their firm doesn´t trade options because it doesn´t have an options principal. In this case, with the permission of their firm, they can accept the order from their client and do the trade through another firm.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406617808">
+<div class="block-en">• Political contributions and consequences for exceeding dollar contribution thresholds (see "Avoiding violations" later in the chapter).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406617936">
+<div class="block-en">• Felonies, financial-related misdemeanors, liens, bankruptcies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406612688">
+<h3>Outside business activities</h3>
+</section>
+<section class="block paragraph" id="block-4406609488">
+<p class="block-en">While you’re building your business and getting new clients, you may feel the need to make a few extra bucks working another job. If so, you must notify your brokerage firm in writing. However, you don’t need to receive written permission to work the other job. Your member firm may reject or restrict your outside work if it feels there is a conflict of interest. (Volunteering does not require written notification.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406612304">
+<h3>Accounts at other broker–dealers and financial institutions</h3>
+</section>
+<section class="block paragraph" id="block-4406617552">
+<p class="block-en">Although you probably won’t do this, persons associated with a member firm may open an account at another member firm (executing firm) with prior written permission from the employ- ing firm. The associated person must also let the executing firm know that they are working for another member firm. Duplicate confirmations and statements must be sent to the employing firm if requested.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406617296">
+<h3>Private securities transactions</h3>
+</section>
+<section class="block paragraph" id="block-4406613200">
+<p class="block-en">When involved in a private securities transaction, associated persons must provide written notice to their employing firm. These take place when an associated person is involved in a securities transaction outside of their normal business and outside of their employing member firm.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406612048">
+<p class="block-en">If an associated person would like to enter into a private securities transaction, they must:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406611792">
+<div class="block-en">• Provide written notice to their employing firm</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406616656">
+<div class="block-en">• Explain their role in the possible transaction</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406611536">
+<div class="block-en">• Describe complete details of the possible transaction</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406616400">
+<div class="block-en">• Disclose whether they will receive compensation (what type and/or dollar amount) for the transaction</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406616912">
+<p class="block-en">Whether the associated person receives compensation or not, the employing firm must provide approval. Transactions for immediate family members in which the associated person does not receive compensation are not considered private securities transactions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406611024">
+<h1>Trading by the Book When</h1>
+</section>
+<section class="block paragraph" id="block-4406616144">
+<p class="block-en">After you’ve opened a new account, you have to follow additional rules and regulations to keep working in the business. You need to know how to receive trade instructions and how to fill out an order ticket, as well as settlement and payment dates for different securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406611280">
+<h2>Filling out an order ticket</h2>
+</section>
+<section class="block paragraph" id="block-4406615888">
+<p class="block-en">When you’re working as a registered rep, completing documents such as order tickets will become second nature because you’ll have them in front of you. When you’re taking the SIE, you don’t have that luxury, but you still need to know the particulars about what to fill out.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406615760">
+<h3>Getting the particulars on paper (or in binary form)</h3>
+</section>
+<section class="block paragraph" id="block-4406613584">
+<p class="block-en">When your customer places an order, you have to fill out an order ticket. Order tickets may be on paper or entered electronically, which happens more often. Regardless of how you enter the order, it needs to contain the following information:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406111824">
+<div class="block-en">• The registered rep´s identification number</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406111184">
+<div class="block-en">• The customer´s account number</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406110544">
+<div class="block-en">• The description of the security (stocks, bonds, symbol, and so on)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406112336">
+<div class="block-en">• The number of shares or bonds that are being purchased or sold</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406110288">
+<div class="block-en">• Whether the registered rep has discretionary authority over the account</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406111568">
+<div class="block-en">• Whether the customer is buying, selling long (selling securities that are owned), or selling short (selling borrowed securities; see Chapter 12)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406111312">
+<div class="block-en">• For option tickets, whether the customer is buying or writing (selling), is covered or uncovered, and is opening or closing (see Chapter 11 for info on options)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406111440">
+<div class="block-en">• Whether it´s a market order, good-till-canceled (GTC) order, day order, and so on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406110672">
+<div class="block-en">• Whether the trade is executed in a cash or margin account</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406106576">
+<div class="block-en">• Whether the trade was solicited or unsolicited</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406111696">
+<p class="block-en">Figure 16-1 shows you what standard paper order tickets may look like.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406110416">
+<p class="block-en">FIGURE 16-1:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406112208">
+<p class="block-en">Buy and sell order tickets have spaces for the info you need</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406115920">
+<p class="block-en">to make a</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406110800">
+<p class="block-en">trade.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406111952">
+<h3>Designating unsolicited trades</h3>
+</section>
+<section class="block paragraph" id="block-4406112464">
+<p class="block-en">Normally, you’ll be recommending securities in line with a customer’s investment objectives. If, however, the customer requests a trade that you think is unsuitable, it’s your duty to inform them about it. You don’t have to reject the order. (It’s the customer’s money to do with is they see fit and, when all is said and done, you’re in the business to generate commissions.) If the customer</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406112592">
+<p class="block-en">still wants to execute the trade, simply mark the order as unsolicited, which takes the responsibil-</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406113488">
+<p class="block-en">ity off your shoulders.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406112720">
+<h3>A trip to the principal's office: Securing a signature</h3>
+</section>
+<section class="block paragraph" id="block-4406112976">
+<p class="block-en">Principals are designated managers of a firm. All brokerage firms must have at least two principals (unless the firm is a sole proprietorship). When you open or trade an account, you have to bring the new account form or order ticket to a principal to sign. Principals need to approve all new accounts, all trades in accounts, and all advertisements and sales literature; they also handle all complaints (lucky break for you!), oversee employees, and watch for potential red flags. (Note: A principal doesn’t have to approve a prospectus or your recommendations to your customers.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406113104">
+<p class="block-en">Although you’ll generally bring an order ticket to a principal right after taking an order, the prin- cipal can sign the order ticket later in the day. If you’re questioned about this on the SIE exam, you want to answer that the principal needs to approve the trade on the same day, not before or immediately after the trade.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406115024">
+<h3>Proportionate sharing</h3>
+</section>
+<section class="block paragraph" id="block-4406113232">
+<p class="block-en">Members or associated persons are prohibited from sharing in the profits or losses in a custom- er’s account. An exception to this rule is if the associated person contributed to the account. In that case, the associated person needs a written authorization from the customer and principal and the profits and/or losses are shared by the customer and associated member based on the percentage contributed. Exempt from the rule of proportional sharing are accounts of immediate family (parents, mother-in-law, father-in-law, spouse, or children) of the associated member.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406115152">
+<h2>Checking your calendar: Payment and settlement dates</h2>
+</section>
+<section class="block paragraph" id="block-4406113360">
+<p class="block-en">Securities that investors purchase have different payment and settlement dates. Here’s what you need to know:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406115408">
+<div class="block-en">• Trade date: The day the trade is executed. An investor who buys a security owns the security as soon as the trade is executed, whether or not they have paid for the trade.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406115664">
+<div class="block-en">• Settlement date: The day the issuer updates its records and the certificates are delivered to the buyer´s brokerage firm.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406113616">
+<div class="block-en">• Payment date: The day the buyer of the securities must pay for the trade.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406114128">
+<p class="block-en">Unless the question specifically asks you to follow FINRA or NYSE rules (which I doubt it will), assume the Fed regular way settlement and payment dates as they appear in Table 16-1. The FINRA and NYSE rules both require payment for securities to be made no later than the settlement date, but the Federal Reserve Board states that the payment date for corporate securities is four business days after the trade date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406114896">
+<p class="block-en">Cash trades (which are same-day settlements) require payment for the securities and delivery of the securities on the same day as the trade date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406113744">
+<p class="block-en">In certain cases, securities may not be able to be delivered as in the preceding chart. In these cases, the seller may specify that there’s going to be a delayed delivery. There can also be a mutually agreed upon date in which the buyer and seller agree on a delayed delivery date prior to or at the time of the transaction.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406113872">
+<p class="block-en">TABLE 16-1  Regular Way Settlement and Payment Dates</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406114768">
+<p class="block-en">The when, as, and if issued (when-issued transaction) method of delivery is used for a securities issue that has been authorized and sold to investors before the certificates are ready for delivery. This method is typically used for stock splits, new issues of municipal bonds, and Treasury securities (U.S. government securities). The settlement date for when-issued securities can be any of the following:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406112848">
+<div class="block-en">• A date to be assigned</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406114384">
+<div class="block-en">• Two business days after the securities are ready for delivery</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406115792">
+<div class="block-en">• On the date determined by FINRA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406115536">
+<h2>Safeguarding investor info: Regulation S-P</h2>
+</section>
+<section class="block paragraph" id="block-4406116048">
+<p class="block-en">According to Regulation S-P, broker–dealers, investment companies, and investment advisers must “adopt written policies and procedures that address administrative, technical, and physical safeguards for the protection of customer records and information.” This means that members must provide a way for securing customers’ nonpublic personal information, such as Social Secu- rity numbers, bank account information, or any other personally identifiable financial informa- tion. Members must provide customers a notice of their privacy policies. Members may disclose a customer’s nonpublic information to unaffiliated third parties unless the customer opts out and chooses not to have his information shared. A firm must include their policies to protect to the security of a customer’s nonpublic information in their customer privacy and opt-out notices. Members must make every effort to safeguard customers’ information, including securing com- puters, encrypting emails, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406114640">
+<h2>Confirming a trade</h2>
+</section>
+<section class="block paragraph" id="block-4406111056">
+<p class="block-en">A trDde confirmDtion (receipt of trade) is the document you send to a customer after a trade has taken place. You have to send out trade confirmations after each trade, at or before the completion of the transaction (the settlement date). Here’s a list of information included in the confirmation:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406110928">
+<div class="block-en">• The customer´s account number</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406114512">
+<div class="block-en">• The registered rep´s ID number</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406114256">
+<div class="block-en">• The trade date</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406845776">
+<div class="block-en">• Whether the customer bought (BOT), sold (SLD), or sold short</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406116176">
+<div class="block-en">• A description of the security purchased or sold</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406851792">
+<div class="block-en">• The number of shares of stock or the par value of bonds purchased or sold</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406848720">
+<div class="block-en">• The yield (if bonds)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847056">
+<div class="block-en">• The Committee on Uniform Security Identification Procedures (CUSIP) number (a security ID number, in other words)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406850000">
+<div class="block-en">• The price of the security</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406837328">
+<div class="block-en">• The total amount paid or received, not including commission or any fees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406839504">
+<div class="block-en">• The commission, which is added on purchases and subtracted on sales (if the broker-dealer purchased for or sold from its own inventory, the markdown or markup doesn´t have to be</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406851536">
+<p class="block-en">disclosed)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406851920">
+<div class="block-en">• The net amount, or the amount the customer paid or received after adding or subtracting the commission (if the investor purchased or sold bonds, the accrued interest is added or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406848848">
+<p class="block-en">subtracted during this calculation)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406852688">
+<div class="block-en">• Whether the trade was executed on a principal or agency basis (the capacity)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406852176">
+<p class="block-en">You should recognize the items listed in the preceding list, which are required for most securities trades including municipal bonds. However, the MSRB tends to be a little stricter and also requires the following information:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406846544">
+<div class="block-en">• Whether the member acted as an agent for both the customer and another person for the same trade</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406853456">
+<div class="block-en">• The time of execution for institutional accounts or transactions in municipal fund securities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406849872">
+<div class="block-en">• The settlement date</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406850256">
+<div class="block-en">• Yield-to-maturity or yield-to-call, whichever is lower</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406853200">
+<div class="block-en">• Final monies, including the total dollar amount of the transaction and accrued interest if applicable</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406841680">
+<div class="block-en">• Whether there´s any credit backing the securities (for revenue bonds, the source of revenue; or if there´s insurance backing the bonds)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406841168">
+<div class="block-en">• Any special features of the bonds (callable, puttable, stepped coupon, book entry only, and so on)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406840528">
+<div class="block-en">• Information on the status of the securities (pre-refunded, called, escrowed to maturity, securities in default, and so on)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406840272">
+<div class="block-en">• Tax information (taxable, nontaxable, subject to alternative minimum tax, original issue discount)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406841040">
+<h2>Acting in your customers’ best interest</h2>
+</section>
+<section class="block paragraph" id="block-4406838864">
+<p class="block-en">As part of your job, your clients’ interest has to come before your own. So besides understanding your clients’ needs, you need to follow and understand regulatory rules as well.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406837584">
+<h3>SEC Regulation BI (Best Interest) - Rule 15i-1</h3>
+</section>
+<section class="block paragraph" id="block-4406839888">
+<p class="block-en">SEC Regulation BI was established recently to enhance the Securities Exchange Act of 1934. All broker–dealers are required to act in the best interest of their customers. In that regard, broker– dealers are required to comply with the following rules:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406838992">
+<div class="block-en">• They´re required to disclose all relationships with their clients in writing. This includes letting clients know whether they´re acting as a broker or dealer in a trade, disclosing fees for</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406839248">
+<p class="block-en">non-trade related services, the services they provide, and any potential conflicts of interest.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406852048">
+<div class="block-en">• They must provide a Form CRS (customer relationship survey) to each client prior to the initial recommendation to that client.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406851664">
+<div class="block-en">• They must use reasonable care, skill, and diligence when making recommendations to clients.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406848208">
+<div class="block-en">• They must establish procedures to disclose potential conflicts of interest to customers when making recommendations.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406848464">
+<div class="block-en">• They must establish procedures to enforce compliance with Regulation BI.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406849104">
+<h3>Financial exploitation of specified adults</h3>
+</section>
+<section class="block paragraph" id="block-4406852304">
+<p class="block-en">With people living longer and the number of seniors increasing, FINRA recently created rules to help curb or handle cases of financial exploitations of specified adults (seniors — natural persons (living human being) aged 65 or older — and natural persons aged 18 or older who have mental or physical impairments that render them unable to protect their own interests). For specified adults, financial institutions must obtain the information of a trusted contact person whom they can contact regarding unusual trading activity in the account.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406849232">
+<p class="block-en">FINRA defines the term finDnciDl eXploitDtion as</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406852432">
+<div class="block-en">• "the wrongful or unauthorized taking, withholding, appropriation, or use of a Specified Adult´s funds or securities"; or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406852816">
+<div class="block-en">• "any act or omission by a person, including through the use of a power of attorney, guardian- ship, or any other authority regarding a Specified Adult to:"</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406852944">
+<div class="block-en">• "obtain control, through deception, intimidation or undue influence, over the Specified Adult´s money, assets, or property"; or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406849488">
+<div class="block-en">• "convert the Specified Adult´s money, assets or property."</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406849616">
+<p class="block-en">In the event that a member believes that the financial exploitation of specified adults has or may be taking place, Rule 2165 allows the member to place a temporary hold on the disbursement of the specified adult’s funds or securities. If a temporary hold has been put in place, the member has up to two business days to contact all parties involved in the transaction as well as the trusted contact person (unless the member believes that they are involved in the exploitation) to describe the reason(s) for the temporary hold. The hold typically lasts up to 15 business days, which may be extended, while being reviewed.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406846800">
+<p class="block-en">The SIE and other FINRA exams cover topics related to protecting seniors, including</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406845904">
+<div class="block-en">• Firms´ marketing and communications to investors age 65 and older</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406845648">
+<div class="block-en">• Information required when opening an account for a senior</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406846160">
+<div class="block-en">• Any disclosures provided to senior investors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406850640">
+<div class="block-en">• Complaints filed by senior investors as well as how the firm handles the complaints</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847440">
+<div class="block-en">• Supervision of registered reps as they communicate with senior investors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847184">
+<div class="block-en">• The suitability and types of securities marketed and sold to senior investors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406850128">
+<div class="block-en">• The training of a firm´s representatives as to how they are to handle the accounts of specified adults</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406845136">
+<p class="block-en">FINRA recently created a helpline (844-57-HELPS) for seniors to provide support and assistance.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406845264">
+<h2>Borrowing from or lending to</h2>
+</section>
+<section class="block paragraph" id="block-4406847696">
+<p class="block-en">Registered persons associated with a member firm are prohibited from borrowing money from a customer or lending money to a customer unless the member firm has written procedures allow- ing borrowing and lending money between registered persons and customers and one of the fol- lowing applies:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406851152">
+<div class="block-en">• The customer is a member of the registered person´s immediate family (spouse, mother, father, mother-in-law, father-in-law, children).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406845008">
+<div class="block-en">• The customer is a financial institution such as a bank that is in the business of providing credit, financing, or loans.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406841936">
+<div class="block-en">• The customer and the registered person are both registered under the same member firm.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406841424">
+<div class="block-en">• The customer and the registered person have a personal relationship outside the broker- customer relationship.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406844752">
+<div class="block-en">• The customer and the registered person have a business relationship outside the broker- customer relationship.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406844880">
+<p class="block-en">This only works if the member firm allows borrowing from or lending to customers. The regis- tered member would have to notify and get written approval from their firm prior to entering into a buying or lending arrangement unless it’s not required in the firm’s written rules.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406839632">
+<h2>Following up with account statements</h2>
+</section>
+<section class="block paragraph" id="block-4406844496">
+<p class="block-en">An account statement gives the customer information about their holdings in the account along with the market value at the time the statement was issued. Customers are required under FINRA rule 2231 to receive account statements quarterly (once every three months). The account state- ment needs to include all account activity, securities positions, and money balances during the period from the time the customer received the previous account statement. For mutual funds, no matter how much (or little) trading was done, a customer needs to receive an account statement semiannually (every six months).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406840912">
+<p class="block-en">Customers may want to know how their accounts are doing, and they may wonder about the condition of the firm that they’re working with. So upon request by a customer, a member firm must disclose its financial condition by delivering its most recent balance sheet (not income statement). The balance sheet may be delivered in paper form or in electronic form (email) if the customer agrees to the electronic delivery.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406844624">
+<h2>Keeping your dividend dates straight</h2>
+<div class="block-zh">理清股息日期</div>
+</section>
+<section class="block paragraph" id="block-4406841552">
+<p class="block-en">When customers are purchasing securities of a company that’s in the process of declaring or pay- ing a dividend, you need to be able to tell those customers whether they’re entitled to receive the dividend. Because stock transactions settle in two business days, the customers are entitled to the dividend if they purchase the securities at least three days prior to the record date. Here’s a list of the four need-to-know dates for the SIE exam:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406840016">
+<div class="block-en">• Declaration date: The day that the corporation officially announces that a dividend will be paid to shareholders. On the declaration date, the dividend amount, the record date, and the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406844112">
+<p class="block-en">payment date, will be announced.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406840144">
+<div class="block-en">• Ex-dividend date (ex-date): The first day that the stock trades without dividends. An investor</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406843984">
+<p class="block-en">purchasing the stock on the ex-dividend date isn´t entitled to receive the dividend; because stock transactions take two business days to settle, the ex-dividend date is automatically one business day before the record date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406840400">
+<p class="block-en">The ex-dividend date is the day that the price of the stock is reduced by the dividend amount. (Chapter 6 tells you more about dividends and related calculations.) When a stock is purchased ex-dividend (on or after the ex-dividend date), the seller is entitled to the dividend, not the buyer. Because the dividend may not be paid for up to a month and sometimes longer, the buyer is required to sign a due bill indicating that the dividend belongs to the seller. In the case of a cash dividend, the due bill is in the form of a due bill check, which is payable on the date the dividend is paid by the issuer. In addition, if an investor buys a stock on time to receive a dividend but for some reason will not receive the certificates on time (by the record date), the seller must send a due bill to the buyer. A due bill states that the buyer is entitled to the rights of ownership even though they´ve not yet received the certificates.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406843856">
+<div class="block-en">• Record date: The day the corporation inspects its records to see who gets the dividend. To receive the dividend, the investor must be listed as a stockholder in company records.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406839760">
+<div class="block-en">• Payment (payable) date: The day that the corporation pays the dividend to eligible stockholders.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406844368">
+<p class="block-en">As you can see from the diagram, the buyer receives the dividend if they purchase the stock before the ex-dividend date. If the stock is purchased on or after the ex-dividend date, the seller receives the dividend.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406843728">
+<p class="block-en">To help you remember the sequence of dates, use the phrase Don’t Eat Rubber Pickles. I know it sounds ridiculous, but the more ridiculous, the easier it is to remember.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406839376">
+<p class="block-en">The board of directors must announce three dates: the declaration date, the record date, and the payment date. The ex-dividend date doesn’t need to be announced because it’s automatically one business day before the record date. However, mutual funds have to announce all four dates because they may set their ex-dividend date at any time (even on the record date).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406839120">
+<p class="block-en">The following question tests your ability to answer a dividend question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406843344">
+<p class="block-en">Wedgie Corporation has just announced a 50-cent cash dividend. If the record date is Tuesday, March 9, when is the last day an investor can purchase the stock and receive the dividend?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406838480">
+<div class="block-en">• March 4</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406843600">
+<div class="block-en">• March 5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838608">
+<div class="block-en">• March 7</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406843472">
+<div class="block-en">• March 8</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406837840">
+<p class="block-en">The answer you’re looking for is (B). For an investor to purchase the stock and receive a previously declared dividend, they must purchase the stock at least one business day before the ex-dividend date. This question is a little more difficult because you have a weekend to take into consideration.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406843216">
+<p class="block-en">The ex-dividend date is March 8, which is one business day prior to the record date. This investor has to buy the stock before the ex-dividend date in order to receive the dividend, so they have to buy it March 5 or before (because the 6th and 7th are Saturday and Sunday). The last day an investor can purchase the stock and receive the dividend is March 5.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406838224">
+<p class="block-en">If a stock is sold short (if the investor is selling a borrowed security), the lender of the stock sold short is entitled to receive the dividend. (See Chapter 9 for details on margin accounts.) Also, the trades in the example problems are regular way settlement (three business days after the trade date); remember that cash transactions settle on the same day as the trade date. In the case of dividends, if an investor purchases stock for cash, they receive the dividend if they purchase the stock anytime up to and including the record date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406851280">
+<h2>Handling complaints</h2>
+</section>
+<section class="block paragraph" id="block-4406837968">
+<p class="block-en">It’s bound to happen sooner or later, no matter how awesome you are as a registered rep: One of your customers is going to complain about something (like unauthorized trades, guarantees, and so on). Complaints aren’t considered official unless they’re in writing. If necessary, FINRA wants you to follow the proper procedure for handling complaints. The following sections cover formal and informal proceedings.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406851024">
+<h3>Code of procedure (COP)</h3>
+</section>
+<section class="block paragraph" id="block-4406837712">
+<p class="block-en">The code of procedure is FINRA’s formal procedure for handling securities-related complaints between public customers and members of the securities industry (broker–dealers, registered reps, clearing corporations, and so on). The public customer has the choice of resolving the com- plaint via the formal code of procedure or the informal code of arbitration. (See the next section.) All complaints going through code of procedure must be responded to by the firm within 25 days after receipt of the customer complaint.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406842448">
+<p class="block-en">In the code of procedure, the FINRAs’s Department of Enforcement (DOE) is responsible for investigating suspected violations. In the event that the investigation leads to what the DOE believes is a violation, the DOE will hold a hearing. If the customer or member isn’t satisfied with the results, they can appeal the decision to the FINRA board of governors. Decisions are appeal- able all the way to federal appellate courts.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406837456">
+<h3>Code of arbitration</h3>
+</section>
+<section class="block paragraph" id="block-4406842960">
+<p class="block-en">The code of arbitration is an informal hearing (heard by neutral arbiter or a panel of arbiters) that’s primarily conducted for disputes between members of the FINRA. Members include not only broker–dealers but also individuals working for member firms.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406841808">
+<p class="block-en">If you (a registered rep) have a dispute with the broker–dealer that you’re working for, you can take the broker–dealer to arbitration. If a customer has a complaint against a broker–dealer or registered rep, the customer has the choice of going through code of procedure (see the preceding section) or code of arbitration, unless the customer has given prior written consent (usually by way of the new account form) stating that they will settle disputes only through arbitration.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406842832">
+<p class="block-en">The decisions in arbitration are binding and nonappealable, so they’re less costly than court action. If a member firm or person associated with that member firm fails to comply with the terms of the arbitration (in the case of a loss) within 15 days of notification, FINRA reserves the right to suspend or cancel the firm’s or person’s membership.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406842576">
+<h3>Mediation</h3>
+</section>
+<section class="block paragraph" id="block-4406842704">
+<p class="block-en">If an investor and/or broker–dealer are looking for a more informal way to handle disputes, they may voluntarily decide to go to mediation. Disputes settled through mediation are heard by an independent third party. Unlike arbitration, mediation is nonbinding.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406842320">
+<p class="block-en">Not all complaints end up going to arbitration, to mediation, or go through the code of procedure. Sometimes, the complaints are the result of miscommunication, such as instances in which the customer made a mistake, a customer feels they were charged too much commission, and so on. A lot of these complaints can be handled internally without the need for progression. However, all complaints need to be kept on file along with any action taken.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406842064">
+<h2>Disseminating info: Appropriate communications</h2>
+</section>
+<section class="block paragraph" id="block-4406842192">
+<p class="block-en">To help promote their business and to keep customers up-to-date, member firms continually send out sales literature, publish ads, run commercials, send out research reports, have scripted seminars, and so on. As you can imagine, ads and such cannot omit material facts, exaggerate, or be fraudulent or misleading, and must also explain the potential risks along with the potential benefits. You’ve probably heard the disclaimers “Past performance does not indicate future per- formance” and “People can and do lose money” in radio ads. Believe me, they wouldn’t put those in unless they had to.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406851408">
+<p class="block-en">FINRA divides communication into three categories:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406848080">
+<div class="block-en">• Correspondence: Any written communication (including electronic) distributed or made available to 25 or fewer retail investors (ones that are not institutional investors) within a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406850384">
+<p class="block-en">30-calendar-day period.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406853328">
+<div class="block-en">• Retail communication: Similar to correspondence (see the preceding bullet) but made available to more than 25 retail investors within a 30-calendar-day period.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847824">
+<div class="block-en">• Institutional communication: Any written communication (including electronic) distributed or made available only to institutional investors, but not including a member´s internal</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406847568">
+<p class="block-en">communications. Institutional investors include government entities, member firms and registered persons, employee benefit plans, a person acting solely on behalf of any such institutional investor, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406847952">
+<p class="block-en">As with just about everything that happens at a brokerage firm, retail communications must be approved by a qualified principal of the firm. Research reports on particular securities must be approved by a supervisory analyst who has expertise in the particular product. Testimonials (if any) must be made by a person who has the knowledge and experience to have a valid opinion. Member firms are in many cases required to file retail communications with FINRA ten business days prior to first use. Members are required to keep the communications for a minimum of three years.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406846928">
+<h2>Keeping clear records</h2>
+</section>
+<section class="block paragraph" id="block-4406846416">
+<p class="block-en">As you can imagine, member firms must keep certain records on file. Depending on which records they are, there are certain SEC retention requirements. The records do not necessarily need to be kept in printed format; they can be kept digitally as long as they are in a nonerasable format.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406846672">
+<p class="block-en">Corporate or partnership documents of the member firm must be kept for the lifetime of the firm. The documents must contain the list of officers, partners, and/or directors of the firm. Addition- ally, U4 forms of all active employees must be kept as long as the firm is in business.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406846032">
+<p class="block-en">The following records must be kept for a minimum of siX yeDrs:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406847312">
+<div class="block-en">• Blotters: Blotters are records of original entry relating to the purchase and sale of securities, the receipt and deliver of securities, as well as the records of receiving or delivering cash.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407003856">
+<div class="block-en">• Ledgers: Customer account statements, which include trade settlement dates.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407008208">
+<div class="block-en">• General ledgers: A firm´s financial statements, which must be updated monthly. A general ledger includes the firm´s assets, liabilities, and net worth.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407008976">
+<div class="block-en">• Position record: A record of all the securities owned by the firm and its location.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407007440">
+<div class="block-en">• Account record: Terms and conditions of margin accounts and cash accounts.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407003472">
+<div class="block-en">• Closed accounts: Records of customers who´ve closed accounts.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407002960">
+<p class="block-en">Note: Like FINRA rules, MSRB rules require blotters, ledgers, closed accounts, and position records to be kept for six years. However, MSRB also requires records relating to the underwriting of municipal securities, complaints (FINRA, four years), supervisory records, and gift records to be kept for six years.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407009744">
+<p class="block-en">The following records must be kept for a minimum of three yeDrs:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407001936">
+<div class="block-en">• U4 forms, U5 forms, and fingerprints of former employees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407009232">
+<div class="block-en">• Trade confirmations</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407008720">
+<div class="block-en">• Order tickets</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407007952">
+<div class="block-en">• Advertisements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407004112">
+<div class="block-en">• Sales literature</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407005520">
+<div class="block-en">• Dividends and interest received in each account</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407006928">
+<div class="block-en">• Powers of attorney</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407007568">
+<div class="block-en">• Speeches/public appearances</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407005264">
+<div class="block-en">• Compliance procedure manuals</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407003600">
+<div class="block-en">• Gifts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407006288">
+<div class="block-en">• Compensation records of associates</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407004624">
+<p class="block-en">Note: MSRB rules require members to maintain certain records for four years. These include sub- sidiary ledgers, trades, confirmations, terms and conditions of customer accounts, checkbooks and canceled checks, delivery of official statements, public communications, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407005008">
+<p class="block-en">Whether the records have to be kept for three years, six years, or whatever, they have to be easily accessible for two years (FINRA and MSRB).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407002704">
+<p class="block-en">As you can imagine, strict penalties are enforced for falsification, improper maintenance, or improper retention of records. FINRA reserves the right to inspect the books, records, and accounts of all member firms and their associates. All regulatory requests by FINRA for specified books, records, or accounts should be supplied by the member firm promptly.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407004752">
+<p class="block-en">Brokers and investors must follow numerous rules to keep themselves from facing fines or worse. In this section, I list a few of the more important rules.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407006032">
+<h2>Sticking to the 5 percent markup policy</h2>
+</section>
+<section class="block paragraph" id="block-4407002448">
+<p class="block-en">The 5 percent policy (FINRA 5 Percent Markup Policy) is more of a guideline than a rule. The policy was enacted to make sure that investors receive fair treatment and aren’t charged exces- sively for broker–dealer services in the OTC market. The guideline says that brokerage firms shouldn’t charge commissions, markups, or markdowns of more than 5 percent for standard trades.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407001296">
+<p class="block-en">The following trades are subject to the 5 percent markup policy:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407001680">
+<div class="block-en">• Principal (dealer) transactions: A firm buys securities for (or sells securities from) its own inventory and charges a markdown or markup.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407001168">
+<div class="block-en">• Agency (broker) transactions: A firm acts as a middleman (broker) and charges a commission.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407001424">
+<div class="block-en">• Riskless (simultaneous) transactions: A firm buys a security for its own inventory for immediate resale to the customer (riskless to the firm).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407014224">
+<div class="block-en">• Proceeds transactions: A firm sells a security and uses the money to immediately buy another security. You must treat this transaction as one trade. (You can´t charge on the way</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407009872">
+<p class="block-en">out and on the way in.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407009616">
+<p class="block-en">The 5 percent markup policy covers over-the-counter trDdes of outstDnding, noneXempt securities Mith public customers. If securities are exempt from SEC registration or if they’re new securities that require a prospectus, they’re exempt from the 5 percent policy. Additionally, if a dealer pays</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407001552">
+<p class="block-en">$20 per share to have a security in inventory (dealer cost), and the market price is $8 per share, the dealer can’t charge customers $20 per share so that it doesn’t take a loss.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407009488">
+<p class="block-en">Under extenuating circumstances, the brokerage firm may charge more. Justifiable reasons for charging more (or less) than 5 percent include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407009360">
+<div class="block-en">• Experiencing difficulty buying or selling the security because the market price is too low or too high.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407013840">
+<div class="block-en">• Handling a small trade. If a customer were to place an order for $100 worth of securities, you´d</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407009104">
+<p class="block-en">lose your shirt if you were to charge only 5 percent ($5); in this case, you wouldn´t be out of line if you were to charge 100 percent. By the same token, if a customer were to purchase $1 million worth of securities, 5 percent ($50,000) would be considered excessive.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407013712">
+<div class="block-en">• Encountering difficulty locating and purchasing a specific security.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407017296">
+<div class="block-en">• Trading nonliquid securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407008848">
+<div class="block-en">• Executing transactions on foreign markets.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407013968">
+<p class="block-en">Note: The 5 percent markup policy is a guideline that member firms should use when making trades. However, firms may also charge customers for services performed other than trading securities. These services include collection of monies due for principal, interest, or dividends. They may also charge for the exchange or transfer of securities or the safekeeping of customers’ securities. The main thing for you to remember is that the charges should be reasonable and not unfairly discriminatory.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407017168">
+<h2>Avoiding violations</h2>
+</section>
+<section class="block paragraph" id="block-4407013584">
+<p class="block-en">It’s up to your firm and you to understand violations and avoid them. FINRA expects its members and their representatives to “observe high standards of commercial honor and just and equitable principles of trade.”</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407008592">
+<p class="block-en">You need to be aware of some violations not only for the SIE exam but also so you stay out of trou- ble. Of course, the entire book and this chapter are filled with rules and violations. However, some violations can be summed up in a sentence or two (or three); that’s what this section is for. Some of the violations are more connected with broker–dealers, some with registered reps, and some with investment advisers. Violators are subject to sanctions such as fines, censures, suspensions, expulsions, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407012432">
+<div class="block-en">• Commingling of funds: Combining a customer´s fully paid and margined securities or combining a firm´s securities with customer securities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407008336">
+<div class="block-en">• Interpositioning: Having two securities dealers act as agents for the same trade so that two commissions are earned on one trade</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407016784">
+<div class="block-en">• Giving (or receiving) gifts: Giving or receiving a gift of more than $100 per customer per year. Non-cash business expenses (lunch, dinner, hotel rooms, travel expenses, occasional tickets to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407013456">
+<p class="block-en">a sporting event, and so on) are exempt from this rule.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407008080">
+<div class="block-en">• Making political contributions (paying to play): Under the Investment Advisers Act of 1940, investment advisers are prohibited from providing investment advisory services for a fee to a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407016912">
+<p class="block-en">government client for two years after a contribution is made. This rule applies not only to the adviser, executives, and employees making contributions to certain elected officials, but also to candidates who may later be elected. In addition, investment advisers are prohibited from soliciting contributions for elected officials or candidates if the investment adviser is seeking or providing government business.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407013328">
+<div class="block-en">• Falsifying or withholding documents: Firms cannot make up information or withhold needed documents from customers or any SRO.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407007696">
+<div class="block-en">• Signatures of convenience: Basically, forging a customer´s signature even if approved by the customer is a violation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407016656">
+<div class="block-en">• Guarantees: Members and associates are prohibited from making guarantees against loss in any securities transaction or in any securities account of a customer.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407013200">
+<div class="block-en">• Improper use: Members and associates are prohibited from making improper use of a customer´s securities or funds.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407007312">
+<div class="block-en">• Freeriding: Allowing a customer to buy and then sell the same securities without paying for</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407016528">
+<p class="block-en">the purchase. Under Regulation T, if a customer purchases and sells the same security in a cash account without paying for the security, their account will be restricted for 90 days. For that 90-day period, the customer will have to pay in full before purchasing securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407013072">
+<div class="block-en">• Backing away: Failure on the part of a securities dealer to honor a firm quote.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407016400">
+<div class="block-en">• Churning: A violation whereby a registered rep excessively trades a customer´s account for the sole purpose of generating commission.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407012944">
+<div class="block-en">• Use of manipulative, deceptive, or other fraudulent devices: Members are prohibited</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407016272">
+<p class="block-en">from inducing the sale or purchase of any security by means of manipulation, deception, or any other fraudulent device or contrivance.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407012816">
+<div class="block-en">• Trading ahead of research reports: No member shall trade a security based on information received from a research report prior to that research report being released publicly.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407006672">
+<div class="block-en">• Trading ahead of customer orders: Members are prohibited from placing their order ahead</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407012688">
+<p class="block-en">of a customer´s order. Their job is to get their customer the best price, and placing their order ahead of the customer´s will likely cause the customer to get a worse price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407006416">
+<div class="block-en">• Not disclosing a financial relationship with the issuer: It is a violation to not disclose if your firm has a financial relationship with the issuer, where financial relationship is defined as being</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407015120">
+<p class="block-en">controlled by, having a controlling interest in, or being under common control with the issuer. In the event that there is a financial relationship, it must be disclosed (given to or sent to) the customer prior to the completion of the transaction.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407012560">
+<div class="block-en">• Frontrunning: A violation in which a registered rep executes a trade for themselves, their firm, or a discretionary account based on knowledge of a block trade (10,000 shares or more)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407006160">
+<p class="block-en">before the trade is reported on the ticker tape.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407016016">
+<div class="block-en">• Prearranging trades: A prearranged trade is an illegal agreement between a registered rep and a customer to buy back a security at a fixed price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407012304">
+<div class="block-en">• Paying for referrals: Members or persons associated with a member (for example, registered reps) are prohibited from paying cash or noncash compensation to any person except those</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407005904">
+<p class="block-en">registered with the member firm or other FINRA members. A violation occurs in the event that compensation is paid to a nonmember for locating, introducing, or referring a client.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407015888">
+<p class="block-en">Some violations include some sort of market manipulation. These include</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407012176">
+<div class="block-en">• Market rumors: Members are prohibited from spreading false market rumors that may prompt others to either buy or sell a security.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407005776">
+<div class="block-en">• Pump and dump: This is fake news that most often happens with penny stocks. In this case, the promoters send out mass emails or regular mail to paint a glowing report on a particular</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407015760">
+<p class="block-en">security, thus pumping it up. Because of the positive reports, many investors purchase the security and drive the price up. At that point, the promoters sell (dump) their shares for a nice profit.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407012048">
+<div class="block-en">• Excessive trading: A violation whereby a trader places both buy and sell orders on the same security around the same time, thus making it look like there´s a lot of trading activity on that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407005648">
+<p class="block-en">security.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407015632">
+<div class="block-en">• Marking the open/marking the close: Executing a series of trades within minutes of the open or close to manipulate the price of a security.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407010896">
+<div class="block-en">• Matching orders: Illegally manipulating the price of a security to make the trading volume</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407005392">
+<p class="block-en">appear larger than it really is, such as two brokerage firms working in concert by trading the same security back and forth.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407015504">
+<div class="block-en">• Painting the tape: Creating the illusion of trading activity due to misleading reports on the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407011024">
+<p class="block-en">consolidated tape, such as reporting a trade of 10,000 shares of stock as two separate trades for 5,000 shares each.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407005136">
+<div class="block-en">• Paying the media: A violation in which brokerage firms or affiliated persons pay an employee</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407015376">
+<p class="block-en">of the media (website, newspaper, magazine, radio, TV show, and so on) to affect the price of a security, such as paying a TV stock expert to recommend a security that the firm has in its inventory.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407011920">
+<div class="block-en">• Anti-intimidation/Coordination: Members may not intimidate (threaten, harass, coerce, and</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407004880">
+<p class="block-en">so on) other members into changing their price(s) on a security. In addition, a member may not coordinate with another member to adjust the price of a security.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407016144">
+<p class="block-en">It is also considered a violation for a member firm to distribute cash or noncash compensation to the employees of another member firm regarding the sale and distribution of securities unless all of the following apply:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407004496">
+<div class="block-en">• The compensation is not conditional on sales by the other firm.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407011792">
+<div class="block-en">• It has prior approval from the other member firm.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407014992">
+<div class="block-en">• The total amount of compensation does not exceed the limit of $100 per year.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407011664">
+<p class="block-en">Noncash compensation could be season tickets for the Jets, sending someone on vacation, gift certificates, and so on. Providing an occasional meal, ticket to a sporting event, and such are con- sidered acceptable business entertainment expenses as long as they’re neither too expensive nor too frequent. And certain noncash expenses are considered okay as long as they’re business- related — paying for a business dinner, paying for a seminar, providing airline tickets, and so on. In addition, you don’t have to keep track of things that provide advertising, such as pens with your name on them, coffee mugs with your picture, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407004240">
+<p class="block-en">Also, FINRA wants to make sure that members and their associates are making recommendations based on their belief that they fall in line with their customer’s investment strategy and their belief that the product(s) recommended is/are the right one(s). So to curb potential conflict of interest, similar cash and noncash compensation rules are put in place for program sponsors, such as investment companies. FINRA just wants to make sure that recommendations are not based on the fact that members or their associates owe someone.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407014864">
+<h2>Following the money: Anti-money- laundering rules</h2>
+</section>
+<section class="block paragraph" id="block-4407011536">
+<p class="block-en">The Bank Secrecy Act establishes the U.S. Treasury Department as the regulator for anti- money-laundering (AML) programs. All broker–dealers are required to develop programs to detect possible money-laundering abuses. In addition, all broker–dealers must review the Office of Foreign Asset Control’s (OFAC) Specially Designated Nationals (SDN) list to make sure that they’re not doing business with individuals or organizations that are on the list. Anti-money- laundering programs are designed to help prevent dirty money that has been cleaned (made to look like it came from a legitimate source) from being used to fund terrorist activities, illegal arms sales, drug trafficking, and so on. Here are three stages of money laundering that you must be aware of for the SIE exam (please, don’t try this at home):</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407003984">
+<h4>Placement</h4>
+</section>
+<section class="block paragraph" id="block-4407011408">
+<p class="block-en">In this initial stage of money laundering, the funds, derived from criminal activity, are trans- ferred into the financial system (typically via banks and broker-dealers).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407014736">
+<h4>Layering</h4>
+</section>
+<section class="block paragraph" id="block-4407014608">
+<p class="block-en">Layering is the money launderer´s attempt to disguise the source of the funds, usually by moving the funds from one place to another through a series of transactions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407003728">
+<h4>Integration</h4>
+</section>
+<section class="block paragraph" id="block-4407003344">
+<p class="block-en">Integration is the final stage of money laundering, when illegal funds are mixed (commingled) with legitimate funds. Launderers usually accomplish this step through businesses that operate using cash, importing and exporting companies, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407014480">
+<p class="block-en">Broker–dealers and other financial institutions must report any cash deposits, withdrawals, or transfers of more than $10,000 in a single day through a Currency Transaction Report (CTR) to FinCEN (the U.S. Treasury Financial Crimes Network). An institution must report suspicious activity of $5,000 or more of any type of transaction to FinCEN by filing a Suspicious Activity Report (SAR).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407011280">
+<p class="block-en">Here are some indications of money laundering at the opening of the account:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407014352">
+<div class="block-en">• Concern with U.S. government reporting requirements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407002832">
+<div class="block-en">• Reluctance to reveal information about business activities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407003088">
+<div class="block-en">• Suspect ID such as a license or passport that looks like it was made in someone´s basement</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407002576">
+<div class="block-en">• Irrational transactions that are inconsistent with objectives</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407011152">
+<div class="block-en">• A fiduciary (the person who can legally make decisions for another investor) who´s reluctant to provide information about the customer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407002320">
+<div class="block-en">• An individual´s lack of general knowledge of their industry</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407010768">
+<p class="block-en">And here are some shady signals to look out for after the account is open:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407010128">
+<div class="block-en">• Irregularly making deposits of large amounts of cash or money orders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407010256">
+<div class="block-en">• Structuring — making cash or cash-equivalent deposits (such as money orders) of just under</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407010000">
+<p class="block-en">$10,000 to avoid having them be reported to the U.S. government</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407014096">
+<div class="block-en">• Making wire transfers to non-cooperative countries (Iran, North Korea, Nigeria, and so on) who do not work with the US to try to curb money laundering</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407002064">
+<div class="block-en">• Engaging in sudden and unexplained wire activity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407171664">
+<div class="block-en">• Making a deposit and transferring it to another party without any business purpose</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407170256">
+<div class="block-en">• Buying a long-term investment and liquidating it in the short term</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407171920">
+<div class="block-en">• Making transfers between multiple accounts for no apparent reason</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173200">
+<div class="block-en">• Depositing bearer bonds and requesting the money immediately</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407172304">
+<div class="block-en">• Displaying a total lack of concern about risks and commissions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407170128">
+<p class="block-en">The signs of money laundering tend to make sense, so when answering an SIE exam question about money laundering, think to yourself, “If it looks like a duck and quacks like a duck, it’s probably a duck” — or in financial terms, “If it looks and seems like money laundering, it’s prob- ably money laundering.”</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407172944">
+<h2>Complying with AML rules</h2>
+</section>
+<section class="block paragraph" id="block-4407172560">
+<p class="block-en">Under the Bank Secrecy Act, which is enforced by FinCEN, all financial institutions, including broker–dealers, must develop and carry out anti-money-laundering (AML) programs. These programs must be approved in writing by a firm’s senior management. Financial institutions and broker–dealers must do the following:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407170768">
+<div class="block-en">• Initiate and carry out policies and procedures designed to detect and report suspicious transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407180240">
+<div class="block-en">• Initiate and carry out policies, procedures, and internal controls that are designed to comply with the Bank Secrecy Act´s regulations</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407180112">
+<div class="block-en">• Set up annual independent testing to make sure that the firm is complying with the AML rules under the Bank Secrecy Act</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407179472">
+<div class="block-en">• Appoint and indicate to FINRA (by name, title, email address, phone number, and so on) the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407179984">
+<p class="block-en">person (a designated AML compliance officer) or people responsible for implementing and overseeing the daily internal controls of its AML program</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407171024">
+<p class="block-en">AML programs are not necessarily static and are subject to change. Each firm is responsible for making sure that its AML programs remain current.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407179856">
+<h2>Working with public info: Following insider trading rules</h2>
+</section>
+<section class="block paragraph" id="block-4407179728">
+<p class="block-en">Insider trading is a violation that occurs when an individual trades a particular publicly traded security based on information that has not been released (or adequately released) to the public (known as material nonpublic information). According to the Insider Trading and Securities Fraud Enforcement Act of 1988, both the tipper (the one who shared the nonpublic information) and the tippee (the one who traded based on the tip) are liable.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407179600">
+<p class="block-en">There is no violation of insider trading rules unless a trade takes place based on that inside infor- mation. If a registered rep or anyone working at a firm receives what they believe to be inside information, they should immediately report it to a principal of the firm.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407179344">
+<p class="block-en">Charges of insider trading have been brought against</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407179088">
+<div class="block-en">• Officers, directors, and employees of a corporation who traded the corporation´s securities after learning of important, confidential corporate developments</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407178832">
+<div class="block-en">• Family members, friends, business associates, and other people (tippees) who received tips from the officers, directors, and employees who traded the corporate securities based on</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407178960">
+<p class="block-en">confidential information received</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407178704">
+<div class="block-en">• Government employees who traded based on confidential information received because of their employment with the government, which has not (or not yet) been released to the public</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407178576">
+<div class="block-en">• Employees of brokerage, banking, law, and printing firms who executed trades based on confidential information received as part of their job</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407178448">
+<div class="block-en">• Political consultants who have given tips or traded based on material nonpublic information they received from government employees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407179216">
+<div class="block-en">• Other persons who have taken advantage of or traded on confidential information they received from employers, friends, family, and others</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407180880">
+<p class="block-en">Putting it in simple terms, material nonpublic (inside) information is information that could affect the market value of a security but the information has not been released (or adequately released) to the public.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407181008">
+<h3>Penalties for insider trading</h3>
+</section>
+<section class="block paragraph" id="block-4407180496">
+<p class="block-en">As you can imagine, the penalties for insider trading are pretty severe:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407180624">
+<div class="block-en">• The maximum criminal fine for an individual is $5 million per violation and $25 million per business per violation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407172816">
+<div class="block-en">• The maximum prison sentence is 20 years per violation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407175888">
+<div class="block-en">• The maximum civil sanctions are three times the gain or three times the loss avoided plus disgorgement of profits.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407180368">
+<h3>Contemporaneous traders</h3>
+</section>
+<section class="block paragraph" id="block-4407178192">
+<p class="block-en">Persons who enter orders at or about the same time as the person trading on inside information on the opposite side of the market are called contemporaneous traders. So, for argument’s sake, if the person with inside information sold shares of ABC common stock due to inside information, a contemporaneous trader would be one who bought shares of ABC common stock at or about the same time (and vice versa). In this case, the contemporaneous trader may actually sue the person who violated the insider trading rules. The suits may be initiated up to five years after the occurrence.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407176144">
+<h1>The Investor’s Bankruptcy Shield:</h1>
+</section>
+<section class="block paragraph" id="block-4407177552">
+<p class="block-en">The Federal Deposit Insurance Corporation (FDIC) provides deposit insurance, which guarantees a certain level of safety to people who have money on deposit at a bank. FDIC protects accounts from bank failure (bankruptcy). At the present time, each depositor is protected up to $250,000.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407175760">
+<p class="block-en">The Securities Investor Protection Corporation (SIPC), which was created under the Securities Investor Protection Act of 1970, protects the customer against broker–dealer bankruptcy. Although it’s not a government agency, this private, nonprofit organization was created by the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407172688">
+<p class="block-en">government in 1970. The SIPC protects each separate customer’s assets (securities and cash) up to $500,000 total, of which no more than $250,000 can be cash.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407178064">
+<p class="block-en">Although brokerage firms are required to follow net capital rules — specifically, SEC Rule 15c3-1 — that are designed to minimize the chances of broker–dealer failure and protect customer assets, broker–dealers occasionally (too often) declare bankruptcy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407175504">
+<p class="block-en">All members must advise clients at the opening of the account about SIPC protection and must provide an SIPC brochure and info on contacting SIPC, including the SIPC’s web address and tele- phone number. In addition, clients must receive all that same info in writing at least once a year.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407172432">
+<p class="block-en">The following question concerns SIPC coverage.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407177936">
+<p class="block-en">Steve Fredericks has a cash account with $150,000 in securities and $300,000 cash and a margin account with $50,000 in equity. Additionally, Steve has a joint cash account with his wife Melissa with $250,000 in securities and $300,000 cash. If Steve’s broker–dealer goes bankrupt, what is his coverage under SIPC?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407175632">
+<div class="block-en">• $450,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407172176">
+<div class="block-en">• $500,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407177808">
+<div class="block-en">• $850,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174352">
+<div class="block-en">• $950,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407172048">
+<p class="block-en">The right choice is (D). If one of your customers has a cash and margin account titled under one name, as Steve does, it’s treated as though it belongs to one customer. Therefore, Steve’s cash and margin account is covered up to $500,000, of which no more than $250,000 can be cash. He’s covered for the $200,000 in securities ($150,000 in securities plus the $50,000 equity) and</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407177680">
+<p class="block-en">$250,000 of the $300,000 cash for a total of $450,000. Next, the joint account with his wife is treated as though from a separate customer. Therefore, that account is covered for the $250,000 in securities and $250,000 in cash. Add the two together, and you see that Steve is covered for a total of $950,000 ($450,000 plus $500,000).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407174096">
+<p class="block-en">If an investor is not fully covered under SIPC, the investor is still owed money by the bankrupt broker–dealer; therefore, the investor becomes a general creditor of the firm for the balance owed.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407171792">
+<h2>Holding a customer’s mail</h2>
+</section>
+<section class="block paragraph" id="block-4407177424">
+<p class="block-en">If one of your customers is not receiving mail at their usual address because they are traveling, moving, or whatever, your firm can hold their mail for a specified time period up to three months (or longer if for safety or security concerns). This typically has to do with confirmations and account statements that the firm would normally mail. The member firm must have a way to contact the customer in a timely manner (by phone, email, and so on), and the firm must provide a way for the customer to receive information regarding their account (typically via email or through the member’s website). In addition, the member firm must verify at reasonable intervals that the customer’s instructions still apply.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407174480">
+<h2>Business continuity plans and emergency contact information</h2>
+</section>
+<section class="block paragraph" id="block-4407171536">
+<p class="block-en">FINRA requires that all member firms must set up and maintain business continuity plans (BCP) to deal with the possibility of a business disruption. The idea is to make sure that customers will still be able to contact the firm and be able to access their securities and funds during an</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407177168">
+<p class="block-en">emergency. Although the plan is somewhat flexible depending on the member’s business, some of the items the plan should address include the following:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407171280">
+<div class="block-en">• Hard copy and electronic data back-up and recovery</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174736">
+<div class="block-en">• Alternative communications between customers and members</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407175376">
+<div class="block-en">• Alternative communications between members and their employees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407177040">
+<div class="block-en">• Alternative physical locations of employees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407177296">
+<div class="block-en">• Regulatory reporting</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407175248">
+<div class="block-en">• Communication with regulators</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407170896">
+<div class="block-en">• How the member firm will ensure that customers will be able to have prompt access to their securities and funds in the event that the member is unable to continue business</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407171152">
+<p class="block-en">A few other things could be on this list such as “all mission-critical systems” (ways they would be able to handle customers’ orders and such), “financial and operational assessments” (how a member’s operations would change), and so on. However, the preceding list should be able to get you through SIE exam questions related to what needs to be on a firm’s business continuity plan.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407176912">
+<p class="block-en">Members are required to have a member of senior management (who must be a principal) approve of their business continuity plan. That member is also responsible for conducting an annual review. The member’s plan must be disclosed to customers in writing at the opening of their account, posted on the firm’s website (if any), and mailed to customers upon request. In addition, besides providing the plan info to FINRA, they must also provide emergency contact information to FINRA. (FINRA must receive the names of two principals and members of senior management to contact in the event of an emergency; if the contact info changes, it must be updated within 30 days.) In the event that any info changes regarding the business continuity plan, the firm is responsible for updating its customers, employees, and FINRA.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407175120">
+<p class="block-en">This chapter was jam-packed full of rules. Unfortunately, there wasn’t too much I could do about that except to make them as easy to understand as possible. As you can imagine, because of the size of this chapter, I’ve given you the most chapter questions . . . oh, joy. Good luck!</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407170640">
+<h2>Practice questions</h2>
+<div class="block-zh">练习题</div>
+</section>
+<div class="block list-item" id="block-4407176784">
+<div class="block-en">• Which of the following need to be included on a stock order ticket?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174992">
+<div class="block-en">• The customer’s signature</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407170384">
+<div class="block-en">• The time of the order</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407176528">
+<div class="block-en">• The number of shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174864">
+<div class="block-en">• Whether the trade is solicited or unsolicited</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407176016">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174608">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407176656">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407174224">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173968">
+<div class="block-en">• All of the following are self-regulatory organizations EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173840">
+<div class="block-en">• NYSE</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173712">
+<div class="block-en">• SEC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407176272">
+<div class="block-en">• MSRB</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173584">
+<div class="block-en">• FINRA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173328">
+<div class="block-en">• Declan Smith has an account at Ayla Broker–dealer. Declan has not traded any securities at Ayla Broker–dealer for over three years. How often is Ayla Broker–dealer required to send an account statement to Declan?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407173456">
+<div class="block-en">• Monthly</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407178320">
+<div class="block-en">• Quarterly</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407181136">
+<div class="block-en">• Semiannually</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407176400">
+<div class="block-en">• Annually</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165264">
+<div class="block-en">• The ex-dividend date is 	 business day(s) before the record date.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169872">
+<div class="block-en">• one</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165136">
+<div class="block-en">• two</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169744">
+<div class="block-en">• three</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165008">
+<div class="block-en">• five</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169488">
+<div class="block-en">• Which of the following is a violation that includes a form of market manipulation?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169360">
+<div class="block-en">• Commingling</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169232">
+<div class="block-en">• Frontrunning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407169104">
+<div class="block-en">• Pump and dump</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168976">
+<div class="block-en">• Interpositioning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168720">
+<div class="block-en">• Which of the following are subject to the FINRA 5 percent markup policy?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167568">
+<div class="block-en">• Principal transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168592">
+<div class="block-en">• Agency transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168464">
+<div class="block-en">• Riskless transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168336">
+<div class="block-en">• Proceeds transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168208">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407168080">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167952">
+<div class="block-en">• I, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167824">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167696">
+<div class="block-en">• Which of the following is an indication of money laundering when a customer opens an account?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166416">
+<div class="block-en">• Concern with U.S. government reporting requirements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167440">
+<div class="block-en">• Reluctance to reveal information about business activities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167312">
+<div class="block-en">• Questionable ID</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167184">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407167056">
+<div class="block-en">• A person will be statutorily disqualified from membership from FINRA under which of the following circumstances?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166928">
+<div class="block-en">• If they had a felony conviction within the last 15 years</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166800">
+<div class="block-en">• If they have been barred from membership in an SRO</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166672">
+<div class="block-en">• If they have made false statements on their application</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166544">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166288">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166160">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407166032">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165904">
+<div class="block-en">• If you resign from a brokerage firm, how long do you have to register with another firm so that you don’t have to take your securities exams again?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165776">
+<div class="block-en">• 90 days</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165392">
+<div class="block-en">• 6 months</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407170000">
+<div class="block-en">• 1 year</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165648">
+<div class="block-en">• 2 years</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407165520">
+<div class="block-en">• Which of the following are violations?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808272">
+<div class="block-en">• Commingling of funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820432">
+<div class="block-en">• Interpositioning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817232">
+<div class="block-en">• Signatures of convenience</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816848">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818896">
+<div class="block-en">• Which of the following securities transactions settle in two business days after the trade date?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814544">
+<div class="block-en">• Stock and corporate bond transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809040">
+<div class="block-en">• Municipal bond transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806864">
+<div class="block-en">• U.S. government bond transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807120">
+<div class="block-en">• Option transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805328">
+<div class="block-en">• I, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406813904">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819280">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819792">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818128">
+<div class="block-en">• Broker–dealers, investment companies, and investment advisers must have written policies designed to protect customers’ records and information. This rule falls under</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814160">
+<div class="block-en">• Regulation S-P</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816976">
+<div class="block-en">• Regulation D</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814800">
+<div class="block-en">• Regulation M</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808784">
+<div class="block-en">• Regulation T</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817488">
+<div class="block-en">• All of the following must be included on a trade confirmation EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809936">
+<div class="block-en">• a description of the security</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819024">
+<div class="block-en">• the markup or markdown</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817104">
+<div class="block-en">• the registered rep’s ID number</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820304">
+<div class="block-en">• the commission</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818768">
+<div class="block-en">• Zimbot Corporation has just announced a 30-cent dividend to shareholders of record. If the record date is Friday, October 8, when is the first day an investor can purchase the stock and not receive the dividend?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816336">
+<div class="block-en">• Wednesday, October 6</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820048">
+<div class="block-en">• Thursday, October 7</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818000">
+<div class="block-en">• Friday, October 8</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817872">
+<div class="block-en">• Monday, October 11</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818512">
+<div class="block-en">• In which of the following procedures for handling complaints is the decision binding and cannot be appealed?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808400">
+<div class="block-en">• Code of procedure</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808656">
+<div class="block-en">• Mediation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807376">
+<div class="block-en">• Arbitration</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814928">
+<div class="block-en">• Both (B) and (C)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808016">
+<div class="block-en">• Which of the following types of transactions are subject to the 5 percent markup policy?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805456">
+<div class="block-en">• Proceeds transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806096">
+<div class="block-en">• Riskless transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809296">
+<div class="block-en">• Agency transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809680">
+<div class="block-en">• Principal transactions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406810192">
+<div class="block-en">• I, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820688">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820560">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406820176">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819920">
+<div class="block-en">• Under FINRA rules, all of the following brokerage firm records must be kept for a minimum of three years EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819664">
+<div class="block-en">• ledgers</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805584">
+<div class="block-en">• trade confirmations</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819536">
+<div class="block-en">• order tickets</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805840">
+<div class="block-en">• U4 forms of former employees</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819408">
+<div class="block-en">• Broker–dealers, banks, investment advisers, and so on must report a possible money- laundering transaction to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819152">
+<div class="block-en">• FINRA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818256">
+<div class="block-en">• FinCEN</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818640">
+<div class="block-en">• FBI</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818384">
+<div class="block-en">• SEC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805712">
+<div class="block-en">• Which TWO of the following are the maximum penalties for insider trading violations?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817744">
+<div class="block-en">• 20 years in prison per violation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806224">
+<div class="block-en">• 25 years in prison per violation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817360">
+<div class="block-en">• $5 million per individual per violation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815312">
+<div class="block-en">• $25 million per individual per violation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806480">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816720">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815440">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806608">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816592">
+<div class="block-en">• A violation in which a firm attempts to drive up the price of a stock based on false or misleading information so that the firm can later sell their shares at a higher price is known as</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406805968">
+<div class="block-en">• churning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815824">
+<div class="block-en">• trading ahead</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807248">
+<div class="block-en">• frontrunning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816464">
+<div class="block-en">• pump and dump</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807504">
+<div class="block-en">• Mr. Slick purchased 400 shares of ZIP Corporation common stock and sold it at a profit prior to paying for the purchase. This is a violation known as</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406816208">
+<div class="block-en">• freeriding</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807760">
+<div class="block-en">• frontrunning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815952">
+<div class="block-en">• trading ahead</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806992">
+<div class="block-en">• interpositioning</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815568">
+<div class="block-en">• As part of FINRA’s business continuity plan, member firms must provide the emergency contact information for 	 principal(s) of the firm to contact in the event of an emergency.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814288">
+<div class="block-en">• one</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815184">
+<div class="block-en">• two</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814032">
+<div class="block-en">• three</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814416">
+<div class="block-en">• all</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406814672">
+<div class="block-en">• Which TWO of the following are TRUE?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406815056">
+<div class="block-en">• FDIC covers each individual up to $250,000.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809808">
+<div class="block-en">• FDIC covers each individual up to $500,000, of which no more than $250,000 can be cash.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406806736">
+<div class="block-en">• SIPC covers each individual up to $250,000.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406810064">
+<div class="block-en">• SIPC covers each individual up to $500,000, of which no more than $250,000 can be cash.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406810320">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808912">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809168">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406809552">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406808144">
+<div class="block-en">• Under FINRA rules, which of the following records must be kept by a brokerage firm for a mini- mum of six years?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807888">
+<div class="block-en">• Customer account statements</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406807632">
+<div class="block-en">• U5 forms</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407056080">
+<div class="block-en">• Records of all trades executed</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407055056">
+<div class="block-en">• Sales literature</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407053776">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407053904">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407054800">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407056720">
+<div class="block-en">• I, II, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407056592">
+<div class="block-en">• Which of the following records must be kept for the lifetime of a broker–dealer?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407055824">
+<div class="block-en">• Records of closed accounts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407056976">
+<div class="block-en">• General ledgers</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407057744">
+<div class="block-en">• Partnership documents</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407058000">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407057360">
+<h1>Answers and explanations</h1>
+<div class="block-zh">答案与解析</div>
+</section>
+<div class="block list-item" id="block-4407058512">
+<div class="block-en">• C. The items required on an order ticket are the rep’s identification number, the customer’s account number, a description of the security, the number of shares, whether the account is discretionary, whether the customer is buying or selling, whether it’s a market order or GTC order, whether the trade is for cash or on margin, whether it’s solicited or unsolicited, the time of the order, and the execution price. Remember that when an order is placed, it’s usually for immediate execution, so getting a customer’s signature would be nearly impossible.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407055312">
+<div class="block-en">• B. The SEC is a government agency and is not a self-regulatory organization. SROs include the MSRB, NYSE, CBOE, and FINRA.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407054288">
+<div class="block-en">• B. For accounts like Declan Smith’s, the brokerage firm must send out account statements at least quarterly (every three months); for mutual funds, every six months.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407058256">
+<div class="block-en">• A. The ex-dividend date is the first day that the purchaser of a stock will not receive a previously declared dividend. The ex-dividend date is one business day before the record date. As a reminder, Saturday and Sunday are not considered business days. So if the record date was on Monday, the ex-dividend date would be on the previous Friday.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407061712">
+<div class="block-en">• C. All of the choices listed are violations. However, pump and dump is the only violation listed that is a form of market manipulation. Pump and dump is fake news typically regarding penny stocks that is designed to drive the price of a particular stock up so that the firm can sell their stock at a large profit.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407058768">
+<div class="block-en">• D. All of the choices listed are subject to the FINRA 5 percent markup policy (5 percent markup policy or 5 percent policy). This means that, under normal circumstances in which you have an average-sized trade and you don’t have to jump through hoops to execute the transaction, you shouldn’t charge more than 5 percent to execute the trade. Now certainly if the trade is extremely small, you would be able to charge a higher percentage so your firm doesn’t lose money. Also, if a trade is extremely large, 5 percent would be considered excessive.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407064016">
+<div class="block-en">• D. Certainly all of the choices listed would be considered indications of money laundering.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407061456">
+<div class="block-en">• B. Answers II and III are definitely reasons why a person would be statutorily disqualified. However, answer I doesn’t fit because the person would be statutorily disqualified if they had a felony conviction in the last 10 years, not 15.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407058640">
+<div class="block-en">• D. If a securities licensed individual leaves a brokerage firm, that person has up to two years to get registered with another firm or they will have to take their license exams again.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407064144">
+<div class="block-en">• D. All of the choices listed are violations. Commingling of funds takes place when a firm combines a customer’s fully paid securities with margined securities, or when a firm combines its own securities with a customer’s securities. Interpositioning is when two securities broker–dealers act as agents for the same trade, thus requiring the customer to pay more than one commission. Signatures of convenience are ones in which a customer’s signature is forged.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407061584">
+<div class="block-en">• C. Stock, corporate bond, and municipal bond transactions settle in two business days after the trade date (T+2). U.S. government bond and options transactions settle in one business day after the trade date. As a reminder, cash trades settle the same business day as the trade date.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407058384">
+<div class="block-en">• A. Under Regulation S-P, all broker–dealers, investment companies, and investment advisers must have written policies to protect customer’s records and private information. This would include things like Social Security numbers, bank account numbers, and so on.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407060432">
+<div class="block-en">• B. Although a commission must be included on a trade confirmation for an agency trade,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407058128">
+<p class="block-en">a markup or markdown does not need to be included for a principal transaction. Remember, a principal transaction is one in which the dealer is buying for or selling from its own inventory. Therefore, the price the customer pays or receives already includes a markup</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407064400">
+<p class="block-en">or markdown.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407061328">
+<div class="block-en">• B. The first day the stock trades without the dividend is on the ex-dividend date. The ex-dividend date is one business day before the record date — in this case, Thursday, October 7.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407057616">
+<div class="block-en">• C. Arbitration decisions are binding and non-appealable. Arbitration is certainly less formal and less costly than going through the court system. As a matter of fact, many brokerage firms have customers sign an arbitration clause as part of a new account form stating that the customer agrees to have disputes handled through arbitration.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407063760">
+<div class="block-en">• D. All of the choices listed are subject to the 5 percent markup policy. The 5 percent markup policy is designed to help curb overcharging customers for trades. It just means that for standard-size trades with no other contributing factors that make the trade more difficult, customers should not be charged more than 5 percent.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407061200">
+<div class="block-en">• A. Ledgers, which are customer account statements, must be kept on file for a minimum of six years, not three. As a reminder, all records must be easily accessible for two years.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407057488">
+<div class="block-en">• B. Under the USA Patriot Act, if financial institutions are concerned about the possibility of money laundering, they must report the transaction(s) to the U.S. Treasury Financial Crimes Network (FinCEN).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407063632">
+<div class="block-en">• A. The maximum penalties for insider trading are $5 million per individual per violation ($25 million per business) and up to 20 years in prison per violation. Although not part of this question, the maximum civil sanctions are three times the gain or three times the loss avoided plus disgorgement of profits.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407060816">
+<div class="block-en">• D. Pump and dump is a violation in which a firm promotes a security that they own using false or misleading information to try to pump up the price of the security. After the price has been driven up, they dump their stock at a profit.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407057232">
+<div class="block-en">• A. Freeriding is a violation that takes place when a customer places an order to purchase a security and sells it at a profit prior to paying for it. Freeriding is not permitted under Regulation T, and it may require the brokerage firm to freeze the customer’s account for 90 days.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407063376">
+<div class="block-en">• B. Because of the possibility of an emergency, all firms are required to have business continuity plans and provide emergency contact information. In addition, all firms must provide the emergency contact information for two principals to FINRA.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407057104">
+<div class="block-en">• B. The FDIC covers each depositor up to $250,000. The SIPC covers each investor up to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407063504">
+<p class="block-en">$500,000, of which no more than $250,000 can be cash.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407059664">
+<div class="block-en">• C. Blotters, which includes records of all trades executed by the brokerage firm; ledgers, which include customer account statements; general ledgers; position records; account records; and information on closed accounts must be kept for a minimum of six years. U5 forms and sales literature must be kept for a minimum of three years.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407056848">
+<div class="block-en">• C. Corporate or partnership documents of the member firm must be kept for the lifetime of the firm.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

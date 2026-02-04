@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: 0px"><a href="#block-4406818000">Diversifying through Management...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406806864">Comparing open- and closed-end funds...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406809040">Open-end (mutual) funds...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406110544">Closed-end funds...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406111312">Open and closed: Focusing on their diffe...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406837456">Keeping your customer's investment objec...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406839632">Hedge funds: What are they?...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406841936">Dealing with discounts...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406851152">Breakpoints...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406847440">Breakpoint sales...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406847056">Letters of intent...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406852816">Figuring the sales charge and public off...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406849232">Sales charge percent...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406847952">Public offering price (POP)...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406842064">Classifying the load...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406843088">Considering Other Investment...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406843856">Face-amount certificate companies...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406844112">Unit investment trusts...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406845264">Exchange-traded products (funds and note...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406845648">Exchange-traded funds...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407178832">Exchange-traded notes...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407179216">Investment company rules 17a-6 and 17a-7...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407180368">Looking at fixed annuities...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407180752">Focusing on variable annuities...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407064272">Putting money into (and receiving money ...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407064912">The pay-in (accumulation) phase...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407066320">Getting the payout...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406740432">Being mindful of the early withdrawal pe...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406740688">Understanding the Investment Component...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406741072">Variable life...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406741200">Variable universal life...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406741840">Practice questions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407209936">Answers and explanations...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 9</h1>
+            <a href="Chapter_9.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4407001808">
+<p class="block-en">Diving Deeper: Taking a Look at More Complex Securities</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406815696">
+<p class="block-en">Chapter 9</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406816080">
+<p class="block-en">Delivering Diversification with Packaged Securities</p>
+<p class="block-zh">第 9 章：通过组合证券实现多样化</p>
+</section>
+<section class="block paragraph" id="block-4406813904">
+<p class="block-en">iversification is key when you’re helping customers set up a portfolio of securities, and it’s fairly easy when your customer has a good deal of money to invest. But what if an investor has limited resources? Certainly, such investors can’t afford to buy hundreds of</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406816336">
+<p class="block-en">shares and/or debt securities of several companies, and you don’t want to limit your customer to only one investment opportunity (heaven forbid it should go belly up). Packaged securities to the rescue! These securities, such as open-end funds, closed-end funds, face-amount certificate companies, unit investment trusts, and annuities, offer variety within one security by investing a customer’s money in a diversified pool of securities — for a cost, of course. A bit of profit-driven teamwork can ensure your customers’ investments are much safer than, say, investing in a one- armed bandit in one of the Vegas casinos.</p>
+<p class="block-zh">当您帮助客户建立证券投资组合时，多样化是关键，而当您的客户有大量资金可供投资时，这相当容易。但如果投资者的资源有限呢？当然，这类投资者负担不起购买多家公司的数百股股票和/或债务证券，而您也不想将客户限制在仅有的一个投资机会上（天知道它会不会倒闭）。组合证券（包装证券）来救场了！这些证券，如开放式基金、封闭式基金、面值证单公司、单位投资信托和年金，通过将客户的资金投资于一个多样化的证券池，在单一证券内提供多样性——当然，这是有成本的。这种以营利为目的的团队协作可以确保您客户的投资比（打个比方）在拉斯维加斯赌场里玩老虎机要安全得多。</p>
+</section>
+<section class="block paragraph" id="block-4406816848">
+<p class="block-en">In this chapter, I cover topics relating to investment companies and annuities. Open-end (mutual) funds and closed-end funds are only the beginning. I discuss face-amount certificate companies and trusts such as unit investment trusts. I also give you a look at life insurance products and wrap it all up by giving you a small quiz at the end of the chapter.</p>
+<p class="block-zh">在本章中，我将涵盖与投资公司和年金相关的主题。开放式（共同）基金和封闭式基金只是开始。我还将讨论面值证单公司和信托（如单位投资信托）。我还会为您介绍人寿保险产品，并在章末通过一个小测验来总结全文。</p>
+</section>
+<section class="block paragraph" id="block-4406816976">
+<p class="block-en">As with other nonexempt securities, investment companies must register with the U.S. Securities and Exchange Commission (SEC). You need to understand certain specifics about the registration process when taking the SIE. When registering with the SEC, investment companies must disclose</p>
+<p class="block-zh">与其他非豁免证券一样，投资公司必须向证券交易委员会 （SEC） 注册。在参加 SIE 考试时，您需要了解注册过程中的某些细节。向 SEC 注册时，投资公司必须披露：</p>
+</section>
+<div class="block list-item" id="block-4406817488">
+<div class="block-en">• Whether the investment company will be open- or closed-end</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406817232">
+<div class="block-en">• The names and addresses of affiliated people</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818128">
+<div class="block-en">• Whether the company plans to raise money by borrowing</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818768">
+<div class="block-en">• Whether they plan on investing in commodities or real estate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406818512">
+<div class="block-en">• How they plan on investing (a single industry, many industries, debt securities, and so on)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819024">
+<div class="block-en">• Conditions under which the investment plan can change (a vote of shareholders, for example)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406819280">
+<div class="block-en">• The business experience of each director and officer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406818000">
+<h1>Diversifying through Management</h1>
+<div class="block-zh">通过管理型投资公司实现多样化</div>
+</section>
+<section class="block paragraph" id="block-4406818896">
+<p class="block-en">In general, investment companies are those whose business is investing in securities. As such, they take the money received from investors and invest in a large number of different securities. Each investor shares in the profits or losses based on their interest in the investment company. The Investment Company Act of 1940 divides investment companies into three main types: man- agement investment companies, face-amount certificate companies, and unit investment trusts. This section focuses on management investment companies, which are the more heavily tested areas of this chapter. I cover the other types in the aptly named “Considering Other Investment Company Options” section later.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406819792">
+<p class="block-en">Management companies are by far the most familiar type of investment company. The securities held by the management companies tend to be actively managed by portfolio managers, although they might be passive where a portfolio manager makes the initial choices but doesn’t actively trade the account. As a subclassification of management companies, they are either diversified or nondiversified. To be diversified, a company must spread out at least 75 percent of its assets in the following way:</p>
+<p class="block-zh">管理型公司是迄今为止最广为人知的投资公司类型。管理型公司持有的证券往往由投资组合经理进行主动管理，但也可能是被动的——即经理做出初始选择但不进行活跃交易。作为管理型公司的细分，它们分为**多样化**或**非多样化**。要达到多样化标准，公司必须按以下方式分散其至少 75% 的资产：</p>
+</section>
+<div class="block list-item" id="block-4406817872">
+<div class="block-en">• The management company can’t own more than 10 percent of the outstanding shares of a company.</div>
+<div class="block-zh">*   No more than 5 percent of the management company's money can be invested in one company's securities. However， through appreciation， one company may grow to more than 5 percent， which is fine， but the fund may not purchase any more of that company's securities unless it drops below 5 percent. （投资于任何一家公司的资金比例不得超过管理型公司总资产的 5%。然而，如果由于资产增值，某家公司的比例增长超过了 5%，这是允许的，但除非该比例降至 5% 以下，否则基金不得再购买该公司的证券。）</div>
+</div>
+<div class="block list-item" id="block-4406820048">
+<div class="block-en">• No more than 5 percent of the management company’s money can be invested in one company’s securities. However, through appreciation, one company may grow to more than</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406820304">
+<p class="block-en">5 percent, which is fine, but the fund may not purchase any more of that company´s securities</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406820432">
+<p class="block-en">unless it drops below 5 percent.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406817104">
+<p class="block-en">Because the diversified portion relates to only 75 percent of the management company’s assets, the other 25 percent can be invested in any way. Whether the management company is diversified or nondiversified must be in the prospectus.</p>
+<p class="block-zh">由于多样化部分仅涉及管理型公司资产的 75%，其余 25% 可以以任何方式进行投资。管理型公司是属于多样化还是非多样化，必须在招股说明书中说明。</p>
+</section>
+<section class="block heading" id="block-4406806864">
+<h2>Comparing open- and closed-end funds</h2>
+<div class="block-zh">比较开放式和封闭式基金</div>
+</section>
+<section class="block paragraph" id="block-4406809936">
+<p class="block-en">Management companies are either open-end or closed-end funds. Make sure that you know the difference.</p>
+<p class="block-zh">管理型公司分为开放式或封闭式基金。请务必了解它们之间的区别。</p>
+</section>
+<section class="block heading" id="block-4406809040">
+<h3>Open-end (mutual) funds</h3>
+<div class="block-zh">开放式（共同）基金</div>
+</section>
+<section class="block paragraph" id="block-4406808784">
+<p class="block-en">An open-end fund is more commonly known as a mutual fund. Like closed-end funds, mutual funds invest in many different securities to provide diversification for investors. The key differ- ence is that mutual funds are constantly issuing and redeeming shares (shares are redeemed with the issuer and not sold in the market), which provides liquidity for investors. Because open-end</p>
+<p class="block-zh">开放式基金通常被称为**共同基金**。与封闭式基金一样，共同基金投资于多种不同的证券，为投资者提供多样化选择。关键区别在于，共同基金在不断发行和赎回股份（股份向发行人赎回，不在市场上出售），这为投资者提供了流动性。由于开放式基金股份属于新股的持续发行，因此必须始终备有共同基金招股说明书。在参加 SIE 考试时，您需要了解资产净值和公开发售价的构成：</p>
+</section>
+<section class="block paragraph" id="block-4406808528">
+<p class="block-en">fund shares are continuous offerings of new shares, a mutual fund prospectus must always be available. You need to understand the makings of the net asset value and the public offering price when taking the SIE exam:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406814800">
+<div class="block-en">• Net asset value (NAV): Fortunately, the NAV or net asset value per share is determined the same way for both open- and closed-end funds: by dividing the value of the securities held by</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406814544">
+<p class="block-en">the fund by the number of shares outstanding. With open-end funds, however, the NAV is the bid price. When investors redeem shares of a mutual fund, they receive the next computed NAV (usually at the end of the day). This is also known as the redemption value. Mutual funds can never trade below the NAV.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406814160">
+<div class="block-en">• Public offering price (POP): For mutual funds, the public offering price (the ask price) is</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406808272">
+<p class="block-en">the NAV plus a sales charge. If a mutual fund doesn’t charge a sales charge, it’s called a</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406112208">
+<p class="block-en">no-load fund.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406112336">
+<p class="block-en">Because mutual funds are new issues, investors must receive a statutory prospectus (for more on what a prospectus is, see Chapter 5) and/or receive a summary prospectus and have access to the statutory prospectus. Prospectuses for mutual funds include their holdings, investment strategy, fees, expenses, graphs of the fund’s performance, and so on. Every prospectus for every security must contain a disclosure stating that the SEC doesn’t approve of the issue. I assume that this disclosure is the SEC’s way of not being sued if investors lose money. The SEC just clears the issue for sale to investors.</p>
+<p class="block-zh">由于共同基金属于新发行证券，投资者必须收到法定招股说明书（有关招股说明书的更多内容见第 5 章）和/或收到简要招股说明书并有权查阅法定招股说明书。共同基金的招股说明书包括其持仓、投资策略、费用、支出、基金表现图表等。每种证券的每份招股说明书都必须包含一项披露，声明 证券交易委员会（SEC） 不对该发行表示“批准”。我推测这项披露是 证券交易委员会（SEC） 在投资者亏损时避免被起诉的方式。证券交易委员会（SEC） 只是核准该发行向投资者销售。</p>
+</section>
+<section class="block paragraph" id="block-4406110416">
+<p class="block-en">If the fund provides a summary prospectus, it must include items such as the fund’s name and ticker symbol, the class of shares, the fund’s investment strategies, investment objectives, costs of investing, investment advisers, financial compensation, risks, and performance. The summary prospectus may include an application that investors can use to purchase shares. Potential inves- tors can also request a full prospectus before investing. If an investor purchases via a summary prospectus, they must either receive or be provided online access to a full prospectus.</p>
+<p class="block-zh">如果基金提供简要招股说明书，其中必须包含基金名称和股票代码、股份类别、基金投资策略、投资目标、投资成本、投资顾问、财务补偿、风险和表现等项目。简要招股说明书可能包含投资者可用于购买股份的申请表。潜在投资者也可以在投资前索取完整招股说明书。如果投资者通过简要招股说明书购买，他们必须收到或获得在线查阅完整招股说明书的途径。</p>
+</section>
+<section class="block paragraph" id="block-4406112080">
+<p class="block-en">On an ongoing basis, funds must include in their prospectus annual report graphs comparing the performance of the fund with a proper index (Standard & Poor’s [S&P] 500, Nasdaq composite, and so on), items and/or strategies that may have affected the performance in the past year, and the name of the fund’s manager.</p>
+<p class="block-zh">基金必须持续在其招股说明书年度报告中包含将基金表现与适当指数（标准普尔 500、纳斯达克综合指数等）进行对比的图表、过去一年可能影响表现的项目和/或策略，以及基金经理的姓名。</p>
+</section>
+<section class="block paragraph" id="block-4406111952">
+<p class="block-en">Note: Expenses of a mutual fund include salaries for the board of directors; management (invest- ment adviser) fees for the person or people who make the investment decisions for the fund; custodial fees for safeguarding assets (cash, securities, and so on) held by the fund; transfer agent fees for keeping track of investors, sending distributions, and sending proxies; and 12b-1 fees, if any. 12b-1 fees are fees paid by a mutual fund out of the fund assets to cover promotional expenses such as advertising, printing and mailing of prospectuses to new investors, and so on. If there are 12b-1 fees, they must be included in the prospectus.</p>
+<p class="block-zh">注：共同基金的支出包括董事会薪酬；为基金做出投资决策的人员的管理（投资顾问）费；用于保护基金持有的资产（现金、证券等）的托管费；用于跟踪投资者、发放分配金和寄送委托书的过户代理费；以及 12b-1 费用（如果有）。**12b-1 费用**是由共同基金从基金资产中支付的，用于支付广告、印刷和向新投资者邮寄招股说明书等促销费用。如果有 12b-1 费用，必须包含在招股说明书中。</p>
+</section>
+<section class="block heading" id="block-4406110544">
+<h3>Closed-end funds</h3>
+<div class="block-zh">封闭式基金</div>
+</section>
+<section class="block paragraph" id="block-4406110672">
+<p class="block-en">Unlike open-end funds, closed-end funds have a fixed number of shares outstanding (hence the word closed). Closed-end funds act more like common stock than open-end funds because they issue new shares to the public; after that, the shares are bought and sold in the market. Because they trade in the market, they’re often called publicly traded funds. Although the net asset value of closed-end and open-end funds is calculated the same way, the public offering price is deter- mined a little differently:</p>
+<p class="block-zh">与开放式基金不同，封闭式基金的流通**股份数量是固定的**（因此得名“封闭”）。封闭式基金比开放式基金更像普通股，因为它们向公众发行新股；之后，这些股份在市场上买卖。由于它们在市场上交易，它们通常被称为**上市交易基金**。虽然封闭式和开放式基金的资产净值计算方法相同，但公开发售价的确定方式略有不同：</p>
+</section>
+<div class="block list-item" id="block-4406110288">
+<div class="block-en">• NAV: The NAV or net asset value per share is the parity price at which the fund should be trading. You determine it by taking all of the assets owned by the fund, subtracting the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406111696">
+<p class="block-en">liabilities, and dividing by the number of shares outstanding. Closed-end funds may trade at a</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406106576">
+<p class="block-en">discount or premium compared to the NAV — based on supply and demand.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406111568">
+<div class="block-en">• Public offering price (POP): For closed-end funds, after the initial public offering (IPO) the public offering price (the ask price) depends not only on the NAV but also supply and demand</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406111440">
+<p class="block-en">for the issue. Investors of closed-end funds pay the POP (current market price) plus a broker’s commission in an agency transaction.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406111824">
+<p class="block-en">Note: Although closed-end funds aren’t purchased from and redeemed with the issuer, most offer a high degree of liquidity, based on the number of shares. After the initial offering, they can be purchased or sold either on an exchange (called exchange traded funds or ETFs) or over the counter (OTC).</p>
+<p class="block-zh">注：虽然封闭式基金不是从发行人处购买或向其赎回的，但基于其股份数量，大多数基金提供了高度的流动性。在首次发行后，它们可以在交易所（称为交易所交易基金或 ETFs）或场外交易市场 （OTC） 购买或出售。</p>
+</section>
+<section class="block heading" id="block-4406111312">
+<h3>Open and closed: Focusing on their differences</h3>
+<div class="block-zh">开放与封闭：聚焦差异</div>
+</section>
+<section class="block paragraph" id="block-4406111184">
+<p class="block-en">You can expect at least a question or two on the SIE exam relating to investment companies to test you on the differences between open-end and closed-end funds. Table 9-1 should help you zone in on the major distinctions.</p>
+<p class="block-zh">您可以预期 SIE 考试中至少会有一两个关于投资公司的问题，测试您对开放式和封闭式基金差异的掌握。表 9-1 应该能帮助您聚焦于主要的区别。</p>
+</section>
+<section class="block paragraph" id="block-4406841808">
+<p class="block-en">TABLE 9-1	Comparing Open-End and Closed-End Funds</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406840656">
+<p class="block-en">The key difference between open-end and closed-end funds is the method of capitalization. An open-end (mutual) fund is a continuous offering of new securities, whereas a closed-end fund is a one-time offering of new securities.</p>
+<p class="block-zh">开放式和封闭式基金的关键区别在于其资本化（募集）方式。开放式（共同）基金是新证券的持续发行，而封闭式基金是新证券的一次性发行。</p>
+</section>
+<section class="block heading" id="block-4406837456">
+<h2>Keeping your customer's investment objectives in mind</h2>
+<div class="block-zh">牢记客户的投资目标</div>
+</section>
+<section class="block paragraph" id="block-4406837328">
+<p class="block-en">Unlike investors in face-amount certificate companies and unit investment trusts (see “Consid- ering Other Investment Company Options” later in this chapter), investors of open-end and closed-end funds have many choices available. Investors may be looking for safety, growth, a combination, and so on. This section gives you a glimpse into those investment choices.</p>
+<p class="block-zh">与面额证书公司和单位投资信托的投资者不同（见本章后面的“考虑其他投资公司选项”），开放式和封闭式基金的投资者有很多选择。投资者可能在寻求安全性、增长性或两者的结合等。本节将为您展示这些投资选择。</p>
+</section>
+<section class="block paragraph" id="block-4406837712">
+<p class="block-en">The single most important consideration for customers who invest in packaged securities is the fund’s investment objectives. This feature surpasses even the sales charge or management fees. If you become a registered rep, one of your primary jobs will be to help investors decide which type of fund would be best for them. The test designers want to know you can handle that job.</p>
+<p class="block-zh">对于投资组合证券的客户来说，最重要的一项考量就是**基金的投资目标**。这一特征甚至超过了销售费用或管理费。如果您成为一名注册代表，您的主要职责之一就是帮助投资者决定哪种类型的基金最适合他们。出题者想知道您是否能胜任这项工作。</p>
+</section>
+<section class="block paragraph" id="block-4406837584">
+<p class="block-en">Comparing like-type funds is secondary. So, without further ado, here are the major types (although variables within each fund can make a fund riskier or safer, I’ve placed the list in the normal order from safest to riskiest):</p>
+<p class="block-zh">比较同类型的基金是次要的。因此，废话少说，以下是主要的基金类型（虽然每个基金内部的变量可能使基金风险更高或更低，但我按照从最安全到最危险的常规顺序排列了该列表）：</p>
+</section>
+<div class="block list-item" id="block-4406837968">
+<div class="block-en">• Money market fund: This fund (as you’ve probably guessed) invests in money market</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406838096">
+<p class="block-en">instruments (short-term debt securities). You need to know the specifics of this fund more</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406838224">
+<p class="block-en">than other types of funds. Here are the key points:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406837840">
+<div class="block-en">• It usually provides a check-writing feature (you’re given a checkbook) as a way of redeeming shares.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838352">
+<div class="block-en">• It’s always no-load (there’s no sales charge).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838608">
+<div class="block-en">• It computes dividends daily and credits them monthly.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838736">
+<div class="block-en">• There’s no penalty for early redemption.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406838480">
+<div class="block-en">• Income fund: The primary objective of an income fund is to provide current revenue (not</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406839120">
+<p class="block-en">growth) for investors. This type of fund invests most of its assets in a diversified portfolio of (a) debt securities that pay interest and in preferred and (b) common stock of companies that are known to pay consistent dividends in cash.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406839248">
+<p class="block-en">Income funds are considered much safer (more conservative) investments than growth funds. You can assume for SIE exam (and real-life) purposes that income funds are better investment choices for retirees and investors who are looking for a steady cash flow without much risk.</p>
+<p class="block-zh">收益型基金被认为比增长型基金安全得多（更保守）。就 SIE 考试（以及现实生活）而言，您可以假设收益型基金是退休人员和寻求稳定现金流且不愿承担太多风险的投资者的更好选择。</p>
+</section>
+<div class="block list-item" id="block-4406839376">
+<div class="block-en">• Balanced fund: A balanced fund is a combination of a growth fund and an income fund.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406839760">
+<p class="block-en">Balanced funds invest in common stocks, preferred stocks, long-term bonds, and short-term bonds, aiming to provide both income and capital appreciation while minimizing risk. These funds don’t get hammered too badly when the market is bearish but usually underperform when the market is bullish.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406839888">
+<div class="block-en">• Growth fund: This fund is exactly what you´d expect it to be; growth funds invest most of their</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406840400">
+<p class="block-en">assets in a diversified portfolio of the common stock of relatively new and existing companies, looking for big increases in the stock prices. Growth funds offer a higher potential for growth but usually at a higher risk for the investor. This type of fund is ideal for an investor who’s looking for long-term capital appreciation potential.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406840272">
+<p class="block-en">Because of the inherent risk of investing in growth funds, they’re better for younger investors who can take the risk because they have more time to recover their losses.</p>
+<p class="block-zh">由于投资增长型基金存在固有风险，它们更适合能够承担风险的年轻投资者，因为他们有更多时间来弥补亏损。一些增长型基金被标记为**激进增长型基金 （aggressive growth funds）**，因为它们投资的证券比标准增长型基金风险更高。</p>
+</section>
+<section class="block paragraph" id="block-4406840144">
+<p class="block-en">Some growth funds are labeled as aggressive growth funds because the securities it invests in are even riskier than those of a standard growth fund.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406839504">
+<div class="block-en">• Specialized (sector) fund: A specialized or sector fund is a type of fund that invests primarily</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406840016">
+<p class="block-en">in the securities of a single industry. A specialized fund may invest only in financial services, healthcare, automotive stocks, technology securities, and so on. Because specialized funds are limited in their investments, you can assume that in many cases, they’re a little riskier (more volatile) than the average fund.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406840528">
+<div class="block-en">• International or global fund: An international fund invests in companies based anywhere outside of the investor’s home country. A global fund invests in securities located anywhere in</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406841552">
+<p class="block-en">the world, including the investor’s home country. Although international and global funds may be good to round out a portfolio, they aren’t without their risks. Along with the risk that investors face by just investing in securities in general, holders of international and global funds also face currency risk, which is the risk that the currency exchange rate between the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406840784">
+<p class="block-en">U.S. and foreign issuers will hurt investors. There’s also the additional risk that politics in a particular country will harm the value of the fund.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406840912">
+<div class="block-en">• Index fund: This type of fund invests in securities that are similar to a particular stock or bond index. Rather than being actively managed, these types of funds are passively managed, which</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406841168">
+<p class="block-en">means investors can expect lower or no management fees. Investors can expect that the NAV of the fund will increase or decrease based on the movement of the benchmark index (S&P 500, DJIA, and so on) the fund mimics.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406839632">
+<h3>Hedge funds: What are they?</h3>
+<div class="block-zh">对冲基金：它们是什么？</div>
+</section>
+<section class="block paragraph" id="block-4406841296">
+<p class="block-en">You’ve probably heard about hedge funds but aren’t exactly sure what they are. For the SIE exam, you do need to know a little bit about them. Because they aren’t open- or closed-end funds, unit investment trusts, or face-amount certificate companies, they are an exception to the standard definition of investment company under the Investment Company Act of 1940. In addition, because they are considered private equity and are only open to sophisticated (accredited) investors, they are exempt from SEC registration. Hedge funds often require a very high initial investment — sometimes $500,000 or more.</p>
+<p class="block-zh">您可能听说过对冲基金，但并不确切知道它们是什么。为了参加 SIE 考试，您确实需要对它们有一点了解。因为它们既不是开放式也不是封闭式基金，也不是单位投资信托或面值证单公司，所以它们是 1940 年《投资公司法》下投资公司标准定义的**例外**。此外，由于它们被视为**私募股权**且仅对资深（**合格**）投资者开放，因此它们**免于 证券交易委员会（SEC） 注册**。对冲基金通常需要极高的初始投资——有时达 50 万美元或更多。</p>
+</section>
+<section class="block paragraph" id="block-4406841424">
+<p class="block-en">Hedge funds hold a pool of investments and are professionally managed like mutual (open-end) funds but have a lot more flexibility. Hedge funds are typically much more aggressive in nature and may buy securities on margin, sell securities short, purchase or sell options, and so on in an attempt to maximize gains. I guess you can almost think of them as a “whatever it takes to make money” type of fund.</p>
+<p class="block-zh">对冲基金持有一个投资池，并像共同（开放式）基金一样由专业人士管理，但灵活性要大得多。对冲基金在性质上通常更具侵略性，可能会融资融券、卖空证券、买卖期权等，以期最大限度地提高收益。我想您几乎可以把它们看作是一种“不惜一切代价赚钱”的基金。</p>
+</section>
+<section class="block paragraph" id="block-4406841680">
+<p class="block-en">Don’t let the variety of funds distract you too much. So many different funds are out there that the choices could drive you crazy. I list the main types, but funds can invest by objective (as previ- ously listed) or composition, such as with foreign stock funds (which invest in foreign securities), tax-exempt funds (which invest in municipal bonds), U.S. government funds, and so on. The composition of the fund should help you match it with your customer’s objectives. A customer primarily looking for safety and income might invest in a U.S. government bond fund.</p>
+<p class="block-zh">不要让基金的多样性分散您太多的精力。市面上有这么多不同的基金，选择起来可能会让您抓狂。我列出了主要类型，但基金可以按目标（如前所述）或构成进行投资，例如外国股票基金（投资于外国证券）、免税基金（投资于市政债券）、美国政府基金等。基金的构成应能帮助您将其与客户的目标相匹配。追求安全和收入的客户可能会投资美国政府债券基金。</p>
+</section>
+<section class="block heading" id="block-4406841936">
+<h2>Dealing with discounts</h2>
+<div class="block-zh">处理折扣</div>
+</section>
+<section class="block paragraph" id="block-4406841040">
+<p class="block-en">Investors who have the extra funds available may be able to receive a reduced sales charge for large dollar purchases. Breakpoints (see the next sections) and the letter of intent (see the next sections) are available to investors of open-end funds and unit investment trusts. Because closed- end funds, after the initial offering, are traded in the market, investors do not receive breakpoints. Dollar cost averaging and fixed share averaging are most often used for open-end fund purchases but may apply to other investments as well.</p>
+<p class="block-zh">拥有额外可用资金的投资者，在大额购买时可能会获得销售费用的减免。**折让点 （Breakpoints）**（见下节）和**意向书 （letter of intent）**（见下节）适用于开放式基金和单位投资信托的投资者。由于封闭式基金在首次发行后是在市场上交易的，因此投资者不会获得折让点。平均成本投资法 （Dollar cost averaging） 和定额股份投资法 （fixed share averaging） 最常用于开放式基金的购买，但也可能适用于其他投资。</p>
+</section>
+<section class="block heading" id="block-4406851152">
+<h3>Breakpoints</h3>
+<div class="block-zh">折让点 （Breakpoints）</div>
+</section>
+<section class="block paragraph" id="block-4406850256">
+<p class="block-en">Funds have an investment adviser (portfolio manager) who gets paid a percentage of the value of the securities held in the fund. Therefore, one way to entice investors to spend more is to reduce the sales charge when they spend a certain minimum amount of money. That’s where the break- point comes in.</p>
+<p class="block-zh">基金有投资顾问（投资组合经理），他们按基金持有的证券价值的一定百分比获取报酬。因此，诱使投资者投入更多资金的一种方法是，当他们投入一定的最低金额时，降低销售费用。这就是**折让点 （breakpoint）** 的用武之地。</p>
+</section>
+<section class="block paragraph" id="block-4406847696">
+<p class="block-en">Management investment companies divide purchase amounts into different tiers. Within a certain range, investors all pay the same sales charge percentage. But when investors spend and/ or the account grows enough to put them in the next tier (when they hit the breakpoint), they get a reduced percentage sales charge. Breakpoints have no set schedule, so they vary from fund to fund.</p>
+<p class="block-zh">管理型投资公司将购买金额分为不同的等级。在一定范围内，投资者的销售费用百分比是相同的。但是，当投资者投入的金额和/或账户增长足以使他们进入下一个等级时（即触及折让点时），他们将获得较低的销售费用百分比。折让点没有统一的时间表，因此因基金而异。</p>
+</section>
+<section class="block paragraph" id="block-4406850896">
+<p class="block-en">Another discount, rights of accumulation (ROA), allows shareholders to receive a reduced sales charge when the amount of the funds held (based on their current price, not purchase price) plus the amount purchased is enough to reach a breakpoint. There is no time limit for rights of accumulation.</p>
+<p class="block-zh">另一种折扣是**累计优先权 （ROA）**，它允许股东在持有的基金金额（基于当前价格而非购买价格）加上新购买的金额足以达到费率折让点时，获得销售费用减免。累计优先权没有时间限制。</p>
+</section>
+<section class="block paragraph" id="block-4406850128">
+<p class="block-en">Here are a few key points for you to remember for the SIE exam:</p>
+<p class="block-zh">以下是参加 SIE 考试需要记住的几个关键点：</p>
+</section>
+<div class="block list-item" id="block-4406850768">
+<div class="block-en">• Breakpoints must be disclosed in the prospectus.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406847184">
+<div class="block-en">• Breakpoints aren’t available to partnerships or investment clubs (several people pooling money to receive reduced sales charges).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406850000">
+<div class="block-en">• Breakpoints are generally available to individual investors, joint accounts with family members, UGMA accounts, and corporations.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406847440">
+<h3>Breakpoint sales</h3>
+<div class="block-zh">费率折让点销售（Breakpoint sales）</div>
+</section>
+<section class="block paragraph" id="block-4406849872">
+<p class="block-en">As an agent, you’re responsible for letting investors know about the existence of breakpoints. A breakpoint sale occurs when you induce a sale just below the level where an investor would receive a breakpoint or an additional sales discount. As shown in Table 9-2, you would make more money if a client purchased $23,000 worth of a fund instead of $25,000 because of the discounted sales charge the customer would receive at $25,000. It’s your responsibility to let the client know that by investing $2,000 more, they can reach a breakpoint. Not disclosing breakpoints and inducing sales just below breakpoints are violations.</p>
+<p class="block-zh">作为代理人，您有责任让投资者知道费率折让点的存在。**费率折让点销售（breakpoint sale）**发生在您诱导投资者在略低于获得费率折让点或额外销售折扣的水平进行购买。如表 9-2 所示，如果客户购买价值 23,000 美元的基金而不是 25,000 美元的基金，您会赚更多的钱，因为客户在 25,000 美元时可以获得折扣销售费。您的责任是让客户知道，通过再投资 2,000 美元，他们可以达到费率折让点。不披露费率折让点并诱导在费率折让点以下进行销售属于**违规行为**。</p>
+</section>
+<section class="block paragraph" id="block-4406850640">
+<p class="block-en">TABLE 9-2	Breakpoints for AylDec Growth Fund</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406847056">
+<h3>Letters of intent</h3>
+<div class="block-zh">意向书 （LOI）</div>
+</section>
+<section class="block paragraph" id="block-4406850512">
+<p class="block-en">A letter of intent (LOI) signed by an investor allows them to receive a breakpoint (quantity dis- count) right away with the initial purchase, even if the investor hasn’t yet deposited enough money to achieve the breakpoint. This document states that as long as the investor deposits enough within a 13-month period, they will receive the discounted sales charge right away.</p>
+<p class="block-zh">投资者签署的**意向书 （LOI）** 允许他们在初始购买时立即获得折让点（数量折扣），即使投资者尚未存入足够的资金来达到折让点。该文件规定，只要投资者在 **13 个月**内投入足够的资金，他们就可以立即享受折扣后的销售费。</p>
+</section>
+<section class="block paragraph" id="block-4406853456">
+<p class="block-en">Here are a few specifics about the letter of intent that you need to know for the SIE:</p>
+<p class="block-zh">以下是参加 SIE 考试需要了解的有关意向书的几点细节：</p>
+</section>
+<div class="block list-item" id="block-4406846544">
+<div class="block-en">• The investor has 13 months after the first deposit to live up to the terms of the letter of intent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406846800">
+<p class="block-en">in order to maintain the reduced sales charge.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406849744">
+<div class="block-en">• The LOI may be backdated for up to 90 days, meaning that it may apply to a previous purchase.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406846288">
+<p class="block-en">However, remember that if the LOI applies to a previous purchase, the 13-month period starts</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406853200">
+<p class="block-en">from the date of that previous transaction.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406849616">
+<div class="block-en">• While the investor is under the letter of intent, shares are held in escrow to pay for the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406845776">
+<p class="block-en">difference in the sales charge. If the investor doesn´t live up to the terms of the obligation,</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406853072">
+<p class="block-en">the fund sells the shares held in escrow.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406848720">
+<p class="block-en">Here’s how a letter of intent may work. Suppose that Mr. Smith purchased $10,000 worth of AylDec Growth Fund two months ago and is investing another $10,000 into the fund right now. Mr. Smith believes that he’ll keep investing in AylDec Growth Fund and would like to get a reduced sales charge for investments of $25,000 and up (see Table 9-2 for the breakpoints).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406849488">
+<p class="block-en">Mr. Smith signs a LOI and wants to apply it to his previous purchase. Because his previous purchase was two months ago, Mr. Smith has only another 11 months to invest the remaining</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406852176">
+<p class="block-en">$5,000 into AylDec Growth Fund. Mr. Smith will receive the 3 percent sales charge on his $10,000 investment right now, which will be reduced by the overage he paid on the initial investment of</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406852944">
+<p class="block-en">$20,000. In other words, he’ll pay only $100 sales charge on the current investment ($300 for this transaction minus the $200 overpaid from the previous investment) when he invests the $10,000. As long as Mr. Smith deposits the additional $5,000 by the end of the LOI’s timeframe, he’ll pay the 3 percent sales charge. However, if Mr. Smith doesn’t live up to the terms of the agreement, AylDec Growth Fund will sell the shares held in escrow to pay for the difference in the sales charge.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406849360">
+<p class="block-en">Investors may redeem their shares at any time, even if they’re under a LOI.</p>
+<p class="block-zh">投资者可以随时赎回其股份，即使他们签署了意向书。</p>
+</section>
+<section class="block heading" id="block-4406852816">
+<h2>Figuring the sales charge and public offering price of open-end funds</h2>
+<div class="block-zh">计算开放式基金的销售费用和公开发售价</div>
+</section>
+<section class="block paragraph" id="block-4406852688">
+<p class="block-en">You need to know two basic formulas to determine the sales charge and public offering price of open-end funds. Yes, every chapter seems to have more formulas, but these formulas are pretty straightforward and shouldn’t cause you too many sleepless nights.</p>
+<p class="block-zh">您需要了解两个基本公式来确定开放式基金的销售费用和公开发售价。是的，每一章似乎都有更多的公式，但这些公式非常简单，不应该让您失眠。</p>
+</section>
+<section class="block heading" id="block-4406849232">
+<h3>Sales charge percent</h3>
+<div class="block-zh">销售费用百分比</div>
+</section>
+<section class="block paragraph" id="block-4406852560">
+<p class="block-en">The sales charge, which is set at a maximum of 8½ percent, is part of the public offering price (POP), or ask price, not something tacked on afterward like a sales tax. One of the tricks for calculating the sales charge (or load) for open-end funds is remembering that the POP equals 100 percent. Therefore, if the sales charge is 8 percent, the NAV is 92 percent of the POP. The formula for determining the sales charge percentage is as follows:</p>
+<p class="block-zh">销售费用设定最高为 **8.5%**，它是公开发售价 （POP） 或卖出价的一部分，而不是像销售税那样事后附加的。计算开放式基金销售费用（或 **load**）的技巧之一是记住 POP 等于 100%。因此，如果销售费为 8%，则 NAV 是 POP 的 92%。确定销售费用百分比的公式如下：</p>
+</section>
+<section class="block paragraph" id="block-4406852432">
+<p class="block-en">sales charge  ask  bid</p>
+<p class="block-zh">销售费用百分比</p>
+</section>
+<section class="block paragraph" id="block-4406848848">
+<p class="block-en">ask</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406852304">
+<p class="block-en">POP NAV POP</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406848976">
+<p class="block-en">The following question tests your expertise in calculating the sales charge of a mutual fund.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406849104">
+<p class="block-en">ABC Aggressive Growth Fund has a net asset value of $9.60 and a public offering price of $10.00. What is the sales charge percent?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406848336">
+<div class="block-en">• 3.4 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406848464">
+<div class="block-en">• 3.75 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406851920">
+<div class="block-en">• 4 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406848208">
+<div class="block-en">• 4.35 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406851792">
+<p class="block-en">The right answer is (C). The first thing you have to do is set up the equation. Start with the POP of $10.00 and subtract the NAV of $9.60 to get $0.40. Next, divide the $0.40 by the POP of $10.00 to get the sales charge of 4 percent:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406851664">
+<p class="block-en">sales charge	POP NAV</p>
+<p class="block-zh">销售费用百分比</p>
+</section>
+<section class="block paragraph" id="block-4406851536">
+<p class="block-en">POP</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406852048">
+<p class="block-en">$10.00 - $9.60</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406847824">
+<p class="block-en">$10.00</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406853328">
+<p class="block-en">$0.40   4%</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406850384">
+<p class="block-en">$10.00</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406848080">
+<p class="block-en">To help you remember that the ask (offer) price of a fund is the same as the POP, remember to ask your POP about it.</p>
+<p class="block-zh">为了帮助您记住基金的卖出价 （ask price） 就是 POP，请记住“**问问您的老爸 （ask your POP）**”。（注：POP 是父亲的昵称，此处为谐音记忆法）</p>
+</section>
+<section class="block heading" id="block-4406847952">
+<h3>Public offering price (POP)</h3>
+<div class="block-zh">公开发售价 （POP）</div>
+</section>
+<section class="block paragraph" id="block-4406851408">
+<p class="block-en">When taking the SIE exam, you may be asked to figure out the POP of a mutual fund when you’re given only the sales charge percent and the NAV.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406851280">
+<p class="block-en">The sales charge is already part of the POP, so the sales charge is not equal to the sales charge percent times the NAV. Use the following formula to figure out how much an investor has to pay to buy shares of the fund when you know only the NAV and the sales charge percentage:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406851024">
+<p class="block-en">public offering price  net asset value</p>
+<p class="block-zh">公开发售价 （POP）</p>
+</section>
+<section class="block paragraph" id="block-4406842192">
+<p class="block-en">100% sales charge</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406842064">
+<h3>Classifying the load</h3>
+<div class="block-zh">费用类别的分类</div>
+</section>
+<section class="block paragraph" id="block-4406842320">
+<p class="block-en">As I explain earlier in this chapter, most mutual funds charge a sales charge (also known as a load) that’s built into the POP. Most charge up front, but some charge constantly; some charge when redeeming; and some don’t charge a load at all. Depending on how investors are charged, mutual funds are broken into classes:</p>
+<p class="block-zh">正如我在本章前面所解释的，大多数共同基金都会收取包含在 POP 中的销售费用（也称为 **load**）。大多数在购买时预先收取，但有些会持续收取；有些在赎回时收取；还有些根本不收费用。根据投资者的付费方式，共同基金分为以下几个类别：</p>
+</section>
+<div class="block list-item" id="block-4406842704">
+<div class="block-en">• Class A (front-end load): The investor pays the load when purchasing shares of the fund. These funds typically are better for long-term investors because they usually have lower</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406842576">
+<p class="block-en">expense ratios, and they have breakpoints for large dollar purchases.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406842832">
+<div class="block-en">• Class B (back-end load): The investor pays the load when redeeming shares of the fund. These funds have higher expense ratios than Class A but often convert to Class A if held for</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406842960">
+<p class="block-en">many years. Very few mutual fund companies offer Class B shares at this point.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406843216">
+<div class="block-en">• Class C (level load): The investors pay a periodic fee (usually, annually) over the time period that they hold the fund. These funds have higher expense ratios than Class A and have an exit</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406843472">
+<p class="block-en">fee, which is often eliminated after a year or two. These funds typically are the best option for short-term investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406843600">
+<div class="block-en">• No-load: Investors don’t pay a sales charge but may be charged some sort of transaction fee. Unlike load mutual funds, no-load funds may not charge a 12b-1 fee greater than</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406843344">
+<p class="block-en">25 basis points.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406843088">
+<h1>Considering Other Investment</h1>
+<div class="block-zh">考虑其他投资公司选项</div>
+</section>
+<section class="block paragraph" id="block-4406843728">
+<p class="block-en">A couple of other types of investment companies — face-amount certificate companies and unit investment trusts (UITs) — aren’t as popular as they used to be. Unfortunately, even though you may never sell any, you do need to know them for the SIE exam. You probably won’t see more than a question or two on these topics. But exchange-traded funds (ETFs) are becoming increas- ingly popular, so your chance of seeing a question on ETFs and/or inverse ETFs is pretty high.</p>
+<p class="block-zh">另外两类投资公司——**面值证单公司**和**单位投资信托 （UITs）**——已经不像以前那样受欢迎了。遗憾的是，尽管您可能永远不会销售这些产品，但为了参加 SIE 考试，您确实需要了解它们。在这些主题上，您可能只会看到一两个问题。但是，**交易所交易基金 （ETFs）** 正变得越来越流行，因此您在考试中看到关于 ETFs 和/或反向 ETFs 问题的概率相当高。</p>
+</section>
+<section class="block heading" id="block-4406843856">
+<h2>Face-amount certificate companies</h2>
+<div class="block-zh">面值证单公司</div>
+</section>
+<section class="block paragraph" id="block-4406843984">
+<p class="block-en">A fDce-Dmount certificDte is a type of packaged security that’s similar to a zero-coupon bond (see Chapter 7); investors make either a lump-sum payment or periodic payments in return for a larger future payment. The issuer of a face-amount certificate guarantees payment of the face amount (a fixed sum) to the investor at a preset date. Very few face-amount certificate companies are around today, which is why the SIE exam doesn’t include many questions about this type of packaged security.</p>
+<p class="block-zh">**面值证单**是一种类似于零息债券的组合证券（见第 7 章）；投资者通过一次性支付或定期支付，以换取未来的一笔更大的支付。面值证单的发行人保证在预设日期向投资者支付票面金额（固定金额）。目前现存的面值证单公司非常少，这就是为什么 SIE 考试中关于这类组合证券的问题不多的原因。</p>
+</section>
+<section class="block heading" id="block-4406844112">
+<h2>Unit investment trusts</h2>
+<div class="block-zh">单位投资信托 （UITs）</div>
+</section>
+<section class="block paragraph" id="block-4406844368">
+<p class="block-en">A unit investment trust (UIT) is a registered investment company that purchases a fixed (unman- aged) portfolio of income-producing securities (typically, bonds) and holds them in trust, which means that a UIT acts as a holding company for its investors. Then the company issues redeem- able shares (units) that represent investors’ interest in the trust. Unlike mutual funds, UITs are set up for a specific period of time and have a set termination date. Any capital gains, interest, and/or dividends are passed on to shareholders at regular intervals.</p>
+<p class="block-zh">**单位投资信托 （UIT）** 是一家注册投资公司，它购买一个固定的（非管理的）收益型证券组合（通常是债券）并将其进行信托持有，这意味着 UIT 充当了投资者的控股公司。然后，该公司发行可赎回的股份（**单位 units**），代表投资者在信托中的权益。与共同基金不同，UIT 是为特定时间段设立的，并有固定的终止日期。任何资本利得、利息和/或股息都会定期传递给股东。</p>
+</section>
+<section class="block paragraph" id="block-4406844624">
+<p class="block-en">UITs have a finite number of shares outstanding and are distributed in the primary market at the initial public offering (IPO) price. Because a limited number of shares are outstanding and must be redeemed with the issuer or sponsor, liquidity is very limited.</p>
+<p class="block-zh">UITs 的流通股份数量有限，且在一级市场按首次公开募股 （IPO） 价格分销。由于流通股份数量有限，且必须向发行人或发起人赎回，因此其流动性非常有限。</p>
+</section>
+<section class="block paragraph" id="block-4406844496">
+<p class="block-en">Like mutual (open-end) funds, UITs can be purchased by type, such as growth, income, balanced, international, and so forth.</p>
+<p class="block-zh">与共同（开放式）基金一样，UIT 也可以按类型购买，如增长型、收益型、平衡型、国际型等。以下是您在考试中应熟悉的这类信托的两大主要类别：</p>
+</section>
+<section class="block paragraph" id="block-4406844752">
+<p class="block-en">Here are the two main categories of these trusts that you should be familiar with for the exam:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406844880">
+<div class="block-en">• Fixed investment trusts: These companies invest in a portfolio of debt securities, and the trust terminates when all the bonds in the portfolio mature.</div>
+<div class="block-zh">*   **Participating trusts：** These companies invest in shares of mutual funds. The mutual funds that the trust holds don't change， but the securities held by the underlying mutual funds do. （参与型信托：这些公司投资于共同基金的股份。信托持有的共同基金本身不变，但这些共同基金底层持有的证券是变动的。）</div>
+</div>
+<div class="block list-item" id="block-4406845008">
+<div class="block-en">• Participating trusts: These companies invest in shares of mutual funds. The mutual funds that the trust holds don’t change, but the securities held by the underlying mutual funds do.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406844240">
+<p class="block-en">Because the portfolio of securities is fixed, UITs don’t employ investment advisers and, therefore, have no investment adviser fees during the life of the trust. Nice break!</p>
+<p class="block-zh">由于证券组合是固定的，UIT 不雇佣投资顾问，因此在信托存续期内没有投资顾问费。这真不错！</p>
+</section>
+<section class="block heading" id="block-4406845264">
+<h2>Exchange-traded products (funds and notes)</h2>
+<div class="block-zh">交易所交易产品（基金与票据）</div>
+</section>
+<section class="block paragraph" id="block-4406845136">
+<p class="block-en">Exchange-traded products (ETPs), which you’re likely to encounter on the exam, include ETFs and exchange-traded notes (ETNs). ETPs are considered to be alternatives to investing in mutual funds; they not only provide diversification, like mutual funds but can also be sold short and</p>
+<p class="block-zh">您在考试中可能会遇到的交易所交易产品 （ETPs） 包括 ETFs 和交易所交易票据 （ETNs）。ETPs 被认为是投资共同基金的替代方案；它们不仅像共同基金一样提供多样化，还可以进行卖空和融资买入。然而，投资者应意识到，买卖 ETPs 通常会被收取佣金，这可能会切实削减任何潜在利润。</p>
+</section>
+<section class="block paragraph" id="block-4406845392">
+<p class="block-en">purchased on margin. Investors should be aware, however, that they’ll typically be charged a commission for buying and selling ETPs, which can really cut into any potential profits.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406845520">
+<p class="block-en">Most ETFs are passive, meaning that they’re designed to be a single security that tracks certain indices such as the S&P 500, the S&P 100, the Dow Jones Industrial Average (DJIA), Nasdaq secu- rities, and so on. Some ETFs are active, meaning that the securities they hold may change. Quite often, ETFs are designed to mirror securities held by certain mutual funds.</p>
+<p class="block-zh">大多数 ETF 是**被动的**，这意味着它们被设计为跟踪特定指数（如标普 500、标普 100、道琼斯工业平均指数、纳斯达克证券等）的单一证券。一些 ETF 是**主动的**，这意味着它们持有的证券可能会发生变化。通常，ETF 被设计用来镜像某些共同基金持有的证券。</p>
+</section>
+<section class="block heading" id="block-4406845648">
+<h3>Exchange-traded funds</h3>
+<div class="block-zh">交易所交易基金 （ETFs）</div>
+</section>
+<section class="block paragraph" id="block-4406845904">
+<p class="block-en">Exchange-traded funds (ETFs) are typically registered as open-end funds but act more like closed-end funds. They either passively track an index or other benchmark or are actively man- aged. ETFs, as the name implies are actively traded on an exchange. ETFs provide investors with diversification along with ease of trading, the ability to sell short, and purchase shares on margin. Although ETFs can include investments across many asset classes, their main focus is on stocks (equity funds) and bonds (bond funds).</p>
+<p class="block-zh">交易所交易基金 （ETFs） 通常注册为开放式基金，但运作方式更像封闭式基金。它们要么被动跟踪指数或其他基准，要么由人工主动管理。正如其名，ETF 在交易所进行活跃交易。ETF 为投资者提供多样化选择，同时具备交易便利、可卖空以及可融资买入等特点。虽然 ETF 可以涵盖多个资产类别的投资，但其主要焦点在于股票（权益型基金）和债券（债券型基金）。</p>
+</section>
+<section class="block paragraph" id="block-4406846160">
+<p class="block-en">Inverse ETFs (also known as short ETFs or bear ETFs) are exchange-traded funds that are designed using many derivative products (options, for example) to attempt to profit from a decline in the value of the underlying index (the S&P 500, for example). Inverse ETFs can be used to profit from a decline in a broad market index or in a specific sector, such as the energy or financial sectors.</p>
+<p class="block-zh">**反向 ETFs**（也称为**空头 ETFs** 或**熊市 ETFs**）是利用许多衍生产品（例如期权）设计的交易所交易基金，旨在从标的指数（例如标普 500）价值的下跌中获利。反向 ETF 可用于从大盘指数或特定行业（如能源或金融板块）的下跌中获利。</p>
+</section>
+<section class="block paragraph" id="block-4407178448">
+<p class="block-en">When compared to mutual funds, ETFs have some distinct advantages, including the ability to purchase shares on margin, ease of trading, and lower operating costs. Mutual funds have forward pricing — meaning that purchases or redemptions take place at the next computed public offering price (POP) or net asset value (NAV) — but ETFs can be traded any time throughout the day at the current bid or ask price.</p>
+<p class="block-zh">与共同基金相比，ETF 具有一些独特的优势，包括可以融资买入、交易便利以及运营成本较低。共同基金采用**远期定价**——这意味着申购或赎回是按下一个计算出的公开发售价 （POP） 或资产净值 （NAV） 进行的——但 ETF 可以在全天任何时间按当前的买入价或卖出价进行交易。</p>
+</section>
+<section class="block paragraph" id="block-4407178576">
+<p class="block-en">A couple of disadvantages exist when comparing ETFs to mutual funds: Investors are typically charged commissions when buying and selling and, because they are so easy to trade, investors are more likely to trade excessively instead of holding their positions. (There are some commission-free ETFs but they usually have higher expense ratios.)</p>
+<p class="block-zh">与共同基金相比，ETF 也存在一些缺点：投资者在买卖时通常会被收取佣金，而且由于交易非常方便，投资者更有可能过度交易而不是长期持有。（虽然有一些免佣金的 ETF，但它们通常拥有更高的费用率。）</p>
+</section>
+<section class="block paragraph" id="block-4407178704">
+<p class="block-en">Leveraged ETFs are designed to attempt to return a multiple of the daily return of a benchmark index (the S&P 500, for example) that it tracks. (Think multiplication as in 2 times the daily return or 3 times the daily return.) Most leveraged and inverse ETFs are designed to achieve their objec- tives on a daily basis, which means that the securities held by the fund are changed more often than other funds.</p>
+<p class="block-zh">**杠杆 ETFs** 旨在尝试返回其跟踪的基准指数（例如标普 500）每日收益的**倍数**。（想象一下乘法，如每日收益的 2 倍或 3 倍。）大多数杠杆和反向 ETF 的设计目标是按日实现的，这意味着基金持有的证券比其他基金更频繁地发生变动。</p>
+</section>
+<section class="block paragraph" id="block-4407178960">
+<p class="block-en">Note: Because of the risk of inverse ETFs and leveraged ETFs, they are not long- or intermediate- term investments. In addition, because of the risk of these investments, it has to be determined by the firm if a customer is suitable for these investments prior to a recommendation. If a firm determines that a particular leveraged ETF or inverse ETF is suitable for recommendation, they have to determine which customers are suitable.</p>
+<p class="block-zh">注：由于反向 ETF 和杠杆 ETF 的风险，它们**不是长期或中期投资工具**。此外，由于这些投资的风险，公司在做出推荐之前必须确定客户是否适合这些投资。如果公司确定某个特定的杠杆 ETF 或反向 ETF 适合推荐，他们必须确定哪些客户是适合的。</p>
+</section>
+<section class="block heading" id="block-4407178832">
+<h3>Exchange-traded notes</h3>
+<div class="block-zh">交易所交易票据 （ETNs）</div>
+</section>
+<section class="block paragraph" id="block-4407179088">
+<p class="block-en">ETNs have characteristics of ETFs and fixed-income securities. ETNs are unsecured debt securi- ties issued by a bank or financial institution. Their return is linked to a particular market index. ETNs don’t provide dividends or coupon payments, so investors receive income at a specified maturity date. Because ETNs are traded on an exchange, they may be purchased on margin or sold short. If an investor holds an ETN until the maturity date, the investor receives a principal amount based on the performance of the index the note is tracking. Because ETNs are debt securities, they would be negatively impacted if the issuer’s credit rating is downgraded. ETNs are not suitable for all investors because they’re typically quite complex and carry many risks.</p>
+<p class="block-zh">ETNs 兼具 ETF 和固定收益证券的特征。ETN 是由银行或金融机构发行的**无担保债务证券**。其回报与特定的市场指数挂钩。ETN 不提供股息或息票支付，因此投资者在指定的到期日获得收益。由于 ETN 在交易所交易，它们可以融资买入或卖空。如果投资者持有 ETN 直至到期，投资者将根据该票据所跟踪的指数表现获得本金金额。因为 ETN 是债务证券，如果**发行人的信用评级被下调**，它们将受到负面影响。ETN 并不适合所有投资者，因为它们通常相当复杂且风险较高。</p>
+</section>
+<section class="block heading" id="block-4407179216">
+<h2>Investment company rules 17a-6 and 17a-7</h2>
+<div class="block-zh">投资公司规则 17a-6 和 17a-7</div>
+</section>
+<section class="block paragraph" id="block-4407179344">
+<p class="block-en">There are certain additional rules for affiliated persons, advisers, officers, and/or directors of investment companies — specifically Rules 17a-6 and 17a-7. Please note the following important points.</p>
+<p class="block-zh">对于投资公司的关联人员、顾问、高级职员和/或董事，有一些额外的规则——特别是 17a-6 和 17a-7 规则。请注意以下重要几点：</p>
+</section>
+<div class="block list-item" id="block-4407179600">
+<div class="block-en">• According to Rule 17a-6, affiliated persons of investment companies (persons affiliated with the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407179728">
+<p class="block-en">manager of the fund, the custodian bank, and owners of 5 percent or more of the outstanding shares of the fund) are not allowed to trade securities within the fund’s portfolio of securities. However, affiliated persons are certainly allowed to buy and redeem shares of the fund like regular public investors.</p>
+<p class="block-zh">*   根据 **17a-6 规则**，投资公司的关联人员（与基金管理人、托管银行有关联的人员，以及持有基金 5% 或以上流通股的所有者）**不允许交易基金投资组合内的证券**。然而，关联人员当然被允许像普通公众投资者一样购买和赎回该基金的股份。 *   **17a-7 规则**规定，顾问、高级职员或董事可以交易同一基金家族内各基金持有的证券（例如，将富达旗下一只大盘价值基金组合中的证券交易给富达旗下的一只大盘混合基金，反之亦然）。</p>
+</section>
+<div class="block list-item" id="block-4407179856">
+<div class="block-en">• Rule 17a-7 says that advisers, officers, or directors may trade securities held by funds within</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407179984">
+<p class="block-en">the same family of funds (for example, trading securities held from the portfolio of securities of one of Fidelity’s Large Value Funds to one of Fidelity’s Large Blend Funds or vice versa).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407179472">
+<p class="block-en">As with other securities, all investment company advertisements released by a broker-dealer must be approved by a registered principal of the firm.</p>
+<p class="block-zh">与其他证券一样，经纪自营商发布的所有投资公司广告必须经公司的**注册主管 （registered principal）** 批准。</p>
+</section>
+<section class="block paragraph" id="block-4407180112">
+<p class="block-en">Annuities are similar to mutual funds, except annuities are designed to provide supplemental retirement income for investors and are typically more expensive than mutual funds. Life insur- ance companies issue annuities, and these investments provide guaranteed payments for the life of the holder. The SIE exam tests you on the two basic types of annuities: fixed and variable. Because variable annuities are considered securities and fixed annuities are not (because of the guaranteed payout by the insurance company), most of the annuity questions on the SIE exam are about variable annuities.</p>
+<p class="block-zh">年金与共同基金类似，不同之处在于年金旨在为投资者提供补充退休收入，且通常比共同基金更昂贵。人寿保险公司发行年金，这些投资为持有人的终身提供保证给付。SIE 考试会考查两种基本类型的年金：固定年金和变动年金。由于变动年金被视为证券，而固定年金则不然（因为保险公司保证给付），因此 SIE 考试中大多数关于年金的问题都是针对变动年金的。</p>
+</section>
+<section class="block paragraph" id="block-4407180240">
+<p class="block-en">Gather very specific information about your client before making recommendations. In addition, before recommending annuities, make sure you really understand the ins and outs and know what you’re talking about. Annuities have been under the watchful eye of state insurance com- missions and the SEC due to inappropriate recommendations from some brokers. Annuities typi- cally aren’t recommended for younger clients (most annuity purchasers are older than 50), for clients older than 75, or for a client’s entire investment portfolio. For information on portfolio and securities analysis, see Chapter 13.</p>
+<p class="block-zh">在做出推荐之前，请收集有关客户的非常具体的详细信息。此外，在推荐年金之前，请确保您真正了解其中的细枝末节，并清楚自己在说什么。由于一些经纪人的不当推荐，年金一直受到州保险委员会和 证券交易委员会（SEC） 的密切关注。年金通常不推荐给年轻客户（大多数年金购买者年龄在 50 岁以上）、75 岁以上的客户，或者作为客户的全部投资组合。有关投资组合和证券分析的信息，请参阅第 13 章。</p>
+</section>
+<section class="block heading" id="block-4407180368">
+<h2>Looking at fixed annuities</h2>
+<div class="block-zh">审视固定年金</div>
+</section>
+<section class="block paragraph" id="block-4407180624">
+<p class="block-en">The main thing for you to remember about fiXed Dnnuities is that they have fixed rates of return that the issuer guarantees. Investors pay money into fixed annuities, and the money is deposited into the insurance company’s general account. After the investor starts receiving payments from the fixed annuity (usually monthly), the payments remain the same for the remainder of the investor’s life. Because of the guaranteed payout, fixed annuities are not considered securities and, therefore, are exempt from SEC registration requirements and from the Investment Com- pany Act of 1940. Therefore, whereas sellers of fixed annuities must have an appropriate insur- ance license, a securities license is not required.</p>
+<p class="block-zh">关于**固定年金**，您需要记住的最重要一点是，它们具有发行人保证的固定回报率。投资者向固定年金缴款，资金被存入保险公司的通用账户。在投资者开始从固定年金中领取给付（通常是每月）后，给付额在投资者的余生中保持不变。由于有保证给付，固定年金**不被视为证券**，因此免于 证券交易委员会（SEC） 注册要求和 1940 年《投资公司法》的监管。因此，虽然固定年金的销售人员必须持有适当的保险执照，但不需要证券执照。</p>
+</section>
+<section class="block paragraph" id="block-4407180496">
+<p class="block-en">Because the payouts associated with a fixed annuity remain the same, they’re subject to purchas- ing power risk (the risk that the investment won’t keep up with inflation). An investor who received payments of $1,000 per month in the 1970s may have been able to survive; however, that amount today is not even likely to pay your monthly grocery bill.</p>
+<p class="block-zh">由于固定年金的相关给付保持不变，它们面临**购买力风险 （purchasing power risk）**（即投资跟不上通货膨胀的风险）。在 20 世纪 70 年代，每月领取 1,000 美元给付的投资者或许还能生存；然而，这笔钱在今天甚至可能负担不起您的每月杂货账单。</p>
+</section>
+<section class="block heading" id="block-4407180752">
+<h2>Focusing on variable annuities</h2>
+<div class="block-zh">聚焦变动年金</div>
+</section>
+<section class="block paragraph" id="block-4407180880">
+<p class="block-en">Insurance companies introduced variable annuities as a way to keep pace with (or hopefully exceed) inflation. In a fixed annuity, the insurance company bears the investment risk; however, in a variable annuity, the investment risk is borne by the investor. Because the investors assume the investment risk, variable annuities are considered securities and must be registered with the SEC. All variable annuities have to be sold with a prospectus, and only individuals who hold appropriate securities and insurance licenses can sell them.</p>
+<p class="block-zh">保险公司推出**变动年金**是为了跟上（或希望超过）通货膨胀。在固定年金中，保险公司承担投资风险；然而，在变动年金中，**投资风险由投资者承担**。由于投资者承担了投资风险，变动年金被**视为证券**，必须向 证券交易委员会（SEC） 注册。所有变动年金在销售时必须附带招股说明书，且只有持有适当证券和保险执照的人员才能销售。</p>
+</section>
+<section class="block paragraph" id="block-4407181008">
+<p class="block-en">The money that investors deposit is held in a separate account (separate from the insurance com- pany’s other business) because the money is invested differently. The separate account is invested in securities such as common stock, bonds, mutual funds, and so on, with the hope that the investments will keep pace with or exceed the inflation rate.</p>
+<p class="block-zh">投资者存入的资金存放在一个**独立账户 （separate account）** 中（与保险公司的其他业务分开），因为这些资金的投资方式不同。独立账户投资于普通股、债券、共同基金等证券，希望能使投资跟上或超过通货膨胀率。</p>
+</section>
+<section class="block paragraph" id="block-4407064528">
+<p class="block-en">The assumed interest rate (AIR) is a projection of the performance of the securities in the separate account over the life of the variable annuity contract. If the assumed interest rate is 4 percent and the performance of the securities in the separate account is equal to 4 percent, the investor receives the payouts that they expect. However, if the securities outperform the AIR, the investor receives higher payouts than expected. And unfortunately, if the securities held in the separate account underperform the AIR, the investor gets lower payouts than expected.</p>
+<p class="block-zh">**假设利率 （AIR）** 是对变动年金合同存续期内独立账户中证券表现的预测。如果假设利率为 4%，且独立账户中证券的表现等于 4%，则投资者收到预期的给付。然而，如果证券表现**优于 AIR**，投资者收到的**给付会高于预期**。不幸的是，如果独立账户中持有的证券表现**低于 AIR**，投资者收到的**给付会低于预期**。</p>
+</section>
+<section class="block heading" id="block-4407064272">
+<h2>Putting money into (and receiving money from) annuities</h2>
+<div class="block-zh">向年金投入资金（并从中领取资金）</div>
+</section>
+<section class="block paragraph" id="block-4407064656">
+<p class="block-en">Investors have choices when purchasing annuities and getting distributions. Investors may choose a lump-sum payment or multiple payments, depending on their needs. Investors also have a choice regarding how they want to get their distributions at retirement.</p>
+<p class="block-zh">投资者在购买年金和获取分配时有多种选择。根据需求，投资者可以选择一次性支付或多次支付。在退休时，投资者对于如何领取分配金也有多种选择。</p>
+</section>
+<section class="block heading" id="block-4407064912">
+<h3>The pay-in (accumulation) phase</h3>
+<div class="block-zh">投入（累积）阶段</div>
+</section>
+<section class="block paragraph" id="block-4407065040">
+<p class="block-en">Payments into both fixed and variable annuities are made from after-tax dollars, meaning that the investor can’t write the payments off on their taxes. However, payments into both fixed and variable annuities grow on a tax-deferred basis. (They aren’t taxed until the money is with- drawn.) If an investor has contributed $80,000 into a variable annuity that’s now worth $120,000, the investor is taxed only on the $40,000 difference because they have already paid taxes on the contribution. If an annuitant dies during the pay-in phase, most annuity contracts require a death benefit to be paid to the annuitant’s beneficiary. The death benefit is typically the greater of all the money in the account or some guaranteed minimum.</p>
+<p class="block-zh">向固定和变动年金的缴款都是由**税后资金**支付的，这意味着投资者不能在税收中扣除这些缴款。然而，固定和变动年金的投资收益都是在**税收递延 （tax-deferred）** 的基础上增长的。（在提取资金之前不会被征税。）如果一名投资者向变动年金投入了 80,000 美元，现在价值 120,000 美元，那么该投资者仅需对 40,000 美元的差额纳税，因为他们已经对投入的本金纳过税了。如果年金参加人在投入阶段死亡，大多数年金合同要求向其受益人支付**死亡给付 （death benefit）**。死亡给付通常是账户中所有资金或某个保证最低金额中的较大者。</p>
+</section>
+<section class="block paragraph" id="block-4407065168">
+<p class="block-en">Note: During the pay-in phase, an investor of a variable annuity purchases accumulation units. You can think of the accumulation units as being similar to shares of a mutual fund.</p>
+<p class="block-zh">注：在投入阶段，变动年金的投资者购买的是**累积单位 （accumulation units）**。您可以将累积单位想象成类似于共同基金的股份。</p>
+</section>
+<section class="block paragraph" id="block-4407065296">
+<p class="block-en">Investors have a few payment options to select when purchasing fixed or variable annuities. Here’s the rundown of options:</p>
+<p class="block-zh">在购买固定或变动年金时，投资者有几种支付选项可供选择。以下是选项汇总：</p>
+</section>
+<div class="block list-item" id="block-4407065552">
+<div class="block-en">• Single payment deferred annuity: An investor purchases the annuity with a lump-sum payment, and the payouts are delayed until some predetermined date.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407065680">
+<div class="block-en">• Periodic payment deferred annuity: An investor makes periodic payments (usually monthly)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407065808">
+<p class="block-en">into the annuity, and the payouts are delayed until some predetermined date; this is the most</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407065936">
+<p class="block-en">common type of annuity.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407066064">
+<div class="block-en">• Immediate annuity: An investor purchases the annuity with a large sum, and the payouts begin right away or within a couple months.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407065424">
+<p class="block-en">Most annuities in which investors are making scheduled deposits provide a waiver of premium</p>
+<p class="block-zh">对于大多数投资者进行定期缴款的年金，如果年金参加人变得残疾或被限制在长期护理机构中，通常在投入阶段提供**保费豁免 （waiver of premium）**。</p>
+</section>
+<section class="block paragraph" id="block-4407066192">
+<p class="block-en">during the pay-in phase if the annuitant becomes disabled or is confined to long-term care.</p>
+<p class="block-zh">对于大多数投资者进行定期缴款的年金，如果年金参加人变得残疾或被限制在长期护理机构中，通常在投入阶段提供**保费豁免 （waiver of premium）**。</p>
+</section>
+<section class="block heading" id="block-4407066320">
+<h3>Getting the payout</h3>
+<div class="block-zh">领取给付</div>
+</section>
+<section class="block paragraph" id="block-4407066448">
+<p class="block-en">Investors of both fixed and variable annuities have several payout options. These options may cover just the annuitant (investor) or the annuitant and a survivor. No matter what type of payout option the investor chooses, they will be taxed on the amount above the contribution. The earn- ings grow on a tax-deferred basis, and the investor is not taxed on the earnings until withdrawal at retirement.</p>
+<p class="block-zh">固定年金和变动年金的投资者都有多种给付选项。这些选项可能仅涵盖**年金参加人**（投资者），或者涵盖年金参加人和一名**生存者**。无论投资者选择哪种给付选项，他们都将对超过投入本金的部分被征税。收益在税收递延的基础上增长，在退休提取之前，投资者不会对收益纳税。</p>
+</section>
+<section class="block paragraph" id="block-4406739024">
+<p class="block-en">Note: During the payout phase (annuity phase) of a variable annuity, accumulation units are con- verted into a fixed number of annuity units. Investors receive a fixed number of annuity units periodically (usually monthly) with a variable value, depending on the performance of the securi- ties in the separate account.</p>
+<p class="block-zh">注：在变动年金的领取阶段（**年金阶段 annuity phase**），累积单位被转换为固定数量的**年金单位 （annuity units）**。投资者定期（通常是每月）收到固定数量的年金单位，但其价值是变动的，取决于独立账户中证券的表现。</p>
+</section>
+<section class="block paragraph" id="block-4406739152">
+<p class="block-en">The kind of annuity (fixed or variable) and the payout options selected partly determines the pay- ment amounts to the annuitant. So, when purchasing an annuity, the individual has to decide which of the following payout options works best for them:</p>
+<p class="block-zh">年金的种类（固定或变动）以及所选的给付选项在一定程度上决定了向年金参加人支付的金额。因此，在购买年金时，个人必须决定以下哪种给付选项最适合自己：</p>
+</section>
+<div class="block list-item" id="block-4406739408">
+<div class="block-en">• Life (straight life) annuity: This type of payment option provides income for the life of the annuitant (the individual covered by the annuity); however, after the annuitant dies,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406739536">
+<p class="block-en">the insurance company stops making payments. This type of annuity is riskiest for the investor because if the annuitant dies earlier than expected, the insurance company gets to keep the leftover annuity money. Because it’s the riskiest type of annuity for the annuitant, it has the highest payouts of all the options. As with joint life with last survivor annuities, life annuity payment amounts are based on the age and sex of the annuitant(s).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406739664">
+<div class="block-en">• Life annuity with period certain: This payout option guarantees payment to the annuitant for a minimum number of years (10, 20, and so on). For example, if the annuitant were to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406739920">
+<p class="block-en">purchase an annuity with a 20-year guarantee and die after 7 years, a named beneficiary</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406740048">
+<p class="block-en">would receive the payments for the remaining 13 years.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406740176">
+<div class="block-en">• Joint life with last survivor annuity: This option guarantees payments over the lives of two individuals. As you can imagine, this type of annuity is typically set up for a spouse. If the wife</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406740304">
+<p class="block-en">dies first, the husband receives payments until his death. If the husband dies first, his wife receives payments until her death. Because this type of annuity covers the lifespans of two individuals, it has the lowest payouts.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406739792">
+<p class="block-en">All annuities have a mortality guarantee. This guarantee means that the investor receives pay- ments as long as they live, even if it’s beyond their life expectancy.</p>
+<p class="block-zh">所有年金都具有**死亡率保证 （mortality guarantee）**。这项保证意味着只要投资者活着，他们就会收到给付，即使寿命超过了预期寿命。</p>
+</section>
+<section class="block heading" id="block-4406740432">
+<h3>Being mindful of the early withdrawal penalty</h3>
+<div class="block-zh">留意提前支取罚款</div>
+</section>
+<section class="block paragraph" id="block-4406740560">
+<p class="block-en">As with most other retirement plans, annuity investors are hit with a 10 percent early withdrawal penalty if they withdraw the money before age 59½. Yes, that’s correct — the 10 percent penalty is added to the investor’s tax bracket. Typically, annuities include a waiver of the 10 percent penalty in cases such as the need to cover long-term care expenses, death, or disability.</p>
+<p class="block-zh">与大多数其他退休计划一样，如果年金投资者在 **59.5 岁**之前提取资金，将面临 **10% 的提前支取罚款**。是的，没错——这 10% 的罚款是叠加在投资者的所得税档次之上的。通常，年金在某些情况下会豁免这 10% 的罚款，例如需要支付长期护理费用、死亡或残疾。</p>
+</section>
+<section class="block heading" id="block-4406740688">
+<h1>Understanding the Investment Component</h1>
+<div class="block-zh">了解变动人寿保险产品的投资成分</div>
+</section>
+<section class="block paragraph" id="block-4406740816">
+<p class="block-en">You may wonder what life insurance is doing in the SIE, which is mainly about investments. Well, the answer is that certain life insurance products (specifically, variable life [VLI] and variable universal life [VUL]) have an investment component. Like variable annuities, variable life and variable universal life insurance policies have a separate account for investing. That separate account is kept separate from the insurance company’s general fund. You won’t need to know too much about the aforementioned insurance products, so I’ll keep it brief.</p>
+<p class="block-zh">您可能会奇怪，主要关于投资的 SIE 考试中为什么会出现人寿保险。答案是某些人寿保险产品（特别是**变动人寿保险 [VLI]** 和**变动万能寿险 [VUL]**）具有投资成分。与变动年金一样，变动人寿和变动万能寿险保单都有一个用于投资的**独立账户**。该独立账户与保险公司的通用基金分开存放。您不需要对上述保险产品了解太多，所以我将简要介绍。</p>
+</section>
+<section class="block paragraph" id="block-4406740944">
+<p class="block-en">Persons selling variable annuities, variable life insurance, and variable universal life insurance must have not only an appropriate securities license but also an insurance license. Before recom- mending any of the previously mentioned products, you should do an analysis of the client’s needs and make appropriate recommendations.</p>
+<p class="block-zh">销售变动年金、变动人寿保险和变动万能寿险的人员不仅必须持有**适当的证券执照**，还必须持有**保险执照**。在推荐上述任何产品之前，您应该分析客户的需求并做出适当的推荐。</p>
+</section>
+<section class="block heading" id="block-4406741072">
+<h3>Variable life</h3>
+<div class="block-zh">变动人寿保险 （Variable life）</div>
+</section>
+<section class="block paragraph" id="block-4406741328">
+<p class="block-en">Variable life policies have a fixed premium. As with variable annuities, the investor chooses the investments held in a separate account. The death benefit (face amount) on the policy is fixed to a minimum but not to a maximum. The death benefit may increase depending on the perfor- mance of the securities held in the separate account. If the separate account performs poorly, there may be limited or no cash value built up. Policyholders may borrow up to 75 percent of the cash value.</p>
+<p class="block-zh">变动人寿保单具有**固定保费**。与变动年金一样，投资者选择独立账户中持有的投资项目。保单的**死亡给付**（票面金额）设有最低限额，但没有最高限额。死亡给付可能会根据独立账户中证券的表现而增加。如果独立账户表现不佳，可能只会建立有限的现金价值，甚至没有。投保人最多可以借入**现金价值的 75%**。</p>
+</section>
+<section class="block heading" id="block-4406741200">
+<h3>Variable universal life</h3>
+<div class="block-zh">变动万能寿险 （Variable universal life）</div>
+</section>
+<section class="block paragraph" id="block-4406741456">
+<p class="block-en">Unlike variable life policies, variable universal life policies do not have fixed premiums. As such, they are sometimes called flexible premium variable life policies. As with variable life policies, the investors can pick the securities held in the separate account. In this case, since the premium is not fixed and the securities held in the separate account may perform poorly, the minimum death benefit and cash value are not guaranteed.</p>
+<p class="block-zh">与变动人寿保单不同，变动万能寿险保单**没有固定保费**。因此，它们有时被称为**灵活保费**变动人寿保单。与变动人寿保单一样，投资者可以选择独立账户中持有的证券。在这种情况下，由于保费不固定，且独立账户中持有的证券可能表现不佳，因此最低死亡给付和现金价值是**不保证的**。</p>
+</section>
+<section class="block paragraph" id="block-4406741584">
+<p class="block-en">Variable annuities, variable life insurance, and variable universal life insurance may be referred to as variable contracts on the exam.</p>
+<p class="block-zh">变动年金、变动人寿保险和变动万能寿险在考试中可能被统称为**变动合同 （variable contracts）**。</p>
+</section>
+<section class="block paragraph" id="block-4406741712">
+<p class="block-en">This chapter touched base with some basics about different types of investment companies, annuities, life insurance, and so on. There are 15 questions here, so go ahead and see how you do. Good luck!</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406741840">
+<h2>Practice questions</h2>
+</section>
+<div class="block list-item" id="block-4406742096">
+<div class="block-en">• Which of the following is TRUE of mutual funds?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406741968">
+<div class="block-en">• They are a one-time offering of new securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742224">
+<div class="block-en">• The issuer continuously offers new shares.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742352">
+<div class="block-en">• Shares must be sold in the market.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742480">
+<div class="block-en">• Shares are redeemed with the issuer.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742608">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742736">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742864">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406742992">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743120">
+<div class="block-en">• For an investment company to be considered diversified, what is the maximum percentage of outstanding shares that the investment company can own of another company?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743248">
+<div class="block-en">• 1 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743504">
+<div class="block-en">• 5 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743376">
+<div class="block-en">• 10 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743632">
+<div class="block-en">• 15 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743760">
+<div class="block-en">• A fund that uses leverage, options, short sales, as well as other speculative investment strate- gies in an attempt to maximize gains is called a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406743888">
+<div class="block-en">• balanced fund</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744016">
+<div class="block-en">• growth fund</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744144">
+<div class="block-en">• aggressive growth fund</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744272">
+<div class="block-en">• hedge fund</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744400">
+<div class="block-en">• Which of the following is TRUE about a letter of intent?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744528">
+<div class="block-en">• It remains in effect for 13 months.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744656">
+<div class="block-en">• It may be backdated for up to 90 days.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744784">
+<div class="block-en">• Shares may be held in escrow.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406744912">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745040">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745168">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745296">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745424">
+<div class="block-en">• What is the maximum sales charge for a mutual fund?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745680">
+<div class="block-en">• 8 percent, which is built into the public offering price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745552">
+<div class="block-en">• 8 percent, which is added to the public offering price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406745936">
+<div class="block-en">• 8½ percent, which is built into the public offering price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746192">
+<div class="block-en">• 8½ percent, which is added to the public offering price</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746320">
+<div class="block-en">• Which of the following is exempt from the Investment Company Act of 1940?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746448">
+<div class="block-en">• Mutual funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746576">
+<div class="block-en">• Closed-end funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746704">
+<div class="block-en">• Fixed annuities</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406746832">
+<div class="block-en">• Variable annuities</div>
+<div class="block-zh">变动人寿保险 （Variable life）</div>
+</div>
+<div class="block list-item" id="block-4406746960">
+<div class="block-en">• Which of the following is true of private-equity funds?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406747088">
+<div class="block-en">• They are exempt from SEC registration.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406747216">
+<div class="block-en">• They must be registered with the SEC.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406747600">
+<div class="block-en">• They may purchase private companies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406753872">
+<div class="block-en">• They may not purchase private companies.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754000">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754128">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754256">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754384">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754512">
+<div class="block-en">• A 	 fund only invests in a specific industry.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754640">
+<div class="block-en">• Sector</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754768">
+<div class="block-en">• Hedge</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406754896">
+<div class="block-en">• Balanced</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406755152">
+<div class="block-en">• Growth or aggressive growth</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406755024">
+<div class="block-en">• Open-end funds may issue</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970064">
+<div class="block-en">• common stock</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968400">
+<div class="block-en">• preferred stock</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968528">
+<div class="block-en">• bonds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968656">
+<div class="block-en">• all of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968784">
+<div class="block-en">• TUV Balanced Fund has a net asset value of $21.40 and a public offering price of $22.60. What is the sales charge percent?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968912">
+<div class="block-en">• 5.15 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969040">
+<div class="block-en">• 5.30 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969424">
+<div class="block-en">• 5.60 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969168">
+<div class="block-en">• 5.66 percent</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969296">
+<div class="block-en">• FerdCo Communications Fund has a NAV of $14.20 and a POP of $15.02. FerdCo offers breakpoints for large dollar purchases. If FerdCo is only charging a 4 percent sales charge for purchases between $20,000 and $30,000, how many shares would Smith receive if purchasing</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406969680">
+<p class="block-en">$25,000 worth?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406969552">
+<div class="block-en">• 1,597.225 shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969936">
+<div class="block-en">• 1,662.882 shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970320">
+<div class="block-en">• 1,664.447 shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969808">
+<div class="block-en">• 1,690.331 shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970704">
+<div class="block-en">• Which of the following can be purchased on margin?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970832">
+<div class="block-en">• ETFs</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970192">
+<div class="block-en">• Mutual fund Class A shares</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970448">
+<div class="block-en">• Life-cycle funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970576">
+<div class="block-en">• Money market funds</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970960">
+<div class="block-en">• All of the following are ways a variable annuity can be purchased EXCEPT</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406971216">
+<div class="block-en">• immediate annuity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406971472">
+<div class="block-en">• payment deferred immediate annuity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406971728">
+<div class="block-en">• sngle payment deferred annuity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208016">
+<div class="block-en">• periodic payment deferred annuity</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208144">
+<div class="block-en">• Which of the following life insurance products has a fixed premium?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208272">
+<div class="block-en">• Variable life</div>
+<div class="block-zh">变动人寿保险 （Variable life）</div>
+</div>
+<div class="block list-item" id="block-4407208400">
+<div class="block-en">• Variable universal life</div>
+<div class="block-zh">变动万能寿险 （Variable universal life）</div>
+</div>
+<div class="block list-item" id="block-4407208528">
+<div class="block-en">• Both (A) and (B)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208656">
+<div class="block-en">• Neither (A) nor (B)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208784">
+<div class="block-en">• Which of the following are TRUE about variable annuities?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407208912">
+<div class="block-en">• Investors purchase accumulation units during the pay-in phase.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209040">
+<div class="block-en">• Investors purchase annuity units during the pay-in phase.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209168">
+<div class="block-en">• If the performance of the securities held in the separate account exceeds the assumed interest rate, payouts increase.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209296">
+<div class="block-en">• Payments to variable annuities are made from pretax dollars.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209424">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209552">
+<div class="block-en">• I, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209680">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407209808">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407209936">
+<h1>Answers and explanations</h1>
+<div class="block-zh">答案与解释</div>
+</section>
+<div class="block list-item" id="block-4407210064">
+<div class="block-en">• D. Mutual funds are open-end funds. Mutual fund issuers continuously offer new shares. Holders sell their shares by redeeming them with the issuer. By contrast, the issuer of a closed-end fund would sell the securities once, and then they would be traded in</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407210192">
+<p class="block-en">the market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407210320">
+<div class="block-en">• C. According to the Investment Company Act of 1940, out of the 75 percent that must be diversified, a diversified investment company may not own more than 10 percent of outstanding shares of another company. In addition, the investment company cannot invest more than 5 percent of its diversified assets into one issuer’s securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407210448">
+<div class="block-en">• D. Hedge funds are the most speculative (riskiest) type of fund. Hedge funds are available to accredited investors and are allowed to execute trades that other funds cannot.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407210576">
+<div class="block-en">• D. Letters of intent allow mutual fund investors to receive a breakpoint (discounted sales charge for large dollar purchases) right away as long as they purchase enough of the fund within 13 months to receive the breakpoint. It may be backdated for up to 90 days so that the 13-month period can apply to a previous purchase. The issuer may hold shares in escrow to make sure the investor lives up to the terms of the letter of intent.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407210704">
+<div class="block-en">• C. The maximum sales charge for a mutual fund is 8½ percent of the amount invested. This means that investors make their purchase at the public offering price, which already has the sales charge built in.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407210832">
+<div class="block-en">• C. Fixed annuities are not considered investment companies since the payout is guaranteed by the issuing insurance company.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407210960">
+<div class="block-en">• A. Private-equity funds are only available to sophisticated (accredited) investors and are exempt from SEC registration. As part of their investment strategy, they may purchase private companies and/or purchase enough shares of public companies to gain control.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407211088">
+<div class="block-en">• A. Sector funds invest in specific industries, such as automotives, pharmaceutical, energy, technology, and so on.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407211216">
+<div class="block-en">• A. Open-end (mutual) funds may only issue common stock. Conversely, closed-end funds may issue common stock, preferred stock, and bonds.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407078992">
+<div class="block-en">• B. With mutual funds, the sales charge is built into the public offering price (POP), so you have to subtract the net asset value (NAV) from the POP and then divide that by the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407079632">
+<p class="block-en">POP. Check out the following equation:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407079888">
+<p class="block-en">sales charge	POP NAV</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080016">
+<p class="block-en">POP</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080144">
+<p class="block-en">$22.60  $21.40</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080272">
+<p class="block-en">$22.60</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407079760">
+<p class="block-en">$1.20</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080528">
+<p class="block-en">$22.60</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080400">
+<p class="block-en">5.3%</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407080656">
+<div class="block-en">• D. Because this investor is depositing enough to receive a breakpoint, the investor will not be paying the regular POP (public offering price). So, to determine what this investor will be paying per share, you have to calculate their POP. Look at the following equation:</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407080912">
+<p class="block-en">POP 	NAV</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081040">
+<p class="block-en">100% sales charge</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081168">
+<p class="block-en">$14.20</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081296">
+<p class="block-en">100%  4%</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081424">
+<p class="block-en">$14.20 96%</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081552">
+<p class="block-en">$14.79 per share</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407080784">
+<p class="block-en">Okay, you got the difficult part of the question completed. Now all you have to do is divide the dollar purchase by Smith’s cost per share. Don’t let the fact that you may end up with fractional shares confuse you because you’re allowed to purchase fractional shares of mutual funds.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081808">
+<p class="block-en">$25,000 invested</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407081936">
+<p class="block-en">$14.79 per share</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407082064">
+<p class="block-en">1,690.331 shares</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407081680">
+<div class="block-en">• A. ETFs (Exchange-Traded Funds) can be purchased on margin, which provides investors with a leveraged position with increased risk. All of the other choices listed must be paid for in full. Since mutual funds are new securities, they may not be purchased on margin but are marginable after being held for 30 days.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407082192">
+<div class="block-en">• B. (A), (C), and (D) are all possible ways of purchasing a variable annuity. However, an insurance company is not going to let you collect on an annuity when not a single payment has been made, as stated in (B).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407082320">
+<div class="block-en">• A. Variable life insurance has a fixed premium, and the death benefit is fixed as to a minimum but not a maximum. If the securities held in the separate account outperform the expected return, the death benefit increases. Unlike variable life, variable universal life has a flexible premium. In this case, if the securities held in the separate account underper- form, the death benefit and cash value are not guaranteed.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407082448">
+<div class="block-en">• A. Looking at all of the answer choices, you see that III has to be true because it’s in all of the answers. When an investor purchases an annuity, they’re purchasing accumulation units. During the payout phase, the accumulation units are converted into annuity units. Unlike many retirement plans, purchases of annuities are made from after-tax dollars — in other words, they can’t be written off on your taxes.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

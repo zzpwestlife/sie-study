@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: -15px"><a href="#block-4408060624">Corporate Ownership...</a></li>
+<li style="padding-left: 15px"><a href="#block-4408856400">Understanding a shareholder’s voting rig...</a></li>
+<li style="padding-left: 30px"><a href="#block-4408635728">Statutory (regular) voting...</a></li>
+<li style="padding-left: 30px"><a href="#block-4408636368">Cumulative voting...</a></li>
+<li style="padding-left: 30px"><a href="#block-4408637776">Proxies: Voting by mail...</a></li>
+<li style="padding-left: 15px"><a href="#block-4408638288">Categorizing shares corporations can sel...</a></li>
+<li style="padding-left: -15px"><a href="#block-4408638544">The standard formula for outstanding sha...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409131216">outstanding	issued  treasury...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409132240">outstanding	issued  Treasury...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409132368">outstanding	15, 000, 000 1, 500, 000  13...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409132112">Establishing the par value of common sto...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409133008">Considering corporate actions...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409134928">Splitting common stock...</a></li>
+<li style="padding-left: 30px"><a href="#block-4409135440">Forward stock splits...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409135952">A...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409136080">shares after a split	shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409136208">B...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409136336">B...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409136464">price aftera split	stock price...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409136592">A...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409137616">(C) doesn’t work because the price of th...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138000">3...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138128">1, 200 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138256">1...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138384">1...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138512">3, 600 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138640">$90...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138768">3...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409138896">$30...</a></li>
+<li style="padding-left: 30px"><a href="#block-4409139024">Reverse stock splits...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409140688">1...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409140816">3, 600 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409140944">5...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409141072">5...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409141200">720 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409141328">$2	$10...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409141456">1...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409140560">Sharing corporate profits through divide...</a></li>
+<li style="padding-left: 30px"><a href="#block-4409141968">Cash dividends...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409142352">stock price  dividend  price on ex - div...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409143376">$49.50  $0.75	$48.75...</a></li>
+<li style="padding-left: 30px"><a href="#block-4409143248">Stock dividends...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409145168">400 shares  $33  $13, 200...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409145424">$13, 200...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409145552">440 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409145680">$30 per share...</a></li>
+<li style="padding-left: 0px"><a href="#block-4409146064">Getting Preferential Treatment:...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409146448">Considering characteristics of preferred...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409147216">6% preferred stock  $100 par  $6 per yea...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409098576">Getting familiar with types of preferred...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409100624">$8  $6	$8  $4	$8	$2  $4  $8	$14...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409101264">You can use the following conversion rat...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409101520">par value...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409101648">conversion ratio...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409101776">conversion price...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409103184">interest rates. Because the dividend adj...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409103568">Opening national borders: ADRs...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409104080">Rights: The right to buy new shares at a...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409104592">Warrants: The right to buy shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409104848">of stock at a fixed price...</a></li>
+<li style="padding-left: 15px"><a href="#block-4409105360">Practice questions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4409167568">Answers and explanations...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409168848">1...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409168976">Shares after the split  1, 200 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169104">2...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169232">2...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169360">600 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169488">Price after the split	$10...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169616">1...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409169744">$20...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409170000">200 shares  $44	$8, 800...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409170512">$8, 800...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409170640">210 shares...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409170768">$41.90 per share...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409171024">Stock price  dividend	price on the ex - ...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409171152">$45  $0.77	$44.23...</a></li>
+<li style="padding-left: -15px"><a href="#block-4409171664">$6  $4	$6  $3	$6	$11...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 6</h1>
+            <a href="Chapter_6.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4408956576">
+<p class="block-en">Equity Securities:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408060624">
+<h0>Corporate Ownership</h0>
+</section>
+<section class="block paragraph" id="block-4408064784">
+<p class="block-en">quity securities — such as common and preferred stock — represent ownership interest in the issuing corporation. All publicly held corporations issue common stock to investors. Investors love these securities because they’ve historically outperformed most other invest- ments, so an average (or above-average, in your case) stockbroker typically sells more of these types of securities than any other kind.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408609840">
+<p class="block-en">The SIE exam tests your ability to recognize the types of equity securities and some other basic information. Although you may find that the SIE doesn’t test you heavily on the info provided here, this chapter forms a strong foundation for many other chapters in the book, as well as a good base for other securities exams you may be taking after this one. For argument’s sake, I think you’ll find it difficult (if not impossible) to understand what an option or mutual fund is if you don’t know what a stock is. Needless to say, even though this chapter is small, don’t ignore it; if you do, it may come back to bite you.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408294960">
+<p class="block-en">At the end of this chapter, you can find some equity security questions to reinforce what is covered in this chapter. This section is where you get to shine.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408761056">
+<p class="block-en">Corporations issue common stock (as well as other securities) to raise business capital (money). As an equity security, common stock represents ownership of the issuing corporation. If a corpo- ration issues 1 million shares of stock, each share represents one-millionth ownership of the issuing corporation. The market value of a common stock is based on the worth (or perceived worth) of the company — how many shares are outstanding, supply and demand, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408763504">
+<p class="block-en">Stockholders have a right of inspection. This means that they have the right to inspect some books and records of the issuer. These include a list of stockholders and the minutes of the stockholders’ meetings. This information is typically available through an audited annual report.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408586832">
+<p class="block-en">Stockholders have limited liability. Stockholders’ liability is limited to the amount invested. In other words, if a corporation that you invested in goes belly up (Chapter 11 bankruptcy), you lose only what you invested; nobody will come knocking on your door for additional bucks. If a corpo- ration happens to go bankrupt, however, it must distribute any remaining assets in the following way (also known as the order of liquidation):</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4408587856">
+<div class="block-en">• Unpaid workers</div>
+<div class="block-zh">（未付工资的员工）</div>
+</div>
+<div class="block list-item" id="block-4408648928">
+<div class="block-en">• The Internal Revenue Service (IRS)</div>
+<div class="block-zh">（美国国税局）</div>
+</div>
+<div class="block list-item" id="block-4408648208">
+<div class="block-en">• Secured creditors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4408079568">
+<p class="block-en">Secured creditors have issued loans that are secured with collateral, bonds, and so on.</p>
+<p class="block-zh">（有担保债权人：已发放由抵押品、债券等担保的贷款的债权人。）</p>
+</section>
+<div class="block list-item" id="block-4408078224">
+<div class="block-en">• General creditors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4401164352">
+<p class="block-en">General creditors have issued unsecured loans, which aren’t secured with collateral (bank loans, accounts payable, debentures, and so on).</p>
+<p class="block-zh">（一般债权人：已发放无担保贷款的债权人，这些贷款没有抵押品担保，如银行贷款、应付账款、无抵押信用债券等。）</p>
+</section>
+<div class="block list-item" id="block-4401127376">
+<div class="block-en">• Subordinated debentures</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4401127568">
+<p class="block-en">Subordinated debentures are junior unsecured bonds; holders of subordinated debentures are the last creditors to be paid in the event of corporate bankruptcy.</p>
+<p class="block-zh">（次级信用债券：次级信用债券是次等无担保债券；在公司破产的情况下，次级信用债券持有者是最后获得赔付的债权人。）</p>
+</section>
+<div class="block list-item" id="block-4408923376">
+<div class="block-en">• Preferred stockholders</div>
+<div class="block-zh">（优先股股东）</div>
+</div>
+<div class="block list-item" id="block-4408922496">
+<div class="block-en">• Common stockholders</div>
+<div class="block-zh">（普通股股东）</div>
+</div>
+<section class="block paragraph" id="block-4408856720">
+<p class="block-en">Common and preferred stockholders would get paid after the creditors (if there’s any money left). Common stockholders have what are known as residual rights, which means that they’re the last to get paid in the event of corporate bankruptcy. Bonds and preferred stock are considered to be senior securities in relationship to common stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408856400">
+<h2>Understanding a shareholder’s voting rights</h2>
+<div class="block-zh">了解股东的投票权</div>
+</section>
+<section class="block paragraph" id="block-4408368096">
+<p class="block-en">One of the most basic rights that most common stockholders receive is voting rights, although certain corporations will issue nonvoting common stock in rare circumstances, sometimes to pro- tect their board of directors. But nonvoting stock is not as attractive to investors who like to have some control of who’s running the company. Most preferred stock, however, is nonvoting. (See “Getting Preferential Treatment: Preferred Stock” later in the chapter.) When investors have voting rights, every so often a corporation may have those investors vote to change members of the board of directors. Although investors may be able to vote on other issues, such as stock splits (see “Splitting common stock” later in this chapter), the SIE focuses on vot- ing to change board members.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408634704">
+<p class="block-en">Because having all stockholders attend the annual corporate meeting to vote would be difficult, stockholders usually vote by proxy — absentee ballot, in other words. (See “Proxies: Voting by mail” later in this chapter.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408635728">
+<h3>Statutory (regular) voting</h3>
+<div class="block-zh">法定投票（常规投票）</div>
+</section>
+<section class="block paragraph" id="block-4408635984">
+<p class="block-en">Statutory, or regular, voting is the most common type of voting that corporations offer their shareholders. This type of voting is quite straightforward. Investors receive one vote for every share they own, multiplied by the number of positions to be filled on the board of directors (or issues to be decided). But investors have to split the votes evenly for each item on the ballot.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408636240">
+<p class="block-en">If an investor owns 500 shares (and decides to vote), and four positions need to be filled on the board of directors, the investor has a total 2,000 votes (500 × 4), which the investor must split evenly among all open positions (500 each). The investor votes yes or no for each candidate.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408636368">
+<h3>Cumulative voting</h3>
+<div class="block-zh">累积投票</div>
+</section>
+<section class="block paragraph" id="block-4408636496">
+<p class="block-en">Cumulative voting is a little different from statutory voting. Although the investor still gets the same number of overall votes as in statutory voting, the stockholder can vote the shares in any way they see fit. Cumulative voting gives smaller shareholders (in terms of shares) an easier way to gain representation on the board of directors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408636624">
+<p class="block-en">If an investor owns 1,000 shares, and three positions on the board of directors are open, the investor has a total of 3,000 votes (1,000 shares × 3 candidates), which the investor can use to vote for any candidate(s) in any way they see fit.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408636752">
+<p class="block-en">Cumulative voting doesn’t give an investor more voting power — just more voting flexibility. The only way to get more voting power is to buy more shares.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408636880">
+<p class="block-en">Try your hand at the following cumulative voting question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408637008">
+<p class="block-en">Under cumulative-voting rules, an owner of 1,000 shares of DEF common stock who is voting for four members on the DEF board of directors could cast:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4408637136">
+<div class="block-en">• 1,000 votes for each of the four candidates</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4408637264">
+<div class="block-en">• 3,500 votes for one candidate and split the remaining votes over the other three positions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4408637392">
+<div class="block-en">• 4,000 votes for one candidate</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4408637520">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4408637648">
+<p class="block-en">The answer you’re looking for is (D). Cumulative voting allows investors to split their votes in any way. In this case, an owner of 1,000 shares of DEF common stock voting for four members on the board of directors would have a total 4,000 votes (1,000 shares × 4 board positions). So (A), (B), and (C) are all possibilities. Under statutory voting, the only way the investor could vote is (A).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408637776">
+<h3>Proxies: Voting by mail</h3>
+<div class="block-zh">代理人：邮寄投票</div>
+</section>
+<section class="block paragraph" id="block-4408637904">
+<p class="block-en">Regardless of whether a corporation offers statutory or cumulative voting, when a corporation requires a vote on certain issues — such as splitting its stock, voting for members on the board of directors, and so on — shareholders (because they’re owners) are allowed to vote unless the corporation issued nonvoting stock (Class B shares). Certainly, the more shares you own, the more voting power you have.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408638032">
+<p class="block-en">Now, suppose that you live in New York City, and the vote is taking place in Los Angeles. What do you do? Well, short of taking a trip across the country, you can vote by proxy (basically, an absen- tee ballot). The issuer will send you a proxy, which describes the issue(s) to be voted on. You can check the box describing how you want to vote and mail the proxy back. By doing that, you’re authorizing (giving limited power of attorney to) another person to vote according to your wishes. A transfer agent is responsible for sending out proxies.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4408638160">
+<p class="block-en">A proXy fight or proxy battle is an unfriendly event that occurs when a group of stockholders of a corporation decide to vote together to gain control of the corporation. This situation usually hap- pens when the stockholders aren’t happy with the way the corporation is being run. Typically, they’re trying to replace members of the board of directors or people in management positions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408638288">
+<h2>Categorizing shares corporations can sell</h2>
+<div class="block-zh">公司可售股份的分类</div>
+</section>
+<section class="block paragraph" id="block-4408638416">
+<p class="block-en">All publicly held corporations have a certain quantity of shares that they can sell based on their corporate charter. These shares are broken into a few categories, depending on whether the issuer or investors hold the shares:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4408638672">
+<div class="block-en">• Authorized shares: Authorized shares are the number of shares of stock that a corporation can issue. The issuer’s bylaws or corporate charter (a document filed with the state that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4408638800">
+<p class="block-en">identifies the names of the founders of the corporation, the company´s objectives, and so on) states the number of shares the company is authorized to sell. The issuer usually holds back a large percentage of the authorized stock, which it can sell later as needed through a primary offering. (See Chapter 5 for details on offerings.) In the event that the issuer wishes to sell more shares than were previously authorized, the issuer’s corporate charter would have to be updated, which would require a vote by stockholders.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4408638928">
+<div class="block-en">• Issued shares: Issued shares are the portion of authorized shares that the issuer has actually sold to the public to raise money, including shares owned by founding shareholders. Logically,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4408639056">
+<p class="block-en">the portion of authorized shares that hasn’t been issued to the public is called unissued shares. Unissued shares do not carry the rights and privileges of issued shares. Under SEC Rule 415, shares may be kept unissued for up to two or three years (shelf registration). (See Chapter 5 for more on this topic.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4408639184">
+<div class="block-en">• Outstanding shares: Outstanding shares are the number of shares that are in investors’</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4408639312">
+<p class="block-en">hands. This quantity may or may not be the same number as the issued shares. At times, an issuer may decide to repurchase its stock in the market for numerous reasons, including to help increase the demand (and the price) of the stock trading in the market or to avoid a hostile takeover (when another company is trying to gain control of the issuer). Stock that the issuer repurchases from the outstanding shares is called treasury stock. Only the issuer can own treasury stock; stock owned by the CEO or founders is considered part of the outstanding stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4408638544">
+<h0>The standard formula for outstanding shares is</h0>
+</section>
+<section class="block heading" id="block-4409131216">
+<h0>outstanding	issued  treasury</h0>
+</section>
+<section class="block paragraph" id="block-4409131088">
+<p class="block-en">Here’s a quick question about calculating outstanding shares. See how you do:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409131344">
+<p class="block-en">DEF Corp. has 20,000,000 shares of authorized stock. DEF has issued 15,000,000 shares and has since repurchased 1,500,000 shares. How many shares are outstanding?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409131472">
+<div class="block-en">• 13,500,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409131600">
+<div class="block-en">• 15,000,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409131728">
+<div class="block-en">• 16,500,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409131856">
+<div class="block-en">• 20,000,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409131984">
+<p class="block-en">The answer you’re looking for is (A). Using the numbers given, you see that the corporation has 20,000,000 shares of authorized stock but has issued only 15,000,000. Since that time, the cor- poration has repurchased 1,500,000 shares (Treasury stock), so the number of outstanding shares is 13,500,000. Here’s the equation:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409132240">
+<h0>outstanding	issued  Treasury</h0>
+</section>
+<section class="block heading" id="block-4409132368">
+<h0>outstanding	15, 000, 000 1, 500, 000  13, 500, 000</h0>
+</section>
+<section class="block heading" id="block-4409132112">
+<h2>Establishing the par value of common stock</h2>
+</section>
+<section class="block paragraph" id="block-4409132496">
+<p class="block-en">Par value (nominal or original value) for common stock is more or less a bookkeeping value for the issuer. Although issuers may set the par value at $1 (or 1 cent, $5, $10, or whatever), the market price is usually much more. A common stock’s par value has no relationship with the market price of the stock. Although much rarer, some companies even issue stock with no par value. Par value for common stock isn’t as important to investors as it is to bondholders and preferred stockhold- ers (see “Considering characteristics of preferred stock” later in this chapter).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409132880">
+<p class="block-en">The amount over par value that an issuer receives for selling stock is called additional paid-in capi- tal, paid-in surplus, or capital in excess of par.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409132752">
+<p class="block-en">The stated par value is printed on the stock certificate; it may change as the result of corporate actions such as a stock split (see “Splitting common stock” later in this chapter). An issuer can also issue no par value stock (stock issued without a stated par value); in this case, the stock has a stated value that the corporation uses for bookkeeping purposes. A lack of par value doesn’t affect investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409133008">
+<h2>Considering corporate actions</h2>
+</section>
+<section class="block paragraph" id="block-4409133136">
+<p class="block-en">Besides just attempting to build their business, corporations may take other actions that affect the price of their securities. They can split their stock (see the next section, “Splitting common stock”); reverse-split their stock (see the section “Reverse stock splits”); or engage in buybacks, tender offers, exchange offers, rights offerings (see the later section “Rights: The right to buy new shares at a discount”), mergers, or acquisitions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409133264">
+<p class="block-en">Here are some of the corporate actions:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409133520">
+<div class="block-en">• Buybacks: A buyback happens when a cash-rich corporation repurchases some of its own</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409133776">
+<p class="block-en">shares in the market, turning them into treasury stock. Buybacks typically increase the market value of the underlying security. After a successful buyback, fewer shares are outstanding.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409133904">
+<div class="block-en">• Tender offers: A tender offer occurs when a corporation, person, or group attempts to gain</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409134032">
+<p class="block-en">control (make a takeover bid) of a corporation (the target corporation). A tender offer is typically announced in financial publications, and the offer will be at a premium to the market value of the securities. Tender offers are good for a specified period and specified minimum number of holders of shares (in other words, holders of more than 50 percent of the outstanding shares of the target corporation) must agree; otherwise, the offer is canceled. Tender offers increase the market price of the securities being targeted.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409134160">
+<div class="block-en">• Exchange offers: Sometimes, a corporation decides to exchange some of its securities for</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409134288">
+<p class="block-en">other ones. A corporation may offer its bondholders the right to exchange certain debt securities for stock to reduce the corporation´s debt. Or a corporation may offer to exchange 4 percent bonds due to mature in 2 years with 5 percent bonds due to mature in 20 years, thus extending the amount of time the corporation has to pay back its debt.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409134416">
+<div class="block-en">• Mergers: Two existing corporations may decide to merge their two companies, often to gain market share, expand one corporation’s reach, or possibly to expand into new segments.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409134544">
+<p class="block-en">Mergers typically have a positive impact on investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409134672">
+<div class="block-en">• Acquisitions: Compared with a merger, in which two corporations work together to make one big corporation, an acquisition happens when a larger corporation takes control of a smaller</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409134800">
+<p class="block-en">one or a portion of another corporation. For one corporation to acquire another, it must obtain majority ownership of the target corporation.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409133648">
+<p class="block-en">As you can imagine, in the event of a corporate action such as a stock split, a merger, an acquisition, and so on, investors of the securities must be notified. For public companies listed on an exchange such as the New York Stock Exchange (NYSE), the exchanges handle notification of clients and make the information available online. If the securities trade over the counter (OTC), the Financial Industry Regulatory Authority (FINRA) is responsible for handling the announcement.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409134928">
+<h2>Splitting common stock</h2>
+</section>
+<section class="block paragraph" id="block-4409135056">
+<p class="block-en">You may ask “Why would a company split its stock?” Obviously in addition to showing investors that their company is growing, it also makes the market price of the security more attractive. The normal unit of trading is 100 shares of stock (a round lot), and if the share price of a security gets too high, the number of investors who can purchase it becomes limited. If Microsoft had never split its stock (which it has done nine times, all 2-for-1 or 3-for-2, the last time being in 2003), a round lot would cost investors close to $10 million. Know a lot of investors who could afford that?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409135184">
+<p class="block-en">Alternatively, companies may use a reverse-split, consolidating shares to raise the price of the stock and perhaps keep the price of their stock from dropping too low and possibly face being delisted. The next couple of sections take you through splits so that you know them forward and backward.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409135312">
+<p class="block-en">Stockholders can vote on stock splits. (Refer to “Understanding a shareholder’s voting rights” earlier in the chapter, for info on types of voting.) Be aware that after a stock split, investors may have more or fewer votes, but they still hold the same percentage of votes. When a company splits its stock, the number of authorized shares needs to be changed on the corporate charter (refer to “Categorizing shares corporations can sell” earlier in this chapter).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409135440">
+<h3>Forward stock splits</h3>
+<div class="block-zh">正向和反向股票拆分</div>
+</section>
+<section class="block paragraph" id="block-4409135568">
+<p class="block-en">During a forward stock split, or simply split, the number of shares increases, and the price decreases without affecting the total market value of the outstanding shares. After a company forward- splits its stock, investors receive additional shares, but the market price (and par value) per share drops. A forward split may be even (2-for-1, 3-for-1, 4-for-1, and so on) or uneven (3-for-2, 5-for-3, 5-for-2, and so on). You’ll find that whether the forward split is even or uneven, the same formula works. Check out the following equations, in which A represents the first number and B represents the second number.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409135696">
+<p class="block-en">Use the following calculations to figure out an investor’s position after an A-for-B split:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409135952">
+<h0>A</h0>
+</section>
+<section class="block heading" id="block-4409136080">
+<h0>shares after a split	shares</h0>
+</section>
+<section class="block heading" id="block-4409136208">
+<h0>B</h0>
+</section>
+<section class="block heading" id="block-4409136336">
+<h0>B</h0>
+</section>
+<section class="block heading" id="block-4409136464">
+<h0>price aftera split	stock price</h0>
+</section>
+<section class="block heading" id="block-4409136592">
+<h0>A</h0>
+</section>
+<section class="block paragraph" id="block-4409136720">
+<p class="block-en">The following question tests your ability to answer a forward-stock-split question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409136848">
+<p class="block-en">Bob Billingham owns 1,200 shares of DEF common stock at a current market price of $90 per share. If DEF splits its stock 3-for-1, what would Bob’s position be after the split?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409136976">
+<div class="block-en">• 400 shares at $270 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409137104">
+<div class="block-en">• 400 shares at $90 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409137232">
+<div class="block-en">• 3,600 shares at $33.33 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409137360">
+<div class="block-en">• 3,600 shares at $30 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409137488">
+<p class="block-en">The answer you’re looking for is (D). A forward stock split, like a 3-for-1, increases the number of shares and decreases the price of the stock, so you can immediately cross off (A) and (B). Choice</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409137616">
+<h0>(C) doesn’t work because the price of the stock would have to be 1/3 of $90, which is $30, not</h0>
+</section>
+<section class="block paragraph" id="block-4409137744">
+<p class="block-en">$33.33. Now check your work:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409138000">
+<h0>3</h0>
+</section>
+<section class="block heading" id="block-4409138128">
+<h0>1, 200 shares</h0>
+</section>
+<section class="block heading" id="block-4409138256">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409138384">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409138512">
+<h0>3, 600 shares</h0>
+</section>
+<section class="block heading" id="block-4409138640">
+<h0>$90</h0>
+</section>
+<section class="block heading" id="block-4409138768">
+<h0>3</h0>
+</section>
+<section class="block heading" id="block-4409138896">
+<h0>$30</h0>
+</section>
+<section class="block paragraph" id="block-4409137872">
+<p class="block-en">A good way to double-check your work is to make sure that the overall value of the investment doesn’t  change  after  the  split.  Using  the  example,  Bob  had  $108,000  worth  of  DEF (1, 200 shares  $90) before the split, and after the split, Bob has $108,000 worth of DEF (3, 600 shares $30).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409139024">
+<h3>Reverse stock splits</h3>
+<div class="block-zh">正向和反向股票拆分</div>
+</section>
+<section class="block paragraph" id="block-4409139152">
+<p class="block-en">A reverse stock split has the opposite effect on a security from a forward split. In a reverse-split, the market price of the security increases, and the number of shares decreases. As with forward stock splits, the overall market value of the securities doesn’t change. A company may reverse- split its stock if the market price gets too low, which may make potential investors think that the company has a problem.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409139280">
+<p class="block-en">In the event of a reverse-split, investors usually have to send their old shares to the transfer agent to receive the new shares. If a company were executing a 1-for-3 reverse-split, investors would receive one new share for every three they sent in.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409139408">
+<p class="block-en">You can use the same formula to determine an investor’s position after a reverse-split that you use for forward splits.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409139664">
+<p class="block-en">The following question tests your ability to answer a reverse-stock-split question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409139792">
+<p class="block-en">Betty Billings owns 3,600 shares of GHI common stock at a current market price of $2 per share. If GHI reverse-splits its stock 1-for-5, what would Betty’s position be after the split?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409139920">
+<div class="block-en">• 600 shares at $10 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409140048">
+<div class="block-en">• 720 shares at $10 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409140176">
+<div class="block-en">• 18,000 shares at 40 cents per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409140304">
+<div class="block-en">• 18,000 shares at $10 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409140432">
+<p class="block-en">The correct answer is (B). In a reverse-split, the number of shares has to decrease and the price has to increase, so you can immediately eliminate (C) and (D). Choice (A) doesn’t work because the investor would end up with too few shares. Check your work:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409140688">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409140816">
+<h0>3, 600 shares</h0>
+</section>
+<section class="block heading" id="block-4409140944">
+<h0>5</h0>
+</section>
+<section class="block heading" id="block-4409141072">
+<h0>5</h0>
+</section>
+<section class="block heading" id="block-4409141200">
+<h0>720 shares</h0>
+</section>
+<section class="block heading" id="block-4409141328">
+<h0>$2	$10</h0>
+</section>
+<section class="block heading" id="block-4409141456">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409140560">
+<h2>Sharing corporate profits through dividends</h2>
+</section>
+<section class="block paragraph" id="block-4409141584">
+<p class="block-en">If a corporation is profitable (and the board of directors is in a good mood), the board of directors may decide to issue a stock dividend to investors. If and when the corporation declares a dividend, each shareholder is entitled to a pro rata share of dividends, meaning that every shareholder receives an equal proportion for each share that they own. The SIE exam expects you to know the forms of dividends an investor can receive and how the dividends affect both the market price of the stock and an investor’s position. Although the investor can receive dividends in cash, stock, or property forms (stock of a subsidiary company or sample products made by the issuer), I focus on cash and stock dividends because those scenarios are more common.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409141840">
+<p class="block-en">Investors can’t vote on dividends; instead, the board of directors decides dividend payouts. You can imagine that if this decision were left in the investors’ hands, they’d vote for dividends weekly! For more info on voting, refer to “Understanding a stockholder’s voting rights” earlier in this chapter. Even profitable companies may not pay a cash dividend because they may want to reinvest profits back in the company.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409141968">
+<h3>Cash dividends</h3>
+</section>
+<section class="block paragraph" id="block-4409142096">
+<p class="block-en">Cash dividends are a way for a corporation to share its profits with shareholders. When an inves- tor receives cash dividends, the payout is a taxable event. Corporations aren’t required to pay dividends, but dividends provide a good incentive for investors to hold onto stock that isn’t expe- riencing much growth. Although cash dividends are nice, the market price of the stock falls on the ex-dividend date (the first day the stock trades without a dividend) to reflect the dividend to be paid on the payment date announced:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409142352">
+<h0>stock price  dividend  price on ex - dividend date</h0>
+</section>
+<section class="block paragraph" id="block-4409142224">
+<p class="block-en">Try your hand at answering a cash-dividend question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409142480">
+<p class="block-en">The closing price for ABC stock is $49.50 on the day before the ex-dividend date. If ABC previ- ously announced a dividend of 75 cents, what will the next day’s opening price be?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409142608">
+<div class="block-en">• $48.25</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409142736">
+<div class="block-en">• $48.75</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409142864">
+<div class="block-en">• $49.50</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409142992">
+<div class="block-en">• $50.25</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409143120">
+<p class="block-en">The correct answer is (B). Check your work:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409143376">
+<h0>$49.50  $0.75	$48.75</h0>
+</section>
+<section class="block paragraph" id="block-4409143504">
+<p class="block-en">The math’s as simple as that. Because now stocks are trading in pennies instead of eighths, as they used to, calculating the price on the ex-dividend date is a snap.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409143248">
+<h3>Stock dividends</h3>
+</section>
+<section class="block paragraph" id="block-4409143632">
+<p class="block-en">Stock dividends are just like forward stock splits in that the investor receives more shares of stock (refer to “Splitting common stock” earlier in this chapter), but the corporation offers a percent- age dividend (5 percent, 10 percent, and so on) instead of splitting the stock 2-for-1, 3-for-1, or whatever. Unlike cash dividends, stock dividends aren’t taxable to the stockholder because the investor’s overall value of investment doesn’t change.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409143760">
+<p class="block-en">The primary reason for a company to give investors a stock dividend is to make the market price more attractive to investors (if the market price gets too high, it limits the number of investors who can purchase the stock), thus adding liquidity (ease of trading) to the stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409144016">
+<p class="block-en">The following question tests your expertise in answering stock-dividend questions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409144144">
+<p class="block-en">Alyssa H. owns 400 shares of OXX common stock at $33 per share. OXX previously declared a 10 percent stock dividend. Assuming that there’s no change in the market price of OXX before the dividend, what is Alyssa’s position after the dividend?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409144272">
+<div class="block-en">• 400 shares at $30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409144400">
+<div class="block-en">• 440 shares at $33</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409144528">
+<div class="block-en">• 400 shares at $36.30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409144656">
+<div class="block-en">• 440 shares at $30</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409144784">
+<p class="block-en">The answer you want is (D). In this case, you can find the answer without doing any math. Because the number of shares increases, the price of the stock has to decrease. Therefore, the only answer that works is (D). I can’t guarantee that you’ll get a question for which you don’t have to do the math, but don’t rule it out; scan the answer choices before pulling out your calculator.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409144912">
+<p class="block-en">Anyway, here’s how the numbers work. You have to remember that the investor’s overall value of investment doesn’t change. Alyssa gets a 10 percent stock dividend, so she receives 10 percent more shares. Now Alyssa has 440 shares of OXX (400 shares + 40 shares [10 percent of 400]). Next, you need to determine her overall value of investment:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409145168">
+<h0>400 shares  $33  $13, 200</h0>
+</section>
+<section class="block paragraph" id="block-4409145040">
+<p class="block-en">Because the overall value of investment doesn’t change, Alyssa needs to have $13,200 worth of OXX after the dividend:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409145424">
+<h0>$13, 200</h0>
+</section>
+<section class="block heading" id="block-4409145552">
+<h0>440 shares</h0>
+</section>
+<section class="block heading" id="block-4409145680">
+<h0>$30 per share</h0>
+</section>
+<section class="block paragraph" id="block-4409145296">
+<p class="block-en">Alyssa’s position after the split is 440 shares at $30 per share.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409145808">
+<p class="block-en">When you or one of your clients own securities subject to corporate actions such as splits, stock dividends, mergers, and so on, the securities are going to change. In some cases, such as forward stock splits and stock dividends, you or your client will receive more shares at a lower cost basis, and the cost basis of the shares held will be lowered accordingly. The adjustment to the cost basis is important for tax purposes when determining the amount of capital gains or losses.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409145936">
+<p class="block-en">For argument’s sake, suppose that you purchased 1,000 shares of UPPP Corporation at $40 per share. In this case, you have stock with a cost basis of $40,000 (1,000 shares at $40 per share). If the stock splits 2 for 1, you have 2 shares for every 1 purchased. The corporation isn’t just giving you another $40,000 worth of stock; it cut the price in half to adjust for the split. As the market price gets cut in half, so does the cost basis per share. In the example, now you have 2,000 shares with a cost basis of $20 per share ($40,000 cost basis) even if the market value is $55,000. In the event of a split, the issuer would adjust your shares to reflect a lower par value. In the event of an exchange offer, merger, or acquisition, the security that you’re holding would likely change. In this case (assuming that you physically held the security), the issuer would be responsible for mailing the new security. Whether the securities are physically held, which is becoming increas- ingly rare, or in book-entry form, the issuer must update its books for any changes.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409146064">
+<h1>Getting Preferential Treatment:</h1>
+<div class="block-zh">获得优惠待遇：优先股</div>
+</section>
+<section class="block paragraph" id="block-4409146192">
+<p class="block-en">Equity securities represent shares of ownership in a company, and debt securities repre- sent . . . well, debt. (See Chapters 7 and 8 for info on debt securities.) Although preferred stock (sometimes called preferreds) has some characteristics of both equity and debt securities, preferred stock is an equity security because it represents ownership of the issuing corporation the same way that common stock does.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409146448">
+<h2>Considering characteristics of preferred stock</h2>
+<div class="block-zh">考虑优先股的特征</div>
+</section>
+<section class="block paragraph" id="block-4409146576">
+<p class="block-en">One advantage of purchasing preferred stock instead of common stock is that preferred share- holders receive money back (if any is left) before common stockholders do if the issuer reorga- nizes. The main difference between preferred stock and common stock, however, has to do with dividends. Issuers of common stock typically pay a cash dividend only if the company is in a position to share corporate profits based on a vote by the board of directors. By contrast, issuers of preferred stock typically pay consistent cash dividends. In the event that a corporation’s profits are lagging or they are losing money, they may reduce or stop the dividend payments. Preferred stock generally has a par value of $100 per share (although it could be $50, $25, and so on) and tends to trade in the market much closer to its par value than common stock does.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409146704">
+<p class="block-en">Because preferred stocks receive (or are supposed to receive) a consistent dividend, they’re some- what like debt securities receiving interest. Because of that similarity, like debt securities (bonds), many preferred stocks are rated by rating agencies such as Moody’s, Standard & Poor’s, and Fitch. (For more on rating agencies, see Chapter 7.) Some of the drawbacks of investing in preferred stock instead of common stock are the lack of voting rights, the sometimes-higher cost per share, and lack of growth. You can assume for SIE exam purposes that preferred stockholders don’t receive voting rights unless they fail to receive their expected dividends. (A few other exceptions exist, but you don’t need to worry about them now.) Also, because most preferred stock pays consistent dividends, the market price will increase or decrease depending on prevailing interest rates similar to debt securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409146960">
+<p class="block-en">If the issuer can’t make a payment because earnings are low, and if the preferred stock is cumula- tive (see “Getting familiar with types of preferred stock,” the next section in this chapter), own- ers are still owed the missing dividend payment(s). The dividend (sharing of profits) that preferred stockholders receive is based on par value. Thus, although par value may be nothing more than a bookkeeping value when you’re dealing with common stock, par value is definitely important to preferred stockholders.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409147088">
+<p class="block-en">To calculate the annual dividend, multiply the percentage of the dividend by the par value. If a customer owns a preferred stock that pays a 6 percent dividend, and the par value is $100, set up the following equation:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409147216">
+<h0>6% preferred stock  $100 par  $6 per year in dividends</h0>
+</section>
+<section class="block paragraph" id="block-4409098320">
+<p class="block-en">If the issuer were to pay this dividend quarterly (once every three months), an investor would receive $1.50 ($6/4) every three months for each share owned.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409098448">
+<p class="block-en">When working on a dividend question on preferred stock, you need to look for the par value in the problem. Par value normally is $100, but it could be $25, $50, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409098576">
+<h2>Getting familiar with types of preferred stock</h2>
+<div class="block-zh">熟悉优先股的类型</div>
+</section>
+<section class="block paragraph" id="block-4409098704">
+<p class="block-en">You need to be aware of several types of preferred stock for the Series 7. This section gives you a brief explanation of the types. Some preferred stock may be a combination of types, as in cumula- tive convertible preferred stock. Here are the distinctions between noncumulative and cumulative preferred stock:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409098960">
+<div class="block-en">• Noncumulative (straight) preferred: This type of preferred stock is rare. The main feature of preferred stock is that investors typically receive a consistent cash dividend. In the event that</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409099088">
+<p class="block-en">the issuer doesn’t pay the dividend, the company usually still owes it to investors. This isn’t the case for noncumulative preferred stock. If the preferred stock is noncumulative, and the issuer fails to pay a dividend, the issuer doesn’t owe it to investors. An investor may choose noncu- mulative preferred stock over common stock because the company is still supposed to pay a consistent cash dividend and, in the event of corporate bankruptcy, preferred stockholders still get paid before common stockholders. Because noncumulative preferred stock is riskier for investors, they´re typically offered a higher dividend.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409099216">
+<div class="block-en">• Cumulative preferred: Cumulative preferred stock is more common. If an investor owns cumulative preferred stock and doesn’t receive an expected dividend, the issuer is in arrears</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409099344">
+<p class="block-en">and still owes that dividend. Before paying a common dividend, the issuer first has to make up all delinquent payments to cumulative preferred stockholders, then other preferred share- holders. As such, cumulative preferred stock is a safer investment than noncumulative preferred stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409098832">
+<p class="block-en">Because preferred stock is senior to common stock, if the issuer misses a dividend payment to preferred stockholders, the issuer can’t make a dividend payment to its common stockholders until the preferred dividend payments resume.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409099600">
+<p class="block-en">The following question tests your understanding of cumulative preferred stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409099728">
+<p class="block-en">An ABC investor owns 8 percent cumulative preferred stock ($100 par). In the first year, ABC paid $6 in dividends; in the second year, it paid $4 in dividends. If a common dividend is declared the following year, how much must the preferred shareholders receive?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409099856">
+<div class="block-en">• $6</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409099984">
+<div class="block-en">• $8</div>
+<div class="block-zh">（当年） + $2 （第一年欠款） + $4 （第二年欠款） = $14</div>
+</div>
+<div class="block list-item" id="block-4409100112">
+<div class="block-en">• $12</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409100240">
+<div class="block-en">• $14</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409100368">
+<p class="block-en">The right answer is (D). Because ABC is cumulative preferred stock, issuers have to catch up pre- ferred stockholders on all outstanding dividends before common shareholders receive a dividend. In this example, the investor is supposed to receive $8 per year in dividends (8 $100 par). In the first year, the issuer shorted the investor $2; in the second year, $4. The investor hasn’t yet received payment for the following year, so they are owed $8. Add up these debts:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409100624">
+<h0>$8  $6	$8  $4	$8	$2  $4  $8	$14</h0>
+</section>
+<section class="block paragraph" id="block-4409100496">
+<p class="block-en">All preferred stock has to be either cumulative or noncumulative. Both types may have other fea- tures, including the capability to turn into other kinds of stock, offerings of extra dividends, and other VIP treatment. I run through some of these traits in the list that follows:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409100880">
+<div class="block-en">• Convertible preferred: Convertible preferred stock allows investors to exchange their preferred stock for common stock of the same company at any time. Because the issuers are</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409101008">
+<p class="block-en">providing investors another way to make money, investors usually receive a lower dividend payment than with nonconvertible preferred stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409101136">
+<p class="block-en">The conversion price is the dollar price at which a convertible preferred stock par value can be exchanged for a share of common stock. When the convertible preferred stock is first issued, the conversion price is specified, based on the preferred´s par value. The conversion ratio tells you the number of shares of common stock that an investor receives for converting one share of preferred stock.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409101264">
+<h0>You can use the following conversion ratio formula for convertible preferred stock and also for</h0>
+</section>
+<section class="block paragraph" id="block-4409101392">
+<p class="block-en">convertible bonds (see Chapter 7 for info on convertible bonds):</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409101520">
+<h0>par value</h0>
+</section>
+<section class="block heading" id="block-4409101648">
+<h0>conversion ratio</h0>
+</section>
+<section class="block heading" id="block-4409101776">
+<h0>conversion price</h0>
+</section>
+<section class="block paragraph" id="block-4409100752">
+<p class="block-en">The conversion ratio helps you determine a parity price at which the convertible preferred stock and common stock would be trading equally. Suppose that you have a convertible preferred stock that’s exchangeable for four shares of common stock. If the convertible preferred stock is trading at $100, and the common stock is trading at $25, they’re on parity because four shares of stock at $25 equal $100. If there’s a disparity in the exchange values, however, converting may be profit- able. If the convertible preferred stock is trading at $100, and the common stock is trading at $28, the common stock is trading above parity; converting would be profitable because investors are exchanging $100 worth of securities for $112 worth of securities ($28 4). Convertible preferred stock typically trades very close to the parity price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409102160">
+<div class="block-en">• Callable preferred: Callable preferred stock allows the issuer to buy back the preferred stock</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409102288">
+<p class="block-en">at any time after a defined date at the price (the call price) on the certificate. This stock is a little riskier for investors because they don’t have control of how long they can hold the stock, so corporations usually pay a higher dividend on callable preferred stock than on regular preferred stock. A call feature may be added to other types of preferred stock such as callable convertible preferred.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409102544">
+<div class="block-en">• Participating preferred: Although rarely issued, participating preferred stock allows the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409102672">
+<p class="block-en">investors to receive common dividends in addition to the usual preferred dividends up to a certain amount. Most preferred stock is non-participating, meaning that they don’t receive common dividends, only preferred dividends.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409102800">
+<div class="block-en">• Prior (senior) preferred: Your run-of-the-mill preferred stockholders receive compensation</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409102928">
+<p class="block-en">before common stockholders in the event of corporate bankruptcy. Senior preferred stock- holders, however, receive compensation even before other preferred stockholders. Because of the extra safety factor, senior preferred stock pays a slightly lower dividend than other preferred stock from the same issuer.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409103056">
+<div class="block-en">• Adjustable (variable- or floating-rate) preferred: Holders of adjustable preferred stock receive a dividend that’s reset every three months to match movements in the prevailing</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4409103184">
+<h0>interest rates. Because the dividend adjusts to changing interest rates (usually based off of</h0>
+</section>
+<section class="block paragraph" id="block-4409103440">
+<p class="block-en">a certain benchmark such as the T-bill rate), the stock price remains more stable.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409103312">
+<p class="block-en">Some securities fall outside the boundaries of the more normal common and preferred stock, but I still include them in this equities chapter because they involve ownership in a company or the opportunity to get it. This section gives you an overview of those special securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409103568">
+<h2>Opening national borders: ADRs</h2>
+<div class="block-zh">开启国界：ADRs（美国存托凭证）</div>
+</section>
+<section class="block paragraph" id="block-4409103696">
+<p class="block-en">American Depositary Receipts (ADRs) are receipts for foreign securities traded in the United States. ADRs are negotiable certificates (they can be sold or transferred to another party, in other words) that represent a specific number of shares (usually, one to ten) of a foreign stock. In many cases, ADR investors don’t have voting privileges because the shares are held by the bank. In some cases, ADR holders may be able to give voting instructions to the bank, who can vote on their behalf. U.S. banks issue these stock certificates; therefore, investors receive dividends in U.S. dollars. The certificates are held in a foreign branch of a U.S. bank (the custodian bank). To exchange their ADRs for the actual shares, investors return the ADRs to the bank that’s holding the shares.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409103952">
+<p class="block-en">In addition to the risks associated with stock ownership in general, ADR owners are subject to currency risk — the risk that the value of the security may decline because the value of the currency of the issuing corporation may fall in relation to the U.S. dollar. For information on how the strength of the dollar affects the relative prices of goods in the international market, flip to Chapter 13.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409104080">
+<h2>Rights: The right to buy new shares at a discount</h2>
+<div class="block-zh">配股权：以折扣价购买新股的权利</div>
+</section>
+<section class="block paragraph" id="block-4409104208">
+<p class="block-en">Corporations offer special privileges known as rights (subscription or preemptive) to their com- mon stockholders. To maintain stockholders’ proportionate ownership of the corporation, rights allow existing stockholders to purchase new shares of the corporation at a fixed discounted price directly from the issuer, before the shares are offered to the public. Stockholders receive one right for each share they own. The rights are short-term — usually, 16 to 30 days, but in some cases may go up to 60. The rights are marketable, and stockholders may sell them to other investors. If existing stockholders don’t purchase all the shares, the issuer offers any unsold shares to a standby underwriter — a broker–dealer that purchases any shares that weren’t sold in the rights offering and resells them to other investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409104464">
+<p class="block-en">For the SIE exam, you can assume that common stockholders automatically receive rights.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409104592">
+<h2>Warrants: The right to buy shares</h2>
+<div class="block-zh">认股权证：以固定价格购买股票的权利</div>
+</section>
+<section class="block heading" id="block-4409104848">
+<h0>of stock at a fixed price</h0>
+</section>
+<section class="block paragraph" id="block-4409104720">
+<p class="block-en">Warrants are certificates that entitle the holder to buy a specific amount of stock at a fixed price and are usually issued along with a new bond, preferred stock, or other securities offering. War- rant holders have no voting rights and receive no dividends. Bundled bonds and warrants or bundled stock and warrants are called units. Unlike rights, warrants are long-term and sometimes perpetual (without an expiration date). Warrants are sweeteners because they’re something that the issuer throws into the new offering to make the deal more appealing, but they can also be sold separately just like any other marketable security. As you can imagine, when warrants are issued, the warrant’s exercise price (the price at which the investor can utilize the warrant to buy the stock) is set well above the underlying stock’s market price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409104976">
+<p class="block-en">Suppose that QRS warrants give investors the right to buy QRS common stock at $20 per share when QRS common stock is trading at $12. Certainly, exercising their warrants to purchase QRS stock at $20 wouldn’t make sense for investors when they can buy QRS stock in the market at $12. If QRS rises above $20 per share, however, holders of warrants can exercise their warrants and purchase the stock from the issuer at $20 per share.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409105104">
+<p class="block-en">On the SIE exam, both rights and warrants may be referred to as derivative securities because their value is derived from the value of an underlying security (common stock of the issuer).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4409105232">
+<p class="block-en">Now that you’ve learned what you need to know about equity securities (at least as far as the SIE exam goes), it’s time to attack some questions. Read carefully so that you don’t make any careless mistakes.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409105360">
+<h2>Practice questions</h2>
+<div class="block-zh">练习题</div>
+</section>
+<div class="block list-item" id="block-4409105488">
+<div class="block-en">• Common stockholders have the right to vote for which of the following?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409105616">
+<div class="block-en">• Stock splits</div>
+<div class="block-zh">（股票拆分）</div>
+</div>
+<div class="block list-item" id="block-4409105744">
+<div class="block-en">• Cash dividends</div>
+<div class="block-zh">（现金股息）</div>
+</div>
+<div class="block list-item" id="block-4409105872">
+<div class="block-en">• Board of directors</div>
+<div class="block-zh">（董事会）</div>
+</div>
+<div class="block list-item" id="block-4409106000">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106128">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106256">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106384">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106512">
+<div class="block-en">• DIMM Corporation has just declared bankruptcy. Remaining assets would be distributed in which way (from first to last)?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106640">
+<div class="block-en">• IRS, unpaid workers, general creditors, preferred stockholders, secured creditors, subor- dinated debenture holders, and common stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106768">
+<div class="block-en">• Common stockholders, general creditors, preferred stockholders, subordinated debenture holders, secured creditors, IRS, and unpaid workers</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409106896">
+<div class="block-en">• Unpaid workers, IRS, secured creditors, general creditors, subordinated debenture hold- ers, preferred stockholders, and common stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107024">
+<div class="block-en">• IRS, unpaid workers, secured creditors, subordinated debenture holders, general creditors, preferred stockholders, and common stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107152">
+<div class="block-en">• Ayla K. owns 2,000 shares of JKL common stock. JKL has four vacancies on the board of direc- tors. If the voting is cumulative, Ayla may vote in any of the following ways except</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107280">
+<div class="block-en">• 2,000 votes for each of the four candidate positions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107408">
+<div class="block-en">• 4,000 votes each for two candidate positions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107664">
+<div class="block-en">• 5,000 votes for one candidate position and 3,000 votes for another candidate position</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107792">
+<div class="block-en">• 3,000 votes for each of three candidate positions</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409107920">
+<div class="block-en">• The par value of a common stock is</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108048">
+<div class="block-en">• in direct relation to the market value</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108176">
+<div class="block-en">• used only for bookkeeping purposes</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108304">
+<div class="block-en">• always set at $1 unless the stock is issued as no par value</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108432">
+<div class="block-en">• the basis for which cash dividends are paid</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108688">
+<div class="block-en">• Tender offers typically 	 the price of the outstanding shares of a corporation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409108816">
+<div class="block-en">• increase</div>
+<div class="block-zh">（增加）</div>
+</div>
+<div class="block list-item" id="block-4409108944">
+<div class="block-en">• decrease</div>
+<div class="block-zh">（减少）</div>
+</div>
+<div class="block list-item" id="block-4409109072">
+<div class="block-en">• don’t affect</div>
+<div class="block-zh">（不影响）</div>
+</div>
+<div class="block list-item" id="block-4409109200">
+<div class="block-en">• increase or decrease</div>
+<div class="block-zh">（增加或减少）</div>
+</div>
+<div class="block list-item" id="block-4409109328">
+<div class="block-en">• Which of the following are true regarding ADRs?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409109456">
+<div class="block-en">• They’re receipts for foreign securities in U.S. markets.</div>
+<div class="block-zh">（它们是美国市场上外国证券的收据。）</div>
+</div>
+<div class="block list-item" id="block-4409109584">
+<div class="block-en">• Dividends are paid in the foreign currency.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409109712">
+<div class="block-en">• They’re negotiable.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409109840">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409109968">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110096">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110224">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110480">
+<div class="block-en">• Declan Hudson owns 1,200 shares of ABCD Corporation common stock. ABCD announces a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110608">
+<div class="block-en">• for-2 reverse-split. If the price of ABCD closed at $10 the day before the split, what would Declan’s position be after the split?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110736">
+<div class="block-en">• 2,400 shares at $20</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110864">
+<div class="block-en">• 2,400 shares at $5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409110992">
+<div class="block-en">• 600 shares at $5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111120">
+<div class="block-en">• 600 shares at $20</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111248">
+<div class="block-en">• An investor purchased 200 shares of DDD common stock at $41 per share. DDD previously announced a 5 percent stock dividend payable to shareholders of record. On the date before the ex-dividend date, DDD closed at $44 per share. What would the investor’s position be on the ex-dividend date?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111376">
+<div class="block-en">• 200 shares at $39.05 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111504">
+<div class="block-en">• 200 shares at $41.90 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111632">
+<div class="block-en">• 210 shares at $39.05 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111760">
+<div class="block-en">• 210 shares at $41.90 per share</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409111888">
+<div class="block-en">• WXY Corporation common stock closed at $45 on the business day before the ex-dividend date. If WXY previously announced a 77-cent dividend, at what price will the stock open the next trading day?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112016">
+<div class="block-en">• 44.22</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112144">
+<div class="block-en">• 44.23</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112272">
+<div class="block-en">• 45.00</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112400">
+<div class="block-en">• 45.77</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112528">
+<div class="block-en">• A corporation has issued 6 percent $100 par cumulative preferred stock. It paid $4 in dividends the first year and $3 in dividends the second year. If the corporation wants to declare a dividend for common shareholders the following year, how much must it pay per share to its cumulative preferred stockholders?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112656">
+<div class="block-en">• $5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112784">
+<div class="block-en">• $6</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409112912">
+<div class="block-en">• $11</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113040">
+<div class="block-en">• $14</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113168">
+<div class="block-en">• Which of the following preferred stocks would most likely pay the highest dividend if issued by the same corporation?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113296">
+<div class="block-en">• Callable preferred</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113424">
+<div class="block-en">• Convertible preferred</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113552">
+<div class="block-en">• Prior preferred</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113680">
+<div class="block-en">• Can’t be determined</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113808">
+<div class="block-en">• Rights are automatically received by</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409113936">
+<div class="block-en">• convertible preferred stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409114064">
+<div class="block-en">• senior preferred stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409114192">
+<div class="block-en">• common stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409114320">
+<div class="block-en">• both (A) and (B)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409114448">
+<div class="block-en">• Which of the following is/are true of warrants?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409163856">
+<div class="block-en">• They’re long-term.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409163984">
+<div class="block-en">• They’re considered to be sweeteners.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164112">
+<div class="block-en">• They’re marketable.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164240">
+<div class="block-en">• All of the above.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164368">
+<div class="block-en">• STU Corporation would like to offer its existing shareholder the privilege to purchase additional shares at a fixed price. Which of the following securities would STU issue?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164496">
+<div class="block-en">• Convertible preferred stock</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164624">
+<div class="block-en">• Call</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164752">
+<div class="block-en">• Rights</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409164880">
+<div class="block-en">• Futures</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165008">
+<div class="block-en">• Under statutory voting, an individual stockholder may vote for each vacancy on the board of directors equal to</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165136">
+<div class="block-en">• the number of vacancies on the board of directors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165264">
+<div class="block-en">• the number of shares owned multiplied by the number of vacancies on the board of directors</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165392">
+<div class="block-en">• the number of shares owned by the stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165520">
+<div class="block-en">• any of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165648">
+<div class="block-en">• When a corporation splits is its stock,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165776">
+<div class="block-en">• The price of their common stock increases.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409165904">
+<div class="block-en">• The price of their common stock decreases.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166032">
+<div class="block-en">• Each shareholder’s proportionate ownership increases.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166160">
+<div class="block-en">• Tach shareholder’s proportionate ownership decreases.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166288">
+<div class="block-en">• In June, JKL Corporation announced a 20 percent stock dividend for its common shareholders. Ayla K. holds 2,000 shares of JKL common stock at $40 per share. After payment of the divi- dend, what would Ayla’s new price per share be and how many shares would she be holding?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166416">
+<div class="block-en">• 1,600 shares at $48.00</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166544">
+<div class="block-en">• 2,000 shares at $32.00</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166672">
+<div class="block-en">• 2,400 shares at $32.00</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166800">
+<div class="block-en">• 2,400 shares at $40.00</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409166928">
+<div class="block-en">• If a corporation were to go bankrupt, which of the following entities would have the highest claim on the assets in a Chapter 11 proceeding?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167056">
+<div class="block-en">• Preferred shareholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167184">
+<div class="block-en">• Common shareholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167312">
+<div class="block-en">• Secured debt holders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167440">
+<div class="block-en">• Unsecured debt holders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4409167568">
+<h1>Answers and explanations</h1>
+</section>
+<div class="block list-item" id="block-4409167696">
+<div class="block-en">• B. Of the choices given, common stockholders have the right to vote for stock splits and for members of the board of directors. Common stockholders can’t vote for cash or stock dividends.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167824">
+<div class="block-en">• C. In the event that a corporation declares bankruptcy, the corporate assets are distributed in the following way: unpaid workers, IRS, secured creditors, general creditors, subordi- nated debenture holders, preferred stockholders, and finally (if there’s anything left) common stockholders.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409167952">
+<div class="block-en">• D. Because the voting is cumulative, Ayla has the right to vote as she sees fit. Ayla has 2,000 shares and is voting on 4 positions on the board of directors, so she has a total 8,000 votes (2,000 shares × 4 positions), which she can use in any way. The reason that (D) doesn’t work is that it would require Ayla to have 9,000 votes (3,000 votes × 3 positions).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409168080">
+<div class="block-en">• B. The issuer uses the par value of a common stock for bookkeeping purposes. Par value has no relationship with the market value; it has no relationship with dividends paid (if any); and even though it’s often set at $1, it doesn’t have to be.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409168208">
+<div class="block-en">• A. Tender offers occur when a corporation, person, or group attempts to take control of a particular corporation, attempting to buy enough shares in the market to gain control.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409168336">
+<p class="block-en">To purchase enough shares, the corporation, person, or group offers a premium over the current market price to sellers who are willing to sell a large number of securities. Because the offer is at a premium, tender offers drive up the price of the outstanding securities.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409168464">
+<div class="block-en">• A. ADRs are receipts for foreign securities traded in the United States. ADRs are negotiable (can be sold or transferred to another party). Investors receive dividends in U.S. dollars, not the foreign currency. Because ADRs are receipts, investors don’t receive the actual certificates.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409168592">
+<div class="block-en">• D. Because ABCD is doing a reverse-split, Declan would have fewer shares after the split, and the price of the stock would increase. This transaction is a 1-for-2 reverse-split, so to determine the shares, you have to multiply them by 1 divided by 2. To get the price, you have to multiply it by 2 divided by 1. Check out the following equation:</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4409168848">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409168976">
+<h0>Shares after the split  1, 200 shares</h0>
+</section>
+<section class="block heading" id="block-4409169104">
+<h0>2</h0>
+</section>
+<section class="block heading" id="block-4409169232">
+<h0>2</h0>
+</section>
+<section class="block heading" id="block-4409169360">
+<h0>600 shares</h0>
+</section>
+<section class="block heading" id="block-4409169488">
+<h0>Price after the split	$10</h0>
+</section>
+<section class="block heading" id="block-4409169616">
+<h0>1</h0>
+</section>
+<section class="block heading" id="block-4409169744">
+<h0>$20</h0>
+</section>
+<div class="block list-item" id="block-4409168720">
+<div class="block-en">• D. You can cross out two answers to this question without doing the math. The investor received a stock dividend, so the number of shares had to increase. Therefore, (A) and (B) are out. Next, ignore the purchase price; you have to look at the overall value of the invest- ment on the day before the ex-dividend date (the first day the stock trades without a dividend). In this case, the investor had 200 shares at $44 per share. Check out the math:</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4409170000">
+<h0>200 shares  $44	$8, 800</h0>
+</section>
+<section class="block paragraph" id="block-4409169872">
+<p class="block-en">You can see that the investor had an overall value of investment on the day before the ex-dividend date of $8,800. That doesn’t change due to the dividend. So, on the ex-dividend date, the investor still had $8,800 worth of stock. Now, however, the investor has 210 shares (200 shares + 10 shares [5% of 200]). By dividing the $8,800 shares by 210 shares, you’ll get a price of $41.90 per share:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409170512">
+<h0>$8, 800</h0>
+</section>
+<section class="block heading" id="block-4409170640">
+<h0>210 shares</h0>
+</section>
+<section class="block heading" id="block-4409170768">
+<h0>$41.90 per share</h0>
+</section>
+<div class="block list-item" id="block-4409170384">
+<div class="block-en">• B. On the ex-dividend date, the stock would be reduced by the amount of the dividend. This question is fairly easy, but check out the math:</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4409171024">
+<h0>Stock price  dividend	price on the ex - dividend date</h0>
+</section>
+<section class="block heading" id="block-4409171152">
+<h0>$45  $0.77	$44.23</h0>
+</section>
+<div class="block list-item" id="block-4409170896">
+<div class="block-en">• C. Because the stock is cumulative preferred stock, the corporation must make up any missed dividends to its cumulative preferred stockholders before paying a dividend to its common stockholders. In the first year, the corporation shorted its preferred stockholders</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409171280">
+<p class="block-en">$2 per share; it was supposed to pay $6 ($100 par × 6%) but paid only $4. In the second year, the corporation paid shareholders only $3, so they were shorted $3. So far, so good. But the key to this question is that the corporation wants to pay a common dividend the following year, so you have to add the $6 in dividends for that year also. Here’s how it looks:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4409171664">
+<h0>$6  $4	$6  $3	$6	$11</h0>
+</section>
+<div class="block list-item" id="block-4409171536">
+<div class="block-en">• A. Of the choices listed, callable preferred would most likely pay the highest dividend. Remember that more risk equals more reward. In other words, people who purchase callable preferred can’t necessarily hold the stock as long as they want because after a predetermined date, the stock can be called by the issuer. Because the shares can be called, the issuer has to pay a higher dividend to entice investors to buy. Investors can convert convertible preferred stock to common stock of the issuing corporation at any time, so because that option is safer and gives investors more flexibility, the issuer would pay a lower dividend. Prior or senior preferred adds another layer of safety for investors; if the corporation were to go bankrupt, holders would get paid before other preferred stockhold- ers. Accordingly, they receive a lower dividend.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409171792">
+<div class="block-en">• C. Rights allow shareholders to purchase new shares issued by a corporation at a discount. Rights are short-term (typically, 30–45 days) and are available only to common stockholders.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409171920">
+<div class="block-en">• D. Warrants allow shareholders to purchase shares of a corporation at a fixed price and are typically bundled with a stock or bond offering to sweeten the deal. Warrants are long-term and sometimes perpetual (never-ending). Because they can be traded separately, they’re marketable securities.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409172048">
+<div class="block-en">• C. If a corporation would like to offer its existing shareholders the right to purchase additional shares at a fixed price, they would have a rights offering. When there is a rights offering, existing shareholders have the right — but not the obligation — to purchase the new shares at a fixed price, which is at a discount from the market price at the time of the offering. Rights offerings typically only last from a couple of weeks up to 30 days. Any shares not purchased during the rights offering would be placed with a standby underwriter to sell.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409172176">
+<div class="block-en">• C. Under statutory (regular) voting rules, individual stockholders may vote up to the amount of shares they own for each open position on the board of directors.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409172304">
+<div class="block-en">• B. When a corporation splits its stock (2-for-1, 3-for-1, 3-for-2, and so on), the price of the stock decreases, and the amount of shares each shareholder has increases. This means that after the split, each shareholder will own more shares at a lower price and still keeping their proportionate ownership the same.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4409172432">
+<div class="block-en">• C. In this case, you didn’t even have to do the math. They’re giving Ayla a 20 percent stock dividend, so she will have more shares. This eliminates answers A and B. If they’re increas- ing the amount of shares, the price has to decrease. The only answer that works is C. To double-check your work, Ayla had $80,000 worth of stock before the split (2,000 shares ×</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4409172560">
+<p class="block-en">$40), so after the split, she should still have $80,000 worth of stock (2,400 shares × $32).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4409172688">
+<div class="block-en">• C. In a Chapter 11 proceeding, debt holders have a higher claim on the corporation’s assets than shareholders. And, secured debt holders (debt secured with collateral), would have a higher claim on the assets than unsecured debt holders.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

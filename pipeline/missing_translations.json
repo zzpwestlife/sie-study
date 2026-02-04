@@ -1,0 +1,454 @@
+[
+  {
+    "id": "block-4406755616",
+    "en_text": "• Transactions by insiders"
+  },
+  {
+    "id": "block-4404061264",
+    "en_text": "• Customer accounts"
+  },
+  {
+    "id": "block-4404061456",
+    "en_text": "• Trading activities"
+  },
+  {
+    "id": "block-4406608208",
+    "en_text": "• The issuer’s name, address, and description of its business"
+  },
+  {
+    "id": "block-4406609104",
+    "en_text": "• The company’s articles of incorporation (unless previously supplied)"
+  },
+  {
+    "id": "block-4406607952",
+    "en_text": "• The names and addresses of the underwriter(s) and all commissions or discounts they will receive from the sale, either directly or indirectly"
+  },
+  {
+    "id": "block-4406609360",
+    "en_text": "• The price at which the security will be offered to the public"
+  },
+  {
+    "id": "block-4406609232",
+    "en_text": "• The names and addresses of all the company´s control personnel, such as officers, directors,"
+  },
+  {
+    "id": "block-4406609616",
+    "en_text": "• The estimated net proceeds of the sale from the security to be issued and what the proceeds will be used for, including property (initially), or other businesses to be purchased (if any)"
+  },
+  {
+    "id": "block-4406609744",
+    "en_text": "• The company’s capitalization (all financing-related debt and equity)"
+  },
+  {
+    "id": "block-4406609872",
+    "en_text": "• Complete financial statements, including balance sheets and income statements"
+  },
+  {
+    "id": "block-4406610256",
+    "en_text": "• Any legal proceedings against the corporation that may affect it"
+  },
+  {
+    "id": "block-4406610128",
+    "en_text": "• Any net proceeds derived from any security sold by the issuer in the previous two years, along with the underwriter’s particulars"
+  },
+  {
+    "id": "block-4406610384",
+    "en_text": "• The names and addresses of the attorneys who have vouched for the legality of the issue and a copy of their opinion(s) on the legality of the issue"
+  },
+  {
+    "id": "block-4406610512",
+    "en_text": "• Any agreements or indentures that might affect the securities being offered"
+  },
+  {
+    "id": "block-4406612688",
+    "en_text": "• Notification (registration by filing): Notification is the simplest form of registration for"
+  },
+  {
+    "id": "block-4406612944",
+    "en_text": "• Coordination: This method involves registering with the SEC and states at the same time. The"
+  },
+  {
+    "id": "block-4406613200",
+    "en_text": "• Qualification: Companies use this registration method for securities that are exempt from"
+  },
+  {
+    "id": "block-4406614096",
+    "en_text": "• Investment banking firm: An investment banking firm is an institution (a broker-dealer) that´s in the business of helping issuers raise money. You can think of investment bankers as being"
+  },
+  {
+    "id": "block-4406614352",
+    "en_text": "• Underwriter: An underwriter is a broker-dealer who helps the issuer bring new securities to the public. They take the financial risk and, therefore, receive an extra fee for taking that risk."
+  },
+  {
+    "id": "block-4406614736",
+    "en_text": "• Syndicate (syndicate group or syndicate desk): When an issue is too large for one firm"
+  },
+  {
+    "id": "block-4406615120",
+    "en_text": "• Managing (lead) underwriter: The managing underwriter (syndicate manager) is the firm"
+  },
+  {
+    "id": "block-4406615632",
+    "en_text": "• Selling group: In the event that the syndicate members need more help selling the securities,"
+  },
+  {
+    "id": "block-4406617296",
+    "en_text": "• All-or-None (AON): If the offering is set up as an AON agreement, all the securities must be"
+  },
+  {
+    "id": "block-4406617552",
+    "en_text": "• Mini-max: A mini-max offering is one in which a specified minimum number of securities"
+  },
+  {
+    "id": "block-4406618704",
+    "en_text": "• The final offering price"
+  },
+  {
+    "id": "block-4406619088",
+    "en_text": "• The delivery date (when the securities will be available)"
+  },
+  {
+    "id": "block-4406619472",
+    "en_text": "• Registrar: The registrar is an independent financial institution that works along with a com-"
+  },
+  {
+    "id": "block-4406619728",
+    "en_text": "• Transfer agent: The transfer agent is a person or institution that maintains records of a"
+  },
+  {
+    "id": "block-4406621264",
+    "en_text": "• Securities issued by the U.S. government (Treasury bills, Treasury notes, Treasury bonds, and so on) or federal agencies"
+  },
+  {
+    "id": "block-4406621520",
+    "en_text": "• Municipal securities (local government bonds and notes)"
+  },
+  {
+    "id": "block-4406621648",
+    "en_text": "• Securities issued by banks, savings institutions, and credit unions"
+  },
+  {
+    "id": "block-4406621392",
+    "en_text": "• Public utility stocks or bonds"
+  },
+  {
+    "id": "block-4406621776",
+    "en_text": "• Securities issued by religious, educational, or not-for-profit organizations"
+  },
+  {
+    "id": "block-4406622032",
+    "en_text": "• Notes, bills of exchange, bankers´ acceptances, and commercial paper (unsecured corporate"
+  },
+  {
+    "id": "block-4406622288",
+    "en_text": "• Insurance policies and fixed annuities"
+  },
+  {
+    "id": "block-4406622800",
+    "en_text": "• Intrastate offerings (Rule 147): An intrastate offering includes the 80% rule. In order for a company to be eligible for the exemption, at least 80% of the corporation’s assets must be in"
+  },
+  {
+    "id": "block-4406623184",
+    "en_text": "• Regulation A (Reg A, Regulation A+, or Reg A+) offerings: An offering of securities worth"
+  },
+  {
+    "id": "block-4406623568",
+    "en_text": "• Regulation D (Reg D) offerings: Also known as a private placement (private securities offering), a Regulation D offering is an offering to no more than 35 unaccredited (nonaccredited)"
+  },
+  {
+    "id": "block-4406622672",
+    "en_text": "• Financial institutions (banks, insurance companies, pension funds, and so on)"
+  },
+  {
+    "id": "block-4406624080",
+    "en_text": "• Insiders of the private placement issuer (officers, directors, and/or owners of 10 percent"
+  },
+  {
+    "id": "block-4406739408",
+    "en_text": "• Investors with a net worth of at least $1 million, excluding primary residence"
+  },
+  {
+    "id": "block-4406739664",
+    "en_text": "• Investors who have had a net income of at least $200,000 ($300,000 joint) for the"
+  },
+  {
+    "id": "block-4406740304",
+    "en_text": "• Corporations, partnerships, or organizations with a net worth of at least $5 million"
+  },
+  {
+    "id": "block-4406740432",
+    "en_text": "• Reps who are registered and in good standing with the SEC, FINRA, and/or at least one state who have passed the Series 7, Series 65, Series 66, and/or Series 82 exam"
+  },
+  {
+    "id": "block-4406740688",
+    "en_text": "• Knowledgeable employees of private funds (hedge funds, private equity funds, and so on)"
+  },
+  {
+    "id": "block-4406740816",
+    "en_text": "• Rural business investment companies (investment companies that raise money to invest in small rural businesses)"
+  },
+  {
+    "id": "block-4406741072",
+    "en_text": "• Limited liability companies (LLC) with more than $5 million in assets"
+  },
+  {
+    "id": "block-4406741200",
+    "en_text": "• Family offices with at least $5 million in assets under management"
+  },
+  {
+    "id": "block-4406741456",
+    "en_text": "• Rule 144: This rule covers the sale of restricted stock (such as stock sold through private placement), unregistered, and control securities (stock owned by control persons [affiliates],"
+  },
+  {
+    "id": "block-4406741712",
+    "en_text": "• Rule 144A: This rule allows unregistered domestic and foreign securities to be sold to Qualified"
+  },
+  {
+    "id": "block-4406742480",
+    "en_text": "• 15,000"
+  },
+  {
+    "id": "block-4406742608",
+    "en_text": "• 15,750"
+  },
+  {
+    "id": "block-4406742736",
+    "en_text": "• 16,200"
+  },
+  {
+    "id": "block-4406742864",
+    "en_text": "• 16,250"
+  },
+  {
+    "id": "block-4406744912",
+    "en_text": "• Firm commitment"
+  },
+  {
+    "id": "block-4406745040",
+    "en_text": "• All-or-none"
+  },
+  {
+    "id": "block-4406745168",
+    "en_text": "• Best efforts"
+  },
+  {
+    "id": "block-4406745296",
+    "en_text": "• Mini-max"
+  },
+  {
+    "id": "block-4406745424",
+    "en_text": "• I only"
+  },
+  {
+    "id": "block-4406745552",
+    "en_text": "• II only"
+  },
+  {
+    "id": "block-4406745680",
+    "en_text": "• I, II, and IV"
+  },
+  {
+    "id": "block-4406745808",
+    "en_text": "• II, III, and IV"
+  },
+  {
+    "id": "block-4406745936",
+    "en_text": "• Which of the following are exempt transactions?"
+  },
+  {
+    "id": "block-4406746064",
+    "en_text": "• Private placements"
+  },
+  {
+    "id": "block-4406746192",
+    "en_text": "• Securities issued by the U.S. government"
+  },
+  {
+    "id": "block-4406746320",
+    "en_text": "• Intrastate offerings"
+  },
+  {
+    "id": "block-4406746448",
+    "en_text": "• Commercial paper"
+  },
+  {
+    "id": "block-4406746576",
+    "en_text": "• I and III"
+  },
+  {
+    "id": "block-4406746704",
+    "en_text": "• I, II, and IV"
+  },
+  {
+    "id": "block-4406746832",
+    "en_text": "• II and IV"
+  },
+  {
+    "id": "block-4406746960",
+    "en_text": "• I, II, III, and IV"
+  },
+  {
+    "id": "block-4406747856",
+    "en_text": "• 41,000"
+  },
+  {
+    "id": "block-4406747984",
+    "en_text": "• 42,000"
+  },
+  {
+    "id": "block-4406748112",
+    "en_text": "• 43,000"
+  },
+  {
+    "id": "block-4406748240",
+    "en_text": "• 44,000"
+  },
+  {
+    "id": "block-4406748496",
+    "en_text": "• 25 days"
+  },
+  {
+    "id": "block-4406748624",
+    "en_text": "• 40 days"
+  },
+  {
+    "id": "block-4406748752",
+    "en_text": "• 45 days"
+  },
+  {
+    "id": "block-4406748880",
+    "en_text": "• 90 days"
+  },
+  {
+    "id": "block-4406749136",
+    "en_text": "• An SEC disclaimer"
+  },
+  {
+    "id": "block-4406749264",
+    "en_text": "• The names of the officers of the issuing corporation"
+  },
+  {
+    "id": "block-4406749392",
+    "en_text": "• The public offering price"
+  },
+  {
+    "id": "block-4406749648",
+    "en_text": "• An explanation of what the funds raised by the offering would be used for"
+  },
+  {
+    "id": "block-4406749776",
+    "en_text": "• I and IV"
+  },
+  {
+    "id": "block-4406749904",
+    "en_text": "• I, II, and IV"
+  },
+  {
+    "id": "block-4406750032",
+    "en_text": "• II, III, and IV"
+  },
+  {
+    "id": "block-4406750160",
+    "en_text": "• I, II, III, and IV"
+  },
+  {
+    "id": "block-4406750416",
+    "en_text": "• Securities Act of 1933"
+  },
+  {
+    "id": "block-4406750544",
+    "en_text": "• Securities Exchange Act of 1934"
+  },
+  {
+    "id": "block-4406750672",
+    "en_text": "• Trust Indenture Act"
+  },
+  {
+    "id": "block-4406750800",
+    "en_text": "• All of the above"
+  },
+  {
+    "id": "block-4406750928",
+    "en_text": "• Which of the following may be included in a tombstone advertisement?"
+  },
+  {
+    "id": "block-4406751056",
+    "en_text": "• The number of securities to be sold"
+  },
+  {
+    "id": "block-4406751184",
+    "en_text": "• The issuer’s name"
+  },
+  {
+    "id": "block-4406751312",
+    "en_text": "• All underwriters’ names"
+  },
+  {
+    "id": "block-4406751440",
+    "en_text": "• All of the above"
+  },
+  {
+    "id": "block-4406751568",
+    "en_text": "• The post-filing cooling-off period usually lasts about"
+  },
+  {
+    "id": "block-4406751696",
+    "en_text": "• 20 days"
+  },
+  {
+    "id": "block-4406751824",
+    "en_text": "• 30 days"
+  },
+  {
+    "id": "block-4406751952",
+    "en_text": "• 45 days"
+  },
+  {
+    "id": "block-4406752080",
+    "en_text": "• 90 days"
+  },
+  {
+    "id": "block-4406752720",
+    "en_text": "• As soon as the registration statement has been filed"
+  },
+  {
+    "id": "block-4406753616",
+    "en_text": "• A. In a firm-commitment underwriting, all securities left unsold are retained by the underwriters. All-or-none and mini-max are actually best-efforts underwritings."
+  },
+  {
+    "id": "block-4406753744",
+    "en_text": "• D. This one is tricky, because all the transactions are exempt. Regulation D private place- ments and intrastate offerings are exempt based on the type of transactions. But securities issued by the U.S. government and commercial paper are exempt based on the type of security."
+  },
+  {
+    "id": "block-4406753872",
+    "en_text": "• C. Because the holding period has been met, the maximum number of shares that can be sold by an insider under Rule 144 is 1 percent of the outstanding shares or the average trading volume for the previous four weeks, whichever is greater. Check out the math:"
+  },
+  {
+    "id": "block-4406754768",
+    "en_text": "• D. For IPOs, a final prospectus must be available to all purchasers for 90 days after the effective date."
+  },
+  {
+    "id": "block-4406754896",
+    "en_text": "• B. All the choices would be in the preliminary prospectus (red herring) except the final offering price. The offering price at this point hasn’t been determined. The offering price, the underwriting spread, and the delivery date would be included in the final prospectus."
+  },
+  {
+    "id": "block-4406755024",
+    "en_text": "• A. The Securities Act of 1933 (Truth in Securities Act, Paper Act, Full Disclosure Act, Prospectus Act, or New Issues Act) regulates new issues of corporate stocks and bonds. Included in the act are rules to prevent fraud and deception, as well as rules about the issuer’s providing information about itself and the securities being offered."
+  },
+  {
+    "id": "block-4406755152",
+    "en_text": "• D. Tombstone advertisements may include the name of the issuer, the type of security being offered, the offering price (or approximate offering price), the names of the under- writers, and the number of securities being offered."
+  },
+  {
+    "id": "block-4406804688",
+    "en_text": "• A. The cooling-off period is when an issuer files a registration statement with the"
+  },
+  {
+    "id": "block-4406804944",
+    "en_text": "• B. After the registration is effective (the effective date), the broker–dealer is allowed to"
+  },
+  {
+    "id": "block-4406805200",
+    "en_text": "• D. U.S. Treasury securities (Treasury bonds, Treasury notes, Treasury bills, TIPS, and so on), municipal bonds (general obligation bonds, revenue bonds, and so on), and Eurodollar bonds are exempt from SEC registration. U.S. Treasury securities are backed by the federal government, and municipal bonds are backed by a state or local government. Eurodollar bonds are dollar-denominated bonds issued in Europe, and, therefore, must register in the country of issue. ADRs (American Depositary Receipts) are receipts for foreign securities traded in the United States and, therefore, must be registered in the United States."
+  }
+]

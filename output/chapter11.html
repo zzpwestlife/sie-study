@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 11</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: 0px"><a href="#block-4406840656">Reading an option...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406838864">Whether the investor is buying or sellin...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406839248">The contract size: 1...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406837328">The name of the stock: XYZ...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406839504">The expiration month for the options: Ap...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406840784">The strike (exercise) price of the optio...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406841040">The type of option: call...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406850768">The premium: 5...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406847056">Looking at call options: The right to bu...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406845776">Checking out put options: The right to s...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406852560">Getting your money back: Options in-, at...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406971216">Paying the premium: The cost of an optio...</a></li>
+<li style="padding-left: 0px"><a href="#block-4407208912">Calls same: Buying or selling call optio...</a></li>
+<li style="padding-left: 15px"><a href="#block-4407209680">Buying call options...</a></li>
+<li style="padding-left: 45px"><a href="#block-4407209936">Find the maximum loss....</a></li>
+<li style="padding-left: 45px"><a href="#block-4407210192">Determine the maximum gain....</a></li>
+<li style="padding-left: 30px"><a href="#block-4407211088">strike price  premium	40  5	45....</a></li>
+<li style="padding-left: 15px"><a href="#block-4407212368">Selling call options...</a></li>
+<li style="padding-left: 45px"><a href="#block-4407212752">Determine the maximum gain....</a></li>
+<li style="padding-left: 45px"><a href="#block-4407213008">Find the maximum loss....</a></li>
+<li style="padding-left: 30px"><a href="#block-4407213776">strike price  premium  60  2  62...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406928080">Puts switch: Buying or selling put optio...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406925264">Buying put options...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406925648">Find the maximum loss....</a></li>
+<li style="padding-left: 45px"><a href="#block-4406925904">Determine the maximum gain....</a></li>
+<li style="padding-left: 30px"><a href="#block-4406926672">strike price  premium  55  6  49...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406926928">Selling put options...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406927184">Determine the maximum gain....</a></li>
+<li style="padding-left: 45px"><a href="#block-4406927440">Find the maximum loss....</a></li>
+<li style="padding-left: 30px"><a href="#block-4406928208">strike price  premium	30  8	22...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406928464">Trading options: Opening and closing tra...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406928848">Putting things back where you found them...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406931408">Tricks of the options trade: Calculating...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406933328">Got it covered: Stock/option contracts...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406933712">Find this investor’s maximum potential l...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406933968">Determine the investor’s maximum potenti...</a></li>
+<li style="padding-left: 30px"><a href="#block-4406935248">$47 stock price $4 option premium  $43 b...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406919248">Index options...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406920144">Premiums of index options...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406920400">Exercises in cash...</a></li>
+<li style="padding-left: 15px"><a href="#block-4406920656">Trading hours, settlement, and expiratio...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406921296">Clearing through the OCC...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406921680">That’s ODD: Options risk disclosure docu...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406921936">Getting the go-ahead: Registered options...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406922192">Options account agreement...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406922448">Order ticket...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406922832">Last trade, last exercise, and expiratio...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406923344">Exercise and assignment...</a></li>
+<li style="padding-left: 45px"><a href="#block-4406952016">Client #2 sends the proceeds (stock or c...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406952912">Additional definitions...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406953936">Some additional option rules...</a></li>
+<li style="padding-left: 0px"><a href="#block-4406960592">Practice questions...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407240144">40  3	43...</a></li>
+<li style="padding-left: 30px"><a href="#block-4407240784">60  4	56...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 11</h1>
+            <a href="Chapter_11.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block paragraph" id="block-4406112080">
+<p class="block-en">Chapter 11</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406110544">
+<p class="block-en">Options: Understanding the Basics of Puts and Calls</p>
+<p class="block-zh">第 11 章：期权：了解看跌与看涨期权的基础知识</p>
+</section>
+<section class="block paragraph" id="block-4406112336">
+<p class="block-en">elcome to the wonderful world of options. I’m sure you’ve heard stories about the difficulty of options. Put your mind at ease; I’m here to make your life easier. Maybe I’m a little warped, but options are my favorite part of the SIE exam!</p>
+<p class="block-zh">欢迎来到奇妙的期权世界。我确定您听说过关于期权难度的种种说法。放轻松；我在这里就是为了让您的学习变得更简单。也许我有点古怪，但期权确实是我在 SIE 考试中最喜欢的部分！</p>
+</section>
+<section class="block paragraph" id="block-4406111696">
+<p class="block-en">You don’t have to do a lot of calculations related to options on the SIE, but the ones that you do have to do are relatively simple. More of the option questions on this exam are about understand- ing the terminology and rules. But in this chapter, I make facing any math questions you may encounter as simple as possible for you. At the end of this chapter, you get a chance to test your knowledge of options with a chapter quiz.</p>
+<p class="block-zh">在 SIE 考试中，您不需要做大量关于期权的计算，而您必须做的那些计算相对简单。本次考试中更多的期权题目是关于术语和规则的理解。但在本章中，我会让您遇到的任何数学问题都变得尽可能简单。在本章末尾，您有机会通过章节测验来测试您的期权知识。</p>
+</section>
+<section class="block paragraph" id="block-4406111568">
+<p class="block-en">Many more-complex options strategies exist — straddles, spreads, combinations, and so on — but you won’t need to calculate any of them on the SIE exam. If you’re planning to take the Series 7 exam after this one, however, be prepared.</p>
+<p class="block-zh">还存在许多更复杂的期权策略——**跨式期权 （straddles）**、**价差期权 （spreads）**、**组合期权 （combinations）** 等——但您在 SIE 考试中不需要计算其中的任何一种。然而，如果您计划在此之后参加 Series 7 考试，请做好准备。</p>
+</section>
+<section class="block paragraph" id="block-4406111824">
+<p class="block-en">Options are just another investment vehicle that (ideally) more-savvy investors can use. Options may be used for hedging to protect a securities position or for speculation, when looking to trade or exercise an option at a profit.</p>
+<p class="block-zh">期权只是另一种投资工具，（理想情况下）更精明的投资者可以使用。期权可用于**套期保值 （hedging）** 以保护证券头寸，或用于**投机 （speculation）**，即寻求通过交易或行使期权来获利。</p>
+</section>
+<section class="block paragraph" id="block-4406111184">
+<p class="block-en">An owner of an option has the right, but not the obligation, to buy or sell an underlying security (stock, bond, and so on) at a fixed price; as derivatives, options draw their value from that under- lying security. Investors may either exercise the option (buy or sell the security at the fixed price), trade the option in the market, or let it expire.</p>
+<p class="block-zh">期权的持有人拥有在固定价格购买或出售标的证券（股票、债券等）的**权利，而非义务**；作为**衍生品 （derivatives）**，期权的价值源自该标的证券。投资者可以选择行使期权（按固定价格买卖证券）、在市场上交易期权，或者让其过期。</p>
+</section>
+<section class="block paragraph" id="block-4406110288">
+<p class="block-en">All option strategies, whether simple or sophisticated, when broken down are made up of simple call and/or put options. After going over how to read an option, I explain a basic call option and help you figure out how to work with that before moving on to a put option. Next, I discuss options that are in-, at-, or out-of-the-money and the cost of options. After you’ve sufficiently mastered the basics, the rest (the more-difficult strategies later in this chapter) becomes easier.</p>
+<p class="block-zh">所有的期权策略，无论简单还是复杂，拆解开来都是由简单的看涨和/或看跌期权组成的。在介绍如何解读期权之后，我将解释基本的看涨期权，并帮助您在进入看跌期权之前弄清楚如何操作。接下来，我将讨论实值、平值或虚值期权以及期权的成本。在您充分掌握了基础知识之后，其余部分（本章后面更难的策略）就会变得更容易。</p>
+</section>
+<section class="block heading" id="block-4406840656">
+<h1>Reading an option</h1>
+<div class="block-zh">解读期权</div>
+</section>
+<section class="block paragraph" id="block-4406837584">
+<p class="block-en">To answer SIE questions relating to options, you have to be able to read an option. The following</p>
+<p class="block-zh">要回答 SIE 考试中有关期权的问题，您必须能够解读期权。以下示例显示了期权在真实考试中可能出现的样式：</p>
+</section>
+<section class="block paragraph" id="block-4406838096">
+<p class="block-en">example shows you how an option may appear on the real exam:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406838736">
+<p class="block-en">Buy 1 XYZ Apr 60 call at 5</p>
+<p class="block-zh">**买入 1 张 XYZ 4 月 60 看涨期权，权利金为 5**</p>
+</section>
+<section class="block paragraph" id="block-4406838352">
+<p class="block-en">Here are the seven elements of the option order ticket and how they apply to the example:</p>
+<p class="block-zh">以下是期权委托单的七个要素，以及它们如何应用于示例：</p>
+</section>
+<section class="block heading" id="block-4406838864">
+<h4>Whether the investor is buying or selling the option: Buy</h4>
+</section>
+<section class="block paragraph" id="block-4406838992">
+<p class="block-en">When an investor buys (or longs, holds, or owns) an option, they are in a position of power;</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406839888">
+<p class="block-en">that investor controls the option and decides whether and when to exercise the option. If an investor is selling (shorting or writing) an option, they are obligated to live up to the terms of the contract and must either purchase or sell the underlying stock if the holder exercises the option.</p>
+<p class="block-zh">**投资者是买入还是卖出该期权：买入** 当投资者买入（或称**做多、持有或拥有**）期权时，他们处于主动地位；该投资者控制着期权，并决定是否以及何时行使期权。如果投资者卖出（**卖空或开立**）期权，他们有义务履行合同条款，如果持有人行使期权，他们必须购买或出售标的股票。</p>
+</section>
+<section class="block heading" id="block-4406839248">
+<h4>The contract size: 1</h4>
+</section>
+<section class="block paragraph" id="block-4406840272">
+<p class="block-en">You can assume that one option contract is for 100 shares of the underlying stock. Although this idea isn´t as heavily tested on the SIE exam, an investor may buy or sell multiple options (for example, five) if they´re interested in having a position in more shares of stock. If an investor owns five option contracts, they´re interested in 500 shares of stock, which you will need to know in more detail when taking other exams such as the Series 7.</p>
+<p class="block-zh">**合同规模：1** 您可以假设一个期权合同代表 **100 股**标的股票。虽然这一概念在 SIE 考试中考查不多，但如果投资者对持有更多股份感兴趣，他们可以买卖多个期权（例如五个）。如果一名投资者拥有五个期权合同，意味着他们对 500 股股票感兴趣，在参加 Series 7 等其他考试时，您需要更详细地了解这一点。</p>
+</section>
+<section class="block heading" id="block-4406837328">
+<h4>The name of the stock: XYZ</h4>
+</section>
+<section class="block paragraph" id="block-4406840528">
+<p class="block-en">In this case, XYZ is the underlying stock that the investor has a right to purchase at a fixed price.</p>
+<p class="block-zh">在这种情况下，XYZ 是投资者有权以固定价格购买的标的股票。</p>
+</section>
+<section class="block heading" id="block-4406839504">
+<h4>The expiration month for the options: Apr</h4>
+</section>
+<section class="block paragraph" id="block-4406841168">
+<p class="block-en">All options are owned for a fixed period of time. The expiration for new options used to be</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406841296">
+<p class="block-en">9 months from the issue date. Now, investors can also purchase options with weekly and quarterly maturities as well as long-term options (long-term equity anticipation securities, known affectionately as LEAPS), In the preceding example, the option will expire in April — more specifically, at 4 p.m. EST (3 p.m. CST) on the third Friday in April. (All options expire on the third Friday of the expiration month.)</p>
+<p class="block-zh">**期权的到期月份：4 月** 所有的期权都持有固定的一段时间。新期权的有效期曾是发行后 9 个月。现在，投资者还可以购买周度到期、季度到期以及长期期权（**长期股权预期证券**，亲切地称为 **LEAPS**）。在前面的例子中，该期权将在 4 月到期——具体来说，是 **4 月第三个星期五的美国东部时间下午 4 点（中部时间下午 3 点）**。（所有期权都在到期月的第三个星期五到期。）</p>
+</section>
+<section class="block paragraph" id="block-4406841680">
+<p class="block-en">EST (Eastern Standard Time) is generally easier to recall than CST (Central Standard Time) and is more often tested.</p>
+<p class="block-zh">东部标准时间 （EST） 通常比中部标准时间 （CST） 更容易记住，也更常被考查。</p>
+</section>
+<section class="block heading" id="block-4406840784">
+<h4>The strike (exercise) price of the option: 60</h4>
+</section>
+<section class="block paragraph" id="block-4406850256">
+<p class="block-en">When the holder (purchaser or owner) exercises the option, they use the option contract to make the seller of the option buy or sell the underlying stock at the strike price. (See the next step for info on determining whether the seller is obligated to buy or sell.) In this case, if the holder were to exercise the option, the holder of the option would be able to purchase 100 shares of XYZ at</p>
+<p class="block-zh">**期权的行权价（履约价）：60** 当持有人（购买者或所有者）行使期权时，他们利用期权合同要求期权卖方按行权价购买或出售标的股票。（见下一步关于确定卖方是否有义务购买或出售的信息。）在本例中，如果持有人行使期权，期权持有人将能够以**每股 60 美元**的价格购买 100 股 XYZ。</p>
+</section>
+<section class="block paragraph" id="block-4406850896">
+<p class="block-en">$60 per share.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406841040">
+<h4>The type of option: call</h4>
+</section>
+<section class="block paragraph" id="block-4406850000">
+<p class="block-en">An investor can buy or sell a call option or buy or sell a put option. Calls give holders the right to buy the underlying security at a set price, whereas puts give holders the right to sell. So, in the</p>
+<p class="block-zh">**期权类型：看涨期权 （call）** 投资者可以买卖**看涨期权 （call option）** 或买卖**看跌期权 （put option）**。**看涨期权赋予持有人买入标的证券的权利**，而**看跌期权赋予持有人卖出的权利**。因此，在示例场景中，持有人有权按前一步所述的价格购买标的证券。</p>
+</section>
+<section class="block paragraph" id="block-4406849872">
+<p class="block-en">example scenario, the holder has the right to buy the underlying security at the price stated in the preceding step.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406850768">
+<h4>The premium: 5</h4>
+</section>
+<section class="block paragraph" id="block-4406853456">
+<p class="block-en">Of course, an option investor doesn´t get to have the option for nothing. An investor buys the option at the premium. In this case, the premium is 5, so a purchaser would have to pay $500 (5 × 100 shares per option).</p>
+<p class="block-zh">当然，期权投资者不会平白无故得到期权。投资者通过支付**权利金**来购买期权。在本例中，权利金为 5，因此购买者必须支付 **500 美元**（5 × 每张期权对应 100 股）。</p>
+</section>
+<section class="block heading" id="block-4406847056">
+<h1>Looking at call options: The right to buy</h1>
+<div class="block-zh">审视看涨期权：买入权</div>
+</section>
+<section class="block paragraph" id="block-4406846544">
+<p class="block-en">A call option gives the holder (owner) the right, but not the obligation, to buy 100 shares of a secu- rity at a fixed price and the seller the obligation to sell the stock at the fixed price. (If the seller does not own 100 shares of the underlying security, they would have to purchase them in the market to be able to fulfill their obligation.) Owners of call options are bullish (picture a bull charging forward) because the investors want the price of the stock to increase. If the price of the stock increases above the strike price, holders can either exercise the option (buy the stock at a good price) or sell the option for a profit. By contrast, sellers of call options are neutral or bearish (imagine a bear hibernating for the winter) because they want the price of the stock to either stay the same or decrease.</p>
+<p class="block-zh">**看涨期权 （call option）** 赋予持有人（所有者）以固定价格购买 100 股证券的权利（而非义务），并赋予卖方以该固定价格出售股票的义务。（如果卖方不持有 100 股标的证券，他们必须从市场上购买才能履行义务。）看涨期权的所有者是**看多 （bullish）** 的（想象一头向前冲的公牛），因为投资者希望股价上涨。如果股价涨到行权价以上，持有人既可以行使期权（以优惠价购买股票），也可以卖出期权获利。相比之下，看涨期权的卖方是**中性或看空 （bearish）** 的（想象一头冬眠的熊），因为他们希望股价保持不变或下跌。</p>
+</section>
+<section class="block paragraph" id="block-4406849744">
+<p class="block-en">Assume that Ms. Smith buys 1 DEF Oct 40 call option. Ms. Smith bought the right to purchase 100 shares of DEF at 40. If the price of DEF increases to more than $40 per share, this option becomes very valuable to Ms. Smith because she can purchase the stock at $40 per share and sell it at the market price or sell the option at a higher price.</p>
+<p class="block-zh">假设 Smith 女士购买了 1 张 DEF 10 月 40 看涨期权。Smith 女士购买了以 40 的价格购买 100 股 DEF 的权利。如果 DEF 的价格涨到每股 40 美元以上，这个期权对 Smith 女士来说就变得非常有价值，因为她可以按每股 40 美元购买股票并按市价卖出，或者以更高的价格卖出期权。如果 DEF 的价格从未超过 40 的行权价，那么可怜的 Smith 女士就没法从中获利，她也不会行使该期权。然而，这对期权卖方来说是有利的，因为卖方通过卖出期权收到了权利金，并且可以将这笔权利金收入囊中。</p>
+</section>
+<section class="block paragraph" id="block-4406853200">
+<p class="block-en">If DEF never eclipses the 40 strike (exercise) price, the option doesn’t work out for poor Ms. Smith, and she doesn’t exercise the option. However, it does work out for the seller of the option, because the seller receives a premium for selling the option, and the seller gets to pocket that premium.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406845776">
+<h1>Checking out put options: The right to sell</h1>
+<div class="block-zh">审视看跌期权：卖出权</div>
+</section>
+<section class="block paragraph" id="block-4406848720">
+<p class="block-en">You can think of a put option as being the opposite of a call option (see the preceding section). The holder of a put option has the right to sell 100 shares of a security at a fixed price, and the writer (seller) of a put option has the obligation to buy the stock if exercised. Owners of put options are bearish because the investors want the price of the stock to decrease (so they can buy the stock at market price and immediately sell it at the higher strike price or sell their option at a higher premium). However, sellers of put options are bullish (they want the price of the stock to increase), because that would keep the option from going in-the-money (see the next section) and allow them to keep the premiums they received.</p>
+<p class="block-zh">您可以将**看跌期权 （put option）** 视为看涨期权的反面（见前一节）。看跌期权的持有人拥有按固定价格**卖出** 100 股证券的**权利**，而看跌期权的写入者（卖方）在期权被行使时有**义务买入**该股票。看跌期权的所有者是**看空**的，因为投资者希望股价下跌（这样他们就可以按市价买入股票，并立即按更高的行权价卖出，或者以更高的权利金卖出期权）。然而，看跌期权的卖方是**看多**的（他们希望股价上涨），因为这会防止期权进入实值状态（见下一节），从而让他们保留收到的权利金。</p>
+</section>
+<section class="block paragraph" id="block-4406852176">
+<p class="block-en">Assume that Mr. Jones buys 1 ABC October 60 put option. Mr. Jones is buying the right to sell 100 shares of ABC at 60. If the price of ABC decreases to less than $60 per share, this option becomes very valuable to Mr. Jones. If you were in Mr. Jones’s shoes and ABC were to drop to</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406849360">
+<p class="block-en">$50 per share, you could purchase the stock in the market and exercise (use) the option to sell the stock at $60 per share, which would make you (the new Mr. Jones) very happy.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406852688">
+<p class="block-en">If ABC never drops below the 60 strike (exercise) price, the option doesn’t work out for Mr. Jones and he doesn’t exercise the option. However, it does work out for the seller of the option, because the seller receives a premium for selling the option that she gets to keep.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406852560">
+<h1>Getting your money back: Options in-, at-, or out-of-the-money</h1>
+<div class="block-zh">拿回您的钱：实值、平值或虚值期权</div>
+</section>
+<section class="block paragraph" id="block-4406848848">
+<p class="block-en">To determine whether an option is in- or out-of-the-money, you have to figure out whether the investor would be able to get at least some of his premium money back if the option were exercised.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406848976">
+<p class="block-en">You can figure out how much an option is in-the-money or out-of-the-money by finding the difference between the market value and the strike price. Here’s how you know where in-the- money an option is:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406851920">
+<div class="block-en">• When an option is in-the-money, exercising the option lets investors sell a security for more than its current market value or purchase it for less — a pretty good deal.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406851792">
+<p class="block-en">The intrinsic value of an option is the amount that the option is in-the-money; if an option is out-of-the-money or at-the-money, the intrinsic value is zero.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406851536">
+<div class="block-en">• When an option is out-of-the-money, exercising the option means investors can´t get the best prices; they´d have to buy the security for more than its market value or sell it for less.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407001808">
+<p class="block-en">Obviously, holders of options that are out-of-the-money don´t exercise them.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406848336">
+<div class="block-en">• When the strike price is the same as the market price, the option is at-the-money; this is true</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406806864">
+<p class="block-en">whether the option is a call or a put.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406820432">
+<p class="block-en">Call options — the right to buy — go in-the-money when the price of the stock is above the strike price. Suppose that an investor buys a DEF 60 call option and that DEF is trading at 62. In this case, the option would be in-the-money by two points (the option’s intrinsic value). If that same investor were to buy that DEF 60 call option when DEF was trading at 55, the option would be out-of-the-money by five points (with an intrinsic value of zero).</p>
+<p class="block-zh">看涨期权（买入权）在**股价高于行权价时进入实值**。假设一名投资者买入了 DEF 60 看涨期权，而 DEF 的交易价格为 62。在这种情况下，该期权处于实值 2 点（即该期权的内在价值）。如果同一位投资者在 DEF 交易价格为 55 时买入该 DEF 60 看涨期权，则该期权处于虚值 5 点（内在价值为零）。 看跌期权（卖出权）在**股价跌至行权价以下时进入实值**。例如，当 TUV 的价格跌破 80 时，TUV 80 看跌期权就处于实值。反之亦然：如果看跌期权在股价低于行权价时处于实值，那么在股价高于行权价时，它必然处于虚值。</p>
+</section>
+<section class="block paragraph" id="block-4406809040">
+<p class="block-en">A put option — the right to sell — goes in-the-money when the price of the stock drops below the strike price. For example, a TUV 80 call option is in-the-money when the price of TUV drops below 80. The reverse holds as well: If a put option is in-the-money when the price of the stock is below the strike price, it must be out-of-the-money when the price of the stock is above the strike price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406808528">
+<p class="block-en">Don’t take the cost of the option (the premium) into consideration when determining whether an option is in-the-money or out-of-the-money. Having an option that’s in-the-money is not the same as making a profit. (See the next section for info on premiums.)</p>
+<p class="block-zh">在确定期权是实值还是虚值时，不要考虑期权的成本（权利金）。期权处于实值状态**并不等同于获利**。（有关权利金的信息见下一节。）</p>
+</section>
+<section class="block paragraph" id="block-4406814544">
+<p class="block-en">Use the phrases call up and put down to recall when an option goes in-the-money. Call up can help you remember that a call option is in-the-money when the market price is up, or above the strike price. Put down can help you remember that a put option is in-the-money when the market price is down, or below the strike price.</p>
+<p class="block-zh">使用“**看涨向上** （call up）”和“**看跌向下** （put down）”这两个短语来记忆期权何时进入实值状态。“**看涨向上**”可以帮助您记住，当市场价格**向上**（或高于行权价）时，看涨期权处于实值。“**看跌向下**”可以帮助您记住，当市场价格**向下**（或低于行权价）时，看跌期权处于实值。</p>
+</section>
+<section class="block paragraph" id="block-4406818896">
+<p class="block-en">The following question tests your knowledge of options being in- or out-of-the-money.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406816848">
+<p class="block-en">Which TWO of the following options are in-the-money if ABC is trading at 62 and DEF is trad- ing at 44?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406817232">
+<div class="block-en">• An ABC Oct 60 call option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969936">
+<div class="block-en">• An ABC Oct 70 call option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970320">
+<div class="block-en">• A DEF May 40 put option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406969808">
+<div class="block-en">• A DEF May 50 put option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970704">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970832">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970192">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406970448">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406970576">
+<p class="block-en">The correct answer is (B). Start with the strike (exercise) prices. You’re calling up or putting down from the strike prices, not from the market prices. Because call options go in-the-money when the market price is above the strike price, Statement I is the only one that works for ABC. An ABC 60 call option would be in-the-money when the price of ABC is above 60. ABC is currently trading at 62, so that 60 call option is in-the-money. For the ABC 70 call option to be in-the-money, ABC would have to be trading higher than 70. Next, use put down for the DEF put options, because put options go in-the-money when the price of the stock goes below the strike price. Therefore, Statement IV makes sense because DEF is trading at 44, and that’s below the DEF 50 put strike price but not the 40 put strike price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406970960">
+<p class="block-en">When someone is short an option, it means that they sold the option. This person is on the oppo- site side of the transaction than the person who is long the option. In this case, the seller received a premium for selling the option. So, someone who is short an option is doing so for income and is hoping that the option expires out-of-the-money so that they get to keep the premium.</p>
+<p class="block-zh">当某人**做空 （short）** 期权时，意味着他们卖出了期权。此人处于与**做多 （long）** 期权者相对的交易位置。在这种情况下，卖方通过卖出期权收到了权利金。因此，做空期权的人是为了获得收入，并希望期权在过期时处于虚值，这样他们就能保留权利金。 当人们购买期权时，就说他们是**做多**期权。做多期权的投资者已经支付了权利金，因此他们需要期权进入实值状态（标的证券价格向正确的方向变动），且程度足以让他们不仅收回权利金，还能赚几块钱。</p>
+</section>
+<section class="block paragraph" id="block-4406971088">
+<p class="block-en">When people purchase an option, it is said that they are long the option. An investor who is long an option has paid the premium for the option so they need the option to go in-the-money (the price of the underlying security to go in the correct direction) enough for them to not only recoup their premium but also make a few bucks.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406971216">
+<h1>Paying the premium: The cost of an option</h1>
+<div class="block-zh">支付权利金：期权的成本</div>
+</section>
+<section class="block paragraph" id="block-4406971472">
+<p class="block-en">The premium of an option is the amount that the purchaser pays for the option. The premium may increase or decrease depending on whether an option goes in- or out-of-the-money, gets closer to expiration, and so on. The premium is made up of many different factors, including</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406978000">
+<div class="block-en">• Whether the option is in-the-money (see the preceding section)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406977872">
+<div class="block-en">• The amount of time the investor has to use the option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406974800">
+<div class="block-en">• The volatility of the underlying security</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406978128">
+<div class="block-en">• Investor sentiment (for example, whether buying calls on ABC stock is the cool thing to do right now)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406971728">
+<p class="block-en">One of the simple options math questions you may run across on the SIE exam requires you to figure out the time value of an option premium. Time value has to do with how long you have until an option expires. There’s no set standard for time value, such as every month until an option</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406978384">
+<p class="block-en">expires costs buyers an extra $100. However, you can assume that if two options have everything in common except for the expiration month, the one with the longer expiration will have a higher premium. Ideally, the following equation can help keep you from getting a pit in your stomach:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406978512">
+<p class="block-en">P	I  T</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406978256">
+<p class="block-en">In this formula, P is the premium or cost of the option, I is the intrinsic value of the option (the amount the option is in-the-money), and T is the time value of the option.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406978640">
+<p class="block-en">Here’s how you find the time value for a BIF Oct 50 call option if the premium is 6 and BIF is trading at 52: Call options (the right to buy) go in-the-money when the price of the stock goes above the strike price (call up — see the preceding section). Because BIF is trading at 52 and the option is a 50 call option, it’s two points in-the-money; therefore, the intrinsic value is two. Because the premium is six and the intrinsic value is two, the premium must include four as a time value:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406978896">
+<p class="block-en">P	I  T</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406979024">
+<p class="block-en">6	2  T</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406979152">
+<p class="block-en">T	4</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406979280">
+<p class="block-en">The following question tests your knowledge of using the formula P = I + T.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406979408">
+<p class="block-en">Use the following chart to answer the next question.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406979536">
+<p class="block-en">What is the time value of an LMN October 30 call?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406979664">
+<div class="block-en">• 2.5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406979792">
+<div class="block-en">• 4</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406979920">
+<div class="block-en">• 6.25</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406980048">
+<div class="block-en">• 9.5</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406980176">
+<p class="block-en">The answer you’re looking for is (B). I threw you a curveball by giving you a chart similar to what you may see on the SIE exam. I hope you’re able to find the premium that you need to answer the question. Most of the exhibits you get on the SIE are simple, and solving the problem is just a matter of locating the information you need.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406980304">
+<p class="block-en">In the chart, the first column shows the price of the stock trading in the market, the second col- umn shows the strike prices for the options, and the rest of the chart shows the premiums for the calls and puts and the expiration months. Scan the chart under the October calls, which is in the fourth column; then look for the 30 strike price, which is in the first row of data. The column and row intersect at a premium of 14.5.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208016">
+<p class="block-en">Now you need to find the intrinsic value (how much the option is in-the-money). Remember that call options go in-the-money when the price of the stock is above the strike price (call up). This</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208144">
+<p class="block-en">is a 30 call option, and the price of the stock is 40.50, which is 10.5 above the strike price. Plug in the numbers, and you find that the premium includes a time value of 4:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208400">
+<p class="block-en">P (premium)	I (intrinsic value)  T (time value)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208528">
+<p class="block-en">14.5  10.5  T</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208656">
+<p class="block-en">T	4</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208272">
+<p class="block-en">I’m here to make your life easier. Prep courses use several different types of charts and formulas to figure out things such as gains or losses, break-even points, maximum gain or loss, and so on. I believe that the easiest way is to use the options chart that follows. It’s a simple Money Out, Money In chart you can use to plug in numbers. What’s great about this chart is that you don’t even necessarily have to understand what the heck is going on to determine the answers to most options questions. As this chapter progresses, I show you how incredibly useful the options chart can be.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407208784">
+<p class="block-en">If it looks basic, it is — and that’s the idea. Any time an investor spends money, you place that value in the Money Out side of the options chart, and any time an investor receives money, you place the number in the Money In side of the chart.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407208912">
+<h1>Calls same: Buying or selling call options</h1>
+<div class="block-zh">买入或卖出看涨期权</div>
+</section>
+<section class="block paragraph" id="block-4407209040">
+<p class="block-en">The most basic options calculations involve buying or selling call or put options. Although using the options chart may not be totally necessary for the more basic calculations (such as the one that follows in the next section), working with the chart now can help you get used to the tool so you’ll be ready when the SIE exam tests your sanity with more-complex calculations.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407209168">
+<p class="block-en">As you work with options charts, you may notice a pattern when determining maximum losses and gains. Table 11-1 gives you a quick reference concerning the maximum gain or maximum loss an investor faces when buying or selling call options. Notice that the buyer’s loss is equal to the seller’s gain (and vice versa).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407209424">
+<p class="block-en">TABLE 11-1  Maximum Gains and Losses for Call Options</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407209296">
+<p class="block-en">The key phrase to remember when working with call options is calls same, which means that the</p>
+<p class="block-zh">处理看涨期权时要记住的关键短语是“**看涨同侧** （calls same）”，这意味着权利金和行权价都放在期权图表的同一侧。</p>
+</section>
+<section class="block paragraph" id="block-4407209552">
+<p class="block-en">premium and the strike price go on the same side of the options chart.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407209680">
+<h2>Buying call options</h2>
+<div class="block-zh">买入看涨期权</div>
+</section>
+<section class="block paragraph" id="block-4407209808">
+<p class="block-en">The following steps show you how to calculate the maximum loss and gain for holders of call options (which give the holder the right to buy). I also show you how to find the break-even point. Here’s the order ticket for the example calculations:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407210064">
+<p class="block-en">Buy 1 XYZ Oct 40 call at 5</p>
+<p class="block-zh">**买入 1 张 XYZ 10 月 40 看涨期权，权利金为 5**</p>
+</section>
+<section class="block heading" id="block-4407209936">
+<h4>Find the maximum loss.</h4>
+</section>
+<section class="block paragraph" id="block-4407210320">
+<p class="block-en">The holder of an option doesn´t have to exercise it, so the most they can lose is the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407210448">
+<p class="block-en">premium. The premium is five, so this investor purchased the option for $500 (5 × 100 shares per option); therefore, you enter that value in the Money Out side of the options chart (think "money out of the investor´s pocket"). According to the chart, the maximum loss (the most this investor can lose) is $500.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407210192">
+<h4>Determine the maximum gain.</h4>
+</section>
+<section class="block paragraph" id="block-4407210704">
+<p class="block-en">To calculate the maximum gain, you have to exercise the option at the strike price. The strike price is 40, so you enter $4,000 (40 strike price × 100 shares per option) under its premium (which you added to the chart when calculating maximum loss); exercising the call means buying the stock, so that´s Money Out. When exercising call options, always put the multiplied strike price under its premium. (Remember calls same: The premium and the strike price go on the same side of the options chart.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407210832">
+<p class="block-en">Because you´ve already determined the maximum loss, look at the Money In portion of the options chart. The Money In is empty, so the maximum gain (the most money the investor can make) is unlimited.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407210576">
+<p class="block-en">When you see a question about the break-even point, the SIE examiners are asking, “At what point does this investor not have a gain or loss?” The simplest way to figure out this point for a call option is to use call up (remember that call options go in-the-money when the price of the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407210960">
+<p class="block-en">stock goes above the strike price — see the earlier section “Getting your money back: Options in-, at-, or out-of-the-money”). When using call up, you add the strike price to the premium:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407211088">
+<h3>strike price  premium	40  5	45.</h3>
+<div class="block-zh">**行权价 + 权利金 = 40 + 5 = 45**</div>
+</section>
+<section class="block paragraph" id="block-4407211216">
+<p class="block-en">For this investor, the break-even point is 45. This number makes sense because the investor paid</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407211984">
+<p class="block-en">$5 for the option, so the option has to go $5 in-the-money for the investor to recoup the amount</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407212240">
+<p class="block-en">they paid. Note: The break-even point is always the same for the buyer and the seller.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407212368">
+<h2>Selling call options</h2>
+<div class="block-zh">卖出看涨期权</div>
+</section>
+<section class="block paragraph" id="block-4407212624">
+<p class="block-en">Here, I show you how to find the maximum gain and loss, as well as the break-even point, for sellers of call options. Here’s the order ticket for the example calculations:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407212880">
+<p class="block-en">Sell 1 ZYX Oct 60 call at 2</p>
+<p class="block-zh">**卖出 1 张 ZYX 10 月 60 看涨期权，权利金为 2**</p>
+</section>
+<section class="block heading" id="block-4407212752">
+<h4>Determine the maximum gain.</h4>
+</section>
+<section class="block paragraph" id="block-4407213392">
+<p class="block-en">The seller makes money only if the holder fails to exercise the option or exercises it when the option is in-the-money by less than the premium received. This investor sold the option for</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407213136">
+<p class="block-en">$200 (2 × 100 shares per option); therefore, you enter that amount in the Money In side of the options chart. According to the chart, the maximum gain (the most that this investor can make) is the $200 premium received. Note: The exercised strike price of $6,000 (60 × 100 shares) doesn´t come into play when determining the maximum gain in this example because the holder of the option would exercise the option only if it were in-the-money.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407213008">
+<h4>Find the maximum loss.</h4>
+</section>
+<section class="block paragraph" id="block-4407213520">
+<p class="block-en">To calculate the maximum loss, you need to exercise the option at the strike price. The strike price is 60, so you enter $6,000 (60 strike price × 100 shares per option) under its premium. The</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407212496">
+<p class="block-en">$6,000 goes in the Money In side of the options chart because this investor had to sell the stock to the holder at the strike price (60 × 100 shares). When exercising call options, always enter the multiplied strike price under its premium. (Remember calls same: The premium and the strike price go on the same side of the options chart.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407213648">
+<p class="block-en">You´ve already determined the maximum gain; now look at the Money Out portion of the options chart. The Money Out is empty, so the maximum loss (the most money the investor can lose) is unlimited.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407213264">
+<p class="block-en">When you see a question about the break-even point, the examiners are asking you, “At what point does this investor not have a gain or loss?” The simplest way to figure this out for a call option is to use call up. When using call up, you add the strike price to the premium:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4407213776">
+<h3>strike price  premium  60  2  62</h3>
+<div class="block-zh">**行权价 + 权利金 = 60 + 2 = 62**</div>
+</section>
+<section class="block paragraph" id="block-4407213904">
+<p class="block-en">For this investor, the break-even point is 62. This makes sense because the investor received $2 for the option, so the option has to go $2 in-the-money for this investor to lose the amount that she received for selling the option. Call options go in-the-money when the price of the stock goes above the strike price.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406928080">
+<h1>Puts switch: Buying or selling put options</h1>
+<div class="block-zh">买入或卖出看跌期权</div>
+</section>
+<section class="block paragraph" id="block-4406935120">
+<p class="block-en">Fortunately, when you’re calculating the buying or selling of put options (which give the holder the right to sell), you use the options chart in the same way but with a slight change (see the pre- ceding section for info on call options). Instead of using calls same as you do with call options, you use puts switch — in other words, you place the premium and the strike price on opposite sides of the options chart.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406924880">
+<p class="block-en">Table 11-2 serves as a quick reference regarding the maximum gain or maximum loss an investor</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406925008">
+<p class="block-en">faces when buying or selling put options.</p>
+<p class="block-zh">买入或卖出看跌期权</p>
+</section>
+<section class="block paragraph" id="block-4406925392">
+<p class="block-en">TABLE 11-2  Maximum Gains and Losses for Put Options</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406925264">
+<h2>Buying put options</h2>
+<div class="block-zh">买入看跌期权</div>
+</section>
+<section class="block paragraph" id="block-4406925136">
+<p class="block-en">This section explains how to find the maximum loss, maximum gain, and the break-even point for buyers (holders) of put options. Here’s the ticket order for the calculations:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406925520">
+<p class="block-en">Buy 1 TUV Oct 55 put at 6</p>
+<p class="block-zh">**买入 1 张 TUV 10 月 55 看跌期权，权利金为 6**</p>
+</section>
+<section class="block heading" id="block-4406925648">
+<h4>Find the maximum loss.</h4>
+</section>
+<section class="block paragraph" id="block-4406925776">
+<p class="block-en">Exercising an option is, well, optional for the holder, so buyers of put options can´t lose more than the premium. Because this investor purchased the option for $600 (6 × 100 shares per option), you enter that value in the Money Out side of the options chart. The maximum loss (the most that this investor can lose) is the $600 premium paid.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406925904">
+<h4>Determine the maximum gain.</h4>
+</section>
+<section class="block paragraph" id="block-4406926160">
+<p class="block-en">To find the maximum gain, you have to exercise the option at the strike price. The strike price is 55, so you enter $5,500 (55 strike price × 100 shares per option) on the opposite side of the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406926288">
+<p class="block-en">options chart. (Remember puts switch: The premium and the strike price go on opposite sides of the options chart.) Exercising the option means selling the underlying stock, so that $5,500 is Money In.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406926544">
+<p class="block-en">You´ve already determined the maximum loss; now look at the Money In portion of the options chart. Because you find $4,900 more Money In than Money Out ($5,500 - $600), the maximum gain is $4,900.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406926032">
+<p class="block-en">The break-even point is the security price where the investor doesn’t have a gain or loss. The simplest way to figure out this point for a put option is to use put down (put options go in-the- money when the price of the stock goes below the strike price). When using put down, you subtract the premium from the strike price:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406926672">
+<h3>strike price  premium  55  6  49</h3>
+<div class="block-zh">**行权价 – 权利金 = 55 – 6 = 49**</div>
+</section>
+<section class="block paragraph" id="block-4406926800">
+<p class="block-en">For this investor, the break-even point is 49. The investor paid $6 for the option, so the option has to go $6 in-the-money in order for this investor to recoup the amount that they paid. As with call options, the break-even point is always the same for the buyer and the seller.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406926928">
+<h2>Selling put options</h2>
+<div class="block-zh">卖出看跌期权</div>
+</section>
+<section class="block paragraph" id="block-4406927056">
+<p class="block-en">The following steps show you how to calculate the maximum gain and loss for the seller of a put option. I also demonstrate calculations for the break-even point. Here’s the ticket order for the example:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406927312">
+<p class="block-en">Sell 1 TUV Sep 30 put at 8</p>
+<p class="block-zh">**卖出 1 张 TUV 9 月 30 看跌期权，权利金为 8**</p>
+</section>
+<section class="block heading" id="block-4406927184">
+<h4>Determine the maximum gain.</h4>
+</section>
+<section class="block paragraph" id="block-4406926416">
+<p class="block-en">The seller makes money only if the holder of the option fails to exercise it. This investor sold the option for $800 (8 × 100 shares per option); you put that number in the Money In side of the options chart. The maximum gain (the most this investor can make) is $800.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406927440">
+<h4>Find the maximum loss.</h4>
+</section>
+<section class="block paragraph" id="block-4406927824">
+<p class="block-en">To calculate the maximum loss, you have to exercise the option at the strike price. The strike price is 30, so you place $3,000 (30 strike price × 100 shares per option) on the opposite side of the options chart. (Remember puts switch: The premium and strike price go on opposite sides of the options chart.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406927696">
+<p class="block-en">You´ve already determined the maximum gain; now look at the Money Out portion of the options chart and compare it to the Money In. The maximum potential loss for this investor is the $2,200 difference between the Money Out and the Money In.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406927568">
+<p class="block-en">You calculate the break-even point for buying or selling puts the same way: You use put down (the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406927952">
+<p class="block-en">strike price minus the premium) to figure out the break-even point:</p>
+<p class="block-zh">**$47 股价 – $4 权利金 = $43 盈亏平衡点**</p>
+</section>
+<section class="block heading" id="block-4406928208">
+<h3>strike price  premium	30  8	22</h3>
+</section>
+<section class="block paragraph" id="block-4406928336">
+<p class="block-en">For this investor, the break-even point is 22. Because this investor received $8 for the option, the option has to go $8 in-the-money for this investor to lose the amount they received for selling the option. Put options go in-the-money when the price of the stock goes below the strike price (put down).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406928464">
+<h1>Trading options: Opening and closing transactions</h1>
+</section>
+<section class="block paragraph" id="block-4406928592">
+<p class="block-en">Although some investors hold onto their options long enough to actually exercise them, more often, investors trade options the way that they trade other investments. On the SIE exam, not only do you need to know the difference between opening and closing transactions, but you also have to be able to calculate the profit or loss for an investor trading options. This process is actu- ally pretty easy when you break it down.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406928848">
+<h2>Putting things back where you found them:</h2>
+</section>
+<section class="block paragraph" id="block-4406928976">
+<p class="block-en">Doing opposite transactions</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406928720">
+<p class="block-en">When distinguishing between opening and closing transactions, your key is to know whether this transaction is the first time or the second time the investor is buying or selling an option: The first time is an opening, and the second time is a closing. Regardless of whether it is an opening or closing transaction, it must be placed on the order ticket.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406929104">
+<p class="block-en">Here are your opening transactions:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406929360">
+<div class="block-en">• Opening purchase: An opening purchase occurs when an investor first buys a call or a put.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406929488">
+<div class="block-en">• Opening sale: An opening sale is when an investor first sells a call or a put.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406929616">
+<p class="block-en">If an investor already has an option position, the investor has to close that position by doing the opposite — through a closing transaction. If the investor originally purchased the option, they have to sell to close it. By contrast, if they originally sold the option, they have to purchase to close. Here are the two types of closing transactions:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406929872">
+<div class="block-en">• Closing purchase: A closing purchase occurs when an investor buys themselves out of a previous option position that they sold. For example, if an investor sold an XYZ Oct 40 call</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406930000">
+<p class="block-en">(opening sale), they would have to buy an XYZ Oct 40 call to close out the position. The second transaction is a closing purchase.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406930128">
+<div class="block-en">• Closing sale: A closing sale occurs when an investor sells themselves out of a previous option position that they purchased. For example, if an investor bought an ABC Sep 60 put (opening</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406930256">
+<p class="block-en">purchase), they would have to sell an ABC Sep 60 put to close out the position. The second transaction is a closing sale.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406929744">
+<p class="block-en">When determining opening or closing transactions, whether the transactions are both calls or both puts doesn’t matter.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406930512">
+<p class="block-en">The following question tests your knowledge of opening and closing transactions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406930768">
+<p class="block-en">Mr. Kollen previously bought 1 XYZ Oct 65 call at 8 when the market price of XYZ was 64. XYZ is currently trading at 69, and Kollen decides that now would be a good time to sell the option that they previously purchased. The second option order ticket would be marked</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406930640">
+<div class="block-en">• opening sale</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406930896">
+<div class="block-en">• opening purchase</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406931024">
+<div class="block-en">• closing sale</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406931280">
+<div class="block-en">• closing purchase</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406931152">
+<p class="block-en">The right answer is (C). This is the second time that Mr. Kollen does something with the option that he owns; therefore, the move has to be a closing transaction, and you can immediately elim- inate (A) and (B). Mr. Kollen has to sell himself out of the position because he owns the option. The second order ticket would have to be marked closing sale.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406931408">
+<h2>Tricks of the options trade: Calculating gains and losses</h2>
+</section>
+<section class="block paragraph" id="block-4406931664">
+<p class="block-en">In addition to knowing how to mark the order ticket, you have to be able to figure out an inves- tor’s gain or loss when trading options. This task isn’t difficult after you master the options chart. The key thing to remember is that when an investor closes, they do the opposite of what they did before.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406931536">
+<p class="block-en">The following question tests your mastery of options trades.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406931920">
+<p class="block-en">Mrs. Wegner purchased 100 shares of DPY stock at $50 per share. Two weeks later, Mrs. Wegner sold 1 DPY Oct 55 call at 6. Mrs. Wegner held that position for three months before selling the DPY stock at $52 per share and closing the DPY Oct 55 call at 4. What is Mrs. Wegner’s gain or loss on the transactions?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406931792">
+<div class="block-en">• $400 gain</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406932048">
+<div class="block-en">• $400 loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406932176">
+<div class="block-en">• $600 gain</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406932304">
+<div class="block-en">• No gain or loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406932432">
+<p class="block-en">The correct answer is (A). This question introduces stock trades as well as options transactions, but that’s no problem. The options chart works for questions involving actual stocks and options or just options.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406932560">
+<p class="block-en">When you approach the transactions one at a time, the problem-solving process is actually pretty</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406932688">
+<p class="block-en">straightforward. Mrs. Wegner purchased 100 shares of DPY stock at $50 per share for a total of</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406932816">
+<p class="block-en">$5,000; therefore, you enter $5,000 in the Money Out side of the options chart. Next, she sold the DPY 55 call for a premium of 6, so you need to enter $600 (6 × 100 shares per option) on the Money In side of the chart because they received money for selling that option.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406933072">
+<p class="block-en">Three months later, Mrs. Wegner sold the stock for $5,200 ($52 per share × 100 shares) and received money for selling the stock. Place the $5,200 in the Money In side of the options chart. When closing the option, the customer has to do the opposite of what they did before. Originally, Mrs. Wegner sold the option, so to close, she has to buy the option (make a closing purchase). She purchased the option for $400 (4 × 100 shares per option), so enter $400 in the Money Out side of the options chart. All that’s left for you to do is total up the two sides. Mrs. Wegner has</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406932944">
+<p class="block-en">$5,800 in and $5,400 out for a gain of $400.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406933328">
+<h1>Got it covered: Stock/option contracts</h1>
+</section>
+<section class="block paragraph" id="block-4406933200">
+<p class="block-en">When an investor purchases or sells option contracts on securities they actually own, that inves- tor is choosing an excellent way to protect (hedge) against loss or to bring additional funds into their account, which would only be a partial hedge. The most common form is when an investor sells covered call options.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406933456">
+<p class="block-en">If an investor is selling a call option against a security that they own, the investor is considered to be covered. They’re covered because if the option is exercised, they have the stock to deliver.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406933584">
+<p class="block-en">Take the following position as an example:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406933840">
+<p class="block-en">Buy 100 shares of QRS at $47 per share Sell 1 QRS Dec 55 call at 4</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406933712">
+<h4>Find this investor’s maximum potential loss.</h4>
+</section>
+<section class="block paragraph" id="block-4406934096">
+<p class="block-en">Place the purchases and sales in the options chart. This investor purchased 100 shares of QRS stock at $47 per share for a total of $4,700. That´s money spent, so enter $4,700 in the Money Out side of the options chart. Next, this investor sold 1 QRS Dec 55 call for a total premium of</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934224">
+<p class="block-en">$400 (4 × 100 shares per option) and received money for selling that option, so you enter</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934352">
+<p class="block-en">$400 in the Money In section of the options chart.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934480">
+<p class="block-en">This investor has more Money Out than Money In, so the investor´s maximum potential loss is</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934736">
+<p class="block-en">$4,300 ($4,700 minus $400).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406933968">
+<h4>Determine the investor’s maximum potential gain.</h4>
+</section>
+<section class="block paragraph" id="block-4406934608">
+<p class="block-en">Placing the two transactions (in this case the stock purchase and the option sale) in the options chart helps you calculate the maximum gain as well as the maximum loss. To find the maxi- mum gain, you need to exercise the option. You always exercise at the strike price, which in this case is 55. Take the $5,500 (55 × 100 shares per option) and place it under its premium. (Remember calls same: The exercised strike price and the premium go on the same side of the chart.) Total the two sides and you find that the Money In is $1,200 more than the Money Out, so that´s the investor´s maximum potential gain.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406934864">
+<p class="block-en">When the investor is covered, finding the break-even point is nice and easy for stock and options. Although you can use the options chart, you really don’t need to in this example case. First, look at how much the investor paid for the stock; then look at how much more they paid or received for the option. Find the difference, and you have your break-even point:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406935248">
+<h3>$47 stock price $4 option premium  $43 break-even point</h3>
+<div class="block-zh">**$47 股价 – $4 权利金 = $43 盈亏平衡点**</div>
+</section>
+<section class="block paragraph" id="block-4406934992">
+<p class="block-en">Because this investor paid $47 per share for the stock and received back $4 per share for selling the option, this investor would need to receive another $43 per share to break even.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406935376">
+<p class="block-en">Here’s how to find the break-even point for stock and options:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406919376">
+<div class="block-en">• If the investor purchased twice (bought the stock and bought a protective put option), add the stock price and the premium.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406919504">
+<div class="block-en">• If the investor sold twice (sold short the stock and sold an option), add the stock price and the premium.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406919632">
+<div class="block-en">• If the investor had one buy and one sell (for example, bought the stock and sold the option or sold short the stock and bought the option), subtract the premium from the stock price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406919248">
+<h1>Index options</h1>
+<div class="block-zh">指数期权</div>
+</section>
+<section class="block paragraph" id="block-4406919760">
+<p class="block-en">Besides buying or selling options on an individual stock, you can also buy or sell index options. Index options allow investors to speculate on (or hedge against) the price movement of market or</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406919888">
+<p class="block-en">segments of the market. Like indexes themselves, index options can be broad-based or narrow- based. The main broad-based index options are the S&P 500 Index Options (SPX), the S&P 500 Volatility Market Index (VIX), and the S&P 100 Index Options (OEX). Narrow-based index options include options on the energy sector (IXE), financial sector (IXM), health care sector (IXV), tech- nology sector (IXU), and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406920016">
+<p class="block-en">Note: The Chicago Board Options Exchange (CBOE) VIX is a measure of how volatile investors believe that the S&P 500 index will be over the next 30 days. Typically, the higher the expectation of volatility, the higher the VIX premiums.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406920144">
+<h2>Premiums of index options</h2>
+<div class="block-zh">指数期权的权利金</div>
+</section>
+<section class="block paragraph" id="block-4406920272">
+<p class="block-en">Like standard stock options, the pricing unit for index options is 100. This means that, like stan- dard stock options, you multiply the premium by 100 to get the actual cost.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406920400">
+<h2>Exercises in cash</h2>
+<div class="block-zh">现金结算</div>
+</section>
+<section class="block paragraph" id="block-4406920528">
+<p class="block-en">Unlike regular stock options in which, when the option is exercised, the underlying security must be delivered, index options are settled in cash. This makes sense because it would be very difficult for investors to buy and deliver all the securities covered by an index. If the holder of an index call option exercises their option, they will receive the in-the-money amount multiplied by 100 based on the closing price at the end of the trading day, not the current value at the time of exercise.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406920656">
+<h2>Trading hours, settlement, and expiration dates</h2>
+<div class="block-zh">交易时间、结算与到期日</div>
+</section>
+<section class="block paragraph" id="block-4406920784">
+<p class="block-en">Narrow-based index options trade until 4:00 p.m. Eastern Time, and broad-based index options trade until 4:15 p.m. Eastern Time. Like equity options, the settlement date for index options is the next business day.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406920912">
+<p class="block-en">Index options are either broad-based or narrow-based. So, people may buy or sell index options based on how they believe the market will perform overall (broad-based) or just how a segment of the market will perform (narrow-based). In this case, the same strategy of buying calls and selling puts if you’re bullish and buying puts and selling calls if you’re bearish still applies. How- ever, investors can also use index options to hedge (protect) a portfolio against a market decline. If an investor has a diverse portfolio of securities, they may decide to purchase an OEX or SPX put to protect themselves in the event that the market declines. Also, an investor who has a large portfolio of health care sector stocks may purchase IXV put options to protect themselves in the event that health care stocks are falling out of favor. There are even index options that only last a week (weeklys) that allow investors a way to trade index options based on economic news or earnings reports that may have a sudden impact on the market or a segment of the market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921040">
+<p class="block-en">You’ll find that buyers and sellers of index options can incorporate most of the same strategies as equity option buyers and sellers. These strategies include covered writing, hedging, protective puts, straddles and combinations, and uncovered call or put writing.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921168">
+<p class="block-en">To help you get a deeper understanding of options, you need to know a few additional things that you will most certainly see on the real-deal SIE exam. Some of these items include who issues the options, what an ROP is, what a risk disclosure document is, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406921296">
+<h1>Clearing through the OCC</h1>
+<div class="block-zh">通过 OCC 进行结算</div>
+</section>
+<section class="block paragraph" id="block-4406921424">
+<p class="block-en">The Options Clearing Corporation (OCC) is the issuer and guarantor of all listed options. The OCC decides which options will trade as well as their strike prices. In addition, when an investor decides to exercise their option, it’s the OCC that randomly decides which firm on the other end will be responsible for fulfilling the terms of the option.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406921552">
+<p class="block-en">The OCC does not determine the premium for options; the premium is determined by investors based on supply and demand, the option’s intrinsic value (how much it’s in-the-money — or away from the money based on the exercise price and the price of the underlying security), and the amount of time until the option expires.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406921680">
+<h1>That’s ODD: Options risk disclosure document</h1>
+<div class="block-zh">奇怪的 ODD：期权风险披露文件</div>
+</section>
+<section class="block paragraph" id="block-4406921808">
+<p class="block-en">Because options have a risk that is greater than almost any other investment, all investors must receive an options risk disclosure document (Options Disclosure Document or ODD) and a copy of amendments (if any) prior to their first options transaction (at the time of or before the account is approved). This ODD explains to investors option terminology and strategies as well as the potential rewards and risks involved in investing in options, such as the chance of losing all money invested or, if selling call options, facing an unlimited maximum loss potential. In addi- tion to the risks, the ODD must also explain tax rules related to options, transaction costs, margin requirements, a special statement for uncovered option writers, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406921936">
+<h1>Getting the go-ahead: Registered options principal</h1>
+<div class="block-zh">获得许可：注册期权主管 (ROP)</div>
+</section>
+<section class="block paragraph" id="block-4406922064">
+<p class="block-en">Because of the extra risk of investing in options, all new accounts and option order tickets must be approved and signed by a registered options principal (ROP) — a manager with a Series 4 license, in other words. The registered options principal determines the amount of risk that each investor can take. Certainly, sophisticated investors with a lot of money are able to handle more risk than new option investors with a limited supply of funds.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406922192">
+<h1>Options account agreement</h1>
+<div class="block-zh">期权账户协议 (OAA)</div>
+</section>
+<section class="block paragraph" id="block-4406922320">
+<p class="block-en">Within 15 days after approval of the account by an ROP, the customer must sign and return an options account agreement (OAA, sometimes just called an options agreement). Basically, the OAA just states that the customer has read the ODD, understands the risk associated with trading options, and will abide by the rules and regulations regarding options trading. Should anything change (such as the customers, investment objectives, financial situation, and so on), the cus- tomer agrees to notify the firm. If the OAA is not received within 15 days after approval of the account, the customer cannot open any new options positions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406922448">
+<h1>Order ticket</h1>
+<div class="block-zh">委托单</div>
+</section>
+<section class="block paragraph" id="block-4406922576">
+<p class="block-en">You can find out more about what is required on an order ticket in Chapter 16. However, a few things are required on an order ticket that are unique to options. Besides the option that is being bought or sold, you have to write down whether the customer is establishing a long position (if they’re buying) or a short position (if they’re selling). In addition, for option sellers, you need to put down whether the seller is covered or uncovered (naked). The seller of a call option is consid- ered covered if they own the underlying security or own an option on the same security with the same or longer expiration that will be in-the-money first. And, of course, an uncovered (naked)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406922704">
+<p class="block-en">position is when the seller owns neither the underlying stock nor an option on the same security that will be in-the-money first with an equal or longer expiration date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406922832">
+<h1>Last trade, last exercise, and expiration of an option</h1>
+<div class="block-zh">期权的最后交易、最后行使与到期</div>
+</section>
+<section class="block paragraph" id="block-4406922960">
+<p class="block-en">Unlike stock certificates, options do expire after a certain period of time. In addition, investors are limited as to when they can trade and exercise an option. Here’s the timeline to keep in mind:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406923088">
+<div class="block-en">• Last trade: The last time an investor can trade an option is 4:00 p.m. Eastern Time on the business day of expiration.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406923216">
+<div class="block-en">• Last exercise: The last time an investor can exercise an option is 5:30 p.m. Eastern Time on the business day of expiration. If an option is in-the-money by at least 1 point at expiration, it</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406923472">
+<p class="block-en">will be automatically exercised. A vast majority of options (all equity [single-stock] and exchange-traded fund options) can be exercised any time up 'til expiration — this is known as American style. However, there are also European-style options that can be exercised only on the expiration date. European-style options include capped index options and some foreign currency options. Even though a European-style option can be exercised only at expiration, it can still be traded at any time.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406923600">
+<div class="block-en">• Option expiration: Options expire at 11:59 p.m. Eastern Time on the third Friday of the expiration month.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406923344">
+<h1>Exercise and assignment</h1>
+<div class="block-zh">行使与指派</div>
+</section>
+<section class="block paragraph" id="block-4406923728">
+<p class="block-en">When taking the SIE exam, you are expected to have a basic understanding of how options are exercised and assigned. Options are cleared through the OCC. Here’s how an option is exercised:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406923984">
+<p class="block-en">When a client wants to exercise an option they own, they contact their broker-dealer. The broker- dealer contacts the OCC. The trade settles in two business days after the OCC is notified because when the investor is exercising an option, they are actually trading stock (the right to buy or sell stock). Stock trades settle in two business days, so exercises of options settle in two business days. However, trades of options settle in one business day.</p>
+<p class="block-zh">当客户想要行使他们拥有的期权时，他们会联系其经纪自营商。经纪自营商联系 OCC。在通知 OCC 后的**一个营业日（T+1（交易日后一个营业日结算（2024年5月起执行的标准）））**内完成交易结算，因为当投资者行使期权时，他们实际上是在**交易股票**。（注：自 2024 年 5 月起，股票期权行权及股票交易的结算周期已缩短至 T+1）。</p>
+</section>
+<section class="block paragraph" id="block-4406923856">
+<p class="block-en">The steps involved look like this:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924112">
+<div class="block-en">• Client #1 tells their broker–dealer (Broker A) to exercise the option.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406924240">
+<div class="block-en">• Broker A notifies the Options Clearing Corporation.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406924368">
+<div class="block-en">• The Options Clearing Corporation chooses the contra broker (the broker–dealer on the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406924624">
+<p class="block-en">other side of the transaction — Broker B) randomly.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406924496">
+<div class="block-en">• Broker B assigns (chooses the client — Client #2) either randomly, first-in-first-out (FIFO),</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406952144">
+<p class="block-en">or by any other method that is fair and reasonable.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406952272">
+<p class="block-en">However, Broker B cannot choose the assignment based on size (the one with the most options, the one with the least options, and so on).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406952016">
+<h4>Client #2 sends the proceeds (stock or cash) to Broker B.</h4>
+</section>
+<div class="block list-item" id="block-4406952400">
+<div class="block-en">• Broker B sends the proceeds directly to Broker A (the OCC doesn’t handle stock or cash).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406952656">
+<p class="block-en">So, if you were to look at a flow chart, it would look something like this:</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406952784">
+<p class="block-en">Although most exercises of options are settled by the delivery of the underlying security, there are some that are settled by the delivery of cash. Specifically, indexoptions (options on an index of securities) and foreign currency options are always settled in cash. This just makes sense because investors can’t be expected to deliver an entire index for index options nor be expected to deliver the underlying foreign currency for foreign currency options.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406952912">
+<h1>Additional definitions</h1>
+<div class="block-zh">额外定义</div>
+</section>
+<section class="block paragraph" id="block-4406953040">
+<p class="block-en">For some reason, the SIE exam writers decided you need to know some additional option-specific definitions. I cover several of them earlier in this chapter, but there are several more that you need to be aware of. I will try to make this as painless as possible.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406953296">
+<div class="block-en">• Aggregate exercise price: The exercise (strike) price of an option multiplied by the number of units (usually shares) of the underlying security covered by the option contract (usually</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406953424">
+<p class="block-en">100 shares).</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406953552">
+<div class="block-en">• Class of options: All option contracts of the same type (puts or calls) covering the same underlying security or index.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406953680">
+<div class="block-en">• Clearing member: A FINRA member that has been admitted to membership in the OCC (Options Clearing Corporation).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406953808">
+<div class="block-en">• Closing sale transaction: An option transaction in which the seller wants to reduce or</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406954064">
+<p class="block-en">eliminate a long position. So, for argument´s sake, say an investor is long (owns) 1 ABC Oct 40 call. To close that position, the investor would short (write or sell) the 1 ABC Oct 40 call.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406954192">
+<div class="block-en">• Conventional index option: An option that overlies a basket (nine or more equity securities)</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406954320">
+<p class="block-en">or index of securities providing that no one security comprises more than 30 percent of the basket or index.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406954448">
+<div class="block-en">• Conventional option: Any option contract not issued or subject to issuance by the OCC or an OCC-cleared OTC option.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406954576">
+<div class="block-en">• Delta neutral: An equity options position that has been fully hedged. For example, owning 100 shares of ABC stock and owning an at-the-money put on ABC stock. Basically, offsetting</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406954704">
+<p class="block-en">long and short positions.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406954832">
+<div class="block-en">• Net delta: The number of shares that must be maintained (either long or short) to offset the risk the investor is facing by having an equity option position.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406954960">
+<div class="block-en">• Opening writing (opening sale) transaction: The initial sale of an option in which the seller receives the premium paid.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406955088">
+<div class="block-en">• Outstanding: An option contract that has been neither closed (closing sale) nor exercised and has not reached the expiration date.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406955216">
+<div class="block-en">• Series of options: All option contracts that are of the same class, same expiration date,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406955344">
+<p class="block-en">and same exercise price and that cover the same number of units of the underlying security or index.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406955472">
+<div class="block-en">• Type of option: Either a call or a put.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4406953936">
+<h1>Some additional option rules</h1>
+<div class="block-zh">一些额外的期权规则</div>
+</section>
+<section class="block paragraph" id="block-4406955600">
+<p class="block-en">Yes, I know . . . even more? Don’t blame me; I didn’t design the test. Anyway, as with the preced- ing section, I think a quick perusal of the following items will give you enough of a general under- standing of some of the additional rules that you should be able to pick them out of any multiple-choice questions posed on the exam.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406955856">
+<div class="block-en">• Position limits: A number placed on the amount of option contracts that a person can hold or write on the same side of the market (bullish or bearish) on the same security. This will be</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406955984">
+<p class="block-en">covered more in depth if you are taking the Series 7.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406956112">
+<div class="block-en">• Exercise limits: A number placed on the amount of option contracts that a person can</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406956368">
+<p class="block-en">exercise on the same side of the market (bullish or bearish) within five consecutive business days. This will be covered in more detail if you are taking the Series 7 exam.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406956496">
+<div class="block-en">• Limit on uncovered short positions: FINRA may decide to limit the amount of uncovered</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406956752">
+<p class="block-en">short positions on option contracts of a given class if deemed necessary for the protection of investors.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406956624">
+<div class="block-en">• Restrictions on option transactions and exercises: As with the limit on uncovered short</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406957136">
+<p class="block-en">positions, FINRA may also place restrictions on option transactions or the exercise of option contracts in one or more series of options of any class when deemed necessary to help maintain a fair and orderly market.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406957264">
+<div class="block-en">• Open order on the “ex-date” (ex-dividend date): Since the underlying stock price will be</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406957392">
+<p class="block-en">lowered due to a dividend, the OCC will adjust option contracts accordingly unless otherwise instructed by the customer.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406957520">
+<div class="block-en">• Confirmations: Members are responsible for providing a written confirmation of each option</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406957648">
+<p class="block-en">transaction for each customer´s account. The confirmation must include the type of option (call or put); the underlying security or index; the expiration month; the exercise (strike) price; the number of option contracts; the premium, trade, and settlement dates; whether it was a purchase or sale (long or short); opening or closing transaction; whether it was done on a principal or agency basis; the amount of commission; and so on. (There´s more on confirma- tions in Chapter 16 — yippee!)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406957776">
+<div class="block-en">• Statements of account (account statements): All clients must receive account statements at least monthly if there has been any trading in the account for the previous month and at least</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406957904">
+<p class="block-en">quarterly (once every three months) when there has been no trading in the previous month. The account statements must show the security and money positions, entries, interest charges, and any other charges assessed against the account. (Account statements are covered in more detail in Chapter 16.)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406958032">
+<div class="block-en">• Opening of accounts: In order to open an options account for a client, the client must receive an ODD, and you must exercise due diligence by getting the customer´s investment objectives,</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406958160">
+<p class="block-en">employment status, estimated annual income, estimated net worth, estimated liquid net worth, marital status, number of dependents, age, investment experience and knowledge, and</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406958288">
+<p class="block-en">so on. In addition, the account and all transactions must be approved by a registered options principal (ROP), branch office manager, or limited principal-general securities sales supervisor. All options accounts must be approved or disapproved within ten business days. Please note that all options accounts may not be approved for all transactions — depending on the client, they may be approved for buying covered writing, uncovered writing, spreading, discretionary transactions, and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406958416">
+<div class="block-en">• Options account agreement (OAA): Within 15 days of the approval of the account, a member must obtain from the customer a written account agreement, which states that the customer</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406958544">
+<p class="block-en">understands that they are aware of and agrees to be bound by FINRA rules regarding options trading.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406958672">
+<div class="block-en">• Uncovered short option contracts: Since uncovered short option contracts are the riskiest of all option contracts, member firms must create standard rules for evaluating the suitability of</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406958800">
+<p class="block-en">customers who plan on writing uncovered options.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406958928">
+<div class="block-en">• Maintenance of records: Each member must keep a current log, index, or other file for options-related complaints. Each complaint should be easily identified and easy to retrieve if</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406959056">
+<p class="block-en">necessary. Each complaint file (hopefully there aren´t many) must contain the identification of the complaint, the date the complaint was received, the name of the registered rep handling the account, a description of the complaint (such as a commission that they believe is too high), action taken (if any), and so on.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406959184">
+<div class="block-en">• Discretionary account: As with any discretionary account in which the client gives you the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406959312">
+<p class="block-en">right to trade their account without pre-approval, it must be approved by a principal (man- ager). Options discretionary accounts must be approved in writing by a registered options principal (ROP) or limited principal-general securities sales supervisor, and written approval must be received from the client. In addition, discretionary accounts must be reviewed frequently by an ROP.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406959440">
+<div class="block-en">• Suitability: You may not recommend any option transaction(s) to a customer unless you</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406959696">
+<p class="block-en">believe that the transaction is suitable for the customer. Remember that you should already know the customer´s investment objectives, financial information, and so on. In other words, you should not be recommending a risky option transaction for someone you deem incapable of handling the risk.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406959824">
+<div class="block-en">• Supervision of accounts: Members conducting an options business must have a written</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406960080">
+<p class="block-en">supervisory system in place to adequately address the public customer´s option business. In addition, each branch office must have either a registered options principal or a limited principal-general securities sales supervisor in order to conduct options business.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406960208">
+<div class="block-en">• Fingerprinting: Individuals (directors, officers, employees, temporary personnel, consultants, vendors, independent contractors, service providers, and so on) who would have access to the</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406960464">
+<p class="block-en">CBOE facilities must be fingerprinted for identification and processing.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406960336">
+<p class="block-en">As I said at the beginning of the chapter, this is really just an introduction to options, so the more-complex strategies are covered in subsequent exams. Take your time and read carefully. I give you a good mix of questions in this chapter quiz without too much math needed to answer the questions. Good luck.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block heading" id="block-4406960592">
+<h1>Practice questions</h1>
+<div class="block-zh">练习题</div>
+</section>
+<div class="block list-item" id="block-4406960720">
+<div class="block-en">• Which of the following are bearish options strategies?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406960848">
+<div class="block-en">• Buying calls</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406960976">
+<div class="block-en">• Buying puts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961104">
+<div class="block-en">• Selling calls</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961232">
+<div class="block-en">• Selling puts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961360">
+<div class="block-en">• I and II</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961488">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961616">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961744">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962128">
+<div class="block-en">• A customer owns call options on ABC common stock. ABC announces a cash dividend. What happens on the ex-dividend date?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406961872">
+<div class="block-en">• The strike price is reduced to reflect the dividend.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962000">
+<div class="block-en">• The strike price remains the same.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962256">
+<div class="block-en">• The strike price is increased to reflect the dividend.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962384">
+<div class="block-en">• The strike price remains the same unless the customer instructs the OCC to change the strike price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962512">
+<div class="block-en">• What are possible outcomes for the writer of a covered call option?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962640">
+<div class="block-en">• Unlimited profit and unlimited loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962768">
+<div class="block-en">• Unlimited profit and limited loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406962896">
+<div class="block-en">• Limited profit and unlimited loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963024">
+<div class="block-en">• Limited profit and limited loss</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963152">
+<div class="block-en">• Declan is opening a new options account at a broker–dealer. Declan must return the signed</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406963280">
+<p class="block-en">options account agreement</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406963408">
+<div class="block-en">• before the account is approved</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963536">
+<div class="block-en">• within 15 days after approval of the account</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963664">
+<div class="block-en">• any time before the first transaction</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963792">
+<div class="block-en">• sometime before receiving the risk disclosure document</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406963920">
+<div class="block-en">• An investor is long 1 GHI Oct 30 call. If GHI has a current market value of 33, which of the following is TRUE?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406964048">
+<div class="block-en">• The option is out-of-the-money.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406964176">
+<div class="block-en">• The option is at-the-money.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406964304">
+<div class="block-en">• The option is in-the-money.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406964432">
+<div class="block-en">• The call has a negative intrinsic value.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406964560">
+<div class="block-en">• An investor reads in the newspaper that JKL Dec 60 puts are trading for 6 when JKL is at 64. What is the time value of these options?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406964816">
+<p class="block-en">(A) 0</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406964944">
+<p class="block-en">(B) 2</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406965072">
+<p class="block-en">(C) 4</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4406965200">
+<p class="block-en">(D) 6</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406964688">
+<div class="block-en">• Which of the following is TRUE regarding option contracts?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965328">
+<div class="block-en">• The OCC sets the contract size.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965456">
+<div class="block-en">• The OCC sets the strike prices.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965584">
+<div class="block-en">• The OCC sets the premiums.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965712">
+<div class="block-en">• The OCC sets the expiration dates.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965840">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406965968">
+<div class="block-en">• I, II, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406966096">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406966224">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406966480">
+<div class="block-en">• Melissa previously wrote 10 MKR Aug 45 puts for 6 each when the market price of MKR was</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4406966608">
+<p class="block-en">46. MKR is currently trading at 41 and the options are one week away from expiration. Melissa would like to buy her way out of that position. If she does, how would the second option order ticket be marked?</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4406966736">
+<div class="block-en">• Opening sale</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406966864">
+<div class="block-en">• Opening purchase</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406966992">
+<div class="block-en">• Closing sale</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967120">
+<div class="block-en">• Closing purchase</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967248">
+<div class="block-en">• Who is the issuer and guarantor of all listed options?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967376">
+<div class="block-en">• OAA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967504">
+<div class="block-en">• OCC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967632">
+<div class="block-en">• ODD</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967760">
+<div class="block-en">• FINRA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406967888">
+<div class="block-en">• When is the last time an investor can exercise an option contract?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968016">
+<div class="block-en">• 4 p.m. EST on the third Friday of the expiration month</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4406968144">
+<div class="block-en">• 5:30 p.m. EST on the third Friday of the expiration month</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407238736">
+<div class="block-en">• 11:59 p.m. EST on the third Friday of the expiration month</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241168">
+<div class="block-en">• 11:59 p.m. CST on the third Friday of the expiration month</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230544">
+<div class="block-en">• What is the break-even point for an investor who writes a Sep 40 call for 3?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230928">
+<div class="block-en">• 37</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231056">
+<div class="block-en">• 40</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407230672">
+<div class="block-en">• 43</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231312">
+<div class="block-en">• 34</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231568">
+<div class="block-en">• What is the maximum potential loss for an investor who shorted 1 XYZ Oct 40 put for 6?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231440">
+<div class="block-en">• 3,400</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231696">
+<div class="block-en">• 4,000</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231824">
+<div class="block-en">• 4,600</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407231952">
+<div class="block-en">• Unlimited</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232080">
+<div class="block-en">• What is the break-even point for an investor who is long 1 ABC Jan 60 put, which was purchased for 4?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232464">
+<div class="block-en">• 56</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232208">
+<div class="block-en">• 60</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232336">
+<div class="block-en">• 64</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232592">
+<div class="block-en">• 66</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232848">
+<div class="block-en">• Which TWO of the following options are in-the-money if TUV is trading at 43?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407232976">
+<div class="block-en">• TUV 40 calls</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233104">
+<div class="block-en">• TUV 40 puts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233232">
+<div class="block-en">• TUV 50 calls</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233360">
+<div class="block-en">• TUV 50 puts</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233488">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233616">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233744">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407233872">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234000">
+<div class="block-en">• Before opening an options account, a customer must receive an</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234256">
+<div class="block-en">• OAA</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234128">
+<div class="block-en">• OCC</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234384">
+<div class="block-en">• ODD</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234512">
+<div class="block-en">• All of the above</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234640">
+<div class="block-en">• Which TWO of the following options are TRUE of an investor who writes a call option?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407234896">
+<div class="block-en">• The maximum potential gain is the premium.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235024">
+<div class="block-en">• The maximum potential loss is the premium.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235280">
+<div class="block-en">• The break-even point is the premium added to the strike price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235152">
+<div class="block-en">• The break-even point is the premium subtracted from the strike price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235408">
+<div class="block-en">• I and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235536">
+<div class="block-en">• I and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235664">
+<div class="block-en">• II and III</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235792">
+<div class="block-en">• II and IV</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407235920">
+<div class="block-en">• If an S&P 500 index call option is in-the-money at expiration, settlement is made by delivery of</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236048">
+<div class="block-en">• cash</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236176">
+<div class="block-en">• a percentage of all of the S&P 500 index stocks</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236304">
+<div class="block-en">• an exchange traded fund (ETF) that tracks the S&P 500</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236560">
+<div class="block-en">• longer-term S&P 500 index call options</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236432">
+<div class="block-en">• An investor buys 1 TUV Oct 45 put for a premium of $4 and simultaneously buys 100 shares of TUV stock for $45 per share. At expiration, the stock would have to be selling at what price per share for the investor to be able to break even?</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236688">
+<div class="block-en">• $4</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236816">
+<div class="block-en">• $41</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407237072">
+<div class="block-en">• $45</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407236944">
+<div class="block-en">• $49</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407237456">
+<p class="block-en">Answers and explanations</p>
+<p class="block-zh">需要翻译]</p>
+</section>
+<div class="block list-item" id="block-4407237200">
+<div class="block-en">• C. If you are bearish on a particular security, you want the price of it to decrease. If you are buying a call option without any other underlying positions, you want the price of the underlying security to increase. Therefore, if you purchase a put, you want the price of the underlying security to decrease. You have to remember that the buyer and seller want opposite things to happen. So, if the buyer of a call wants the price of the underlying security to increase, the seller wants it to decrease. Stating that, buyers of puts and sellers of calls with no other positions are bearish.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407237328">
+<div class="block-en">• A. For investors with options positions, the strike (exercise) price would be lowered as a</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407237712">
+<p class="block-en">result of a dividend on the underlying security on the ex-dividend date.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407237840">
+<div class="block-en">• D. When writing (selling) a covered call option, you are selling a call option on a security that you already own. The purpose of this is to provide income on the security that you own by receiving the premium for the call option sold. However, this comes at a cost. If the price of the security owned increases to the point where it will be profitable for the purchaser of the option to exercise that option, they will be buying the underlying security from you at the exercise price. This limits your upside potential. In addition, if the option is exercised, the loss is limited because you don’t have to purchase the security in the market; you already own the security, which would have to be delivered.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407237968">
+<div class="block-en">• B. The options account agreement (OAA or options agreement) must be signed and returned within 15 days after approval of the account. The customer would first receive an options risk disclosure document (ODD or options disclosure document), and then the account would be approved by an options principal. Once approved, the customer has 15 days to sign and return the options account agreement.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407238096">
+<div class="block-en">• C. Call options go in-the-money when the price of the underlying security trades above the strike (exercise) price. In this case, the underlying stock price is at 33 and the strike price of the option is 30, so it’s 3 points in-the-money. In case you were wondering, there is no such thing as negative intrinsic value, which is Choice (D).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407238224">
+<div class="block-en">• D. The premium of an option is made up of intrinsic value (how much the option is in-the- money) and time value (the longer the time until expiration, the higher the time value). To determine the time value, use the following equation:</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407238480">
+<p class="block-en">P (premium)	I (intrinsic value)  T (time value)</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407238608">
+<p class="block-en">6	0+ T</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407238864">
+<p class="block-en">T	6</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407238352">
+<p class="block-en">Since put options go in-the-money when the price of the underlying security goes below the strike price, this option has no intrinsic value because the price of the stock is above the strike price. This means that the premium is made up of time value only.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407238992">
+<div class="block-en">• B. The OCC (Options Clearing Corporation) sets the contract sizes, the strike prices, and the expiration dates for all options. However, the premium is based off of the intrinsic value (how much the option is in-the-money) and time value (the amount of time until the option expires).</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407239248">
+<div class="block-en">• D. When Melissa originally sold (wrote) the options, it was an initial or opening transac-</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407239120">
+<p class="block-en">tion. Since Melissa sold those options, it’s an opening sale. To get themself out of that</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407239504">
+<p class="block-en">position, Melissa would need to close the options. So, since they have to purchase the</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407239632">
+<p class="block-en">options, it is a closing purchase.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407239760">
+<div class="block-en">• B. The OCC (Options Clearing Corporation) is the issuer and guarantor of all listed options. The OCC decides which securities will have options, their strike prices, and their expiration dates. In addition, the OCC guarantees that option holders will be able to exercise their options.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407240016">
+<div class="block-en">• B. The last trade of an option is 4:00 p.m. EST on the third Friday of the expiration month. The last exercise is 5:30 p.m. EST on the third Friday of the expiration month. And, options expire 11:59 p.m. EST on the third Friday of the expiration month.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407239888">
+<div class="block-en">• C. When buying or selling a call option with no other positions, you need to add the pre- mium to the strike (exercise) price to get the break-even point. In this case, it doesn’t matter whether this investor was purchasing or selling the option because both break even at the same price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407240144">
+<h3>40  3	43</h3>
+</section>
+<div class="block list-item" id="block-4407240272">
+<div class="block-en">• A. The easiest way to determine the maximum potential loss for this question is to use an</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block paragraph" id="block-4407240528">
+<p class="block-en">options chart.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407240656">
+<p class="block-en">Since the investor shorted (sold) the option for $600 (6 × 100 shares per option), they received $600, so you have to put that on the “Money In” side of the chart. That tells you that their maximum potential gain is $600. To determine the maximum potential loss, you have to exercise the option. So, you exercise at the strike (exercise) price of 40. This means that you have to put $4,000 (40 strike price × 100 shares per option) on the opposite side of its premium because puts switch (the exercised premium goes on the opposite side of the chart from its premium). Now you see that there is $3,400 more Out than in ($4,000 –</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<section class="block paragraph" id="block-4407240400">
+<p class="block-en">$600), so that’s the maximum potential loss.</p>
+<p class="block-zh missing-trans">[Missing Translation]</p>
+</section>
+<div class="block list-item" id="block-4407240912">
+<div class="block-en">• A. When buying or selling a put option with no other positions, you need to subtract the premium from the strike (exercise) price to get the break-even point. In this case, it doesn’t matter whether this investor was purchasing or selling the option, because both break even at the same price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<section class="block heading" id="block-4407240784">
+<h3>60  4	56</h3>
+</section>
+<div class="block list-item" id="block-4407241040">
+<div class="block-en">• B. Call options go in-the-money when the price of the underlying stock goes above the strike price, and put options go in-the-money when the price of the underlying stock goes below the strike price. Therefore, answers “I” and “IV” are both in-the-money.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241296">
+<div class="block-en">• C. Before a customer opens an options account, they must receive an ODD (options risk disclosure document). This is the document that explains all of the risks of investing in options so that customers will understand what they’re getting into.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241424">
+<div class="block-en">• A. When writing (selling) an option with no other position, the maximum potential gain is the premium received. To determine the break-even point for a call option, call up, which means to add the premium to the strike price.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241552">
+<div class="block-en">• A. Index options are settled in cash by multiplying the in-the-money amount by 100 per option.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+<div class="block list-item" id="block-4407241680">
+<div class="block-en">• D. This investor purchased a protective put to limit their potential downside loss. You could set this up in an options chart but in this case, it’s probably not necessary. This investor purchased the stock for $45 per share, and since options are for 100 shares, they purchased the option for $4 per share. This means that they spent $49 ($45 + $4) per share to purchase both positions. This means that their breakeven point is $49.</div>
+<div class="block-zh missing-trans">[Missing Translation]</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
