@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; background-color: #f9f9f9; }
+        .sidebar { width: 280px; position: sticky; top: 20px; height: 95vh; overflow-y: auto; padding-right: 20px; border-right: 1px solid #ddd; font-size: 0.9em; }
+        .sidebar ul { list-style: none; padding-left: 0; }
+        .sidebar li { margin-bottom: 8px; }
+        .sidebar a { text-decoration: none; color: #0066cc; }
+        .sidebar a:hover { text-decoration: underline; }
+        
+        .content { flex: 1; padding-left: 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        .header-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn { display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-weight: 500; transition: background 0.2s; }
+        .btn:hover { background-color: #004d99; }
+        
+        .block { margin-bottom: 2em; }
+        .block-en { color: #222; font-size: 1.1em; }
+        .block-zh { color: #555; margin-top: 0.8em; padding-left: 1em; border-left: 3px solid #eee; }
+        
+        h1, h2, h3, h4 { color: #1a1a1a; margin-top: 1.5em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        h2 { font-size: 1.8em; }
+        
+        .missing-trans { background-color: #fff8e1; color: #b00; border-left-color: #ffc107; font-style: italic; }
+        
+        /* Accessibility */
+        :focus { outline: 3px solid #0066cc; outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <nav class="sidebar" aria-label="Table of Contents">
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="../index.html">← Back to Index</a></li>
+            <hr>
+<li style="padding-left: -15px"><a href="#block-4430731248">Chapter 7...</a></li>
+<li style="padding-left: -15px"><a href="#block-4422937616">Debt Securities: Corporate and U.S. Gove...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430538384">Covering bond terminology...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430395216">this chapter.)...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430792016">Melissa purchased 100 bonds at $1,000 pa...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430792400">100 bonds $1,000 par 7 1/ 2  $7,500.00...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430792528">Following bond issue and maturity schedu...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430793552">companies that are building developments...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430794064">issued by corporations and municipalitie...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430794576">Comparing secured and unsecured bonds...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430796880">Check out the following question for an ...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430798288">a 3.5 percent coupon rate. Investors wit...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430798800">Rates down		Prices up Rates up	Prices do...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430799056">Nominal yield (coupon rate)...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430799312">Current yield...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430799696">Current yield(CY)  annualinterest...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430799824">marketprice...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430800848">CY  annual interest...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430800976">market price...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430801104">$60...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430801232">$980...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430801360">6.1%...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430800720">The annual interest is $60 (6% coupon ra...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430801744">Yield to maturity (basis)...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802128">YTM  annual interest annual accretion or...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802256">(market price  par value) 2...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802384">annual accretion  par value  market pric...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802512">years until maturity...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802640">annual amortization  market price  par v...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430802768">years until maturity...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430803024">Yield to call...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430803280">Yield to worst...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430803536">Total return...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430804432">Basis point...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430804816">Accrued interest...</a></li>
+<li style="padding-left: 0px"><a href="#block-4430805456">Determining the Best Investment:...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430805712">Considering bond credit ratings...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430806352">TABLE 7-1	Bond Credit Ratings (by Qualit...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430890064">Contrasting callable and putable (put) b...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430891344">Issuers would more likely call their bon...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430892240">Popping the top on convertible bonds...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430892880">conversion ratio 	par value...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893008">conversion price...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893520">parity price of the bond	market price of...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893648">or...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893776">market price of the bond...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893904">parity price of the stock...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430894032">conversion ratio...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430893392">ABCD convertible bonds are convertible i...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430895056">On the SIE and companion exams, you need...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430895952">Understanding the types of U.S....</a></li>
+<li style="padding-left: -15px"><a href="#block-4430896208">government securities...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430896464">TABLE 7-2	U.S. Government Securities and...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430896720">Looking at agency securities...</a></li>
+<li style="padding-left: 0px"><a href="#block-4430898512">Playing It Safe: Short-Term Loans or...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430900176">Commercial paper is issued at a discount...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430900560">originate from a bank and are outsourced...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430901072">not to be confused with Eurodollar bonds...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430901584">a company whose payment is guaranteed by...</a></li>
+<li style="padding-left: 15px"><a href="#block-4430903120">Practice questions...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430956496">$1,000, a coupon rate of 5m percent, and...</a></li>
+<li style="padding-left: -15px"><a href="#block-4430956624">least likely call the bonds when interes...</a></li>
+<li style="padding-left: 0px"><a href="#block-4430965712">Answers and explanations...</a></li>
+</ul>
+    </nav>
+    <main class="content">
+        <div class="header-actions">
+            <h1>Chapter 7</h1>
+            <a href="Chapter_7.pdf" class="btn" download>Download PDF</a>
+        </div>
+<section class="block heading" id="block-4430731248">
+<h0>Chapter 7</h0>
+<div class="block-zh">公司除了可以通过出售股票放弃一部分公司所有权外，还可以通过出售债券向投资者借钱。地方政府（通过市政债券；见第 8 章）和美国政府也发行债券。就 SIE 考试而言，来自同一发行人的大多数债券被认为比股票更安全。</div>
+</section>
+<section class="block heading" id="block-4422937616">
+<h0>Debt Securities: Corporate and U.S. Government Loans</h0>
+<div class="block-zh">公司除了可以通过出售股票放弃一部分公司所有权外，还可以通过出售债券向投资者借钱。地方政府（通过市政债券；见第 8 章）和美国政府也发行债券。就 SIE 考试而言，来自同一发行人的大多数债券被认为比股票更安全。</div>
+</section>
+<section class="block paragraph" id="block-4422942096">
+<p class="block-en">nstead of giving up a portion of their company (via stock sales), corporations can borrow money from investors by selling bonds. Local governments (through municipal bonds; see Chapter 8) and the U.S. government also issue bonds. For SIE exam purposes, most bonds from the same issuer are considered to be safer than stocks.</p>
+<p class="block-zh">公司除了可以通过出售股票放弃一部分公司所有权外，还可以通过出售债券向投资者借钱。地方政府（通过市政债券；见第 8 章）和美国政府也发行债券。就 SIE 考试而言，来自同一发行人的大多数债券被认为比股票更安全。</p>
+</section>
+<section class="block paragraph" id="block-4430369008">
+<p class="block-en">Bondholders aren’t owners of a company, as stockholders are; they’re creditors. Bondholders who purchased bonds in the primary market are lenders of money to an institution for a fixed period and receive interest for doing so. This arrangement allows the institution to borrow money on its terms (with its chosen maturity date, scheduled interest payments, interest rate, and so on), which it can’t do when borrowing from a lending institution.</p>
+<p class="block-zh">与股东不同，债券持有人不是公司的所有者；他们是债权人。在一级市场购买债券的持有人是向机构提供固定期限贷款的贷款人，并以此获取利息。这种安排允许机构按照自己的条款（包括选定的到期日、定期的利息支付、利率等）借钱，而这在向贷款机构借款时是无法做到的。</p>
+</section>
+<section class="block paragraph" id="block-4430052912">
+<p class="block-en">The SIE exam tests you on your ability to understand the types of bonds issued, the terminology used, and (yes) some math. This chapter has you covered on topics relating to corporate and U.S. government debt securities. At the end of this chapter, I’ve added a quick chapter quiz to help you get a feel for questions you might see on the real SIE exam.</p>
+<p class="block-zh">SIE 考试会测试您对已发行债券类型、所用术语以及（没错）一些数学计算的理解能力。本章涵盖了与公司和美国政府债务证券相关的主题。在本章末尾，我添加了一个快速章节测验，帮助您感受在真实的 SIE 考试中可能遇到的问题。</p>
+</section>
+<section class="block paragraph" id="block-4430536480">
+<p class="block-en">Before you delve deeper into bonds, make sure that you have a good handle on the basics. Under- standing bond basics is a building block that can make all the rest of the bond stuff easier. In this section, I first review basic bond terminology and then move on to some bond characteristics.</p>
+<p class="block-zh">在深入研究债券之前，请确保您已经很好地掌握了基础知识。理解债券基础是基石，可以让所有其他的债券知识变得更容易。在本节中，我首先回顾基本的债券术语，然后讨论一些债券特征。</p>
+</section>
+<section class="block heading" id="block-4430538384">
+<h2>Covering bond terminology</h2>
+<div class="block-zh">涵盖债券术语</div>
+</section>
+<section class="block paragraph" id="block-4430360144">
+<p class="block-en">The SIE exam designers expect you to know general bond terminology. (And I give it to you here; that’s why I get paid the big bucks!) If you’ve already studied another textbook or taken a course, this section serves as a review. This stuff is basic, but the SIE exam does test it:</p>
+<p class="block-zh">SIE 考试的出题者希望您了解通用的债券术语。（我在这里为您提供这些术语；这就是我拿高薪的原因！）如果您已经学习过另一本教科书或参加过课程，本节将作为复习。这些内容很基础，但 SIE 考试确实会考：</p>
+</section>
+<div class="block list-item" id="block-4430361424">
+<div class="block-en">• Maturity date: All issued bonds have a stated maturity (20 years, 30 years, and so on). The</div>
+<div class="block-zh">*   **到期日 （Maturity date）：** 所有发行的债券都有一个规定的期限（20 年、30 年等）。到期日是债券持有人收回贷款的日期。到期时，债券持有人收到面值（见下一项）加上任何应付利息。由于希望长期占用资金的投资者并不多，因此短期债券通常比长期债券更具流动性（交易更活跃）。</div>
+</div>
+<section class="block paragraph" id="block-4430406160">
+<p class="block-en">maturity date is the date bondholders get paid back for the loans they made. At maturity, bondholders receive par value (see the next item) plus any interest due. Because not as many investors are looking to tie up their money for a long period, short-term bonds are typically more liquid (actively traded) than long-term bonds.</p>
+<p class="block-zh">*   **到期日 （Maturity date）：** 所有发行的债券都有一个规定的期限（20 年、30 年等）。到期日是债券持有人收回贷款的日期。到期时，债券持有人收到面值（见下一项）加上任何应付利息。由于希望长期占用资金的投资者并不多，因此短期债券通常比长期债券更具流动性（交易更活跃）。</p>
+</section>
+<div class="block list-item" id="block-4430407120">
+<div class="block-en">• Par value: Par value is the face value or denomination of the bond. Although par value isn’t</div>
+<div class="block-zh">*   **面值 （Par value）：** 面值是债券的票面价值或面额。虽然面值对普通股股东并不重要（发行人仅将其用于记账目的），但对债券持有人很重要。就 SIE 考试而言，除非题目中另有说明，否则您可以假设每张债券的面值为 1,000 美元。</div>
+</div>
+<section class="block paragraph" id="block-4429821136">
+<p class="block-en">significant to common stockholders (whose issuers use it solely for bookkeeping purposes), it´s important to bondholders. For SIE exam purposes, you can assume that the par value for each bond is $1,000 unless otherwise stated in the question.</p>
+<p class="block-zh">*   **面值 （Par value）：** 面值是债券的票面价值或面额。虽然面值对普通股股东并不重要（发行人仅将其用于记账目的），但对债券持有人很重要。就 SIE 考试而言，除非题目中另有说明，否则您可以假设每张债券的面值为 1,000 美元。</p>
+</section>
+<section class="block paragraph" id="block-4429820464">
+<p class="block-en">Bond prices are quoted as a percentage of par value, most often without the percent sign.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4422906336">
+<p class="block-en">A bond trading at 100 is trading at 100 percent of $1,000 par. Regardless of whether investors purchase a bond for $850 (85), $1,000 (100), or $1,050 (105), they’ll receive par value plus any interest due at the maturity date of the bond, usually with semiannual interest payments along the way. Corporate bonds are usually quoted in increments of 1/8 percent (1/8% = 0.00125 or $1.25), so a corporate bond quoted at 993/8 (99.375 percent) would be trading at $993.75.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4429849104">
+<p class="block-en">If you see something like "the last transaction in ABC 7.50s 2035 was at 101", this means that ABC bonds with a coupon rate of 7.50 and an expiration of 2035 last traded at $1,010 (101% of 1,000 par). This means that the bonds traded at a premium (over par value).</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<div class="block list-item" id="block-4430682032">
+<div class="block-en">• Coupon rate: Investors aren’t lending money to issuers for nothing, of course; they receive interest for providing loans to the issuer. The coupon rate on the bond tells the investors</div>
+<div class="block-zh">🧠 **请记住**</div>
+</div>
+<section class="block paragraph" id="block-4430680448">
+<p class="block-en">how much annual interest they´ll receive. Although bonds are no longer issued with physical coupons, some bonds previously required investors to detach dated coupons (bearer bonds and partially registered bonds) from their bonds and turn them in to receive their interest payments.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430580944">
+<p class="block-en">The coupon rate is expressed as a percentage of par value. A bond with a coupon rate of 6 percent, for example, would pay annual interest of $60 (6% × $1,000 par value). You can assume that bonds pay interest semiannually (twice a year) unless otherwise stated. So, in this example, an investor would receive $30 every six months for each bond owned.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430126480">
+<p class="block-en">Bondholders receive interest (payment for the use of the money loaned), and stockholders receive dividends. (See Chapter 6.)</p>
+<p class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</p>
+</section>
+<div class="block list-item" id="block-4430392528">
+<div class="block-en">• The bond indenture: The indenture (also known as deed of trust or resolution) is the legal</div>
+<div class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</div>
+</div>
+<section class="block paragraph" id="block-4430393296">
+<p class="block-en">agreement between the issuer and its bondholders and is printed on or attached to the bond certificate. All indentures contain basic terms:</p>
+<p class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</p>
+</section>
+<div class="block list-item" id="block-4430393040">
+<div class="block-en">• The maturity date</div>
+<div class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</div>
+</div>
+<div class="block list-item" id="block-4430392784">
+<div class="block-en">• The par value</div>
+<div class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</div>
+</div>
+<div class="block list-item" id="block-4430393552">
+<div class="block-en">• The coupon rate (interest rate) and interest payment dates</div>
+<div class="block-zh">*   **债券契约 （Bond indenture）：** 契约（也称为**信托契约**或**决议**）是发行人与债券持有人之间的法律协议，印在债券凭证上或附在凭证后。所有契约都包含基本条款：</div>
+</div>
+<div class="block list-item" id="block-4430394960">
+<div class="block-en">• Any collateral securing the bond (See "Comparing secured and unsecured bonds" later in</div>
+<div class="block-zh">在本章内容</div>
+</div>
+<section class="block heading" id="block-4430395216">
+<h0>this chapter.)</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<div class="block list-item" id="block-4430395344">
+<div class="block-en">• Any callable or convertible features (Check out "Contrasting callable and put bonds" and "Popping the top on convertible bonds" later in this chapter.)</div>
+<div class="block-zh">在本章内容</div>
+</div>
+<section class="block paragraph" id="block-4430395600">
+<p class="block-en">The bond indenture also includes the name of a trustee. A trustee is an organization that administers a bond issue for an institution; it ensures that the bond issuer meets all the terms and conditions associated with the borrowing. Essentially, the trustee tries to make sure that the issuer does the right thing.</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<section class="block paragraph" id="block-4430791120">
+<p class="block-en">The following question tests your knowledge of bond interest.</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<section class="block paragraph" id="block-4430791248">
+<p class="block-en">Melissa R. purchased 100 AA-rated bonds issued by COW Corp. Melissa purchased the bonds at 105 percent of par value, and they’re currently trading in the market at 104. If the coupon rate is 7½ percent, how much annual interest does Melissa receive?</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<div class="block list-item" id="block-4430791376">
+<div class="block-en">• $37.50</div>
+<div class="block-zh">正确答案是 （D）。在过滤掉不需要的信息后，这是一个非常简单的问题。您只需要债券数量和票面利率就能算出答案。不要被 AA 评级、购买价格或市场价格所分心；这些信息的存在是为了迷惑您。</div>
+</div>
+<div class="block list-item" id="block-4430791504">
+<div class="block-en">• $75.00</div>
+<div class="block-zh">正确答案是 （D）。在过滤掉不需要的信息后，这是一个非常简单的问题。您只需要债券数量和票面利率就能算出答案。不要被 AA 评级、购买价格或市场价格所分心；这些信息的存在是为了迷惑您。</div>
+</div>
+<div class="block list-item" id="block-4430791632">
+<div class="block-en">• $3,750.00</div>
+<div class="block-zh">正确答案是 （D）。在过滤掉不需要的信息后，这是一个非常简单的问题。您只需要债券数量和票面利率就能算出答案。不要被 AA 评级、购买价格或市场价格所分心；这些信息的存在是为了迷惑您。</div>
+</div>
+<div class="block list-item" id="block-4430791760">
+<div class="block-en">• $7,500.00</div>
+<div class="block-zh">正确答案是 （D）。在过滤掉不需要的信息后，这是一个非常简单的问题。您只需要债券数量和票面利率就能算出答案。不要被 AA 评级、购买价格或市场价格所分心；这些信息的存在是为了迷惑您。</div>
+</div>
+<section class="block paragraph" id="block-4430791888">
+<p class="block-en">The correct answer is (D). This question is a nice, easy one after you wade through the informa- tion you don’t need. You need only the number of bonds and the coupon rate to figure out the answer. Don’t let yourself get distracted by the AA rating, the purchase price, or the market price; that information is there to confuse you.</p>
+<p class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</p>
+</section>
+<section class="block heading" id="block-4430792016">
+<h0>Melissa purchased 100 bonds at $1,000 par (remember that you can assume $1,000 par) with a</h0>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</section>
+<section class="block paragraph" id="block-4430792144">
+<p class="block-en">coupon rate of 7½ percent, so do the math:</p>
+<p class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</p>
+</section>
+<section class="block heading" id="block-4430792400">
+<h0>100 bonds $1,000 par 7 1/ 2  $7,500.00</h0>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</section>
+<section class="block paragraph" id="block-4430792272">
+<p class="block-en">Option (C) would have been correct if the question had asked for the semiannual interest.</p>
+<p class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</p>
+</section>
+<section class="block heading" id="block-4430792528">
+<h2>Following bond issue and maturity schedules</h2>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</section>
+<section class="block paragraph" id="block-4430792656">
+<p class="block-en">Bond certificates can not only be in different forms, but also be scheduled with different types of maturities. Maturity schedules depend on the issuer’s needs. The following list presents an expla- nation of the types of bond issues and maturity schedules:</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<div class="block list-item" id="block-4430792784">
+<div class="block-en">• Term bonds: Term bonds are all issued at the same time and have the same maturity date.</div>
+<div class="block-zh">在本章内容</div>
+</div>
+<section class="block paragraph" id="block-4430793168">
+<p class="block-en">Short term corporate bonds have initial maturities of 3 years or less; medium term, 4-10 years; long term more than 10 years. If a company issues $20 million worth of term bonds, for example, they all mature in 30 years. Because of the large payment that’s due at maturity, most corporations that issue this type of bond have what is called a sinking fund. (More on that in the next paragraph.) Most corporations issue term bonds because they’re able to lock in a set coupon rate for a set period of time.</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<section class="block paragraph" id="block-4430793296">
+<p class="block-en">A corporation creates a sinking fund when it sets aside money over time in order to retire its debt. Investors like to see that a sinking fund is in place because it lowers the likelihood of default (the risk that the issuer can’t pay interest or par value back at maturity). The likelihood of default is determined by credit rating services such as Moody’s and Standard & Poor’s; for more on that topic, see "Considering bond credit ratings" later in this chapter.</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<div class="block list-item" id="block-4430793424">
+<div class="block-en">• Series bonds: These bonds are issued in successive years but have only one maturity date. Issuers of series bonds pay interest only on the bonds that they’ve issued so far. Construction</div>
+<div class="block-zh">在本章内容</div>
+</div>
+<section class="block heading" id="block-4430793552">
+<h0>companies that are building developments in several phases are most likely to issue this type</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block paragraph" id="block-4430793680">
+<p class="block-en">of bond. Fewer series bonds are issued than term and serial bonds.</p>
+<p class="block-zh">*   **分期偿还债券 （Serial bonds）：** 在此类债券发行中，流通债券的一部分按固定间隔到期。（例如每年有总发行量的 10% 到期。）分期偿还债券通常由公司和市政府发行，用于资助能产生定期收入流的项目。大多数市政（地方政府）债券是以分期偿还期限发行的。在最终到期日有更多债券到期的分期偿还债券被称为**气球式发行 （balloon issue）**。</p>
+</section>
+<div class="block list-item" id="block-4430793808">
+<div class="block-en">• Serial bonds: In this type of bond issue, a portion of the outstanding bonds matures at regular intervals. (Perhaps 10 percent of the entire issue matures yearly.) Serial bonds are usually</div>
+<div class="block-zh">*   **分期偿还债券 （Serial bonds）：** 在此类债券发行中，流通债券的一部分按固定间隔到期。（例如每年有总发行量的 10% 到期。）分期偿还债券通常由公司和市政府发行，用于资助能产生定期收入流的项目。大多数市政（地方政府）债券是以分期偿还期限发行的。在最终到期日有更多债券到期的分期偿还债券被称为**气球式发行 （balloon issue）**。</div>
+</div>
+<section class="block heading" id="block-4430794064">
+<h0>issued by corporations and municipalities to fund projects that provide regular income</h0>
+<div class="block-zh">*   **分期偿还债券 （Serial bonds）：** 在此类债券发行中，流通债券的一部分按固定间隔到期。（例如每年有总发行量的 10% 到期。）分期偿还债券通常由公司和市政府发行，用于资助能产生定期收入流的项目。大多数市政（地方政府）债券是以分期偿还期限发行的。在最终到期日有更多债券到期的分期偿还债券被称为**气球式发行 （balloon issue）**。</div>
+</section>
+<section class="block paragraph" id="block-4430794320">
+<p class="block-en">streams. Most municipal (local government) bonds are issued with serial maturities.</p>
+<p class="block-zh">*   **分期偿还债券 （Serial bonds）：** 在此类债券发行中，流通债券的一部分按固定间隔到期。（例如每年有总发行量的 10% 到期。）分期偿还债券通常由公司和市政府发行，用于资助能产生定期收入流的项目。大多数市政（地方政府）债券是以分期偿还期限发行的。在最终到期日有更多债券到期的分期偿还债券被称为**气球式发行 （balloon issue）**。</p>
+</section>
+<section class="block paragraph" id="block-4430794448">
+<p class="block-en">A serial bond that has more bonds maturing on the final maturity date is called a balloon issue.</p>
+<p class="block-zh">*   **分期偿还债券 （Serial bonds）：** 在此类债券发行中，流通债券的一部分按固定间隔到期。（例如每年有总发行量的 10% 到期。）分期偿还债券通常由公司和市政府发行，用于资助能产生定期收入流的项目。大多数市政（地方政府）债券是以分期偿还期限发行的。在最终到期日有更多债券到期的分期偿还债券被称为**气球式发行 （balloon issue）**。</p>
+</section>
+<section class="block paragraph" id="block-4430794192">
+<p class="block-en">The SIE exam focuses mainly on term and serial bonds. A typical SIE exam question may ask “Which of the following types of bonds is most likely to have a sinking fund?” The answer is term bonds; they’re the ones in which the entire bond issue has one maturity date and, therefore, require the issuer to pay a lot of money at one time.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block heading" id="block-4430794576">
+<h2>Comparing secured and unsecured bonds</h2>
+<div class="block-zh">比较有担保和无担保债券</div>
+</section>
+<section class="block paragraph" id="block-4430794704">
+<p class="block-en">The assets of the issuer may or may not back bonds. For test purposes, assume that bonds backed by collateral (assets that the issuer owns) are considered to be safer for the investor. Such secured bonds (bonds backed by collateral) involve a pledge from the issuer that a specific asset, such as property, would be sold to pay off the outstanding debt in the event of default. Unsecured bonds, as the name implies, involves no such pledge. Obviously, with all else being equal, secured bonds normally have a lower yield than unsecured bonds.</p>
+<p class="block-zh">发行人的资产可能会也可能不会为债券提供担保。出于考试目的，假设由**抵押品 （collateral）**（发行人拥有的资产）担保的债券对投资者来说更安全。此类**有担保债券 （secured bonds）** 涉及发行人的承诺，即在违约的情况下，将出售特定资产（如房产）以偿还未偿债务。正如其名，无担保债券不涉及此类承诺。显然，在其他条件相同的情况下，有担保债券的收益率通常低于无担保债券。</p>
+</section>
+<section class="block paragraph" id="block-4430794832">
+<p class="block-en">The SIE exam tests your knowledge of several types of secured bonds:</p>
+<p class="block-zh">SIE 考试会测试您对几种类型的有担保债券的知识：</p>
+</section>
+<div class="block list-item" id="block-4430795088">
+<div class="block-en">• Mortgage bonds: These bonds are backed by property that the issuer owns. In the event of default or bankruptcy, the issuer must liquidate the property to pay off the outstanding bonds.</div>
+<div class="block-zh">*   **抵押债券 （Mortgage bonds）：** 这些债券由发行人拥有的房产提供担保。在违约或破产的情况下，发行人必须变卖房产以偿还未偿债券。抵押债券可以是**开放式**或**封闭式**的。对于**开放式抵押债券**，发行人可以使用同一房产作为抵押借入更多资金。对于**封闭式抵押债券**，发行人不能再使用该房产作为抵押借入更多资金。</div>
+</div>
+<section class="block paragraph" id="block-4430795216">
+<p class="block-en">Mortgage bonds may be open- or closed-end. With an open-end mortgage bond, the issuer may borrow more money by using the same property as collateral. With a closed-end mortgage bond, the issuer can´t borrow more money by using the same property as collateral.</p>
+<p class="block-zh">*   **抵押债券 （Mortgage bonds）：** 这些债券由发行人拥有的房产提供担保。在违约或破产的情况下，发行人必须变卖房产以偿还未偿债券。抵押债券可以是**开放式**或**封闭式**的。对于**开放式抵押债券**，发行人可以使用同一房产作为抵押借入更多资金。对于**封闭式抵押债券**，发行人不能再使用该房产作为抵押借入更多资金。</p>
+</section>
+<div class="block list-item" id="block-4430795344">
+<div class="block-en">• Equipment trusts: These bonds are issued mainly by transportation companies and are</div>
+<div class="block-zh">*   **设备信托 （Equipment trusts）：** 这些债券主要由运输公司发行，并由其拥有的设备（飞机、钻井平台、卡车等）提供担保。如果公司债券违约，受托人将出售担保债券的资产以清偿债务。</div>
+</div>
+<section class="block paragraph" id="block-4430795600">
+<p class="block-en">backed by equipment they own (airplanes, oil rigs, trucks, and so on). If the company defaults on its bonds, a trustee would sell the assets backing the bonds to satisfy the debt.</p>
+<p class="block-zh">*   **设备信托 （Equipment trusts）：** 这些债券主要由运输公司发行，并由其拥有的设备（飞机、钻井平台、卡车等）提供担保。如果公司债券违约，受托人将出售担保债券的资产以清偿债务。</p>
+</section>
+<div class="block list-item" id="block-4430795728">
+<div class="block-en">• Collateral trusts: These bonds are backed by financial assets (stocks and bonds) that the</div>
+<div class="block-zh">*   **抵押信托 （Collateral trusts）：** 这些债券由发行人拥有的金融资产（股票和债券）提供担保。受托人（发行人雇佣的金融机构）持有这些资产，并在违约时出售它们以偿还债券。</div>
+</div>
+<section class="block paragraph" id="block-4430795856">
+<p class="block-en">issuer owns. A trustee (a financial institution the issuer hires) holds the assets and would sell them to pay off the bonds in the event of default.</p>
+<p class="block-zh">*   **抵押信托 （Collateral trusts）：** 这些债券由发行人拥有的金融资产（股票和债券）提供担保。受托人（发行人雇佣的金融机构）持有这些资产，并在违约时出售它们以偿还债券。</p>
+</section>
+<div class="block list-item" id="block-4430795984">
+<div class="block-en">• Guaranteed bonds: Guaranteed bonds are backed by a firm other than the original issuer, often a parent company. If the issuer defaults, the guarantor pays off the bonds. As such, the</div>
+<div class="block-zh">*   **担保债券 （Guaranteed bonds）：** 担保债券由原始发行人以外的公司（通常是母公司）提供担保。如果发行人违约，担保人将支付债券。因此，债券的评级与担保人的评级挂钩。</div>
+</div>
+<section class="block paragraph" id="block-4430796112">
+<p class="block-en">rating of the bonds is tied to the rating of the guarantor.</p>
+<p class="block-zh">*   **担保债券 （Guaranteed bonds）：** 担保债券由原始发行人以外的公司（通常是母公司）提供担保。如果发行人违约，担保人将支付债券。因此，债券的评级与担保人的评级挂钩。</p>
+</section>
+<section class="block paragraph" id="block-4430795472">
+<p class="block-en">As I imply previously, unsecured bonds are the opposite of secured bonds: They aren’t backed by any assets whatsoever — only by the good faith and credit of the issuer. If a reputable company that has been around for a long time issues the bonds, the bonds aren’t considered to be too risky. If they’re issued by a relatively new company or one with a bad credit rating, hold onto your seat! Again, for SIE exam purposes, assume that unsecured bonds are riskier than secured bonds. Here’s the lineup of unsecured bonds:</p>
+<p class="block-zh">正如我之前暗示的，**无担保债券 （unsecured bonds）** 是有担保债券的反面：它们没有任何资产担保——仅凭发行人的信誉和信用。如果一家声誉良好且经营已久的公司发行债券，则这些债券被认为风险不大。如果是由于一家相对年轻或信用评级较差的公司发行，那您可得坐稳了！同样，就 SIE 考试而言，请假设无担保债券比有担保债券风险更高。以下是无担保债券的阵容：</p>
+</section>
+<div class="block list-item" id="block-4430796368">
+<div class="block-en">• Debentures: These bonds are backed only by the issuer´s good word and written agreement (the indenture) stating that the issuer will pay the investor interest when due (usually, semian-</div>
+<div class="block-zh">*   **无抵押信用债券 / 公司信托债券 （Debentures）：** 这些债券仅由发行人的承诺和书面协议（契约）担保，声明发行人将在到期时支付投资者利息（通常每半年一次），并在到期时支付面值。</div>
+</div>
+<section class="block paragraph" id="block-4430796496">
+<p class="block-en">nually) and reach par value at maturity.</p>
+<p class="block-zh">*   **无抵押信用债券 / 公司信托债券 （Debentures）：** 这些债券仅由发行人的承诺和书面协议（契约）担保，声明发行人将在到期时支付投资者利息（通常每半年一次），并在到期时支付面值。</p>
+</section>
+<div class="block list-item" id="block-4430796624">
+<div class="block-en">• Income (adjustment) bonds: These bonds are the riskiest of all. The issuer promises to pay par</div>
+<div class="block-zh">*   **收益（调整）债券 （Income bonds）：** 这些债券是风险最高的。发行人承诺在到期时偿还面值，但仅在收入足够高时才会支付利息。处于重组过程中的公司通常以大幅折扣发行此类债券。（例如，债券可能以 500 美元出售，到期时按 1,000 美元面值偿还。）出于考试和现实目的，您不应向无法承担巨大风险的投资者推荐此类债券。</div>
+</div>
+<section class="block paragraph" id="block-4430796752">
+<p class="block-en">value back at maturity and will make interest payments only if earnings are high enough. Companies in the process of reorganization usually issue these bonds at a deep discount. (The bonds might sell for $500 and mature at par, or $1,000, for example.) For test and real-world purposes, you shouldn´t recommend these bonds to investors who can´t afford to take a lot of risk.</p>
+<p class="block-zh">*   **收益（调整）债券 （Income bonds）：** 这些债券是风险最高的。发行人承诺在到期时偿还面值，但仅在收入足够高时才会支付利息。处于重组过程中的公司通常以大幅折扣发行此类债券。（例如，债券可能以 500 美元出售，到期时按 1,000 美元面值偿还。）出于考试和现实目的，您不应向无法承担巨大风险的投资者推荐此类债券。</p>
+</section>
+<section class="block paragraph" id="block-4430796240">
+<p class="block-en">Because secured bonds are considered to be safer than unsecured bonds, secured bonds normally have lower coupon rates. You can assume that for the SIE, the more risk an investor takes, the more reward they will receive. Remember the saying “More risk equals more reward.” More reward may be in the form of a higher coupon rate or a lower purchase price. Either or both may lead to a higher yield for the investor.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430796880">
+<h0>Check out the following question for an example of how the SIE may test your knowledge of the</h0>
+<div class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</div>
+</section>
+<section class="block paragraph" id="block-4430797008">
+<p class="block-en">types of bonds.</p>
+<p class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</p>
+</section>
+<section class="block paragraph" id="block-4430797136">
+<p class="block-en">Jon Bearishnikoff is a 62-year-old investor who has 50 percent of their portfolio invested in common stock of up-and-coming companies. The other 50 percent of their portfolio is invested in a variety of stocks of more-secure companies. Jon would like to start investing in bonds. If Jon’s main concern is the safety of the investment, which of the following bonds would you least likely recommend?</p>
+<p class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</p>
+</section>
+<div class="block list-item" id="block-4430797264">
+<div class="block-en">• Collateral trust bonds</div>
+<div class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</div>
+</div>
+<div class="block list-item" id="block-4430797392">
+<div class="block-en">• Mortgage bonds</div>
+<div class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</div>
+</div>
+<div class="block list-item" id="block-4430797520">
+<div class="block-en">• Equipment trust bonds</div>
+<div class="block-zh">是一位 62 岁的投资者，他投资组合的 50% 投资于新兴公司的普通股。另外 50% 投资于各种更稳健公司的股票。Jon 想开始投资债券。如果 Jon 的主要关注点是投资安全性，您最不建议推荐以下哪种债券？</div>
+</div>
+<div class="block list-item" id="block-4430797648">
+<div class="block-en">• Income bonds</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<section class="block paragraph" id="block-4430797776">
+<p class="block-en">The answer you’re looking for is (D). This problem includes a lot of garbage information that you don’t need to answer the question. One of your jobs (should you decide to accept it) is to dance your way through the question and cherry-pick the information that you do need. The last sen- tence is usually the most important one for answering a question. Jon is looking for safety; there- fore, you’d be least likely to recommend income bonds because they’re usually issued by companies in the process of reorganizing. As a side note, if you become Jon’s broker, ensure they don’t have 100 percent of their investments in stock. At age 62, Jon should have a decent amount of their portfolio invested in fixed-income securities such as bonds.</p>
+<p class="block-zh">📝 **案例**</p>
+</section>
+<section class="block paragraph" id="block-4430797904">
+<p class="block-en">When you’re comparing short-term and long-term debt securities, short-term bonds from the same issuer are considered to be safer because the investor isn’t tying up their money for as long a period. Because of the extra risk long-term bondholders are taking for tying up their money for a longer period, long-term bondholders generally (except in rare cases) receive a higher coupon (interest rate) for taking that additional risk.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430798032">
+<p class="block-en">Although there’s not a lot of math on the SIE exam, it does test your knowledge of bond prices and bond yields and how to calculate them. In this section, I review the relationship between bond prices and bond yields. Outstanding bond prices typically don’t remain static. As you can imagine, they, too, are affected by things like supply and demand, corporate rating change (see “Deter- mining the Best Investment: Comparing Corporate Bonds” later in this chapter), interest rate changes, whether the bond was purchased at a discount (below par value) or a premium (above par value), and so on.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430798160">
+<p class="block-en">The relationship between outstanding bond prices and yields is an inverse (opposite) one. You can assume for SIE exam purposes that if interest rates decrease, outstanding bond prices increase, and vice versa. Suppose that a company issues bonds with a 4 percent coupon rate for $1,000. After the bonds are on the market, interest rates decrease. Now the company can issue bonds with</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430798288">
+<h0>a 3.5 percent coupon rate. Investors with the 4 percent bonds are in a very good position and can</h0>
+<div class="block-zh">🧠 **请记住**</div>
+</section>
+<section class="block paragraph" id="block-4430798544">
+<p class="block-en">demand a premium for their bonds should they decide to sell them in the market.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430798800">
+<h0>Rates down		Prices up Rates up	Prices down</h0>
+<div class="block-zh">🧠 **请记住**</div>
+</section>
+<section class="block paragraph" id="block-4430798672">
+<p class="block-en">As a side note, when an investor sells their bonds between coupon dates, they’re entitled to accrued interest. Suppose that this investor owned a bond paying $20 interest every 6 months. If they sold that bond halfway between coupon dates, they’d be entitled to receive $10 from the purchaser on top of the selling price. Calculations for accrued interest (broken down on a daily basis) aren’t part of the SIE exam but are covered in detail in some of the top-off exams, such as the Series 7.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430798928">
+<p class="block-en">The following sections review the types of bond yields and how the SIE exam tests this topic.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430799056">
+<h2>Nominal yield (coupon rate)</h2>
+<div class="block-zh">名义收益率（票面利率）</div>
+</section>
+<section class="block paragraph" id="block-4430799184">
+<p class="block-en">The nominal yield (NY) is the easiest yield to understand because it’s the coupon rate on the face of the bonds. For exam purposes, you can assume that the coupon rate will remain fixed for the life of a bond. If you have a 5 percent bond, the bond will pay $50 per year interest (5% × $1,000 par value) for the life of the bond. When a problem states that a security is a 5 percent (or 6 percent or whatever) bond, it’s giving the nominal yield.</p>
+<p class="block-zh">**名义收益率 （NY）** 是最容易理解的收益率，因为它是债券票面上的利率。出于考试目的，您可以假设在债券的整个有效期内，票面利率保持不变。如果您有一张 5% 的债券，该债券在有效期内每年将支付 50 美元的利息（5% × 1,000 美元面值）。当题目说某种证券是 5%（或 6% 或其他）债券时，给出的就是名义收益率。</p>
+</section>
+<section class="block heading" id="block-4430799312">
+<h2>Current yield</h2>
+<div class="block-zh">当期收益率</div>
+</section>
+<section class="block paragraph" id="block-4430799440">
+<p class="block-en">The current yield (CY) is the annual rate of return on a security. The CY of a bond changes when the market price changes. You can determine the CY by dividing the annual interest by the market price:</p>
+<p class="block-zh">**当期收益率 （CY）** 是一种证券的年回报率。当市场价格发生变化时，债券的 CY 也会发生变化。您可以通过将年利息除以市场价格来确定 CY：</p>
+</section>
+<section class="block heading" id="block-4430799696">
+<h0>Current yield(CY)  annualinterest</h0>
+<div class="block-zh">**当期收益率 （CY） = 年利息 / 市场价格**</div>
+</section>
+<section class="block heading" id="block-4430799824">
+<h0>marketprice</h0>
+<div class="block-zh">**当期收益率 （CY） = 年利息 / 市场价格**</div>
+</section>
+<section class="block paragraph" id="block-4430799568">
+<p class="block-en">The following question involves bond yields.</p>
+<p class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</p>
+</section>
+<section class="block paragraph" id="block-4430799952">
+<p class="block-en">Monique Moneybags purchased one XYZ convertible mortgage bond at 105. Two years later, the bond is trading at 98. If the coupon rate of the bond is 6 percent, what is the current yield of the bond?</p>
+<p class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</p>
+</section>
+<div class="block list-item" id="block-4430800080">
+<div class="block-en">• 5.7%</div>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</div>
+<div class="block list-item" id="block-4430800208">
+<div class="block-en">• 6.0%</div>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</div>
+<div class="block list-item" id="block-4430800336">
+<div class="block-en">• 6.1%</div>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</div>
+<div class="block list-item" id="block-4430800464">
+<div class="block-en">• Cannot be determined</div>
+<div class="block-zh">（interest rate） and interest payment dates （票面利率及付息日）</div>
+</div>
+<section class="block paragraph" id="block-4430800592">
+<p class="block-en">The correct answer is (C). Yes, I’m giving you a question with a lot of unnecessary information. All I can tell you is that unfortunately, you’ll have to get used to it. The securities exam creators are notorious for inserting useless (and sometimes misleading) information into the questions to daze and confuse you. In this case, you need only the annual interest and the market price to cal- culate the answer. Use the following formula to get your answer:</p>
+<p class="block-zh">100 张债券 × $1,000 面值 × 7.5% = $7,500.00</p>
+</section>
+<section class="block heading" id="block-4430800848">
+<h0>CY  annual interest</h0>
+<div class="block-zh">**当期收益率 （CY） = 年利息 / 市场价格**</div>
+</section>
+<section class="block heading" id="block-4430800976">
+<h0>market price</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block heading" id="block-4430801104">
+<h0>$60</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block heading" id="block-4430801232">
+<h0>$980</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block heading" id="block-4430801360">
+<h0>6.1%</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block heading" id="block-4430800720">
+<h0>The annual interest is $60 (6% coupon rate × $1,000 par value), and the current market price is</h0>
+<div class="block-zh">在本章内容</div>
+</section>
+<section class="block paragraph" id="block-4430801488">
+<p class="block-en">$980 (98% of $1,000 par). The facts that the bond is convertible (bondholders can trade it for common stock; see “Popping the top on convertible bonds” later in this chapter) or a mortgage bond (backed by the issuer’s property) and that it was purchased at 105 ($1,050) are irrelevant.</p>
+<p class="block-zh">在本章内容</p>
+</section>
+<section class="block paragraph" id="block-4430801616">
+<p class="block-en">“Cannot be determined,” as tempting as it may be, is almost never the correct answer on the SIE exam.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430801744">
+<h2>Yield to maturity (basis)</h2>
+<div class="block-zh">到期收益率（基准）</div>
+</section>
+<section class="block paragraph" id="block-4430801872">
+<p class="block-en">The yield to maturity (YTM) is the yield an investor can expect if holding the bond until maturity. The YTM takes into account not only the market price, but also the par value, the coupon rate, and the amount of time until maturity. When someone yells to you, “Hey, what’s that bond yielding?” (all right, maybe I run in a different circle of friends), they’re asking for the YTM. The formula for YTM is as follows:</p>
+<p class="block-zh">**到期收益率 （YTM）** 是投资者持有债券直至到期时可以预期的收益率。YTM 不仅考虑了市场价格，还考虑了面值、票面利率以及距离到期的时间。当有人冲您喊道：“嘿，那张债券的收益率是多少？”（好吧，也许我的朋友圈比较特别），他们问的就是 YTM。YTM 的公式如下：</p>
+</section>
+<section class="block heading" id="block-4430802128">
+<h0>YTM  annual interest annual accretion or  annual amortization</h0>
+<div class="block-zh">**YTM = （年利息 + 年度折价摊销 或 – 年度溢价摊销） / [（市场价格 + 面值） / 2]**</div>
+</section>
+<section class="block heading" id="block-4430802256">
+<h0>(market price  par value) 2</h0>
+<div class="block-zh">**YTM = （年利息 + 年度折价摊销 或 – 年度溢价摊销） / [（市场价格 + 面值） / 2]**</div>
+</section>
+<section class="block heading" id="block-4430802384">
+<h0>annual accretion  par value  market price</h0>
+<div class="block-zh">**年度折价摊销 = （面值 – 市场价格） / 到期年数**</div>
+</section>
+<section class="block heading" id="block-4430802512">
+<h0>years until maturity</h0>
+<div class="block-zh">**年度折价摊销 = （面值 – 市场价格） / 到期年数**</div>
+</section>
+<section class="block heading" id="block-4430802640">
+<h0>annual amortization  market price  par value</h0>
+<div class="block-zh">**年度溢价摊销 = （市场价格 – 面值） / 到期年数**</div>
+</section>
+<section class="block heading" id="block-4430802768">
+<h0>years until maturity</h0>
+<div class="block-zh">**年度溢价摊销 = （市场价格 – 面值） / 到期年数**</div>
+</section>
+<section class="block paragraph" id="block-4430802000">
+<p class="block-en">I wouldn’t worry about committing the preceding equations to memory. The amount of math you’ll need on the SIE exam is pretty small. But it’s important that you understand the concepts of measurement and the meanings of terms such as YTM, yield to call, total return, and yield to worst.</p>
+<p class="block-zh">我不会担心是否要记住上述等式。SIE 考试中需要的数学计算非常少。但重要的是，您要理解衡量的概念以及 YTM、赎回收益率、总回报和最差收益率等术语的含义。</p>
+</section>
+<section class="block paragraph" id="block-4430802896">
+<p class="block-en">Accretion and amortization (the adjustment of the bond price toward par over the amount of time until the bond matures), as in the earlier equation, aren’t tested on the SIE exam, but you need to be able to calculate them on some of the corequisite exams. (Accretion is used when a bond is purchased at a price below par value and amortization is used when a bond is purchased at a price above par value.) The preceding equation should help you visualize how YTM works.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block heading" id="block-4430803024">
+<h2>Yield to call</h2>
+<div class="block-zh">赎回收益率</div>
+</section>
+<section class="block paragraph" id="block-4430803152">
+<p class="block-en">The yield to call (YTC) is the amount that the investor receives if the bond is called by the issuer prior to maturity, which requires the bondholders to surrender their bonds for par value and sometimes above. The calculations are similar to those for the YTM (see the preceding section), but you substitute the call price for the par value. Your chances of needing to know this on the SIE exam are even more remote than those of needing the YTM calculations.</p>
+<p class="block-zh">**赎回收益率 （YTC）** 是指如果债券在到期前被发行人赎回，投资者所获得的收益。赎回要求债券持有人交回债券以换取面值（有时高于面值）。计算方法与 YTM 类似（见前一节），但您需要将赎回价格替换为面值。在 SIE 考试中考到这个知识点的可能性，比考到 YTM 计算还要渺茫。</p>
+</section>
+<section class="block heading" id="block-4430803280">
+<h2>Yield to worst</h2>
+<div class="block-zh">最差收益率</div>
+</section>
+<section class="block paragraph" id="block-4430803408">
+<p class="block-en">To determine the yield to worst (YTW), you have to calculate the yield to maturity and YTC for all the call dates (if there’s more than one) and choose the lowest. If you get a question on YTW, knowing the definition should be enough to get you by.</p>
+<p class="block-zh">要确定**最差收益率 （YTW）**，您必须计算所有赎回日期（如果有一个以上）的到期收益率和 YTC，并选择其中最低的一个。如果您遇到关于 YTW 的问题，了解其定义应该就足够应付了。</p>
+</section>
+<section class="block heading" id="block-4430803536">
+<h2>Total return</h2>
+<div class="block-zh">总回报</div>
+</section>
+<section class="block paragraph" id="block-4430803664">
+<p class="block-en">The total return calculates the full return on a particular investment over a given period of time. As with the other yields noted, you’ll likely not need to calculate it, but you’ll need to understand it. The total return provides you a percentage of gain or loss of an investment. To determine the total return, you need to follow these steps:</p>
+<p class="block-zh">**总回报 （Total return）** 计算的是特定投资在给定时间段内的全部回报。与前面提到的其他收益率一样，您可能不需要计算它，但需要理解它。总回报为您提供了投资盈亏的百分比。要确定总回报，您需要遵循以下步骤：</p>
+</section>
+<div class="block list-item" id="block-4430803792">
+<div class="block-en">• Determine the initial cost of the investment.</div>
+<div class="block-zh">（确定投资的初始成本。）</div>
+</div>
+<div class="block list-item" id="block-4430803920">
+<div class="block-en">• Calculate the total amount of interest or dividends received over the time of investment.</div>
+<div class="block-zh">（计算投资期间收到的利息或股息总额。）</div>
+</div>
+<div class="block list-item" id="block-4430804048">
+<div class="block-en">• Add the interest or dividends to the selling price.</div>
+<div class="block-zh">（将利息或股息加到售价中。）</div>
+</div>
+<div class="block list-item" id="block-4430804304">
+<div class="block-en">• Divide that number by the initial cost of the investment and subtract 1.</div>
+<div class="block-zh">（将该数值除以投资的初始成本，然后减去 1。）</div>
+</div>
+<section class="block heading" id="block-4430804432">
+<h2>Basis point</h2>
+<div class="block-zh">基点</div>
+</section>
+<section class="block paragraph" id="block-4430804560">
+<p class="block-en">A basis point is one of the easier calculations. Basis points are typically used in the bond market, mutual funds, and exchange-traded funds (ETFs). Basis points are simply 1100th of a percent. If the yield on a Treasury bond (T-bond) lowers 1.2 percent to 1.1 percent, it is said to have moved ten basis points. Also, when comparing expenses on a fund (see Chapter 9), people often refer to the fund expenses by basis points. If you’re comparing two funds, one fund’s expenses might be 0.15 percent and the other’s 0.13 percent for a difference of 0.02 percent or two basis points.</p>
+<p class="block-zh">**基点 （Basis point）** 是比较简单的计算之一。基点通常用于债券市场、共同基金和交易所交易基金 （ETFs）。基点就是百分之一的百分之一（即 0.01%）。如果国债 （T-bond） 的收益率从 1.2% 下降到 1.1%，就说它变动了 10 个基点。此外，在比较基金费用时（见第 9 章），人们经常用基点来指代基金费用。如果您正在比较两个基金，一个基金的费用可能是 0.15%，另一个是 0.13%，差额为 0.02%，即 2 个基点。</p>
+</section>
+<section class="block heading" id="block-4430804816">
+<h2>Accrued interest</h2>
+<div class="block-zh">应计利息</div>
+</section>
+<section class="block paragraph" id="block-4430804944">
+<p class="block-en">When investors purchase outstanding bonds in the market, they may have to pay an additional cost besides the market price (and, of course, your commission). The additional cost is called accrued interest. Accrued interest, which is due when bonds are purchased between coupon dates, is the portion of the interest still due to the seller. As you may remember, most bonds pay interest once every six months. If an investor holds onto a bond for 87 days out of a 180-day six-month period (for corporate and municipal bonds), they are entitled to 87/180 of that next interest pay- ment; that’s accrued interest.</p>
+<p class="block-zh">当投资者在市场上购买流通债券时，除了市场价格（当然还有您的佣金）之外，他们可能还需要支付一笔额外费用。这笔额外费用被称为**应计利息 （accrued interest）**。应计利息是指在两个付息日之间购买债券时，仍应支付给卖方的那部分利息。正如您可能记得的，大多数债券每六个月支付一次利息。如果一名投资者在 180 天的半年周期内持有债券 87 天（对于公司债和市政债），他们有权获得下次利息支付额的 87/180；这就是应计利息。</p>
+</section>
+<section class="block paragraph" id="block-4430805072">
+<p class="block-en">Although you won’t be required to calculate accrued interest when taking the SIE (not so with the Series 7), you should understand the concept and that for corporate and municipal bonds, accrued interest is calculated using 30-day months and 360 day years. When calculating accrued interest on U.S. government bonds and notes, you have to use actual days in a month and a 365-day year.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block paragraph" id="block-4430805200">
+<p class="block-en">Accrued interest is calculated from the trade date, up to, but not including the settlement date.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430805456">
+<h1>Determining the Best Investment:</h1>
+<div class="block-zh">当您在 SIE 考试题目中摸爬滚打时，您可能会被要求为特定的投资者确定最佳投资。您需要仔细审题，寻找线索以帮助您选择正确答案。（例如，投资者是在追求安全性，还是即将退休？）考虑多个因素，包括信用评级、赎回和回售特征以及转换特征。当然，投资者的投资目标（如果已说明）必须放在首要位置。</div>
+</section>
+<section class="block paragraph" id="block-4430805584">
+<p class="block-en">As you grind your way through SIE exam questions, you may be asked to determine the best investment for a particular investor. You need to look at the question carefully for clues to help you choose the correct answer. (Is the investor looking for safety, for example, or is the investor close to retirement?) Consider several factors, including credit rating, callable and put features, and convertible features. Certainly, the investor’s investment objectives (if stated) have to take center stage.</p>
+<p class="block-zh">当您在 SIE 考试题目中摸爬滚打时，您可能会被要求为特定的投资者确定最佳投资。您需要仔细审题，寻找线索以帮助您选择正确答案。（例如，投资者是在追求安全性，还是即将退休？）考虑多个因素，包括信用评级、赎回和回售特征以及转换特征。当然，投资者的投资目标（如果已说明）必须放在首要位置。</p>
+</section>
+<section class="block heading" id="block-4430805712">
+<h2>Considering bond credit ratings</h2>
+<div class="block-zh">考虑债券信用评级</div>
+</section>
+<section class="block paragraph" id="block-4430805840">
+<p class="block-en">The institutions that rate bonds are most interested in the likelihood of default (the likelihood that the interest and principal won’t be paid when due). For the exam, you can assume that the higher the credit rating, the safer the bond and, therefore, the lower the yield.</p>
+<p class="block-zh">债券评级机构最感兴趣的是**违约 （default）** 的可能性（即利息和本金无法按时支付的可能性）。对于考试，您可以假设：信用评级越高，债券越安全，因此收益率越低。</p>
+</section>
+<section class="block paragraph" id="block-4430805968">
+<p class="block-en">The two main bond credit rating companies are Moody’s and Standard & Poor’s (S&P). S&P rat- ings of BB and lower and Moody’s ratings of Ba and lower are considered to be junk bonds or high- yield bonds, which have a higher likelihood of default, as Table 7-1 explains. (Another credit rating service, called Fitch, uses the same rating symbols as S&P.) Note: Different sources may show some slight variations in how S&P and Moody’s ratings compare, but the relationships shown here are the most common.</p>
+<p class="block-zh">两家主要的债券信用评级公司是**穆迪 （Moody's）** 和**标准普尔 （S&P）**。标普评级在 **BB 及以下**、穆迪评级在 **Ba 及以下** 的债券被认为是**垃圾债券 （junk bonds）** 或**高收益债券 （high-yield bonds）**，如表 7-1 所示，这些债券发生违约的可能性较高。（另一家名为**惠誉 （Fitch）** 的评级机构使用与标普相同的评级符号。）注：不同的资料来源在标普和穆迪评级的对比上可能显示出细微的差异，但这里显示的关系是最通用的。</p>
+</section>
+<section class="block heading" id="block-4430806352">
+<h0>TABLE 7-1	Bond Credit Ratings (by Quality)</h0>
+<div class="block-zh">💡 **提示**</div>
+</section>
+<section class="block paragraph" id="block-4430806224">
+<p class="block-en">As if these categories weren’t enough, S&P can break down each category even further by adding a plus (+) or minus (–) sign after the letter category. The plus sign represents the high end of the category, and the minus sign designates the lower end of the category. If you see no plus or minus sign, the bond is in the middle of the category. Moody’s can break down a category further by adding a 1, 2, or 3. The number 1 is the highest ranking, 2 represents the middle, and 3 is the low- est. The top four ratings are considered to be investment grade (AAA, AA, A, and BBB for S&P; Aaa, Aa, A, and Baa for Moody’s), and the letter ratings below that are considered to be junk bonds or high-yield bonds.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block paragraph" id="block-4430806480">
+<p class="block-en">S&P uses all capital letters (AAA, AA, and so on). Additionally, S&P has an ampersand (&) between the “S” and the “P” in its name. Think of the ampersand as being like a plus sign to help you remember that S&P uses pluses and minuses within its categories.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block paragraph" id="block-4430806608">
+<p class="block-en">Here’s a typical bond-ratings question.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block paragraph" id="block-4430806736">
+<p class="block-en">Place the following S&P bond ratings in order from highest to lowest:</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<div class="block list-item" id="block-4430806864">
+<div class="block-en">• A+</div>
+<div class="block-zh">💡 **提示**</div>
+</div>
+<div class="block list-item" id="block-4430889040">
+<div class="block-en">• AA</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889168">
+<div class="block-en">• A–</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889296">
+<div class="block-en">• BBB+</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889424">
+<div class="block-en">• I, II, III, IV</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889552">
+<div class="block-en">• I, III, II, IV</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889680">
+<div class="block-en">• IV, I, II, III</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430889808">
+<div class="block-en">• II, I, III, IV</div>
+<div class="block-zh">将以下标普债券评级按从高到低的顺序排列：</div>
+</div>
+<section class="block paragraph" id="block-4430889936">
+<p class="block-en">The correct answer is (D). When you’re answering this type of question, always look at the letters first. The only time pluses or minuses come into play is when two answers have the same letters, as in statements I and III. The highest choice is AA, followed by A+ because it’s higher than A–, which is even higher than BBB+.</p>
+<p class="block-zh">将以下标普债券评级按从高到低的顺序排列：</p>
+</section>
+<section class="block heading" id="block-4430890064">
+<h2>Contrasting callable and putable (put) bonds</h2>
+<div class="block-zh">将以下标普债券评级按从高到低的顺序排列：</div>
+</section>
+<section class="block paragraph" id="block-4430890192">
+<p class="block-en">Your mission for the SIE exam is to know which bonds are better for investors and when bonds are likely to be called or put. As you may know, bonds can be issued in callable and put forms:</p>
+<p class="block-zh">将以下标普债券评级按从高到低的顺序排列：</p>
+</section>
+<div class="block list-item" id="block-4430890448">
+<div class="block-en">• Callable bonds: A callable bond is a bond that the issuer has the right to buy back (call from investor) at the price stated on the indenture (deed of trust). All callable bonds must have a call</div>
+<div class="block-zh">将以下标普债券评级按从高到低的顺序排列：</div>
+</div>
+<section class="block paragraph" id="block-4430890576">
+<p class="block-en">provision that stipulates the call date (the first date the bonds can be called), and the call price (the price investors will receive if the bonds are called). Callable bonds are riskier for investors because investors can´t control how long they can hold onto the bonds. To compensate for this risk, they usually receive a higher coupon rate (more risk = more reward).</p>
+<p class="block-zh">将以下标普债券评级按从高到低的顺序排列：</p>
+</section>
+<section class="block paragraph" id="block-4430890704">
+<p class="block-en">Most callable bonds are issued with call protection. Call protection is the amount of time (usu- ally, several years) that an issuer has to wait before calling its bonds (such as five years after issuance). Some callable bonds also have a call premium, which is an amount over par value that an issuer has to pay if it calls its bonds in the year(s) immediately following the expiration of the call protection.</p>
+<p class="block-zh">大多数可赎回债券在发行时都带有**赎回保护期 （call protection）**。赎回保护期是发行人在赎回债券前必须等待的时间长度（通常为数年，例如发行后的前五年）。某些可转换债券还设有**赎回溢价 （call premium）**，即如果发行人在赎回保护期到期后的最初几年内赎回债券，必须支付的高于面值的金额。</p>
+</section>
+<section class="block paragraph" id="block-4430890832">
+<p class="block-en">If a make whole call provision is included, it allows the issuer to call the bonds provided that the issuer makes a lump-sum payment to investors that includes not only payment for the bond but also the present value of any future interest payments investors will miss because of the call.</p>
+<p class="block-zh">如果包含**全额补偿赎回条款 （make whole call provision）**，则允许发行人赎回债券，前提是发行人向投资者支付一笔总额，该数额不仅包括债券本身的偿付，还包括投资者因赎回而错失的所有未来利息支付的现值。</p>
+</section>
+<section class="block paragraph" id="block-4430890960">
+<p class="block-en">Another type of bond that can be callable is a step coupon bond. Also known as stepped coupon bonds or step-up coupon securities, step coupon bonds typically start at a low coupon rate, but the coupon rate increases at predetermined intervals, such as every five years. The issuer typically has the right to call the bonds at par value at the time the coupon rate is due to increase.</p>
+<p class="block-zh">另一种可赎回的债券是**阶梯利率债券 （step coupon bond）**。也称为递增利率证券，此类债券通常以较低的票面利率开始，但票面利率会按预定间隔（如每五年）增加。发行人通常有权在利率即将调高的那一刻，按面值赎回债券。</p>
+</section>
+<div class="block list-item" id="block-4430891088">
+<div class="block-en">• Put bonds: Put bonds are better for investors. Put bonds allow the investor to "put" the bonds</div>
+<div class="block-zh">*   **可回售债券 （Put bonds）：** 可回售债券对投资者更有利。此类债券允许投资者在任何时候，按照契约规定的价格将债券“回售”（赎回）给发行人。由于控制权掌握在投资者手中，可回售债券（当然）很少发行。因为这些债券为投资者（对债券和股票价格都有兴趣）提供了更多灵活性，所以通常具有较低的票面利率。</div>
+</div>
+<section class="block paragraph" id="block-4430891216">
+<p class="block-en">back (redeem them) to the issuer at any time at the price stated on the indenture. Because the investors have the control, put bonds are (of course) rarely issued. Because these bonds provide more flexibility to investors (who have an interest in the bond and stock prices), put bonds usually have a lower coupon rate.</p>
+<p class="block-zh">*   **可回售债券 （Put bonds）：** 可回售债券对投资者更有利。此类债券允许投资者在任何时候，按照契约规定的价格将债券“回售”（赎回）给发行人。由于控制权掌握在投资者手中，可回售债券（当然）很少发行。因为这些债券为投资者（对债券和股票价格都有兴趣）提供了更多灵活性，所以通常具有较低的票面利率。</p>
+</section>
+<section class="block paragraph" id="block-4430890320">
+<p class="block-en">There’s a direct correlation between interest rates and when bonds are called or put. Issuers call bonds when interest rates decrease; investors put bonds when interest rates increase. Check out the following question to see how this process works.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430891344">
+<h0>Issuers would more likely call their bonds when interest rates are</h0>
+<div class="block-zh">发行人最有可能在利率处于何种状态时赎回债券？</div>
+</section>
+<div class="block list-item" id="block-4430891472">
+<div class="block-en">• increasing</div>
+<div class="block-zh">（A） 上升 （B） 下降 （C） 保持不变 （D） 波动</div>
+</div>
+<div class="block list-item" id="block-4430891600">
+<div class="block-en">• decreasing</div>
+<div class="block-zh">（A） 上升 （B） 下降 （C） 保持不变 （D） 波动</div>
+</div>
+<div class="block list-item" id="block-4430891728">
+<div class="block-en">• staying the same</div>
+<div class="block-zh">（A） 上升 （B） 下降 （C） 保持不变 （D） 波动</div>
+</div>
+<div class="block list-item" id="block-4430891856">
+<div class="block-en">• fluctuating</div>
+<div class="block-zh">（A） 上升 （B） 下降 （C） 保持不变 （D） 波动</div>
+</div>
+<section class="block paragraph" id="block-4430891984">
+<p class="block-en">The correct answer is (B). Being adaptable when taking the SIE exam can certainly help your cause. In this question, you have to look from the issuer’s point of view, not the investor’s. An issuer would call bonds when interest rates decrease because it could redeem the bonds with the higher coupon payments and issue bonds with lower coupon payments to save money. Conversely, investors would put their bonds back to the issuer when interest rates increase so they could invest their money at a higher interest rate.</p>
+<p class="block-zh">正确答案是 （B）。在参加 SIE 考试时，灵活变通肯定大有裨益。在这个问题中，您必须站在发行人而非投资者的角度来看待。当利率下降时，发行人会赎回债券，因为它可以通过赎回支付高利息的债券，并发行支付低利息的新债券来节省资金。相反，当利率上升时，投资者会将债券回售给发行人，以便他们可以以更高的利率进行投资。</p>
+</section>
+<section class="block paragraph" id="block-4430892112">
+<p class="block-en">You can assume for SIE exam purposes that if interest rates increase, bond yields increase.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<section class="block heading" id="block-4430892240">
+<h2>Popping the top on convertible bonds</h2>
+<div class="block-zh">拆解可转换债券</div>
+</section>
+<section class="block paragraph" id="block-4430892368">
+<p class="block-en">Bonds that are convertible to common stock are called convertible bonds. Convertible bonds are attractive to investors because investors have an interest in the bond price as well as the price of the underlying stock. Parity occurs when a convertible bond and its underlying stock (the stock it’s convertible into) are trading equally (that is, when a bond trading for $1,100 is convertible into $1,100 worth of stock).</p>
+<p class="block-zh">可转换为普通股的债券被称为**可转换债券 （convertible bonds）**。可转换债券对投资者很有吸引力，因为投资者不仅对债券价格感兴趣，也对标的股票价格感兴趣。当可转换债券及其标的股票（可转换成的股票）的交易价值相等时，就出现了**等价 （parity）**（即一张交易价格为 1,100 美元的债券可以转换为价值 1,100 美元的股票）。</p>
+</section>
+<section class="block paragraph" id="block-4430892496">
+<p class="block-en">If a convertible bond is trading below parity (below the value of the underlying shares it covers), it would make financial sense for an investor to convert. It costs the investor nothing to convert their bonds to the underlying stock.</p>
+<p class="block-zh">如果一张可转换债券的交易价格低于等价水平（低于其所含标的股份的价值），那么对投资者来说，进行转换在财务上是有意义的。投资者将债券转换为标的股票是无需支付费用的。</p>
+</section>
+<section class="block paragraph" id="block-4430892624">
+<p class="block-en">In the event that you have to answer a question about convertible bonds to determine whether they’re worth converting to the underlying stock, you can use the following formula:</p>
+<p class="block-zh">如果您必须回答有关可转换债券的问题，以确定它们是否值得转换为标的股票，您可以使用以下公式：</p>
+</section>
+<section class="block heading" id="block-4430892880">
+<h0>conversion ratio 	par value</h0>
+<div class="block-zh">**转换比例 = 面值 / 转换价格**</div>
+</section>
+<section class="block heading" id="block-4430893008">
+<h0>conversion price</h0>
+<div class="block-zh">**转换比例 = 面值 / 转换价格**</div>
+</section>
+<section class="block paragraph" id="block-4430893136">
+<p class="block-en">You see this same equation in Chapter 6 relating to convertible preferred stock.</p>
+<p class="block-zh">📝 **案例**</p>
+</section>
+<section class="block paragraph" id="block-4430893264">
+<p class="block-en">You can use the conversion ratio to calculate the parity price:</p>
+<p class="block-zh">📝 **案例**</p>
+</section>
+<section class="block heading" id="block-4430893520">
+<h0>parity price of the bond	market price of the stock conversion ratio</h0>
+<div class="block-zh">📝 **案例**</div>
+</section>
+<section class="block heading" id="block-4430893648">
+<h0>or</h0>
+<div class="block-zh">📝 **案例**</div>
+</section>
+<section class="block heading" id="block-4430893776">
+<h0>market price of the bond</h0>
+<div class="block-zh">📝 **案例**</div>
+</section>
+<section class="block heading" id="block-4430893904">
+<h0>parity price of the stock</h0>
+<div class="block-zh">📝 **案例**</div>
+</section>
+<section class="block heading" id="block-4430894032">
+<h0>conversion ratio</h0>
+<div class="block-zh">**转换比例 = 面值 / 转换价格**</div>
+</section>
+<section class="block heading" id="block-4430893392">
+<h0>ABCD convertible bonds are convertible into 25 shares of common stock. If the stock trades at</h0>
+<div class="block-zh">您在第 6 章中见过有关可转换优先股的相同等式。您可以使用转换比例来计算等价价格：</div>
+</section>
+<section class="block paragraph" id="block-4430894160">
+<p class="block-en">36, what is the parity price of the bond?</p>
+<p class="block-zh">📝 **案例**</p>
+</section>
+<div class="block list-item" id="block-4430894288">
+<div class="block-en">• $36</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430894416">
+<div class="block-en">• $40</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430894544">
+<div class="block-en">• $80</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<div class="block list-item" id="block-4430894672">
+<div class="block-en">• $900</div>
+<div class="block-zh">📝 **案例**</div>
+</div>
+<section class="block paragraph" id="block-4430894800">
+<p class="block-en">The correct answer is (D). When you get a parity-price question, you have to determine where the stock and the bond (or convertible preferred stock) are trading equally. In this case, you were already given the conversion ratio, which is the amount of shares the bond is convertible into (25). So using that information, you can plug the information given into the following equation: parity price of the bond market price of the stock conversion ratio parity price of the bond $36 25 shares $900</p>
+<p class="block-zh">📝 **案例**</p>
+</section>
+<section class="block heading" id="block-4430895056">
+<h0>On the SIE and companion exams, you need to know the basic types of U.S. government securities,</h0>
+<div class="block-zh">在 SIE 及其进阶考试中，您需要了解美国政府证券的基本类型、初始期限及某些特征。</div>
+</section>
+<section class="block paragraph" id="block-4430895312">
+<p class="block-en">their initial maturities, and certain characteristics.</p>
+<p class="block-zh">在 SIE 及其进阶考试中，您需要了解美国政府证券的基本类型、初始期限及某些特征。</p>
+</section>
+<section class="block paragraph" id="block-4430895440">
+<p class="block-en">As you may already know, the U.S. government also issues bonds. U.S. government bonds are considered to be the safest of all securities. (Yes, you did read that correctly: the safest of all securities. I feel that this statement is worth repeating.) How can U.S. government securities be so safe when the government is running such a large deficit? Guess what — I don’t know, and you don’t need to know either. I can only assume that the U.S. government can always print more currency to make payments on its securities if needed. But even U.S. government securities are subject to certain risks, such as interest risk, reinvestment risk, purchasing power risk, and so on. (See Chapter 13.) These days, all U.S. government securities are issued and held in electronic (book-entry) form. Because Treasury bonds have maturities of up to 30 years, however, some are still out there in paper form.</p>
+<p class="block-zh">如您所知，美国政府也发行债券。美国政府债券被认为是**所有证券中最安全的**。（是的，您没读错：所有证券中最安全的。我觉得这句话值得重复一遍。）当政府面临如此巨大的赤字时，美国政府证券为何还能如此安全？您猜怎么着——我不知道，您也不需要知道。我只能假设美国政府在需要时总能印更多的钱来偿付其证券。但即使是美国政府证券也会面临某些风险，如利率风险、再投资风险、购买力风险等。（见第 13 章。）</p>
+</section>
+<section class="block paragraph" id="block-4430895824">
+<p class="block-en">With government bonds, you use some of the same types of calculations you use for corporate bonds.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block heading" id="block-4430895952">
+<h2>Understanding the types of U.S.</h2>
+<div class="block-zh">了解美国政府证券的类型</div>
+</section>
+<section class="block heading" id="block-4430896208">
+<h0>government securities</h0>
+<div class="block-zh">了解美国政府证券的类型</div>
+</section>
+<section class="block paragraph" id="block-4430896080">
+<p class="block-en">Table 7-2 gives you an overview of types of U.S. government securities and their specifics. Mem- orize all the information in the following table so that you can ace U.S. government securities questions on the SIE exam. Individual investors can purchase U.S. government securities directly through www.treasurydirect.gov, through a bank, or through a broker. The securities are issued in electronic form, so investors don’t receive the actual bond certificate.</p>
+<p class="block-zh">表 7-2 为您概述了美国政府证券的类型及其详情。请背下下表中的所有信息，以便在 SIE 考试中轻松应对美国政府证券的问题。个人投资者可以直接通过 www.treasurydirect.gov、银行或经纪人购买美国政府证券。这些证券以电子形式发行，因此投资者不会收到实物债券凭证。</p>
+</section>
+<section class="block heading" id="block-4430896464">
+<h0>TABLE 7-2	U.S. Government Securities and Time until Maturity</h0>
+<div class="block-zh">（面值）</div>
+</section>
+<section class="block paragraph" id="block-4430896592">
+<p class="block-en">*TIPS are tied to the Consumer Price Index (CPI), which measures inflation. The par value changes according to inflation. Iƒ inflation is high (prices oƒ goods and services are increasing), the par value increases. Iƒ we're in a period oƒ deflation (prices on goods and services are decreasing), the par value decreases. Because investors are getting a percentage of par value as their interest payments, the interest payments vary along with the par value.</p>
+<p class="block-zh">（面值）</p>
+</section>
+<section class="block paragraph" id="block-4430896336">
+<p class="block-en">For the SIE exam, keep in mind that the interest received on U.S. government securities is exempt from state and local taxes. The interest received on municipal bonds is exempt from federal taxes (although I get into that topic a little more in Chapter 8). Chapter 15 gives you the scoop on taxes.</p>
+<p class="block-zh">（面值）</p>
+</section>
+<section class="block heading" id="block-4430896720">
+<h2>Looking at agency securities</h2>
+<div class="block-zh">（面值）</div>
+</section>
+<section class="block paragraph" id="block-4430896848">
+<p class="block-en">Agency bonds are ones issued by a U.S. government-sponsored agency or government-sponsored entity (GSE). The bonds are backed by the U.S. government, but not all are guaranteed by the full faith and credit of the U.S. government except for Government National Mortgage Association (GNMA) bonds, which are directly backed. As such, agency bonds (although almost as safe) are considered to be riskier than U.S. government bonds and notes such as T-bonds, T-notes, and T-bills. Not all U.S. government agency securities are exempt from SEC registration. GSEs include the following:</p>
+<p class="block-zh">（面值）</p>
+</section>
+<div class="block list-item" id="block-4430897104">
+<div class="block-en">• GNMA (Government National Mortgage Association, or Ginnie Mae): GNMAs are the only agency securities backed by the full faith and credit of the U.S. government. GNMAs support</div>
+<div class="block-zh">（面值）</div>
+</div>
+<section class="block paragraph" id="block-4430897232">
+<p class="block-en">the U.S. Department of Housing and Urban Development (HUD). GNMAs are considered asset-backed securities (backed by mortgages), which typically are sold based on their average life expectancy, rather than their stated life expectancy (typically 30 years). Even though many people have a 30-year mortgage, the average life might be only 17 years or so based on refinancing and people selling their homes.</p>
+<p class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</p>
+</section>
+<div class="block list-item" id="block-4430897360">
+<div class="block-en">• FNMA (Federal National Mortgage Association, or Fannie Mae): FNMA is a publicly held</div>
+<div class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</div>
+</div>
+<section class="block paragraph" id="block-4430897616">
+<p class="block-en">corporation that is responsible for providing capital for certain mortgages. As such, FNMA may purchase conventional mortgages, Department of Veterans Affairs mortgages, U.S. Federal Housing Association mortgages, and so on. FNMA is privately owned and publicly held but is still a GSE.</p>
+<p class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</p>
+</section>
+<div class="block list-item" id="block-4430897744">
+<div class="block-en">• FHLMC (Federal Home Loan Mortgage Corporation, or Freddie Mac): As a public corporation,</div>
+<div class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</div>
+</div>
+<section class="block paragraph" id="block-4430897872">
+<p class="block-en">Freddie Mac was designed to create a secondary market for mortgages. Freddie Mac pur- chases residential mortgages from financial institutions and packages them into mortgage- backed securities that are sold to investors.</p>
+<p class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</p>
+</section>
+<div class="block list-item" id="block-4430898000">
+<div class="block-en">• FCS (Farm Credit System): The FCS consists of lending institutions that provide financing and credit to farmers. It´s a GSE but is privately owned. The FCS sells securities to investors and in</div>
+<div class="block-zh">（联邦全国抵押贷款协会，或称 Fannie Mae）：** FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。因此，FNMA 可能会购买常规抵押贷款、退伍军人事务部抵押贷款、美国联邦住房协会抵押贷款等。FNMA 是私有且公众持股的，但它仍然是一个 GSE。</div>
+</div>
+<section class="block paragraph" id="block-4430898128">
+<p class="block-en">turn loans the funds raised to farmers. The FCS is overseen by the Farm Credit Administration.</p>
+<p class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</p>
+</section>
+<div class="block list-item" id="block-4430898256">
+<div class="block-en">• SLMA (Student Loan Marketing Association or Sallie Mae): SLMA isn´t involved in providing</div>
+<div class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</div>
+</div>
+<section class="block paragraph" id="block-4430898384">
+<p class="block-en">mortgages but provides a secondary market for student loans. As such, SLMA purchases student loans and repackages them as short- and medium-term debt securities for sale to investors.</p>
+<p class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</p>
+</section>
+<section class="block paragraph" id="block-4430897488">
+<p class="block-en">Certain mortgage-backed securities are susceptible to reinvestment risk because many home- owners refinance when interest rates fall (prepayment risk). In that case, holders of mortgage- backed securities get paid back sooner than expected and are reinvesting at a lower interest rate. In addition, if interest rates stay the same or increase, homeowners won’t refinance as often, and holders of mortgage-backed securities may end up having to hold their investment for a longer period than expected (extension risk).</p>
+<p class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</p>
+</section>
+<section class="block heading" id="block-4430898512">
+<h1>Playing It Safe: Short-Term Loans or</h1>
+<div class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</div>
+</section>
+<section class="block paragraph" id="block-4430898640">
+<p class="block-en">Your SIE exam will likely include a question or two on money market instruments. Money market instruments are relatively safe short-term loans that can be issued by corporations, banks, the U.S. government, and municipalities. Most of these instruments have maturities of one year or less; they’re usually issued at a discount and mature at par value. The following list reviews some basic characteristics of money market instruments to help you earn an easy point or two on the SIE exam:</p>
+<p class="block-zh">（学生贷款营销协会，或称 Sallie Mae）：** SLMA 不参与提供抵押贷款，而是为学生贷款提供二级市场。因此，SLMA 购买学生贷款并将其重新打包为短期和中期债务证券出售给投资者。</p>
+</section>
+<div class="block list-item" id="block-4430899024">
+<div class="block-en">• Repurchase agreements: Repurchase agreements (repos) are a contract between a buyer</div>
+<div class="block-zh">*   **回购协议 （Repurchase agreements / Repos）：** 回购协议是买方和卖方之间的合同。证券（通常是短期国库券）的卖方同意在预先确定的价格和时间买回这些证券。回购协议属于短期贷款。</div>
+</div>
+<section class="block paragraph" id="block-4430899280">
+<p class="block-en">and a seller. The seller of the securities (usually, T-bills) agrees to buy them back at a previously determined price and time. Repos are short-term loans.</p>
+<p class="block-zh">*   **回购协议 （Repurchase agreements / Repos）：** 回购协议是买方和卖方之间的合同。证券（通常是短期国库券）的卖方同意在预先确定的价格和时间买回这些证券。回购协议属于短期贷款。</p>
+</section>
+<div class="block list-item" id="block-4430899408">
+<div class="block-en">• Federal funds: Federal funds are loans between banks to help meet reserve requirements. Federal funds are usually overnight loans for which the rates change constantly depending on</div>
+<div class="block-zh">*   **联邦基金 （Federal funds）：** 联邦基金是银行之间的贷款，旨在帮助满足准备金要求。联邦基金通常是隔夜贷款，其利率根据供求关系不断变化。</div>
+</div>
+<section class="block paragraph" id="block-4430899536">
+<p class="block-en">supply and demand.</p>
+<p class="block-zh">*   **联邦基金 （Federal funds）：** 联邦基金是银行之间的贷款，旨在帮助满足准备金要求。联邦基金通常是隔夜贷款，其利率根据供求关系不断变化。</p>
+</section>
+<section class="block paragraph" id="block-4430899664">
+<p class="block-en">Reserve requirements are the percentage of deposits that member banks must hold each night as a regulatory protection device. Banks that aren’t able to meet their reserve requirements may borrow from other banks at the fed funds rate. For more info on the fed funds rate and other tools that the Federal Reserve Board uses to influence money supply, see Chapter 13.</p>
+<p class="block-zh">🧠 **请记住**</p>
+</section>
+<div class="block list-item" id="block-4430899792">
+<div class="block-en">• Corporate commercial paper: Commercial paper is unsecured short-term corporate debt.</div>
+<div class="block-zh">*   **公司商业票据 （Commercial paper）：** 商业票据是无担保的短期公司债务。商业票据折价发行，按面值到期。商业票据发行的初始期限为 270 天或以下，且免于 证券交易委员会（SEC） 注册。</div>
+</div>
+<section class="block heading" id="block-4430900176">
+<h0>Commercial paper is issued at a discount and matures at par value. Commercial paper is</h0>
+<div class="block-zh">*   **公司商业票据 （Commercial paper）：** 商业票据是无担保的短期公司债务。商业票据折价发行，按面值到期。商业票据发行的初始期限为 270 天或以下，且免于 证券交易委员会（SEC） 注册。</div>
+</section>
+<section class="block paragraph" id="block-4430900304">
+<p class="block-en">issued with an initial maturity of 270 days or less and is exempt from SEC registration.</p>
+<p class="block-zh">*   **公司商业票据 （Commercial paper）：** 商业票据是无担保的短期公司债务。商业票据折价发行，按面值到期。商业票据发行的初始期限为 270 天或以下，且免于 证券交易委员会（SEC） 注册。</p>
+</section>
+<div class="block list-item" id="block-4430900432">
+<div class="block-en">• Brokered (negotiable) certificates of deposit (CDs): Brokered CDs are low-risk investments that</div>
+<div class="block-zh">*   **经纪商（可转让）存单 （Brokered CDs）：** 经纪商存单是源自银行并外包给经纪自营商向投资者出售的低风险投资。与直接从银行购买的典型存单不同，经纪商存单可以在市场上交易。需要最低 10 万美元投资额的可转让存单通常被称为**巨额存单 （jumbo CDs）**。</div>
+</div>
+<section class="block heading" id="block-4430900560">
+<h0>originate from a bank and are outsourced to broker–dealers to sell to investors. Unlike typical</h0>
+<div class="block-zh">*   **经纪商（可转让）存单 （Brokered CDs）：** 经纪商存单是源自银行并外包给经纪自营商向投资者出售的低风险投资。与直接从银行购买的典型存单不同，经纪商存单可以在市场上交易。需要最低 10 万美元投资额的可转让存单通常被称为**巨额存单 （jumbo CDs）**。</div>
+</section>
+<section class="block paragraph" id="block-4430900688">
+<p class="block-en">CDs, which are purchased directly from a bank, brokered CDs can be traded in the market. Negotiable CDs that require a minimum investment of $100,000 are often called jumbo CDs.</p>
+<p class="block-zh">*   **经纪商（可转让）存单 （Brokered CDs）：** 经纪商存单是源自银行并外包给经纪自营商向投资者出售的低风险投资。与直接从银行购买的典型存单不同，经纪商存单可以在市场上交易。需要最低 10 万美元投资额的可转让存单通常被称为**巨额存单 （jumbo CDs）**。</p>
+</section>
+<div class="block list-item" id="block-4430900816">
+<div class="block-en">• Eurodollars: Eurodollars are American dollars held by a foreign bank outside the United States. This situation is usually the result of payments made to overseas companies. Eurodollars are</div>
+<div class="block-zh">*   **欧洲美元 （Eurodollars）：** 欧洲美元是存放在美国境外外国银行的美元。这种情况通常是向海外公司付款的结果。欧洲美元不应与欧洲美元债券（在海外发行和持有的以美元计价的债券）混淆。</div>
+</div>
+<section class="block heading" id="block-4430901072">
+<h0>not to be confused with Eurodollar bonds (dollar-denominated bonds issued and held</h0>
+<div class="block-zh">*   **欧洲美元 （Eurodollars）：** 欧洲美元是存放在美国境外外国银行的美元。这种情况通常是向海外公司付款的结果。欧洲美元不应与欧洲美元债券（在海外发行和持有的以美元计价的债券）混淆。</div>
+</section>
+<section class="block paragraph" id="block-4430901200">
+<p class="block-en">overseas).</p>
+<p class="block-zh">*   **欧洲美元 （Eurodollars）：** 欧洲美元是存放在美国境外外国银行的美元。这种情况通常是向海外公司付款的结果。欧洲美元不应与欧洲美元债券（在海外发行和持有的以美元计价的债券）混淆。</p>
+</section>
+<div class="block list-item" id="block-4430901328">
+<div class="block-en">• Banker’s acceptances (BAs): A BA is a time-draft (short-term credit investment) created by</div>
+<div class="block-zh">*   **银行承兑汇票 （Banker's acceptances / BAs）：** BA 是由公司创建并由银行保证支付的定期汇票（短期信贷投资）。公司使用 BA 进行进出口贸易。</div>
+</div>
+<section class="block heading" id="block-4430901584">
+<h0>a company whose payment is guaranteed by a bank. Companies use BAs for importing and</h0>
+<div class="block-zh">*   **银行承兑汇票 （Banker's acceptances / BAs）：** BA 是由公司创建并由银行保证支付的定期汇票（短期信贷投资）。公司使用 BA 进行进出口贸易。</div>
+</section>
+<section class="block paragraph" id="block-4430901712">
+<p class="block-en">exporting goods.</p>
+<p class="block-zh">*   **银行承兑汇票 （Banker's acceptances / BAs）：** BA 是由公司创建并由银行保证支付的定期汇票（短期信贷投资）。公司使用 BA 进行进出口贸易。</p>
+</section>
+<div class="block list-item" id="block-4430901840">
+<div class="block-en">• T-bills: The U.S. government issues T-bills at a discount, and they have initial maturities of</div>
+<div class="block-zh">*   **短期国库券 （T-bills）：** 美国政府折价发行短期国库券，其初始期限为 4、8、13、17、26 或 52 周。短期国库券比较独特，因为它们是按贴现收益率 （YTM） 销售和报价的。美国政府证券——尤其是短期国库券——被认为是所有证券中最安全的。</div>
+</div>
+<section class="block paragraph" id="block-4430901968">
+<p class="block-en">4, 8, 13, 17, 26, or 52 weeks. T-bills are somewhat unique in that they´re sold and quoted on a discount-yield basis (YTM). U.S. government securities — and especially T-bills — are consid- ered to be the safest of all securities.</p>
+<p class="block-zh">*   **短期国库券 （T-bills）：** 美国政府折价发行短期国库券，其初始期限为 4、8、13、17、26 或 52 周。短期国库券比较独特，因为它们是按贴现收益率 （YTM） 销售和报价的。美国政府证券——尤其是短期国库券——被认为是所有证券中最安全的。</p>
+</section>
+<section class="block paragraph" id="block-4430901456">
+<p class="block-en">Here’s what a question on money market instruments might look like.</p>
+<p class="block-zh">冲浪板公司想从西西里的意大利制造商那里进口冲浪板。SNK 会使用以下哪种货币市场工具来为进口冲浪板提供融资？</p>
+</section>
+<section class="block paragraph" id="block-4430902096">
+<p class="block-en">SNK Surfboard Company wants to import boogie boards from an Italian manufacturer in Sicily. SNK would use which of the following money market instruments to finance the importing of the boogie boards?</p>
+<p class="block-zh">冲浪板公司想从西西里的意大利制造商那里进口冲浪板。SNK 会使用以下哪种货币市场工具来为进口冲浪板提供融资？</p>
+</section>
+<div class="block list-item" id="block-4430902224">
+<div class="block-en">• T-bills</div>
+<div class="block-zh">（A） 短期国库券 （B） 抵押信托债券 （C） 回购协议 （D） 银行承兑汇票</div>
+</div>
+<div class="block list-item" id="block-4430902352">
+<div class="block-en">• Collateral trust bonds</div>
+<div class="block-zh">（A） 短期国库券 （B） 抵押信托债券 （C） 回购协议 （D） 银行承兑汇票</div>
+</div>
+<div class="block list-item" id="block-4430902480">
+<div class="block-en">• Repurchase agreements</div>
+<div class="block-zh">（A） 短期国库券 （B） 抵押信托债券 （C） 回购协议 （D） 银行承兑汇票</div>
+</div>
+<div class="block list-item" id="block-4430902608">
+<div class="block-en">• Banker’s acceptances</div>
+<div class="block-zh">（A） 短期国库券 （B） 抵押信托债券 （C） 回购协议 （D） 银行承兑汇票</div>
+</div>
+<section class="block paragraph" id="block-4430902736">
+<p class="block-en">The correct answer is (D). You can eliminate (B) right away because collateral trust bonds aren’t money market instruments; they’re secured long-term bonds. A BA is like a postdated check that’s used specifically for importing and exporting goods.</p>
+<p class="block-zh">正确答案是 （D）。您可以立即排除 （B），因为抵押信托债券不是货币市场工具；它们是有担保的长期债券。BA 就像一张专门用于进出口贸易的远期支票。</p>
+</section>
+<section class="block paragraph" id="block-4430902992">
+<p class="block-en">Word association can help you here. If you see importing, exporting, or time-draft, your answer is probably BA.</p>
+<p class="block-zh">💡 **提示**</p>
+</section>
+<section class="block paragraph" id="block-4430902864">
+<p class="block-en">Now that you’ve discovered what you need to know about corporate and U.S. debt securities as far as the SIE exam goes, it’s time to try some additional questions (besides the ones within the chapter). Read carefully so that you don’t make any careless mistakes.</p>
+<p class="block-zh">（到期日）</p>
+</section>
+<section class="block heading" id="block-4430903120">
+<h2>Practice questions</h2>
+<div class="block-zh">（到期日）</div>
+</section>
+<div class="block list-item" id="block-4430903248">
+<div class="block-en">• A corporate bond indenture includes which of the following?</div>
+<div class="block-zh">（到期日）</div>
+</div>
+<div class="block list-item" id="block-4430903376">
+<div class="block-en">• The coupon rate</div>
+<div class="block-zh">（到期日）</div>
+</div>
+<div class="block list-item" id="block-4430903504">
+<div class="block-en">• The maturity date</div>
+<div class="block-zh">（到期日）</div>
+</div>
+<div class="block list-item" id="block-4430903632">
+<div class="block-en">• Par value</div>
+<div class="block-zh">（到期日）</div>
+</div>
+<div class="block list-item" id="block-4430903760">
+<div class="block-en">• Any collateral securing the bond</div>
+<div class="block-zh">（任何担保债券的抵押品）</div>
+</div>
+<div class="block list-item" id="block-4430903888">
+<div class="block-en">• I and II</div>
+<div class="block-zh">Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？</div>
+</div>
+<div class="block list-item" id="block-4430904016">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh">Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？</div>
+</div>
+<div class="block list-item" id="block-4430904144">
+<div class="block-en">• I, II, and IV</div>
+<div class="block-zh">Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？</div>
+</div>
+<div class="block list-item" id="block-4430904272">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh">Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？</div>
+</div>
+<div class="block list-item" id="block-4430904400">
+<div class="block-en">• Declan K. has 100 DEF corporate bonds with a coupon rate of 4½ percent. The bonds were pur- chased at 98 percent of $1,000 par each. How much interest will Declan receive the next time they get paid?</div>
+<div class="block-zh">Declan K. 拥有 100 张 DEF 公司债券，票面利率为 4.5%。这些债券是以每张 1,000 美元面值的 98% 购买的。Declan 下次获得支付时将收到多少利息？</div>
+</div>
+<div class="block list-item" id="block-4430904528">
+<div class="block-en">• $2,205</div>
+<div class="block-zh">以下哪种类型的公司债券发行最可能设有偿债基金？</div>
+</div>
+<div class="block list-item" id="block-4430904656">
+<div class="block-en">• $2,250</div>
+<div class="block-zh">以下哪种类型的公司债券发行最可能设有偿债基金？</div>
+</div>
+<div class="block list-item" id="block-4430904784">
+<div class="block-en">• $4,410</div>
+<div class="block-zh">以下哪种类型的公司债券发行最可能设有偿债基金？</div>
+</div>
+<div class="block list-item" id="block-4430904912">
+<div class="block-en">• $4,500</div>
+<div class="block-zh">以下哪种类型的公司债券发行最可能设有偿债基金？</div>
+</div>
+<div class="block list-item" id="block-4430905040">
+<div class="block-en">• Which of the following types of corporate bond issues is most likely to have a sinking fund?</div>
+<div class="block-zh">以下哪种类型的公司债券发行最可能设有偿债基金？</div>
+</div>
+<div class="block list-item" id="block-4430905168">
+<div class="block-en">• Term</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430954576">
+<div class="block-en">• Series</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430954704">
+<div class="block-en">• Serial</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430954832">
+<div class="block-en">• None of the above</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430954960">
+<div class="block-en">• All of the following are types of secured bonds EXCEPT</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430955088">
+<div class="block-en">• mortgage bonds</div>
+<div class="block-zh">以下所有都是担保债券的类型，除了</div>
+</div>
+<div class="block list-item" id="block-4430955216">
+<div class="block-en">• collateral trusts</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430955344">
+<div class="block-en">• income bonds</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430955472">
+<div class="block-en">• guaranteed bonds</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430955728">
+<div class="block-en">• Which of the following is the formula that determines the current yield of a bond?</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430955856">
+<div class="block-en">• Current yield = Semiannual interest divided by the market price</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430955984">
+<div class="block-en">• Current yield = Semiannual interest divided by the par value</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430956112">
+<div class="block-en">• Current yield = Annual interest divided by the market price</div>
+<div class="block-zh">当期收益率</div>
+</div>
+<div class="block list-item" id="block-4430956240">
+<div class="block-en">• Current yield = Annual interest divided by par value</div>
+<div class="block-zh">当期收益率</div>
+</div>
+<div class="block list-item" id="block-4430956368">
+<div class="block-en">• Melissa R. Corporation has issued $6 million worth of 30-year callable bonds with a par value of</div>
+<div class="block-zh">当期收益率</div>
+</div>
+<section class="block heading" id="block-4430956496">
+<h0>$1,000, a coupon rate of 5m percent, and 7 years call protection. Melissa R. Corporation would</h0>
+<div class="block-zh">当期收益率</div>
+</section>
+<section class="block heading" id="block-4430956624">
+<h0>least likely call the bonds when interest rates are generally</h0>
+<div class="block-zh">当期收益率</div>
+</section>
+<div class="block list-item" id="block-4430956752">
+<div class="block-en">• increasing</div>
+<div class="block-zh">当期收益率</div>
+</div>
+<div class="block list-item" id="block-4430956880">
+<div class="block-en">• decreasing</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957008">
+<div class="block-en">• remaining the same</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957136">
+<div class="block-en">• none of the above</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957392">
+<div class="block-en">• Which of the following are possible maturities for a U.S. Treasury bill?</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957520">
+<div class="block-en">• 4 weeks</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957648">
+<div class="block-en">• 8 weeks</div>
+<div class="block-zh">以下哪项是美国短期国库券的可能期限？</div>
+</div>
+<div class="block list-item" id="block-4430957776">
+<div class="block-en">• 16 weeks</div>
+<div class="block-zh">III. 16 周</div>
+</div>
+<div class="block list-item" id="block-4430957904">
+<div class="block-en">• 26 weeks</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958032">
+<div class="block-en">• I and II</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958160">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958288">
+<div class="block-en">• I, II, and IV</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958416">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958544">
+<div class="block-en">• Which of the following U.S. government securities has interest payments that vary according to inflation or deflation?</div>
+<div class="block-zh">以下哪种美国政府证券的利息支付会根据通货膨胀或通货紧缩而变化？</div>
+</div>
+<div class="block list-item" id="block-4430958672">
+<div class="block-en">• T-bills</div>
+<div class="block-zh">（A）短期国库券</div>
+</div>
+<div class="block list-item" id="block-4430958800">
+<div class="block-en">• T-STRIPS</div>
+<div class="block-zh">（零息国债）** | 6 months to 30 years （6 个月到 30 年） | Considered to be zero-coupon securities （issued at a discount and mature at par） and don't receive interest payments. Purchase price varies. The minimum face value must be $100. **Note: Investors must pay annual income tax on the accretion (phantom income) even though they don't receive cash interest until maturity.** （被视为零息证券（折价发行，到期按面值兑付），不接收利息支付。购买价格各异。最低面值必须为 100 美元。**注意：投资者必须每年就增值部分（幻影收入）缴纳所得税，即使他们在到期前没有收到现金利息。**） |</div>
+</div>
+<div class="block list-item" id="block-4430958928">
+<div class="block-en">• TIPS</div>
+<div class="block-zh">（通胀保护证券）** | 5, 10, or 30 years （5, 10 或 30 年） | Pay interest every 6 months. Par value and interest payments adjust according to inflation or deflation. Minimum purchase is $100. （每 6 个月支付一次利息。面值和利息支付根据通货膨胀或通货紧缩进行调整。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959056">
+<div class="block-en">• T-notes</div>
+<div class="block-zh">以下哪些证券属于货币市场工具？</div>
+</div>
+<div class="block list-item" id="block-4430959184">
+<div class="block-en">• Which of the following securities are money market instruments?</div>
+<div class="block-zh">以下哪些证券属于货币市场工具？</div>
+</div>
+<div class="block list-item" id="block-4430959312">
+<div class="block-en">• Banker’s acceptances</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959440">
+<div class="block-en">• T-bills</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959568">
+<div class="block-en">• Commercial paper</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959696">
+<div class="block-en">• Treasury notes</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959824">
+<div class="block-en">• I and II</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430959952">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430960080">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960208">
+<div class="block-en">• I, II, III, and IV</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960336">
+<div class="block-en">• Which of the following are direct obligations of the U.S. government?</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960464">
+<div class="block-en">• T-bills</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960592">
+<div class="block-en">• GNMA</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960720">
+<div class="block-en">• FNMA</div>
+<div class="block-zh">以下哪项是美国政府的直接债务？</div>
+</div>
+<div class="block list-item" id="block-4430960848">
+<div class="block-en">• T-STRIPS</div>
+<div class="block-zh">（零息国债）** | 6 months to 30 years （6 个月到 30 年） | Considered to be zero-coupon securities （issued at a discount and mature at par） and don't receive interest payments. Purchase price varies. The minimum face value must be $100. **Note: Investors must pay annual income tax on the accretion (phantom income) even though they don't receive cash interest until maturity.** （被视为零息证券（折价发行，到期按面值兑付），不接收利息支付。购买价格各异。最低面值必须为 100 美元。**注意：投资者必须每年就增值部分（幻影收入）缴纳所得税，即使他们在到期前没有收到现金利息。**） |</div>
+</div>
+<div class="block list-item" id="block-4430960976">
+<div class="block-en">• I and IV</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961104">
+<div class="block-en">• I, II, and III</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961232">
+<div class="block-en">• II, III, and IV</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961360">
+<div class="block-en">• I, II, and IV</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961488">
+<div class="block-en">• The last transaction in HIJ 6.50s 2035 was at 99. These HIJ bonds sold</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961616">
+<div class="block-en">• at par value</div>
+<div class="block-zh">HIJ 6.50s 2035 的最后一笔交易价格为 99。这些 HIJ 债券是</div>
+</div>
+<div class="block list-item" id="block-4430961744">
+<div class="block-en">• at a discount</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430961872">
+<div class="block-en">• at a premium</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430962000">
+<div class="block-en">• cannot be determined</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430962256">
+<div class="block-en">• For callable bonds, the call provision must stipulate which of the following factors?</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430962384">
+<div class="block-en">• The date of maturity</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430962512">
+<div class="block-en">• The market value</div>
+<div class="block-zh">对于可赎回债券，赎回条款必须规定以下哪个因素？</div>
+</div>
+<div class="block list-item" id="block-4430962640">
+<div class="block-en">• The call date and coupon rate</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430962768">
+<div class="block-en">• The call price and call date</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430963024">
+<div class="block-en">• When issued, which of the following debt securities would mature in one year or less?</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430963152">
+<div class="block-en">• SLMA bonds</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430963280">
+<div class="block-en">• Money market securities</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430963408">
+<div class="block-en">• U.S. government-issued Treasury notes</div>
+<div class="block-zh">（T-notes） （中期国库票据）** | 2, 3, 5, 7, or 10 years； considered to be intermediate-term U.S. debt securities （2, 3, 5, 7 或 10 年；被视为中期美国债务证券） | Pay interest every 6 months. Minimum purchase is $100. （每 6 个月支付一次利息。最低购买金额为 100 美元。） |</div>
+</div>
+<div class="block list-item" id="block-4430963536">
+<div class="block-en">• Call options</div>
+<div class="block-zh">计算市政债券的美元价格和应计利息时，通常使用</div>
+</div>
+<div class="block list-item" id="block-4430963664">
+<div class="block-en">• When computing dollar prices and accrued interest on municipal bonds, they are typically cal- culated using</div>
+<div class="block-zh">计算市政债券的美元价格和应计利息时，通常使用</div>
+</div>
+<div class="block list-item" id="block-4430963792">
+<div class="block-en">• a 30-day month and a 360-day year</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430963920">
+<div class="block-en">• a 30-day month and a 365-day year</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430964048">
+<div class="block-en">• actual days in a month and a 360-day year</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430964176">
+<div class="block-en">• actual days in a month and a 365-day year</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430964432">
+<div class="block-en">• When would the stability of a portfolio of debt securities be the greatest?</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430964560">
+<div class="block-en">• During a time of rising interest rates</div>
+<div class="block-zh">在什么时候债务证券投资组合的稳定性最大？</div>
+</div>
+<div class="block list-item" id="block-4430964688">
+<div class="block-en">• During a time of falling interest rates</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430964816">
+<div class="block-en">• If the maturities of the debt securities are long-term</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430964944">
+<div class="block-en">• If the maturities of the debt securities are short-term</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430965072">
+<div class="block-en">• These securities are typically traded based on their average life instead of their stated maturity dates.</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430965200">
+<div class="block-en">• U.S. government bonds</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430965328">
+<div class="block-en">• Asset-backed securities</div>
+<div class="block-zh">这些证券通常根据其平均寿命而非规定的到期日进行交易。</div>
+</div>
+<div class="block list-item" id="block-4430965456">
+<div class="block-en">• Corporate callable bonds</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430965584">
+<div class="block-en">• Industrial development bonds</div>
+<div class="block-zh">（面值）</div>
+</div>
+<section class="block heading" id="block-4430965712">
+<h1>Answers and explanations</h1>
+<div class="block-zh">（面值）</div>
+</section>
+<div class="block list-item" id="block-4430965840">
+<div class="block-en">• D. The indenture of a bond includes the date that the bond matures, the coupon rate, par value (typically, $1,000), collateral securing the bond (if any), and any callable or converti- ble features.</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430965968">
+<div class="block-en">• B. The coupon rate is based on the par value of the bonds, not the purchase price or market value. Declan purchased $100,000 par value of bonds with a coupon rate of 4½ percent. This means that Declan will receive $4,500 (4½% × $100,000) in interest per year. But you can assume (unless you’re told differently in the question) that bonds pay interest semian- nually (every six months). So you need to divide the annual interest by 2 to get $2,250 ($4,500/2).</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430966096">
+<div class="block-en">• A. Although all the choices listed may have a sinking fund (a fund for which the issuer sets aside money to pay the bonds off at maturity), term bonds are the ones most likely to have one. Term bonds are issues in which all the bonds are issued at the same time and have the same maturity date.</div>
+<div class="block-zh">（面值）</div>
+</div>
+<div class="block list-item" id="block-4430966224">
+<div class="block-en">• C. This question is an except question, so you’re looking for the one that’s not secured. Income bonds are ones issued by a corporation that’s in trouble and needs to reorganize. In this case, the issuing corporation would issue these bonds at a deep discount and not make interest payments unless earnings are high enough. Income bonds are considered to be extremely risky and aren’t suitable for most investors.</div>
+<div class="block-zh">**C.** 这是一个“除外”问题，所以您要找的是没有担保的那一个。收益债券是由陷入困境并需要重组的公司发行的。在这种情况下，发行公司会以大幅折价发行这些债券，并且除非盈利足够高，否则不支付利息。收益债券被认为风险极高，不适合大多数投资者。</div>
+</div>
+<div class="block list-item" id="block-4430966352">
+<div class="block-en">• C. The current yield of a security is the annual rate of return divided by the market price of</div>
+<div class="block-zh">**C.** 证券的当前收益率是年回报率除以证券的市场价格。因此，如果市场价格发生变化，当前收益率也会随之变化。</div>
+</div>
+<section class="block paragraph" id="block-4430966608">
+<p class="block-en">the security. So if the market price changes, so does the current yield.</p>
+<p class="block-zh">**C.** 证券的当前收益率是年回报率除以证券的市场价格。因此，如果市场价格发生变化，当前收益率也会随之变化。</p>
+</section>
+<div class="block list-item" id="block-4430966736">
+<div class="block-en">• A. A lot of information thrown into this question is meant to confuse you. The question just wants you to know when an issuer would least likely call its bonds. The whole idea of callable bonds is that issuers want the right to call their bonds if interest rates decrease because then they can issue bonds with lower coupon rates. So they’d least likely call their bonds when interest rates are increasing.</div>
+<div class="block-zh">**A.** 这个问题中抛出的很多信息都是为了迷惑你。问题只是想让你知道发行人最不可能在什么时候赎回债券。可赎回债券的核心思想是，如果利率下降，发行人希望有权赎回债券，因为这样他们就可以发行票面利率更低的债券。因此，当利率上升时，他们最不可能赎回债券。</div>
+</div>
+<div class="block list-item" id="block-4430966864">
+<div class="block-en">• C. T-bills have initial maturities of 4, 8, 13, 17, 26, and 52 weeks. T-bills are short-term</div>
+<div class="block-zh">**C.** 短期国库券的初始期限为 4、8、13、17、26 和 52 周。短期国库券是折价发行并按面值到期的短期美国政府证券。</div>
+</div>
+<section class="block paragraph" id="block-4430967120">
+<p class="block-en">U.S. government securities that are issued at a discount and mature at par value.</p>
+<p class="block-zh">**C.** 短期国库券的初始期限为 4、8、13、17、26 和 52 周。短期国库券是折价发行并按面值到期的短期美国政府证券。</p>
+</section>
+<div class="block list-item" id="block-4430967248">
+<div class="block-en">• C. TIPS pay interest every six months, like T-notes and T-bonds, but have an interest payment that increases or decreases depending on inflation or deflation.</div>
+<div class="block-zh">**C.** 通胀保值债券 (TIPS) 像中期国库票据 (T-notes) 和长期国债 (T-bonds) 一样每六个月支付一次利息，但其利息支付会根据通货膨胀或通货紧缩而增加或减少。</div>
+</div>
+<div class="block list-item" id="block-4430967376">
+<div class="block-en">• B. Money market instruments are debt securities that mature in one year or less. They include repurchase agreements, federal funds, commercial paper (some may mature in more than a year), brokered CDs, Eurodollars, BAs, and T-bills.</div>
+<div class="block-zh">**B.** 货币市场工具是期限在一年或以下的债务证券。它们包括回购协议、联邦基金、商业票据（有些期限可能超过一年）、经纪商存单、欧洲美元、银行承兑汇票和短期国库券。</div>
+</div>
+<div class="block list-item" id="block-4430967504">
+<div class="block-en">• D. All the choices listed are directly backed by the U.S. government except for FNMA securities. FNMA is a publicly held corporation that provides capital for certain mortgages. It’s privately owned but is still government-sponsored.</div>
+<div class="block-zh">**D.** 除了 FNMA 证券外，列出的所有选项都由美国政府直接支持。FNMA 是一家公众持股公司，负责为某些抵押贷款提供资金。它是私有的，但仍然是政府赞助的。</div>
+</div>
+<div class="block list-item" id="block-4430967632">
+<div class="block-en">• B. Remember par value for a bond is 100 (100 percent of $1,000 par). In this case, the bonds sold at a purchase price of 99 (99 percent of $1,000), so they sold at a discount from par value.</div>
+<div class="block-zh">**B.** 记住债券的面值是 100（1,000 美元面值的 100%）。在这种情况下，债券的售价为 99（1,000 美元的 99%），因此它们是折价出售的。</div>
+</div>
+<div class="block list-item" id="block-4430967760">
+<div class="block-en">• D. Although the indenture of the bond will provide the par value, coupon rate, and date of maturity, the call provision would provide the call price (what the issuer would pay the holder if calling the bonds) and also the first date that the bonds can be called.</div>
+<div class="block-zh">**D.** 虽然债券契约会提供面值、票面利率和到期日，但赎回条款会提供赎回价格（发行人赎回债券时支付给持有人的金额）以及债券可以被赎回的最早日期。</div>
+</div>
+<div class="block list-item" id="block-4430967888">
+<div class="block-en">• B. Although call options typically mature in one year or less, they aren’t debt securities, so you can count that one out. Out of the other choices, the only debt securities that mature in one year or less at the time of issuance are money market securities.</div>
+<div class="block-zh">**B.** 虽然看涨期权通常在一年或以下到期，但它们不是债务证券，所以你可以排除它。在其他选项中，唯一在发行时期限为一年或以下的债务证券是货币市场证券。</div>
+</div>
+<div class="block list-item" id="block-4430968016">
+<div class="block-en">• A. Logically, you should be able to throw out answers “B” and “C” because there is no way to make them work. If you calculate using 30-day months, it would have to work out to a 360-day year, not 365. Likewise, if you’re using actual days in a month, it would have to work out to a 365-day year. Unlike U.S. government securities, which use actual days in a month and a 365-day year, municipal bonds typically compute using 30-day months and 360-day years.</div>
+<div class="block-zh">**A.** 从逻辑上讲，你应该能够排除答案“B”和“C”，因为它们无法成立。如果你按每月 30 天计算，那必须是每年 360 天，而不是 365 天。同样，如果你按每月实际天数计算，那必须是每年 365 天。与使用每月实际天数和每年 365 天计算的美国政府证券不同，市政债券通常使用每月 30 天和每年 360 天计算。</div>
+</div>
+<div class="block list-item" id="block-4430968144">
+<div class="block-en">• D. Remember, when interest rates change, short-term debt securities typically change more quickly in price, but long-term debt securities change more in price. Therefore, an investor holding shorter-term debt securities would be holding securities that are more stable in price than someone holding a portfolio of long-term debt securities.</div>
+<div class="block-zh">**D.** 记住，当利率变化时，短期债务证券的价格通常变化较快，但长期债务证券的价格变化幅度更大。因此，持有短期债务证券的投资者持有的证券价格比持有长期债务证券投资组合的投资者更稳定。</div>
+</div>
+<div class="block list-item" id="block-4430968528">
+<div class="block-en">• B. Asset-backed securities, such as GNMAs, are typically traded based on their average life. Asset-backed securities are ones that are backed by assets such as loans, mortgages, and accounts receivable. So, for arguments sake, say an individual takes out a 30-year mort- gage; the average life of that mortgage may be 17 years due to that individual moving or refinancing the loan.</div>
+<div class="block-zh">**B.** 资产支持证券，如 GNMAs，通常根据其平均寿命进行交易。资产支持证券是由贷款、抵押贷款和应收账款等资产支持的证券。举例来说，假设个人办理了 30 年期的抵押贷款；由于该个人搬家或再融资，该抵押贷款的平均寿命可能为 17 年。</div>
+</div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
